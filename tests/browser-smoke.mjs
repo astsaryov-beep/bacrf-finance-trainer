@@ -30,6 +30,11 @@ try{
  await page.waitForSelector('dialog.fri-syllabus-dialog[open]');
  await page.locator('dialog [data-fri-syllabus-mode="coverage"]').click();
  assert.ok((await page.locator('dialog [data-fri-syllabus-lesson]').count())>=17);
+ await page.locator('dialog [data-fri-syllabus-lesson="R-01"][data-fri-syllabus-block="0"]').first().click();
+ await page.waitForSelector('.fri-comparisons .fri-comparison');
+ assert.equal(await page.locator('.fri-comparisons .fri-comparison').count(),2,'matrix opens correct explanatory block directly');
+ await page.locator('.study-left [data-open-syllabus]').click();
+
  await page.locator('dialog [data-fri-syllabus-mode="registry"]').click();
  await page.locator('dialog .fri-syllabus-search').fill('дюрация');
  assert.ok((await page.locator('dialog [data-fri-syllabus-lesson]').count())>0);
