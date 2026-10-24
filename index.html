@@ -405,6 +405,15 @@ body.study-active .main,body.app-overview .main,body.app-other .main{padding:0;b
 .fri-supplement-body{padding:11px 18px 17px;color:#d9e9f3}
 .fri-supplement-body p{font-size:15px;line-height:1.8}
 .fri-supplement-body a{color:#90e4db}
+
+.fri-peer-practice .fri-peer-question{background:#14384a;border:1px solid #3a6375;border-radius:11px;margin:10px 0;color:#e7f3f9}
+.fri-peer-question>summary{cursor:pointer;padding:14px 16px;font-size:14px;font-weight:650;line-height:1.55}
+.fri-peer-body{padding:12px 16px 17px;border-top:1px solid #34576b}
+.fri-peer-options{display:grid;gap:8px}
+.fri-peer-options button{background:#20465a;color:#e5f5fa;border:1px solid #537485;border-radius:10px;padding:12px;text-align:left;cursor:pointer}
+.fri-peer-options button:hover{border-color:#79e4d2;background:#285968}
+.fri-peer-feedback{margin-top:10px;color:#d1e3ed;font-size:13px;line-height:1.7}
+.fri-peer-written{display:block;width:100%;min-height:95px;background:#102d40;color:#f1f8fc;border:1px solid #517181;border-radius:10px;padding:12px;margin-bottom:10px;resize:vertical}
 </style></head><body><div class="wrap">
 <div class="app-topbar"><a href="#" class="brand" id="brandHome" aria-label="На главную страницу тренажёра"><span class="brand-symbol">β</span><span><strong>БАЦРФ</strong><small>Финансовые рынки и институты</small></span></a><nav class="tabs top-tabs" aria-label="Разделы тренажёра">
 <button class="tab active" data-tab="overview">Обзор</button>
@@ -785,6 +794,7 @@ function friStrain(l){
   const rec=studyData.blocks?.[studyKey(l.id,i)];
   if(rec?.complete)checked++;
   Object.values(rec?.answers||{}).forEach(a=>{if(a.checked){attempts++;if(a.score===0)wrong++}});
+  for(const q of FRI_PRACTICE_BANK.filter(q=>q.lessonId===l.id&&q.pos===i)){const rec=friExtra.answers?.[q.id];if(rec?.tries){attempts+=rec.tries;wrong+=rec.wrong||0}}
   const t=friLearning.traps?.[friKey(l.id,i)];
   if(t?.tries){attempts+=t.tries;wrong+=Math.max(0,t.tries-(t.correct||0))}
  });
@@ -824,6 +834,54 @@ function friDiagramMarkup(key){const d=FRI_DIAGRAMS[key];if(!d)return '';const p
 const FRI_COLLEAGUE_COVERAGE=[["d1-system","Финансовая система и рынки","R-01",0],["d1-infra","Инфраструктура: биржа, клиринг, ЦК, депозитарии","R-01",1],["d1-approach","Зачем регулировать и модели надзора","R-02",0],["d1-russia","Регуляторы и законы России","R-02",1],["d1-banks","Банковская система и кредит","R-03",0],["d1-stability","Устойчивость банков: капитал, ликвидность, нормативы","R-04",0],["d1-money","Деньги, платёжная система, цифровой рубль","R-06",0],["d1-theory","Теория финансов, поведенческие финансы, тренды","R-05",0],["d2-treasury","Казначейство и процентная среда","S1-01",0],["d2-credit","Банковский кредит и кредитные линии","S1-02",0],["d2-rates","Цена кредита, графики, гарантии, аккредитивы","S1-02",1],["d2-project","Проектное и сложное финансирование","S1-03",0],["d2-choice","Кредит или облигации: выбор финансирования","R-04",1],["d2-leasing","Лизинг и факторинг","LEASE-01",0],["d2-bills","Векселя и ЦФА","S1-04",0],["d2-bonds","Облигации: виды, купоны, оферты, ковенанты","S1-04",1],["d2-sec","Секьюритизация","S1-05",0]];
 const FRI_TOPIC_SUPPLEMENTS={"R-04-0":[["Н4 и сроковая структура баланса","Норматив долгосрочной ликвидности Н4 ограничивает ситуацию, когда банк формирует много долгосрочных кредитных требований при недостаточной устойчивой ресурсной базе. По смыслу сравнивают требования со сроком погашения свыше года с капиталом и подходящими долгосрочными обязательствами, применяя корректировки нормативной методики.","Простой пример: долгосрочные кредиты выданы на 5 лет, а вкладчики могут забрать деньги через месяц. Даже прибыльные кредиты не дают банку возможности без потерь быстро выполнить все обязательства. Н4 характеризует риск несоответствия сроков; численное значение рассчитывают по действующей регуляторной методике, не простой дробью из этих двух чисел.","https://www.consultant.ru/document/cons_doc_LAW_342089/990c7cfaaee19870a96253fcd876089c1af82133/"]],"S1-02-0":[["Цена кредита, гарантия и аккредитив","Ставка кредита — только часть стоимости финансирования. Для сравнения предложений нужны график выплат, комиссии, срок и другие обязательные расходы. Банковская гарантия представляет отдельное обязательство гаранта перед бенефициаром при условиях выдачи; аккредитив предусматривает платёж по надлежащему представлению документов согласно его условиям.","Предприятие закупает станок и просит банк открыть аккредитив: продавец получит платёж после предоставления предусмотренных документов. Если вместо этого сторонам нужна защита от неисполнения определённого обязательства, рассматривают независимую гарантию. Конкретные права зависят от договора и применимых правил.",""]],"S1-02-1":[["Аннуитетный график без пропусков","Аннуитет означает равные периодические платежи по кредиту при фиксированной ставке и без дополнительных условий, меняющих график. Платёж A = P × i / (1 − (1 + i)^(-n)), где P — сумма кредита, i — ставка за период в долях единицы, n — количество платежей. При каждом платеже проценты начисляют на остаток долга; доля погашения основного долга постепенно увеличивается.","Кредит 1 000 000 ₽ на 12 месяцев при номинальной годовой ставке 12% и ежемесячных платежах: i = 0,12 / 12 = 0,01; n = 12. Платёж ≈ 88 848,79 ₽. За 12 платежей суммарно ≈ 1 066 185,46 ₽, из которых около 66 185,46 ₽ — проценты, без комиссий и досрочных погашений. Для сравнения кредитов учитывать фактические даты и полную стоимость кредита.",""]],"S1-05-0":[["Что происходит с обязанностями оригинатора","При секьюритизации оригинатор передаёт пул денежных требований специальной компании по согласованной структуре. Передача прав требования не означает автоматически, что оригинатор освобождён от всех обязанностей: он может продолжать обслуживание заёмщиков, давать предусмотренные договором заверения либо удерживать отдельные риски.","Заёмщик по ипотеке по-прежнему перечисляет ежемесячный платёж привычному банку, а банк в роли сервисера направляет поступления дальше по структуре сделки. Для оценки риска важно выяснить правовую действительность передачи, порядок распределения потерь и все оставшиеся обязательства оригинатора.",""]],"S1-01-1":[["RUONIA, срочная версия и индекс","RUONIA отражает средневзвешенную ставку фактических однодневных необеспеченных рублёвых межбанковских операций участников установленного списка. Индекс RUONIA накапливает результат соответствующих ставок во времени. Срочная версия на 1, 3 или 6 месяцев вычисляется на основе накопления прошлых однодневных RUONIA; это ретроспективная ставка за расчётный период, а не прогноз ставки на будущие месяцы.","Если кредит использует срочную RUONIA, важно проверить период определения ставки, лаг, даты и правила округления. Нельзя механически подставлять сегодняшнюю однодневную RUONIA вместо исторически рассчитанной срочной. Методики и даты опубликованы Банком России.","https://www.cbr.ru/hd_base/ruonia/method/"]]};
 function friSupplementMarkup(key){const items=FRI_TOPIC_SUPPLEMENTS[key];if(!items)return '';return '<div class="fri-supplements">'+items.map(([title,meaning,example,source])=>'<details class="fri-supplement"><summary>'+esc(title)+'</summary><div class="fri-supplement-body"><p>'+esc(meaning)+'</p><p><strong>На примере.</strong> '+esc(example)+'</p>'+(source?'<p><a href="'+esc(source)+'" target="_blank" rel="noopener noreferrer">Нормативный или методический источник ↗</a></p>':'')+'</div></details>').join('')+'</div>'}
+
+
+/* 5.0.11: 45 new concept checks + 25 new open prompts; wording does not copy colleague's question bank. */
+const FRI_EXTRA_KEY='bacrf_fri_independent_practice_v1';
+let friExtra={version:1,answers:{}};try{const old=JSON.parse(localStorage.getItem(FRI_EXTRA_KEY));if(old?.version===1&&old.answers&&typeof old.answers==='object')friExtra=old}catch(e){}
+function friExtraSave(){try{localStorage.setItem(FRI_EXTRA_KEY,JSON.stringify(friExtra))}catch(e){notify('Не удалось сохранить дополнительные ответы')}}
+const FRI_PRACTICE_BANK=(()=>{
+ const all=[],a=FRI_COLLEAGUE_COVERAGE;
+ a.forEach(([key,label,lessonId,pos],idx)=>{
+  const lesson=STUDY_MAP.get(lessonId),block=lesson?.blocks[pos];
+  if(!block||block.glossary.length<3)return;
+  const terms=block.glossary.slice(0,3),take=idx<11?3:2;
+  for(let i=0;i<take;i++){
+   const term=terms[i],options=terms.map(t=>t.term),shift=(idx+i)%3;
+   const rotated=options.slice(shift).concat(options.slice(0,shift));
+   all.push({id:'FRI-M-'+String(idx+1).padStart(2,'0')+'-'+i,key,lessonId,pos,type:'multi',
+    question:'Какое понятие описано так: «'+term.definition+'»?',options:rotated,correct:rotated.indexOf(term.term),
+    answer:term.term,why:'В данном блоке это определение относится к понятию «'+term.term+'».',source:'Авторское упражнение по материалу учебного курса.'});
+  }
+  const opens=idx<8?2:1;
+  for(let i=0;i<opens;i++){
+   const term=terms[i],detail=block.deep?.example||'';
+   all.push({id:'FRI-O-'+String(idx+1).padStart(2,'0')+'-'+i,key,lessonId,pos,type:'open',
+    question:'Объясните своими словами термин «'+term.term+'» и его роль в финансовой ситуации из темы «'+lesson.title+'».',
+    answer:term.definition,example:detail,source:'Авторская открытая практика; оценка выполняется самим учащимся по критериям.'});
+  }
+ });
+ return all;
+})();
+function friExtraForBlock(lessonId,pos){return FRI_PRACTICE_BANK.filter(q=>q.lessonId===lessonId&&q.pos===pos)}
+function friExtraMarkup(lessonId,pos){
+ const qs=friExtraForBlock(lessonId,pos);if(!qs.length)return '';
+ const n=qs.filter(q=>friExtra.answers[q.id]?.correct===true).length;
+ return '<section class="fri-card fri-peer-practice"><div class="fri-eyebrow">НОВЫЕ ЗАДАНИЯ ПО ДОПОЛНЕНИЮ</div><h3>Проверьте понимание понятий</h3><p>Самостоятельно сформулированные задания по темам дополнительного конспекта. Вопросы преподавателя и основной банк не меняются. Выполнено '+n+' из '+qs.length+'.</p>'+
+ qs.map((q,idx)=>{
+  const record=friExtra.answers[q.id];
+  const content=q.type==='multi'?
+   '<div class="fri-peer-options">'+q.options.map((v,i)=>'<button type="button" data-fri-extra-answer="'+esc(q.id)+'" data-fri-extra-choice="'+i+'">'+esc(v)+'</button>').join('')+'</div>':
+   '<textarea class="fri-peer-written" aria-label="Ответ на открытый вопрос" placeholder="Запишите ответ своими словами, затем сравните с образцом"></textarea><button class="btn secondary sm" type="button" data-fri-extra-reveal="'+esc(q.id)+'">Проверить по образцу</button>';
+  return '<details class="fri-peer-question"><summary>'+(idx+1)+'. '+esc(q.question)+'</summary><div class="fri-peer-body">'+content+'<div class="fri-peer-feedback" role="status">'+(record?'Последний результат: '+(record.correct?'верно':'требует повторения'):'')+'</div></div></details>';
+ }).join('')+'</section>';
+}
+function friExtraFind(id){return FRI_PRACTICE_BANK.find(q=>q.id===id)}
+function friExtraGrade(id,correct){
+ const q=friExtraFind(id);if(!q)return;
+ const old=friExtra.answers[id]||{tries:0,wrong:0};
+ old.tries++;if(!correct)old.wrong++;old.correct=!!correct;old.updatedAt=new Date().toISOString();friExtra.answers[id]=old;friExtraSave();
+}
 
 let studyTheoryView = "full";
 function drawStudy(){const content=byId('content'),n=totalStudyCompleted(),total=STUDY_LESSONS.reduce((total,l)=>total+l.blocks.length,0);
@@ -963,7 +1021,7 @@ function friLabMarkup(l,pos){const k=friKey(l.id,pos),kind=FRI_LAB_BINDINGS[k];i
  }[kind];
  return `<section class="fri-card fri-lab" data-fri-lab="${kind}"><div class="fri-eyebrow">ИНТЕРАКТИВНАЯ МОДЕЛЬ</div><h3>${lab[0]}</h3><label class="fri-lab-label">${lab[1]} <strong data-fri-current></strong></label><input data-fri-range type="range" min="${lab[2]}" max="${lab[3]}" step="${lab[4]}" value="${lab[5]}" aria-label="${lab[1]}"><div class="fri-lab-result" data-fri-result aria-live="polite"></div><p class="tiny">${lab[6]}</p></section>`;
 }
-function friInsightMarkup(l,pos){const key=friKey(l.id,pos),b=l.blocks[pos],done=!!friLearning.read[key],info=friStats();return `<div class="fri-insight"><div class="fri-card fri-intro"><div class="fri-eyebrow">ВЫПОЛНЕНИЕ БЛОКА</div><h3>Проверьте, что поняли механизм</h3><p>Прочитайте основное объяснение, разберите финансовый смысл и проверьте типичные ошибки. Отметка о чтении отделена от результатов заданий.</p><button class="btn ${done?'good':'secondary'} sm" data-fri-read="${esc(key)}" type="button">${done?'✓ Материал прочитан':'Отметить материал прочитанным'}</button><div class="fri-reading-meta">Прочитано ${info.read} из ${info.blocks} блоков · задания успешно завершены в ${info.done} блоках</div></div>${friTrapSection(l,pos)}${friLabMarkup(l,pos)}<div class="fri-card"><h3>Ключевые понятия блока</h3><div class="fri-concept-list">${b.glossary.slice(0,6).map(g=>`<details><summary>${esc(g.term)}</summary><p>${esc(g.definition)}</p></details>`).join('')}</div><p class="tiny">К каждому понятию можно вернуться из полного учебного режима. Ссылки на презентации находятся ниже.</p></div></div>`}
+function friInsightMarkup(l,pos){const key=friKey(l.id,pos),b=l.blocks[pos],done=!!friLearning.read[key],info=friStats();return `<div class="fri-insight"><div class="fri-card fri-intro"><div class="fri-eyebrow">ВЫПОЛНЕНИЕ БЛОКА</div><h3>Проверьте, что поняли механизм</h3><p>Прочитайте основное объяснение, разберите финансовый смысл и проверьте типичные ошибки. Отметка о чтении отделена от результатов заданий.</p><button class="btn ${done?'good':'secondary'} sm" data-fri-read="${esc(key)}" type="button">${done?'✓ Материал прочитан':'Отметить материал прочитанным'}</button><div class="fri-reading-meta">Прочитано ${info.read} из ${info.blocks} блоков · задания успешно завершены в ${info.done} блоках</div></div>${friTrapSection(l,pos)}${friLabMarkup(l,pos)}${friExtraMarkup(l.id,pos)}<div class="fri-card"><h3>Ключевые понятия блока</h3><div class="fri-concept-list">${b.glossary.slice(0,6).map(g=>`<details><summary>${esc(g.term)}</summary><p>${esc(g.definition)}</p></details>`).join('')}</div><p class="tiny">К каждому понятию можно вернуться из полного учебного режима. Ссылки на презентации находятся ниже.</p></div></div>`}
 function friUpdateLab(container){const type=container.dataset.friLab,input=container.querySelector('[data-fri-range]');if(!input)return;const v=Number(input.value),fmt=(x,n=1)=>Number(x).toLocaleString('ru-RU',{maximumFractionDigits:n});const output=container.querySelector('[data-fri-result]');container.querySelector('[data-fri-current]').textContent=fmt(v)+({duration:' б.п.',capm:'',waterfall:' млн ₽',option:' ₽',basis:' ₽',spread:'%',liquidity:' млн ₽',franchise:' тыс. ₽'}[type]||'%');
  let res='';if(type==='waterfall'){const juniors=Math.min(v,10),mezz=Math.min(Math.max(0,v-10),20),senior=Math.min(Math.max(0,v-30),70);const rows=[['Младший',10,juniors],['Мезонин',20,mezz],['Старший',70,senior]];res=rows.map(([name,size,lost])=>`<div class="fri-lab-row"><span>${name}</span><b>${fmt(lost)} из ${size} млн ₽ потерь</b><div class="fri-lab-track"><i style="width:${100*lost/size}%"></i></div></div>`).join('')+`<p><b>Итог:</b> ${v<=10?'Потери несёт только младший транш.':v<=30?'Младший поглощён, потери перешли на мезонин.':'Младший и мезонин полностью поглощены; потери затрагивают старший транш.'}</p>`}
  if(type==='bond'){let y=v/100;let price=0;for(let t=1;t<=3;t++)price+=80/Math.pow(1+y,t);price+=1000/Math.pow(1+y,3);res=`<div class="fri-lab-figure">${fmt(price,2)} ₽</div><p>Приведённая стоимость трёх купонов по 80 ₽ и номинала 1000 ₽. Цена ${price<1000?'ниже':price>1000?'выше':'равна'} номинала.</p>`}
@@ -1004,6 +1062,28 @@ function friBindControls(){document.querySelectorAll('[data-fri-lab]').forEach(e
  document.querySelectorAll('[data-fri-read]').forEach(b=>b.onclick=()=>{const k=b.dataset.friRead;friLearning.read[k]=!friLearning.read[k];friSave();drawStudy()});
  document.querySelectorAll('[data-fri-trap]').forEach(b=>b.onclick=()=>{const k=b.dataset.friTrap;const valid=FRI_TRAP_CASES[k]?.[0]?.[1];if(valid===undefined)return;const correct=(b.dataset.answer==='true')===valid;friRecordTrap(k,correct);const fb=byId('fri-trap-feedback'),why=byId('fri-trap-why');if(fb)fb.innerHTML=correct?'<b class="fri-good">Верно. Механизм понят.</b>':'<b class="fri-bad">Ошибка. Проверьте экономический смысл.</b>';if(why)why.hidden=false;});
  document.querySelectorAll('[data-fri-reveal]').forEach(el=>el.onclick=()=>{const p=byId('fri-trap-why');if(p)p.hidden=false});
+
+ document.querySelectorAll('[data-fri-extra-answer]').forEach(btn=>btn.onclick=()=>{
+  const q=friExtraFind(btn.dataset.friExtraAnswer);if(!q)return;
+  const choice=Number(btn.dataset.friExtraChoice),ok=choice===q.correct;
+  friExtraGrade(q.id,ok);
+  const feedback=btn.closest('.fri-peer-body')?.querySelector('.fri-peer-feedback');
+  if(feedback)feedback.innerHTML='<strong class="'+(ok?'fri-good':'fri-bad')+'">'+(ok?'Верно.':'Есть ошибка.')+'</strong><p>'+esc(q.why)+'</p>';
+ });
+ document.querySelectorAll('[data-fri-extra-reveal]').forEach(btn=>btn.onclick=()=>{
+  const q=friExtraFind(btn.dataset.friExtraReveal);if(!q)return;
+  const box=btn.closest('.fri-peer-body'),ans=box?.querySelector('textarea').value.trim();
+  if(!ans||ans.length<12){notify('Сначала напишите собственный ответ, хотя бы одно предложение.');return}
+  const fb=box?.querySelector('.fri-peer-feedback');
+  if(fb)fb.innerHTML='<strong>Ориентир для самопроверки</strong><p>'+esc(q.answer)+'</p><p><b>Ситуация:</b> '+esc(q.example)+'</p><button type="button" class="btn good sm" data-fri-extra-self="'+esc(q.id)+'" data-ok="1">Суть понял</button> <button type="button" class="btn secondary sm" data-fri-extra-self="'+esc(q.id)+'" data-ok="0">Нужно повторить</button>';
+ });
+ document.querySelectorAll('.fri-peer-practice').forEach(el=>el.addEventListener('click',e=>{
+  const btn=e.target.closest('[data-fri-extra-self]');if(!btn)return;
+  friExtraGrade(btn.dataset.friExtraSelf,btn.dataset.ok==='1');
+  const box=btn.closest('.fri-peer-feedback');
+  if(box)box.insertAdjacentHTML('beforeend','<p>Самооценка сохранена. При ошибке тема попадёт в раздел «На повторение».</p>');
+  btn.parentElement.querySelectorAll('[data-fri-extra-self]').forEach(b=>b.disabled=true);
+ }));
  document.querySelectorAll('[data-fri-search-input]').forEach(inp=>inp.addEventListener('input',()=>{const q=inp.value.trim().toLocaleLowerCase('ru').replace(/ё/g,'е');document.querySelectorAll('.study-item[data-fri-search]').forEach(item=>{const t=(item.dataset.friSearch||'').replace(/ё/g,'е');item.hidden=!!q&&!t.includes(q)})}));
 }
 document.addEventListener('click',ev=>{const b=ev.target.closest?.('[data-fri-open-lesson]');if(!b)return;ev.preventDefault();if(session?.mode==='exam'&&!session.done){notify('Сначала завершите экзаменационную попытку.');return}studyTheoryView='full';tab='learn';goStudyLesson(b.dataset.friOpenLesson,Number(b.dataset.friOpenBlock)||0)});
