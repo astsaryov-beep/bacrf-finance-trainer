@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.11 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.12 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -34,6 +34,20 @@ assert.equal(Object.keys(legacy).length,96);
 assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),443);
 const formulaCount=Object.values(legacy).reduce((n,x)=>n+(x.formulas?.length||0),0);
 assert.equal(formulaCount,84);
+for(const [id,unit] of Object.entries(legacy)){
+ assert.ok(unit.foundation?.length>=120,'beginner explanation too short '+id);
+ assert.ok(unit.mechanism?.length>=120,'mechanism too short '+id);
+ assert.ok(unit.application?.length>=90,'worked application too short '+id);
+ assert.ok(unit.advanced?.length>=100,'advanced explanation too short '+id);
+ for(const f of unit.formulas||[]){
+  assert.ok(f.title&&f.expression,'formula name or expression absent '+id);
+  assert.ok(f.example?.length>=30,'formula without worked example '+id+' '+f.title);
+  assert.ok(f.meaning?.length>=35&&f.conditions?.length>=35,'formula without interpretation or assumptions '+id);
+  assert.ok(f.variables?.length>=2,'formula variables missing '+id);
+  for(const v of f.variables)assert.ok(v.symbol&&v.description?.length>=10&&v.unit,'formula symbol unexplained '+id);
+ }
+}
+
 assert.equal(Object.keys(diagrams).length,15);
 assert.equal(Object.keys(supplements).length,5);
 assert.equal(map.length,17);
@@ -63,6 +77,33 @@ for(const q of practice.filter(q=>q.type==='multi'))assert.ok(q.correct>=0&&q.co
 const editorialMC=data(html,'const FRI_EDITORIAL_MC=');
 const editorialOpen=data(html,'const FRI_EDITORIAL_OPEN=');
 assert.equal(editorialMC.length,17);assert.equal(editorialOpen.length,25);
+const scenarioMC=data(html,'const FRI_EDITORIAL_SCENARIOS=');
+assert.equal(scenarioMC.length,28,'28 additional scenarios');
+const caseIds=new Set(scenarioMC.map(x=>x[0]));
+assert.equal(caseIds.size,28,'unique authored scenarios');
+for(const q of practice.filter(q=>q.type==='multi')){
+ assert.ok(q.question.length>=45,'too short scenario '+q.id);
+ assert.ok(q.options.length===3&&new Set(q.options).size===3,'broken distractors '+q.id);
+ assert.ok(q.why.length>=30,'missing financial explanation '+q.id);
+ if(caseIds.has(q.id))assert.ok(q.question.includes('?'),'question missing interrogative '+q.id);
+}
+assert.equal(practice.filter(q=>q.type==='multi'&&q.question.includes('Какое понятие описано так')).length,0,'rote definition quizzes remain');
+const schedStart=html.indexOf('const FRI_DAY_MS=');
+const schedEnd=html.indexOf('function friSave()',schedStart);
+assert.ok(schedStart>0&&schedEnd>schedStart,'review scheduler exists');
+const makeScheduler=new Function('friLearning','friSave','friKey',html.slice(schedStart,schedEnd)+'return {friReviewRecord,friReviewStatus};');
+const state={review:{}},saved=[];
+const scheduler=makeScheduler(state,()=>saved.push('ok'),(id,pos)=>id+'-'+pos);
+const day=86400000,stamp=Date.UTC(2026,9,24),topic={id:'R-01',blocks:[{},{}]};
+assert.equal(Date.parse(scheduler.friReviewRecord('R-01-0',true,stamp).dueAt),stamp+day,'first interval');
+assert.equal(Date.parse(scheduler.friReviewRecord('R-01-0',true,stamp+day).dueAt),stamp+4*day,'second interval 3 days');
+assert.equal(scheduler.friReviewStatus(topic,stamp+2*day).due.length,0,'not due early');
+assert.equal(scheduler.friReviewStatus(topic,stamp+4*day).due.length,1,'due after 3 days');
+assert.equal(Date.parse(scheduler.friReviewRecord('R-01-0',false,stamp+4*day).dueAt),stamp+4*day,'wrong due today');
+assert.equal(scheduler.friReviewStatus(topic,stamp+4*day).due.length,1,'wrong reappears');
+assert.ok(saved.length>=3,'review saved');
+assert.match(html,/review:isPlainRecord\(obj\.friInsights\.review\)/,'review import persists');
+
 
 // Execute 32 boundary examples of all ten interactive financial models.
 const fnStart=html.indexOf('function friUpdateLab(');
@@ -94,4 +135,4 @@ assert.match(html,/FRI_PREP_DAYS/);
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.11: 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS 5.0.12: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
