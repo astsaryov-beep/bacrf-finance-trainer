@@ -908,8 +908,8 @@ function friExtraMarkup(lessonId,pos){
   const record=friExtra.answers[q.id];
   const content=q.type==='multi'?
    '<div class="fri-peer-options">'+q.options.map((v,i)=>'<button type="button" data-fri-extra-answer="'+esc(q.id)+'" data-fri-extra-choice="'+i+'">'+esc(v)+'</button>').join('')+'</div>':
-   '<textarea class="fri-peer-written" aria-label="Ответ на открытый вопрос" placeholder="Запишите ответ своими словами, затем сравните с образцом"></textarea><button class="btn secondary sm" type="button" data-fri-extra-reveal="'+esc(q.id)+'">Проверить по образцу</button>';
-  return '<details class="fri-peer-question"><summary>'+(idx+1)+'. '+esc(q.question)+'</summary><div class="fri-peer-body">'+content+'<div class="fri-peer-feedback" role="status">'+(record?'Последний результат: '+(record.correct?'верно':'требует повторения'):'')+'</div></div></details>';
+   '<textarea class="fri-peer-written" data-fri-extra-draft="'+esc(q.id)+'" aria-label="Ответ на открытый вопрос" placeholder="Запишите ответ своими словами, затем сравните с образцом">'+esc(record?.draft||'')+'</textarea><button class="btn secondary sm" type="button" data-fri-extra-reveal="'+esc(q.id)+'">Проверить по образцу</button>';
+  return '<details class="fri-peer-question"><summary>'+(idx+1)+'. '+esc(q.question)+'</summary><div class="fri-peer-body">'+content+'<div class="fri-peer-feedback" role="status">'+(record?.tries?'Последний результат: '+(record.correct?'верно':'требует повторения'):'')+'</div></div></details>';
  }).join('')+'</section>';
 }
 function friExtraFind(id){return FRI_PRACTICE_BANK.find(q=>q.id===id)}
@@ -1109,6 +1109,7 @@ function friBindControls(){document.querySelectorAll('[data-fri-lab]').forEach(e
   const feedback=btn.closest('.fri-peer-body')?.querySelector('.fri-peer-feedback');
   if(feedback)feedback.innerHTML='<strong class="'+(ok?'fri-good':'fri-bad')+'">'+(ok?'Верно.':'Есть ошибка.')+'</strong><p>'+esc(q.why)+'</p>';
  });
+ document.querySelectorAll('[data-fri-extra-draft]').forEach(area=>area.addEventListener('input',()=>{const id=area.dataset.friExtraDraft;const prev=friExtra.answers[id]||{tries:0,wrong:0,correct:false};prev.draft=area.value.slice(0,4000);friExtra.answers[id]=prev;friExtraSave()}));
  document.querySelectorAll('[data-fri-extra-reveal]').forEach(btn=>btn.onclick=()=>{
   const q=friExtraFind(btn.dataset.friExtraReveal);if(!q)return;
   const box=btn.closest('.fri-peer-body'),ans=box?.querySelector('textarea').value.trim();
