@@ -40,7 +40,7 @@ try{
  await page.waitForSelector('[data-fri-lab="option"]');
  const cardBg=await page.locator('.fri-card').first().evaluate(el=>getComputedStyle(el).backgroundColor);
  assert.notEqual(cardBg,'rgb(255, 255, 255)','dark card expected');
- await page.locator('[data-fri-lab="option"] input[type="range"]').fill('150');
+ await page.locator('[data-fri-lab="option"] input[type="range"]').evaluate(el=>{el.value='150';el.dispatchEvent(new Event('input',{bubbles:true}))});
  assert.ok((await page.locator('[data-fri-lab="option"] [data-fri-result]').innerText()).includes('42'));
  await page.screenshot({path:resolve(root,'test-artifacts','desktop.png'),fullPage:false});
  
