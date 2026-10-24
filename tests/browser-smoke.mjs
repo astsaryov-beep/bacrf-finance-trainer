@@ -42,6 +42,31 @@ try{
  assert.notEqual(cardBg,'rgb(255, 255, 255)','dark card expected');
  await page.locator('[data-fri-lab="option"] input[type="range"]').evaluate(el=>{el.value='150';el.dispatchEvent(new Event('input',{bubbles:true}))});
  assert.ok((await page.locator('[data-fri-lab="option"] [data-fri-result]').innerText()).includes('42'));
+ // 5.0.12: visible scenario, wrong answer -> due now, corrected answer -> due tomorrow.
+ await page.locator('.study-left [data-studylesson="R-01"]').click();
+ await page.locator('#v5InsightBtn').click();
+ await page.waitForSelector('[data-fri-trap="R-01-0"]');
+ assert.ok((await page.locator('.fri-peer-practice').innerText()).includes('20 дней'),'contextual exercise included');
+ await page.locator('[data-fri-trap="R-01-0"][data-answer="true"]').click();
+ assert.ok((await page.locator('#fri-trap-feedback').innerText()).includes('Ошибка'));
+ await page.locator('.study-left [data-open-syllabus]').click();
+ await page.locator('dialog [data-fri-syllabus-mode="review"]').click();
+ assert.ok((await page.locator('dialog [data-fri-syllabus-lesson="R-01"]').count())>=1,'failed topic should be due');
+ await page.locator('dialog [data-fri-close]').click();
+ await page.locator('[data-fri-trap="R-01-0"][data-answer="false"]').click();
+ assert.ok((await page.locator('#fri-trap-feedback').innerText()).includes('Верно'));
+ const interval=await page.evaluate(()=>friLearning.review['R-01-0']);
+ assert.equal(interval.streak,1);
+ assert.ok(Date.parse(interval.dueAt)>Date.now(),'success schedules next day');
+ await page.locator('.study-left [data-open-syllabus]').click();
+ await page.locator('dialog [data-fri-syllabus-mode="review"]').click();
+ assert.equal(await page.locator('dialog [data-fri-syllabus-lesson="R-01"]').count(),0,'corrected topic not due now');
+ await page.locator('dialog [data-fri-close]').click();
+ await page.reload({waitUntil:'domcontentloaded'});
+ const restored=await page.evaluate(()=>JSON.parse(localStorage.getItem('bacrf_finance_trainer_insights_v1')).review['R-01-0']);
+ assert.equal(restored.streak,1,'review schedule survives reload');
+ await page.evaluate(()=>document.querySelector('[data-tab="learn"]').click());
+ await page.waitForSelector('.study-shell');
  await page.screenshot({path:resolve(root,'test-artifacts','desktop.png'),fullPage:false});
  
  await page.setViewportSize({width:390,height:844});
@@ -54,7 +79,7 @@ try{
  const width=await page.locator('dialog.fri-syllabus-dialog').evaluate(el=>el.getBoundingClientRect().width);
  assert.ok(width>=370&&width<=395,'mobile dialog width '+width);
  await page.screenshot({path:resolve(root,'test-artifacts','mobile.png'),fullPage:false});
- console.log('PASS browser: desktop sidebar '+JSON.stringify(dims)+', option lab, dark cards, study search, coverage, mobile modal.');
+ console.log('PASS browser: desktop sidebar '+JSON.stringify(dims)+', 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.');
 }catch(e){
  await page.screenshot({path:resolve(root,'test-artifacts','failure.png'),fullPage:false}).catch(()=>{});
  throw e;
