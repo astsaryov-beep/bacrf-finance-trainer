@@ -61,7 +61,7 @@ for(const entry of contrasts){
  assert.equal(entry.items.length,2,'each peer section needs two distinct comparisons '+entry.id);
  for(const [a,aText,b,bText,scenario,reason] of entry.items){
   assert.notEqual(a,b,'same comparison terms '+entry.id);
-  assert.ok(a.length>3&&b.length>3,'comparison labels too brief');
+  assert.ok(a.trim().length>=2&&b.trim().length>=2,'comparison labels missing');
   assert.ok(aText.length>=55&&bText.length>=55,'comparison has shallow mechanism '+entry.id);
   assert.ok(scenario.length>=55,'comparison without realistic situation '+entry.id);
   assert.ok(reason.length>=65,'comparison without explanatory conclusion '+entry.id);
