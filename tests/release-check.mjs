@@ -34,6 +34,20 @@ assert.equal(Object.keys(legacy).length,96);
 assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),443);
 const formulaCount=Object.values(legacy).reduce((n,x)=>n+(x.formulas?.length||0),0);
 assert.equal(formulaCount,84);
+for(const [id,unit] of Object.entries(legacy)){
+ assert.ok(unit.foundation?.length>=120,'beginner explanation too short '+id);
+ assert.ok(unit.mechanism?.length>=120,'mechanism too short '+id);
+ assert.ok(unit.application?.length>=90,'worked application too short '+id);
+ assert.ok(unit.advanced?.length>=100,'advanced explanation too short '+id);
+ for(const f of unit.formulas||[]){
+  assert.ok(f.title&&f.expression,'formula name or expression absent '+id);
+  assert.ok(f.example?.length>=30,'formula without worked example '+id+' '+f.title);
+  assert.ok(f.meaning?.length>=35&&f.conditions?.length>=35,'formula without interpretation or assumptions '+id);
+  assert.ok(f.variables?.length>=2,'formula variables missing '+id);
+  for(const v of f.variables)assert.ok(v.symbol&&v.description?.length>=10&&v.unit,'formula symbol unexplained '+id);
+ }
+}
+
 assert.equal(Object.keys(diagrams).length,15);
 assert.equal(Object.keys(supplements).length,5);
 assert.equal(map.length,17);
@@ -121,4 +135,4 @@ assert.match(html,/FRI_PREP_DAYS/);
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.12: 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS 5.0.12: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
