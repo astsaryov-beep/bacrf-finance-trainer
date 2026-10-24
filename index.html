@@ -307,6 +307,41 @@ body.study-active .main,body.app-overview .main,body.app-other .main{padding:0;b
 .fri-followup{display:grid;gap:8px;border:1px solid #c9dcea;background:#f4faff;border-radius:11px;padding:13px 15px;margin-top:12px;white-space:normal}.fri-followup strong{font-size:12px;color:#2b587a}.fri-followup span{font-size:14px}.fri-followup button{justify-self:start}
 @media(max-width:600px){.fri-card{padding:14px}.fri-lab-row{grid-template-columns:1fr}.fri-lab-row b{text-align:left}}
 @media(prefers-reduced-motion:reduce){.fri-lab-track i{transition:none}}
+
+/* 5.0.10: unified dark presentation for learning labs, misconceptions and search */
+.v5-learning .fri-insight{color:#d6e7f1}
+.v5-learning .fri-card{background:#112e40;border:1px solid #355669;color:#d9eaf4;box-shadow:0 6px 20px rgba(3,14,25,.16)}
+.v5-learning .fri-card h3{color:#f0faff}
+.v5-learning .fri-eyebrow,.v5-learning .fri-reading-meta{color:#9cc3d2}
+.v5-learning .fri-card p{color:#cfe2ed}
+.v5-learning .fri-tip{background:#352f26;border-left-color:#ddbc79;color:#f5deb3}
+.v5-learning .fri-tip p{color:#f0ddbb}
+.v5-learning .fri-trap-question{background:#153447;border-color:#3b6072;color:#e2f2fa}
+.v5-learning .fri-trap-title,.v5-learning .fri-trap-feedback{color:#a8c9d9}
+.v5-learning .fri-trap-question>p{color:#e8f8ff}
+.v5-learning .fri-trap-why{border-color:#34576b;color:#d2e5f0}
+.v5-learning .fri-good{color:#94ecc3}.v5-learning .fri-bad{color:#ffb6ae}
+.v5-learning .fri-textlink{color:#87e4da}
+.v5-learning .fri-concept-list details{background:#153548;border-color:#375d70;color:#d4e7ef}
+.v5-learning .fri-concept-list summary{color:#94e7de}
+.v5-learning .fri-concept-list p{color:#d2e7f0}
+.v5-learning .fri-lab-label{color:#c1d9e6}
+.v5-learning .fri-lab-label strong{color:#f0fbff}
+.v5-learning .fri-lab-result{background:#133244;border-color:#365e71;color:#e0eff6}
+.v5-learning .fri-lab-figure{color:#82e8db}
+.v5-learning .fri-lab-row b{color:#acc9d9}
+.v5-learning .fri-lab-track{background:#2a5654}
+.v5-learning .fri-lab-track i{background:#e09b85}
+.v5-learning .fri-followup{background:#173748;border-color:#41677a;color:#dbeef6}
+.v5-learning .fri-followup strong{color:#92e4dc}
+.v5-learning .fri-followup span{color:#e2f1f8}
+.study-left .fri-learning-summary,.study-mobile-nav .fri-learning-summary{background:#163849;border-color:#345d6d;color:#c3dce8}
+.study-left .fri-search-label,.study-mobile-nav .fri-search-label{color:#a9cbd8}
+.study-left .fri-study-search,.study-mobile-nav .fri-study-search{background:#112c3e;border:1px solid #416476;color:#e8f7fc}
+.fri-study-search::placeholder{color:#8caebf}
+.fri-study-search:focus-visible,.fri-card button:focus-visible,.fri-concept-list summary:focus-visible{outline:2px solid #79e4d5;outline-offset:3px}
+@media(max-width:600px){.v5-learning .fri-card{padding:16px}.v5-learning .fri-trap-question{padding:13px}}
+
 </style></head><body><div class="wrap">
 <div class="app-topbar"><a href="#" class="brand" id="brandHome" aria-label="На главную страницу тренажёра"><span class="brand-symbol">β</span><span><strong>БАЦРФ</strong><small>Финансовые рынки и институты</small></span></a><nav class="tabs top-tabs" aria-label="Разделы тренажёра">
 <button class="tab active" data-tab="overview">Обзор</button>
