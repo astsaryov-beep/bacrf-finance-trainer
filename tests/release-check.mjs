@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.11 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.12 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -63,6 +63,33 @@ for(const q of practice.filter(q=>q.type==='multi'))assert.ok(q.correct>=0&&q.co
 const editorialMC=data(html,'const FRI_EDITORIAL_MC=');
 const editorialOpen=data(html,'const FRI_EDITORIAL_OPEN=');
 assert.equal(editorialMC.length,17);assert.equal(editorialOpen.length,25);
+const scenarioMC=data(html,'const FRI_EDITORIAL_SCENARIOS=');
+assert.equal(scenarioMC.length,28,'28 additional scenarios');
+const caseIds=new Set(scenarioMC.map(x=>x[0]));
+assert.equal(caseIds.size,28,'unique authored scenarios');
+for(const q of practice.filter(q=>q.type==='multi')){
+ assert.ok(q.question.length>=45,'too short scenario '+q.id);
+ assert.ok(q.options.length===3&&new Set(q.options).size===3,'broken distractors '+q.id);
+ assert.ok(q.why.length>=30,'missing financial explanation '+q.id);
+ if(caseIds.has(q.id))assert.ok(q.question.includes('?'),'question missing interrogative '+q.id);
+}
+assert.equal(practice.filter(q=>q.type==='multi'&&q.question.includes('Какое понятие описано так')).length,0,'rote definition quizzes remain');
+const schedStart=html.indexOf('const FRI_DAY_MS=');
+const schedEnd=html.indexOf('function friSave()',schedStart);
+assert.ok(schedStart>0&&schedEnd>schedStart,'review scheduler exists');
+const makeScheduler=new Function('friLearning','friSave','friKey',html.slice(schedStart,schedEnd)+'return {friReviewRecord,friReviewStatus};');
+const state={review:{}},saved=[];
+const scheduler=makeScheduler(state,()=>saved.push('ok'),(id,pos)=>id+'-'+pos);
+const day=86400000,stamp=Date.UTC(2026,9,24),topic={id:'R-01',blocks:[{},{}]};
+assert.equal(Date.parse(scheduler.friReviewRecord('R-01-0',true,stamp).dueAt),stamp+day,'first interval');
+assert.equal(Date.parse(scheduler.friReviewRecord('R-01-0',true,stamp+day).dueAt),stamp+4*day,'second interval 3 days');
+assert.equal(scheduler.friReviewStatus(topic,stamp+2*day).due.length,0,'not due early');
+assert.equal(scheduler.friReviewStatus(topic,stamp+4*day).due.length,1,'due after 3 days');
+assert.equal(Date.parse(scheduler.friReviewRecord('R-01-0',false,stamp+4*day).dueAt),stamp+4*day,'wrong due today');
+assert.equal(scheduler.friReviewStatus(topic,stamp+4*day).due.length,1,'wrong reappears');
+assert.ok(saved.length>=3,'review saved');
+assert.match(html,/review:isPlainRecord\(obj\.friInsights\.review\)/,'review import persists');
+
 
 // Execute 32 boundary examples of all ten interactive financial models.
 const fnStart=html.indexOf('function friUpdateLab(');
@@ -94,4 +121,4 @@ assert.match(html,/FRI_PREP_DAYS/);
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.11: 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS 5.0.12: 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
