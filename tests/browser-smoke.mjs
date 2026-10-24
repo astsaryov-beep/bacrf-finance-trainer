@@ -46,7 +46,7 @@ try{
  await page.locator('.study-left [data-studylesson="R-01"]').click();
  await page.locator('#v5InsightBtn').click();
  await page.waitForSelector('[data-fri-trap="R-01-0"]');
- assert.ok((await page.locator('.fri-peer-practice').innerText()).includes('20 дней'),'contextual exercise included');
+ assert.ok((await page.locator('.fri-peer-practice').textContent()).includes('20 дней'),'contextual exercise included');
  await page.locator('[data-fri-trap="R-01-0"][data-answer="true"]').click();
  assert.ok((await page.locator('#fri-trap-feedback').innerText()).includes('Ошибка'));
  await page.locator('.study-left [data-open-syllabus]').click();
