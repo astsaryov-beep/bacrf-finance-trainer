@@ -806,9 +806,9 @@ function friStrain(l){
   const rec=studyData.blocks?.[studyKey(l.id,i)];
   if(rec?.complete)checked++;
   Object.values(rec?.answers||{}).forEach(a=>{if(a.checked){attempts++;if(a.score===0)wrong++}});
-  for(const q of FRI_PRACTICE_BANK.filter(q=>q.lessonId===l.id&&q.pos===i)){const rec=friExtra.answers?.[q.id];if(rec?.tries){attempts+=rec.tries;wrong+=rec.wrong||0}}
+  for(const q of FRI_PRACTICE_BANK.filter(q=>q.lessonId===l.id&&q.pos===i)){const rec=friExtra.answers?.[q.id];if(rec?.tries){attempts+=rec.tries;wrong+=rec.correct?0:(rec.wrong||0)}}
   const t=friLearning.traps?.[friKey(l.id,i)];
-  if(t?.tries){attempts+=t.tries;wrong+=Math.max(0,t.tries-(t.correct||0))}
+  if(t?.tries){attempts+=t.tries;wrong+=t.lastCorrect?0:Math.max(0,t.tries-(t.correct||0))}
  });
  return {wrong,attempts,checked,weight:wrong*3 + (attempts>0&&!checked?1:0)};
 }
@@ -819,7 +819,7 @@ function friSyllabusItems(lessons,query=''){
 }
 function friOpenSyllabus(){
  let el=document.getElementById('friSyllabusDialog');
- if(!el){el=document.createElement('dialog');el.id='friSyllabusDialog';el.className='fri-syllabus-dialog';el.innerHTML='<div class="fri-syllabus-top"><div><h2>Все темы и план подготовки</h2><p>Поиск по названиям и понятиям. Основные сведения и прогресс остались в панели курса.</p></div><button type="button" class="fri-syllabus-close" data-fri-close>Закрыть ×</button></div><div class="fri-syllabus-tabs"><button data-fri-syllabus-mode="themes" aria-pressed="true">По разделам</button><button data-fri-syllabus-mode="days" aria-pressed="false">План из 8 дней</button><button data-fri-syllabus-mode="weak" aria-pressed="false">На повторение</button><button data-fri-syllabus-mode="registry" aria-pressed="false">Термины и формулы</button></div><input class="fri-syllabus-search" type="search" placeholder="Поиск темы или понятия" aria-label="Поиск по темам"><div class="fri-syllabus-results"></div>';document.body.appendChild(el);
+ if(!el){el=document.createElement('dialog');el.id='friSyllabusDialog';el.className='fri-syllabus-dialog';el.innerHTML='<div class="fri-syllabus-top"><div><h2>Все темы и план подготовки</h2><p>Поиск по названиям и понятиям. Основные сведения и прогресс остались в панели курса.</p></div><button type="button" class="fri-syllabus-close" data-fri-close>Закрыть ×</button></div><div class="fri-syllabus-tabs"><button data-fri-syllabus-mode="themes" aria-pressed="true">По разделам</button><button data-fri-syllabus-mode="days" aria-pressed="false">План из 8 дней</button><button data-fri-syllabus-mode="weak" aria-pressed="false">На повторение</button><button data-fri-syllabus-mode="registry" aria-pressed="false">Термины и формулы</button><button data-fri-syllabus-mode="coverage" aria-pressed="false">Матрица 17 разделов</button></div><input class="fri-syllabus-search" type="search" placeholder="Поиск темы или понятия" aria-label="Поиск по темам"><div class="fri-syllabus-results"></div>';document.body.appendChild(el);
  el.addEventListener('click',e=>{if(e.target===el||e.target.closest('[data-fri-close]'))el.close();const topic=e.target.closest('[data-fri-syllabus-lesson]');if(topic){el.close();goStudyLesson(topic.dataset.friSyllabusLesson,Number(topic.dataset.friSyllabusBlock)||0)}const mode=e.target.closest('[data-fri-syllabus-mode]');if(mode){el.dataset.mode=mode.dataset.friSyllabusMode;friRenderSyllabus(el)}});
  el.querySelector('input').addEventListener('input',()=>friRenderSyllabus(el));
  }
@@ -828,6 +828,10 @@ function friOpenSyllabus(){
 function friRenderSyllabus(el){
  const mode=el.dataset.mode||'themes',q=el.querySelector('input').value,groups=[];
  el.querySelectorAll('[data-fri-syllabus-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.friSyllabusMode===mode)));
+ if(mode==='coverage'){
+  const v=FRI_COLLEAGUE_COVERAGE.filter(x=>!q||x[1].toLowerCase().includes(q.toLowerCase())||STUDY_MAP.get(x[2])?.title.toLowerCase().includes(q.toLowerCase()));
+  el.querySelector('.fri-syllabus-results').innerHTML='<p class="fri-registry-count">Все 17 разделов дополнения сопоставлены с текущими учебными блоками. Формулировки и вопросы оригинала не копируются.</p>'+v.map(x=>'<button type="button" class="fri-syllabus-topic" data-fri-syllabus-lesson="'+esc(x[2])+'" data-fri-syllabus-block="'+x[3]+'"><small>Раздел дополнения</small><strong>'+esc(x[1])+'</strong><span>Изучить: '+esc(STUDY_MAP.get(x[2])?.title||x[2])+' · блок '+(x[3]+1)+'</span></button>').join('');return;
+ }
  if(mode==='registry'){
   const reg=friKnowledgeRegistry(),term=q.trim().toLowerCase().replace(/ё/g,'е');
   const hits=reg.filter(x=>!term||(x.title+' '+x.description+' '+x.lessonTitle).toLowerCase().replace(/ё/g,'е').includes(term)).slice(0,75);
