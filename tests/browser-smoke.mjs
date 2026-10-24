@@ -30,6 +30,11 @@ try{
  await page.waitForSelector('dialog.fri-syllabus-dialog[open]');
  await page.locator('dialog [data-fri-syllabus-mode="coverage"]').click();
  assert.ok((await page.locator('dialog [data-fri-syllabus-lesson]').count())>=17);
+ await page.locator('dialog [data-fri-syllabus-lesson="R-01"][data-fri-syllabus-block="0"]').first().click();
+ await page.waitForSelector('.fri-comparisons .fri-comparison');
+ assert.equal(await page.locator('.fri-comparisons .fri-comparison').count(),2,'matrix opens correct explanatory block directly');
+ await page.locator('.study-left [data-open-syllabus]').click();
+
  await page.locator('dialog [data-fri-syllabus-mode="registry"]').click();
  await page.locator('dialog .fri-syllabus-search').fill('дюрация');
  assert.ok((await page.locator('dialog [data-fri-syllabus-lesson]').count())>0);
@@ -47,6 +52,17 @@ try{
  await page.locator('#v5InsightBtn').click();
  await page.waitForSelector('[data-fri-trap="R-01-0"]');
  assert.ok((await page.locator('.fri-peer-practice').textContent()).includes('20 дней'),'contextual exercise included');
+ // Verify new learner-facing comparative cases from all 17 mapped sections.
+ const rendered=await page.evaluate(()=>FRI_COLLEAGUE_COVERAGE.map(x=>({
+  section:x[0],count:(friContrastMarkup(x[2],x[3]).match(/class="fri-comparison"/g)||[]).length
+ })));
+ assert.equal(rendered.length,17,'all 17 mapped sections available in browser');
+ assert.ok(rendered.every(x=>x.count===2),'broken comparison sections '+JSON.stringify(rendered));
+ assert.equal(await page.locator('.fri-comparisons .fri-comparison').count(),2,'visible comparisons in R-01');
+ await page.locator('.fri-comparisons .fri-comparison').first().locator('summary').click();
+ assert.ok(await page.locator('.fri-comparisons .fri-comparison').first().locator('.fri-comparison-scenario').isVisible(),'scenario expands');
+ assert.ok((await page.locator('.fri-comparison-conclusion').first().textContent()).includes('Срок'),'scenario has independent financial reasoning');
+
  const practiceColors=await page.locator('.fri-card').evaluateAll(els=>els.map(el=>getComputedStyle(el).backgroundColor));
  assert.ok(practiceColors.every(c=>c!=='rgb(255, 255, 255)'),'all learning cards must use dark style');
  
@@ -103,8 +119,24 @@ try{
   assert.ok(d.width<=w+2&&d.width>=Math.min(310,w-10),'dialog responsive width '+w+': '+d.width);
  }
 
+ 
+ await page.locator('dialog [data-fri-close]').click();
+ await page.setViewportSize({width:320,height:780});
+ await page.locator('.study-mobile-nav [data-studylesson="R-01"]').click();
+ await page.locator('#v5InsightBtn').click();
+ await page.locator('.fri-comparisons .fri-comparison').first().locator('summary').click();
+ const comparisonWidth=await page.locator('.fri-comparison-grid').first().evaluate(el=>({
+  grid:getComputedStyle(el).gridTemplateColumns,
+  width:el.getBoundingClientRect().width,
+  viewport:window.innerWidth,
+  overflow:document.documentElement.scrollWidth>window.innerWidth+2
+ }));
+ assert.ok(!comparisonWidth.overflow,'comparison must not overflow 320px viewport '+JSON.stringify(comparisonWidth));
+ assert.ok(comparisonWidth.grid.split(' ').length===1,'single-column comparison on smartphone');
+ await page.screenshot({path:resolve(root,'test-artifacts','comparisons-mobile.png'),fullPage:false});
+
  await page.screenshot({path:resolve(root,'test-artifacts','mobile.png'),fullPage:false});
- console.log('PASS browser: desktop sidebar '+JSON.stringify(dims)+', 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.');
+ console.log('PASS browser: 17 comparative sections and mobile 320px; desktop sidebar '+JSON.stringify(dims)+', 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.');
 }catch(e){
  await page.screenshot({path:resolve(root,'test-artifacts','failure.png'),fullPage:false}).catch(()=>{});
  throw e;

@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.12 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.13 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -21,6 +21,7 @@ const stableBank=data(frozen,'const BANK=');
 const bank=data(html,'const BANK=');
 const legacy=data(html,'const STUDY_V5 = ');
 const map=data(html,'const FRI_COLLEAGUE_COVERAGE=');
+const contrasts=data(html,'const FRI_PEER_CONTRASTS=');
 const diagrams=data(html,'const FRI_DIAGRAMS=');
 const fallback=data(html,'const FRI_TRAP_FALLBACK=');
 const supplements=data(html,'const FRI_TOPIC_SUPPLEMENTS=');
@@ -51,6 +52,25 @@ for(const [id,unit] of Object.entries(legacy)){
 assert.equal(Object.keys(diagrams).length,15);
 assert.equal(Object.keys(supplements).length,5);
 assert.equal(map.length,17);
+assert.equal(contrasts.length,17,'17 peer sections must have authored worked comparisons');
+assert.equal(new Set(contrasts.map(x=>x.id)).size,17,'duplicate comparison sections');
+assert.equal(contrasts.reduce((n,x)=>n+x.items.length,0),34,'34 worked comparison cases');
+const mapIds=new Set(map.map(x=>x[0]));
+for(const entry of contrasts){
+ assert.ok(mapIds.has(entry.id),'unmapped peer comparison '+entry.id);
+ assert.equal(entry.items.length,2,'each peer section needs two distinct comparisons '+entry.id);
+ for(const [a,aText,b,bText,scenario,reason] of entry.items){
+  assert.notEqual(a,b,'same comparison terms '+entry.id);
+  assert.ok(a.trim().length>=2&&b.trim().length>=2,'comparison labels missing');
+  assert.ok(aText.length>=55&&bText.length>=55,'comparison has shallow mechanism '+entry.id);
+  assert.ok(scenario.length>=55,'comparison without realistic situation '+entry.id);
+  assert.ok(reason.length>=65,'comparison without explanatory conclusion '+entry.id);
+ }
+}
+assert.match(html,/friContrastMarkup\(l\.id,pos\)/,'comparison integration must be visible inside study cards');
+assert.match(html,/\.fri-comparison-grid\{display:grid/,'comparison grid styling missing');
+assert.match(html,/@media\(max-width:620px\)\{\.fri-comparison-grid\{grid-template-columns:1fr/,'mobile comparison layout missing');
+
 const ids=new Set(blocks.map(x=>x.id));
 for(const row of map)assert.ok(ids.has(row[2]+'-'+row[3]),'unlinked supplement '+row[0]);
 for(const k of Object.keys(diagrams))assert.ok(ids.has(k),'orphan diagram '+k);
@@ -135,4 +155,4 @@ assert.match(html,/FRI_PREP_DAYS/);
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.12: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS 5.0.13: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
