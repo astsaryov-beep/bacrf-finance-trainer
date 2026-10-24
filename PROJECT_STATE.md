@@ -11,13 +11,13 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-08",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261024-001",
-  "last_verified_commit": "3464dcfab0277f5c6c7eb14673f5b42cdef86491",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40128658968",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40128658722",
+  "last_verified_checkpoint": "CP-20261024-002",
+  "last_verified_commit": "8f2ecac1cc0c491e831b267dfa8f97a5ea995c5e",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40130253692",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40130253225",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-24"
 }
@@ -26,10 +26,10 @@
 
 ## Что фактически подтверждено
 
-- Последний завершённый продуктовый релиз: **5.0.12 beta**, HEAD `3464dcfab0277f5c6c7eb14673f5b42cdef86491`. Обе проверки (release checks и GitHub Pages) завершились success 24.10.2026: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40128658968), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40128658722).
+- Последний завершённый продуктовый релиз: **5.0.12 beta**, продуктовый коммит `3464dcfab0277f5c6c7eb14673f5b42cdef86491`. Обе проверки (release checks и GitHub Pages) завершились success 24.10.2026: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40128658968), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40128658722).
 - Стабильная версия **5.0.8** неизменна; исходный основной банк 275 вопросов и 19 преподавательских сохранены.
 - В развивающейся версии есть 48 тем, 96 блоков, 84 разобранные формулы, 17 тематических соответствий дополнения, 45 новых ситуационных вопросов, 25 открытых, 15 схем, 10 интерактивных лабораторий, восьмидневный маршрут и интервальное повторение.
-- Записанный выше коммит — последняя **проверенная контрольная точка продукта**, а не SHA коммита с этим документом. После принятия стандарта новые изменения нужно дополнительно сверять с GitHub.
+- Коммит `8f2ecac…` — последняя **проверенная контрольная точка проекта**, а не SHA текущего документа. Приложение 5.0.12 было выпущено предыдущим коммитом `3464dcfa…`. Стандарт T-08 уже подтверждён на main коммитом `8f2ecac1cc0c491e831b267dfa8f97a5ea995c5e`: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40130253692) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40130253225), оба SUCCESS. Новые изменения после этой точки нужно сверять с GitHub.
 
 ## Риски и незавершённые работы
 
@@ -43,7 +43,7 @@
 
 ## С чего продолжить
 
-**Следующая задача: T-01.** Начать с одного небольшого проверяемого пакета слайдов, создать таблицу «слайд → проверяемое утверждение → блок → результат → исправление» без размещения материалов ВШЭ в открытом доступе. Дальше — коммит и новая запись `CHECKPOINTS.md`.
+**Стандарт T-08 внедрён и проверен. Следующая задача: T-01.** Начать с одного небольшого проверяемого пакета слайдов, создать таблицу «слайд → проверяемое утверждение → блок → результат → исправление» без размещения материалов ВШЭ в открытом доступе. Дальше — коммит и новая запись `CHECKPOINTS.md`.
 
 Документы `ROADMAP.md` и `DECISIONS.md` содержат конкретные критерии готовности и инварианты. Правила фиксации этапов — `AGENTS.md`.
 
