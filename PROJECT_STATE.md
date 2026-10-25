@@ -7,12 +7,12 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "5.0.17 beta",
+  "working_version": "5.0.18 beta",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
+  "phase": "IN_PROGRESS",
+  "active_task": "T-05",
   "next_task": "T-01",
   "last_verified_checkpoint": "CP-20261025-011",
   "last_verified_commit": "bb8de84960127b110d6893cd37bcb4943fb6a053",
@@ -36,6 +36,14 @@
 
 - Ветка `docs/t06-readme-launch-first-20261025`. На главной странице GitHub в `README.md` сразу под названием находятся три визуальные кнопки запуска, краткая инструкция и содержание курса. Служебные материалы вынесены в нижний раскрывающийся раздел.
 - **Статус README: VERIFIED.** [PR #17](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/17) MERGED; [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339665), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339462), документационный коммит `bb8de84960127b110d6893cd37bcb4943fb6a053`. Версия приложения остаётся 5.0.17 beta, последний подтверждённый продуктовый checkpoint CP-20261025-009. Следующий после документационного этапа приоритет: T-01 S1 страницы 13–32.
+
+## Текущая доработка T-05 · v5.0.18 beta (25.10.2026)
+
+- Ветка `fix/v5.0.18-hedge-feedback-ux-20261025` от main `01fe4bbcfe0001058ab5fa976b7e39998bd91c35`.
+- Доработаны только выводы для V2-069/V2-070: наглядные сценарии (падение/рост, базис, страйк/премия, GO и VM, принудительное закрытие), 3 раскрываемых блока риска, отдельная хронология маржинального риска.
+- Мобильная подача: сценарии в 1 столбец при ширине <=650px, регулируемое открытие подробностей, контрастные подписи, ссылки на OIC/CME. Новые браузерные тесты проверяют 390 и 320px, каталог, тренировку, итоговый экран и расчёты.
+- **CI/Pages PENDING**, нельзя считать 5.0.18 VERIFIED до релизных проверок. Последний подтверждённый продукт 5.0.17, последний checkpoint CP-20261025-011 относится к README (не к 5.0.18).
+- Банк 275/19 и стабильная 5.0.8 не затронуты. После этой точечной доработки вернуться к T-01 S1 страницы 13–32.
 
 ## Что фактически подтверждено
 
