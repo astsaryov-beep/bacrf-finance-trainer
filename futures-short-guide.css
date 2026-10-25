@@ -45,3 +45,10 @@
  .fsc-disclosure>summary{padding:14px 12px}
  .fsc-study-link{width:100%;justify-content:center}
 }
+
+/* v5.0.20: restrained, responsive exam-scope footnotes in theory. */
+.fsc-exam-note{margin:14px 0;padding:11px 14px;border:1px solid #466276;border-left:3px solid #8cb8c4;background:#173243;border-radius:10px;color:#e4ecf1;font-size:13px;line-height:1.65;overflow-wrap:anywhere}
+.fsc-exam-note>strong{display:block;font-size:13px;letter-spacing:.015em;color:#cfe9ef;margin-bottom:4px}
+.fsc-exam-note p{margin:5px 0 0}
+.fsc-exam-note b{color:#e8f6f9}
+@media(max-width:700px){.fsc-exam-note{padding:11px 12px;font-size:13px}}
