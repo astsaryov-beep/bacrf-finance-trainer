@@ -1,3 +1,10 @@
+## Подтверждение выпуска 5.0.21 beta · 25.10.2026
+
+- Содержание первого пакета опубликовано, [PR #26](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/26) MERGED; [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839971) и [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839723).
+- Browser-smoke и release-check включают регрессию пяти новых блоков, неизменность банка и замороженной версии. Далее работа T-02/T-12.
+
+---
+
 ## 5.0.21 beta · первый пакет учебного курса
 
 - Переработаны `S1-01-0/1`, `S1-02-0/1`, `S1-03-0`: объяснения с нуля, пошаговые механизмы, практические кейсы и вопросы на смысл инструментов.
