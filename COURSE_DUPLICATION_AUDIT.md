@@ -34,3 +34,10 @@
 - В академической проверке фиксировать соответствие исходной презентации, а не только совпадение терминов.
 
 **Статус этой версии до проверки CI/Pages:** IN_PROGRESS; итоговую строку VERIFIED добавлять отдельным новым checkpoint только после реальных PASS.
+
+## Подтверждение выпуска 5.0.23
+
+- [PR #30](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/30) MERGED.
+- [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40237606709) и [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40237606626).
+- 309 уникальных назначений вопросов, теоретические ответы `prep` и практика `qids` согласованы; исходный банк 275/19 и стабильная 5.0.8 неизменны.
+- Более широкий смысловой аудит 96 блоков остаётся открытым.
