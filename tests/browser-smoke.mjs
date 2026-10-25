@@ -42,7 +42,7 @@ try{
  await page.locator('.qa-learning-detail').nth(2).locator('summary').click();
  const costs=await page.locator('.qa-learning-detail').nth(2).textContent();
  assert.ok(costs.includes('нет универсальной ежедневной платы'),'no fictional daily short fee');
- assert.ok(costs.includes('фандинга')&&costs.includes('вариационная маржа'),'funding and margin clarified');
+ assert.ok(costs.includes('фандинга')&&costs.toLowerCase().includes('вариационная маржа'),'funding and margin clarified');
  await page.setViewportSize({width:390,height:844});
  const mobileLayout=await page.locator('.qa-scenario-grid').evaluate(el=>({
   cols:getComputedStyle(el).gridTemplateColumns.split(' ').length,
