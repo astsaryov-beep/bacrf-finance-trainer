@@ -35,6 +35,11 @@ window.optionsResult=function(q,r){return originalOptionsResult(q,r)+guideMarkup
 if(typeof originalRenderList==='function'){
  window.renderList=function(){
    originalRenderList();
+   const putCard=document.getElementById('catalog-V2-069');
+   if(putCard){
+     const base=BANK_MAP.get('V2-069');
+     if(base)putCard.innerHTML='<b>Исправленный образец:</b> '+esc(v2069Short)+'<p>'+esc(v2069Long)+'</p>'+exampleMarkup()+sourceText(base);
+   }
    Object.keys(QUESTION_FORMULA_IDS).forEach(function(id){
      const target=document.getElementById('catalog-'+id);
      if(target){const q=BANK_MAP.get(id);if(q)target.insertAdjacentHTML('beforeend',guideMarkup(q))}
