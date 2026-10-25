@@ -11,18 +11,21 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-02",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-02",
-  "last_verified_checkpoint": "CP-20261025-020",
-  "last_verified_commit": "4185f1538dcd250b80b00731877858fa83778b44",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839971",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839723",
+  "last_verified_checkpoint": "CP-20261025-022",
+  "last_verified_commit": "89df0afa396f2ac9645afa8640013f91e095c158",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40221976813",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40221976466",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
 ```
 <!-- STATE_JSON_END -->
+
+**5.0.22 beta VERIFIED (25.10.2026)**: [PR #28](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/28) MERGED; продуктовый commit `89df0afa396f2ac9645afa8640013f91e095c158`; [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40221976813), [GitHub Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40221976466). Подтверждены пять блоков S1-03-1, S1-04-0/1, S1-05-0/1. Всего в новом методическом цикле 10/96. Стабильная 5.0.8 и 275/19 исходных заданий не изменены. Далее T-02/T-01/T-12 с S1-06-0.
+
 
 **Рабочая версия 5.0.22 beta, PENDING:** переработаны следующие пять блоков учебного курса (`S1-03-1`…`S1-05-1`). Методически проработано в текущем цикле 10/96; текст семинара №1 сверялся на страницах 30–40 и 48–80, изображения 32, 49, 68, 78 просмотрены. До CI/Pages это не VERIFIED. Предыдущая подтверждённая 5.0.21 остаётся безопасной точкой.
 
