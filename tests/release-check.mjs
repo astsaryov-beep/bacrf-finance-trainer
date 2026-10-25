@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.14 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.15 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -19,6 +19,7 @@ function data(src,prefix){
 assert.match(html,/data-tab="strategies"/);
 assert.match(html,/src="strategies.js"/);
 assert.match(html,/href="strategies.css"/);
+assert.match(html,/href="course-sidebar.css"/,"compact course sidebar must load its CSS");
 const course=data(html,'const STUDY_LESSONS=');
 const stableBank=data(frozen,'const BANK=');
 const bank=data(html,'const BANK=');
@@ -158,4 +159,4 @@ assert.match(html,/FRI_PREP_DAYS/);
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.14: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS 5.0.15: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');

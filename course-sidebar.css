@@ -1,0 +1,33 @@
+/* T-06 · v5.0.15: course navigation shows four visible topics on standard laptops. */
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;margin:-1px!important;padding:0!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important}
+.study-head-top{display:flex;align-items:center;justify-content:space-between;gap:7px;min-width:0}
+.study-head-top>div{min-width:0}
+.study-head-top h2{font-size:18px!important;line-height:1.15!important;margin:3px 0 0!important}
+.study-head-top .study-kicker{font-size:10px;line-height:1.35;letter-spacing:0}
+.study-head-count{flex:none;border:1px solid #396977;border-radius:50px;padding:3px 7px;color:#c0e8e7;background:#1b4552;font-size:10px;font-weight:700;white-space:nowrap}
+.study-progress-compact{display:flex;align-items:center;gap:8px;margin-top:7px}
+.study-progress-compact .progress{margin:0;flex:1 1 55px;min-width:45px;height:5px}
+.study-progress-compact .tiny{font-size:10px;line-height:1.3;white-space:nowrap;color:#bad3dc}
+.study-head-about{margin-top:4px;font-size:11px;color:#afd1dc}
+.study-head-about summary{cursor:pointer;padding:1px 0;line-height:1.4;color:#a5d9d4}
+.study-head-about summary:hover,.study-head-about summary:focus-visible{color:#d8f9f4}
+.study-head-about p{font-size:11px;line-height:1.5;margin:6px 0!important;color:#bad3df}
+.study-left .study-head,.study-mobile-nav .study-head{padding:10px 12px!important}
+.study-left .fri-learning-summary,.study-mobile-nav .fri-learning-summary{display:flex!important;flex-wrap:wrap;column-gap:9px;row-gap:1px;padding:5px 9px;margin:4px 8px;font-size:10px;line-height:1.3}
+.study-left .fri-search-label,.study-mobile-nav .fri-search-label{display:block;margin:5px 8px;font-size:11px}
+.study-left .fri-study-search,.study-mobile-nav .fri-study-search{margin:0;padding:7px 9px;font-size:12px;min-height:33px}
+.study-left .study-source-shortcut,.study-mobile-nav .study-source-shortcut{margin:3px 8px}
+.study-left .study-source-shortcut .btn,.study-mobile-nav .study-source-shortcut .btn{font-size:11px;padding:5px 8px;min-height:28px;line-height:1.25;width:100%;text-align:left}
+.study-left .fri-expand-syllabus,.study-mobile-nav .fri-expand-syllabus{width:calc(100% - 16px);margin:3px 8px;padding:6px 9px;min-height:32px;font-size:11.5px}
+.study-left .study-menu{padding:4px 6px}
+.study-left .study-seminar-head,.study-mobile-nav .study-seminar-head{font-size:10px;line-height:1.35;padding:7px 7px 4px;letter-spacing:.04em}
+.study-left .study-item,.study-mobile-nav .study-item{padding:8px 8px;gap:7px;border-radius:9px;min-height:62px}
+.study-left .study-item b,.study-mobile-nav .study-item b{font:650 13px/1.36 'Inter',sans-serif;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.study-left .study-item small,.study-mobile-nav .study-item small{font-size:11px;line-height:1.3;margin-top:2px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.study-left .study-item>span,.study-mobile-nav .study-item>span{min-width:0;flex:1}
+.study-left .study-item em,.study-mobile-nav .study-item em{flex:none;padding:3px 6px;font-size:11px}
+@media(min-width:951px){
+ .study-left{height:calc(100dvh - 87px);max-height:calc(100dvh - 87px);top:76px}
+ .study-left .study-menu{flex:1 1 auto;min-height:220px;max-height:none;overflow-y:auto}
+}
+@media(max-width:950px){.study-mobile-nav .study-menu{max-height:min(75dvh,740px);overflow-y:auto}}
