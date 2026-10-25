@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.18 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.19 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -46,6 +46,36 @@ assert.match(feedback,/короткий фьючерс.*убыток/i);
 assert.match(feedback,/formulaQuestions:Object.keys\(QUESTION_FORMULA_IDS\).length/);
 assert.match(feedbackCss,/qa-scenario-grid/);
 assert.match(feedbackCss,/qa-learning-detail/);
+
+const futuresGuide=readFileSync(resolve(root,'futures-short-guide.js'),'utf8');
+const futuresCss=readFileSync(resolve(root,'futures-short-guide.css'),'utf8');
+new vm.Script(futuresGuide,{filename:'futures-short-guide.js'});
+assert.match(html,/src="futures-short-guide.js"/,'guide loaded in app');
+assert.match(html,/href="futures-short-guide.css"/,'guide stylesheet linked');
+assert.match(html,/futuresShortCourseMarkup\(l\.id,pos,'full'\)/,'foundations include futures short comparison');
+assert.match(html,/futuresShortCourseMarkup\(l\.id,pos,'brief'\)/,'exam summary includes short borrowing distinction');
+const futuresGuideMarkup=new Function(futuresGuide+'return futuresShortCourseMarkup;')();
+const shortVsShares=futuresGuideMarkup('S2-01',0,'full');
+const settlement=futuresGuideMarkup('S2-02',0,'full');
+assert.match(shortVsShares,/ШОРТ АКЦИИ/);
+assert.match(shortVsShares,/SHORT FUTURES/);
+assert.match(shortVsShares,/Занимаем акцию у брокера/);
+assert.match(shortVsShares,/но не аренда базовой акции/);
+assert.match(shortVsShares,/Открытие и исполнение — разные этапы/);
+assert.match(shortVsShares,/расчётного/i);
+assert.match(settlement,/Гарантийное обеспечение/);
+assert.match(settlement,/Вариационная маржа/);
+assert.match(settlement,/Фандинг/iu);
+assert.match(settlement,/нет обязательной ежедневной платы/);
+assert.match(settlement,/срочного фьючерса/);
+assert.equal(futuresGuideMarkup('S2-01',0,'brief').includes('заём и продажа'),true);
+assert.equal(futuresGuideMarkup('S2-02',0,'brief').includes('ГО'),true);
+assert.equal(futuresGuideMarkup('S1-07',0,'full'),'','do not add irrelevant widget to other courses');
+assert.match(futuresCss,/@media\(max-width:700px\)/);
+assert.match(futuresCss,/grid-template-columns:1fr/);
+assert.match(feedback,/futuresStudyLink\('S2-01'/,'open answer links to introductory theory');
+assert.match(feedback,/futuresStudyLink\('S2-02'/,'margin question links to futures settlement lesson');
+
 
 assert.match(feedback,/EXAM_HEDGE_BRIEFS/,'question answer overrides available');
 assert.match(feedback,/Базис B = F − S/,'basis disclosure');

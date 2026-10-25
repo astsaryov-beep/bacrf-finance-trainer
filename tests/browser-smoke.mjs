@@ -15,8 +15,44 @@ try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded',timeout:60000});
  await page.waitForSelector('[data-tab="learn"]',{timeout:25000});
 
+ // v5.0.19: the mechanism belongs in the course BEFORE exam questions.
+ await page.waitForFunction(()=>typeof window.futuresShortCourseMarkup==='function');
+ await page.locator('.top-tabs [data-tab="learn"]').click();
+ await page.locator('.study-left [data-studylesson="S2-01"]').click();
+ await page.locator('#v5FullBtn').click();
+ await page.waitForSelector('.fsc-grid');
+ assert.equal(await page.locator('.fsc-panel').count(),2,'stock short vs futures shown as adjacent cards');
+ const study01=await page.locator('.fsc-wrap').textContent();
+ assert.ok(study01.includes('Занимаем акцию у брокера'),'real stock short borrow explained');
+ assert.ok(study01.includes('но не аренда базовой акции'),'futures contract does not borrow underlying');
+ assert.ok(study01.includes('Открытие и исполнение — разные этапы'),'delivery caveat explained');
+ assert.ok(await page.locator('.fsc-disclosure').isVisible(),'optional delivery details available');
+ assert.equal(await page.locator('.fsc-disclosure[open]').count(),0,'advanced explanation is collapsed');
+ await page.locator('.fsc-disclosure>summary').first().click();
+ assert.ok((await page.locator('.fsc-disclosure').textContent()).toLowerCase().includes('расчётного'),'cash settlement described');
+ await page.locator('#v5BriefBtn').click();
+ assert.ok((await page.locator('.fsc-brief').textContent()).includes('фьючерса'),'exam summary available');
+ await page.locator('#v5FullBtn').click();
+ await page.setViewportSize({width:390,height:844});
+ assert.equal(await page.locator('.fsc-grid').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),1,'mobile short comparison is stacked');
+ assert.ok(await page.locator('.fsc-wrap').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'no overflow at 390px');
+ await page.screenshot({path:resolve(root,'test-artifacts','short-futures-basics-390.png'),fullPage:false});
+ await page.setViewportSize({width:320,height:640});
+ assert.ok(await page.locator('.fsc-wrap').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'no overflow at 320px');
+ await page.setViewportSize({width:1366,height:768});
+ await page.locator('.study-left [data-studylesson="S2-02"]').click();
+ await page.waitForSelector('.fsc-cash-grid');
+ assert.equal(await page.locator('.fsc-cash-grid article').count(),3,'GO, VM, and trade costs are distinct');
+ assert.ok((await page.locator('.fsc-wrap').textContent()).includes('нет обязательной ежедневной платы'),'no daily borrowing fee misconception');
+ await page.locator('.fsc-disclosure>summary').first().click();
+ assert.ok((await page.locator('.fsc-disclosure').first().textContent()).includes('получать'),'short can receive funding');
+ await page.locator('.fsc-disclosure>summary').nth(1).click();
+ assert.ok((await page.locator('.fsc-disclosure').nth(1).textContent()).includes('Поставочный'),'settlement distinction available');
+ await page.evaluate(()=>{tab='overview';render()});
+
+
  // v5.0.18: practical comparisons remain legible and accessible on phones.
- await page.waitForFunction(()=>window.peerFeedbackCheck?.version==='5.0.18');
+ await page.waitForFunction(()=>window.peerFeedbackCheck?.version==='5.0.19');
  assert.equal(await page.evaluate(()=>window.peerFeedbackCheck.formulaQuestions),35);
  await page.evaluate(()=>{
   session={version:2,ids:['V2-069'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
@@ -61,6 +97,7 @@ try{
  // The same corrected guidance must appear in the catalog and after completing the attempt.
  await page.evaluate(()=>{tab='catalog';catalogTerm='Почему покупка опциона put';render()});
  await page.locator('[data-open-answer="V2-069"]').click();
+ assert.equal(await page.locator('#catalog-V2-069 .fsc-study-link').count(),1,'V2-069 links to basic theory');
  const catalog069=await page.locator('#catalog-V2-069').textContent();
  assert.ok(catalog069.includes('100 → 130')&&catalog069.includes('Базис B = F − S'),'catalog uses enhanced answer');
  await page.evaluate(()=>{
@@ -85,7 +122,10 @@ try{
  assert.ok(mar.includes('Продажа самих акций не обязательна'),'no automatic stock liquidation');
  await page.evaluate(()=>{tab='catalog';catalogTerm='Фьючерсное хеджирование показывает';render()});
  await page.locator('[data-open-answer="V2-070"]').click();
+ assert.equal(await page.locator('#catalog-V2-070 .fsc-study-link').count(),1,'V2-070 links to margin theory');
  assert.ok((await page.locator('#catalog-V2-070').textContent()).includes('+2 ₽'),'catalog V2-070 updated');
+ await page.locator('#catalog-V2-070 .fsc-study-link').click();
+ assert.ok(await page.locator('.fsc-cash-grid').isVisible(),'question link opens matching S2-02 theory');
  await page.setViewportSize({width:1366,height:768});
  await page.evaluate(()=>{session=null;tab='overview';render()});
 
