@@ -11,18 +11,22 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-02",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-02",
-  "last_verified_checkpoint": "CP-20261025-018",
-  "last_verified_commit": "5b612acdb51341061857c20803f99c3ca003bd3e",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901408",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901078",
+  "last_verified_checkpoint": "CP-20261025-020",
+  "last_verified_commit": "4185f1538dcd250b80b00731877858fa83778b44",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839971",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839723",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
 ```
 <!-- STATE_JSON_END -->
+
+**5.0.21 beta VERIFIED (25.10.2026):** пакет из пяти первых учебных блоков семинара 1 опубликован. [PR #26](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/26) MERGED, продуктовый SHA `4185f1538dcd250b80b00731877858fa83778b44`, [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839971), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40213839723). Новая контрольная точка CP-20261025-020. Следом методическая вычитка следующего пакета (S1-03-1 и далее), параллельно академическая сверка T-01; 5/96 блоков отредактированы в этом цикле, не утверждать аудит всех 96.
+
+
 
 **Первый пакет методической вычитки 5.0.21 beta (T-02/T-12), IN_PROGRESS:** пять блоков `S1-01-0`, `S1-01-1`, `S1-02-0`, `S1-02-1`, `S1-03-0` исправлены по семинару №1. Введены пошаговые механизмы, жизненные ситуации, концептуальные вопросы и осторожные ограничения; формулы сохранены. До проверки CI и Pages это не VERIFIED.
 
