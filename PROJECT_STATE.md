@@ -11,30 +11,31 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-05",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261025-006",
-  "last_verified_commit": "cb84d6ae2d9916c98ea93157f29dc52fc3a742f5",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980643",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980344",
+  "last_verified_checkpoint": "CP-20261025-009",
+  "last_verified_commit": "70f3f8e78a752d3de2dba7e806750ef52ab4c514",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167358",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167255",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
 ```
 <!-- STATE_JSON_END -->
 
-## Текущий приоритет: T-05, замечания одногруппника (25.10.2026)
+## Завершённый приоритет: T-05, замечания одногруппника (25.10.2026)
 
-- Ветка `fix/v5.0.17-peer-feedback-20261025`; подготовлена **5.0.17 beta**, но пока **PENDING CI/Pages**. Предыдущий VERIFIED продукт остаётся 5.0.16.
+- Ветка `fix/v5.0.17-peer-feedback-20261025`; подготовлена **5.0.17 beta**, [PR #15](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/15) объединён, **CI и Pages SUCCESS**. Последний VERIFIED продукт — 5.0.17.
 - Исправлен отображаемый ответ по V2-069 без изменения базового банка 275/19: доказано, что short futures несёт убыток при росте, не сохраняет прирост акций, а margin call не означает обязательной продажи базового актива.
 - Добавлена расшифровка обозначений к 35 расчётным вопросам (19 типов формул), после ответа. Устранено повторение одинаковых краткого и развёрнутого текстов.
-- Добавлен браузерный регрессионный тест в Chromium для мобильного экрана и формул; фактический PASS ещё не получен.
+- Добавлен браузерный регрессионный тест в Chromium для мобильного экрана и формул; браузерный регрессионный тест PASS.
 - По завершении реакции на обратную связь вернуть приоритет T-01 и продолжить S1, страницы 13–32; первоисточники ВШЭ не переносить в публичный GitHub.
 
 ## Что фактически подтверждено
 
-- Последний полностью проверенный продуктовый релиз: **5.0.16 beta**, продуктовый коммит `cb84d6ae2d9916c98ea93157f29dc52fc3a742f5`. Обе проверки (release checks и GitHub Pages) завершились SUCCESS 25.10.2026: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980643), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980344).
+- **Текущий подтверждённый продукт:** **5.0.17 beta**, коммит `70f3f8e78a752d3de2dba7e806750ef52ab4c514`, [PR #15](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/15), [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167358), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167255); сохранены 275/19 и 5.0.8. Контрольная точка CP-20261025-009.
+- Последний полностью проверенный продуктовый релиз: **5.0.17 beta**, продуктовый коммит `cb84d6ae2d9916c98ea93157f29dc52fc3a742f5`. Обе проверки (release checks и GitHub Pages) завершились SUCCESS 25.10.2026: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980643), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980344).
 - Стабильная версия **5.0.8** неизменна; исходный основной банк 275 вопросов и 19 преподавательских сохранены.
 - В развивающейся версии есть 48 тем, 96 блоков, 84 разобранные формулы, 17 тематических соответствий дополнения, 45 новых ситуационных вопросов, 25 открытых, 15 схем, 10 интерактивных лабораторий, восьмидневный маршрут и интервальное повторение.
 - Коммит `46dc480…` — последняя **проверенная контрольная точка проекта**, а не SHA текущего документа. Приложение 5.0.13 опубликовано коммитом `46dc480…`. Стандарт T-08 уже подтверждён на main коммитом `8f2ecac1cc0c491e831b267dfa8f97a5ea995c5e`: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40130253692) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40130253225), оба SUCCESS. Новые изменения после этой точки нужно сверять с GitHub.
