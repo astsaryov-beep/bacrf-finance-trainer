@@ -1,3 +1,10 @@
+## 5.0.22 beta · подтверждённая публикация
+
+- Второй пакет S1-03-1 — S1-05-1 объединён в [PR #28](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/28), commit `89df0afa396f2ac9645afa8640013f91e095c158`.
+- [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40221976813), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40221976466). Банк и стабильная версия сохранены; методический прогресс 10/96.
+
+---
+
 ## 5.0.22 beta · второй пакет понятной теории
 
 - Синдицированный кредит, субординация и ковенанты; векселя, облигации и долговой ЦФА; купоны, put/call и амортизация; цепочка секьюритизации и распределение потерь по траншам.
