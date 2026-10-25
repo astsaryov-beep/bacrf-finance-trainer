@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.21 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.22 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -50,6 +50,25 @@ assert.match(master['S1-01-1'].mechanism.join(' '),/RUONIA.*RUSFAR/s);
 assert.match(master['S1-02-0'].application.join(' '),/не переходит банку автоматически/);
 assert.match(master['S1-02-1'].mechanism.join(' '),/не добавляет право на повторную выдачу/);
 assert.match(master['S1-03-0'].mechanism.join(' '),/CFADS.*DSCR/s);
+// v5.0.22: verify conceptual depth and factual mechanisms of the second five-block batch.
+const secondBatch=['S1-03-1','S1-04-0','S1-04-1','S1-05-0','S1-05-1'];
+for(const id of secondBatch){
+ const item=master[id],unit=legacy[id];
+ assert.ok(item&&unit,'reviewed block missing '+id);
+ assert.ok(unit.foundation.length>=160,'basic explanation missing '+id);
+ assert.equal(item.mechanism.length,3,'mechanism must have three steps '+id);
+ assert.ok(item.mechanism.every(s=>s.length>=140),'mechanism not explained '+id);
+ assert.ok(item.application[0].length>=180,'scenario missing '+id);
+ assert.ok(item.exercise[0].length>=160,'conceptual check missing '+id);
+ assert.ok(item.advanced[0].length>=170,'risk discussion missing '+id);
+ assert.match(item.sources,/Семинар 1/,'source missing '+id);
+}
+assert.match(master['S1-03-1'].mechanism.join(' '),/не всегда означает пропуск платежа/);
+assert.match(master['S1-04-0'].mechanism.join(' '),/акцепт создаёт обязательство трассата/);
+assert.match(master['S1-04-1'].mechanism.join(' '),/право эмитенту/);
+assert.match(master['S1-05-0'].exercise[0],/инвестор → SPV → оригинатор/);
+assert.match(master['S1-05-1'].application[0],/mezzanine — 15 млн/);
+assert.match(master['S1-05-1'].application[0],/потери достигнут 35 млн/);
 assert.equal(course.length,48);
 assert.equal(blocks.length,96);
 assert.equal(bank.length,275);

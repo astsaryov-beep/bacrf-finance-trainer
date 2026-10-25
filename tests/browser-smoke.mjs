@@ -30,6 +30,23 @@ try{
  assert.ok(await page.locator('.study-paper').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'revised course overflows on 320px');
  await page.setViewportSize({width:1366,height:768});
 
+ // v5.0.22: inspect next five revised learning blocks on desktop and mobile.
+ for(const id of ['S1-03-1','S1-04-0','S1-04-1','S1-05-0','S1-05-1']){
+  const lessonId=id.slice(0,-2),blockIndex=Number(id.at(-1));
+  await page.evaluate(({lessonId,blockIndex})=>goStudyLesson(lessonId,blockIndex),{lessonId,blockIndex});
+  await page.locator('#v5FullBtn').click();
+  const theory=await page.locator('.study-paper').textContent();
+  const keywords={'S1-03-1':'ковенант','S1-04-0':'вексел','S1-04-1':'Call','S1-05-0':'сервисер','S1-05-1':'mezzanine'};
+  assert.ok(theory.length>1000,'full theory absent '+id);
+  assert.ok(theory.toLowerCase().includes(keywords[id].toLowerCase()),'example absent '+id);
+  await page.locator('#v5BriefBtn').click();
+  assert.ok((await page.locator('.study-paper').textContent()).length>240,'digest absent '+id);
+ }
+ await page.setViewportSize({width:320,height:640});
+ await page.locator('#v5FullBtn').click();
+ assert.ok(await page.locator('.study-paper').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'course overflows 320px');
+ await page.setViewportSize({width:1366,height:768});
+
  // v5.0.19: the mechanism belongs in the course BEFORE exam questions.
  await page.waitForFunction(()=>typeof window.futuresShortCourseMarkup==='function');
  await page.locator('.top-tabs [data-tab="learn"]').click();
