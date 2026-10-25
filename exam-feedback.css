@@ -1,0 +1,14 @@
+/* v5.0.17: contextual formula explanations, option vs futures comparison */
+.qa-variable-guide{border:1px solid #3d6879;border-radius:14px;background:#143242;margin:17px 0;color:#e9f8fa;overflow:hidden}
+.qa-variable-guide summary{cursor:pointer;padding:14px 16px;font-weight:750;color:#91ebdc}
+.qa-variable-content{padding:0 17px 16px;font-size:14px}
+.qa-variable-content .qa-equation{font-family:'IBM Plex Mono',monospace;color:#a7f5e7;overflow-wrap:anywhere;white-space:normal;border-radius:9px;background:#0e2838;padding:10px 13px}
+.qa-variable-content p{margin:12px 0 4px;line-height:1.65}
+.qa-variable-content p.tiny{color:#bed8e3}
+.qa-hedge-example{margin:16px 0;border:1px solid #396677;background:#153241;color:#ebf7fc;border-radius:14px;padding:16px}
+.qa-hedge-example h4{color:#9cf4e2;margin:0 0 12px}
+.qa-hedge-example table{border-collapse:collapse;width:100%;font-size:13px}
+.qa-hedge-example th,.qa-hedge-example td{padding:10px 7px;text-align:left;border-bottom:1px solid #365e70;vertical-align:top}
+.qa-hedge-example th{color:#96eadd;font-weight:700}
+.qa-hedge-example p.tiny{color:#c1dae3;margin:12px 0 0;line-height:1.6}
+@media(max-width:550px){.qa-hedge-example{padding:12px}.qa-hedge-example table{font-size:12px}.qa-hedge-example th,.qa-hedge-example td{padding:7px 4px}.qa-variable-guide summary{padding:14px 12px}}
