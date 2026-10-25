@@ -41,3 +41,36 @@ body.strategy-active .layout{display:block}
 body.strategy-active .side{display:none!important}
 body.strategy-active .main{width:100%;max-width:none;min-width:0}
 body.strategy-active .strategy-page{max-width:1230px;margin:0 auto}
+
+/* 5.0.16: strategy explanations and answer checks embedded in course theory. */
+.fri-strategy-in-course{margin:22px 0;background:#102a3d;border:1px solid #356579;border-radius:16px;padding:clamp(12px,2vw,20px);color:#eaf6fb}
+.fri-strategy-top>span{font-size:11px;font-weight:800;letter-spacing:.09em;color:#79e0d2}
+.fri-strategy-top h3{font-size:22px;color:#fff;margin:6px 0 8px}
+.fri-strategy-top p{color:#c7dfe9;line-height:1.7;margin:0 0 13px}
+.fri-strategy-case{background:#163549;border:1px solid #3a6d80;border-radius:11px;margin:10px 0;overflow:hidden}
+.fri-strategy-case>summary{display:flex;align-items:center;gap:9px;font-weight:750;font-size:15px;line-height:1.5;color:#eafcff;padding:13px 15px;cursor:pointer}
+.fri-strategy-case[open]>summary{background:#215064;border-bottom:1px solid #47798c}
+.fri-strategy-case-index{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;background:#1a7781;color:#fff;width:26px;height:26px;flex:none;font-size:13px}
+.fri-strategy-case-content{padding:14px}
+.fri-strategy-learning-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+.fri-strategy-learning-columns>div{min-width:0}
+.fri-strategy-case h4{font-size:15px;color:#a2e6da;margin:13px 0 6px}
+.fri-strategy-case p{font-size:14px;color:#e2f3fa;line-height:1.7;margin:7px 0}
+.fri-strategy-worked{padding:12px 14px;background:#16475a;border-left:3px solid #88e1d2;border-radius:4px 9px 9px 4px}
+.fri-strategy-worked strong{color:#b0f8ed}
+.fri-strategy-in-course .strategy-chart{margin:0}
+.fri-strategy-formula,.fri-strategy-limits{padding:11px 13px;border:1px solid #4b7388;border-radius:9px;margin:12px 0;background:#133045}
+.fri-strategy-formula summary,.fri-strategy-limits summary{color:#9ee6dc;font-weight:700;cursor:pointer}
+.fri-strategy-formula .strategy-math{color:#adf0fc;overflow-wrap:anywhere;font-size:13px}
+.fri-strategy-miniquestion{background:#1a4457;padding:15px;border:1px solid #56869a;border-radius:10px;margin-top:16px}
+.fri-strategy-miniquestion h4{margin-top:0}
+.fri-strategy-answers{display:grid;gap:8px}
+.fri-strategy-answers button{background:#244e63;color:#f3fcff;border:1px solid #6b9aa6;border-radius:8px;padding:10px 12px;min-height:44px;cursor:pointer;text-align:left}
+.fri-strategy-answers button:hover,.fri-strategy-answers button:focus-visible{outline:2px solid #9ff2e5;outline-offset:1px}
+.fri-strategy-answers button[aria-pressed="true"]{border-color:#eacb84}
+.fri-strategy-answers button.fri-strategy-answer-correct{border-color:#7ae8b8}
+.fri-strategy-feedback{background:#123e35;color:#c4ffeb;border-radius:8px;padding:11px 12px;margin-top:9px;line-height:1.55}
+.fri-strategy-feedback.fri-strategy-feedback-wrong{background:#513830;color:#fff0d7}
+.fri-strategy-feedback[hidden]{display:none}
+.fri-strategy-source{font-size:12px!important;color:#b8cdd9!important}
+@media(max-width:760px){.fri-strategy-learning-columns{grid-template-columns:1fr}.fri-strategy-case-content{padding:10px}.fri-strategy-in-course{padding:11px}.fri-strategy-in-course .strategy-chart svg{min-height:0}}

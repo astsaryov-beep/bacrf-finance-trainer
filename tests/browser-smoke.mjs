@@ -14,28 +14,30 @@ page.on('pageerror',e=>console.error('PAGE ERROR:',e.message));
 try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded',timeout:60000});
  await page.waitForSelector('[data-tab="learn"]',{timeout:25000});
- // T-09: desktop strategy navigation, vector illustrations, and feedback.
- await page.locator('.top-tabs [data-tab="strategies"]').click();
- await page.waitForSelector('.strategy-page .strategy-panel');
- assert.equal(await page.locator('.side').evaluate(el=>getComputedStyle(el).display),'none','quiz sidebar hidden in strategy view');
- assert.equal(await page.locator('.strategy-picker button').count(),5,'five strategies in study module');
- assert.equal(await page.locator('.strategy-chart svg[role="img"]').count(),1,'SVG chart integrated');
- await page.locator('[data-strategy-answer="1"]').click();
- assert.ok((await page.locator('#strategyFeedback').textContent()).includes('Проверьте'),'incorrect answer explained');
- await page.locator('[data-strategy="flattener"]').click();
- assert.ok((await page.locator('.strategy-chart svg').getAttribute('aria-label')).includes('86'),'flattener chart');
- await page.locator('[data-strategy="credit"]').click();
- assert.ok((await page.locator('.strategy-panel').textContent()).includes('3,45 млн'),'credit corrected sign and result');
- await page.locator('[data-strategy="carry"]').click();
- assert.ok((await page.locator('.strategy-panel').textContent()).includes('0,90%'),'90-day carry arithmetic corrected');
- await page.locator('[data-strategy="asw"]').click();
- assert.ok((await page.locator('.strategy-panel').textContent()).includes('16,37%'),'ASW cash flow');
- await page.locator('details summary').last().click();
- assert.ok(await page.locator('.strategy-math').first().isVisible(),'expanded formula explanation');
- await page.evaluate(()=>window.scrollTo(0,0));
- await page.screenshot({path:resolve(root,'test-artifacts','strategies-desktop.png'),fullPage:false});
- await page.evaluate(()=>document.querySelector('[data-tab="learn"]').click());
+ // Content-first: the five financial strategy cases belong to four lessons.
+ assert.equal(await page.locator('.top-tabs [data-tab="strategies"]').count(),0,'no competing strategy tab');
+ await page.locator('.top-tabs [data-tab="learn"]').click();
  await page.waitForSelector('.study-shell',{timeout:25000});
+ await page.locator('.study-left [data-studylesson="S1-07"]').click();
+ await page.waitForSelector('.fri-strategy-case');
+ assert.equal(await page.locator('.fri-strategy-case').count(),2,'steepener and flattener included in duration lesson');
+ assert.ok((await page.locator('.fri-strategy-case').first().textContent()).includes('Steepener'));
+ const embeddedChart=page.locator('.fri-strategy-case').first().locator('svg[role="img"]');
+ assert.ok(await embeddedChart.isVisible(),'corrected diagram within lesson');
+ await page.locator('.fri-strategy-miniquestion').first().locator('[data-strategy-option="1"]').click();
+ assert.ok((await page.locator('.fri-strategy-feedback').first().textContent()).includes('Пока неверно'),'feedback on conceptual error');
+ await page.locator('.fri-strategy-miniquestion').first().locator('[data-strategy-option="0"]').click();
+ assert.ok((await page.locator('.fri-strategy-feedback').first().textContent()).includes('Верно'),'feedback on correct answer');
+ await page.locator('.fri-strategy-formula').first().locator('summary').click();
+ assert.ok(await page.locator('.fri-strategy-formula .strategy-math').first().isVisible(),'stepwise calculation available');
+ await page.screenshot({path:resolve(root,'test-artifacts','embedded-strategies-desktop.png'),fullPage:false});
+ for(const [id,pos,expected] of [['S1-09',0,'3,45 млн'],['S2-02',1,'0,90%'],['S2-06',0,'16,37%']]){
+  await page.locator('.study-left [data-studylesson="'+id+'"]').click();
+  if(pos)await page.locator('[data-studyblock="'+pos+'"]').first().click();
+  await page.waitForSelector('.fri-strategy-case');
+  assert.ok((await page.locator('.fri-strategy-case').first().textContent()).includes(expected),'case in related block '+id);
+  assert.ok(await page.locator('.fri-strategy-case').first().locator('svg').isVisible(),'illustration '+id);
+ }
  const nav=page.locator('.study-left');
  assert.ok(await nav.isVisible(),'desktop navigator visible');
  const dims=await page.locator('.study-left .study-menu').evaluate(el=>{
@@ -155,19 +157,16 @@ try{
  await page.setViewportSize({width:390,height:844});
  await page.reload({waitUntil:'domcontentloaded',timeout:60000});
  await page.evaluate(()=>document.querySelector('[data-tab="learn"]').click());
- // T-09: mobile navigation, no horizontal overflow or clipped SVG.
- await page.locator('.mobile-menu > summary').click();
- await page.locator('.mobile-tabs [data-tab="strategies"]').click();
- await page.waitForSelector('.strategy-chart svg');
- assert.equal(await page.locator('.side').evaluate(el=>getComputedStyle(el).display),'none','mobile quiz settings hidden in strategies');
- assert.ok(await page.locator('.strategy-picker').isVisible(),'mobile strategy selection');
- const chartBounds=await page.locator('.strategy-chart svg').evaluate(el=>({width:el.getBoundingClientRect().width,viewport:innerWidth,documentWidth:document.documentElement.scrollWidth}));
- assert.ok(chartBounds.width<chartBounds.viewport,'SVG fits 390px screen');
+ // Mobile strategy content is reachable within the existing course navigation.
+ await page.locator('.study-mobile-nav > summary').click();
+ await page.locator('.study-mobile-nav [data-studylesson="S1-07"]').click();
+ await page.waitForSelector('.fri-strategy-case svg');
+ const chartBounds=await page.locator('.fri-strategy-case svg').first().evaluate(el=>({width:el.getBoundingClientRect().width,viewport:innerWidth,documentWidth:document.documentElement.scrollWidth}));
+ assert.ok(chartBounds.width<chartBounds.viewport,'integrated 390px SVG fits mobile screen');
  assert.ok(chartBounds.documentWidth<=chartBounds.viewport+2,'no horizontal overflow '+JSON.stringify(chartBounds));
- await page.evaluate(()=>window.scrollTo(0,0));
- await page.screenshot({path:resolve(root,'test-artifacts','strategies-mobile.png'),fullPage:false});
- await page.locator('.mobile-menu > summary').click();
- await page.locator('.mobile-tabs [data-tab="learn"]').click();
+ await page.locator('.fri-strategy-miniquestion').first().locator('[data-strategy-option="0"]').click();
+ assert.ok((await page.locator('.fri-strategy-feedback').first().textContent()).includes('Верно'),'mobile interactive self-check');
+ await page.screenshot({path:resolve(root,'test-artifacts','embedded-strategies-mobile.png'),fullPage:false});
  await page.locator('.study-mobile-nav > summary').click();
  assert.ok(await page.locator('.study-mobile-nav .study-head').isVisible());
  await page.locator('.study-mobile-nav [data-open-syllabus]').click();

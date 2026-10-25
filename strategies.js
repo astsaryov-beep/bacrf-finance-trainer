@@ -88,3 +88,45 @@ function renderStrategies(){
  });
  const go=document.getElementById('strategyToCourse');if(go)go.onclick=()=>{if(typeof goStudyLesson==='function')goStudyLesson(c.ref,0)};
 }
+
+
+/* 5.0.16 · Strategies are taught inside the relevant course blocks.
+   The original five cases and exact SVG graphs remain the canonical content. */
+const FRI_STRATEGY_COURSE_MAP={
+ 'S1-07-0':['steepener','flattener'],
+ 'S1-09-0':['credit'],
+ 'S2-02-1':['carry'],
+ 'S2-06-0':['asw']
+};
+function friStrategyInlineMarkup(lessonId,pos){
+ const ids=FRI_STRATEGY_COURSE_MAP[lessonId+'-'+pos]||[];
+ if(!ids.length)return '';
+ return '<section class="fri-strategy-in-course" aria-label="Торговые стратегии в контексте темы"><div class="fri-strategy-top"><span>ПРИМЕНЯЕМ ТЕОРИЮ</span><h3>Торговые стратегии: разбор по шагам</h3><p>Сначала объясните себе, какую позицию открывает инвестор и почему. Затем изучите схему, раскройте расчёт и проверьте свой ответ.</p></div>'+
+ ids.map((id,i)=>{
+  const c=FRI_STRATEGY_CASES.find(x=>x.id===id);
+  if(!c)return '';
+  return '<details class="fri-strategy-case" '+(i===0?'open':'')+' data-strategy-case="'+strategyEsc(c.id)+'"><summary><span class="fri-strategy-case-index">'+(i+1)+'</span>'+strategyEsc(c.title)+'</summary><div class="fri-strategy-case-content"><div class="fri-strategy-learning-columns"><div><h4>С чего начинается решение</h4><p>'+strategyEsc(c.intro)+'</p><h4>Что происходит с ценами и позициями</h4><p>'+strategyEsc(c.mechanism)+'</p><div class="fri-strategy-worked"><strong>Пример с числами</strong><p>'+strategyEsc(c.example)+'</p></div></div><div><figure class="strategy-chart">'+strategyChart(c)+'<figcaption>Исправленная учебная схема, построенная по числовому сценарию. Цвета и композиция приближены к презентации.</figcaption></figure></div></div>'+
+  '<details class="fri-strategy-formula"><summary>Развернуть формулы и все шаги расчёта</summary>'+c.math.map((line,k)=>'<p class="strategy-math">'+(k+1)+'. '+strategyEsc(line)+'</p>').join('')+'<p>DV01: изменение стоимости позиции приблизительно на один базисный пункт доходности. 1 б.п. = 0,01 процентного пункта. Оценка по дюрации — приближение первого порядка.</p></details>'+
+  '<details class="fri-strategy-limits"><summary>Когда вывод перестаёт работать</summary><p>'+strategyEsc(c.advanced)+'</p><p>'+strategyEsc(c.risks)+'</p></details>'+
+  '<div class="fri-strategy-miniquestion" data-strategy-check="'+strategyEsc(c.id)+'"><h4>Проверьте понимание до раскрытия ответа</h4><p>'+strategyEsc(c.question)+'</p><div class="fri-strategy-answers">'+c.options.map((x,k)=>'<button type="button" data-strategy-option="'+k+'" aria-label="Вариант '+(k+1)+': '+strategyEsc(x)+'">'+strategyEsc(x)+'</button>').join('')+'</div><div class="fri-strategy-feedback" role="status" aria-live="polite" hidden></div></div>'+
+  '<p class="fri-strategy-source">'+strategyEsc(c.source)+' · учебный сценарий до комиссий и расходов, без гарантии финансового результата</p></div></details>';
+ }).join('')+'</section>';
+}
+function friBindStrategyInline(root){
+ root.querySelectorAll('.fri-strategy-miniquestion').forEach(section=>{
+  section.querySelectorAll('[data-strategy-option]').forEach(button=>button.addEventListener('click',()=>{
+   const c=FRI_STRATEGY_CASES.find(x=>x.id===section.dataset.strategyCheck);
+   if(!c)return;
+   const chosen=Number(button.dataset.strategyOption);
+   const correct=chosen===c.answer;
+   const feedback=section.querySelector('.fri-strategy-feedback');
+   feedback.hidden=false;
+   feedback.classList.toggle('fri-strategy-feedback-wrong',!correct);
+   feedback.textContent=(correct?'Верно. ':'Пока неверно. ')+c.why;
+   section.querySelectorAll('[data-strategy-option]').forEach(x=>{
+    x.setAttribute('aria-pressed',String(x===button));
+    x.classList.toggle('fri-strategy-answer-correct',Number(x.dataset.strategyOption)===c.answer);
+   });
+  }));
+ });
+}

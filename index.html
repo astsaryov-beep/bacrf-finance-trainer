@@ -2,7 +2,7 @@
 
 <html lang="ru"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="#081724" name="theme-color"/><title>Финансовые рынки и институты · Учебный тренажёр БАЦРФ</title>
-<meta name="trainer-version" content="5.0.15 beta"/><meta name="description" content="Учебный курс по финансовым рынкам и институтам: теория, понятные примеры, разбор формул, практические задания и пробный экзамен."/>
+<meta name="trainer-version" content="5.0.16 beta"/><meta name="description" content="Учебный курс по финансовым рынкам и институтам: теория, понятные примеры, разбор формул, практические задания и пробный экзамен."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#15253b;--mut:#63748c;--bg:#f3f6fa;--card:#ffffff;--edge:#dfe7ef;--blue:#1768c1;--blue2:#0e4d99;--teal:#087d83;--good:#11724f;--bad:#ad3c39;--shadow:0 8px 30px rgba(31,54,89,.08)}
@@ -433,7 +433,6 @@ body.study-active .main,body.app-overview .main,body.app-other .main{padding:0;b
 <div class="app-topbar"><a href="#" class="brand" id="brandHome" aria-label="На главную страницу тренажёра"><span class="brand-symbol">β</span><span><strong>БАЦРФ</strong><small>Финансовые рынки и институты</small></span></a><nav class="tabs top-tabs" aria-label="Разделы тренажёра">
 <button class="tab active" data-tab="overview">Обзор</button>
 <button class="tab" data-tab="learn">Учебный курс</button>
-<button class="tab" data-tab="strategies">Стратегии</button>
 <button class="tab" data-tab="quiz">Тренировка и экзамен</button>
 <button class="tab" data-tab="catalog">Каталог</button>
 <button class="tab" data-tab="stats">Прогресс</button>
@@ -441,12 +440,11 @@ body.study-active .main,body.app-overview .main,body.app-other .main{padding:0;b
 </nav><details class="mobile-menu"><summary>Разделы ▾</summary><nav class="tabs mobile-tabs" aria-label="Разделы тренажёра">
 <button class="tab active" data-tab="overview">Обзор</button>
 <button class="tab" data-tab="learn">Учебный курс</button>
-<button class="tab" data-tab="strategies">Стратегии</button>
 <button class="tab" data-tab="quiz">Тренировка и экзамен</button>
 <button class="tab" data-tab="catalog">Каталог</button>
 <button class="tab" data-tab="stats">Прогресс</button>
 <button class="tab" data-tab="sources">Источники</button><button class="tab" data-tab="about">О тренажёре</button>
-</nav></details><div class="topbar-meta"><span class="live-point"></span><span>Версия 5.0.15 beta</span></div></div>
+</nav></details><div class="topbar-meta"><span class="live-point"></span><span>Версия 5.0.16 beta</span></div></div>
 <section class="dashboard-head"><div class="bread">БАЦРФ &nbsp;›&nbsp; <b>Обзор обучения</b></div><div class="eyebrow" style="margin-top:19px">ПОДГОТОВКА К ЭКЗАМЕНУ</div><h1>Ваш план обучения</h1><p>Изучайте финансовые механизмы по материалам лекций и семинаров, закрепляйте знания в заданиях и отслеживайте результаты по темам.</p></section>
 <div class="stats" aria-label="Личные результаты"><div class="stat"><strong id="s-total">219</strong><span>вопросов в банке</span></div><div class="stat"><strong id="s-seen">0</strong><span>вопросов изучено</span></div><div class="stat"><strong id="s-good">0</strong><span>полных ответов в последней попытке</span></div><div class="stat"><strong id="s-wrong">0</strong><span>вопросов для повторения</span></div></div>
 <div class="layout"><aside class="side"><h2>Параметры тренировки</h2><div class="notice" hidden="" id="resumeBox"><b id="resumeTitle"></b><div class="btnrow"><button class="btn sm good" id="resumeBtn">Продолжить попытку</button></div></div>
@@ -806,16 +804,6 @@ function friKnowledgeRegistry(){
 }
 
 /* 5.0.12: topic navigator and optional revision route; keeps original learning links intact */
-const FRI_PREP_DAYS=[
- ['1. Система и регулирование',['R-01','R-02','R-03','R-04','R-05','R-06']],
- ['2. Казначейство и кредиты',['S1-01','S1-02','S1-03','S1-04']],
- ['3. Облигации и секьюритизация',['S1-05','S1-06','S1-07','S1-08','S1-09','S1-10']],
- ['4. Производные и валюты',['S2-01','S2-02','S2-03','S2-04','S2-05']],
- ['5. Хеджирование и опционы',['S2-06','S2-07','S2-08','S2-09','S2-10','S2-11']],
- ['6. Акции и анализ компаний',['E-01','E-02','E-03','E-04','E-05','E-06','E-07']],
- ['7. Портфель и финансовые институты',['E-08','E-09','E-10','E-11','E-12','E-13','INS-01','INS-02','INS-03']],
- ['8. Пенсии и дополнительные инструменты',['PEN-01','PEN-02','LEASE-01','FACTOR-01','MARKET-01']]
-];
 function friStrain(l){
  let wrong=0,attempts=0,checked=0;
  l.blocks.forEach((b,i)=>{
@@ -835,7 +823,7 @@ function friSyllabusItems(lessons,query=''){
 }
 function friOpenSyllabus(){
  let el=document.getElementById('friSyllabusDialog');
- if(!el){el=document.createElement('dialog');el.id='friSyllabusDialog';el.className='fri-syllabus-dialog';el.innerHTML='<div class="fri-syllabus-top"><div><h2>Все темы и план подготовки</h2><p>Поиск по названиям и понятиям. Основные сведения и прогресс остались в панели курса.</p></div><button type="button" class="fri-syllabus-close" data-fri-close>Закрыть ×</button></div><div class="fri-syllabus-tabs"><button data-fri-syllabus-mode="themes" aria-pressed="true">По разделам</button><button data-fri-syllabus-mode="days" aria-pressed="false">План из 8 дней</button><button data-fri-syllabus-mode="weak" aria-pressed="false">Ошибки</button><button data-fri-syllabus-mode="review" aria-pressed="false">Повторить сегодня</button><button data-fri-syllabus-mode="registry" aria-pressed="false">Термины и формулы</button><button data-fri-syllabus-mode="coverage" aria-pressed="false">Матрица 17 разделов</button></div><input class="fri-syllabus-search" type="search" placeholder="Поиск темы или понятия" aria-label="Поиск по темам"><div class="fri-syllabus-results"></div>';document.body.appendChild(el);
+ if(!el){el=document.createElement('dialog');el.id='friSyllabusDialog';el.className='fri-syllabus-dialog';el.innerHTML='<div class="fri-syllabus-top"><div><h2>Все темы курса</h2><p>Поиск по названиям и понятиям. Основные сведения и прогресс остались в панели курса.</p></div><button type="button" class="fri-syllabus-close" data-fri-close>Закрыть ×</button></div><div class="fri-syllabus-tabs"><button data-fri-syllabus-mode="themes" aria-pressed="true">По разделам</button><button data-fri-syllabus-mode="weak" aria-pressed="false">Ошибки</button><button data-fri-syllabus-mode="review" aria-pressed="false">Повторить сегодня</button><button data-fri-syllabus-mode="registry" aria-pressed="false">Термины и формулы</button><button data-fri-syllabus-mode="coverage" aria-pressed="false">Матрица 17 разделов</button></div><input class="fri-syllabus-search" type="search" placeholder="Поиск темы или понятия" aria-label="Поиск по темам"><div class="fri-syllabus-results"></div>';document.body.appendChild(el);
  el.addEventListener('click',e=>{if(e.target===el||e.target.closest('[data-fri-close]'))el.close();const topic=e.target.closest('[data-fri-syllabus-lesson]');if(topic){const fromCoverage=el.dataset.mode==='coverage';el.close();if(fromCoverage)studyTheoryView='insights';goStudyLesson(topic.dataset.friSyllabusLesson,Number(topic.dataset.friSyllabusBlock)||0);if(fromCoverage&&studyNav.phase!=='theory'){studyNav.phase='theory';persistStudy();render()}}const mode=e.target.closest('[data-fri-syllabus-mode]');if(mode){el.dataset.mode=mode.dataset.friSyllabusMode;friRenderSyllabus(el)}});
  el.querySelector('input').addEventListener('input',()=>friRenderSyllabus(el));
  }
@@ -854,8 +842,7 @@ function friRenderSyllabus(el){
   el.querySelector('.fri-syllabus-results').innerHTML='<p class="fri-registry-count">Всего: '+reg.length+' записей (понятия и формулы). '+(term?'Найдено: '+hits.length:'Показаны первые 75; введите термин для поиска.')+'</p>'+hits.map(x=>'<button type="button" class="fri-syllabus-topic" data-fri-syllabus-lesson="'+esc(x.lessonId)+'" data-fri-syllabus-block="'+x.pos+'"><small>'+esc(x.kind)+' · '+esc(x.lessonTitle)+'</small><strong>'+esc(x.title)+'</strong><span>'+esc(x.description.slice(0,200))+'</span></button>').join('');
   return;
  }
- if(mode==='days')FRI_PREP_DAYS.forEach(([label,ids])=>groups.push([label,ids.map(id=>STUDY_MAP.get(id)).filter(Boolean)]));
- else if(mode==='weak'){const weak=STUDY_LESSONS.filter(l=>friStrain(l).wrong>0).sort((a,b)=>friStrain(b).weight-friStrain(a).weight);groups.push(['Темы с последними ошибками',weak]);}
+ if(mode==='weak'){const weak=STUDY_LESSONS.filter(l=>friStrain(l).wrong>0).sort((a,b)=>friStrain(b).weight-friStrain(a).weight);groups.push(['Темы с последними ошибками',weak]);}
  else if(mode==='review'){const due=STUDY_LESSONS.filter(l=>friReviewStatus(l).due.length>0).sort((a,b)=>Math.min(...friReviewStatus(a).due.map(x=>x.dueAt))-Math.min(...friReviewStatus(b).due.map(x=>x.dueAt)));groups.push(['Запланированные повторения на сегодня',due]);}
  else for(let n=1;n<=8;n++)groups.push([studySourceLabel(n),STUDY_LESSONS.filter(l=>l.seminar===n)]);
  const result=groups.map(([label,items])=>{const buttons=friSyllabusItems(items,q);return buttons?'<section class="fri-syllabus-group"><h3>'+esc(label)+'</h3><div class="fri-syllabus-grid">'+buttons+'</div></section>':''}).filter(Boolean).join('');
@@ -979,7 +966,7 @@ function drawStudy(){const content=byId('content'),n=totalStudyCompleted(),total
   <details class="study-solutions" id="study-section-solutions"><summary>Разбор учебных заданий (${b.prep.length})</summary><div class="study-solutions-body"><p class="tiny">Ответы доступны для проверки после самостоятельного решения.</p>${b.prep.map((p,i)=>`<article class="study-solution"><h4>${i+1}. ${esc(p.question)}</h4><p><strong>Ответ:</strong> ${v5Emphasis(p.short,b)}</p>${p.explanation&&p.explanation!==p.short?`<p>${v5Emphasis(p.explanation,b)}</p>`:''}${p.note?`<p>${v5Emphasis(p.note,b)}</p>`:''}${p.rubric&&p.rubric.length?`<ul>${p.rubric.map(z=>`<li>${esc(z)}</li>`).join('')}</ul>`:''}</article>`).join('')}</div></details>
  </div>`;
  const active=['brief','insights'].includes(studyTheoryView)?studyTheoryView:'full';
- body+=`<div class="v5-learning"><div class="v5-view-switch" role="group" aria-label="Способ изучения материала"><button type="button" id="v5FullBtn" class="v5-view-btn ${active==='full'?'current':''}" aria-pressed="${active==='full'}">Подробная теория</button><button type="button" id="v5BriefBtn" class="v5-view-btn ${active==='brief'?'current':''}" aria-pressed="${active==='brief'}">Кратко к экзамену</button><button type="button" id="v5InsightBtn" class="v5-view-btn ${active==='insights'?'current':''}" aria-pressed="${active==='insights'}">Ловушки, сравнения и модели</button></div>${active==='brief'?digest:active==='insights'?friInsightMarkup(l,pos):full}${courseBlockProvenance(l,pos,master)}<div class="btnrow v5-actions"><button id="studyToPractice" class="btn good">Перейти к заданиям (${b.qids.length}) →</button>${pos>0?'<button id="studyPrevBlock" class="btn ghost">← Предыдущий блок</button>':''}</div></div>`;
+ body+=`<div class="v5-learning"><div class="v5-view-switch" role="group" aria-label="Способ изучения материала"><button type="button" id="v5FullBtn" class="v5-view-btn ${active==='full'?'current':''}" aria-pressed="${active==='full'}">Подробная теория</button><button type="button" id="v5BriefBtn" class="v5-view-btn ${active==='brief'?'current':''}" aria-pressed="${active==='brief'}">Кратко к экзамену</button><button type="button" id="v5InsightBtn" class="v5-view-btn ${active==='insights'?'current':''}" aria-pressed="${active==='insights'}">Ловушки, сравнения и модели</button></div>${active==='brief'?digest:active==='insights'?friInsightMarkup(l,pos):full}${typeof friStrategyInlineMarkup==='function'?friStrategyInlineMarkup(l.id,pos):''}${courseBlockProvenance(l,pos,master)}<div class="btnrow v5-actions"><button id="studyToPractice" class="btn good">Перейти к заданиям (${b.qids.length}) →</button>${pos>0?'<button id="studyPrevBlock" class="btn ghost">← Предыдущий блок</button>':''}</div></div>`;
  }
  if(studyNav.phase==='practice'){
   let q=getStudyQ();if(!q){body+='<p>Задание не найдено.</p>'}else{let a=getStudyAnswer(q.id);body+=`<div class="study-excounter">Вопрос ${studyNav.index+1} из ${b.qids.length}</div><div class="progress"><div class="bar" style="width:${100*studyNav.index/b.qids.length}%"></div></div>${studyQuestionMarkup(q)}${!a.checked?`<div class="btnrow"><button class="btn ghost" id="studyBackTheory">← К теории и примерам</button></div>`:''}${a.checked?`<div class="btnrow"><button class="btn good" id="studyNext">${studyNav.index===b.qids.length-1?'Завершить блок':'Следующий вопрос →'}</button><button class="btn ghost" id="studyBackTheory">Вернуться к теории</button></div>`:''}`} }
@@ -996,6 +983,7 @@ function drawStudy(){const content=byId('content'),n=totalStudyCompleted(),total
  if(byId('v5BriefBtn'))byId('v5BriefBtn').onclick=()=>{studyTheoryView='brief';drawStudy()};
  if(byId('v5InsightBtn'))byId('v5InsightBtn').onclick=()=>{studyTheoryView='insights';drawStudy()};
  friBindControls();
+ if(typeof friBindStrategyInline==='function')friBindStrategyInline(content);
  if(byId('studyToPractice'))byId('studyToPractice').onclick=()=>{studyNav.phase='practice';studyNav.index=0;persistStudy();render()};
  if(byId('studyPrevBlock'))byId('studyPrevBlock').onclick=()=>goStudyStartBlock(studyNav.block-1);
  if(byId('studyBackTheory'))byId('studyBackTheory').onclick=()=>{studyNav.phase='theory';persistStudy();render()};

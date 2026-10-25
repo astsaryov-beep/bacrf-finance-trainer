@@ -9,14 +9,14 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.15 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.16 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
  const end=src.indexOf(';\n',i);assert.ok(end>i,'terminator '+prefix);
  return JSON.parse(src.slice(i+prefix.length,end));
 }
-assert.match(html,/data-tab="strategies"/);
+assert.doesNotMatch(html,/data-tab="strategies"/,"strategies are part of course, not top-level tab");
 assert.match(html,/src="strategies.js"/);
 assert.match(html,/href="strategies.css"/);
 assert.match(html,/href="course-sidebar.css"/,"compact course sidebar must load its CSS");
@@ -155,8 +155,10 @@ for(const [kind,values] of Object.entries(boundary))for(const value of values){
 assert.equal(n,32);
 assert.match(html,/fri-expand-syllabus/);
 assert.match(html,/fri-syllabus-dialog/);
-assert.match(html,/FRI_PREP_DAYS/);
+assert.doesNotMatch(html,/FRI_PREP_DAYS|План из 8 дней/,"obsolete multi-day planner removed");
+assert.match(html,/friStrategyInlineMarkup\(l\.id,pos\)/,"strategies integrated into theory");
+assert.match(html,/friBindStrategyInline\(content\)/,"interactive question handlers connected");
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.15: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS 5.0.16: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
