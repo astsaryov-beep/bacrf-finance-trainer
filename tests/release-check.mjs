@@ -19,6 +19,7 @@ function data(src,prefix){
 assert.match(html,/data-tab="strategies"/);
 assert.match(html,/src="strategies.js"/);
 assert.match(html,/href="strategies.css"/);
+assert.match(html,/href="course-sidebar.css"/,"compact course sidebar must load its CSS");
 const course=data(html,'const STUDY_LESSONS=');
 const stableBank=data(frozen,'const BANK=');
 const bank=data(html,'const BANK=');
