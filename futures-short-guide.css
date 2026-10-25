@@ -1,0 +1,47 @@
+
+/* v5.0.19: clear visual separation between borrowed shares and a futures contract */
+.fsc-wrap{background:#112c3d;border:1px solid #345b70;border-radius:17px;margin:21px 0 24px;padding:19px;color:#e7f5f8;max-width:100%;overflow-wrap:anywhere}
+.fsc-heading{margin:0 0 16px}
+.fsc-kicker{font-size:11px;letter-spacing:.11em;text-transform:uppercase;font-weight:800;color:#8be1ce}
+.fsc-heading h4{font-size:19px;line-height:1.35;color:#f5feff;margin:6px 0 7px}
+.fsc-heading p{margin:0;color:#bfd8e1;line-height:1.65;font-size:14px}
+.fsc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.fsc-panel{background:#1b394b;border:1px solid #426578;border-top:4px solid #d3b478;padding:17px 16px;border-radius:13px;min-width:0;display:flex;flex-direction:column}
+.fsc-panel.fsc-contract{border-top-color:#73dbc5}
+.fsc-overline{font-size:11px;letter-spacing:.09em;font-weight:800;color:#eccb97}
+.fsc-contract .fsc-overline{color:#9ff1dc}
+.fsc-panel h5{font-size:17px;margin:7px 0 12px;color:#f2fcff;line-height:1.35}
+.fsc-steps{}.fsc-panel ol{padding-left:21px;margin:0 0 17px;font-size:14px;line-height:1.65}
+.fsc-panel li{margin:0 0 10px;padding-left:3px}
+.fsc-foot{margin-top:auto;border-top:1px solid #456979;padding-top:13px;font-size:13px}
+.fsc-foot b{color:#a5eddf}
+.fsc-foot p{margin:5px 0 0;line-height:1.6;color:#cfdee8}
+.fsc-conclusion{border-left:3px solid #6bd9c8;border-radius:4px 11px 11px 4px;background:#153f48;margin:16px 0 0;padding:13px 16px}
+.fsc-conclusion>b{display:block;color:#acfae7;margin-bottom:4px}
+.fsc-conclusion p{margin:0;line-height:1.65;font-size:14px}
+.fsc-disclosure{margin:11px 0 0;border:1px solid #3d6476;background:#173646;border-radius:11px;overflow:hidden}
+.fsc-disclosure>summary{padding:14px 15px;min-height:50px;color:#e3f4f7;font-size:14px;font-weight:700;cursor:pointer}
+.fsc-disclosure[open]>summary{background:#1d4353;border-bottom:1px solid #416878}
+.fsc-disclosure>div{padding:13px 16px 15px;color:#d4e5eb;font-size:14px;line-height:1.7}
+.fsc-disclosure>div p{margin:0 0 11px}
+.fsc-disclosure>div p:last-child{margin-bottom:0}
+.fsc-source{font-size:12px;color:#b1ccd6;margin:14px 0 0;line-height:1.65}
+.fsc-source a{color:#9bebdc;text-decoration:underline;text-underline-offset:3px}
+.fsc-cash-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.fsc-cash-grid article{border:1px solid #40687a;background:#193b4c;border-radius:12px;padding:13px;min-width:0}
+.fsc-num{display:inline-flex;background:#24515d;color:#9ae9d8;font:800 12px 'IBM Plex Mono',monospace;padding:5px 8px;border-radius:7px}
+.fsc-cash-grid h5{font-size:15px;color:#f4feff;margin:10px 0 8px;line-height:1.4}
+.fsc-cash-grid p{font-size:13px;color:#d0e0e9;line-height:1.65;margin:0}
+.fsc-brief{background:#123c45;border:1px solid #3a7976;border-left:4px solid #5cd5ba;color:#e0f9f5;border-radius:10px;padding:13px 15px;margin:15px 0;line-height:1.65;font-size:14px}
+.fsc-disclosure>summary:focus-visible,.fsc-source a:focus-visible{outline:3px solid #b1eee8;outline-offset:2px}
+.fsc-study-link{display:inline-flex;align-items:center;gap:7px;margin:14px 0 2px;border:1px solid #61b6a4;border-radius:11px;padding:11px 14px;background:#1b4a4c;color:#e1fff4;font-weight:750;font-size:14px;text-align:left;cursor:pointer}
+.fsc-study-link:hover{background:#24595a}
+.fsc-study-link:focus-visible{outline:3px solid #9bebdc;outline-offset:2px}
+@media(max-width:700px){
+ .fsc-wrap{padding:14px 12px;border-radius:13px;margin:16px 0}
+ .fsc-grid,.fsc-cash-grid{grid-template-columns:1fr}
+ .fsc-panel{padding:15px}
+ .fsc-heading h4{font-size:18px}
+ .fsc-disclosure>summary{padding:14px 12px}
+ .fsc-study-link{width:100%;justify-content:center}
+}
