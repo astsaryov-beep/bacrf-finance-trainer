@@ -35,3 +35,9 @@
 .strategy-links a{color:#9dd5ff}
 .strategy-root-back{margin-top:20px}
 @media(max-width:800px){.strategy-body{grid-template-columns:1fr}.strategy-page{padding:0 2px 40px}.strategy-panel{padding:12px}.strategy-picker button{flex:1 1 45%;font-size:13px}.strategy-chart svg{min-height:0}.strategy-info{padding:12px}}
+
+/* The exam settings sidebar belongs to quiz mode, not to the strategy reading view. */
+body.strategy-active .layout{display:block}
+body.strategy-active .side{display:none!important}
+body.strategy-active .main{width:100%;max-width:none;min-width:0}
+body.strategy-active .strategy-page{max-width:1230px;margin:0 auto}
