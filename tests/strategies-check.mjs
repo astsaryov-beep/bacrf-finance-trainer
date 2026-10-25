@@ -18,8 +18,19 @@ for(const e of c.cases){
  assert.ok(e.question.length>=40&&e.options.length===3,'missing question '+e.id);
  assert.ok(e.answer>=0&&e.answer<3&&e.why.length>=80,'invalid answer '+e.id);
 }
-assert.equal((html.match(/data-tab="strategies"/g)||[]).length,2,'desktop and mobile entry points');
-assert.match(html,/else if\(tab==='strategies'\)renderStrategies\(\)/);
+assert.equal((html.match(/data-tab="strategies"/g)||[]).length,0,"no duplicate top-level strategy section");
+assert.match(html,/friStrategyInlineMarkup\(l\.id,pos\)/);
+assert.match(html,/friBindStrategyInline\(content\)/);
+const inside=vm.runInNewContext(js+'\n({map:FRI_STRATEGY_COURSE_MAP,markup:friStrategyInlineMarkup,bind:friBindStrategyInline})');
+assert.deepEqual(Array.from(Object.keys(inside.map)).sort(),['S1-07-0','S1-09-0','S2-02-1','S2-06-0']);
+assert.equal((inside.markup('S1-07',0).match(/class="fri-strategy-case"/g)||[]).length,2);
+for(const [block,ids] of Object.entries(inside.map)){
+ const lesson=inside.markup(...[block.slice(0,block.lastIndexOf('-')),Number(block.slice(-1))]);
+ for(const id of ids)assert.ok(lesson.includes('data-strategy-check="'+id+'"'),'missing learning interaction '+id);
+ assert.match(lesson,/<svg/,'vectors embedded in study content');
+ assert.match(lesson,/Расчё|расчё|расчет|расчёт/,'worked financial computation');
+}
+assert.equal(inside.markup('S1-01',0),'','unrelated beginner topic must not display strategies');
 assert.match(css,/@media\(max-width:800px\)/,'mobile style');
 for(const svg of [c.curve(false),c.curve(true),c.credit(),c.basis(),c.asw()]){
  assert.match(svg,/^<svg/);assert.match(svg,/role="img"/);assert.match(svg,/<\/svg>$/);
