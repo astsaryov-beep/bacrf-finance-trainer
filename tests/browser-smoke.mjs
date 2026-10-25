@@ -62,12 +62,14 @@ try{
    sources:!!document.querySelector('.study-left [data-open-course-sources]')};
   });
  };
- for(const height of [768,720]){
-  await page.setViewportSize({width:1366,height});
+ for(const [width,height] of [[1366,768],[1366,720],[1024,720],[960,720]]){
+  await page.setViewportSize({width,height});
   const check=await sidebarFit();
   assert.ok(check.visible>=4,'Need at least four full topic rows without scrolling: '+JSON.stringify(check));
   assert.ok(check.details&&check.search&&check.sources,'sidebar utilities remain available');
-  await page.screenshot({path:resolve(root,'test-artifacts','topics-'+height+'.png'),fullPage:false});
+  assert.ok(check.firstFour[0].subtitle.length>30,'subtitle retained as actual content');
+  assert.ok((await page.locator('.study-left .study-item').first().getAttribute('title')).includes(check.firstFour[0].subtitle),'full subtitle available on hover');
+  await page.screenshot({path:resolve(root,'test-artifacts','topics-'+width+'x'+height+'.png'),fullPage:false});
  }
  await page.setViewportSize({width:1366,height:768});
  await page.locator('.study-left .study-head-about summary').click();
