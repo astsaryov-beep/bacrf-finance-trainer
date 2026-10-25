@@ -1,3 +1,8 @@
+## Подтверждение 5.0.20 beta · 25.10.2026
+
+- Выпуск #24 проверен: [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901408), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901078).
+- Новые заметки по экзамену проверены в краткой и полной теории, мобильный Chromium 320 px. Следующий приоритет T-02/T-01/T-12.
+---
 # История обновлений
 
 ## 5.0.20 beta · Ненавязчивые подсказки об экзамене

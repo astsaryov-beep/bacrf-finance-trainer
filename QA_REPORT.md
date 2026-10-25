@@ -1,3 +1,13 @@
+## v5.0.20 · Фактическая проверка, 25.10.2026
+
+- **PASS:** [CI в PR #24](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210832033) и [CI main](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901408), все контрольные задания verify/browser SUCCESS.
+- **PASS:** browser-smoke в Chromium проверил сообщения E-13, отличие РЕПО от исключённой темы, сообщение о расчётах в S1-01, отсутствие горизонтального переполнения заметки при ширине 320 px.
+- **PASS:** тест 96 учебных блоков, 84 формул, 275 исходных/19 преподавательских вопросов, сохранённой 5.0.8.
+- **PASS:** [GitHub Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901078) SUCCESS для продуктового коммита `5b612acdb51341061857c20803f99c3ca003bd3e`.
+- **Ограничение:** проверки Chromium и статические; нативный iPhone Safari и полная академическая вычитка всех 96 блоков остаются открытыми.
+
+---
+
 # QA — 5.0.19 beta · шорт фьючерса и заём акций, VERIFIED
 
 ## v5.0.20 · План QA небольших экзаменационных примечаний

@@ -11,18 +11,22 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-11",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-02",
-  "last_verified_checkpoint": "CP-20261025-015",
-  "last_verified_commit": "80024e9ded95259cd5ba1e96450dac4e1726004d",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196778529",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196777829",
+  "last_verified_checkpoint": "CP-20261025-018",
+  "last_verified_commit": "5b612acdb51341061857c20803f99c3ca003bd3e",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901408",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901078",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
 ```
 <!-- STATE_JSON_END -->
+
+**Текущий подтверждённый релиз: 5.0.20 beta, VERIFIED (25.10.2026).** [PR #24](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/24) MERGED, основной коммит `5b612acdb51341061857c20803f99c3ca003bd3e`; [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901408), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40210901078). Пометки в E-13 и формульных блоках проверены в браузере и на узком экране. 275/19, v5.0.8 и режим экзамена не затронуты. Следом T-02/T-01/T-12 (содержание учебных материалов).
+
+
 
 **Последнее уточнение приоритетов 25.10.2026:** см. D-012 / T-12. Главный приоритет — понятность и академическая корректность учебного курса (T-02/T-01); T-11 ограничен небольшими заметками внутри учебных материалов. Фильтрация и перестройка экзаменационного режима отменены как текущая задача. Изменений приложения в 5.0.19 пока нет.
 
