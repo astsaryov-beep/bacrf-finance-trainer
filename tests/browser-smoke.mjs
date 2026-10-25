@@ -46,6 +46,34 @@ try{
  assert.equal(dims.overflow,'auto');
  assert.ok(await page.locator('.study-left .study-head').isVisible(),'header stays visible');
  assert.ok(await page.locator('.study-left .study-source-shortcut').isVisible(),'sources stay visible');
+ // 5.0.15: at least four FULL topic rows are visible before scrolling.
+ const sidebarFit=async()=>{
+  return page.locator('.study-left .study-menu').evaluate(menu=>{
+   const bounds=menu.getBoundingClientRect();
+   const entries=[...menu.querySelectorAll('.study-item')];
+   return {viewport:innerHeight,width:innerWidth,menuHeight:menu.clientHeight,visible:entries.filter(e=>{
+    const r=e.getBoundingClientRect();
+    return r.top>=bounds.top-1&&r.bottom<=bounds.bottom+1;
+   }).length,firstFour:entries.slice(0,4).map(e=>{
+    const r=e.getBoundingClientRect();
+    return {top:Math.round(r.top),bottom:Math.round(r.bottom),title:e.querySelector('b')?.textContent,subtitle:e.querySelector('small')?.textContent};
+   }),details:!!document.querySelector('.study-left .study-head-about'),
+   search:!!document.querySelector('.study-left [data-fri-search-input]'),
+   sources:!!document.querySelector('.study-left [data-open-course-sources]')};
+  });
+ };
+ for(const height of [768,720]){
+  await page.setViewportSize({width:1366,height});
+  const check=await sidebarFit();
+  assert.ok(check.visible>=4,'Need at least four full topic rows without scrolling: '+JSON.stringify(check));
+  assert.ok(check.details&&check.search&&check.sources,'sidebar utilities remain available');
+  await page.screenshot({path:resolve(root,'test-artifacts','topics-'+height+'.png'),fullPage:false});
+ }
+ await page.setViewportSize({width:1366,height:768});
+ await page.locator('.study-left .study-head-about summary').click();
+ assert.ok((await page.locator('.study-left .study-head-about p').textContent()).includes('Прогресс сохраняется'),'full explanation retained');
+ await page.locator('.study-left .study-head-about summary').click();
+
  await page.locator('.study-left [data-open-syllabus]').click();
  await page.waitForSelector('dialog.fri-syllabus-dialog[open]');
  await page.locator('dialog [data-fri-syllabus-mode="coverage"]').click();
