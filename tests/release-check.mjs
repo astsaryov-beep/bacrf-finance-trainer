@@ -62,7 +62,7 @@ assert.match(shortVsShares,/SHORT FUTURES/);
 assert.match(shortVsShares,/Занимаем акцию у брокера/);
 assert.match(shortVsShares,/но не аренда базовой акции/);
 assert.match(shortVsShares,/Открытие и исполнение — разные этапы/);
-assert.match(shortVsShares,/Расчётного/);
+assert.match(shortVsShares,/расчётного/i);
 assert.match(settlement,/Гарантийное обеспечение/);
 assert.match(settlement,/Вариационная маржа/);
 assert.match(settlement,/Фандинг/iu);
