@@ -15,38 +15,77 @@ try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded',timeout:60000});
  await page.waitForSelector('[data-tab="learn"]',{timeout:25000});
 
- // v5.0.17: feedback after practice should distinguish option upside from futures downside.
- await page.waitForFunction(()=>window.peerFeedbackCheck?.version==='5.0.17');
- assert.ok((await page.evaluate(()=>window.peerFeedbackCheck.formulaQuestions))>=30);
+ // v5.0.18: practical comparisons remain legible and accessible on phones.
+ await page.waitForFunction(()=>window.peerFeedbackCheck?.version==='5.0.18');
+ assert.equal(await page.evaluate(()=>window.peerFeedbackCheck.formulaQuestions),35);
  await page.evaluate(()=>{
-  session={version:3,ids:['V2-069'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
+  session={version:2,ids:['V2-069'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
   tab='quiz';render();
  });
- await page.locator('#freeText').fill('Put сохраняет рост, фьючерс может дать убыток.');
+ await page.locator('#freeText').fill('Пут сохраняет выгоду от роста за премию, short futures компенсирует рост убытком.');
  await page.locator('#check').click();
- assert.equal(await page.locator('.feedback').count(),2,'distinct brief and expanded feedback');
- const hedge=await page.locator('.qa-hedge-example').textContent();
- assert.ok(hedge.includes('−5 руб.')&&hedge.includes('+25 руб.'),'hedge scenarios shown');
- assert.ok((await page.locator('#content').textContent()).includes('фьючерс теряет 30 руб.'),'short futures loss on rising prices explained');
- assert.ok((await page.locator('#content').textContent()).includes('не обязательно выступают залогом'),'underlying is not automatic margin');
+ assert.equal(await page.locator('.qa-brief').count(),1,'compact exam summary once');
+ assert.equal(await page.locator('.qa-hedge-lesson').count(),1,'put vs futures exercise shown once');
+ assert.equal(await page.locator('.qa-scenario').count(),2,'two market scenarios');
+ const comparison=await page.locator('.qa-scenario-grid').textContent();
+ for(const expected of ['100 → 70','100 → 130','−5 ₽','+25 ₽','≈ 0 ₽','фьючерс теряет 30 ₽']){
+  assert.ok(comparison.includes(expected),'missing hedge scenario: '+expected);
+ }
+ assert.equal(await page.locator('.qa-learning-detail').count(),3,'strike, basis, and costs are optional details');
+ assert.equal(await page.locator('.qa-learning-detail[open]').count(),0,'advanced sections collapsed by default');
+ const wideColumns=await page.locator('.qa-scenario-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length);
+ assert.equal(wideColumns,2,'desktop scenarios side by side');
+ await page.locator('.qa-learning-detail').nth(0).locator('summary').click();
+ assert.ok((await page.locator('.qa-learning-detail').nth(0).textContent()).includes('88 ₽'),'strike example renders');
+ await page.locator('.qa-learning-detail').nth(1).locator('summary').click();
+ assert.ok((await page.locator('.qa-learning-detail').nth(1).textContent()).includes('Базис B = F − S'),'basis formula renders');
+ await page.locator('.qa-learning-detail').nth(2).locator('summary').click();
+ const costs=await page.locator('.qa-learning-detail').nth(2).textContent();
+ assert.ok(costs.includes('нет универсальной ежедневной платы'),'no fictional daily short fee');
+ assert.ok(costs.includes('фандинга')&&costs.toLowerCase().includes('вариационная маржа'),'funding and margin clarified');
  await page.setViewportSize({width:390,height:844});
- assert.ok(await page.locator('.qa-hedge-example').isVisible(),'mobile hedge scenario visible');
- await page.screenshot({path:resolve(root,'test-artifacts','put-vs-futures-mobile.png'),fullPage:false});
+ const mobileLayout=await page.locator('.qa-scenario-grid').evaluate(el=>({
+  cols:getComputedStyle(el).gridTemplateColumns.split(' ').length,
+  right:el.getBoundingClientRect().right,
+  viewport:innerWidth
+ }));
+ assert.equal(mobileLayout.cols,1,'phone scenarios are stacked');
+ assert.ok(mobileLayout.right<=mobileLayout.viewport+1,'no mobile overflow: '+JSON.stringify(mobileLayout));
+ const tapHeight=await page.locator('.qa-learning-detail').first().locator('summary').evaluate(el=>el.getBoundingClientRect().height);
+ assert.ok(tapHeight>=50,'touch disclosure target tall enough');
+ await page.screenshot({path:resolve(root,'test-artifacts','hedge-069-390-mobile.png'),fullPage:false});
+ await page.setViewportSize({width:320,height:640});
+ const narrow=await page.locator('.qa-scenario-grid').evaluate(el=>el.getBoundingClientRect().right<=innerWidth+1);
+ assert.ok(narrow,'no overflow for 320px viewport');
 
+ // The same corrected guidance must appear in the catalog and after completing the attempt.
  await page.evaluate(()=>{tab='catalog';catalogTerm='Почему покупка опциона put';render()});
  await page.locator('[data-open-answer="V2-069"]').click();
- const catalogAnswer=await page.locator('#catalog-V2-069').textContent();
- assert.ok(catalogAnswer.includes('короткий фьючерс')&&catalogAnswer.includes('убыток'),'catalog contains updated short futures answer');
- assert.ok(catalogAnswer.includes('100 → 130'),'catalog explains rising-price scenario');
-
+ const catalog069=await page.locator('#catalog-V2-069').textContent();
+ assert.ok(catalog069.includes('100 → 130')&&catalog069.includes('Базис B = F − S'),'catalog uses enhanced answer');
  await page.evaluate(()=>{
-  session={version:3,ids:['EXN-D03'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
+  session={version:2,ids:['V2-069'],mode:'practice',pos:0,
+   responses:{'V2-069':{text:'Верно',confidence:2,checked:true,revealed:true}},grades:{'V2-069':{score:1,strict:true,points:3,total:3}},orders:{},
+   done:true,started:Date.now(),deadline:null,recorded:{}};
   tab='quiz';render();
  });
- await page.locator('#freeText').fill('-2,4');
+ assert.ok(await page.locator('.qa-scenario-grid').isVisible(),'result review uses improved answer');
+
+ // V2-070 must separately teach liquidity and forced close, not duplicate V2-069.
+ await page.evaluate(()=>{
+  session={version:2,ids:['V2-070'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
+  tab='quiz';render();
+ });
+ await page.locator('#freeText').fill('Прибыль по акции может быть нереализованной, а маржу нужно оплатить сейчас.');
  await page.locator('#check').click();
- assert.ok(await page.locator('.qa-variable-guide').isVisible(),'formula variable guide after numeric answer');
- assert.ok((await page.locator('.qa-variable-guide').textContent()).includes('MD'),'duration variables explained');
+ assert.equal(await page.locator('.qa-timeline-step').count(),3,'three-stage forced-close timeline');
+ const mar=await page.locator('.qa-margin-lesson').textContent();
+ assert.ok(mar.includes('+2 ₽')&&mar.includes('−30 ₽'),'hold vs forced close math');
+ assert.ok(mar.includes('Акция выросла на +20 ₽'),'unrealized stock gains not instantly cash');
+ assert.ok(mar.includes('Продажа самих акций не обязательна'),'no automatic stock liquidation');
+ await page.evaluate(()=>{tab='catalog';catalogTerm='Фьючерсное хеджирование показывает';render()});
+ await page.locator('[data-open-answer="V2-070"]').click();
+ assert.ok((await page.locator('#catalog-V2-070').textContent()).includes('+2 ₽'),'catalog V2-070 updated');
  await page.setViewportSize({width:1366,height:768});
  await page.evaluate(()=>{session=null;tab='overview';render()});
 
