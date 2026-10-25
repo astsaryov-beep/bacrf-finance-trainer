@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.17 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.18 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -40,10 +40,12 @@ new vm.Script(feedback,{filename:'exam-feedback.js'});
 assert.match(html,/src="exam-feedback.js"/,'post-answer helper loaded');
 assert.match(html,/href="exam-feedback.css"/,'mobile feedback CSS loaded');
 assert.match(feedback,/V2-069/,'put/futures feedback included');
-assert.match(feedback,/фьючерсная позиция требует гарантийного обеспечения/i);
+assert.match(feedback,/вариационная маржа/i);
+assert.match(feedback,/V2-070/);
 assert.match(feedback,/короткий фьючерс.*убыток/i);
 assert.match(feedback,/formulaQuestions:Object.keys\(QUESTION_FORMULA_IDS\).length/);
-assert.match(feedbackCss,/qa-hedge-example/);
+assert.match(feedbackCss,/qa-scenario-grid/);
+assert.match(feedbackCss,/qa-learning-detail/);
 
 assert.equal(bank.filter(x=>x.origin==='original').length,19);
 assert.equal(Object.keys(legacy).length,96);
