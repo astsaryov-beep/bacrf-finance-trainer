@@ -47,6 +47,27 @@ try{
  assert.ok(await page.locator('.study-paper').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'course overflows 320px');
  await page.setViewportSize({width:1366,height:768});
 
+ // v5.0.23: late themes test new ideas, not a second copy of definitions.
+ await page.evaluate(()=>goStudyLesson('E-09',1));
+ await page.locator('#v5FullBtn').click();
+ assert.ok((await page.locator('.study-paper').textContent()).includes('реальный фонд'),'equity index lesson focuses on fund tracking');
+ await page.locator('#studyToPractice').click();
+ assert.equal(await page.locator('.study-excounter').textContent(),'Вопрос 1 из 2');
+ assert.ok((await page.locator('.study-task h3').textContent()).includes('ценовой индекс акций снизился'),'index quiz is not repeated definition');
+ await page.evaluate(()=>goStudyLesson('E-10',0));
+ await page.locator('#v5FullBtn').click();
+ const portfolio=await page.locator('.study-paper').textContent();
+ assert.ok(portfolio.includes('ковариаци'),'advanced portfolio risk example present');
+ await page.locator('#studyToPractice').click();
+ assert.ok(await page.locator('.study-task').isVisible(),'later block still has practice');
+ await page.evaluate(()=>goStudyLesson('S1-10',0));
+ await page.locator('#studyToPractice').click();
+ assert.ok((await page.locator('.study-task').textContent()).length>100,'changed duplicate assignment leaves usable lessons');
+ await page.evaluate(()=>goStudyLesson('S2-10',0));
+ await page.locator('#studyToPractice').click();
+ assert.ok(!(await page.locator('.study-task h3').textContent()).includes('Как обычно влияет увеличение ожидаемой волатильности'),'duplicate volatility question not recycled');
+ await page.evaluate(()=>{tab='overview';render()});
+
  // v5.0.19: the mechanism belongs in the course BEFORE exam questions.
  await page.waitForFunction(()=>typeof window.futuresShortCourseMarkup==='function');
  await page.locator('.top-tabs [data-tab="learn"]').click();

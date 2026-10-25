@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.22 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.23 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -30,6 +30,31 @@ const diagrams=data(html,'const FRI_DIAGRAMS=');
 const fallback=data(html,'const FRI_TRAP_FALLBACK=');
 const supplements=data(html,'const FRI_TOPIC_SUPPLEMENTS=');
 const blocks=course.flatMap(l=>l.blocks.map((b,pos)=>({l,b,pos,id:l.id+'-'+pos})));
+
+/* Repeated exam-bank IDs remain in the bank but must not reappear in the
+   sequential learning route (theory solutions and live practice agree). */
+const seenCourseIds=new Map();
+for(const {id,b} of blocks){
+ assert.ok(b.qids.length>=1,'empty practice block '+id);
+ assert.equal(b.prep.length,b.qids.length,'theory/practice counts diverged '+id);
+ assert.deepEqual(b.prep.map(q=>q.id),b.qids,'theory/practice IDs diverged '+id);
+ for(const qid of b.qids){
+  assert.ok(!seenCourseIds.has(qid),'repeated study question '+qid+' in '+seenCourseIds.get(qid)+' and '+id);
+  seenCourseIds.set(qid,id);
+ }
+}
+const extras=data(html,'const STUDY_EXTRAS=');
+for(const id of ['S3-008','S3-008O','S3-009O']){
+ const x=extras.find(q=>q.id===id),p=blocks.flatMap(x=>x.b.prep).find(q=>q.id===id);
+ assert.ok(x&&p,'missing advanced practice '+id);
+ assert.equal(x.question,p.question,'theory and practice wording differs '+id);
+}
+assert.match(extras.find(x=>x.id==='S3-008').question,/ценовой индекс.*снизился.*индекс полной доходности вырос/);
+assert.match(extras.find(x=>x.id==='S3-008O').question,/реального индексного фонда/);
+assert.match(extras.find(x=>x.id==='S3-009O').question,/портфелей схожая ожидаемая доходность/);
+const academic=data(html,'const STUDY_MASTER = ');
+for(const id of ['E-07-1','E-09-1','E-10-0'])assert.ok(academic[id].foundation[0].length>110,'lesson focus unclear '+id);
+
 // v5.0.21: independent checks of the first five concept-first explanations.
 const master=data(html,'const STUDY_MASTER = ');
 const editedLessonIds=['S1-01-0','S1-01-1','S1-02-0','S1-02-1','S1-03-0'];
