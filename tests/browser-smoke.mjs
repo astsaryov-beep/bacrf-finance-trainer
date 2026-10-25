@@ -15,6 +15,21 @@ try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded',timeout:60000});
  await page.waitForSelector('[data-tab="learn"]',{timeout:25000});
 
+ // v5.0.21: first five lessons are readable in course, including on mobile.
+ await page.locator('.top-tabs [data-tab="learn"]').click();
+ for(const id of ['S1-01-0','S1-01-1','S1-02-0','S1-02-1','S1-03-0']){
+  const [lessonId,blockIndex]=[id.slice(0,-2),Number(id.at(-1))];
+  await page.evaluate(({lessonId,blockIndex})=>goStudyLesson(lessonId,blockIndex),{lessonId,blockIndex});
+  await page.locator('#v5FullBtn').click();
+  const body=await page.locator('.study-paper').textContent();
+  assert.ok(body.length>900,'full theory absent '+id);
+  const required={'S1-01-0':'Прибыль','S1-01-1':'RUONIA','S1-02-0':'Пекарн','S1-02-1':'транш','S1-03-0':'электростанц'}[id];
+  assert.ok(body.toLowerCase().includes(required.toLowerCase()),'new practical case unavailable '+id);
+ }
+ await page.setViewportSize({width:320,height:640});
+ assert.ok(await page.locator('.study-paper').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'revised course overflows on 320px');
+ await page.setViewportSize({width:1366,height:768});
+
  // v5.0.19: the mechanism belongs in the course BEFORE exam questions.
  await page.waitForFunction(()=>typeof window.futuresShortCourseMarkup==='function');
  await page.locator('.top-tabs [data-tab="learn"]').click();
