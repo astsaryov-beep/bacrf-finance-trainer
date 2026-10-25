@@ -47,6 +47,28 @@ assert.match(feedback,/formulaQuestions:Object.keys\(QUESTION_FORMULA_IDS\).leng
 assert.match(feedbackCss,/qa-scenario-grid/);
 assert.match(feedbackCss,/qa-learning-detail/);
 
+assert.match(feedback,/EXAM_HEDGE_BRIEFS/,'question answer overrides available');
+assert.match(feedback,/Базис B = F − S/,'basis disclosure');
+assert.match(feedback,/нет универсальной ежедневной платы/,'short does not imply daily borrowing fee');
+assert.match(feedback,/Ставка фандинга|фандинга/,'perpetual funding is conditional');
+assert.match(feedback,/принудительно закрыть/,'liquidity risk is explained');
+assert.match(feedback,/если K ≤ 100/,'premium and strike trade-off constrained correctly');
+assert.match(feedbackCss,/qa-scenario-grid/,'readable scenario layout');
+assert.match(feedbackCss,/@media\(max-width:650px\)/,'mobile stacked layout');
+// Independently check the numbers in both financial thought experiments.
+const putNet=(spot,strike,premium,terminal)=>terminal-spot+Math.max(strike-terminal,0)-premium;
+const futureNet=(spot,initialFuture,terminalSpot,terminalFuture)=>
+ terminalSpot-spot+initialFuture-terminalFuture;
+assert.equal(putNet(100,100,5,70),-5);
+assert.equal(putNet(100,100,5,130),25);
+assert.equal(putNet(100,90,2,70),-12);
+assert.equal(futureNet(100,100,70,70),0);
+assert.equal(futureNet(100,100,130,130),0);
+assert.equal(futureNet(100,102,90,93),-1,'basis change leaves residual loss');
+assert.equal(futureNet(100,102,90,90),2,'full hedge through expiry');
+assert.equal((90-100)+(102-122),-30,'forced close loses futures hedge');
+
+
 assert.equal(bank.filter(x=>x.origin==='original').length,19);
 assert.equal(Object.keys(legacy).length,96);
 assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),443);
