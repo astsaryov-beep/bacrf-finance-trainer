@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.19 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.20 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -71,6 +71,14 @@ assert.match(settlement,/срочного фьючерса/);
 assert.equal(futuresGuideMarkup('S2-01',0,'brief').includes('заём и продажа'),true);
 assert.equal(futuresGuideMarkup('S2-02',0,'brief').includes('ГО'),true);
 assert.equal(futuresGuideMarkup('S1-07',0,'full'),'','do not add irrelevant widget to other courses');
+const scopedCourseMarkup=new Function('const STUDY_V5 = {"S1-01-0":{formulas:[{title:"Кассовый остаток"}]},"S1-07-0":{formulas:[]}};'+futuresGuide+'return futuresShortCourseMarkup;')();
+assert.match(scopedCourseMarkup('E-13',0,'full'),/вопросов из этого раздела на экзамене не будет/,'margin trading has teacher notice');
+assert.match(scopedCourseMarkup('E-13',1,'brief'),/не означает исключения всех вопросов о РЕПО/,'repo remains a distinct topic');
+assert.match(scopedCourseMarkup('S1-01',0,'full'),/Расчётные задания/,'calculation explainer noted in full lesson');
+assert.match(scopedCourseMarkup('S1-01',0,'brief'),/Формулы и числовые примеры/,'exam digest explains why formulas remain');
+assert.equal(scopedCourseMarkup('S1-07',0,'full'),'','unaffected conceptual lesson stays clean');
+assert.match(futuresCss,/fsc-exam-note/,'exam scope notice styled');
+
 assert.match(futuresCss,/@media\(max-width:700px\)/);
 assert.match(futuresCss,/grid-template-columns:1fr/);
 assert.match(feedback,/futuresStudyLink\('S2-01'/,'open answer links to introductory theory');
