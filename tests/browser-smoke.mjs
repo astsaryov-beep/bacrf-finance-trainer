@@ -36,7 +36,7 @@ try{
   await page.evaluate(({lessonId,blockIndex})=>goStudyLesson(lessonId,blockIndex),{lessonId,blockIndex});
   await page.locator('#v5FullBtn').click();
   const theory=await page.locator('.study-paper').textContent();
-  const keywords={'S1-03-1':'синдицированного','S1-04-0':'вексел','S1-04-1':'Call','S1-05-0':'сервисер','S1-05-1':'mezzanine'};
+  const keywords={'S1-03-1':'ковенант','S1-04-0':'вексел','S1-04-1':'Call','S1-05-0':'сервисер','S1-05-1':'mezzanine'};
   assert.ok(theory.length>1000,'full theory absent '+id);
   assert.ok(theory.toLowerCase().includes(keywords[id].toLowerCase()),'example absent '+id);
   await page.locator('#v5BriefBtn').click();
