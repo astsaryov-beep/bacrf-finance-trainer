@@ -52,7 +52,7 @@ assert.match(feedback,/Базис B = F − S/,'basis disclosure');
 assert.match(feedback,/нет универсальной ежедневной платы/,'short does not imply daily borrowing fee');
 assert.match(feedback,/Ставка фандинга|фандинга/,'perpetual funding is conditional');
 assert.match(feedback,/принудительно закрыть/,'liquidity risk is explained');
-assert.match(feedback,/если K ≤ 100/,'premium and strike trade-off constrained correctly');
+assert.match(feedback,/для K ≤ 100/,'premium and strike trade-off constrained correctly');
 assert.match(feedbackCss,/qa-scenario-grid/,'readable scenario layout');
 assert.match(feedbackCss,/@media\(max-width:650px\)/,'mobile stacked layout');
 // Independently check the numbers in both financial thought experiments.
