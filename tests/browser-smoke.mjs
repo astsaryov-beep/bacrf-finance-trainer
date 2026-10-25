@@ -124,6 +124,7 @@ try{
  await page.reload({waitUntil:'domcontentloaded',timeout:60000});
  await page.evaluate(()=>document.querySelector('[data-tab="learn"]').click());
  // T-09: mobile navigation, no horizontal overflow or clipped SVG.
+ await page.locator('.mobile-menu > summary').click();
  await page.locator('.mobile-tabs [data-tab="strategies"]').click();
  await page.waitForSelector('.strategy-chart svg');
  assert.ok(await page.locator('.strategy-picker').isVisible(),'mobile strategy selection');
@@ -131,7 +132,8 @@ try{
  assert.ok(chartBounds.width<chartBounds.viewport,'SVG fits 390px screen');
  assert.ok(chartBounds.documentWidth<=chartBounds.viewport+2,'no horizontal overflow '+JSON.stringify(chartBounds));
  await page.screenshot({path:resolve(root,'test-artifacts','strategies-mobile.png'),fullPage:false});
- await page.evaluate(()=>document.querySelector('.mobile-tabs [data-tab="learn"]').click());
+ await page.locator('.mobile-menu > summary').click();
+ await page.locator('.mobile-tabs [data-tab="learn"]').click();
  await page.locator('.study-mobile-nav > summary').click();
  assert.ok(await page.locator('.study-mobile-nav .study-head').isVisible());
  await page.locator('.study-mobile-nav [data-open-syllabus]').click();
