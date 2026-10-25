@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.20 beta"/);
+assert.match(html,/trainer-version" content="5\.0\.21 beta"/);
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -30,6 +30,26 @@ const diagrams=data(html,'const FRI_DIAGRAMS=');
 const fallback=data(html,'const FRI_TRAP_FALLBACK=');
 const supplements=data(html,'const FRI_TOPIC_SUPPLEMENTS=');
 const blocks=course.flatMap(l=>l.blocks.map((b,pos)=>({l,b,pos,id:l.id+'-'+pos})));
+// v5.0.21: independent checks of the first five concept-first explanations.
+const master=data(html,'const STUDY_MASTER = ');
+const editedLessonIds=['S1-01-0','S1-01-1','S1-02-0','S1-02-1','S1-03-0'];
+for(const id of editedLessonIds){
+ const item=master[id],unit=legacy[id];
+ assert.ok(item&&unit,'missing reviewed lesson '+id);
+ assert.ok(unit.foundation.length>=160,'weak beginner introduction '+id);
+ assert.equal(item.mechanism.length,3,'not three grounded mechanism steps: '+id);
+ assert.ok(item.mechanism.every(s=>s.length>=120),'mechanism under-explained '+id);
+ assert.ok(item.application[0].length>=170,'weak life example '+id);
+ assert.ok(item.exercise[0].length>=145,'missing concept exercise '+id);
+ assert.ok(item.advanced[0].length>=170,'advanced risks missing '+id);
+ assert.match(item.sources,/Семинар 1/,'source coverage missing '+id);
+ assert.equal(unit.formulas.length>=1,true,'formula drill deleted '+id);
+}
+assert.match(master['S1-01-0'].foundation.join(' '),/прибыл.*ликвидность/i);
+assert.match(master['S1-01-1'].mechanism.join(' '),/RUONIA.*RUSFAR/s);
+assert.match(master['S1-02-0'].application.join(' '),/не переходит банку автоматически/);
+assert.match(master['S1-02-1'].mechanism.join(' '),/не добавляет право на повторную выдачу/);
+assert.match(master['S1-03-0'].mechanism.join(' '),/CFADS.*DSCR/s);
 assert.equal(course.length,48);
 assert.equal(blocks.length,96);
 assert.equal(bank.length,275);
