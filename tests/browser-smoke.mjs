@@ -14,6 +14,35 @@ page.on('pageerror',e=>console.error('PAGE ERROR:',e.message));
 try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded',timeout:60000});
  await page.waitForSelector('[data-tab="learn"]',{timeout:25000});
+
+ // v5.0.17: feedback after practice should distinguish option upside from futures downside.
+ await page.waitForFunction(()=>window.peerFeedbackCheck?.version==='5.0.17');
+ assert.ok((await page.evaluate(()=>window.peerFeedbackCheck.formulaQuestions))>=30);
+ await page.evaluate(()=>{
+  session={version:3,ids:['V2-069'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
+  tab='quiz';render();
+ });
+ await page.locator('#freeText').fill('Put сохраняет рост, фьючерс может дать убыток.');
+ await page.locator('#check').click();
+ assert.equal(await page.locator('.feedback').count(),2,'distinct brief and expanded feedback');
+ const hedge=await page.locator('.qa-hedge-example').textContent();
+ assert.ok(hedge.includes('−5 руб.')&&hedge.includes('+25 руб.'),'hedge scenarios shown');
+ assert.ok((await page.locator('#content').textContent()).includes('фьючерс теряет 30 руб.'),'short futures loss on rising prices explained');
+ assert.ok((await page.locator('#content').textContent()).includes('не обязательно выступают залогом'),'underlying is not automatic margin');
+ await page.setViewportSize({width:390,height:844});
+ assert.ok(await page.locator('.qa-hedge-example').isVisible(),'mobile hedge scenario visible');
+ await page.screenshot({path:resolve(root,'test-artifacts','put-vs-futures-mobile.png'),fullPage:false});
+ await page.evaluate(()=>{
+  session={version:3,ids:['EXN-D03'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
+  tab='quiz';render();
+ });
+ await page.locator('#freeText').fill('-2,4');
+ await page.locator('#check').click();
+ assert.ok(await page.locator('.qa-variable-guide').isVisible(),'formula variable guide after numeric answer');
+ assert.ok((await page.locator('.qa-variable-guide').textContent()).includes('MD'),'duration variables explained');
+ await page.setViewportSize({width:1366,height:768});
+ await page.evaluate(()=>{session=null;tab='overview';render()});
+
  // Content-first: the five financial strategy cases belong to four lessons.
  assert.equal(await page.locator('.top-tabs [data-tab="strategies"]').count(),0,'no competing strategy tab');
  await page.locator('.top-tabs [data-tab="learn"]').click();
