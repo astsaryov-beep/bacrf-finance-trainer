@@ -1,14 +1,74 @@
-/* v5.0.17: contextual formula explanations, option vs futures comparison */
+/* v5.0.18: accessible, progressively disclosed exam feedback */
 .qa-variable-guide{border:1px solid #3d6879;border-radius:14px;background:#143242;margin:17px 0;color:#e9f8fa;overflow:hidden}
 .qa-variable-guide summary{cursor:pointer;padding:14px 16px;font-weight:750;color:#91ebdc}
 .qa-variable-content{padding:0 17px 16px;font-size:14px}
 .qa-variable-content .qa-equation{font-family:'IBM Plex Mono',monospace;color:#a7f5e7;overflow-wrap:anywhere;white-space:normal;border-radius:9px;background:#0e2838;padding:10px 13px}
 .qa-variable-content p{margin:12px 0 4px;line-height:1.65}
 .qa-variable-content p.tiny{color:#bed8e3}
-.qa-hedge-example{margin:16px 0;border:1px solid #396677;background:#153241;color:#ebf7fc;border-radius:14px;padding:16px}
-.qa-hedge-example h4{color:#9cf4e2;margin:0 0 12px}
-.qa-hedge-example table{border-collapse:collapse;width:100%;font-size:13px}
-.qa-hedge-example th,.qa-hedge-example td{padding:10px 7px;text-align:left;border-bottom:1px solid #365e70;vertical-align:top}
-.qa-hedge-example th{color:#96eadd;font-weight:700}
-.qa-hedge-example p.tiny{color:#c1dae3;margin:12px 0 0;line-height:1.6}
-@media(max-width:550px){.qa-hedge-example{padding:12px}.qa-hedge-example table{font-size:12px}.qa-hedge-example th,.qa-hedge-example td{padding:7px 4px}.qa-variable-guide summary{padding:14px 12px}}
+
+/* Mobile-first: the essential conclusion is visible, deeper financial nuance is optional. */
+.qa-brief{border-left:4px solid #54d1bf}
+.qa-hedge-lesson,.qa-deeper{margin:20px 0;color:#e7f4f8;min-width:0}
+.qa-hedge-lesson{border:1px solid #385e71;background:#11293a;border-radius:18px;padding:20px}
+.qa-mini-label{font-size:10px;font-weight:850;letter-spacing:.11em;text-transform:uppercase;color:#82dfd2}
+.qa-section-head h4,.qa-deeper h4{font-size:19px;line-height:1.35;letter-spacing:-.012em;margin:8px 0 7px;color:#f5fcfe}
+.qa-section-head p{font-size:14px;line-height:1.65;color:#bdd6e0;margin:0 0 18px;max-width:70ch}
+.qa-scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.qa-scenario{background:#173648;border:1px solid #3a6475;padding:17px;border-radius:14px;min-width:0}
+.qa-scenario h5{font-size:20px;margin:6px 0 14px;color:#f0fafc;line-height:1.3}
+.qa-scenario-up{border-top:3px solid #67d8bf}
+.qa-scenario-down{border-top:3px solid #ddba7a}
+.qa-scenario-row{display:flex;gap:12px;align-items:baseline;justify-content:space-between;border-top:1px solid #31576a;padding:10px 0;font-size:14px}
+.qa-scenario-row span{color:#c6dee7;max-width:68%;line-height:1.4}
+.qa-scenario-row strong{font-size:20px;font-variant-numeric:tabular-nums;white-space:nowrap;color:#edfcff}
+.qa-scenario-detail{font-size:13px;line-height:1.6;color:#c4d8e1;margin:9px 0 0}
+.qa-example-caption{color:#a9c6d3;font-size:12px;line-height:1.62;margin:14px 0 4px}
+.qa-takeaway{padding:13px 15px;margin-top:16px;background:#143f48;border-left:3px solid #60dcca;border-radius:6px 12px 12px 6px}
+.qa-takeaway b{display:block;color:#adf6e6;margin-bottom:4px}
+.qa-takeaway p{margin:0;font-size:14px;line-height:1.65;max-width:75ch}
+.qa-deeper{max-width:920px}
+.qa-deeper h4{margin:18px 0 12px;font-size:18px}
+.qa-learning-detail{margin:10px 0;border:1px solid #376173;background:#133142;border-radius:14px;overflow:hidden}
+.qa-learning-detail>summary{cursor:pointer;padding:15px 17px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#ddf3f7;min-height:54px;font-weight:700;font-size:14px;line-height:1.4}
+.qa-learning-detail>summary::marker{color:#68dec9}
+.qa-learning-detail[open]>summary{border-bottom:1px solid #386072;background:#193b4d}
+.qa-detail-hint{font-size:12px;color:#8fcabf;font-weight:500;text-align:right;flex-shrink:0}
+.qa-learning-body{padding:15px 18px 19px;font-size:14px;line-height:1.7;max-width:90ch}
+.qa-learning-body p{margin:0 0 12px}
+.qa-learning-body p:last-child{margin-bottom:0}
+.qa-strike-grid,.qa-outcomes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:13px 0}
+.qa-strike-card,.qa-outcomes>div{padding:13px;border:1px solid #416877;background:#0f2a39;border-radius:12px;min-width:0}
+.qa-strike-card strong{display:block;color:#9af0dd}
+.qa-strike-card p,.qa-strike-card div{margin:5px 0 7px}
+.qa-strike-card small{display:block;color:#bdd9e2}
+.qa-muted-note{font-size:13px;color:#b5cfda;line-height:1.65}
+.qa-math-example{background:#0d2939;border-left:3px solid #68d5c6;border-radius:0 9px 9px 0;padding:12px 14px;margin:12px 0;font-variant-numeric:tabular-nums}
+.qa-learning-list{padding-left:18px;margin:3px 0 13px}
+.qa-learning-list li{margin:0 0 11px}
+.qa-source-note{font-size:12px;line-height:1.65;color:#b2cad5;margin:13px 3px}
+.qa-source-note a{color:#8feadd;text-decoration:underline;text-underline-offset:3px}
+.qa-timeline{display:grid;gap:14px;margin:18px 0}
+.qa-timeline-step{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px}
+.qa-timeline-number{display:flex;justify-content:center;align-items:center;width:34px;height:34px;border-radius:10px;background:#23505a;color:#9df0df;font-size:13px;font-weight:850}
+.qa-timeline-step strong{display:block;color:#ecfcff;margin:1px 0 5px}
+.qa-timeline-step p{font-size:14px;line-height:1.6;margin:0 0 4px}
+.qa-timeline-step small{font-size:12px;line-height:1.65;color:#aecad7;display:block}
+.qa-outcomes>div small{display:block;color:#bdd6e1;min-height:34px}
+.qa-outcomes>div b{font-size:26px;color:#98edda;display:block;margin:8px 0;font-variant-numeric:tabular-nums}
+.qa-outcomes>div:last-child b{color:#f0bb9d}
+.qa-outcomes>div p{font-size:13px;line-height:1.6;margin:0;color:#d1e2eb}
+.qa-brief,.qa-scenario,.qa-learning-detail,.qa-outcomes>div{overflow-wrap:anywhere}
+.qa-learning-detail summary:focus-visible,.qa-source-note a:focus-visible{outline:3px solid #99e8df;outline-offset:2px}
+@media(max-width:650px){
+ .qa-hedge-lesson{padding:15px 13px;margin:16px 0;border-radius:14px}
+ .qa-section-head h4{font-size:18px}
+ .qa-scenario-grid,.qa-strike-grid,.qa-outcomes{grid-template-columns:1fr}
+ .qa-scenario{padding:15px}
+ .qa-scenario h5{font-size:19px}
+ .qa-scenario-row strong{font-size:18px}
+ .qa-learning-detail>summary{padding:14px 13px;align-items:start;flex-direction:column;gap:3px}
+ .qa-detail-hint{text-align:left}
+ .qa-learning-body{padding:15px 14px}
+ .qa-outcomes>div small{min-height:0}
+}
+@media(prefers-reduced-motion:reduce){.qa-learning-detail *{scroll-behavior:auto}}
