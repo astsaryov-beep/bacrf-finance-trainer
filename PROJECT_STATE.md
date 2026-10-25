@@ -11,13 +11,13 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-06",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261025-009",
-  "last_verified_commit": "70f3f8e78a752d3de2dba7e806750ef52ab4c514",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167358",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167255",
+  "last_verified_checkpoint": "CP-20261025-011",
+  "last_verified_commit": "bb8de84960127b110d6893cd37bcb4943fb6a053",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339665",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339462",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
@@ -32,10 +32,10 @@
 - Добавлен браузерный регрессионный тест в Chromium для мобильного экрана и формул; браузерный регрессионный тест PASS.
 - По завершении реакции на обратную связь вернуть приоритет T-01 и продолжить S1, страницы 13–32; первоисточники ВШЭ не переносить в публичный GitHub.
 
-## Текущий этап T-06: пользователю сначала запуск, затем описание
+## Завершённый этап T-06: пользователю сначала запуск, затем описание
 
 - Ветка `docs/t06-readme-launch-first-20261025`. На главной странице GitHub в `README.md` сразу под названием находятся три визуальные кнопки запуска, краткая инструкция и содержание курса. Служебные материалы вынесены в нижний раскрывающийся раздел.
-- **Статус этого изменения: IN_PROGRESS, PR и проверки PENDING.** Версия приложения остаётся 5.0.17 beta, последний подтверждённый продуктовый checkpoint CP-20261025-009. Следующий после документационного этапа приоритет: T-01 S1 страницы 13–32.
+- **Статус README: VERIFIED.** [PR #17](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/17) MERGED; [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339665), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339462), документационный коммит `bb8de84960127b110d6893cd37bcb4943fb6a053`. Версия приложения остаётся 5.0.17 beta, последний подтверждённый продуктовый checkpoint CP-20261025-009. Следующий после документационного этапа приоритет: T-01 S1 страницы 13–32.
 
 ## Что фактически подтверждено
 
