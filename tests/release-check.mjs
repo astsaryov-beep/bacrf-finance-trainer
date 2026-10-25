@@ -34,6 +34,17 @@ assert.equal(course.length,48);
 assert.equal(blocks.length,96);
 assert.equal(bank.length,275);
 assert.deepEqual(bank,stableBank,'Main exam bank must equal frozen stable bank');
+const feedback=readFileSync(resolve(root,'exam-feedback.js'),'utf8');
+const feedbackCss=readFileSync(resolve(root,'exam-feedback.css'),'utf8');
+new vm.Script(feedback,{filename:'exam-feedback.js'});
+assert.match(html,/src="exam-feedback.js"/,'post-answer helper loaded');
+assert.match(html,/href="exam-feedback.css"/,'mobile feedback CSS loaded');
+assert.match(feedback,/V2-069/,'put/futures feedback included');
+assert.match(feedback,/фьючерсная позиция требует гарантийного обеспечения/i);
+assert.match(feedback,/короткий фьючерс.*убыток/i);
+assert.match(feedback,/formulaQuestions:Object.keys\(QUESTION_FORMULA_IDS\).length/);
+assert.match(feedbackCss,/qa-hedge-example/);
+
 assert.equal(bank.filter(x=>x.origin==='original').length,19);
 assert.equal(Object.keys(legacy).length,96);
 assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),443);
