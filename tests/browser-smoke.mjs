@@ -15,6 +15,20 @@ try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded',timeout:60000});
  await page.waitForSelector('[data-tab="learn"]',{timeout:25000});
 
+ // v5.0.24: changed content is reachable in both existing reading modes.
+ const revisionMap=JSON.parse(readFileSync(resolve(root,'tests/course-repetition-map.json'),'utf8'));
+ await page.locator('.top-tabs [data-tab="learn"]').click();
+ for(const row of revisionMap.filter(r=>r.action==='EDITED')){
+  const lessonId=row.id.slice(0,-2),blockIndex=Number(row.id.at(-1));
+  await page.evaluate(({lessonId,blockIndex})=>goStudyLesson(lessonId,blockIndex),{lessonId,blockIndex});
+  await page.locator('#v5FullBtn').click();
+  assert.ok((await page.locator('.study-paper').textContent()).length>700,'edited theory missing '+row.id);
+  assert.equal(await page.locator('#v5-level-2').count(),1,'mechanism missing '+row.id);
+  await page.locator('#v5BriefBtn').click();
+  assert.ok((await page.locator('.v5-digest').textContent()).length>100,'digest missing '+row.id);
+ }
+ await page.evaluate(()=>{tab='overview';render()});
+
  // v5.0.21: first five lessons are readable in course, including on mobile.
  await page.locator('.top-tabs [data-tab="learn"]').click();
  for(const id of ['S1-01-0','S1-01-1','S1-02-0','S1-02-1','S1-03-0']){
