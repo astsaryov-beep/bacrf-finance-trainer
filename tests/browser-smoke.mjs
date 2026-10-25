@@ -32,6 +32,13 @@ try{
  await page.setViewportSize({width:390,height:844});
  assert.ok(await page.locator('.qa-hedge-example').isVisible(),'mobile hedge scenario visible');
  await page.screenshot({path:resolve(root,'test-artifacts','put-vs-futures-mobile.png'),fullPage:false});
+
+ await page.evaluate(()=>{tab='catalog';catalogTerm='Почему покупка опциона put';render()});
+ await page.locator('[data-open-answer="V2-069"]').click();
+ const catalogAnswer=await page.locator('#catalog-V2-069').textContent();
+ assert.ok(catalogAnswer.includes('короткий фьючерс')&&catalogAnswer.includes('убыток'),'catalog contains updated short futures answer');
+ assert.ok(catalogAnswer.includes('100 → 130'),'catalog explains rising-price scenario');
+
  await page.evaluate(()=>{
   session={version:3,ids:['EXN-D03'],mode:'practice',pos:0,responses:{},grades:{},orders:{},done:false,started:Date.now(),deadline:null,recorded:{}};
   tab='quiz';render();
