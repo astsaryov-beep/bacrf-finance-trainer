@@ -11,13 +11,13 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-05",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261025-011",
-  "last_verified_commit": "bb8de84960127b110d6893cd37bcb4943fb6a053",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339665",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339462",
+  "last_verified_checkpoint": "CP-20261025-013",
+  "last_verified_commit": "c2cc0cfe22a17c33b4a46c4f424c1e5c72b96b25",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193973414",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193972910",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
@@ -37,15 +37,18 @@
 - Ветка `docs/t06-readme-launch-first-20261025`. На главной странице GitHub в `README.md` сразу под названием находятся три визуальные кнопки запуска, краткая инструкция и содержание курса. Служебные материалы вынесены в нижний раскрывающийся раздел.
 - **Статус README: VERIFIED.** [PR #17](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/17) MERGED; [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339665), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40191339462), документационный коммит `bb8de84960127b110d6893cd37bcb4943fb6a053`. Версия приложения остаётся 5.0.17 beta, последний подтверждённый продуктовый checkpoint CP-20261025-009. Следующий после документационного этапа приоритет: T-01 S1 страницы 13–32.
 
-## Текущая доработка T-05 · v5.0.18 beta (25.10.2026)
+## Завершённая доработка T-05 · v5.0.18 beta (25.10.2026)
 
 - Ветка `fix/v5.0.18-hedge-feedback-ux-20261025` от main `01fe4bbcfe0001058ab5fa976b7e39998bd91c35`.
 - Доработаны только выводы для V2-069/V2-070: наглядные сценарии (падение/рост, базис, страйк/премия, GO и VM, принудительное закрытие), 3 раскрываемых блока риска, отдельная хронология маржинального риска.
 - Мобильная подача: сценарии в 1 столбец при ширине <=650px, регулируемое открытие подробностей, контрастные подписи, ссылки на OIC/CME. Новые браузерные тесты проверяют 390 и 320px, каталог, тренировку, итоговый экран и расчёты.
-- **CI/Pages PENDING**, нельзя считать 5.0.18 VERIFIED до релизных проверок. Последний подтверждённый продукт 5.0.17, последний checkpoint CP-20261025-011 относится к README (не к 5.0.18).
+- **5.0.18 VERIFIED:** [PR #19](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/19) MERGED, [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193973414), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193972910), продуктовый коммит `c2cc0cfe22a17c33b4a46c4f424c1e5c72b96b25`. Запись CP-20261025-013. Последующая академическая верификация T-01 всё ещё не завершена.
 - Банк 275/19 и стабильная 5.0.8 не затронуты. После этой точечной доработки вернуться к T-01 S1 страницы 13–32.
 
 ## Что фактически подтверждено
+
+- **Текущий подтверждённый продукт: 5.0.18 beta**, SHA `c2cc0cfe22a17c33b4a46c4f424c1e5c72b96b25`, [PR #19](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/19), [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193973414) и [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193972910); V2-069/V2-070 обновлены, банк 275/19 и стабильная 5.0.8 неизменны. CP-20261025-013.
+
 
 - **Текущий подтверждённый продукт:** **5.0.17 beta**, коммит `70f3f8e78a752d3de2dba7e806750ef52ab4c514`, [PR #15](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/15), [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167358), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40190167255); сохранены 275/19 и 5.0.8. Контрольная точка CP-20261025-009.
 - Последний полностью проверенный продуктовый релиз: **5.0.17 beta**, продуктовый коммит `cb84d6ae2d9916c98ea93157f29dc52fc3a742f5`. Обе проверки (release checks и GitHub Pages) завершились SUCCESS 25.10.2026: [CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980643), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40186980344).
