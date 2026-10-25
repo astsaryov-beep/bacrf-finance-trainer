@@ -13,7 +13,7 @@
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
   "phase": "READY",
   "active_task": null,
-  "next_task": "T-01",
+  "next_task": "T-11",
   "last_verified_checkpoint": "CP-20261025-015",
   "last_verified_commit": "80024e9ded95259cd5ba1e96450dac4e1726004d",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196778529",
@@ -23,6 +23,9 @@
 }
 ```
 <!-- STATE_JSON_END -->
+
+**Новое требование к экзамену от 25.10.2026:** см. D-011 / T-11. Из экзаменационной выборки требуется исключить маржинальную торговлю и расчётные вопросы; содержательная работа PLANNED, без функциональных изменений в 5.0.19.
+
 
 ## Завершённый приоритет: T-05, замечания одногруппника (25.10.2026)
 
