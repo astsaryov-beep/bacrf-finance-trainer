@@ -11,13 +11,13 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-02",
+  "phase": "READY",
+  "active_task": null,
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261025-013",
-  "last_verified_commit": "c2cc0cfe22a17c33b4a46c4f424c1e5c72b96b25",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193973414",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193972910",
+  "last_verified_checkpoint": "CP-20261025-015",
+  "last_verified_commit": "80024e9ded95259cd5ba1e96450dac4e1726004d",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196778529",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196777829",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-25"
 }
@@ -45,15 +45,18 @@
 - **5.0.18 VERIFIED:** [PR #19](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/19) MERGED, [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193973414), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193972910), продуктовый коммит `c2cc0cfe22a17c33b4a46c4f424c1e5c72b96b25`. Запись CP-20261025-013. Последующая академическая верификация T-01 всё ещё не завершена.
 - Банк 275/19 и стабильная 5.0.8 не затронуты. После этой точечной доработки вернуться к T-01 S1 страницы 13–32.
 
-## Текущий этап T-02 · механику short futures объясняем с нуля
+## Завершённый этап T-02 · механику short futures объясняем с нуля
 
 - Рабочая ветка `feat/v5.0.19-futures-short-basics-20261025` от подтверждённого main `e3eaf69ddf5fb2e0a48d6a0ffd1d30926b9dcd25`.
 - Прямой отклик на вопрос: почему обычный short futures не требует заимствовать акцию и платить за её заём? В S2-01-0 введено сравнение «шорт акции vs short futures», в S2-02-0 — обеспечение/вариационная маржа/расходы и различие расчётного и поставочного контрактов.
 - В V2-069/V2-070 добавлены понятные переходы к указанным урокам, отдельное объяснение отсутствия займа в V2-069. Краткие экзаменационные выжимки также показывают различие.
-- Новый слой `futures-short-guide.js/css`, адаптация на 320/390px, расширенные release/browser тесты. Ссылки на Московскую биржу и CME. **До выполнения CI/Pages: PENDING, 5.0.19 ещё не VERIFIED.**
+- Новый слой `futures-short-guide.js/css`, адаптация на 320/390px, расширенные release/browser тесты. Ссылки на Московскую биржу и CME. **5.0.19 VERIFIED:** [PR #21](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/21) MERGED, [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196778529), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196777829); продуктовый SHA `80024e9ded95259cd5ba1e96450dac4e1726004d`. CP-20261025-015.
 - Исходный банк 275/19 и стабильная 5.0.8 не изменяются. После завершения этапа вернуться к T-01 (S1 13–32).
 
 ## Что фактически подтверждено
+
+- **Последний VERIFIED продукт:** **5.0.19 beta**, `80024e9ded95259cd5ba1e96450dac4e1726004d`, [PR #21](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/21), [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196778529), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40196777829). Курс S2-01-0/S2-02-0 и переходы из V2-069/V2-070 проверены на desktop/320/390px; банк 275/19 и 5.0.8 сохранены. CP-20261025-015.
+
 
 - **Текущий подтверждённый продукт: 5.0.18 beta**, SHA `c2cc0cfe22a17c33b4a46c4f424c1e5c72b96b25`, [PR #19](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/19), [CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193973414) и [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40193972910); V2-069/V2-070 обновлены, банк 275/19 и стабильная 5.0.8 неизменны. CP-20261025-013.
 
