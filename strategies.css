@@ -1,0 +1,37 @@
+/* 5.0.14: fixed-income strategy teaching module. Scoped styles, consistent with app dark cards. */
+.strategy-page{max-width:1120px;margin:0 auto;padding-bottom:48px;color:#e5eef9}
+.strategy-page h1{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.035em;margin:0 0 10px}
+.strategy-page h2{font-size:clamp(20px,2.5vw,26px)}
+.strategy-lead{color:#c2d5ed;line-height:1.7;max-width:85ch}
+.strategy-picker{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.strategy-picker button{border:1px solid #426587;background:#142941;color:#dfefff;min-height:42px;padding:10px 14px;border-radius:10px;cursor:pointer}
+.strategy-picker button[aria-pressed="true"]{background:#1768c1;border-color:#77adf1;color:#fff;font-weight:700}
+.strategy-panel{border:1px solid #355370;border-radius:16px;padding:clamp(14px,2vw,24px);background:#10253d;color:#e7f1ff;box-shadow:0 10px 24px #0003}
+.strategy-panel h2{margin:0 0 7px;color:#f4f9ff}
+.strategy-tag{color:#9dc8ff;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.strategy-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:18px;align-items:start}
+.strategy-pane{min-width:0}
+.strategy-pane h3{font-size:16px;color:#a8d0ff;margin:19px 0 8px}
+.strategy-pane p{line-height:1.68;margin:7px 0}
+.strategy-info{border:1px solid #36516d;border-radius:12px;padding:14px;margin-top:12px;background:#162e4a}
+.strategy-info strong{color:#fff}
+.strategy-chart{background:#fff;color:#183355;border:1px solid #bed1e6;border-radius:12px;padding:8px;overflow:hidden;margin-top:12px}
+.strategy-chart svg{display:block;width:100%;height:auto;min-height:245px}
+.strategy-chart figcaption{font-size:12px;line-height:1.5;color:#4a647e;padding:6px 8px}
+.strategy-panel details{border:1px solid #365474;border-radius:10px;background:#19344f;padding:12px 14px;margin:10px 0}
+.strategy-panel summary{cursor:pointer;font-weight:700;color:#a8d0ff}
+.strategy-panel details p,.strategy-panel details li{line-height:1.64;color:#e2ebf7}
+.strategy-qa{margin-top:16px;padding:16px;background:#172f4b;border:1px solid #3b5c80;border-radius:12px}
+.strategy-qa h3{margin:0 0 10px;color:#a8d0ff}
+.strategy-options{display:grid;gap:8px}
+.strategy-options button{min-height:42px;border:1px solid #6085a9;border-radius:8px;background:#203e5d;color:#fff;padding:10px 12px;text-align:left;cursor:pointer}
+.strategy-options button:hover,.strategy-options button:focus-visible{outline:2px solid #80c5f9;outline-offset:1px}
+.strategy-options button:disabled{opacity:.9;cursor:default}
+.strategy-answer{padding:12px;margin-top:10px;border-radius:8px;background:#143a34;color:#e4fdf1}
+.strategy-answer.bad{background:#4e302e;color:#fff1ed}
+.strategy-math{font:600 15px/1.65 ui-monospace,Consolas,monospace;color:#9de0fa;overflow-wrap:anywhere}
+.strategy-meta{font-size:12px;color:#a5bdd8;margin:12px 0 0}
+.strategy-warning{border-left:3px solid #f0bc72;background:#443724;color:#ffe6c4;padding:10px 14px;border-radius:8px;margin:14px 0}
+.strategy-links a{color:#9dd5ff}
+.strategy-root-back{margin-top:20px}
+@media(max-width:800px){.strategy-body{grid-template-columns:1fr}.strategy-page{padding:0 2px 40px}.strategy-panel{padding:12px}.strategy-picker button{flex:1 1 45%;font-size:13px}.strategy-chart svg{min-height:0}.strategy-info{padding:12px}}
