@@ -48,6 +48,19 @@ try{
  assert.ok((await page.locator('.fsc-disclosure').first().textContent()).includes('получать'),'short can receive funding');
  await page.locator('.fsc-disclosure>summary').nth(1).click();
  assert.ok((await page.locator('.fsc-disclosure').nth(1).textContent()).includes('Поставочный'),'settlement distinction available');
+
+ // v5.0.20: only notes inside course, not exam filtering or hiding any formulas.
+ await page.evaluate(()=>{tab='learn';render();goStudyLesson('E-13',0);});
+ await page.waitForSelector('.fsc-exam-note');
+ const marginNote=await page.locator('.fsc-exam-note').textContent();
+ assert.ok(marginNote.includes('вопросов из этого раздела на экзамене не будет'),'margin trading marked within its exact course');
+ assert.ok(marginNote.includes('не означает исключения всех вопросов о РЕПО'),'repo scope remains explicit');
+ await page.evaluate(()=>goStudyLesson('S1-01',0));
+ await page.waitForSelector('.fsc-exam-note');
+ assert.ok((await page.locator('.fsc-exam-note').textContent()).includes('Расчётные задания'),'formula lessons get notice');
+ await page.setViewportSize({width:320,height:640});
+ assert.ok(await page.locator('.fsc-exam-note').evaluate(e=>e.getBoundingClientRect().right<=innerWidth+1),'exam notice does not overflow mobile');
+ await page.setViewportSize({width:1366,height:768});
  await page.evaluate(()=>{tab='overview';render()});
 
 
