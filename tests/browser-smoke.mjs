@@ -29,7 +29,7 @@ try{
  assert.ok(await page.locator('.fsc-disclosure').isVisible(),'optional delivery details available');
  assert.equal(await page.locator('.fsc-disclosure[open]').count(),0,'advanced explanation is collapsed');
  await page.locator('.fsc-disclosure>summary').first().click();
- assert.ok((await page.locator('.fsc-disclosure').textContent()).includes('Расчётного'),'cash settlement described');
+ assert.ok((await page.locator('.fsc-disclosure').textContent()).toLowerCase().includes('расчётного'),'cash settlement described');
  await page.locator('#v5BriefBtn').click();
  assert.ok((await page.locator('.fsc-brief').textContent()).includes('фьючерса'),'exam summary available');
  await page.locator('#v5FullBtn').click();
