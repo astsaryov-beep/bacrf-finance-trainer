@@ -1,15 +1,31 @@
 
 /* v5.0.19: Plain-language comparison. Core question bank is untouched. */
+/* v5.0.20: informational notices within the learning course; exam selection unchanged. */
+function fscExamScopeNote(lessonId, blockIndex, mode){
+ if(mode!=='brief'&&mode!=='full')return '';
+ const key=lessonId+'-'+blockIndex;
+ // E-13 combines securities REPO and margin trading. Do not mark REPO itself as excluded.
+ const marginLesson=lessonId==='E-13';
+ const formulaLesson=(typeof STUDY_V5!=='undefined'&&Array.isArray(STUDY_V5[key]?.formulas)&&STUDY_V5[key].formulas.length>0);
+ if(!marginLesson&&!formulaLesson)return '';
+ const margin=marginLesson
+  ? '<p><b>Маржинальная торговля:</b> по информации преподавателя, вопросов из этого раздела на экзамене не будет. Это не означает исключения всех вопросов о РЕПО.</p>' : '';
+ const calculations=formulaLesson
+  ? '<p><b>Расчётные задания:</b> на экзамене их не будет. Формулы и числовые примеры помогают понять, как работает инструмент.</p>' : '';
+ return '<aside class="fsc-exam-note" aria-label="Уточнение преподавателя об экзамене"><strong>К экзамену</strong>'+margin+calculations+'</aside>';
+}
+
 function futuresShortCourseMarkup(lessonId, blockIndex, mode='full'){
  const key=lessonId+'-'+blockIndex;
- if(key!=='S2-01-0'&&key!=='S2-02-0')return '';
+ const notice=fscExamScopeNote(lessonId,blockIndex,mode);
+ if(key!=='S2-01-0'&&key!=='S2-02-0')return notice;
  if(mode==='brief'){
-  return key==='S2-01-0'
+  return notice+(key==='S2-01-0'
     ?'<aside class="fsc-brief"><b>Запомнить:</b> шорт акции = заём и продажа акции; шорт фьючерса = продажа контракта без займа акции. Поэтому обычный short futures не требует платы за заём базовой бумаги.</aside>'
-    :'<aside class="fsc-brief"><b>Запомнить:</b> ГО — заблокированное обеспечение; вариационная маржа — денежный результат изменения цены; фандинг — отдельный механизм некоторых бессрочных фьючерсов.</aside>';
+    :'<aside class="fsc-brief"><b>Запомнить:</b> ГО — заблокированное обеспечение; вариационная маржа — денежный результат изменения цены; фандинг — отдельный механизм некоторых бессрочных фьючерсов.</aside>');
  }
  if(mode!=='full')return '';
- if(key==='S2-01-0')return [
+ if(key==='S2-01-0')return notice+[
  '<section class="fsc-wrap" aria-label="Отличие шорта акции от шорта фьючерса">',
  '<header class="fsc-heading"><span class="fsc-kicker">ПОНЯТНО С НУЛЯ</span><h4>Почему шорт фьючерса не требует займа акции?</h4>',
  '<p>Обе позиции позволяют выиграть от падения цены, но продаются совершенно разные вещи.</p></header>',
@@ -31,7 +47,7 @@ function futuresShortCourseMarkup(lessonId, blockIndex, mode='full'){
  '<p class="fsc-source">Источники: <a target="_blank" rel="noopener noreferrer" href="https://www.moex.com/ru/derivatives">Московская биржа: фьючерс — контракт</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.cmegroup.com/why-trade-futures">CME: для short futures не нужен заём акций</a>.</p>',
  '</section>'
  ].join('');
- return [
+ return notice+[
  '<section class="fsc-wrap" aria-label="Денежные потоки и исполнение фьючерса">',
  '<header class="fsc-heading"><span class="fsc-kicker">МЕХАНИКА РАСЧЁТОВ</span><h4>Что происходит после открытия шорта?</h4>',
  '<p>Акции занимать не пришлось, но нужно соблюдать требования к обеспечению и расчётам.</p></header>',
