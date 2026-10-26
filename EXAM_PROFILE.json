@@ -1,0 +1,1179 @@
+{
+  "revision": "2026-10-26-D015",
+  "purpose": "Учебная модель формата:25open/25multi; прежние разделы13/13/12/12 не объявляются пропорциями преподавателя",
+  "teacher": "50%open/50%multiplechoice; факты и кейсы в лекциях и семинарах; без расчётных вопросов и раздела маржинальной торговли",
+  "questions": {
+    "Q01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q05": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q06": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q09": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q10": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q07": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q08": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q11": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q12": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q13": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q14": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q15": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q16": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q17": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q18": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "Q19": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RM01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM03": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM04": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM05": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM06": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM07": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM08": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM09": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM10": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM11": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM12": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM13": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM14": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM15": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM16": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM17": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM18": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM19": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM20": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM21": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM22": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM23": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RM24": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "RO01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO05": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO06": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO07": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "RO08": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BM01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM03": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM04": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM05": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM06": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM07": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM08": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM09": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM10": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM11": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM12": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM13": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM14": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM15": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM16": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM17": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM18": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM19": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM20": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM21": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM22": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM23": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BM24": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "BO01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BO02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BO03": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "BO04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BO05": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BO06": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BO07": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "BO08": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EM01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM03": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM04": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM05": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM06": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM07": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM08": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM09": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM10": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM11": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM12": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM13": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM14": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM15": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM16": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM17": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM18": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM19": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM20": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM21": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM22": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM23": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EM24": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EO01": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EO02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EO03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EO04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EO05": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EO06": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EO07": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EO08": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PM01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM03": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM04": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM05": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM06": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM07": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM08": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM09": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM10": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM11": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM12": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM13": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM14": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM15": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM16": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM17": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM18": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM19": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM20": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM21": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM22": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM23": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PM24": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PO01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PO02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PO03": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "PO04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PO05": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PO06": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PO07": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "PO08": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-001": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-002": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-003": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-004": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-005": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-006": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-007": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-008": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-009": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-010": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-011": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-012": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-013": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-014": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-015": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-016": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-017": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-018": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-019": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-020": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-021": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-022": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-023": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-024": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-025": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-026": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-027": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-028": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-029": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-030": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-031": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-032": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "V2-033": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-034": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-035": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-036": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-037": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-038": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-039": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-040": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-041": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-042": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-043": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-044": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-045": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-046": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-047": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-048": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-049": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-050": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "V2-051": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-052": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-053": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-054": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-055": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-056": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-057": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-058": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-059": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-060": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-061": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-062": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-063": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-064": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-065": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-066": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "V2-067": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-068": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "V2-069": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-070": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-071": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "V2-072": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "INS-01-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "INS-01-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "INS-02-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "INS-02-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "INS-03-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "INS-03-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PEN-01-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PEN-01-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PEN-02-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "PEN-02-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "LEASE-01-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "LEASE-01-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "FACTOR-01-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "FACTOR-01-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "MARKET-01-1-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "MARKET-01-2-Q": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXM-R01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-R02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-R03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-R04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-D01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-D02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-D03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-D04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-E01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-E02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-E03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-E04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-P01": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-P02": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-P03": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXM-P04": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "EXS-R01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-R02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-D01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-D02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-E01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-E02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-P01": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXS-P02": {
+      "eligible": false,
+      "reason": "Single choice сохранён в обычной тренировке"
+    },
+    "EXN-R01": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-R02": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-R03": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-R04": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-D01": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-D02": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-D03": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-D04": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-E01": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-E02": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-E03": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-E04": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-P01": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-P02": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-P03": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "EXN-P04": {
+      "eligible": false,
+      "reason": "Расчётное задание"
+    },
+    "MC-S2-03-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-03-0-2": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-03-1-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-03-1-2": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-04-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-04-0-2": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-04-1-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-04-1-2": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-05-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-05-0-2": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-05-1-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-S2-05-1-2": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-R-01-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-R-01-1-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-E-01-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-E-02-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-E-04-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    },
+    "MC-E-06-0-1": {
+      "eligible": true,
+      "reason": "Учебная проверка понятий/кейса в формате open или multi"
+    }
+  }
+}
