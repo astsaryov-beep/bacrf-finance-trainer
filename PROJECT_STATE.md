@@ -12,10 +12,10 @@
   "phase": "BLOCKED",
   "active_task": "T-02",
   "next_task": "T-02",
-  "last_verified_checkpoint": "CP-20261026-009",
-  "last_verified_commit": "855041be6883c60c0f253bf9a0bda59e3e2651f2",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290",
+  "last_verified_checkpoint": "CP-20261026-019",
+  "last_verified_commit": "153322a2616f2274091088b7f8b059927aed4111",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40299760408",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40299760314",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-26"
 }
@@ -63,3 +63,5 @@ CP-20261026-016: полный методический охват 58/96 в ра�
 ## Остановка CP-20261026-018
 
 Опубликована5.0.26 beta (58/96), PR37 и Pages успешны, live MATCH. В рабочей ветке5.0.27 охват66/96. Release-check FAIL: regex ожидает5.0.26. По условию пользователя остановлено без исправления. Осталось30 блоков; E-09-0 следующий. Повторный main CI40299760408 PENDING на момент записи.
+
+CP-20261026-019: main CI40299760408 SUCCESS. Опубликованная5.0.26 подтверждена; рабочая5.0.27 остаётся BLOCKED, без публикации.
