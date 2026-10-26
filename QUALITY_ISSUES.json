@@ -662,5 +662,61 @@
     "area": "M09 and M02 distractors",
     "finding": "13single/4multi усилены близкимипредметнымивариантами,ключисохранены. Эмпирическая трудностьнеизмерена.",
     "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
+  },
+  {
+    "id": "QA-079",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 prerequisites",
+    "finding": "SPO/EPSвE010;P/BV/EVвE020;даты/полная доходность/гэпвE030 раньше полного объяснения.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-080",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 valuation bases",
+    "finding": "Цена/EPSи текущая капитализация/прибыль могут различаться при выпуске в течение года.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-081",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 rights and interpretation",
+    "finding": "Права акционера/денежного токена,split/buyback/cash-in-out,отрицательныйEVи доходность требуют условий.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-082",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 and M02 open rubrics",
+    "finding": "EO02/V2-049/EO04/EO01/BO04/V2-035имели скрытые требования или повторяли учебную роль.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-083",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 distractors",
+    "finding": "14singleполучили предметные неверные варианты при сохранении индексов.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-084",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "MC section taxonomy",
+    "finding": "18добавленных ранееMCсеминара1 имели ошибочную категориюregвместоdebt;ID/ответы не менялись.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-085",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 practice coverage",
+    "finding": "16концептуальныхMCдают знание и кейс8блокам,все опоры до заданий.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
   }
 ]

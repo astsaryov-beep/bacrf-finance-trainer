@@ -178,7 +178,7 @@ assert.equal((90-100)+(102-122),-30,'forced close loses futures hedge');
 
 assert.equal(bank.filter(x=>x.origin==='original').length,19);
 assert.equal(Object.keys(legacy).length,96);
-assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),579);
+assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),588);
 const formulaCount=Object.values(legacy).reduce((n,x)=>n+(x.formulas?.length||0),0);
 assert.equal(formulaCount,131);
 for(const [id,unit] of Object.entries(legacy)){
