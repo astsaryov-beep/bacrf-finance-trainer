@@ -9,7 +9,12 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-assert.match(html,/trainer-version" content="5\.0\.26 beta"/);
+const stateText=readFileSync(resolve(root,'PROJECT_STATE.md'),'utf8');
+const stateMatch=stateText.match(/<!-- STATE_JSON_BEGIN -->\s*```json\s*([\s\S]*?)\s*```/);
+assert.ok(stateMatch,'canonical release state exists');
+const releaseVersion=JSON.parse(stateMatch[1]).working_version;
+assert.match(releaseVersion,/^\d+\.\d+\.\d+ beta$/);
+assert.equal(html.match(/name="trainer-version" content="([^"]+)"/)?.[1],releaseVersion,'HTML version matches canonical release state');
 
 function data(src,prefix){
  const i=src.indexOf(prefix);assert.ok(i>=0,'missing '+prefix);
@@ -298,4 +303,4 @@ assert.match(html,/friBindStrategyInline\(content\)/,"interactive question handl
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS 5.0.27: 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS '+releaseVersion+': 96 complete beginner-to-advanced lessons, 84 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 84 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');

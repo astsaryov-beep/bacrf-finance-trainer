@@ -792,72 +792,121 @@
   {
     "id": "E-09-0",
     "title": "Как формируется вес акции в индексе",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверены ценовой характер IMOEX, free-float и ограничения методики; 1 млрд/0,5 млрд дают66,67/33,33%. Текущие точные лимиты не закрепляются в учебном примере.",
+    "fingerprint": "53b9dc328ddd809091f75f0c8cd9d6a65e4170f7071996ffeae823268ef10510",
+    "reviewedOn": "2026-10-26",
+    "changes": [],
+    "sourceCheck": "MOEX https://www.moex.com/ru/index/IMOEX; https://www.moex.com/fsn/ru-indices-methodology, проверено26.10.2026."
   },
   {
     "id": "E-09-1",
     "title": "Ценовой индекс и индекс полной доходности",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Сопоставлены price/TR, брутто/нетто и реальное реинвестирование; простая TR акции7% отделена от методики индекса. Повтор понятиядивидендов необходим для выбора бенчмарка, а не заменяет E-03.",
+    "fingerprint": "aa88fb3344db16cc1b1b2b8a50be7724dc4481b17d68ad775e649d9f159a7b36",
+    "reviewedOn": "2026-10-26",
+    "changes": [],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-10-0",
     "title": "Доходность, волатильность и корреляция",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверены взвешенная доходность10% и риск14,14% приρ0 против20% приρ1. Термин равновесный заменён на равновзвешенный; уточнены положительные веса и границы тезиса о снижении корреляции.",
+    "fingerprint": "2a5d9fbfd7ae0a7991bd93cec18f97ea82d7dc11c97e44b9ad8a6664f98407cc",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "beginner",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-10-1",
     "title": "Эффективная граница и портфель Марковица",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "ДоминированиеX надY проверено. Уточнено, что граница минимальной дисперсии включает нижнюю неэффективную часть; сохранены ограничения и ошибки оценки.",
+    "fingerprint": "ecc23aa979acff44531397df9d7ae0e128021c59b7abbe5b8797a6d07b84e7c8",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "beginner"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-11-0",
     "title": "CAPM и бета рыночного риска",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверены CAPM17% иβ1,5, различены прогноз и требуемый ориентир. Углубление дополнено экономическими допущениями и ролью диверсификации.",
+    "fingerprint": "beb3d8d6148c7ad08322dab02e45faed46af954abeb6aadd2fcad7d4bf8a3cfd",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-11-1",
     "title": "Шарп, Сортино и альфа Дженсена",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверены Sharpe0,5, Sortino0,8, Jensen4п.п.; добавлены границы сравнения при отрицательной премии и определение downside, без изменения формул.",
+    "fingerprint": "3c7b49cea55a3edcb960ecc8600a171535c77bcc270bd50772ec5bdeeb853a8a",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "story",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-12-0",
     "title": "Что предполагает технический анализ",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверены растущие экстремумы и самостоятельная роль: формулирование проверяемой гипотезы. Поддержка/сопротивление описаны как наблюдавшиеся области; гарантии прогноза нет.",
+    "fingerprint": "21fa59e597b286c5ce5f425d0ed2d288dc900e40c5aec2fb51a52697bcec0b53",
+    "reviewedOn": "2026-10-26",
+    "changes": [],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-12-1",
     "title": "Подтверждение тренда и ограничения теории Доу",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Убрано необоснованное требование независимых индикаторов: подтверждение не доказывает статистическую независимость. Добавлено время доступности сигнала, защита от взгляда в будущее.",
+    "fingerprint": "5569202d650137221540cf48adf093da45f4ef493fca88ddb3a37840203a2cf0",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "application",
+      "beginner"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-13-0",
     "title": "РЕПО с акциями и плечо брокера",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Плечо2 и потеря20% при падении10% проверены; долг и обеспечение разделены. Исправлен разрыв предложения. Экзаменационная пометка сохраняется, выборка не меняется.",
+    "fingerprint": "73f9d2876545f70873f54cf4bf537421c622a590895156251effdab9e2bb7c0f",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "application"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-13-1",
     "title": "НПР1, НПР2 и начальная маржа",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверены нормативные формулы и арифметика20/60/−5тыс. Упрощение явно фиксирует прочие параметры, не заменяет переоценку маржи. Исправлена пунктуация. Новые категории активов2026 не добавляются в исторический пример.",
+    "fingerprint": "237b12e63c5e222a64350f76906ec5e5f648e0a367ba210368a7e48db99d5e9e",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "application"
+    ],
+    "sourceCheck": "БанкРоссии: https://cbr.ru/Queries/XsltBlock/File/131643/-1/2501 (6681-У, приложение); https://www.cbr.ru/press/event/?id=32734 (изменения2026); NCC https://www.nationalclearingcentre.ru/catalog/0701/88502; 26.10.2026. Полный нормативный аудит отдельноT-01."
   },
   {
     "id": "INS-01-0",
