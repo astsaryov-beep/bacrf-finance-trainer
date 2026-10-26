@@ -381,44 +381,89 @@
   {
     "id": "S2-09-0",
     "title": "Право и обязательство, payoff",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "На примере различены положительная выплата, безубыточность и прибыль; уточнены денежное и поставочное исполнение и последующий риск базового актива.",
+    "fingerprint": "0a534ae96f385d63a9f054a5f49d6a8263005a505046085afdf16f5d29f1f988",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-09-1",
     "title": "Вертикальные спреды и волатильность",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Вертикальный call-спред принят после проверки областей цены и чистой премии. Во вводной устранено смешение разных сроков; принципы и углубление посвящены именно двум согласованным ногам.",
+    "fingerprint": "147ce33ae1b95c87948bf5d43e201f13cb0247796d3037735f221e9ce19d6447",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-10-0",
     "title": "Временная стоимость и оценка",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Указаны входы и идеализации модели оценки, обратный смысл IV и пределы разложения премии. Европейское исполнение отделено от немедленной внутренней стоимости.",
+    "fingerprint": "43a9fe0dcec0e55f5ac09846d5758a618820233cd61fc78f9349cacef12f241d",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "advanced"
+    ],
+    "sourceCheck": "OIC https://www.optionseducation.org/optionsoverview/options-pricing; Parameswaran (2023), European Options and Fixed Cost Spreads, https://www.scirp.net/journal/paperinformation?paperid=125727 — частный случай отрицательной разности европейского put и немедленной внутренней стоимости. Это углубление, не новый экзаменационный расчёт."
   },
   {
     "id": "S2-10-1",
     "title": "Delta, Gamma, Vega, Theta и риск хеджа",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Греки объяснены через единицы и портфельный множитель. Пример показывает построение локального delta-хеджа, а Vega и Theta требуют явной конвенции.",
+    "fingerprint": "2c46b99e6ea7a567159c6b365eb45dc363a391d3ffa8e0a94384a2de2efe87b2",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "OIC https://www.optionseducation.org/advancedconcepts/volatility-the-greeks и https://www.optionseducation.org/advancedconcepts/vega, проверено 26.10.2026: рыночная Vega часто задаётся на 1 процентный пункт IV, Theta — на один день. Конвенция конкретного расчёта приоритетна."
   },
   {
     "id": "S2-11-0",
     "title": "Как строится структурный продукт",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Незаконченный пример заменён тремя сценариями полной номинальной защиты. Раскрыты экономическая репликация и кредитное обязательство эмитента, различены полная, частичная и барьерная защита.",
+    "fingerprint": "5df5b2d1375c32bcc039f79d2d7b423a8b72c2b8ddcebb321b68aeca70717acd",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced",
+      "glossary"
+    ],
+    "sourceCheck": "Семинар 2, PDF-страницы 116–117: модель номинал + участие в положительном росте. Параметры в курсе условные, самостоятельная редакция. Правовой и полный постраничный аудит остаётся T-01."
   },
   {
     "id": "S2-11-1",
     "title": "Autocall, barrier note и пример золота",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Autocall, барьер и линейная модель золота разобраны раздельными примерами. Исправлено неполное представление возврата ГО и риск двойного учёта VM из исходного золотого кейса; предположение об универсальном преимуществе исключено.",
+    "fingerprint": "5aed515dbbb0caabeb899cc1af5c3c7494448070a88f768dd1ccfc9328b8ff6f",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Семинар 2, PDF-страницы 124–125 и 127–132 прочитаны; изображения PDF-страниц 128 и 130 осмотрены. Внутренний номер на этих слайдах на 1 меньше PDF-позиции. Суммы ГО и ставки из исторического примера не выдаются за текущие. Полный T-01 не заявляется."
   },
   {
     "id": "R-01-0",
