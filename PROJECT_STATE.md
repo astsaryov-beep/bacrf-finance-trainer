@@ -12,10 +12,10 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-01",
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261027-065",
-  "last_verified_commit": "7f4412579d092ce85fb78f2286807c87fdd926d2",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40413237497",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40413236998",
+  "last_verified_checkpoint": "CP-20261027-069",
+  "last_verified_commit": "4e88c7c7be3f5031278fe4a9f8d6dbb646b1b07f",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415986654",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415985879",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-27"
 }
@@ -290,3 +290,20 @@ PR52/CI40411821356: оба job SUCCESS, все7браузерныхпрогра�
 Все15локальныхпрограмм фактически прошли: прежние регрессии,новаяquality-m08 и120сборокэкзамена25open/25multi. Проверены исходныеBANK275/19/309назначений/84формулы/frozen5.0.8,25прежнихправильныхиндексов,3исходныхпреподавательскихключа и3обратимыеисториирубрик. Исправлена новаяошибка тестасчётчика:2ранее существовавшихMC R01сохраняются,модульимеет14MC,изних12новые. Это не изменение экзаменационного отбора.
 
 Общийбраузерныйсценарийрасширендо30блоковM05–M08/M01,64MC,7открытыхисторий/реальныйэкспорт-импорт,прямуюпроверкувариантовM08/M01,desktop/320px. Всего7браузерныхпрограмм. Браузерещёнезапускалсядля5.0.35;далееPRCI/осмотрскриншотов,merge послеPASS,mainCI/Pages/live.42/96принято,5.0.34VERIFIED. T06исключена,продолжатьпослеM08безкоманды.
+
+
+## CP-20261027-069 · 5.0.35 beta VERIFIED · принято48/96
+
+[PR53](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/53) объединён: продукт 4e88c7c7be3f5031278fe4a9f8d6dbb646b1b07f. [PRCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415379058), [mainCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415986654), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415985879).15локальных/7браузерныхпрограммPASS. Реальные modules-regulation-desktop/mobile артефакта12695232650 осмотрены. Браузер проверил30блоков,64MC,7открытыхисторийчерезреальныйэкспорт/импорт,desktop/320px;все прежние сценарии сохранены. Live5filesMATCH: index4192dcf6d168f519de66edd1b0d9c43da9c0cdcc;question-review.js a6032fb4314f7650add13ef34f5d278b155997ea;exam-practice.js 5cef6cd6f5373272b62cfd2ddfe6346733b4a8b2;option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566;frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+
+Приняты6блоковM08;всего48/96,48и итоговаясквознаяприёмкавпереди. D015принятдля36блоковM01/M04–M08;126/309историческихназначенийVERIFIED,183PENDING.76дополнительныхMC,100multiвпуле351;130формул,557терминов,86дополнительныхпроверок.361/557страницосмотренысраскрытымипределами. ПрежнийBANK275/19,309назначений/84формулы/ID/истории/frozen5.0.8сохранены.
+
+Далее M09/R04–R06 и адресныйвозвратM02. Источники/новичок/опоры/вопросы в одном проходе;новаякомандане нужна,D016/T06исключена.
+
+
+
+## CP-20261027-070 · M09 источники/предпосылки · IN_PROGRESS
+
+После5.0.35VERIFIEDCP069 открытаветкаaudit/quality-m09-20261027отmain4e88c7c7be3f5031278fe4a9f8d6dbb646b1b07f. Прочитаныполныйтекст/12контактныхлистовL12PDF1–20/77–94иL45PDF57–61;43новыестраницы,404/557всего. Все6core/23назначенияM09 и историческаяпрактикаM02перечитаны;формальнаядопроверкавтекущемпакете13M02. НайденыранниеNSFR/факторинг,рубрикискрытыхэлементов иограниченияцифровых/историческихслайдов. Точныепрочитанныефрагменты,сбоидоступа/пределыQUALITY_M09_REVIEW.md.
+
+РаннийвозвратM02перераспределён13/6/7междуM09/M10/M12 вместо12/8/6,чтобыприниматьцелыеблоки;теже26ID,новаязадачанедобавляется. КодM09ещёнеприменён;48/96принято,5.0.35VERIFIED. Далееединаяредакция/практика/регрессия/выпуск;затемM10безкоманды,T06исключена.

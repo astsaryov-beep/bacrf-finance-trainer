@@ -228,3 +228,13 @@ IN_PROGRESS; прямая команда26.10.2026. Совместно T-01/T-14
 
 Карта126/309рассмотрена(85VERIFIED+41ожидаютрегрессию),183PENDING.361/557страницосмотрено,42/96принято;M08ещёнепринят,проверкиD015для12блоковM01/M08ожидаются. ИсходныеBANK275/19,309назначений,84формулы,frozen5.0.8/ID/историисохранены. Далее15локальных/7браузерныхпрограмм,осмотрскриншотов,PR/mainCI/Pages/live;затемM09безкоманды,T06исключена.
 
+
+
+## CP-20261027-069 · 5.0.35 beta VERIFIED · принято48/96
+
+[PR53](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/53) объединён: продукт 4e88c7c7be3f5031278fe4a9f8d6dbb646b1b07f. [PRCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415379058), [mainCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415986654), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415985879).15локальных/7браузерныхпрограммPASS. Реальные modules-regulation-desktop/mobile артефакта12695232650 осмотрены. Браузер проверил30блоков,64MC,7открытыхисторийчерезреальныйэкспорт/импорт,desktop/320px;все прежние сценарии сохранены. Live5filesMATCH: index4192dcf6d168f519de66edd1b0d9c43da9c0cdcc;question-review.js a6032fb4314f7650add13ef34f5d278b155997ea;exam-practice.js 5cef6cd6f5373272b62cfd2ddfe6346733b4a8b2;option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566;frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+
+Приняты6блоковM08;всего48/96,48и итоговаясквознаяприёмкавпереди. D015принятдля36блоковM01/M04–M08;126/309историческихназначенийVERIFIED,183PENDING.76дополнительныхMC,100multiвпуле351;130формул,557терминов,86дополнительныхпроверок.361/557страницосмотренысраскрытымипределами. ПрежнийBANK275/19,309назначений/84формулы/ID/истории/frozen5.0.8сохранены.
+
+Далее M09/R04–R06 и адресныйвозвратM02. Источники/новичок/опоры/вопросы в одном проходе;новаякомандане нужна,D016/T06исключена.
+

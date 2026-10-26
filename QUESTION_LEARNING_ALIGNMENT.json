@@ -3,14 +3,14 @@
   "historicalAssignmentCount": 309,
   "reviewedHistoricalAssignments": 126,
   "remainingHistoricalAssignments": 183,
-  "blocksPendingNewCriteria": 72,
+  "blocksPendingNewCriteria": 60,
   "limitations": "Статусы — редакционная проверка конкретных назначений, не академическая приёмка всех96. M01–M04 нужно адресно дополнить по D-015; остальные модули в общем проходе. Нет доказательства реальной сложности/дискриминативности без результатов учеников.",
   "assignments": [
     {
       "questionId": "RM19",
       "block": "S1-01-0",
       "sequence": 0,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Кассовыйразрыв/овердрафт vsдлиннаяпотребность/рискрефинансирования",
       "support": [
         {
@@ -79,13 +79,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RO08",
       "block": "S1-01-0",
       "sequence": 0,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Дваобязательныхобъяснённыхканала спроскомпаний/предложениебанков;договорныепределы",
       "support": [
         {
@@ -154,13 +155,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-028",
       "block": "S1-01-1",
       "sequence": 1,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Фактическийнеобеспеченныйovernight vsРЕПО/накопленныйиндекс/ключеваяставка",
       "support": [
         {
@@ -228,13 +230,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "Q18",
       "block": "S1-01-1",
       "sequence": 1,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "RUONIA/RUSFAR/частьсроков,накопленныйиндексисрочнаяверсия1/3/6;расхождениеспреподавателемраскрыто",
       "support": [
         {
@@ -302,13 +305,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM18",
       "block": "S1-02-0",
       "sequence": 2,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Кредитныйдоговорбанк/инаяКО vsширокийзайм,залог/возврат/процентынекритерии",
       "support": [
         {
@@ -377,13 +381,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM13",
       "block": "S1-02-0",
       "sequence": 2,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Допусклицензии vsграфик/подборпродукта/процедуравзыскания",
       "support": [
         {
@@ -452,13 +457,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM20",
       "block": "S1-02-1",
       "sequence": 3,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Возобновлениепоусловиям vsневозобновление/новыйдоговор/суммаплатежей",
       "support": [
         {
@@ -528,13 +534,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RO06",
       "block": "S1-02-1",
       "sequence": 3,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Обязательныобаэлемента:невозвратбанку и сравнениевосстановлениявыборки",
       "support": [
         {
@@ -604,13 +611,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM22",
       "block": "S1-03-0",
       "sequence": 4,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Проектныйпоток vsпотокспонсора/однаSPV/одинзалог",
       "support": [
         {
@@ -673,13 +681,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RO05",
       "block": "S1-03-0",
       "sequence": 4,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Связьпотокаспогашением+хотябыодинобъяснённыйрисктому потоку,несверхусловныестресс-сценарии",
       "support": [
         {
@@ -742,13 +751,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM23",
       "block": "S1-03-1",
       "sequence": 5,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Распределениемеждукредиторами vsвесьрискагенту/автосубординация/переносдолга",
       "support": [
         {
@@ -816,13 +826,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "LQ01",
       "block": "S1-03-1",
       "sequence": 5,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Очередность vsсрок/PIK/синдикация",
       "support": [
         {
@@ -890,13 +901,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "LQ12",
       "block": "S1-03-1",
       "sequence": 5,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Финансовыйпорогдопросрочки/последствияподоговору vsавтоматическийнеплатёж/очередь/отсутствиепоследствий",
       "support": [
         {
@@ -964,7 +976,8 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "LQ02",
@@ -5194,7 +5207,7 @@
       "questionId": "RM01",
       "block": "R-01-0",
       "sequence": 42,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Перераспределение ресурсов,частные функции расчёта/бюджета/внутреннего казначейства",
       "support": [
         {
@@ -5268,13 +5281,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM02",
       "block": "R-01-0",
       "sequence": 42,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Краткосрочность как критерий денежного рынка,отдельно обеспечение и первичность",
       "support": [
         {
@@ -5348,13 +5362,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM04",
       "block": "R-01-0",
       "sequence": 42,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Банковское посредничество вклад–баланс–кредит",
       "support": [
         {
@@ -5428,13 +5443,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM10",
       "block": "R-01-0",
       "sequence": 42,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Асимметрия информации vs общая неопределённость/разные прогнозы/сроки",
       "support": [
         {
@@ -5508,13 +5524,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RO07",
       "block": "R-01-0",
       "sequence": 42,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Отдельные риски клиента и организации и причина различия",
       "support": [
         {
@@ -5588,13 +5605,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM03",
       "block": "R-01-1",
       "sequence": 43,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Центральный депозитарий vsЦК/торги/рейтинг",
       "support": [
         {
@@ -5667,13 +5685,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM24",
       "block": "R-01-1",
       "sequence": 43,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Центральное звено учёта прав vsорганизатор/ЦК/перевод денег",
       "support": [
         {
@@ -5746,13 +5765,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "Q01",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все5видов:ФССП/Росреестр и БанкРоссии в частиломбардов/ЦФА/корпоративныхполномочий",
       "support": [
         {
@@ -5834,13 +5854,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM05",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Пруденциальная устойчивость vsповедение/цена/учётправ",
       "support": [
         {
@@ -5922,13 +5943,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM07",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Функциональный vsинституциональный/поцелям/интегрированный",
       "support": [
         {
@@ -6010,13 +6032,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM09",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Денежно-кредитнаяфункцияЦБ vsналоги/бюджет/субсидии",
       "support": [
         {
@@ -6098,13 +6121,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RO01",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Сходнаяоперация+разныйрежим→переносриска/арбитраж",
       "support": [
         {
@@ -6186,13 +6210,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-002",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Условия/сценарии не равны цене раннего выхода/прямымправамнахедж/долгунадзора",
       "support": [
         {
@@ -6274,13 +6299,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-014",
       "block": "R-02-0",
       "sequence": 44,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Неизменныйэкономическийриск и более слабыйконтроль,последствиясистеме",
       "support": [
         {
@@ -6362,13 +6388,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "Q03",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все5законов/даты/предмет,учебнаяклассификацияA/Dиодноимённыеномераразныхлет",
       "support": [
         {
@@ -6529,13 +6556,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM06",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Типинститута vsоперация/цель/единыйорган",
       "support": [
         {
@@ -6696,13 +6724,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM08",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Информационныйдоступ vsодинаковаяоценка/неизменнаяцена/скрытие",
       "support": [
         {
@@ -6863,13 +6892,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM12",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Пропорциональностьмасштабу/риску vsединственныйформальныйпризнак/отменавсехтребований",
       "support": [
         {
@@ -7030,13 +7060,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RO02",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Установлениеправил vsпроверка/мерыреагирования",
       "support": [
         {
@@ -7197,13 +7228,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-006",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Арбитраж vsотбордо/поведениепосле/рефинансирование",
       "support": [
         {
@@ -7364,13 +7396,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-016",
       "block": "R-02-1",
       "sequence": 45,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Обязательноеюридическоетребование vsрыночнаяцена/лимит/реакциянариск",
       "support": [
         {
@@ -7531,13 +7564,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "Q02",
       "block": "R-03-0",
       "sequence": 46,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все5видов:инкассация/лизинг/ДУ vsсобственноестрахование/торговлясоговоркамиисключений",
       "support": [
         {
@@ -7614,13 +7648,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM14",
       "block": "R-03-0",
       "sequence": 46,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Базовыйрежим/ограничения/соразмерность,универсальныйтожевпределахзакона",
       "support": [
         {
@@ -7697,13 +7732,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-005",
       "block": "R-03-0",
       "sequence": 46,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Кредиторбанк/инаяКО,займденьги/возврат/залогнеопределяющийпризнак",
       "support": [
         {
@@ -7780,13 +7816,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM11",
       "block": "R-03-1",
       "sequence": 47,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Страхование vsрезерв/ЦК/депозитарий",
       "support": [
         {
@@ -7853,13 +7890,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM17",
       "block": "R-03-1",
       "sequence": 47,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Видсредств/вкладчик/событие/предел,некаждыйсчётилиоблигация",
       "support": [
         {
@@ -7926,13 +7964,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-007",
       "block": "R-03-1",
       "sequence": 47,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Первоначальныйдолжникбанк vsстраховщикАСВ/надзор/учётправ",
       "support": [
         {
@@ -7999,13 +8038,14 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "V2-008",
       "block": "R-03-1",
       "sequence": 47,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Правовойрежимразныхпродуктов vsодинаковыйканал/наличиеденег/покрытиеубытка",
       "support": [
         {
@@ -8072,7 +8112,8 @@
           ]
         }
       ],
-      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди."
+      "decision": "M08+13M01:проверенывсе варианты/ключииликаждыйобязательныйкритерий;явныеопорывтомжеилираннемблоке. Регрессиявпереди.",
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "RM15",
@@ -13628,7 +13669,7 @@
       "questionId": "MC-R-01-0-2",
       "block": "R-01-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -13702,13 +13743,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-01-0-3",
       "block": "R-01-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -13782,13 +13824,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-01-1-2",
       "block": "R-01-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -13861,13 +13904,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-01-1-3",
       "block": "R-01-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -13940,13 +13984,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-02-0-1",
       "block": "R-02-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14028,13 +14073,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-02-0-2",
       "block": "R-02-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14116,13 +14162,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-02-1-1",
       "block": "R-02-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14205,13 +14252,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-02-1-2",
       "block": "R-02-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14294,13 +14342,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-03-0-1",
       "block": "R-03-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14377,13 +14426,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-03-0-2",
       "block": "R-03-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14460,13 +14510,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-03-1-1",
       "block": "R-03-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14533,13 +14584,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-R-03-1-2",
       "block": "R-03-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14606,13 +14658,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-01-0-1",
       "block": "S1-01-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14681,13 +14734,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-01-0-2",
       "block": "S1-01-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14756,13 +14810,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-01-1-1",
       "block": "S1-01-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14830,13 +14885,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-01-1-2",
       "block": "S1-01-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14904,13 +14960,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-02-0-1",
       "block": "S1-02-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -14979,13 +15036,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-02-0-2",
       "block": "S1-02-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15054,13 +15112,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-02-1-1",
       "block": "S1-02-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15130,13 +15189,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-02-1-2",
       "block": "S1-02-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15206,13 +15266,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-03-0-1",
       "block": "S1-03-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15275,13 +15336,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-03-0-2",
       "block": "S1-03-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15344,13 +15406,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-03-1-1",
       "block": "S1-03-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15418,13 +15481,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-03-1-2",
       "block": "S1-03-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все варианты различаются по материалу текущего или уже пройденного блока.",
       "distractorReview": "Предметные ошибки ролей,потоков,классификаций и условий. Редакционная сложность,не эмпирическое измерение.",
       "support": [
@@ -15492,9 +15556,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP069/PR53/CI40415379058/mainCI40415986654/Pages40415985879/liveMATCH5files"
     }
   ],
-  "blocksAcceptedNewCriteria": 24,
-  "blocksReviewedPendingNewCriteria": 12
+  "blocksAcceptedNewCriteria": 36,
+  "blocksReviewedPendingNewCriteria": 0
 }
