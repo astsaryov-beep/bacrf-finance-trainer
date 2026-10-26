@@ -1,3 +1,9 @@
+# 5.0.31 beta · M04 · RELEASE_PENDING
+
+Шесть блоков рассмотрены и исправлены;18/96уже принято,ещё6рассмотрены.183/557страницы осмотрены с пределами. Всего110формул,502словарные записи,38дополнительных концептуальных проверок. Десять локальных программ PASS; новый браузер/PRCI/mainCI/Pages/live PENDING. Последний опубликованный VERIFIED —5.0.30/CP042. Карта и предметные доказательства QUALITY_M04_REVIEW.md; T-06исключена, D-012сохранено.
+
+---
+
 # 5.0.30 beta · VERIFIED · CP042
 
 [PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.

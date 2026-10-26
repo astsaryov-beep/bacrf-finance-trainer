@@ -95,9 +95,14 @@
         "S2-02-0",
         "S2-02-1"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
-      "evidence": "QUALITY_M04_REVIEW.md"
+      "evidence": "QUALITY_M04_REVIEW.md",
+      "limits": [
+        "Historical market/seasonal/chart data not reconstructed as current statistics.",
+        "Only necessary primary legal sections inspected; no universal tax/judicial qualification rules certified.",
+        "Commodity project/collateral table lacks enough cash-flow details for a reproducible current deal."
+      ]
     },
     {
       "id": "M05",
@@ -803,15 +808,18 @@
         "BO07",
         "LQ11"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-032",
+        "QA-038"
+      ],
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ]
@@ -825,15 +833,17 @@
         "Q10",
         "Q09"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-031"
+      ],
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ]
@@ -849,15 +859,17 @@
         "PM23",
         "V2-065"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-033"
+      ],
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ]
@@ -871,15 +883,18 @@
         "PM03",
         "V2-009"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-034",
+        "QA-038"
+      ],
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ]
@@ -888,21 +903,24 @@
       "id": "S2-02-0",
       "title": "Вариационная маржа и поставка",
       "module": "M04",
-      "declaredSlides": "16–21",
+      "declaredSlides": "11; 16–21",
       "questions": [
         "PM04",
         "V2-060",
         "V2-070"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-035",
+        "QA-038"
+      ],
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ]
@@ -911,20 +929,23 @@
       "id": "S2-02-1",
       "title": "Базис, cost of carry и ролловер",
       "module": "M04",
-      "declaredSlides": "22–27",
+      "declaredSlides": "22–28",
       "questions": [
         "PM19",
         "V2-061"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-036",
+        "QA-037"
+      ],
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ]
@@ -9347,13 +9368,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -9363,13 +9391,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -9379,13 +9414,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -9979,13 +10021,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -9995,13 +10044,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10011,13 +10067,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10027,13 +10090,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10043,13 +10113,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10059,13 +10136,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10075,13 +10159,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10091,13 +10182,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10107,13 +10205,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10123,13 +10228,20 @@
       "candidateBlocks": [
         "S1-10-0"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10139,13 +10251,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10155,13 +10274,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10171,13 +10297,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10187,13 +10320,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10203,13 +10343,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10219,13 +10366,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10235,13 +10389,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10251,13 +10412,20 @@
       "candidateBlocks": [
         "S1-10-1"
       ],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-10-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10265,13 +10433,18 @@
       "textPresent": true,
       "headingCandidate": "К следующему семинару: Изучить: • обязательно материалы этой презентации в полном объеме; • ознакомиться с рекомендуемыми материалами в открытом досту",
       "candidateBlocks": [],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "ADMINISTRATIVE_WITH_NO_SEPARATE_LEARNING_BLOCK",
+      "units": [
+        {
+          "blocks": [],
+          "disposition": "Источники/организационное задание и завершение презентации; отдельный предметный блок не требуется."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S1",
@@ -10279,13 +10452,18 @@
       "textPresent": true,
       "headingCandidate": "Спасибо за внимание! Киселев Сергей Викторович Департамент финансового менеджмента ВШБ НИУ ВШЭ",
       "candidateBlocks": [],
-      "mappingStatus": "REVIEWED_CANDIDATES",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
-      "units": [],
+      "coverage": "ADMINISTRATIVE_WITH_NO_SEPARATE_LEARNING_BLOCK",
+      "units": [
+        {
+          "blocks": [],
+          "disposition": "Источники/организационное задание и завершение презентации; отдельный предметный блок не требуется."
+        }
+      ],
       "issues": [],
-      "note": "M04: текст/изображение полностью просмотрены; ошибки/ранние исправления и пределы QUALITY_M04_REVIEW.md, приёмка не выполнена."
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10321,12 +10499,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10336,12 +10522,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10351,12 +10545,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10366,12 +10568,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10381,12 +10591,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10396,12 +10614,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10411,12 +10637,20 @@
       "candidateBlocks": [
         "S2-01-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
+      "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10426,12 +10660,20 @@
       "candidateBlocks": [
         "S2-01-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10439,14 +10681,24 @@
       "textPresent": true,
       "headingCandidate": "Важные понятия стандартизованного биржевого рынка Начальная маржа (Гарантийное обеспечение, ГО)Начальная маржа (Гарантийное обеспечение, ГО ) – это ре",
       "candidateBlocks": [
-        "S2-01-1"
+        "S2-01-1",
+        "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-1",
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10456,12 +10708,20 @@
       "candidateBlocks": [
         "S2-01-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10471,12 +10731,20 @@
       "candidateBlocks": [
         "S2-01-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10486,12 +10754,20 @@
       "candidateBlocks": [
         "S2-01-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10501,12 +10777,20 @@
       "candidateBlocks": [
         "S2-01-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-01-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10516,12 +10800,20 @@
       "candidateBlocks": [
         "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10531,12 +10823,20 @@
       "candidateBlocks": [
         "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10546,12 +10846,20 @@
       "candidateBlocks": [
         "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10561,12 +10869,20 @@
       "candidateBlocks": [
         "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10576,12 +10892,20 @@
       "candidateBlocks": [
         "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10591,12 +10915,20 @@
       "candidateBlocks": [
         "S2-02-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-0"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10606,12 +10938,20 @@
       "candidateBlocks": [
         "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10621,12 +10961,20 @@
       "candidateBlocks": [
         "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10636,12 +10984,20 @@
       "candidateBlocks": [
         "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10651,12 +11007,20 @@
       "candidateBlocks": [
         "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10666,12 +11030,20 @@
       "candidateBlocks": [
         "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10681,12 +11053,20 @@
       "candidateBlocks": [
         "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -10694,14 +11074,22 @@
       "textPresent": true,
       "headingCandidate": "Фьючерсный арбитраж: стратегии Cash-and-Carry Безарбитражное равновесие и монетизация неэффективности рынка 1. Прямой арбитраж (Cash-and-Carry) Покупк",
       "candidateBlocks": [
-        "S2-03-0"
+        "S2-02-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S2-02-1"
+          ],
+          "disposition": "Карта понятий, ранние исправления и новые дополнения QUALITY_M04_REVIEW.md; числовые ряды и частные нормы не сертифицированы."
+        }
+      ],
+      "issues": [],
+      "note": "M04: полные текст/изображение просмотрены; основные единицы сопоставлены, браузерная приёмка ещё ожидается."
     },
     {
       "document": "S2",
@@ -12298,10 +12686,10 @@
     }
   ],
   "inspectionCounts": {
-    "textAndVisualThisAudit": 157,
-    "moduleBlocksReviewedPendingBrowser": 0,
+    "textAndVisualThisAudit": 183,
+    "moduleBlocksReviewedPendingBrowser": 6,
     "moduleBlocksAccepted": 18,
-    "remainingModuleBlocks": 78
+    "remainingModuleBlocks": 72
   },
   "verification": {
     "version": "5.0.29 beta",
@@ -12312,5 +12700,5 @@
     "pages": 40322560214,
     "live": "MATCH"
   },
-  "workingVersion": "5.0.30 beta"
+  "workingVersion": "5.0.31 beta"
 }
