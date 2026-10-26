@@ -194,8 +194,8 @@
         "S1-09-1"
       ],
       "status": "SEMANTIC_MATCH_REVERSE_CASE_REQUIRED",
-      "followup": "QA-018: effective rubric explicitly requires the reverse case and an example; browser/export-import pending.",
-      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
+      "followup": "QA-018 resolved: reverse case/example required; old answer/grade retained, actual export/import and fresh recheck PASS.",
+      "correction": "FIXED_VERIFIED"
     },
     {
       "sourceNumber": 18,
