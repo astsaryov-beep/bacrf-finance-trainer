@@ -469,11 +469,11 @@
     "id": "R-01-0",
     "title": "Участники, рынки и финансовые потоки",
     "status": "REVIEWED",
-    "decision": "Проверены первичный/вторичный рынок и права по договорам; дополнена вводная резервного отображаемого слоя, чтобы она также объясняла участников с нуля.",
-    "fingerprint": "cbdb07939366186efd2ecf0e632086a11c5bb8a036111b3dd23b9006547a0115",
+    "decision": "При перекрёстной проверке с IPO уточнена выжимка первичного/вторичного рынка: размещение новых инструментов и продажа существующих разведены без неопределённого другого получателя средств.",
+    "fingerprint": "6e0acd6944499d0f29c187af573af8ad626f8c50718bc425cb77ed1b3ab71a41",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation"
+      "principles"
     ],
     "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
@@ -579,58 +579,122 @@
   {
     "id": "E-01-0",
     "title": "Обыкновенные и привилегированные акции",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Механизм теперь соответствует видам акций и правам, а IPO вынесен в свой блок. Исправлена вводная, подразумевавшая финансирование эмитента при любой покупке акции; уточнены голосование и приоритет префов.",
+    "fingerprint": "62ed9feae61d7009fceabdc3125ccc1cb31cb07c700147137c8917150aff0fca",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Материалы курса и школа Мосбиржи: https://school.moex.com/articles/obyknovennye-i-privilegirovannye-akcii-v-chem-raznica-dlya-investora (28.09.2026). Конкретные корпоративные права проверяют по закону и уставу; обещание безусловного дивиденда не вводится."
   },
   {
     "id": "E-01-1",
     "title": "IPO, SPO и дополнительные выпуски",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "IPO/SPO разобраны по получателю средств и изменению числа акций, включая смешанное предложение. Пример продажи старого пакета развивает, а не повторяет пример размывания; разводнение доли отделено от стоимости пакета.",
+    "fingerprint": "64168aa5163821ce8421ffb96d4823e8b3f18b75dd06dffe93dec5be76c6ad01",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "application",
+      "principles",
+      "advanced",
+      "glossary"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-02-0",
     "title": "EPS и P/E",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "EPS проверен по относимой прибыли и средневзвешенному числу акций. Добавлены пример изменения базы в середине года, базовый/разводнённый EPS и ограничение интерпретации P/E.",
+    "fingerprint": "7ed93ac86d0d52ff69e6d77b845a653a5292d70b7e4a03119ca01d4293e6755b",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "IFRS Foundation, IAS 33: https://www.ifrs.org/issued-standards/list-of-standards/ias-33-earnings-per-share.html/. Применение конкретного стандарта и корректировки требуют отчётности; числовые примеры собственные учебные."
   },
   {
     "id": "E-02-1",
     "title": "P/BV и EV/EBITDA",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Разделены стоимость собственного капитала и всего бизнеса. Повтор чисел из бытового примера заменён сравнением двух долговых структур; углублены ограничения балансовой стоимости и EBITDA.",
+    "fingerprint": "d63d4fd8a593feab8ae8f88e8fe5cb26cc62e8908b0918522a01f04a5f67baa3",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "application",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-03-0",
     "title": "Дивидендная доходность",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Дивидендная доходность раскрыта по периоду, статусу выплаты и выбранной цене; детали отсечки перенесены в следующий блок. Уточнена разовая выплата и сопоставимость показателей.",
+    "fingerprint": "e6fb1f124aaf04dcf99dd7f4af12feac381b7c0aac27719367e4d929c91e6e4b",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-03-1",
     "title": "Дивидендная отсечка и полная доходность",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Восстановлен полный механизм сделки, учёта прав и экс-даты. Повторяющийся пример 13% заменён суммой цены и права на выплату; подчёркнута модельность дивидендного гэпа.",
+    "fingerprint": "cb98e1fb0bca33cb285094121b2d062ce37b1d354996ee73df68a2146670e138",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "beginner",
+      "story",
+      "mechanism",
+      "application",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "E-04-0",
     "title": "Паевые и биржевые фонды",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Объяснён весь цикл фонда: пайщики, имущество, УК, депозитарный контроль, расчётная стоимость и выход. Устранено предположение о гарантированной диверсификации любого фонда; виды ПИФ разграничены по ликвидности.",
+    "fingerprint": "59c469f2a4a836de4bd2f0a5c5ee3aa9d3d4a65f45ba0ce502e953e2cb913781",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Материалы Банка России: https://www.cbr.ru/RSCI/data_showcase/ и образовательный ресурс ЦБ https://fincult.info/article/paevye-fondy-kak-oni-rabotayut-i-kak-na-nikh-zarabotat/. Правовой режим конкретного фонда определяется его правилами и применимым законом."
   },
   {
     "id": "E-04-1",
     "title": "Индексные фонды и расходы инвестора",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Исправлено смешение tracking difference и tracking error. Раскрыты выбор эталона, репликация, внутренние/внешние расходы и недопустимость двойного вычитания уже учтённой комиссии.",
+    "fingerprint": "281ec87da6b0bc8f6f5c0b33ac2db2e3ce76b7ec9de5d3aa41af7bf8ebea92e7",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "beginner",
+      "mechanism",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "MSCI https://www.msci.com/research-and-insights/blog-post/how-easy-is-it-to-track-a-bond-market-index и MSCI IndexMetrics https://www.msci.com/documents/10199/402635a5-fd5d-498e-985a-1bec8ff8d8b1. TD — разница результатов, TE — разброс периодических разниц, а не другое название одного числа."
   },
   {
     "id": "E-05-0",
