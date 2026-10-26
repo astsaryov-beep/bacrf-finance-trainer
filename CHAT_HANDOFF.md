@@ -1,5 +1,9 @@
-# CP-20261026-023 ·T-02 содержательно 96/96 · выпускPENDING
+# CP-20261026-025 ·5.0.27 beta VERIFIED ·T-02 DONE96/96
 
-Рабочая ветка content/methodical-final-20261026, версия 5.0.27 beta. Исправлена несогласованность версии; весь контент 66/96 сохранён, завершены оставшиеся 30. Реестр 96 решений COURSE_METHOD_REVIEW.json, подробный отчёт COURSE_METHOD_REVIEW_20261026.md. Шесть локальных проверок PASS; новый CI/browser/Pages PENDING.
+[PR #38](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/38) MERGED; продуктовый commit `e3dad380e74f56629e4f906dfe1590ceb5b4c082`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40301865821), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216887), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216421).
 
-Опубликованная основа 5.0.26: PR37, SHA153322a2616f2274091088b7f8b059927aed4111, PR/mainCI и Pages SUCCESS, live MATCH. Следующий шаг: PR с новым выпуском, зелёные проверки, merge, Pages/live, затем подтверждённый checkpoint. ПолныйT-01 остаётся PARTIAL. T-06 только по отдельной команде; beta снимать только после приёмки. История: CHECKPOINTS.md и docs/PRE_5027_CHAT_HANDOFF.md.
+Live Git blobs: index `6602594dfddb71ae0a55862bc237eed8baacfdd8`, question-review.js `0cdae67810f74e8312b14ff1b81d46cb117a31f3`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519` — MATCH. Все шесть проверок PASS; desktop/mobile smoke и браузерные проверки 96 механизмов/примеров/выжимок, самопроверок и миграции/экспорта PASS.
+
+Задача пользователя о полном методическом охвате 96 блоков завершена. Полезный контент сохранён, конфликт версии разрешён. Все 76 дополнительных блоков и ранее принятые 20 отражены в реестре. Отчёт COURSE_METHOD_REVIEW_20261026.md, машинные решения/отпечатки COURSE_METHOD_REVIEW.json.
+
+Следующая самостоятельная содержательная задача — T-01, академическая сверка 557 слайдов; она остаётся PARTIAL. T-06 исключена до отдельной команды. Beta сохраняется до приёмки пользователем. Банк 275/19,84 формулы,309 назначений и подготовка, прогресс и stable5.0.8 сохранены. Для восстановления прочитать AGENTS.md, PROJECT_STATE.md, ROADMAP.md и CHECKPOINTS.md; перепроверить фактическийHEAD main. История прежних этапов сохранена, новых функциональных изменений в этом документальном этапе нет.
