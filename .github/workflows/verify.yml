@@ -35,6 +35,8 @@ jobs:
         run: node tests/quality-m04-check.mjs
       - name: Verify M05 financial models and historical rubrics
         run: node tests/quality-m05-check.mjs
+      - name: Verify M06 risk models and earlier M04 prerequisites
+        run: node tests/quality-m06-check.mjs
       - name: Verify multi-select exam and prior learning evidence
         run: node tests/exam-practice-check.mjs
       - name: Verify conceptual learning and corrected answer keys
@@ -57,7 +59,7 @@ jobs:
           node tests/teacher-review-browser.mjs
           node tests/quality-m03-browser.mjs
           node tests/quality-m04-browser.mjs
-          node tests/quality-m05-browser.mjs
+          node tests/quality-modules-browser.mjs
           node tests/exam-practice-browser.mjs
       - name: Attach screenshots and diagnostics
         if: always()

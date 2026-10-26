@@ -142,9 +142,12 @@
         "S2-08-0",
         "S2-08-1"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
-      "evidence": "QUALITY_M06_REVIEW.md"
+      "evidence": "QUALITY_M06_REVIEW.md",
+      "limits": [
+        "Исторические кривые не реконструированы полностью; частные правовые/учётные нормы не сертифицированы универсально."
+      ]
     },
     {
       "id": "M07",
@@ -847,7 +850,7 @@
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ],
-      "newExamPracticeAudit": "PENDING_TARGETED_D015_REVIEW"
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S1-10-1",
@@ -872,7 +875,7 @@
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ],
-      "newExamPracticeAudit": "PENDING_TARGETED_D015_REVIEW"
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-01-0",
@@ -899,7 +902,7 @@
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ],
-      "newExamPracticeAudit": "PENDING_TARGETED_D015_REVIEW"
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-01-1",
@@ -925,7 +928,7 @@
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ],
-      "newExamPracticeAudit": "PENDING_TARGETED_D015_REVIEW"
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-02-0",
@@ -952,7 +955,7 @@
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ],
-      "newExamPracticeAudit": "PENDING_TARGETED_D015_REVIEW"
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-02-1",
@@ -978,7 +981,7 @@
       "evidence": [
         "QUALITY_M04_REVIEW.md"
       ],
-      "newExamPracticeAudit": "PENDING_TARGETED_D015_REVIEW"
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-03-0",
@@ -1142,18 +1145,20 @@
         "V2-062",
         "V2-063"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
       "evidence": [
-        "QUALITY_M06_REVIEW.md"
-      ]
+        "QUALITY_M06_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ],
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-06-1",
@@ -1167,18 +1172,20 @@
         "V2-068",
         "V2-071"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
       "evidence": [
-        "QUALITY_M06_REVIEW.md"
-      ]
+        "QUALITY_M06_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ],
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-07-0",
@@ -1188,18 +1195,20 @@
       "questions": [
         "V2-072"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
       "evidence": [
-        "QUALITY_M06_REVIEW.md"
-      ]
+        "QUALITY_M06_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ],
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-07-1",
@@ -1210,18 +1219,20 @@
         "LQ05",
         "LQ06"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
       "evidence": [
-        "QUALITY_M06_REVIEW.md"
-      ]
+        "QUALITY_M06_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ],
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-08-0",
@@ -1232,18 +1243,20 @@
         "PM20",
         "LQ15"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
       "evidence": [
-        "QUALITY_M06_REVIEW.md"
-      ]
+        "QUALITY_M06_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ],
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-08-1",
@@ -1253,18 +1266,20 @@
       "questions": [
         "LQ14"
       ],
-      "status": "IN_PROGRESS",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
       "evidence": [
-        "QUALITY_M06_REVIEW.md"
-      ]
+        "QUALITY_M06_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ],
+      "newExamPracticeAudit": "CONTENT_REVIEWED_PENDING_REGRESSION"
     },
     {
       "id": "S2-09-0",
@@ -12809,18 +12824,18 @@
   ],
   "inspectionCounts": {
     "textAndVisualThisAudit": 239,
-    "moduleBlocksReviewedPendingBrowser": 0,
+    "moduleBlocksReviewedPendingBrowser": 6,
     "moduleBlocksAccepted": 30,
     "remainingModuleBlocks": 66
   },
   "verification": {
-    "version": "5.0.29 beta",
-    "commit": "8133aa25b73bfdf9b7e7fcd91df6276c341acd91",
-    "pr": 42,
-    "prCI": 40322174931,
-    "mainCI": 40322560294,
-    "pages": 40322560214,
+    "version": "5.0.32 beta",
+    "commit": "fc62a66d8a35d19fb1f5a4f5a35ab5265871c50c",
+    "pr": 49,
+    "prCI": 40385819291,
+    "mainCI": 40386540271,
+    "pages": 40386538843,
     "live": "MATCH"
   },
-  "workingVersion": "5.0.32 beta"
+  "workingVersion": "5.0.33 beta"
 }
