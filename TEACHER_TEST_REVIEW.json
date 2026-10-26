@@ -172,7 +172,8 @@
       "blocks": [
         "S2-06-1"
       ],
-      "status": "SEMANTIC_MATCH"
+      "status": "SEMANTIC_MATCH",
+      "integratedM04": "Full effective question/prep checked; Q09 unchanged, Q10 previous one-or-more rule retained; no exam selection changes."
     },
     {
       "sourceNumber": 16,
@@ -227,7 +228,8 @@
         "S1-10-1"
       ],
       "status": "RUBRIC_TOO_RESTRICTIVE",
-      "correction": "IMPLEMENTED_VERIFIED"
+      "correction": "IMPLEMENTED_VERIFIED",
+      "integratedM04": "Full effective question/prep checked; Q09 unchanged, Q10 previous one-or-more rule retained; no exam selection changes."
     }
   ]
 }

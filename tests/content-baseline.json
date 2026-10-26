@@ -168,6 +168,36 @@
         "Покрытие совокупных регулярных расходов холдинга"
       ],
       "reason": "M03: teacher-source gaps; annual conventions, independent examples; original84 retained"
+    },
+    {
+      "block": "S1-10-0",
+      "titles": [
+        "Подбор стоимости противоположной позиции по DV01",
+        "Чувствительность стоимости капитала в простой ALM-модели"
+      ],
+      "reason": "M04: source-gap models, units and independent examples; original84 unchanged"
+    },
+    {
+      "block": "S2-01-0",
+      "titles": [
+        "Плечо и чувствительность собственного капитала"
+      ],
+      "reason": "M04: source-gap models, units and independent examples; original84 unchanged"
+    },
+    {
+      "block": "S2-02-0",
+      "titles": [
+        "Денежная стоимость пункта из минимального шага"
+      ],
+      "reason": "M04: source-gap models, units and independent examples; original84 unchanged"
+    },
+    {
+      "block": "S2-02-1",
+      "titles": [
+        "Результат равного хеджа при базисе F−S",
+        "Непрерывная модель издержек владения"
+      ],
+      "reason": "M04: source-gap models, units and independent examples; original84 unchanged"
     }
   ]
 }
