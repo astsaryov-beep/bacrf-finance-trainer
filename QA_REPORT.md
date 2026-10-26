@@ -1,3 +1,9 @@
+# QA · 5.0.27 beta · BLOCKED
+
+Release-check FAIL: tests/release-check.mjs:12 ожидает5.0.26 при HTML5.0.27. Content-dedup/learning-review PASS. Пакет66/96 сохранён в рабочей ветке, не опубликован; остановка по прямому условию пользователя.
+
+5.0.26 опубликована: PR37/CI40299130642 SUCCESS; Pages40299760314 SUCCESS; триliveblob MATCH. Повторный main CI40299760408 PENDING.
+
 # QA · 5.0.26 beta · пакет 58/96 · PENDING
 
 Повторно выполнены project-state-check, release-check, strategies-check, content-dedup-check и learning-review-check — PASS. Проверены неизменность банка 275/19, 84 определений формул, назначений заданий и frozen 5.0.8. Браузер, CI и Pages ожидаются; до их подтверждения выпуск не VERIFIED. Методический охват 58/96, оставшиеся 38 не объявляются проверенными.
