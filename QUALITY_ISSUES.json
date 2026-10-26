@@ -558,5 +558,53 @@
     "area": "PO08 and distractors",
     "finding": "PO08требовалобязательныйнаборрисков,несоответствующийлюбомупродукту;неверныевариантыавторскихsingleимеюточевидныеподарки.",
     "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
+  },
+  {
+    "id": "QA-066",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M08 Q01 early support",
+    "finding": "Карта5компетенций требовалась раньше подробного объяснения;типорганизации не равен предметунадзора.",
+    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+  },
+  {
+    "id": "QA-067",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M08 Q02 activity classification",
+    "finding": "Перед вопросом не хватало всех5различий:инкассация/лизинг/ДУ и страхование/торговля с исключениями.",
+    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+  },
+  {
+    "id": "QA-068",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M08 Q03 and market discipline",
+    "finding": "Нужны ранние даты/предметы одноимённых законов,контекстклассификации и обязательнаянорма vsрыночнаядисциплинаV2-016.",
+    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+  },
+  {
+    "id": "QA-069",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M01 open rubric consistency",
+    "finding": "RO08требовал3пунктапри2каналах,RO06позволялпропуститьбанкрискилиобратныйтиплинии,RO05требовалотдельныйсценарийсверхусловия.",
+    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+  },
+  {
+    "id": "QA-070",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M08 source roles and scope",
+    "finding": "Слайды смешивают потоки продавца/поставщикаденег,идеальные свойстванадзора,целиЦБ/мотивысотрудников,АСВ/дочернееобщество и разные страховыережимы.",
+    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+  },
+  {
+    "id": "QA-071",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M08 and M01 distractors",
+    "finding": "Предметная близость25single усилена;ранниеRUONIA/кредитныепредпосылки явно раскрыты. Реальнаясложностьбезданныхучениковнеизмерена.",
+    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
   }
 ]
