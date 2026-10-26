@@ -119,8 +119,9 @@
         "S2-05-0",
         "S2-05-1"
       ],
-      "status": "PENDING",
-      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger."
+      "status": "IN_PROGRESS",
+      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
+      "evidence": "QUALITY_M05_REVIEW.md"
     },
     {
       "id": "M06",
@@ -960,7 +961,7 @@
         "Q12",
         "PM21"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -969,7 +970,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md"
+      ]
     },
     {
       "id": "S2-03-1",
@@ -980,7 +983,7 @@
         "LQ04",
         "LQ18"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -989,7 +992,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md"
+      ]
     },
     {
       "id": "S2-04-0",
@@ -1000,7 +1005,7 @@
         "PM05",
         "PM06"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -1009,7 +1014,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md"
+      ]
     },
     {
       "id": "S2-04-1",
@@ -1023,7 +1030,7 @@
         "V2-056",
         "V2-067"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -1032,7 +1039,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md"
+      ]
     },
     {
       "id": "S2-05-0",
@@ -1042,7 +1051,7 @@
       "questions": [
         "BM12"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -1051,7 +1060,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md"
+      ]
     },
     {
       "id": "S2-05-1",
@@ -1065,7 +1076,7 @@
         "V2-029",
         "V2-034"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -1074,7 +1085,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md"
+      ]
     },
     {
       "id": "S2-06-0",
@@ -11099,12 +11112,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: текст/изображение просмотрены; предметная приёмка ещё не выполнена. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11114,12 +11128,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: текст/изображение просмотрены; предметная приёмка ещё не выполнена. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11129,12 +11144,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: текст/изображение просмотрены; предметная приёмка ещё не выполнена. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11144,12 +11160,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: текст/изображение просмотрены; предметная приёмка ещё не выполнена. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11160,7 +11177,7 @@
         "S2-04-0"
       ],
       "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
+      "textReview": "READ",
       "visualReview": "PENDING",
       "coverage": "PENDING",
       "units": [],
@@ -11175,7 +11192,7 @@
         "S2-04-0"
       ],
       "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
+      "textReview": "READ",
       "visualReview": "PENDING",
       "coverage": "PENDING",
       "units": [],
@@ -11190,7 +11207,7 @@
         "S2-04-0"
       ],
       "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
+      "textReview": "READ",
       "visualReview": "PENDING",
       "coverage": "PENDING",
       "units": [],
@@ -12686,7 +12703,7 @@
     }
   ],
   "inspectionCounts": {
-    "textAndVisualThisAudit": 183,
+    "textAndVisualThisAudit": 187,
     "moduleBlocksReviewedPendingBrowser": 0,
     "moduleBlocksAccepted": 24,
     "remainingModuleBlocks": 72

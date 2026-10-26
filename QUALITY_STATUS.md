@@ -1,3 +1,9 @@
+# M05 · IN_PROGRESS
+
+Принято24/96; M05начат чтением, код не менялся. Общийосмотр187/557; подробный охват и следующий шаг QUALITY_M05_REVIEW.md/CP046. T-06исключена.
+
+---
+
 # 5.0.31 beta · VERIFIED
 
 [PR #47](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/47) MERGED; продукт `554efacbf0d80a3602a1d76311f28eb122e100bb`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40362988137), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363661338), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363662685). Live MATCH: index `b325350d00336239887ee0f553aac5427c028f51`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
