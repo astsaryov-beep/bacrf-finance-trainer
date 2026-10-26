@@ -983,7 +983,7 @@
       "questionId": "LQ02",
       "block": "S1-04-0",
       "sequence": 6,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "ЦФАправовойрежим/ИС,обязанноелицо,отличиеноминала/гарантии/страхования",
       "support": [
         {
@@ -1076,13 +1076,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "LQ17",
       "block": "S1-04-0",
       "sequence": 6,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Вексель/облигация:правовойрежим vsвалюта/залог/срок",
       "support": [
         {
@@ -1175,13 +1176,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BM09",
       "block": "S1-04-1",
       "sequence": 7,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Формулаиндикатор+спред/фиксация vsцена/ключевая/фиксированныйкупон",
       "support": [
         {
@@ -1269,13 +1271,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "Q16",
       "block": "S1-04-1",
       "sequence": 7,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Эффективнаяпреподавательскаярубрика:стимулcall/получаемыевыплаты/потерябудущегокупонаиреинвестирование",
       "support": [
         {
@@ -1363,13 +1366,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BM21",
       "block": "S1-04-1",
       "sequence": 7,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Callусловия/мотивациярефинансирования vsростцены/обязанность/put",
       "support": [
         {
@@ -1457,13 +1461,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BO08",
       "block": "S1-04-1",
       "sequence": 7,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Дватребуемыхмеханизма:прекращениестарогопотока и реинвестированиеподменьшуюдоходность",
       "support": [
         {
@@ -1551,13 +1556,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-025",
       "block": "S1-04-1",
       "sequence": 7,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Callрефинансирует поусловиям,непередаётэмитентуput и непереписываетобязательствабезрасчёта",
       "support": [
         {
@@ -1645,13 +1651,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BM17",
       "block": "S1-05-0",
       "sequence": 8,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "True sale vsзалог/сервисинг/переносрискабезпродажи",
       "support": [
         {
@@ -1733,13 +1740,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BM18",
       "block": "S1-05-0",
       "sequence": 8,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Servicer vsорганизатор/SPV/рейтинговоеагентство",
       "support": [
         {
@@ -1821,13 +1829,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "Q04",
       "block": "S1-05-0",
       "sequence": 8,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все5вариантовклассическойучебноймодели:пул/true sale/транши,нетавтогарантииилиполногоисчезновенияриска",
       "support": [
         {
@@ -1909,13 +1918,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "Q08",
       "block": "S1-05-0",
       "sequence": 8,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все5элементовклассики:SPV/продажа/транши/waterfall,небезрисковость",
       "support": [
         {
@@ -1997,13 +2007,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BM19",
       "block": "S1-05-0",
       "sequence": 8,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Пул/общийпоток/частнаядиверсификация vsгарантия/общийрискоригинатора",
       "support": [
         {
@@ -2085,13 +2096,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-026",
       "block": "S1-05-0",
       "sequence": 8,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Просрочкауменьшаетпоток,очередьпоwaterfall,необратнаяноваяочередь/пропорциональностьвсем",
       "support": [
         {
@@ -2173,7 +2185,8 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "BM16",
@@ -9198,7 +9211,7 @@
       "questionId": "RM15",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Капитал/RWA/потери vsдивиденды/цена/ликвидность",
       "support": [
         {
@@ -9282,13 +9295,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "RM16",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "LCR30дней vsNSFRгод/Н1.0/ПДН:терминыявноданыдо вопроса",
       "support": [
         {
@@ -9372,13 +9386,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "RO03",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Поглощениепотерь и исполнениепо датам,почемуодноне заменяетдругое",
       "support": [
         {
@@ -9462,13 +9477,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-001",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Отток/положительныйкапитал и рискликвидности",
       "support": [
         {
@@ -9552,13 +9568,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-003",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Капитал vsLCR/NSFR/ПДН",
       "support": [
         {
@@ -9642,13 +9659,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-004",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Условныйстрессовыйсценарий vsточныйпрогноз/прошлыйотчёт/сегодняшнийнорматив",
       "support": [
         {
@@ -9732,13 +9750,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-010",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Зависимостьотодногодолжника/группы vsчислодокументов/размерпортфеля",
       "support": [
         {
@@ -9822,13 +9841,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-011",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "ПДНфизлица vsкапиталбанка/DSCRпроекта/LCR",
       "support": [
         {
@@ -9912,13 +9932,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-013",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Отток→реализацияактивов→возможныепотерикапитала",
       "support": [
         {
@@ -10002,13 +10023,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-017",
       "block": "R-04-0",
       "sequence": 48,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Длинныеактивы/короткиеобязательства,рефинансированиеиликвидность",
       "support": [
         {
@@ -10092,13 +10114,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "RM21",
       "block": "R-04-1",
       "sequence": 49,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ковенант vsсубординация/лицензия/подменапотокаприбылью",
       "support": [
         {
@@ -10180,13 +10203,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "RO04",
       "block": "R-04-1",
       "sequence": 49,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Обязательнырасходпослепересмотра и процентныйрискзаёмщика,договорныепределы",
       "support": [
         {
@@ -10268,13 +10292,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-012",
       "block": "R-04-1",
       "sequence": 49,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ролипоставщик/дебитор/фактор,уступкаифинансирование/услуги;отличиезалога/SPV/свопа",
       "support": [
         {
@@ -10356,13 +10381,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-015",
       "block": "R-04-1",
       "sequence": 49,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Прибыльне деньги;графикпогашения/процентов,безскрытогообязательногостресса",
       "support": [
         {
@@ -10444,13 +10470,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "V2-018",
       "block": "R-04-1",
       "sequence": 49,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Любые3различныхрелевантныхфактора,нефиксированные3категории",
       "support": [
         {
@@ -10532,7 +10559,8 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "EM01",
@@ -11564,7 +11592,7 @@
       "questionId": "FRI509-01",
       "block": "R-05-0",
       "sequence": 92,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ограниченность,неопределённость,время/стимулы,ценностьотвергнутойальтернативы",
       "support": [
         {
@@ -11636,13 +11664,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-02",
       "block": "R-05-0",
       "sequence": 92,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Время/альтернативнаядоходность/неопределённость,обусловленнаяставкадисконтирования",
       "support": [
         {
@@ -11714,13 +11743,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-03",
       "block": "R-05-1",
       "sequence": 93,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Диспозиция/якорение/избыточнаяуверенность vsпересмотрпосущественнойинформации",
       "support": [
         {
@@ -11794,13 +11824,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-04",
       "block": "R-05-1",
       "sequence": 93,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ограниченияарбитражакапиталом/временем/ценой/моделью,нетгарантии",
       "support": [
         {
@@ -11874,13 +11905,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-05",
       "block": "R-06-0",
       "sequence": 94,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "ЭмитентЦБ/формаRUB vsбанковскийдолжник/процентнадоход",
       "support": [
         {
@@ -11965,13 +11997,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-06",
       "block": "R-06-0",
       "sequence": 94,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Дватребуемыхразличия:обязанноелицо и платформа/обычныйбанк;правовоевидбезналичных",
       "support": [
         {
@@ -12056,13 +12089,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-07",
       "block": "R-06-1",
       "sequence": 95,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Обработка/расчёты/сервиспереводов vsкредитныйрейтинг",
       "support": [
         {
@@ -12137,13 +12171,14 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "FRI509-08",
       "block": "R-06-1",
       "sequence": 95,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "СБПбыстрыеплатежи/переводы vsкарточнаясистемаМир,двасогласованныхкритерия",
       "support": [
         {
@@ -12218,7 +12253,8 @@
           ]
         }
       ],
-      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди."
+      "decision": "M09+13M02:все варианты/ключииликаждыйобязательныйэлементрубрикипрочитаны и сопоставленыстекущей/предшествующейтеорией. Регрессиявпереди.",
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     }
   ],
   "additions": [
@@ -18435,7 +18471,7 @@
       "questionId": "MC-R-04-0-1",
       "block": "R-04-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -18519,13 +18555,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-04-0-2",
       "block": "R-04-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -18609,13 +18646,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-04-1-1",
       "block": "R-04-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -18697,13 +18735,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-04-1-2",
       "block": "R-04-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -18785,13 +18824,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-05-0-1",
       "block": "R-05-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -18863,13 +18903,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-05-0-2",
       "block": "R-05-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -18941,13 +18982,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-05-1-1",
       "block": "R-05-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19021,13 +19063,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-05-1-2",
       "block": "R-05-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19101,13 +19144,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-06-0-1",
       "block": "R-06-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19192,13 +19236,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-06-0-2",
       "block": "R-06-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19283,13 +19328,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-06-1-1",
       "block": "R-06-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19364,13 +19410,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-R-06-1-2",
       "block": "R-06-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19445,13 +19492,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-04-0-1",
       "block": "S1-04-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19544,13 +19592,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-04-0-2",
       "block": "S1-04-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19643,13 +19692,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-04-1-1",
       "block": "S1-04-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19737,13 +19787,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-04-1-2",
       "block": "S1-04-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19831,13 +19882,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-05-0-1",
       "block": "S1-05-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -19919,13 +19971,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-05-0-2",
       "block": "S1-05-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различения правильных и неверных вариантов доступны до задания.",
       "distractorReview": "Предметные альтернативы механизмов/ролей/потоков/условий. Реальная трудность пока не измерена на учениках.",
       "support": [
@@ -20007,9 +20060,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP074/PR54/CI40419493693/mainCI40420119400/Pages40420119327/liveMATCH5files"
     }
   ],
-  "blocksAcceptedNewCriteria": 36,
-  "blocksReviewedPendingNewCriteria": 9
+  "blocksAcceptedNewCriteria": 45,
+  "blocksReviewedPendingNewCriteria": 0
 }
