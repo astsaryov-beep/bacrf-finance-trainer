@@ -15,26 +15,39 @@
     "id": "S1-01-1",
     "title": "Ключевая ставка и денежные индикаторы",
     "status": "REVIEWED",
-    "decision": "Добавлена единица изменения ставки до использования б.п./п.п.; зафиксированы условность валютной/фондовой реакции и методологическое расхождение RUONIA Index.",
-    "fingerprint": "19c8059de728b23cb7da085789a823a9dfc189e033c95d37955954a10ef37857",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "70681d7b806fa64c1dec34cc9a3bbf82437fda4bf2bc0e69c8dfb3f03e4a7f60",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "advanced"
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "Комплексный аудит: S1 PDF4–40 прочитаны и визуально просмотрены; S3 PDF2–5; связанные первичные источники и оговорки в QUALITY_M01_REVIEW.md."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "S1-02-0",
     "title": "Формы кредита и обеспечение",
     "status": "REVIEWED",
-    "decision": "QA-007: раскрыты гарант/принципал/бенефициар, независимость гарантии и документарный смысл аккредитива; залог не объявляется автоматическим переходом имущества. Добавлена доступная дополнительная проверка нового понятия с раскрываемым объяснением. Сверены кредитный процесс и границы классификации сроков; клиентские депозиты отделены от капитала и резервов банка.",
-    "fingerprint": "f496d0d8e355bca2fd9fda69ac10e01514308e6d7ca60ce76412e67cb6b61b3a",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "513b4eff2532806c0ebab659a1557e5d48c22a75b19fb6cec736c598e44ca2fa",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
+      "foundation",
       "mechanism",
-      "advanced"
+      "principles",
+      "application",
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "Комплексный аудит: S1 PDF4–40 прочитаны и визуально просмотрены; S3 PDF2–5; связанные первичные источники и оговорки в QUALITY_M01_REVIEW.md."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "S1-02-1",
@@ -613,84 +626,115 @@
     "id": "R-01-0",
     "title": "Участники, рынки и финансовые потоки",
     "status": "REVIEWED",
-    "decision": "При перекрёстной проверке с IPO уточнена выжимка первичного/вторичного рынка: размещение новых инструментов и продажа существующих разведены без неопределённого другого получателя средств.",
-    "fingerprint": "6e0acd6944499d0f29c187af573af8ad626f8c50718bc425cb77ed1b3ab71a41",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "c1b2ce0478e42dc5d79297afd8f91ce89378764c3bbfe26737705cb2f1f8d05f",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "principles"
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "R-01-1",
     "title": "Финансовая инфраструктура и расчёты",
     "status": "REVIEWED",
-    "decision": "Проверены роли инфраструктуры и разница сделки/исполнения; вводная резервного слоя теперь содержит понятную последовательность вместо одной краткой фразы.",
-    "fingerprint": "f993dd51e7d0e1053cf926e412cd8bf8b141701bc291502bcd3bd40415ca1a97",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "94016064a67d0e1ae5afde7b1ea2f36110fcedde129792308ba4bd23cb83b5d8",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation"
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "R-02-0",
     "title": "Правила финансового рынка и подходы к регулированию",
     "status": "REVIEWED",
-    "decision": "Основные модели надзора приняты; углубление теперь раскрывает пропорциональность и системный риск вместо инструкции подумать о них. Добавлены ключевые связи для выжимки.",
-    "fingerprint": "aab6d588728b499ff37781e6e835d754183e1b0ff20a2ab626d95b43ac2ca3af",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "1ef97cf54ef4b82b191ac816fe415442e9a4929bfac3ec15bd6a1d15570b99bf",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
       "principles",
-      "advanced"
+      "application",
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "R-02-1",
     "title": "Сферы ответственности регуляторов и законы",
     "status": "REVIEWED",
-    "decision": "Механизм определения компетенции заменил общий перечень законов: организация→операция→предмет нарушения→источник и процедура. Уточнено различие надзорного реагирования и разрешения имущественного спора; исправлена смешанная кириллица.",
-    "fingerprint": "c924411fc7a9bd24830e366ee92512502c9c6f79c5a73ac8a3a60dc859ef3a56",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "d6c460919cf7a16bd16aabc5ac159c533e22bb9a79f490a1a949ec46a95fbc2a",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
+      "foundation",
       "mechanism",
-      "application",
       "principles",
+      "application",
       "advanced",
       "glossary"
     ],
-    "sourceCheck": "Банк России: https://www.cbr.ru/protection_rights/ и https://www.cbr.ru/press/event/?id=9452. Конкретные пределы компетенции и порядок спора проверяются по действующей норме, общая методическая схема не является юридической консультацией."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "R-03-0",
     "title": "Лицензии и операции кредитной организации",
     "status": "REVIEWED",
-    "decision": "Уточнены банк/НКО/МФО и практическая проверка допуска. Показано, почему одна организация может продавать продукт с обязательством другого лица; базовая лицензия объяснена через соразмерные ограничения.",
-    "fingerprint": "f22fd0f8efc580d869ea529b7f08ff943387f9fb933e62ddc9e3adc744d29533",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "273b36e93d09612cbc9491743519e2d9edcb25f9827876c72a081198c058fbb9",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
       "foundation",
+      "mechanism",
       "principles",
       "application",
-      "advanced"
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "Банк России https://www.cbr.ru/banking_sector/credit/FullCoList/, https://www.cbr.ru/admissionfinmarket/navigator/nko/ и https://www.cbr.ru/banking_sector/, проверено 26.10.2026. Пороговые суммы капитала не используются как обещание надёжности."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "R-03-1",
     "title": "Страхование вкладов и клиентские риски",
     "status": "REVIEWED",
-    "decision": "Механизм страхования дополнен актуальным общим пределом и примером объединения счетов с процентами. Страховой случай отделён от отдельной задержки платежа; превышение предела и специальные режимы объяснены.",
-    "fingerprint": "b863a8dcdcad8d483592ac22bb9a52a8fd9e38a62e07ad3d848d98fb6ce1334b",
+    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
+    "fingerprint": "4bab715ba03ebcee4fb197bc58de5496fb1934eb1802551019c55515076a1803",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
       "foundation",
-      "application",
+      "mechanism",
       "principles",
-      "advanced"
+      "application",
+      "advanced",
+      "glossary"
     ],
-    "sourceCheck": "АСВ https://www.asv.org.ru/news/1139618 и https://www.asv.org.ru/news/1001680; Банк России https://www.cbr.ru/banking_sector/. На 26.10.2026 общий обычный предел 1,4 млн руб. на вкладчика в одном банке, включая учитываемые проценты; специальные случаи и редакцию закона проверяют отдельно."
+    "sourceCheck": "QUALITY_M08_REVIEW.md"
   },
   {
     "id": "R-04-0",
