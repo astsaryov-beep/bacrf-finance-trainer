@@ -207,7 +207,8 @@
         "S1-01-1",
         "S2-05-1"
       ],
-      "status": "MATCH_WITH_NEEDED_MARKET_CAVEAT"
+      "status": "RUBRIC_ALIGNED_PENDING_REGRESSION",
+      "reviewNote": "Эталон требует обеспечение и кредитнуюпремию; дополнительныефакторыважныдляуглубления, но не отдельный обязательныйкритерий. Эффективныедвакритерия/историявCP050."
     },
     {
       "sourceNumber": 19,

@@ -119,8 +119,13 @@
         "S2-05-0",
         "S2-05-1"
       ],
-      "status": "PENDING",
-      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger."
+      "status": "REVIEWED_PENDING_REGRESSION",
+      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
+      "evidence": "QUALITY_M05_REVIEW.md",
+      "limits": [
+        "Датированные ряды и отдельные правовые/налоговые утверждения не объявлены универсальными параметрами.",
+        "Проверены18назначений и12новыхMC M05; общий новый аудит291назначения впереди."
+      ]
     },
     {
       "id": "M06",
@@ -960,16 +965,19 @@
         "Q12",
         "PM21"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ]
     },
     {
       "id": "S2-03-1",
@@ -980,16 +988,19 @@
         "LQ04",
         "LQ18"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ]
     },
     {
       "id": "S2-04-0",
@@ -1000,16 +1011,19 @@
         "PM05",
         "PM06"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ]
     },
     {
       "id": "S2-04-1",
@@ -1023,16 +1037,19 @@
         "V2-056",
         "V2-067"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ]
     },
     {
       "id": "S2-05-0",
@@ -1042,16 +1059,19 @@
       "questions": [
         "BM12"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ]
     },
     {
       "id": "S2-05-1",
@@ -1065,16 +1085,19 @@
         "V2-029",
         "V2-034"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_REGRESSION",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "REVIEWED_PENDING_REGRESSION",
+      "accuracy": "REVIEWED_PENDING_REGRESSION",
+      "novice": "REVIEWED_PENDING_REGRESSION",
+      "practice": "REVIEWED_PENDING_REGRESSION",
+      "examNotes": "REVIEWED_PENDING_REGRESSION",
+      "consistency": "REVIEWED_PENDING_REGRESSION",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M05_REVIEW.md",
+        "QUESTION_LEARNING_ALIGNMENT.json"
+      ]
     },
     {
       "id": "S2-06-0",
@@ -11099,12 +11122,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11114,12 +11138,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11129,12 +11154,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11144,12 +11170,13 @@
       "candidateBlocks": [
         "S2-03-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11159,12 +11186,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11174,12 +11202,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11189,12 +11218,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11204,12 +11234,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11219,12 +11250,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11234,12 +11266,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11249,12 +11282,13 @@
       "candidateBlocks": [
         "S2-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11264,12 +11298,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11279,12 +11314,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11294,12 +11330,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11309,12 +11346,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11324,12 +11362,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11339,12 +11378,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11354,12 +11394,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11369,12 +11410,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11384,12 +11426,13 @@
       "candidateBlocks": [
         "S2-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11399,12 +11442,13 @@
       "candidateBlocks": [
         "S2-05-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11414,12 +11458,13 @@
       "candidateBlocks": [
         "S2-05-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11429,12 +11474,13 @@
       "candidateBlocks": [
         "S2-05-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11444,12 +11490,13 @@
       "candidateBlocks": [
         "S2-05-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11771,12 +11818,13 @@
         "S2-04-1",
         "S2-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11787,12 +11835,13 @@
         "S2-04-1",
         "S2-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11892,12 +11941,13 @@
       "candidateBlocks": [
         "S2-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11908,12 +11958,13 @@
         "S2-04-1",
         "S2-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11924,12 +11975,13 @@
         "S2-04-1",
         "S2-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -11940,12 +11992,13 @@
         "S2-04-1",
         "S2-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "M05: полные текст/изображение просмотрены; примеры/рубрики/первичные ориентиры сопоставлены, единая редакция ещё впереди. QUALITY_M05_REVIEW.md."
     },
     {
       "document": "S2",
@@ -12686,7 +12739,7 @@
     }
   ],
   "inspectionCounts": {
-    "textAndVisualThisAudit": 183,
+    "textAndVisualThisAudit": 213,
     "moduleBlocksReviewedPendingBrowser": 0,
     "moduleBlocksAccepted": 24,
     "remainingModuleBlocks": 72
@@ -12700,5 +12753,5 @@
     "pages": 40322560214,
     "live": "MATCH"
   },
-  "workingVersion": "5.0.31 beta"
+  "workingVersion": "5.0.32 beta"
 }
