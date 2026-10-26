@@ -322,65 +322,65 @@
   {
     "id": "QA-039",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2-03-0",
     "finding": "Базисный риск снова определён через рыночную/теоретическую цену вместо риска завершения хеджа.",
     "action": "Согласовать определение с M04 и ролью исполнения обратногоcarry.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-040",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2-03-1 / PDF29–32",
     "finding": "Неявный составVMпозволяет двойнойсчётfunding; sourceобобщаетсемейства,дивиденды иисполнение.",
     "action": "Различить ценовую переоценку/итоговуюVM, определить учебныйпрофильfundingи условиясемейств.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-041",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2-04-0 / PDF33–39",
     "finding": "Не хватает среды обращения, датвалютирования, источниковкурса/кросс-курса и отличияRUBрасчётаотпоставкивалюты.",
     "action": "Добавить механизмы, сверенные с текущими первичными источниками, без переноса спорныхисторическихдолей.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-042",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2-04-1 / PDF73–74,81–84",
     "finding": "Не раскрыты разница доли объёма/DV01/статистическогооптимума; source81предлагаетприближениеhкминимумуприVaR218>лимита200.",
     "action": "Дополнить единицыразмерапозиции/остаточныйриск/минимальнодисперсионнуюмодельсоговорками.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-043",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2-05-0 / PDF41–46",
     "finding": "Source44путает процентныйдоходпокупателябумаг/денег; типологиюРЕПО/ЦК/КСУнужноразделитьпо признакам.",
     "action": "Уточнить роли, типологию, достаточностьимущественногопула и ограниченияповторногоиспользования.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-044",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2-05-1 / PDF45,47–52",
     "finding": "SourceсмешиваетобеспечениеMIACR/RUONIA, будущиеожиданияисрочнуюRUONIA, жёсткиеуровникоридораипостоянныеусловияаукционов.",
     "action": "Сохранить прежние корректные различия, раскрыть передачуДКПи накопленныеставки с единицами.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-045",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "PO05 / Q15",
     "finding": "Рубрики требуют фиксированные категории/дополнительнуюоговорку сверх условияилипреподавательскогоэталона.",
     "action": "Эффективнаяпоправка с сохранениемтекста/историиоценки и повторнойсамопроверкой.",
-    "resolution": "CP050/QUALITY_M05_REVIEW.md;12локальныхпрограммPASS,браузер/CI/Pages/liveожидаются."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-046",
@@ -394,10 +394,10 @@
   {
     "id": "QA-047",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M05 learning prerequisites",
     "finding": "PO06/V2-067 требуют механикиcallдоопционногомодуля, V2-034неимелдостаточноявнойсвязирискаиноминала.",
-    "resolution": "До вопросов добавлены праваcall/премия/двасценария и кредитныйриск/ликвидность/номинал;σ/дисперсия/корреляция/VaRопределены доих использования."
+    "resolution": "QUALITY_M05_REVIEW.md/CP053;12локальных/7браузерныхPASS,mainCI/PagesSUCCESS,live4файлаMATCH. Содержательные/нормативныепределысохранены."
   },
   {
     "id": "QA-048",
@@ -405,7 +405,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "18новыхMC/42всего;новыйпрофиль25open/25multi и исключениесодержательныхрасчётовподготовлены; ожидаетсябраузер/CI/Pages. Расширениепоостальныммодулямвпереди."
+    "resolution": "Формат25open/25multi,18новыхMC/42всего,сохранностьsingle/расчётови прежнихпопытокподтвержденыCP053. НовоеMCпокрытиеостальныхтемпродолжаетсяпоD-015."
   },
   {
     "id": "QA-049",
@@ -413,7 +413,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 distractor quality",
     "finding": "Частьавторскихневерныхвариантовочевиднонесвязанаспредметом, позволяяугадатьбезпонимания.",
-    "resolution": "ВосемьsingleM05уточнены,18новыхMCимеютблизкиепредметныеразличия/разборвариантов. Остальнойбанкпроверятьпомодулям; реальнаясложностьнеизмерена."
+    "resolution": "8singleM05и18новыхMCподтвержденыCP053. Правдоподобностьостальногобанка/дополненияпо96блокамвпереди;эмпирическаясложностьнеизмерена."
   },
   {
     "id": "QA-050",
@@ -421,6 +421,6 @@
     "status": "IN_PROGRESS",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "Карта309назначенийсоздана;18M05содержательнорассмотрены/локальныепробелызакрыты. Остальные291PENDING, плюссквознаяприёмка; невыдаватьналичиекартызаотсутствиеопережений."
+    "resolution": "18M05назначенийпроверены/локальныеопереженияисправленыиопубликованыCP053.291историческоеназначениеещёPENDING;M06источникипрочитаны,новыепробелызафиксированыQUALITY_M06_REVIEW.md."
   }
 ]
