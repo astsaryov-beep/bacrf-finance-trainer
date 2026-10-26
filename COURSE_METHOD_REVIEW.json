@@ -213,17 +213,13 @@
     "id": "S1-08-1",
     "title": "РЕПО как краткосрочное фондирование",
     "status": "REVIEWED",
-    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
-    "fingerprint": "5eafc77f28aa06f637a72ec6abb177642f9c9d3f77c8de8c1f6759f515d13e06",
+    "decision": "M03: исправлена ошибочная перекрёстная ссылка КСУ на существующий S2-05-0; прежняя приёмка с пределами сохраняется.",
+    "fingerprint": "3f294eb9df3608044c1c51bebf03788c1fca018ba162e2c22f039f9cd8c2b9da",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "mechanism",
-      "advanced",
-      "extraChecks",
-      "glossary",
-      "formulas"
+      "mechanism"
     ],
-    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
+    "sourceCheck": "Фактический текст S2-05-0, отдельная тема РЕПО с ЦК и КСУ; source M03 REVIEW и CP041."
   },
   {
     "id": "S1-09-0",

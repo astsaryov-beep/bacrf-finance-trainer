@@ -12,10 +12,10 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-01",
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261026-033",
-  "last_verified_commit": "8133aa25b73bfdf9b7e7fcd91df6276c341acd91",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214",
+  "last_verified_checkpoint": "CP-20261026-040",
+  "last_verified_commit": "794531600bf332f7b494cf486b41803704a33bb0",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-26"
 }
@@ -76,3 +76,15 @@ M01/M02 принято12/96 с пределами, полный аудит IN_PR
 ## CP-20261026-039 · повторный PR CI зелёный, финальное согласование ответа · RELEASE_PENDING
 
 PR CI40334639599 SUCCESS: verify и browser, включая4программы. Мобильная регрессия исправлена. Финальная проверка согласованности показала, что brief Q07 уже полный, а answer для каталога оставался прежним кратким текстом. Эффективный answer синхронизирован с полным brief, добавлена проверка образца в реальной практике; исходный BANK не менялся. Из источниковых примечаний дюрации/индексов удалена не относящаяся к ним ссылка на методику рейтинга; в кредитном разделе она сохранена. После этого небольшого изменения нужен CI нового HEAD. Публикация пока не выполнялась; сайт5.0.29 остаётся VERIFIED.
+
+## Подтверждение 5.0.30 · CP040
+
+[PR #44](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/44) MERGED; продукт `794531600bf332f7b494cf486b41803704a33bb0`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335234506), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118). Live MATCH: index `4524e390509ce28f5f809818c0b9e77f847ffac1`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+Девять локальных и четыре браузерные программы PASS. Первый PR-прогон40334188809 нашёл мобильное переполнение URL; перенос исправлен, повторный прогон зелёный. История ошибки не скрыта. Дюрация/выпуклость, индексы/кривая, РЕПО, кредитный анализ/рейтинги приняты с пределами QUALITY_M03_REVIEW.md. Q07 явно требует обратный случай; текст и старая оценка сохранены, реальный экспорт/импорт PASS. Исходный rawBANK275/19,84старые формулы,309назначений/ID/прогресс иfrozen5.0.8 сохранены.
+
+Всего104формулы,477терминов,26дополнительных проверок. Просмотрено134/557страницы с пределами;18/96блоков принято,78и итоговая сквозная приёмка впереди. Следующий M04: S1-10/S2-01/S2-02, КСУ/биржевая инфраструктура и производные. Продолжать автономно, T-06 исключена, D-012 действует. Не выдавать18/96 за полный академический охват96.
+
+## CP-20261026-041 · уточнение перехода к КСУ · IN_PROGRESS
+
+5.0.30 опубликована и подтверждена CP040, документы в PR45. При чтении следующего модуля обнаружена ошибочная ссылка нового текста S1-08-1: подробности КСУ находятся в существующем S2-05-0, а не S1-10. Перекрёстная ссылка исправлена, видимые слои и методический отпечаток согласованы, добавлена проверка существования целевого объяснения. Версия5.0.30 beta сохраняется; этот небольшой патч ещё требует нового CI/Pages/live. Последний VERIFIED JSON остаётся CP040/7945316. M04 пока только прочитан как структура/основные тексты шести блоков, источники не приняты; число18/96 и134/557 не увеличено. T-06/D-012 сохраняются.

@@ -10,6 +10,8 @@ for(const id of ['S1-07-0','S1-07-1','S1-08-0','S1-08-1','S1-09-0','S1-09-1']){
  assert.equal(v5[id].mechanism,master[id].mechanism.join(' '));
 }
 assert.equal(master['S1-09-1'].formulas.length,6);
+assert.match(master['S1-08-1'].mechanism.join(' '),/первом блоке S2-05/);
+assert.match(master['S2-05-0'].foundation.join(' '),/клиринговым сертификатом/);
 // Cash-flow model independent of display text. Finite differences check both derivatives.
 const near=(a,b,tol=1e-8)=>assert.ok(Math.abs(a-b)<tol,`${a} != ${b}`);
 const flows=[[1,100],[2,100],[3,1100]];
