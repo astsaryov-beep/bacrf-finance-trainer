@@ -2192,7 +2192,7 @@
       "questionId": "BM16",
       "block": "S1-05-1",
       "sequence": 9,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Субординация и приоритеты vsсредний рейтинг/обратная очередь/автоматическая смена при просрочке.",
       "support": [
         {
@@ -2256,13 +2256,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "Q14",
       "block": "S1-05-1",
       "sequence": 9,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Прежняя учительская рубрика:субординация и механизм защиты,дополнительные оговорки не обязательны.",
       "support": [
         {
@@ -2326,13 +2327,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "BO04",
       "block": "S1-05-1",
       "sequence": 9,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Первые потери младших и предел объёма защиты;оба элемента явно спрашиваются.",
       "support": [
         {
@@ -2396,13 +2398,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-035",
       "block": "S1-05-1",
       "sequence": 9,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Платёжный waterfallvsочередь потерь и исчерпаемость защиты,явный вопрос.",
       "support": [
         {
@@ -2466,13 +2469,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "BM03",
       "block": "S1-06-0",
       "sequence": 10,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Грязная цена=чистая в деньгах+НКД,комиссии и спред — другие элементы.",
       "support": [
         {
@@ -2535,13 +2539,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-030",
       "block": "S1-06-0",
       "sequence": 10,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Чистая исключает НКД;полная цена,комиссия и начисленная часть купона различаются.",
       "support": [
         {
@@ -2604,7 +2609,8 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "BM02",
@@ -10930,7 +10936,7 @@
       "questionId": "EM01",
       "block": "E-01-0",
       "sequence": 50,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Корпоративное участие,имущество общества,дивидендное решение и отличие долгового требования.",
       "support": [
         {
@@ -11004,13 +11010,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM03",
       "block": "E-01-0",
       "sequence": 50,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "До задания дано IPO/SPO,обычная вторичная сделка,новый выпуск и split.",
       "support": [
         {
@@ -11084,13 +11091,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM15",
       "block": "E-01-0",
       "sequence": 50,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Права префа,порядок голосования/выплат,имущество общества и отсутствие гарантированного процентного долга.",
       "support": [
         {
@@ -11164,13 +11172,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-041",
       "block": "E-01-0",
       "sequence": 50,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Новая эмиссия vsпропорциональный split/продажа старого пакета/пропорциональное участие.",
       "support": [
         {
@@ -11244,13 +11253,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-052",
       "block": "E-01-0",
       "sequence": 50,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "До задания дано EPS,средневзвешенное количество акций,условие более быстрого роста базы.",
       "support": [
         {
@@ -11324,13 +11334,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM02",
       "block": "E-01-1",
       "sequence": 51,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Первое публичное предложение может быть cash-in/out/смешанным;эффективный исправленный ключ[0]сохранён.",
       "support": [
         {
@@ -11406,13 +11417,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM04",
       "block": "E-01-1",
       "sequence": 51,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Выручка новому выпуску,рост общего количества и падение процентной доли без изменения личного пакета.",
       "support": [
         {
@@ -11488,13 +11500,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EO03",
       "block": "E-01-1",
       "sequence": 51,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Новые деньги обществу,рост общего числа акций и размывание неучаствующего владельца.",
       "support": [
         {
@@ -11570,13 +11583,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-042",
       "block": "E-01-1",
       "sequence": 51,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Первый публичный выход vsвторичный оборот/последующее предложение/split.",
       "support": [
         {
@@ -11652,13 +11666,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM05",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Разные базы P/E,P/BV,EV/EBITDA,dividend yieldданы до всех вариантов.",
       "support": [
         {
@@ -11731,13 +11746,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM07",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ранний мостик P/BV vsприбыль/выплата/EV-EBITDA.",
       "support": [
         {
@@ -11810,13 +11826,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM09",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ранний мостик EV=капитализация+долг−деньги,единицы и оговорка упрощения.",
       "support": [
         {
@@ -11889,13 +11906,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EO02",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Любые две объяснённые причины:рост/риск/качество прибыли/долг/цикл/база.",
       "support": [
         {
@@ -11968,13 +11986,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-037",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Прибыль обыкновенных владельцев на средневзвешенные акции,денежные единицы.",
       "support": [
         {
@@ -12047,13 +12066,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-039",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Убыток не определяет цену/знак капитала/EV-EBITDA;обычная трактовка P/Eк положительной прибыли ограничена.",
       "support": [
         {
@@ -12126,13 +12146,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-049",
       "block": "E-02-0",
       "sequence": 52,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Разовая продажа здания меняет качество знаменателя;сопоставить устойчивую прибыль и потоки.",
       "support": [
         {
@@ -12205,13 +12226,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM06",
       "block": "E-02-1",
       "sequence": 53,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Капитализация/согласованная прибыль при данной базе;кратность,не процент.",
       "support": [
         {
@@ -12275,13 +12297,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM08",
       "block": "E-02-1",
       "sequence": 53,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Стоимость бизнеса для разных поставщиков капитала vsтолько акции/баланс/операционная прибыль.",
       "support": [
         {
@@ -12345,13 +12368,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM10",
       "block": "E-02-1",
       "sequence": 53,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Рост/риски/цикличность/учётные различия;P/Eне равноEV-EBITDAи не отражает все причины.",
       "support": [
         {
@@ -12415,13 +12439,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EO05",
       "block": "E-02-1",
       "sequence": 53,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Три показателя отвечают на разные вопросы:прибыль обыкновенных,балансовый капитал,результат бизнеса/финансирование.",
       "support": [
         {
@@ -12485,13 +12510,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-038",
       "block": "E-02-1",
       "sequence": 53,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Цена/EPSкратность на согласованных периоде и базе.",
       "support": [
         {
@@ -12555,13 +12581,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-040",
       "block": "E-02-1",
       "sequence": 53,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Капитализация/балансовый собственный капитал,не стоимость всех активов.",
       "support": [
         {
@@ -12625,13 +12652,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM11",
       "block": "E-03-0",
       "sequence": 54,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Dividend yield vspayout ratio/полный результат/темп роста выплаты.",
       "support": [
         {
@@ -12704,13 +12732,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM13",
       "block": "E-03-0",
       "sequence": 54,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ранний мостик фиксации прав vsрекомендация/поступление/дата заключения без расчётов.",
       "support": [
         {
@@ -12783,13 +12812,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM23",
       "block": "E-03-0",
       "sequence": 54,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Цена+полученные дивиденды vsодин компонент/прогноз без права/payout ratio.",
       "support": [
         {
@@ -12862,13 +12892,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EO04",
       "block": "E-03-0",
       "sequence": 54,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ранний мостик ценового и полного результата;нет скрытого требования реинвестирования индекса.",
       "support": [
         {
@@ -12941,13 +12972,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-044",
       "block": "E-03-0",
       "sequence": 54,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ранний мостик отдельного права/денежной выплаты,экс-даты,цены и отсутствия гарантии закрытия гэпа.",
       "support": [
         {
@@ -13020,13 +13052,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM12",
       "block": "E-03-1",
       "sequence": 55,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Годовая выплата/заданная цена,проценты,историческая не гарантированная будущая.",
       "support": [
         {
@@ -13090,13 +13123,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM14",
       "block": "E-03-1",
       "sequence": 55,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Экс-дата отделяет ближайшее право,не тождественна рекомендации/платежу/точному размеру гэпа.",
       "support": [
         {
@@ -13160,13 +13194,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EO01",
       "block": "E-03-1",
       "sequence": 55,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Объявленная выплата/заданная цена=5%,два обязательных критерия;только учебная практика.",
       "support": [
         {
@@ -13230,13 +13265,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-043",
       "block": "E-03-1",
       "sequence": 55,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Выплата/цена=4%,не payout ratio.",
       "support": [
         {
@@ -13300,13 +13336,14 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "V2-050",
       "block": "E-03-1",
       "sequence": 55,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Изменение цены+выплаченный дивиденд,без реинвестирования/налогов;учебная практика.",
       "support": [
         {
@@ -13370,7 +13407,8 @@
           ]
         }
       ],
-      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди."
+      "decision": "M10+6M02:все существенные элементы ключа/рубрики и различия неверных вариантов сверены с текущей или предыдущей теорией;регрессия впереди.",
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "EM16",
@@ -22612,7 +22650,7 @@
       "questionId": "MC-E-01-0-2",
       "block": "E-01-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -22686,13 +22724,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-01-0-3",
       "block": "E-01-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -22766,13 +22805,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-01-1-1",
       "block": "E-01-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -22848,13 +22888,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-01-1-2",
       "block": "E-01-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -22930,13 +22971,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-02-0-2",
       "block": "E-02-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23009,13 +23051,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-02-0-3",
       "block": "E-02-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23088,13 +23131,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-02-1-1",
       "block": "E-02-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23158,13 +23202,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-02-1-2",
       "block": "E-02-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23228,13 +23273,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-03-0-1",
       "block": "E-03-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23307,13 +23353,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-03-0-2",
       "block": "E-03-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23386,13 +23433,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-03-1-1",
       "block": "E-03-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23456,13 +23504,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-E-03-1-2",
       "block": "E-03-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23526,13 +23575,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-05-1-1",
       "block": "S1-05-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23596,13 +23646,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-05-1-2",
       "block": "S1-05-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23666,13 +23717,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-06-0-1",
       "block": "S1-06-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23735,13 +23787,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-06-0-2",
       "block": "S1-06-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все различия вариантов доступны до задания.",
       "distractorReview": "Предметные близкие механизмы/права/базы;эмпирическая трудность не измерена.",
       "support": [
@@ -23804,9 +23857,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP078/PR55/CI40421875978/mainCI40422431764/Pages40422431011/liveMATCH5files"
     }
   ],
-  "blocksAcceptedNewCriteria": 45,
-  "blocksReviewedPendingNewCriteria": 8
+  "blocksAcceptedNewCriteria": 53,
+  "blocksReviewedPendingNewCriteria": 0
 }

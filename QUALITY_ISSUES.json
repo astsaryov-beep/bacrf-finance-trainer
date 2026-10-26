@@ -405,7 +405,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "CP074:25open/25multi;118multiвпуле369;дальнейшее содержательное покрытие продолжается."
+    "resolution": "CP078:25open/25multi;134multiвпуле385;дальнейшее содержательное покрытие продолжается."
   },
   {
     "id": "QA-049",
@@ -421,7 +421,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "CP074:162/309историческихназначенийVERIFIED,147PENDING. РанниеQ01/Q02/Q03/V2-016/RM18/Q18объясненыдо заданий."
+    "resolution": "CP078:200/309историческихназначенийVERIFIED,109PENDING. РанниеQ01/Q02/Q03/V2-016/RM18/Q18объясненыдо заданий."
   },
   {
     "id": "QA-051",
@@ -666,57 +666,57 @@
   {
     "id": "QA-079",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M10 prerequisites",
     "finding": "SPO/EPSвE010;P/BV/EVвE020;даты/полная доходность/гэпвE030 раньше полного объяснения.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-080",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M10 valuation bases",
     "finding": "Цена/EPSи текущая капитализация/прибыль могут различаться при выпуске в течение года.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-081",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M10 rights and interpretation",
     "finding": "Права акционера/денежного токена,split/buyback/cash-in-out,отрицательныйEVи доходность требуют условий.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-082",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M10 and M02 open rubrics",
     "finding": "EO02/V2-049/EO04/EO01/BO04/V2-035имели скрытые требования или повторяли учебную роль.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-083",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M10 distractors",
     "finding": "14singleполучили предметные неверные варианты при сохранении индексов.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-084",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "MC section taxonomy",
     "finding": "18добавленных ранееMCсеминара1 имели ошибочную категориюregвместоdebt;ID/ответы не менялись.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-085",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M10 practice coverage",
     "finding": "16концептуальныхMCдают знание и кейс8блокам,все опоры до заданий.",
-    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+    "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   }
 ]
