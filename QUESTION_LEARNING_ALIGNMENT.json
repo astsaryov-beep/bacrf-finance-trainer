@@ -631,7 +631,7 @@
       "questionId": "BO07",
       "block": "S1-10-0",
       "sequence": 18,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Расширение спреда/рост доходности/снижение цены и роль кредитной дюрации",
       "support": [
         {
@@ -666,13 +666,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "LQ11",
       "block": "S1-10-0",
       "sequence": 18,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Локальный общий DV01 и непараллельные сдвиги/выпуклость/спред",
       "support": [
         {
@@ -707,13 +708,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "Q10",
       "block": "S1-10-1",
       "sequence": 19,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Покупка, РЕПО, short фьючерса; одна или несколько объяснённых причин убытка",
       "support": [
         {
@@ -745,13 +747,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "Q09",
       "block": "S1-10-1",
       "sequence": 19,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Купон C−K+RUONIA, согласование параметров и сохраняющийся кредитный риск",
       "support": [
         {
@@ -783,13 +786,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM01",
       "block": "S2-01-0",
       "sequence": 20,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Форвард задаёт будущие обязательства, допускает внебиржевой договор и риск контрагента",
       "support": [
         {
@@ -825,13 +829,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM02",
       "block": "S2-01-0",
       "sequence": 20,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Стандартизация/клиринг фьючерса и индивидуальный форвард; поставка не определяет всё различие",
       "support": [
         {
@@ -867,13 +872,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM23",
       "block": "S2-01-0",
       "sequence": 20,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Плечо как отношение позиции к капиталу, оба знака результата и расходы",
       "support": [
         {
@@ -909,13 +915,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-065",
       "block": "S2-01-0",
       "sequence": 20,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "CDS: договорное кредитное событие, не любая потеря цены/ликвидности",
       "support": [
         {
@@ -951,13 +958,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM03",
       "block": "S2-01-1",
       "sequence": 21,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Денежный результат переоценки, отличный от ГО/ролловера/займа акции",
       "support": [
         {
@@ -994,13 +1002,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-009",
       "block": "S2-01-1",
       "sequence": 21,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "ЦК между сторонами, управление неисполнением; рыночный риск остаётся",
       "support": [
         {
@@ -1037,13 +1046,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM04",
       "block": "S2-02-0",
       "sequence": 22,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Промежуточная ликвидность для маржи, вынужденное досрочное закрытие",
       "support": [
         {
@@ -1077,13 +1087,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-060",
       "block": "S2-02-0",
       "sequence": 22,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "VM и обеспечение до исполнения, договорная позиция short без обязательного займа бумаги",
       "support": [
         {
@@ -1149,13 +1160,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-070",
       "block": "S2-02-0",
       "sequence": 22,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Календарь оттоков, маржа и вынужденное закрытие до положительного конечного результата",
       "support": [
         {
@@ -1189,13 +1201,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM19",
       "block": "S2-02-1",
       "sequence": 23,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Различие динамики основной/защитной цены; отличие от контрагента, ликвидности и нормативов",
       "support": [
         {
@@ -1265,13 +1278,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-061",
       "block": "S2-02-1",
       "sequence": 23,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Базис, контрагент, ликвидность, фондирование как разные механизмы",
       "support": [
         {
@@ -1371,7 +1385,8 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PO05",
@@ -2175,7 +2190,7 @@
       "questionId": "PM17",
       "block": "S2-06-0",
       "sequence": 30,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Облигация C и IRS−K+R до вопроса, сохранение кредитного риска",
       "support": [
         {
@@ -2212,13 +2227,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "LQ13",
       "block": "S2-06-0",
       "sequence": 30,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Два валютных обмена FXswap в отличие от форварда, IRS и TRS",
       "support": [
         {
@@ -2287,13 +2303,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PO03",
       "block": "S2-06-0",
       "sequence": 30,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Чистое получение R−K на одной базе, знак при 10/14 и K12, годовой эквивалент",
       "support": [
         {
@@ -2330,13 +2347,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-062",
       "block": "S2-06-0",
       "sequence": 30,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Кредит−R−надбавка, своп+R−K и совпадение индикаторов",
       "support": [
         {
@@ -2373,13 +2391,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-063",
       "block": "S2-06-0",
       "sequence": 30,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Номинал10млн и разность14−12=2пп, годовой поток+200тыс в заданном упрощении",
       "support": [
         {
@@ -2416,13 +2435,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "Q11",
       "block": "S2-06-1",
       "sequence": 31,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Три потока C−K+R, спред и цена/параметры пакета",
       "support": [
         {
@@ -2453,13 +2473,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM18",
       "block": "S2-06-1",
       "sequence": 31,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Кредитный риск облигации, контрагент IRS, несовпадение параметров",
       "support": [
         {
@@ -2490,13 +2511,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PO07",
       "block": "S2-06-1",
       "sequence": 31,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Главный риск эмитента плюс один объяснённый дополнительный механизм; два явных критерия",
       "support": [
         {
@@ -2527,13 +2549,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-068",
       "block": "S2-06-1",
       "sequence": 31,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Кредит−(R+2), IRS+R−11; расходы13 при совпадении параметров",
       "support": [
         {
@@ -2597,13 +2620,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-071",
       "block": "S2-06-1",
       "sequence": 31,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Роль преобразования, дефолт эмитента и пример другого остаточного риска",
       "support": [
         {
@@ -2634,13 +2658,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "V2-072",
       "block": "S2-07-0",
       "sequence": 32,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Разные марки, качество/география/логистика/спрос до вопроса и cross-basis",
       "support": [
         {
@@ -2673,13 +2698,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "LQ05",
       "block": "S2-07-1",
       "sequence": 33,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Дневной непрерывный квантиль95, 5% превышения без календарного обещания и не ES",
       "support": [
         {
@@ -2712,13 +2738,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "LQ06",
       "block": "S2-07-1",
       "sequence": 33,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Линейность, нормальность, хвосты, корреляции и условия горизонта",
       "support": [
         {
@@ -2751,13 +2778,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM20",
       "block": "S2-08-0",
       "sequence": 34,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Размер/чувствительность исходного риска, стоимость контракта vs ГО и мера покрытия",
       "support": [
         {
@@ -2788,13 +2816,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "LQ15",
       "block": "S2-08-0",
       "sequence": 34,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Экспозиция, дата/валюта/цель, риск вместо одного прогноза и номинала",
       "support": [
         {
@@ -2825,13 +2854,14 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "LQ14",
       "block": "S2-08-1",
       "sequence": 35,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "60%номинала и40%открытого объёма; дисперсия/offset/даты разные",
       "support": [
         {
@@ -2863,7 +2893,8 @@
           ]
         }
       ],
-      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди."
+      "decision": "Предметно прочитаны условие, все варианты/ключ или каждый элемент рубрики и ранняя теория; опережения PM17/V2-072/Q09 закрыты, PO07 согласован. Подробности QUALITY_M06_REVIEW.md; регрессия ещё впереди.",
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "PM07",
@@ -6031,7 +6062,7 @@
       "questionId": "MC-S2-06-0-1",
       "block": "S2-06-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6113,13 +6144,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-06-0-2",
       "block": "S2-06-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6201,13 +6233,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-06-1-1",
       "block": "S2-06-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6271,13 +6304,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-06-1-2",
       "block": "S2-06-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6341,13 +6375,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-07-0-1",
       "block": "S2-07-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6421,13 +6456,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-07-0-2",
       "block": "S2-07-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6501,13 +6537,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-07-1-1",
       "block": "S2-07-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6581,13 +6618,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-07-1-2",
       "block": "S2-07-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6661,13 +6699,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-08-0-1",
       "block": "S2-08-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6735,13 +6774,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-08-0-2",
       "block": "S2-08-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6809,13 +6849,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-08-1-1",
       "block": "S2-08-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6888,13 +6929,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-08-1-2",
       "block": "S2-08-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -6967,13 +7009,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S1-10-0-1",
       "block": "S1-10-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -7053,13 +7096,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S1-10-1-1",
       "block": "S1-10-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -7132,13 +7176,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-01-0-1",
       "block": "S2-01-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -7231,13 +7276,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-01-1-1",
       "block": "S2-01-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -7327,13 +7373,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-02-0-1",
       "block": "S2-02-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -7416,13 +7463,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     },
     {
       "questionId": "MC-S2-02-1-1",
       "block": "S2-02-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Истинность и ложность всех вариантов выводятся из конкретной ранней теории.",
       "distractorReview": "Близкие механизмы/единицы/потоки; предметная правдоподобность, без заявления об измеренной сложности.",
       "support": [
@@ -7512,9 +7560,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP059/PR51/CI40407796549/mainCI40408414280/Pages40408413910/liveMATCH"
     }
   ],
-  "blocksAcceptedNewCriteria": 6,
-  "blocksReviewedPendingNewCriteria": 12
+  "blocksAcceptedNewCriteria": 18,
+  "blocksReviewedPendingNewCriteria": 0
 }

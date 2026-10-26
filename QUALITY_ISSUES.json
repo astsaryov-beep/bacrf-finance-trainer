@@ -405,7 +405,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "Формат25open/25multi,18новыхMC/42всего,сохранностьsingle/расчётови прежнихпопытокподтвержденыCP053. НовоеMCпокрытиеостальныхтемпродолжаетсяпоD-015."
+    "resolution": "Новый профиль25open/25multi подтверждён,60multiвпуле311;дальнейшее содержательное покрытие по модулям продолжается. CP059."
   },
   {
     "id": "QA-049",
@@ -413,7 +413,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 distractor quality",
     "finding": "Частьавторскихневерныхвариантовочевиднонесвязанаспредметом, позволяяугадатьбезпонимания.",
-    "resolution": "8singleM05и18новыхMCподтвержденыCP053. Правдоподобностьостальногобанка/дополненияпо96блокамвпереди;эмпирическаясложностьнеизмерена."
+    "resolution": "17singleM04/M06и18новыхMCподтвержденыCP059,предыдущаяредактураM05сохранена. Остальнойбанквпереди;эмпирическаясложностьнеизмерена."
   },
   {
     "id": "QA-050",
@@ -421,94 +421,94 @@
     "status": "IN_PROGRESS",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "M04/M06:31ещёназначениепредметнорассмотрено,опереженияPM17/V2-072/Q09закрыты;регрессиявпереди.49/309рассмотрено,260ожидают;неполнаяприёмкакурса."
+    "resolution": "49/309историческихназначенийпроверено/опубликовано;260PENDING. PM17/V2-072/Q09исправленыCP059;сквознойпроходвпереди."
   },
   {
     "id": "QA-051",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "PM17 / S2-06-0",
     "finding": "Вопрос об облигации+IRS стоит перед объяснением этой конструкции в S2-06-1.",
     "action": "Дать краткую схему до задания; последующий блок сохранить для календаря/пакета/дефолта.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-052",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "V2-072 / S2-07-0",
     "finding": "Для ответа нужны причины cross-basis, которые подробно появляются в S2-08-1.",
     "action": "Дать необходимую причинную связь до вопроса; сохранить самостоятельную роль позднего управления остатком.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-053",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2 PDF57–61 / swap taxonomy",
     "finding": "Source смешивает FXswap/CCS, валюты примера, классификацию/налоги, платежиCDS и товарныйсвоп/TRS.",
     "action": "Сохранить верные различия курса, добавить потоки/ограничения и недостающий паритет без юридических обобщений.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-054",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2 PDF62–63 / curves",
     "finding": "Описание формы серой кривой неточно; OIS назван чистым прогнозом,OFZ–OISприписаноднойпремии.",
     "action": "Разделить цены/ожидания/премии/сроки,датированные рядынеобъявлятьуниверсальными.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-055",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2 PDF66–67 / volatility",
     "finding": "Смешаны цены/доходности и целиNvsN−1;1.13%получаетсяпослеранееокругления.",
     "action": "Сохранить правильную выборочную формулу; добавить единицы/годовоймасштаб и независимый пример.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-056",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2 PDF68–72 / VaR",
     "finding": "Обобщены√T/субаддитивность/одинрегуляторныйVaRстандарт; LQ05требуетоговоркионепрерывности.",
     "action": "Сохранитьусловия/ES/хвост/модельность,уточнить3методаиограниченнуюисториюрегулирования.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-057",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "S2 PDF75–80 / hedge metrics",
     "finding": "Смешаныколичества/стоимости,разовыйoffset/структурныйперехедж/минимумдисперсии,HE_var/IFRS9.",
     "action": "Согласоватьединицы,условияметрик/интерпретации,необъявлятьуниверсальныйучётныйдопускпоодномучислу.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-058",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "PO07 / M06 practice",
     "finding": "Формулировкаоткрытоговопросанеобъявляетобъёмответа,арубрикатребуетнесколькокатегорий;singleимеюточевидныеневерныеварианты.",
     "action": "Согласоватьусловие/критерии,историюсохранить;новыеMCпроверяютфакты/кейсыиопираютсянаранниефрагменты.",
     "evidence": "QUALITY_M06_REVIEW.md/CP054–055",
-    "resolution": "5.0.33/QUALITY_M06_REVIEW.md: theory+practice corrected together; runtime/browser not yet claimed."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-059",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M04 Q09 early prerequisites",
     "finding": "Купонная арифметика присутствовала, но три направленных потока и сохраняющийся кредитный риск не были достаточно явно собраны до Q09.",
-    "resolution": "Добавлена краткая схема C−K+RUONIA вS1-10-1;позднийсвоповыйблоксохранёндлякалендаря/деталей."
+    "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
   }
 ]
