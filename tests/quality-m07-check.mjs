@@ -20,7 +20,7 @@ const formulas={
  'condor':s=>s<=90||s>=120?-4:s<100?s-94:s<=110?6:116-s
 };
 assert.equal(profiles.profiles.length,12);
-for(const p of profiles.profiles){for(const s of [0,59,60,80,87,89.999,90,95,99,100,103,105,108,110,113,116,120,140,160,1e6])near(profiles.pnl(p,s),formulas[p.id](s));assert.match(profiles.chart(p),/role="img"/);assert.match(profiles.chart(p),/desc/);assert.ok(!profiles.chart(p).includes('NaN'));}
+for(const p of profiles.profiles){for(const s of [0,59,60,80,87,89.999,90,95,99,100,103,105,108,110,113,116,120,140,160,1e6])near(profiles.pnl(p,s),formulas[p.id](s));assert.match(profiles.chart(p),/role="img"/);assert.match(profiles.chart(p),/desc/);assert.match(profiles.chart(p),/fill="#263f50"/);assert.match(profiles.chart(p),/min-width:420px/);assert.ok(!profiles.chart(p).includes('NaN'));}
 assert.equal((profiles.markup('S2-09',1).match(/data-option-profile=/g)||[]).length,12);assert.equal(profiles.markup('S2-10',1),'');near(profiles.pnl(profiles.profiles.find(p=>p.id==='ratio-put'),0),-92);
 // Source gold model: preserve own capital and compare two independent account ledgers.
 const margin=118*1343.27,deposit=1e6-margin,interest=deposit*.14;near(margin,158505.86);near(deposit,841494.14);near(interest,117809.1796);
