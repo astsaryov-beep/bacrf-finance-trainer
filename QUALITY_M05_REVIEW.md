@@ -1,3 +1,9 @@
+# M05 · VERIFIED WITH DISCLOSED LIMITS · 5.0.32
+
+[PR49](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/49) MERGED; продукт fc62a66d8a35d19fb1f5a4f5a35ab5265871c50c. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40385819291), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40386540271), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40386538843). Live MATCH: index526ae3ae5f8bc6001620849631e09c9d3eff52df; question-review.js8f6e3807b7c605745e056ca93c98813ee217d471; exam-practice.js398cecf6c71a83c88fa6e5aaad263c59705c2c18; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519. Четыре реальных скриншота из финального артефакта12679969239осмотрены;12локальных/7браузерныхпрограммPASS.
+
+6/6блоковM05приняты,всего30/96. ПредыдущиеPENDING—историяподготовки;актуальныйобщийстатусQUALITY_STATUS.md.
+
 # Комплексный аудит M05 · IN_PROGRESS
 
 Основа5.0.31 VERIFIED, CP045; продукт554efacbf0d80a3602a1d76311f28eb122e100bb. ДокументыPR48объединены вmain d70502d6bed54bf3de4e8d1fa38aa679c4491329; их CI40364870386/Pages40364869251 ещё проверяются. Рабочая веткаaudit/quality-m05-20261026. КодM05пока не менялся, принято24/96, следующие6не приняты.
