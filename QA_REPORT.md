@@ -1,3 +1,15 @@
+# QA · 5.0.26 beta · пакет 58/96 · PENDING
+
+Повторно выполнены project-state-check, release-check, strategies-check, content-dedup-check и learning-review-check — PASS. Проверены неизменность банка 275/19, 84 определений формул, назначений заданий и frozen 5.0.8. Браузер, CI и Pages ожидаются; до их подтверждения выпуск не VERIFIED. Методический охват 58/96, оставшиеся 38 не объявляются проверенными.
+
+---
+
+# QA · 5.0.26 beta IN_PROGRESS
+
+Начата полная методическая проверка 96 блоков. Методические выводы фиксируются отдельно от структурных тестов в COURSE_METHOD_REVIEW.json. Новые результаты CI/Pages PENDING.
+
+---
+
 # QA · 5.0.25 beta VERIFIED
 
 [PR #35](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/35), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40282611050), [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290). Все пять статических/логических проверок и обе браузерные программы PASS. Проверены 96 самопроверок, настоящее оценивание исправленного IPO и повторный ответ в курсе, старая сессия, другое задание, сохранение известной ошибки между режимами, реальный экспорт/импорт; прежняя регрессия desktop/mobile PASS. T-06 не выполнялся.
