@@ -142,58 +142,122 @@
   {
     "id": "S2-01-0",
     "title": "Форварды, фьючерсы, опционы, свопы",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Разделены право, обязательство и расчёт; пример импортёра показывает два сценария вместе с премией. Убраны повторные вводные, уточнён словарь опциона.",
+    "fingerprint": "ba06eef9a445defee2d07c014dcd713e105869f3732112cd688780a6e21699c3",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "glossary"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-01-1",
     "title": "Биржевой и внебиржевой рынок",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Клиринг отделён от исполнения расчётов; разобраны ЦК, неттинг, обеспечение и остаточная экспозиция. Точный индивидуальный хедж сопоставлен со стандартным лотом.",
+    "fingerprint": "457d8089a9d94b2d9b0d5a6021115eb35757430e03d8778d58c06bc0175a4805",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "beginner",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-02-0",
     "title": "Вариационная маржа и поставка",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Вводная и углубление объясняют путь ликвидности и отделяют итог позиции от требований до экспирации. Проверены множитель, число контрактов и знак VM; формула сохранена.",
+    "fingerprint": "ebd3af3dc4d7da30f7cd18f9a7e3e6f900e732a2ece27ea0f4ad074c1526079c",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-02-1",
     "title": "Базис, cost of carry и ролловер",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Зафиксированы две конвенции базиса: простой F−S и отдельный поставочный облигационный Pspot−F×CF. Уточнены направление товарного хеджа и расчёты при ролловере.",
+    "fingerprint": "24d30db74a07f006f5f8e307b08128f8acf8b492f6fdc611135b30a5f3f94951",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced",
+      "glossary"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-03-0",
     "title": "Cash-and-carry и обратная стратегия",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Обратная конструкция получила денежный пример и условия доступа к выручке короткой продажи. Прямой cash-and-carry оставлен как краткое сравнение; оговорены промежуточные расчёты.",
+    "fingerprint": "c3c8d2d29c9346e30bcafeb705627e8c3b1b04bf1555e4b5421e3d92580a86d6",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-03-1",
     "title": "Вечные фьючерсы и платежи фондирования",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Вечные инструменты описаны с учётом однодневной автопролонгации Мосбиржи. Показаны знакопеременный funding и его накопление; исключено впечатление постоянного дохода short.",
+    "fingerprint": "c3b340c48fd7c8ec366a38c3a112da3a993ffe1aab95c0fbbbddd9eac7604f4d",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "glossary",
+      "advanced"
+    ],
+    "sourceCheck": "Московская биржа: https://www.moex.com/a8141 и https://www.moex.com/a8803, проверено 26.10.2026. Индивидуальные параметры по актуальной спецификации; не переносить правила одной площадки на все perpetual."
   },
   {
     "id": "S2-04-0",
     "title": "Валютный рынок и условия обращения",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Определено направление хеджа после неттинга потоков, а денежный расчёт фьючерса отделён от реального приобретения валюты. Сохранены единицы руб./валюта и проверены числа.",
+    "fingerprint": "9d8bcf0ac0ae032ea37693a5f8f6c45c2bd79ba7dd854914ca8f7ec7c039d24a",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-04-1",
     "title": "Валютные сценарии и неполный хедж",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Блок сосредоточен на частичном хедже и ошибке прогноза объёма. Два числовых сценария показывают остаточную валютную позицию; повтор про премию заменён самостоятельной концептуальной проверкой.",
+    "fingerprint": "7eba6f953c4ba9890fc3134a66a60686a5d311224c92847eb38a6d569e39dda8",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "story",
+      "mechanism",
+      "application",
+      "advanced",
+      "glossary",
+      "selfCheck",
+      "exercise"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-05-0",
