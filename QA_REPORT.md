@@ -1,3 +1,11 @@
+# 5.0.28 beta · VERIFIED · CP-20261026-031
+
+[PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Продуктовый commit `0108a6e429c5f56be008da7766f6067d572f35a6`. Live MATCH: index `2a72b21f28b535962511b2dd43e58657a2f03e4a`, question-review.js `aab1a7dc68eaa834ab8c94217170a8dd5cffd684`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+Все семь локальных проверок, три браузерные программы, main CI и Pages SUCCESS. Первый комплексный пакет6/96 принят с пределами источниковой проверки;90блоков и сквозная приёмка открыты. Историческая запись подготовки ниже сохраняет прежний PENDING.
+
+---
+
 # QA ·5.0.28 beta · RELEASE_PENDING
 
 PASS локально: project-state-check, release-check, content-dedup-check, methodical-review-check, teacher-review-check, learning-review-check, strategies-check. Проверены независимые числовые примеры новых коэффициентов,20соответствий теста, миграция старых рубрик,557уникальных страниц и96блоков карты. Структура/отпечаток не подменяют предметную вычитку.

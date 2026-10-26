@@ -2,7 +2,7 @@
   {
     "id": "QA-001",
     "severity": "HIGH",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "Q13 / S1-09",
     "finding": "Эталон преподавателя требует рейтинг, Net Debt/EBITDA, Interest Coverage Ratio и G-spread с интерпретацией. Ответ и рубрикаQ13 заменяют первые три элемента другими видами спреда; в основных объяснениях коэффициенты не раскрыты достаточно.",
     "source": "S3 PDF4 question10; S1 PDF117–119",
@@ -12,7 +12,7 @@
   {
     "id": "QA-002",
     "severity": "HIGH",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "Q10 / Q12",
     "finding": "Q10 просит одну или несколько причин, но чек-лист требует одновременно финансирование и иной риск. ДляQ12 преподаватель принимает не менее3из5элементов; текущая рубрика жёстко требует определённые группы.",
     "source": "S3 PDF4 question11; PDF5 question20 and grading footer",
@@ -22,7 +22,7 @@
   {
     "id": "QA-003",
     "severity": "MEDIUM",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "Q18",
     "finding": "В преподавательском разборе вопроса5 отмеченоD оRUONIA Index на1/3/6месяцев. БанкРоссии разделяет единый накопленный индекс и срочную версию. В приложении корректный ключA/B/C уже сохранён.",
     "source": "S3 PDF3; https://www.cbr.ru/hd_base/ruonia/sv_ruonia/",
@@ -41,7 +41,7 @@
   {
     "id": "QA-005",
     "severity": "MEDIUM",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "Grading specification",
     "finding": "НаS3 PDF5 явно указаны одинаковый вес, полный набор вариантов дляmultiplechoice и верный вывод с обоснованием для открытых. Прежняя спецификация не отражала найденное правило, называя рубрику неподтверждённой.",
     "source": "S3 PDF5 footer",
@@ -51,7 +51,7 @@
   {
     "id": "QA-006",
     "severity": "MEDIUM",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "S1-01-0",
     "finding": "Первый блок о балансе использовал активы/пассивы без достаточного определения.",
     "resolution": "Добавлены ресурсы, дебиторская задолженность, источники финансирования и остаточная доля собственника."
@@ -59,7 +59,7 @@
   {
     "id": "QA-007",
     "severity": "MEDIUM",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "S1-02-0",
     "finding": "Гарантия и аккредитив требовали определения ролей и различия денежного/документарного условия.",
     "resolution": "Добавлены принципал/бенефициар/гарант, документарный механизм и две концептуальные проверки."
@@ -67,7 +67,7 @@
   {
     "id": "QA-008",
     "severity": "MEDIUM",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "S1-02-1",
     "finding": "Не хватало видов линий из S1 и условий их доступности.",
     "resolution": "Объяснены рамочная, онкольная, контокоррентная конструкции и технический овердрафт с договорными оговорками."
@@ -75,7 +75,7 @@
   {
     "id": "QA-009",
     "severity": "MEDIUM",
-    "status": "FIXED_LOCAL_PASS_BROWSER_PENDING",
+    "status": "FIXED_VERIFIED",
     "area": "S1-03-1",
     "finding": "EBITDA использовалась в ковенанте до объяснения; PIK/бридж кратко назывались без действия.",
     "resolution": "EBITDA определена, показано увеличение долга 10→11 млн и риск задержки следующего финансирования."
