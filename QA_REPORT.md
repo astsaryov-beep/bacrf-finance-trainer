@@ -1,3 +1,11 @@
+# QA · 5.0.25 beta VERIFIED
+
+[PR #35](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/35), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40282611050), [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290). Все пять статических/логических проверок и обе браузерные программы PASS. Проверены 96 самопроверок, настоящее оценивание исправленного IPO и повторный ответ в курсе, старая сессия, другое задание, сохранение известной ошибки между режимами, реальный экспорт/импорт; прежняя регрессия desktop/mobile PASS. T-06 не выполнялся.
+
+Live index.html 9b6b3c08d80c8a029daf18dab95654589a577270; question-review.js 0cdae67810f74e8312b14ff1b81d46cb117a31f3; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519 — MATCH. Полные академическая и методическая проверки остаются PARTIAL (20/96 полных методических блоков, самопроверки 96/96). Реестры описывают точный охват и ограничения.
+
+---
+
 # QA · 5.0.25 beta · PENDING
 
 Локально PASS: project-state-check, release-check, content-dedup-check, learning-review-check, strategies-check. 96 уникальных предметных вопросов/разборов, десять новых полных методических блоков, знак бенчмарка, haircut, новый IPO-ключ, отсутствие мутации raw BANK, сохранность 84 формул и 309 назначений. Миграция старых сессий и восьми изменённых самостоятельных заданий сохраняет прежние оценки/черновики; пропущенные ответы не доказывают ошибку понятия, прежняя известная ошибка не стирается пропуском.

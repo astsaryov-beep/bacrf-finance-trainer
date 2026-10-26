@@ -324,3 +324,9 @@ Live-проверка 26.10.2026: опубликованный index.html соо
 ### CP-20261026-008 · уточнение браузерной проверки
 
 PR #35 открыт, первая verify job PASS. Дополнен браузерный сценарий реальным нажатием проверки IPO и повторным ответом на исправленное задание непосредственно в курсе. Общий CI/Pages пока PENDING.
+
+## CP-20261026-009 · 5.0.25 beta VERIFIED · 26.10.2026
+
+PR #35 MERGED, SHA `855041be6883c60c0f253bf9a0bda59e3e2651f2`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40282611050), [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290). Браузер: прежняя регрессия + 96 раскрываемых разборов, IPO в каталоге и реальном оценивании, повторный ответ в курсе, старая сессия, альтернативный вопрос, объединение истории двух режимов и настоящий экспорт/импорт — PASS.
+
+Live проверен по Git blob: index 9b6b3c08d80c8a029daf18dab95654589a577270; question-review.js 0cdae67810f74e8312b14ff1b81d46cb117a31f3; стабильная 5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519, все MATCH. Сырой BANK SHA-256 9790cbfae4863743042acb5a1404b4958ce1c80d895be342a1bd188bd49213e8 совпадает с основой 5.0.24. T-05 редакционно DONE, T-04 основного банка DONE, T-12 дедупликация DONE. Методический цикл 20/96, новые самопроверки 96/96. Полные T-01/T-02 остаются PARTIAL; следующий блок S2-01-0. T-06 исключён, T-07 требует содержательной приёмки.
