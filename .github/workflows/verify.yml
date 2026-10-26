@@ -37,7 +37,9 @@ jobs:
       - name: Install browser driver
         run: npm install --no-package-lock --no-save playwright-core@1.56.1
       - name: Test desktop and mobile UI
-        run: node tests/browser-smoke.mjs
+        run: |
+          node tests/browser-smoke.mjs
+          node tests/learning-review-browser.mjs
       - name: Attach screenshots and diagnostics
         if: always()
         uses: actions/upload-artifact@v4

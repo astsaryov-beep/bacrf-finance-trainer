@@ -33,7 +33,8 @@
  function diagnostics(bank,evidence){
   const groups=new Map();
   for(const q of bank){const family=q.conceptFamily;if(!family)continue;let g=groups.get(family);if(!g){g={family,label:q.conceptLabel||q.topic||family,questions:[],seen:[],wrong:[],needsRecheck:[]};groups.set(family,g);}g.questions.push(q);
-   const p=evidence[q.id];if(!p?.tries)continue;if(!currentEvidence(q,p)){g.needsRecheck.push(q);continue;}g.seen.push({q,p});if(p.last===false||p.lastScore<1)g.wrong.push({q,p});
+   const latest=evidence[q.id],p=latest?.answered===false?latest.lastAnsweredEvidence:latest;
+   if(!p?.tries)continue;if(!currentEvidence(q,p)){g.needsRecheck.push(q);continue;}g.seen.push({q,p});if(p.last===false||p.lastScore<1)g.wrong.push({q,p});
   }
   return [...groups.values()].map(g=>{
    const lastFailure=Math.max(0,...g.seen.map(x=>Date.parse(x.p.lastWrongAt)||0),...g.wrong.map(x=>Date.parse(x.p.when)||0));
@@ -60,5 +61,13 @@
    value.grades[id]={...grade,previousReviewGrade:{score:grade.score,strict:grade.strict},score:strict?1:0,strict,reviewRevision:patch.revision};
   }return value;
  }
- root.FinanceReview={revision,corrections,question,diagnostics,alternative,currentEvidence,migrateSession};
+ const revisedIndependentIds=Array.from({length:8},(_,i)=>'FRI-O-'+String(i+10).padStart(2,'0')+'-0');
+ function migrateIndependent(value){
+  for(const id of revisedIndependentIds){
+   const a=value?.answers?.[id];if(!a||a.reviewRevision===revision)continue;
+   a.previousReviewResult={correct:a.correct,draft:a.draft,updatedAt:a.updatedAt};
+   a.correct=false;a.draft='';a.needsReviewRecheck=true;a.reviewRevision=revision;
+  }return value;
+ }
+ root.FinanceReview={revision,corrections,question,diagnostics,alternative,currentEvidence,migrateSession,migrateIndependent,revisedIndependentIds};
 })(globalThis);
