@@ -1,0 +1,674 @@
+[
+  {
+    "id": "S1-01-0",
+    "title": "Баланс активов и пассивов",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "b8b67e3a4ff2d2635081ea1373cb7f5d500bf1a63c2bc8ef79ff1c994c3625f0"
+  },
+  {
+    "id": "S1-01-1",
+    "title": "Ключевая ставка и денежные индикаторы",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "80541f6b6aeacf54b7f9ac85e1fbe9e7c7d9aa7d5e70e13751639b6b608e785d"
+  },
+  {
+    "id": "S1-02-0",
+    "title": "Формы кредита и обеспечение",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "80b53df0a388c1e767c3e24a14b1609d0c8baed9f676a2cf8ac998a55e9faf89"
+  },
+  {
+    "id": "S1-02-1",
+    "title": "Возобновляемая линия и овердрафт",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "abc47906f5ea61d49c49fa611eec8b8e0d1c21fe3c8dd11a2abe7d307ca97888"
+  },
+  {
+    "id": "S1-03-0",
+    "title": "Инвестиционный кредит и проектное финансирование",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "117a47cc21734afe485fd5668ffd5264fd7946106ebb64e2cb4c9149a03665aa"
+  },
+  {
+    "id": "S1-03-1",
+    "title": "Синдикаты, субординация и ковенанты",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "e602997b59853272d253fd61b5860990df6764c80c76cf4f9155a28bd72f7130"
+  },
+  {
+    "id": "S1-04-0",
+    "title": "Разновидности долговых инструментов",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "204d7fe6fd28a2c81dc184b59f6c23eb1468854ba722e261482a578cbf125ac9"
+  },
+  {
+    "id": "S1-04-1",
+    "title": "Купоны, амортизация и оферты",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "3bf58f99c6596e4294c574dac578daef362b538a978a45a8a3c886cc4a55f7b1"
+  },
+  {
+    "id": "S1-05-0",
+    "title": "Участники и движение денежных потоков",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "863aae5b7793ce203a4ca7730b23bd306c89ff1f8bfbcf7140c7235adba099e6"
+  },
+  {
+    "id": "S1-05-1",
+    "title": "Транши и кредитное усиление",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "7ee8b2e6dcaf4f6353893679b4b7b2747f12e9d32c5798006b3d6239176a7b1b"
+  },
+  {
+    "id": "S1-06-0",
+    "title": "Чистая, грязная цена и НКД",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "8d8c22c0718cf179e3e91a532b658fcd6c2e39ec6cb6a3884b11b1f2108aab3f"
+  },
+  {
+    "id": "S1-06-1",
+    "title": "Купон, доходность к погашению и реинвестирование",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "8126e383e22d4e9c92f5cf947ce350da1882677dea7cbcd0d532b5b99a79d433"
+  },
+  {
+    "id": "S1-07-0",
+    "title": "Дюрация Маколея, модифицированная, DV01",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "5755fc2a2c5e2107533389857ecfdb306340269a17fef0593c05e6708082cf9a"
+  },
+  {
+    "id": "S1-07-1",
+    "title": "Выпуклость и ограничения линейной оценки",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "6bdfd55f7f5016ba83636638e2cb248c6097e4aa1fbf9fbe004b09e9a3b2775b"
+  },
+  {
+    "id": "S1-08-0",
+    "title": "RGBI, RGBITR и кривая бескупонной доходности",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "393c002c4585a21805f814d75ddd34f843e8369e88ab215d90a12760b5b1e0d5"
+  },
+  {
+    "id": "S1-08-1",
+    "title": "РЕПО как краткосрочное фондирование",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "90b69b9e06d30f206275b2cd883dfb7cc1adce9b3a354927dbdc0f8bb8e6f4de"
+  },
+  {
+    "id": "S1-09-0",
+    "title": "Спреды к безрисковой кривой",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "92891e8d0387390edff52ad040476eaaec2c15e06e76ea74ed9f9ca3df371dea"
+  },
+  {
+    "id": "S1-09-1",
+    "title": "Самостоятельная кредитоспособность и внешняя поддержка",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "409fc5fbf578c95e27689f79bee8bf08db61666dad2e7742956a60516932bc65"
+  },
+  {
+    "id": "S1-10-0",
+    "title": "Портфель и относительная стоимость",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "a40d50f601a7877b50ec3e1b1defb3303c32804816836f0c707f64a098d2eb29"
+  },
+  {
+    "id": "S1-10-1",
+    "title": "Cash-and-carry и asset swap",
+    "status": "INHERITED_REVIEW",
+    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
+    "fingerprint": "6e8d858cc64da987856e05be48d277635c3b7000ba28988b5d968edcc7a96787"
+  },
+  {
+    "id": "S2-01-0",
+    "title": "Форварды, фьючерсы, опционы, свопы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-01-1",
+    "title": "Биржевой и внебиржевой рынок",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-02-0",
+    "title": "Вариационная маржа и поставка",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-02-1",
+    "title": "Базис, cost of carry и ролловер",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-03-0",
+    "title": "Cash-and-carry и обратная стратегия",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-03-1",
+    "title": "Вечные фьючерсы и платежи фондирования",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-04-0",
+    "title": "Валютный рынок и условия обращения",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-04-1",
+    "title": "Валютные сценарии и неполный хедж",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-05-0",
+    "title": "Механика РЕПО и КСУ",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-05-1",
+    "title": "Ставки и передача сигнала ДКП",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-06-0",
+    "title": "Валютные, процентные и кредитные свопы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-06-1",
+    "title": "Облигация плюс IRS: asset swap",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-07-0",
+    "title": "Арбитраж, хеджирование, волатильность",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-07-1",
+    "title": "VaR и условия применимости",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-08-0",
+    "title": "Шаги выбора и расчёта хеджа",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-08-1",
+    "title": "Частичный хедж и остаточные риски",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-09-0",
+    "title": "Право и обязательство, payoff",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-09-1",
+    "title": "Вертикальные спреды и волатильность",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-10-0",
+    "title": "Временная стоимость и оценка",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-10-1",
+    "title": "Delta, Gamma, Vega, Theta и риск хеджа",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-11-0",
+    "title": "Как строится структурный продукт",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "S2-11-1",
+    "title": "Autocall, barrier note и пример золота",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-01-0",
+    "title": "Участники, рынки и финансовые потоки",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-01-1",
+    "title": "Финансовая инфраструктура и расчёты",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-02-0",
+    "title": "Правила финансового рынка и подходы к регулированию",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-02-1",
+    "title": "Сферы ответственности регуляторов и законы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-03-0",
+    "title": "Лицензии и операции кредитной организации",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-03-1",
+    "title": "Страхование вкладов и клиентские риски",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-04-0",
+    "title": "Капитал, ликвидность и стресс-тестирование",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-04-1",
+    "title": "Кредитование бизнеса и выбор финансирования",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-01-0",
+    "title": "Обыкновенные и привилегированные акции",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-01-1",
+    "title": "IPO, SPO и дополнительные выпуски",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-02-0",
+    "title": "EPS и P/E",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-02-1",
+    "title": "P/BV и EV/EBITDA",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-03-0",
+    "title": "Дивидендная доходность",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-03-1",
+    "title": "Дивидендная отсечка и полная доходность",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-04-0",
+    "title": "Паевые и биржевые фонды",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-04-1",
+    "title": "Индексные фонды и расходы инвестора",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-05-0",
+    "title": "Бета и корреляция",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-05-1",
+    "title": "Горизонт инвестиций и выбор инструмента",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-06-0",
+    "title": "Кто управляет акционерным обществом",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-06-1",
+    "title": "Свободное обращение и free-float",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-07-0",
+    "title": "Листинг, депозитарий и биржевые индексы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-07-1",
+    "title": "Путь компании к IPO и SPO",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-08-0",
+    "title": "Модель Гордона и её допущения",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-08-1",
+    "title": "Двухфазная модель роста дивидендов",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-09-0",
+    "title": "Как формируется вес акции в индексе",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-09-1",
+    "title": "Ценовой индекс и индекс полной доходности",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-10-0",
+    "title": "Доходность, волатильность и корреляция",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-10-1",
+    "title": "Эффективная граница и портфель Марковица",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-11-0",
+    "title": "CAPM и бета рыночного риска",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-11-1",
+    "title": "Шарп, Сортино и альфа Дженсена",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-12-0",
+    "title": "Что предполагает технический анализ",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-12-1",
+    "title": "Подтверждение тренда и ограничения теории Доу",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-13-0",
+    "title": "РЕПО с акциями и плечо брокера",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "E-13-1",
+    "title": "НПР1, НПР2 и начальная маржа",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "INS-01-0",
+    "title": "От случайного ущерба к страховому договору",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "INS-01-1",
+    "title": "Франшиза, страховая сумма и расчёт выплаты",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "INS-02-0",
+    "title": "Страхователь, выгодоприобретатель, агент и эксперт",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "INS-02-1",
+    "title": "Личное, имущественное и обязательное страхование",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "INS-03-0",
+    "title": "Как оценивают стоимость риска и формируют резервы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "INS-03-1",
+    "title": "Перестрахование, сострахование и взаимное страхование",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "PEN-01-0",
+    "title": "Распределительная и накопительная модели",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "PEN-01-1",
+    "title": "ОПС, социальные и государственные пенсии",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "PEN-02-0",
+    "title": "НПФ, пенсионные накопления и пенсионные резервы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "PEN-02-1",
+    "title": "Программа долгосрочных сбережений и её риски",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "LEASE-01-0",
+    "title": "Предмет лизинга и стороны договора",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "LEASE-01-1",
+    "title": "Виды лизинга и анализ стоимости",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "FACTOR-01-0",
+    "title": "Как работает факторинг и регресс",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "FACTOR-01-1",
+    "title": "Форфейтинг и выбор финансирования",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "MARKET-01-0",
+    "title": "Инвесторы и профессиональные участники рынка",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "MARKET-01-1",
+    "title": "Депозитарии, ПИФ, ИИС и учёт прав",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-05-0",
+    "title": "Как возникли основные финансовые теории",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-05-1",
+    "title": "Эффективность рынка и поведенческие финансы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-06-0",
+    "title": "Формы денег, цифровой рубль и цифровые активы",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  },
+  {
+    "id": "R-06-1",
+    "title": "Национальная платёжная система и способы расчётов",
+    "status": "PENDING",
+    "decision": "",
+    "fingerprint": null
+  }
+]

@@ -1,3 +1,9 @@
+# 5.0.26 beta · IN_PROGRESS
+
+Полная методическая вычитка оставшихся 76 блоков до 96/96 по прямому поручению пользователя. T-06 исключён; первичная версия и банк сохраняются.
+
+---
+
 # 5.0.25 beta · VERIFIED
 
 PR #35; [CI main](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290) SUCCESS, live-файлы совпадают с Git.

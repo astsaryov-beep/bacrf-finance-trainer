@@ -1,3 +1,9 @@
+# Активный checkpoint · CP-20261026-010 · 5.0.26 beta IN_PROGRESS
+
+Пользователь поручил завершить полную методическую вычитку 96/96. Основа 20/96 из 5.0.25; выполнить оставшиеся 76, начиная S2-01-0. Ветка content/methodical-96-20261026 от main 9a0c0d8, CI/Pages основы SUCCESS. После каждого пакета сохранить предметные решения и контрольную точку. Итоговые 96/96 не объявлять по структурному тесту. T-06 исключён, полный T-01 отдельно, 275/19, 84 формулы, 309 назначений и v5.0.8 сохранить.
+
+---
+
 # Актуальный checkpoint · CP-20261026-009 · 5.0.25 beta VERIFIED
 
 PR #35 MERGED: `855041be6883c60c0f253bf9a0bda59e3e2651f2`. [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055); [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290); PR CI 40282611050 SUCCESS. Сайт отдаёт 5.0.25; Git blob HTML, question-review.js и frozen 5.0.8 совпадают с исходниками. Полный браузерный прогон PASS.

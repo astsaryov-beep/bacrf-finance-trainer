@@ -5,12 +5,12 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "5.0.25 beta",
+  "working_version": "5.0.26 beta",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
+  "phase": "IN_PROGRESS",
+  "active_task": "T-02",
   "next_task": "T-02",
   "last_verified_checkpoint": "CP-20261026-009",
   "last_verified_commit": "855041be6883c60c0f253bf9a0bda59e3e2651f2",
@@ -43,3 +43,7 @@ Live index.html: `9b6b3c08d80c8a029daf18dab95654589a577270`; question-review.js:
 T-06 — самый низкий приоритет, только по отдельной команде; не запускался. T-07 — после содержательной приёмки пользователем; beta сохранена. Экзамен не фильтровался и не перебалансировался (D-012). 48 тем, 96 блоков, 84 формулы и исходные 275/19 сохранены.
 
 Отчёты: COURSE_METHOD_REVIEW_20261026.md, LEARNING_REVIEW_20261026.md, QUESTION_REVIEW_20261026.md, SOURCE_ERRATA_20261026.md. Точный следующий шаг и история — CHAT_HANDOFF.md / CHECKPOINTS.md.
+
+## Активная работа · полный T-02
+
+Пользователь поручил довести методическую вычитку до всех 96 блоков. Основа фактический main 9a0c0d8, документационный PR #36; CI 40284135653 / Pages 40284135220 SUCCESS. Продуктовые файлы совпадают с CP-20261026-009. Новый охват: оставшиеся 76 блоков, пакеты по 6–12, отдельные содержательные решения по каждому. IN_PROGRESS, не считать 96/96 до завершения. T-06 исключён, полный T-01 отдельно.
