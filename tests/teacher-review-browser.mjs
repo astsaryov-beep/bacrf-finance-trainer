@@ -11,6 +11,18 @@ try{
  assert.ok((await page.locator('.study-paper').textContent()).includes('Пассив баланса'));
  assert.equal(await page.locator('.v5-extra-check').count(),2);assert.equal(await page.locator('.v5-extra-check[open]').count(),0);
  await page.locator('.v5-extra-check').first().locator('summary').click();assert.ok((await page.locator('.v5-extra-check').first().textContent()).includes('сами по себе не создают выручку'));
+ await page.evaluate(()=>goStudyLesson('S1-04',0));await page.locator('#v5FullBtn').click();
+ assert.ok((await page.locator('.study-paper').textContent()).includes('Замещающие облигации'));
+ assert.equal(await page.locator('.v5-extra-check').count(),2);
+ await page.evaluate(()=>goStudyLesson('S1-05',0));await page.locator('#v5FullBtn').click();
+ assert.ok((await page.locator('.study-paper').textContent()).includes('Концессионные облигации'));
+ await page.evaluate(()=>goStudyLesson('S1-06',0));await page.locator('#v5FullBtn').click();
+ assert.equal(await page.locator('.v5-formula').count(),3);
+ await page.evaluate(()=>goStudyLesson('S1-06',1));await page.locator('#v5FullBtn').click();
+ assert.equal(await page.locator('.v5-formula').count(),7);
+ assert.equal(await page.locator('.v5-formula[open]').count(),0);
+ await page.locator('.v5-formula').last().locator('summary').click();
+ assert.ok((await page.locator('.v5-formula').last().textContent()).includes('дефолт'));
  await page.evaluate(()=>goStudyLesson('S1-09',0));await page.locator('#v5FullBtn').click();
  assert.equal(await page.locator('.v5-formula').count(),3);
  await page.locator('.v5-formula').nth(1).locator('summary').click();assert.ok((await page.locator('.v5-formula').nth(1).textContent()).includes('EBITDA'));

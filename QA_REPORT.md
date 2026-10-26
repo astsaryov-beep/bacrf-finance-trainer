@@ -1,3 +1,11 @@
+# QA ·5.0.29 beta · RELEASE_PENDING
+
+К прежним семи программам добавлена quality-m02-check: независимые PV/даты/конвенции/веса дней, пределыYTW, миграцияQ14/Q16. Браузер проверяет новые объяснения и3/7формул S1-06. Локальные проверки PASS; браузер/CI/Pages/live PENDING.
+
+Общий комплексный проход12/96(M01 принято6,M02 ждёт браузер),94/557страниц просмотрены с ограничениями. Остальные84и сквозная приёмка открыты. ПодробностиQUALITY_M02_REVIEW.md; CP032. Предыдущие84формулы/raw275/19/309иstable5.0.8сохранены.
+
+---
+
 # 5.0.28 beta · VERIFIED · CP-20261026-031
 
 [PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Продуктовый commit `0108a6e429c5f56be008da7766f6067d572f35a6`. Live MATCH: index `2a72b21f28b535962511b2dd43e58657a2f03e4a`, question-review.js `aab1a7dc68eaa834ab8c94217170a8dd5cffd684`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
