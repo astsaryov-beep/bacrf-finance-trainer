@@ -740,29 +740,43 @@
     "id": "R-04-0",
     "title": "Капитал, ликвидность и стресс-тестирование",
     "status": "REVIEWED",
-    "decision": "Капитал и денежная ликвидность проверены двумя отдельными стрессами; регуляторное отношение не смешивается с наличностью. Уточнены концентрация и база ПДН, условия LCR/Н4 сохранены.",
-    "fingerprint": "849bf6a63359ff54bb1c296bafe27be8d4570618bb6635607dbc1bd0532a3c07",
+    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
+    "fingerprint": "6102dd59a1e1f2604cb6f4a7eac6f9dce92b2fa0347e794272bb3a5c81ae5c11",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
       "principles",
       "application",
-      "glossary"
+      "advanced",
+      "glossary",
+      "formulas",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M09_REVIEW.md"
   },
   {
     "id": "R-04-1",
     "title": "Кредитование бизнеса и выбор финансирования",
     "status": "REVIEWED",
-    "decision": "Выбор финансирования раскрыт по полному графику и источнику возврата: долгий проект, облигации, кредит и краткосрочная дебиторская задолженность. Избегается выбор только по номинальной ставке.",
-    "fingerprint": "85d3f7fbbe15e2bd6f853ad32fc707a4d7b3ca50d9b629346a7484bad0b5ff2c",
+    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
+    "fingerprint": "000243039b17951227c8056a2f4acd62ea18084ab5f768ea0b412257682ae3c4",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
       "principles",
       "application",
-      "advanced"
+      "advanced",
+      "glossary",
+      "formulas",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M09_REVIEW.md"
   },
   {
     "id": "E-01-0",
@@ -1290,51 +1304,84 @@
     "id": "R-05-0",
     "title": "Как возникли основные финансовые теории",
     "status": "REVIEWED",
-    "decision": "Проверены PV1млн иNPV9090,91руб., распределены вопросы между моделями. Введение и углубление усилены; обзор оставлен самостоятельной картой решений вместо повторных развёрнутых формул.",
-    "fingerprint": "ef162983391de258857cbf923ff55b4a2a878e604cf368bc969b17a1952b942e",
+    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
+    "fingerprint": "97e6850af7b0d386c2cf3e340d04a4ef9bbfe36c458044251ce49179431522a0",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
       "foundation",
-      "advanced"
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary",
+      "formulas",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M09_REVIEW.md"
   },
   {
     "id": "R-05-1",
     "title": "Эффективность рынка и поведенческие финансы",
     "status": "REVIEWED",
-    "decision": "ФормыEMH, поведенческие эффекты и ограничения арбитража проверены. Добавлены понятный вход в тему и совместность проверки эффективности с моделью нормальной доходности.",
-    "fingerprint": "30b97be2725d8a1279313131ae242f1ce1f20dc96bb8880734a93ffea74122fc",
+    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
+    "fingerprint": "c02914eda05ec1873247d1abc39255ba1dae8e0d59ec0b65d9ac20f8555317be",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
       "foundation",
-      "advanced"
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary",
+      "formulas",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M09_REVIEW.md"
   },
   {
     "id": "R-06-0",
     "title": "Формы денег, цифровой рубль и цифровые активы",
     "status": "REVIEWED",
-    "decision": "Разграничены формырубля, требованиякбанку, платформаЦБ, ЦФА и криптоактивы. Расширено краткое введение; пример не утверждает всеобщую доступность цифрового платежа.",
-    "fingerprint": "3ce04e956eb9dd76d19d4bfabb831f29b59ccd601f7479aeb3849aaf03bb6f12",
+    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
+    "fingerprint": "59864d859f304937abd223b2d6a0dcecca3fbf23c8593d3de83a09141baa4a8b",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation"
+      "beginner",
+      "story",
+      "foundation",
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary",
+      "formulas",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M09_REVIEW.md"
   },
   {
     "id": "R-06-1",
     "title": "Национальная платёжная система и способы расчётов",
     "status": "REVIEWED",
-    "decision": "Проверены роли плательщика/получателя/банков и операторов. Введение расширено, углубление отделяет подтверждениепоручения от расчёта и различает QRкакспособданных и конкретный платёжныйсервис.",
-    "fingerprint": "df74e30a270afa79f21c84a22e23e41bb34a97a54326df62ade7f98532f37d1b",
+    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
+    "fingerprint": "6b00bd98c069da233be84778e717d49ff3f5cd08727b0f531274672d8896dc2b",
     "reviewedOn": "2026-10-26",
     "changes": [
+      "beginner",
+      "story",
       "foundation",
-      "advanced"
+      "mechanism",
+      "principles",
+      "application",
+      "advanced",
+      "glossary",
+      "formulas",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M09_REVIEW.md"
   }
 ]

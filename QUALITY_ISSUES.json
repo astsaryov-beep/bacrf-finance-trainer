@@ -405,7 +405,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "CP065:25open/25multi;76multiвпуле327. Дальнейшее содержательное покрытие по модулям продолжается."
+    "resolution": "CP069:25open/25multi;100multiвпуле351;дальнейшее содержательное покрытие продолжается."
   },
   {
     "id": "QA-049",
@@ -421,7 +421,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "CP065:85/309историческихназначенийпроверено/опубликовано,224PENDING. M07IV/time исправлены;сквознойпроходвпереди."
+    "resolution": "CP069:126/309историческихназначенийVERIFIED,183PENDING. РанниеQ01/Q02/Q03/V2-016/RM18/Q18объясненыдо заданий."
   },
   {
     "id": "QA-051",
@@ -562,49 +562,105 @@
   {
     "id": "QA-066",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M08 Q01 early support",
     "finding": "Карта5компетенций требовалась раньше подробного объяснения;типорганизации не равен предметунадзора.",
-    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+    "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-067",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M08 Q02 activity classification",
     "finding": "Перед вопросом не хватало всех5различий:инкассация/лизинг/ДУ и страхование/торговля с исключениями.",
-    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+    "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-068",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M08 Q03 and market discipline",
     "finding": "Нужны ранние даты/предметы одноимённых законов,контекстклассификации и обязательнаянорма vsрыночнаядисциплинаV2-016.",
-    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+    "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-069",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M01 open rubric consistency",
     "finding": "RO08требовал3пунктапри2каналах,RO06позволялпропуститьбанкрискилиобратныйтиплинии,RO05требовалотдельныйсценарийсверхусловия.",
-    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+    "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-070",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M08 source roles and scope",
     "finding": "Слайды смешивают потоки продавца/поставщикаденег,идеальные свойстванадзора,целиЦБ/мотивысотрудников,АСВ/дочернееобщество и разные страховыережимы.",
-    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+    "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-071",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M08 and M01 distractors",
     "finding": "Предметная близость25single усилена;ранниеRUONIA/кредитныепредпосылки явно раскрыты. Реальнаясложностьбезданныхучениковнеизмерена.",
-    "resolution": "5.0.35/QUALITY_M08_REVIEW.md,единаяредакция/практика. Проверки/публикация пока впереди."
+    "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
+  },
+  {
+    "id": "QA-072",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 NSFR prerequisite",
+    "finding": "RM16 использует NSFR до объяснения;отдельно нужны капитал,30днейLCR,годовая структурафондирования и ПДН.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-073",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 factoring prerequisite",
+    "finding": "V2-012 требует механизма уступки/ролей/потоков до задания,а не только короткого словаря.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-074",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 and M02 open rubrics",
+    "finding": "6условий/рубрик требовали лишнее или не проверяли явную часть:RO04/V2-015/V2-018/FRI509-06/FRI509-08/BO08.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-075",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 financial theories",
+    "finding": "Не хватало объяснений издержек/институтов/агентскихстимулов/аддитивности/нестабильности и современныхтрендов;спорные даты не заучиватькакфакты.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-076",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 digital money scope",
+    "finding": "Три учебныеформы не отменяют юридическую квалификацию цифрового рубля;NFT/ЦФА/стейблкоин/электронныеденьги требуют разныхправ/рисков.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-077",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 payment roles",
+    "finding": "Оператор/операционныйцентр/клиринг/расчёт/НСПК/БанкРоссии и QRнуждаются в раздельном объяснении;датированныесрезынепостоянны.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-078",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 and M02 distractors",
+    "finding": "13single/4multi усилены близкимипредметнымивариантами,ключисохранены. Эмпирическая трудностьнеизмерена.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
   }
 ]
