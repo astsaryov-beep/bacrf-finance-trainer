@@ -1,3 +1,7 @@
+# CP-20261026-026 · план проверки качества подготовлен
+
+Пользователь запросил полный план, включая полноту по материалам преподавателей, экзаменационные комментарии, обучение с нуля, точность, согласованность и повторы. План: COURSE_QUALITY_PLAN.md. Новый аудит по нему не запускался. Опубликованная5.0.27 сохраняется; методический охват96/96 не означает завершённую проверку557слайдов или реальный ученический эксперимент. Следующая содержательная работа — исходная сводка и матрица источниковT-01, затем проверка по модулям и прохождение новичком. T-06 только по отдельной команде, экзаменационный отбор отдельноD-012. Ниже прежний подтверждённый checkpoint.
+
 # CP-20261026-025 ·5.0.27 beta VERIFIED ·T-02 DONE96/96
 
 [PR #38](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/38) MERGED; продуктовый commit `e3dad380e74f56629e4f906dfe1590ceb5b4c082`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40301865821), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216887), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216421).
