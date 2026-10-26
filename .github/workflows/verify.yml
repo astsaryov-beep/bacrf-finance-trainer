@@ -23,6 +23,8 @@ jobs:
         run: node tests/release-check.mjs
       - name: Verify content continuity and justified repetition
         run: node tests/content-dedup-check.mjs
+      - name: Verify completed methodological review and content fingerprints
+        run: node tests/methodical-review-check.mjs
       - name: Verify conceptual learning and corrected answer keys
         run: node tests/learning-review-check.mjs
       - name: Verify fixed income strategy mathematics
