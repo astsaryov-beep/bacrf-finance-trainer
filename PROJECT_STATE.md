@@ -12,21 +12,21 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-01",
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261026-031",
-  "last_verified_commit": "0108a6e429c5f56be008da7766f6067d572f35a6",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017",
+  "last_verified_checkpoint": "CP-20261026-033",
+  "last_verified_commit": "8133aa25b73bfdf9b7e7fcd91df6276c341acd91",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-26"
 }
 ```
 <!-- STATE_JSON_END -->
 
-## 5.0.29 beta · RELEASE_PENDING · M02
+## 5.0.29 beta · VERIFIED · M02
 
-Комплексно рассмотрены ещё6блоков S1-04…S1-06, всего12/96; M01 принято6, M02: браузер PENDING,84и сквозной проход впереди. Прочитано/визуально осмотрено94/557страниц с отдельными оговорками. QUALITY_STATUS.md и QUALITY_M02_REVIEW.md — текущая сводка и пределы.
+Комплексно рассмотрены ещё6блоков S1-04…S1-06, всего12/96; M01/M02 принято12, браузер PASS,84и сквозной проход впереди. Прочитано/визуально осмотрено94/557страниц с отдельными оговорками. QUALITY_STATUS.md и QUALITY_M02_REVIEW.md — текущая сводка и пределы.
 
-Выпуск92формулы(84прежние сохранены),464термина,16дополнительных концептуальных проверок. RawBANK275/19,309назначений/подготовка и5.0.8 сохранены. Q14/Q16в эффективном слое, старые оценки в истории. QA-018/Q07 для M03 открыт. Восемь локальных проверок PASS; новый браузер/публикация PENDING. Последний VERIFIED JSON —5.0.28. Далее M03 автономно после проверкиM02, T-06 исключена, D-012 действует.
+Выпуск92формулы(84прежние сохранены),464термина,16дополнительных концептуальных проверок. RawBANK275/19,309назначений/подготовка и5.0.8 сохранены. Q14/Q16в эффективном слое, старые оценки в истории. QA-018/Q07 для M03 открыт. Восемь локальных проверок PASS; браузер, CI/Pages PASS и live MATCH. Последний VERIFIED JSON —5.0.29. Далее M03 автономно после проверкиM02, T-06 исключена, D-012 действует.
 
 ## Предыдущая подтверждённая основа
 
@@ -45,3 +45,9 @@ T-02 DONE96/96, T-12 дедупликация DONE в прежнем объём�
 [PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Продуктовый commit `0108a6e429c5f56be008da7766f6067d572f35a6`. Live MATCH: index `2a72b21f28b535962511b2dd43e58657a2f03e4a`, question-review.js `aab1a7dc68eaa834ab8c94217170a8dd5cffd684`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
 M01 принят6/96 с описанными ограничениями; общий аудит IN_PROGRESS. Следующий M02(S1-04…S1-06: долговые инструменты, секьюритизация, цена/доходность) без новой команды.
+
+## Подтверждение 5.0.29
+
+[PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+M01/M02 принято12/96 с пределами, полный аудит IN_PROGRESS. Следующий M03 автономно.

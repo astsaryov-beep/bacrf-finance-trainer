@@ -85,3 +85,7 @@ M01:6/96 рассмотрены, RELEASE_PENDING; остальные90и скв�
 ## Комплексный M02 · CP032
 
 Рассмотрены12/96(M01 принято6,M02RELEASE_PENDING),94страницы,84блока и сквозной проход открыты. Новые рубрикиQ14/Q16, QA-018/Q07 для M03. Следующий шаг — проверить/выпуститьM02, затемM03автономно. T-06 исключена.
+
+## CP033 · M02 VERIFIED
+
+5.0.29 опубликована и подтверждена, M01/M02 принято12/96 с пределами. [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`. Остальные84и сквозная приёмка открыты. Продолжать M03 автономно.

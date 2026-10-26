@@ -1,3 +1,11 @@
+# 5.0.29 beta · VERIFIED · CP-20261026-033
+
+[PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+M01/M02 принято12/96 с пределами. Восемь локальных программ, три браузерные программы и настоящий экспорт/импорт истории PASS; полный аудит остаётся IN_PROGRESS,84блока и сквозной проход впереди. Историческая подготовка ниже сохраняет прежние статусы.
+
+---
+
 # QA ·5.0.29 beta · RELEASE_PENDING
 
 К прежним семи программам добавлена quality-m02-check: независимые PV/даты/конвенции/веса дней, пределыYTW, миграцияQ14/Q16. Браузер проверяет новые объяснения и3/7формул S1-06. Локальные проверки PASS; браузер/CI/Pages/live PENDING.
