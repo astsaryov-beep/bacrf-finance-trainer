@@ -13,11 +13,19 @@ try{
  for(const row of rows){
   await page.evaluate(id=>goStudyLesson(id.slice(0,-2),Number(id.at(-1))),row.id);
   await page.locator('#v5FullBtn').click();
+  const expected=await page.evaluate(id=>({mechanism:STUDY_MASTER[id].mechanism[0],application:STUDY_MASTER[id].application[0],facts:STUDY_MASTER[id].summary.facts}),row.id);
+  const plain=s=>s.replace(/\*\*/g,'').replace(/\s+/g,' ').trim();
+  for(const [field,selector] of [['mechanism','#v5-level-2'],['application','#v5-level-3']]){
+   assert.ok(plain(await page.locator(selector).textContent()).includes(plain(expected[field])),'canonical '+field+' unavailable '+row.id);
+  }
   const cue=page.locator('.v5-practice-cue');
   assert.ok((await cue.textContent()).includes(row.question),'question inaccessible '+row.id);
   assert.equal(await cue.locator('details[open]').count(),0,'answer must start closed '+row.id);
   await cue.locator('summary').click();
   assert.ok((await cue.locator('details').textContent()).includes(row.answer),'answer differs '+row.id);
+  await page.locator('#v5BriefBtn').click();
+  const brief=plain(await page.locator('.v5-digest').textContent());
+  for(const fact of expected.facts)assert.ok(brief.includes(plain(fact)),'digest fact unavailable '+row.id);
  }
  // The effective editorial key is used in both the catalogue and actual grading.
  await page.evaluate(()=>{tab='catalog';catalogTerm='Что означает IPO для компании?';render()});
@@ -68,6 +76,6 @@ try{
  await page.waitForFunction(()=>document.querySelector('#toast').textContent.includes('импортированы'));
  assert.equal(await page.evaluate(()=>session.ids[0]),first);
  assert.deepEqual(errors,[],'uncaught runtime errors');
- console.log('PASS learning browser: 96 disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.');
+ console.log('PASS learning browser: 96 canonical mechanisms/examples/digests and disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.');
 }catch(e){await page.screenshot({path:resolve(root,'test-artifacts','learning-review-failure.png'),fullPage:false}).catch(()=>{});throw e}
 finally{await browser.close()}
