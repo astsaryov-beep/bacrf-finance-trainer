@@ -71,8 +71,9 @@
         "S1-09-0",
         "S1-09-1"
       ],
-      "status": "PENDING",
-      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger."
+      "status": "IN_PROGRESS",
+      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
+      "evidence": "QUALITY_M03_REVIEW.md"
     },
     {
       "id": "M04",
@@ -635,7 +636,7 @@
         "V2-023",
         "V2-031"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -644,7 +645,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-07-1",
@@ -658,7 +661,7 @@
         "BO03",
         "V2-032"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -667,7 +670,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-08-0",
@@ -681,7 +686,7 @@
         "BM20",
         "V2-024"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -690,7 +695,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-08-1",
@@ -702,7 +709,7 @@
         "BO05",
         "V2-027"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -711,7 +718,9 @@
       "examNotes": "PENDING",
       "consistency": "PENDING",
       "issues": [],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-09-0",
@@ -726,7 +735,7 @@
         "V2-022",
         "V2-033"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -740,7 +749,8 @@
       ],
       "evidence": [
         "TEACHER_TEST_REVIEW.json",
-        "QUALITY_M01_REVIEW.md: targeted Q13 correction only"
+        "QUALITY_M01_REVIEW.md: targeted Q13 correction only",
+        "QUALITY_M03_REVIEW.md"
       ]
     },
     {
@@ -752,7 +762,7 @@
         "Q07",
         "BM15"
       ],
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "PENDING",
       "accuracy": "PENDING",
@@ -763,7 +773,9 @@
       "issues": [
         "QA-018"
       ],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-10-0",
@@ -8641,12 +8653,13 @@
         "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8657,12 +8670,13 @@
         "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8673,12 +8687,13 @@
         "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8689,12 +8704,13 @@
         "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8792,12 +8808,13 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8807,12 +8824,13 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8822,12 +8840,13 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8837,12 +8856,13 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8852,12 +8872,13 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8867,12 +8888,13 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8882,12 +8904,13 @@
       "candidateBlocks": [
         "S1-07-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8897,12 +8920,13 @@
       "candidateBlocks": [
         "S1-07-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8912,12 +8936,13 @@
       "candidateBlocks": [
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8927,12 +8952,13 @@
       "candidateBlocks": [
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8942,12 +8968,13 @@
       "candidateBlocks": [
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8957,10 +8984,10 @@
       "candidateBlocks": [
         "S1-09-0"
       ],
-      "mappingStatus": "REVIEWED_TARGETED",
+      "mappingStatus": "REVIEWED_CANDIDATES",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [
         {
           "blocks": [
@@ -8970,7 +8997,7 @@
         }
       ],
       "issues": [],
-      "note": "Сопоставимость G-spread; диаграмма/исторические рейтинги не приняты как текущие рыночные данные."
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8980,12 +9007,13 @@
       "candidateBlocks": [
         "S1-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -8995,12 +9023,13 @@
       "candidateBlocks": [
         "S1-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9011,12 +9040,13 @@
         "S1-08-1",
         "S1-09-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9027,12 +9057,13 @@
         "S1-09-0",
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9042,10 +9073,10 @@
       "candidateBlocks": [
         "S1-09-0"
       ],
-      "mappingStatus": "REVIEWED_TARGETED",
+      "mappingStatus": "REVIEWED_CANDIDATES",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [
         {
           "blocks": [
@@ -9055,7 +9086,7 @@
         }
       ],
       "issues": [],
-      "note": "Рейтинг не единственный анализ; конкретные рейтинги компаний и универсальное правило наихудшего рейтинга требуют отдельной проверки M03."
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9065,10 +9096,10 @@
       "candidateBlocks": [
         "S1-09-0"
       ],
-      "mappingStatus": "REVIEWED_TARGETED",
+      "mappingStatus": "REVIEWED_CANDIDATES",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [
         {
           "blocks": [
@@ -9078,7 +9109,7 @@
         }
       ],
       "issues": [],
-      "note": "Источник коэффициентов Q13; рыночные цифры среза не объявлены текущими."
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9088,10 +9119,10 @@
       "candidateBlocks": [
         "S1-09-0"
       ],
-      "mappingStatus": "REVIEWED_TARGETED",
+      "mappingStatus": "REVIEWED_CANDIDATES",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [
         {
           "blocks": [
@@ -9101,7 +9132,7 @@
         }
       ],
       "issues": [],
-      "note": "Эшелоны условны; числовые диапазоны не универсальные ставки."
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9111,10 +9142,10 @@
       "candidateBlocks": [
         "S1-09-0"
       ],
-      "mappingStatus": "REVIEWED_TARGETED",
+      "mappingStatus": "REVIEWED_CANDIDATES",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [
         {
           "blocks": [
@@ -9124,7 +9155,7 @@
         }
       ],
       "issues": [],
-      "note": "График 5,5–14% несовместим с соседним рыночным срезом; пример с 11,5% не скопирован как текущий."
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9294,12 +9325,13 @@
       "textPresent": true,
       "headingCandidate": "Рыночный риск. Процентный риск — понятие. Процентный риск представляет собой риск возникновения убытков и (или) снижения величины собственных средств ",
       "candidateBlocks": [],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9309,12 +9341,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9324,12 +9357,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9339,12 +9373,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9354,12 +9389,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9369,12 +9405,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9384,12 +9421,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9399,12 +9437,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9414,12 +9453,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9429,12 +9469,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9444,12 +9485,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9459,12 +9501,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9474,12 +9517,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9489,12 +9533,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9504,12 +9549,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9519,12 +9565,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9534,12 +9581,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9549,12 +9597,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9564,12 +9613,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9579,12 +9629,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -9594,12 +9645,13 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
+      "mappingStatus": "REVIEWED_CANDIDATES",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CONTENT_COMPARISON_IN_PROGRESS",
       "units": [],
-      "issues": []
+      "issues": [],
+      "note": "Полный текст и изображение просмотрены; исправления/предметная приёмка M03 ещё не завершены. QUALITY_M03_REVIEW.md."
     },
     {
       "document": "S1",
@@ -11908,7 +11960,7 @@
     }
   ],
   "inspectionCounts": {
-    "textAndVisualThisAudit": 94,
+    "textAndVisualThisAudit": 134,
     "moduleBlocksReviewedPendingBrowser": 0,
     "moduleBlocksAccepted": 12,
     "remainingModuleBlocks": 84

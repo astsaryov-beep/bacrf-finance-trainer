@@ -16,3 +16,7 @@
 Следующий модуль M03: S1-07…S1-09, дюрация/выпуклость, индексы, РЕПО и кредитный анализ/рейтинги. Продолжать автономно; новая команда для каждого пакета не требуется.
 
 [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+## Текущая работа M03
+
+134/557страницы прочитаны и визуально просмотрены (40новых); принято12/96, следующие6IN_PROGRESS. Выявлено расхождение версий рейтинговой методики и недостающие понятия/формулы, исправления ещё не завершены. Ключевые границы QUALITY_M03_REVIEW.md.

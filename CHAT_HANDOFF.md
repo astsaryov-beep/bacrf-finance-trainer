@@ -1,3 +1,8 @@
+# CP-20261026-034 · M03 IN_PROGRESS
+
+Основа5.0.29 VERIFIED, последний продукт8133aa25b73bfdf9b7e7fcd91df6276c341acd91, документыPR43MERGED d28009d98a021d69fa2c8fd8c92558dcc8ecde4e. Веткаaudit/quality-m03-20261026. Прочитаны шесть блоков и45страниц S1(92–95,100–119,132–152),40новых; все изображения просмотрены. Общийосмотр134страницы, принято12/96, M03ещёнепринят. РеестрQA018/023–029; QUALITY_M03_REVIEW.md. Подтверждены ошибки изображения формулы/чисел и расхождение старой/2026методикиНКР. КодM03пока не менялся. Далее единая правка содержания/критерияQ07, независимые расчёты/CI; T-06исключена, экзаменационныйотборне менять.
+
+
 # CP-20261026-033 · 5.0.29 VERIFIED · комплексный аудит12/96
 
 [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
