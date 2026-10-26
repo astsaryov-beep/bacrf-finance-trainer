@@ -48,8 +48,13 @@
         "S1-06-0",
         "S1-06-1"
       ],
-      "status": "PENDING",
-      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger."
+      "status": "REVIEWED_PENDING_BROWSER",
+      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
+      "evidence": "QUALITY_M02_REVIEW.md",
+      "limits": [
+        "Source dated fees/yields/historical time series not reconstructed.",
+        "Legal/tax subclaims and case litigation/recovery numbers not certified; not imported as universal course facts."
+      ]
     },
     {
       "id": "M03",
@@ -453,21 +458,28 @@
       "id": "S1-04-0",
       "title": "Разновидности долговых инструментов",
       "module": "M02",
-      "declaredSlides": "48–64",
+      "declaredSlides": "48–64,81–83",
       "questions": [
         "LQ02",
         "LQ17"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-013",
+        "QA-019",
+        "QA-021",
+        "QA-022"
+      ],
+      "evidence": [
+        "QUALITY_M02_REVIEW.md"
+      ]
     },
     {
       "id": "S1-04-1",
@@ -481,22 +493,27 @@
         "BO08",
         "V2-025"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-014",
+        "QA-020"
+      ],
+      "evidence": [
+        "QUALITY_M02_REVIEW.md"
+      ]
     },
     {
       "id": "S1-05-0",
       "title": "Участники и движение денежных потоков",
       "module": "M02",
-      "declaredSlides": "77–78",
+      "declaredSlides": "77–80",
       "questions": [
         "BM17",
         "BM18",
@@ -505,16 +522,21 @@
         "BM19",
         "V2-026"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-015",
+        "QA-021"
+      ],
+      "evidence": [
+        "QUALITY_M02_REVIEW.md"
+      ]
     },
     {
       "id": "S1-05-1",
@@ -527,42 +549,51 @@
         "BO04",
         "V2-035"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-015",
+        "QA-020"
+      ],
+      "evidence": [
+        "QUALITY_M02_REVIEW.md"
+      ]
     },
     {
       "id": "S1-06-0",
       "title": "Чистая, грязная цена и НКД",
       "module": "M02",
-      "declaredSlides": "84–99",
+      "declaredSlides": "96",
       "questions": [
         "BM03",
         "V2-030"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-016"
+      ],
+      "evidence": [
+        "QUALITY_M02_REVIEW.md"
+      ]
     },
     {
       "id": "S1-06-1",
       "title": "Купон, доходность к погашению и реинвестирование",
       "module": "M02",
-      "declaredSlides": "96–99",
+      "declaredSlides": "97–99",
       "questions": [
         "BM02",
         "BM01",
@@ -572,16 +603,21 @@
         "V2-019",
         "V2-036"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-016",
+        "QA-017"
+      ],
+      "evidence": [
+        "QUALITY_M02_REVIEW.md"
+      ]
     },
     {
       "id": "S1-07-0",
@@ -724,7 +760,9 @@
       "practice": "PENDING",
       "examNotes": "PENDING",
       "consistency": "PENDING",
-      "issues": [],
+      "issues": [
+        "QA-018"
+      ],
       "evidence": []
     },
     {
@@ -7682,11 +7720,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7697,11 +7742,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7712,11 +7764,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7727,11 +7786,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7742,11 +7808,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7757,11 +7830,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7772,11 +7852,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7787,11 +7874,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7802,11 +7896,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7817,11 +7918,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7832,11 +7940,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7847,11 +7962,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7862,11 +7984,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7877,11 +8006,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7892,11 +8028,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7907,11 +8050,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7922,11 +8072,18 @@
       "candidateBlocks": [
         "S1-04-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7937,11 +8094,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7952,11 +8116,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7967,11 +8138,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7982,11 +8160,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -7997,11 +8182,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8012,11 +8204,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8027,11 +8226,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8042,11 +8248,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8057,11 +8270,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8072,11 +8292,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8087,11 +8314,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8102,11 +8336,18 @@
       "candidateBlocks": [
         "S1-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8117,11 +8358,18 @@
       "candidateBlocks": [
         "S1-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-05-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8133,11 +8381,19 @@
         "S1-05-0",
         "S1-05-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-05-0",
+            "S1-05-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8146,13 +8402,20 @@
       "textPresent": true,
       "headingCandidate": "Кейс «Мосрегионлифт vs СФО РЛО»: корпоративные vs секьюритизированные облигации Ключевой исследовательский парадокс кейса для анализа на семинаре: Оди",
       "candidateBlocks": [
-        "S1-05-1"
+        "S1-05-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-05-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8161,13 +8424,22 @@
       "textPresent": true,
       "headingCandidate": "Кейс «Мосрегионлифт vs СФО РЛО»: корпоративные vs секьюритизированные облигации 1. Сравнительный анализ: почему секьюритизация устояла? Декомпозиция и",
       "candidateBlocks": [
+        "S1-05-0",
         "S1-05-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-05-0",
+            "S1-05-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8175,12 +8447,21 @@
       "pdfPage": 81,
       "textPresent": true,
       "headingCandidate": "Еврооблигации – организация выпуска Основные характерные особенности еврооблигаций: - Выпускаются в валюте, отличной от валюты страны нахождения Заемщ",
-      "candidateBlocks": [],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "candidateBlocks": [
+        "S1-04-0"
+      ],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8188,12 +8469,21 @@
       "pdfPage": 82,
       "textPresent": true,
       "headingCandidate": "Замещающие облигации Замещающие облигации — это локальные, выпущенные по российскому праву и обращающиеся внутри российской инфраструктуры облигации, ",
-      "candidateBlocks": [],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "candidateBlocks": [
+        "S1-04-0"
+      ],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8201,12 +8491,25 @@
       "pdfPage": 83,
       "textPresent": true,
       "headingCandidate": "Инфраструктура и Нормативно-правовая база рынка облигаций РФ Основная законодательная и нормативная Элементы инфраструктуры база Эмитент — принимает о",
-      "candidateBlocks": [],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "candidateBlocks": [
+        "S1-04-0",
+        "R-01-1",
+        "R-02-1"
+      ],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-04-0",
+            "R-01-1",
+            "R-02-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8399,14 +8702,20 @@
       "textPresent": true,
       "headingCandidate": "Накопленный купонный доход Накопленный купонный доход (НКД, Accrued Interest) - величина, измеряемая в денежных единицах, и характеризующая ту часть к",
       "candidateBlocks": [
-        "S1-06-0",
-        "S1-06-1"
+        "S1-06-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-06-0"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8415,14 +8724,20 @@
       "textPresent": true,
       "headingCandidate": "Доходность облигации. Ставки сложных процентов (1/2) Компаунд-ставки называют также Доходность YTM вычисляется из уравнения: внутренней нормой доходно",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-06-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-06-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8431,14 +8746,20 @@
       "textPresent": true,
       "headingCandidate": "Доходность облигации. Ставки сложных процентов (2/2) Эффективная доходность – доходность, рассчитанная с учетом дисконтирования платежей на годовом ба",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-06-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-06-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -8447,14 +8768,20 @@
       "textPresent": true,
       "headingCandidate": "Пример облигации: БалтЛизП19 (RU000A10CC32) (RU000A10CC32) Параметр Значение Эмитент ООО «Балтийский лизинг» ISIN / тикер RU000A10CC32 решение: Номина",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-06-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-06-1"
+          ],
+          "disposition": "Смысловые единицы/исправления и непроверенные детали перечислены в QUALITY_M02_REVIEW.md; не независимое подтверждение каждого утверждения."
+        }
+      ],
       "issues": []
     },
     {
@@ -11581,10 +11908,10 @@
     }
   ],
   "inspectionCounts": {
-    "textAndVisualThisAudit": 54,
-    "moduleBlocksReviewedPendingBrowser": 0,
+    "textAndVisualThisAudit": 94,
+    "moduleBlocksReviewedPendingBrowser": 6,
     "moduleBlocksAccepted": 6,
-    "remainingModuleBlocks": 90
+    "remainingModuleBlocks": 84
   },
   "verification": {
     "version": "5.0.28 beta",
@@ -11594,5 +11921,6 @@
     "mainCI": 40319001440,
     "pages": 40319001017,
     "live": "MATCH"
-  }
+  },
+  "workingVersion": "5.0.29 beta"
 }

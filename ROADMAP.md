@@ -81,3 +81,7 @@ M01:6/96 рассмотрены, RELEASE_PENDING; остальные90и скв�
 ## Подтверждение CP-20261026-031
 
 5.0.28 VERIFIED, M01 принято6/96 с пределами проверки. [PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Остальные90и сквозная приёмка открыты. Далее M02 автономно, T-06 не начинать.
+
+## Комплексный M02 · CP032
+
+Рассмотрены12/96(M01 принято6,M02RELEASE_PENDING),94страницы,84блока и сквозной проход открыты. Новые рубрикиQ14/Q16, QA-018/Q07 для M03. Следующий шаг — проверить/выпуститьM02, затемM03автономно. T-06 исключена.

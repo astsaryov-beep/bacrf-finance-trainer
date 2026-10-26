@@ -161,7 +161,8 @@
       "blocks": [
         "S1-04-1"
       ],
-      "status": "SEMANTIC_MATCH"
+      "status": "SEMANTIC_MATCH",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
     },
     {
       "sourceNumber": 15,
@@ -181,7 +182,8 @@
       "blocks": [
         "S1-05-1"
       ],
-      "status": "SEMANTIC_MATCH_WITH_EXTRA_RUBRIC"
+      "status": "SEMANTIC_MATCH_WITH_EXTRA_RUBRIC",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
     },
     {
       "sourceNumber": 17,
@@ -191,7 +193,8 @@
       "blocks": [
         "S1-09-1"
       ],
-      "status": "SEMANTIC_MATCH_REVERSE_CASE_REQUIRED"
+      "status": "SEMANTIC_MATCH_REVERSE_CASE_REQUIRED",
+      "followup": "QA-018 / M03: rubric must explicitly check the reverse case."
     },
     {
       "sourceNumber": 18,

@@ -27,6 +27,8 @@ jobs:
         run: node tests/methodical-review-check.mjs
       - name: Verify teacher answer alignment and historical rubric migration
         run: node tests/teacher-review-check.mjs
+      - name: Verify bond cash flows and source-gap corrections
+        run: node tests/quality-m02-check.mjs
       - name: Verify conceptual learning and corrected answer keys
         run: node tests/learning-review-check.mjs
       - name: Verify fixed income strategy mathematics

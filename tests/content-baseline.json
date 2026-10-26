@@ -108,6 +108,24 @@
         "Покрытие процентных расходов (ICR)"
       ],
       "reason": "QA-001, teacher test question10 and S1 PDF117–119, original84 unchanged"
+    },
+    {
+      "block": "S1-06-0",
+      "titles": [
+        "НКД при простом ежедневном начислении"
+      ],
+      "reason": "M02 source96–98, units/conditions and independent examples; original84 unchanged"
+    },
+    {
+      "block": "S1-06-1",
+      "titles": [
+        "Текущая купонная доходность",
+        "Приближённая простая доходность до погашения",
+        "Годовая эффективная и номинальная ставки",
+        "Доходность до put или call",
+        "Yield to Worst: сравнение договорных сценариев"
+      ],
+      "reason": "M02 source96–98, units/conditions and independent examples; original84 unchanged"
     }
   ]
 }
