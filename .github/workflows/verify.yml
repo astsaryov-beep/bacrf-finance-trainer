@@ -37,6 +37,8 @@ jobs:
         run: node tests/quality-m05-check.mjs
       - name: Verify M06 risk models and earlier M04 prerequisites
         run: node tests/quality-m06-check.mjs
+      - name: Verify M07 option profiles and structured cash flows
+        run: node tests/quality-m07-check.mjs
       - name: Verify multi-select exam and prior learning evidence
         run: node tests/exam-practice-check.mjs
       - name: Verify conceptual learning and corrected answer keys

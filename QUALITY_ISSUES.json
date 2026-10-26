@@ -510,5 +510,53 @@
     "area": "M04 Q09 early prerequisites",
     "finding": "Купонная арифметика присутствовала, но три направленных потока и сохраняющийся кредитный риск не были достаточно явно собраны до Q09.",
     "resolution": "QUALITY_M06_REVIEW.md/CP059:13 local and7 browser programs PASS;PR51/mainCI/Pages SUCCESS;live4files MATCH. Нормативные/исторические пределы сохранены."
+  },
+  {
+    "id": "QA-060",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M07 early IV/time prerequisites",
+    "finding": "PM13/LQ07/V2-064 требовали влияниеIV/времени до подробного следующего блока.",
+    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+  },
+  {
+    "id": "QA-061",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M07 strategy diagrams",
+    "finding": "Названия/ноги/пределы слайдов89–91 местами несовместимы; нельзя копировать неограниченностьput на неотрицательнуюакцию.",
+    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+  },
+  {
+    "id": "QA-062",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M07 pricing and Greeks",
+    "finding": "Слайды универсализируютTV≥0/Theta<0/Gamma⇒Theta и смешивают единицы,паритет/полностьюоплаченнуюакцию.",
+    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+  },
+  {
+    "id": "QA-063",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M07 structured promises",
+    "finding": "Условныйкупон/память/автоколл/защита имеютотдельныеусловия;экономическаярепликациянепередаётправаи непогашаетэмитентскийриск.",
+    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+  },
+  {
+    "id": "QA-064",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M07 gold accounting",
+    "finding": "Источник129теряетГО/допускаетдвойнуюVM,130универсализируетпреимуществоfunding;118контрактовдают1003000экспозиции.",
+    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+  },
+  {
+    "id": "QA-065",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "PO08 and distractors",
+    "finding": "PO08требовалобязательныйнаборрисков,несоответствующийлюбомупродукту;неверныевариантыавторскихsingleимеюточевидныеподарки.",
+    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
   }
 ]

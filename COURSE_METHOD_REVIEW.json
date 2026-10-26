@@ -529,85 +529,85 @@
     "id": "S2-09-0",
     "title": "Право и обязательство, payoff",
     "status": "REVIEWED",
-    "decision": "На примере различены положительная выплата, безубыточность и прибыль; уточнены денежное и поставочное исполнение и последующий риск базового актива.",
-    "fingerprint": "0a534ae96f385d63a9f054a5f49d6a8263005a505046085afdf16f5d29f1f988",
+    "decision": "M07: естественная русская запись чисел, терминов и единиц; смысл и защищённые формулы сохранены.",
+    "fingerprint": "0ab015803a17fe49634d281d9c8d4e6c14255934fe760e40779917a81821755b",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
-      "application",
-      "advanced"
+      "mechanism",
+      "advanced",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M07_REVIEW.md"
   },
   {
     "id": "S2-09-1",
     "title": "Вертикальные спреды и волатильность",
     "status": "REVIEWED",
-    "decision": "Вертикальный call-спред принят после проверки областей цены и чистой премии. Во вводной устранено смешение разных сроков; принципы и углубление посвящены именно двум согласованным ногам.",
-    "fingerprint": "147ce33ae1b95c87948bf5d43e201f13cb0247796d3037735f221e9ce19d6447",
+    "decision": "M07: естественная русская запись чисел, терминов и единиц; смысл и защищённые формулы сохранены.",
+    "fingerprint": "2034a1e82f293ab835d9f582541a4b46b3bc20f5b4cf80c00da2c22c520aa1a1",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
-      "principles",
-      "advanced"
+      "mechanism",
+      "advanced",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "QUALITY_M07_REVIEW.md"
   },
   {
     "id": "S2-10-0",
     "title": "Временная стоимость и оценка",
     "status": "REVIEWED",
-    "decision": "Указаны входы и идеализации модели оценки, обратный смысл IV и пределы разложения премии. Европейское исполнение отделено от немедленной внутренней стоимости.",
-    "fingerprint": "43a9fe0dcec0e55f5ac09846d5758a618820233cd61fc78f9349cacef12f241d",
+    "decision": "M07: естественная русская запись чисел, терминов и единиц; смысл и защищённые формулы сохранены.",
+    "fingerprint": "d09c07550801db9784207d2a1c2e27a328fe1ada9cd92a90cbe5e427f2baf6f8",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
-      "advanced"
+      "mechanism",
+      "advanced",
+      "extraChecks"
     ],
-    "sourceCheck": "OIC https://www.optionseducation.org/optionsoverview/options-pricing; Parameswaran (2023), European Options and Fixed Cost Spreads, https://www.scirp.net/journal/paperinformation?paperid=125727 — частный случай отрицательной разности европейского put и немедленной внутренней стоимости. Это углубление, не новый экзаменационный расчёт."
+    "sourceCheck": "QUALITY_M07_REVIEW.md"
   },
   {
     "id": "S2-10-1",
     "title": "Delta, Gamma, Vega, Theta и риск хеджа",
     "status": "REVIEWED",
-    "decision": "Греки объяснены через единицы и портфельный множитель. Пример показывает построение локального delta-хеджа, а Vega и Theta требуют явной конвенции. Редакционно нормализованы пробелы в числах и предложениях.",
-    "fingerprint": "f2adbe2690df4bd323f9d0128cd2988250f73ecf649ad5c4691d83a4004a8870",
+    "decision": "M07: естественная русская запись чисел, терминов и единиц; смысл и защищённые формулы сохранены.",
+    "fingerprint": "b24b964adab297b4f207eacb3a3646097493be5ef8a24475ceab884f53e4cb0e",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "advanced"
+      "mechanism",
+      "advanced",
+      "extraChecks"
     ],
-    "sourceCheck": "OIC https://www.optionseducation.org/advancedconcepts/volatility-the-greeks и https://www.optionseducation.org/advancedconcepts/vega, проверено 26.10.2026: рыночная Vega часто задаётся на 1 процентный пункт IV, Theta — на один день. Конвенция конкретного расчёта приоритетна."
+    "sourceCheck": "QUALITY_M07_REVIEW.md"
   },
   {
     "id": "S2-11-0",
     "title": "Как строится структурный продукт",
     "status": "REVIEWED",
-    "decision": "Незаконченный пример заменён тремя сценариями полной номинальной защиты. Раскрыты экономическая репликация и кредитное обязательство эмитента, различены полная, частичная и барьерная защита.",
-    "fingerprint": "5df5b2d1375c32bcc039f79d2d7b423a8b72c2b8ddcebb321b68aeca70717acd",
+    "decision": "M07: естественная русская запись чисел, терминов и единиц; смысл и защищённые формулы сохранены.",
+    "fingerprint": "4021468bba350beb7eca6645ede380688812627abf069877d95031a8f9427eaa",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
       "mechanism",
-      "application",
       "advanced",
-      "glossary"
+      "extraChecks"
     ],
-    "sourceCheck": "Семинар 2, PDF-страницы 116–117: модель номинал + участие в положительном росте. Параметры в курсе условные, самостоятельная редакция. Правовой и полный постраничный аудит остаётся T-01."
+    "sourceCheck": "QUALITY_M07_REVIEW.md"
   },
   {
     "id": "S2-11-1",
     "title": "Autocall, barrier note и пример золота",
     "status": "REVIEWED",
-    "decision": "Autocall, барьер и линейная модель золота разобраны раздельными примерами. Исправлено неполное представление возврата ГО и риск двойного учёта VM из исходного золотого кейса; предположение об универсальном преимуществе исключено.",
-    "fingerprint": "5aed515dbbb0caabeb899cc1af5c3c7494448070a88f768dd1ccfc9328b8ff6f",
+    "decision": "M07: естественная русская запись чисел, терминов и единиц; смысл и защищённые формулы сохранены.",
+    "fingerprint": "c1b7e7cdaa66fc37c116f99040ce052a348dee228b46008e78f95d16d2d5dc3a",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
       "mechanism",
-      "application",
-      "advanced"
+      "advanced",
+      "extraChecks"
     ],
-    "sourceCheck": "Семинар 2, PDF-страницы 124–125 и 127–132 прочитаны; изображения PDF-страниц 128 и 130 осмотрены. Внутренний номер на этих слайдах на 1 меньше PDF-позиции. Суммы ГО и ставки из исторического примера не выдаются за текущие. Полный T-01 не заявляется."
+    "sourceCheck": "QUALITY_M07_REVIEW.md"
   },
   {
     "id": "R-01-0",
