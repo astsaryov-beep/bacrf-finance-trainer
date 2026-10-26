@@ -5,7 +5,7 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "5.0.29 beta",
+  "working_version": "5.0.30 beta",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
@@ -19,6 +19,7 @@
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-26"
 }
+
 ```
 <!-- STATE_JSON_END -->
 
@@ -51,3 +52,27 @@ M01 принят6/96 с описанными ограничениями; общ�
 [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
 M01/M02 принято12/96 с пределами, полный аудит IN_PROGRESS. Следующий M03 автономно.
+
+## Текущий M03 · CP034
+
+Начата комплексная сверка следующих шести блоков;134страницы просмотрены, принято по-прежнему12/96. QUALITY_M03_REVIEW.md/QUALITY_ISSUES.json. Рабочая веткаaudit/quality-m03-20261026, приложение пока5.0.29 без новых кодовых изменений. Далее исправления M03 автономно.
+
+## Техническое ограничение · CP035
+
+Рабочая среда unavailable; T-01/M03 BLOCKED до восстановления среды. Опубликованная5.0.29 VERIFIED сохраняется. Незавершённых кодовых изменений M03 нет; результат источниковой проверки сохранён в рабочей ветке. Подробности CHAT_HANDOFF.md / CP-20261026-035.
+
+## Возобновление · CP036
+
+Среда восстановлена. Фактический main d28009d98a021d69fa2c8fd8c92558dcc8ecde4e, CI40323729833/Pages40323729112 SUCCESS; открытых PR нет. Рабочая ветка audit/quality-m03-resume-20261026 восстановлена из удалённой audit/quality-m03-20261026 (acc2202e). Практика S1-06…S1-09 полностью прочитана, кодовые правки далее. Принято12/96, опубликована5.0.29 VERIFIED.
+
+## M03 · CP037 · RELEASE_PENDING
+
+Рабочая5.0.30 beta: шесть блоков исправлены,104формулы/477терминов/26дополнительных проверок. Принято12/96, ещё6рассмотрены;134страницы осмотрены. Браузер/новыйCI/Pages/live PENDING. Последний VERIFIED вJSON остаётся5.0.29. Подробности QUALITY_M03_REVIEW.md и CHAT_HANDOFF.md.
+
+## PR44 · мобильная регрессия · CP038
+
+Первый browser CI40334188809 FAIL: длинный URL в примечании источника расширял документ. Добавлен перенос для .course-notes; сайт5.0.29 сохраняется, публикация PENDING до зелёного повторного CI.
+
+## CP-20261026-039 · повторный PR CI зелёный, финальное согласование ответа · RELEASE_PENDING
+
+PR CI40334639599 SUCCESS: verify и browser, включая4программы. Мобильная регрессия исправлена. Финальная проверка согласованности показала, что brief Q07 уже полный, а answer для каталога оставался прежним кратким текстом. Эффективный answer синхронизирован с полным brief, добавлена проверка образца в реальной практике; исходный BANK не менялся. Из источниковых примечаний дюрации/индексов удалена не относящаяся к ним ссылка на методику рейтинга; в кредитном разделе она сохранена. После этого небольшого изменения нужен CI нового HEAD. Публикация пока не выполнялась; сайт5.0.29 остаётся VERIFIED.

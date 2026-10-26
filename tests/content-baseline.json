@@ -126,6 +126,48 @@
         "Yield to Worst: сравнение договорных сценариев"
       ],
       "reason": "M02 source96–98, units/conditions and independent examples; original84 unchanged"
+    },
+    {
+      "block": "S1-07-0",
+      "titles": [
+        "Дюрация постоянной бессрочной ренты"
+      ],
+      "reason": "M03: teacher-source gaps; annual conventions, independent examples; original84 retained"
+    },
+    {
+      "block": "S1-07-1",
+      "titles": [
+        "Выпуклость в годовой модели фиксированных потоков"
+      ],
+      "reason": "M03: teacher-source gaps; annual conventions, independent examples; original84 retained"
+    },
+    {
+      "block": "S1-08-0",
+      "titles": [
+        "Учебный ценовой индекс фиксированной корзины",
+        "Учебный коэффициент полной доходности корзины",
+        "Форвардная ставка между двумя сроками"
+      ],
+      "reason": "M03: teacher-source gaps; annual conventions, independent examples; original84 retained"
+    },
+    {
+      "block": "S1-09-0",
+      "titles": [
+        "Z-spread в годовой модели фиксированных выплат"
+      ],
+      "reason": "M03: teacher-source gaps; annual conventions, independent examples; original84 retained"
+    },
+    {
+      "block": "S1-09-1",
+      "titles": [
+        "Средневзвешенная балльная оценка профилей",
+        "Гармоническая агрегация положительных оценок",
+        "LTV холдинга в учебной методике",
+        "CLR: ликвидность холдинга с дополнительным заимствованием",
+        "Денежное покрытие процентов холдинга",
+        "Покрытие совокупных регулярных расходов холдинга"
+      ],
+      "reason": "M03: teacher-source gaps; annual conventions, independent examples; original84 retained"
     }
   ]
 }

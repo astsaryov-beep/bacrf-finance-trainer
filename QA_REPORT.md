@@ -1,3 +1,9 @@
+# 5.0.30 beta · M03 · RELEASE_PENDING
+
+Шесть блоков S1-07…S1-09 исправлены:12новых полных формул,10концептуальных проверок, рейтинговые версии и обе частиQ07. Всего104формулы,477терминов,26дополнительных проверок. Исходные84формулы/275вопросов/19originalID/309назначений иstable5.0.8 сохранены. Принято12/96,ещё6рассмотрены;134/557страницы осмотрены с пределами. QUALITY_M03_REVIEW.md — карта источников, новичковые сценарии, независимые расчёты и ограничения. Девять локальных программ PASS; браузер/PRCI/mainCI/Pages/live нового выпуска PENDING. Опубликованная5.0.29 остаётся последнейVERIFIED.
+
+---
+
 # 5.0.29 beta · VERIFIED · CP-20261026-033
 
 [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
@@ -51,3 +57,11 @@ CI запускает все шесть проверок и прежний deskt
 [PR #38](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/38) MERGED; продуктовый commit `e3dad380e74f56629e4f906dfe1590ceb5b4c082`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40301865821), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216887), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216421).
 
 Live Git blobs: index `6602594dfddb71ae0a55862bc237eed8baacfdd8`, question-review.js `0cdae67810f74e8312b14ff1b81d46cb117a31f3`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519` — MATCH. Все шесть проверок PASS; desktop/mobile smoke и браузерные проверки 96 механизмов/примеров/выжимок, самопроверок и миграции/экспорта PASS.
+
+## PR44 · мобильная регрессия · CP038
+
+Первый browser CI40334188809 FAIL: длинный URL в примечании источника расширял документ. Добавлен перенос для .course-notes; сайт5.0.29 сохраняется, публикация PENDING до зелёного повторного CI.
+
+## CP-20261026-039 · повторный PR CI зелёный, финальное согласование ответа · RELEASE_PENDING
+
+PR CI40334639599 SUCCESS: verify и browser, включая4программы. Мобильная регрессия исправлена. Финальная проверка согласованности показала, что brief Q07 уже полный, а answer для каталога оставался прежним кратким текстом. Эффективный answer синхронизирован с полным brief, добавлена проверка образца в реальной практике; исходный BANK не менялся. Из источниковых примечаний дюрации/индексов удалена не относящаяся к ним ссылка на методику рейтинга; в кредитном разделе она сохранена. После этого небольшого изменения нужен CI нового HEAD. Публикация пока не выполнялась; сайт5.0.29 остаётся VERIFIED.

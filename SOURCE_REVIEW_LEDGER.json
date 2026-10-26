@@ -2492,30 +2492,34 @@
     {
       "document": "S1",
       "page": 92,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 93,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 94,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 95,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
@@ -2552,147 +2556,162 @@
     {
       "document": "S1",
       "page": 100,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 101,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 102,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 103,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 104,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 105,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 106,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 107,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 108,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 109,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 110,
-      "textReview": "TEXT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитан извлечённый текст; уточнены оговорки об индексах. Иллюстрации/исторические ряды отдельно не подтверждены."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 111,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Сопоставимость G-spread; диаграмма/исторические рейтинги не приняты как текущие рыночные данные.",
-      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 112,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 113,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 114,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 115,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 116,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Рейтинг не единственный анализ; конкретные рейтинги компаний и универсальное правило наихудшего рейтинга требуют отдельной проверки M03.",
-      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 117,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Источник коэффициентов Q13; рыночные цифры среза не объявлены текущими.",
-      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 118,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Эшелоны условны; числовые диапазоны не универсальные ставки.",
-      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 119,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "График 5,5–14% несовместим с соседним рыночным срезом; пример с 11,5% не скопирован как текущий.",
-      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
@@ -2781,149 +2800,170 @@
     {
       "document": "S1",
       "page": 132,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 133,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 134,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 135,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 136,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 137,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 138,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 139,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 140,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 141,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 142,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 143,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 144,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 145,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 146,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 147,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 148,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 149,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 150,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 151,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",
       "page": 152,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Текст/изображение прочитаны полностью, сравнение и исправления M03 IN_PROGRESS. Не подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M03"
     },
     {
       "document": "S1",

@@ -71,8 +71,14 @@
         "S1-09-0",
         "S1-09-1"
       ],
-      "status": "PENDING",
-      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger."
+      "status": "REVIEWED_PENDING_BROWSER",
+      "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
+      "evidence": "QUALITY_M03_REVIEW.md",
+      "limits": [
+        "Teacher historical frequencies and dated banking norms not certified as current facts.",
+        "Versioned NKR weights distinguished; only relevant parts of external2026 document inspected.",
+        "Educational index models are not exact official MOEX algorithms; no historical reconstruction claimed."
+      ]
     },
     {
       "id": "M04",
@@ -635,16 +641,20 @@
         "V2-023",
         "V2-031"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-023"
+      ],
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-07-1",
@@ -658,16 +668,20 @@
         "BO03",
         "V2-032"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-023"
+      ],
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-08-0",
@@ -681,43 +695,51 @@
         "BM20",
         "V2-024"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-024"
+      ],
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-08-1",
       "title": "РЕПО как краткосрочное фондирование",
       "module": "M03",
-      "declaredSlides": "112–114",
+      "declaredSlides": "112–113",
       "questions": [
         "BM11",
         "BO05",
         "V2-027"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
-      "issues": [],
-      "evidence": []
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
+      "issues": [
+        "QA-025"
+      ],
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-09-0",
       "title": "Спреды к безрисковой кривой",
       "module": "M03",
-      "declaredSlides": "111; 114–119",
+      "declaredSlides": "111; 114; 117–119; 132–133; 141",
       "questions": [
         "BM14",
         "Q13",
@@ -726,21 +748,21 @@
         "V2-022",
         "V2-033"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
       "issues": [
         "QA-001",
-        "QA-012"
+        "QA-012",
+        "QA-029"
       ],
       "evidence": [
-        "TEACHER_TEST_REVIEW.json",
-        "QUALITY_M01_REVIEW.md: targeted Q13 correction only"
+        "QUALITY_M03_REVIEW.md"
       ]
     },
     {
@@ -752,18 +774,24 @@
         "Q07",
         "BM15"
       ],
-      "status": "PENDING",
+      "status": "REVIEWED_PENDING_BROWSER",
       "priorMethodicalReview": "DONE_5.0.27",
-      "sourceCoverage": "PENDING",
-      "accuracy": "PENDING",
-      "novice": "PENDING",
-      "practice": "PENDING",
-      "examNotes": "PENDING",
-      "consistency": "PENDING",
+      "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
+      "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
+      "novice": "EDITORIAL_SIMULATION_REVIEWED",
+      "practice": "REVIEWED",
+      "examNotes": "REVIEWED_D012_UNCHANGED",
+      "consistency": "REVIEWED_WITH_CROSS_LINKS",
       "issues": [
-        "QA-018"
+        "QA-018",
+        "QA-026",
+        "QA-027",
+        "QA-028",
+        "QA-029"
       ],
-      "evidence": []
+      "evidence": [
+        "QUALITY_M03_REVIEW.md"
+      ]
     },
     {
       "id": "S1-10-0",
@@ -8638,15 +8666,22 @@
       "textPresent": true,
       "headingCandidate": "ИНДЕКСНЫЙ АНАЛИЗ | MOEX BOND INDICES Индексы облигаций Московской биржи: бенчмарки доходности (2/2) Московская биржа: Семейство Индексов облигаций пре",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8654,15 +8689,22 @@
       "textPresent": true,
       "headingCandidate": "ИНДЕКСНЫЙ АНАЛИЗ | MOEX BOND INDICES Индексы облигаций Московской биржи: бенчмарки доходности (1/2) Семейство облигационных индексов • RUGBITR (RGBITR",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8670,15 +8712,22 @@
       "textPresent": true,
       "headingCandidate": "Индексы облигаций Московской биржи (RGBITR / RGBI, RUCPITR): методология и расчет 1. Методологический подход Мосбиржи Индекс чистых цен (Price Index):",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8686,15 +8735,22 @@
       "textPresent": true,
       "headingCandidate": "ДЕНЕЖНЫЙ РЫНОК | ИНДИКАТОРЫ ЛИКВИДНОСТИ Срочная структура ставок денежного рынка: RUSFAR Term & RUONIA Index Линейка срочных индикаторов RUSFAR Срочны",
       "candidateBlocks": [
-        "S1-06-0",
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8792,12 +8848,20 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8807,12 +8871,20 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8822,12 +8894,20 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8837,12 +8917,20 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8852,12 +8940,20 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8867,12 +8963,20 @@
       "candidateBlocks": [
         "S1-07-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8882,12 +8986,20 @@
       "candidateBlocks": [
         "S1-07-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8897,12 +9009,20 @@
       "candidateBlocks": [
         "S1-07-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8912,12 +9032,20 @@
       "candidateBlocks": [
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8927,12 +9055,20 @@
       "candidateBlocks": [
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8942,12 +9078,20 @@
       "candidateBlocks": [
         "S1-08-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8960,17 +9104,17 @@
       "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
       "units": [
         {
           "blocks": [
             "S1-09-0"
           ],
-          "disposition": "Сопоставимость G-spread; диаграмма/исторические рейтинги не приняты как текущие рыночные данные."
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
         }
       ],
       "issues": [],
-      "note": "Сопоставимость G-spread; диаграмма/исторические рейтинги не приняты как текущие рыночные данные."
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8980,12 +9124,20 @@
       "candidateBlocks": [
         "S1-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -8995,12 +9147,20 @@
       "candidateBlocks": [
         "S1-08-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-08-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9008,15 +9168,22 @@
       "textPresent": true,
       "headingCandidate": "АНАЛИЗ ДОХОДНОСТИ | СПРЕДЫ К КБД Кредитные спреды: методология расчета и премия за риск (1/2) Премия за риск (кредитный спред, G-спред) формируется на",
       "candidateBlocks": [
-        "S1-08-1",
         "S1-09-0"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9024,15 +9191,22 @@
       "textPresent": true,
       "headingCandidate": "КРЕДИТНЫЙ РИСК | РЕГУЛИРОВАНИЕ КРА (222-ФЗ) Рейтинги облигаций: национальная рейтинговая индустрия (1/2) Роль рейтинга в сделках DCM: Аккредитованные ",
       "candidateBlocks": [
-        "S1-09-0",
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9040,22 +9214,22 @@
       "textPresent": true,
       "headingCandidate": "КРЕДИТНЫЙ РИСК | РЕГУЛИРОВАНИЕ КРА (222-ФЗ) Национальная рейтинговая шкала и кредитные категории (2/2) Сопоставление шкал агентств АКРА Эксперт РА НКР",
       "candidateBlocks": [
-        "S1-09-0"
+        "S1-09-1"
       ],
       "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
       "units": [
         {
           "blocks": [
-            "S1-09-0"
+            "S1-09-1"
           ],
-          "disposition": "Рейтинг не единственный анализ; конкретные рейтинги компаний и универсальное правило наихудшего рейтинга требуют отдельной проверки M03."
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
         }
       ],
       "issues": [],
-      "note": "Рейтинг не единственный анализ; конкретные рейтинги компаний и универсальное правило наихудшего рейтинга требуют отдельной проверки M03."
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9068,17 +9242,17 @@
       "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
       "units": [
         {
           "blocks": [
             "S1-09-0"
           ],
-          "disposition": "Источник коэффициентов Q13; рыночные цифры среза не объявлены текущими."
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
         }
       ],
       "issues": [],
-      "note": "Источник коэффициентов Q13; рыночные цифры среза не объявлены текущими."
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9091,17 +9265,17 @@
       "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
       "units": [
         {
           "blocks": [
             "S1-09-0"
           ],
-          "disposition": "Эшелоны условны; числовые диапазоны не универсальные ставки."
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
         }
       ],
       "issues": [],
-      "note": "Эшелоны условны; числовые диапазоны не универсальные ставки."
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9114,17 +9288,17 @@
       "mappingStatus": "REVIEWED_TARGETED",
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "coverage": "CROSS_REFERENCE_ONLY",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
       "units": [
         {
           "blocks": [
             "S1-09-0"
           ],
-          "disposition": "График 5,5–14% несовместим с соседним рыночным срезом; пример с 11,5% не скопирован как текущий."
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
         }
       ],
       "issues": [],
-      "note": "График 5,5–14% несовместим с соседним рыночным срезом; пример с 11,5% не скопирован как текущий."
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9293,13 +9467,25 @@
       "pdfPage": 132,
       "textPresent": true,
       "headingCandidate": "Рыночный риск. Процентный риск — понятие. Процентный риск представляет собой риск возникновения убытков и (или) снижения величины собственных средств ",
-      "candidateBlocks": [],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "candidateBlocks": [
+        "S1-07-0",
+        "S1-08-0"
+      ],
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-07-0",
+            "S1-08-0"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9307,14 +9493,24 @@
       "textPresent": true,
       "headingCandidate": "Кредитный риск. Кредитный риск — риск потерь, связанный с дефолтом (неисполнением кредитных обязательств), неблагоприятным изменением кредитного рейти",
       "candidateBlocks": [
+        "S1-09-0",
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-0",
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9324,12 +9520,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9339,12 +9543,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9354,12 +9566,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9369,12 +9589,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9384,12 +9612,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9399,12 +9635,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9414,12 +9658,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9427,14 +9679,24 @@
       "textPresent": true,
       "headingCandidate": "Кредитные рейтинги — факторы определения базовой оценки собственной кредитоспособности (3) 2. Инвестиционный профиль Оценка инвестиционного профиля РЛ",
       "candidateBlocks": [
+        "S1-09-0",
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-0",
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9444,12 +9706,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9459,12 +9729,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9474,12 +9752,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9489,12 +9775,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9504,12 +9798,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9519,12 +9821,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9534,12 +9844,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9549,12 +9867,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9562,14 +9888,26 @@
       "textPresent": true,
       "headingCandidate": "Обязательные нормативы кредитных организаций (Инструкция Банка России № 199-И) Расчет обязательных нормативов банков с универсальной лицензией осущест",
       "candidateBlocks": [
-        "S1-09-1"
+        "S1-09-1",
+        "R-04-0",
+        "R-04-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1",
+            "R-04-0",
+            "R-04-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9579,12 +9917,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -9594,12 +9940,20 @@
       "candidateBlocks": [
         "S1-09-1"
       ],
-      "mappingStatus": "DRAFT_UNVERIFIED",
-      "textReview": "PENDING",
-      "visualReview": "PENDING",
-      "coverage": "PENDING",
-      "units": [],
-      "issues": []
+      "mappingStatus": "REVIEWED_TARGETED",
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "coverage": "CORE_MAPPED_WITH_LIMITS",
+      "units": [
+        {
+          "blocks": [
+            "S1-09-1"
+          ],
+          "disposition": "Ключевые понятия, расчёты, ошибки и непроверенные детали перечислены в QUALITY_M03_REVIEW.md; просмотр не подтверждает каждое датированное утверждение."
+        }
+      ],
+      "issues": [],
+      "note": "M03: полный текст/изображение просмотрены; предметная правка выполнена, браузерная приёмка ещё требуется."
     },
     {
       "document": "S1",
@@ -11908,10 +12262,10 @@
     }
   ],
   "inspectionCounts": {
-    "textAndVisualThisAudit": 94,
-    "moduleBlocksReviewedPendingBrowser": 0,
+    "textAndVisualThisAudit": 134,
+    "moduleBlocksReviewedPendingBrowser": 6,
     "moduleBlocksAccepted": 12,
-    "remainingModuleBlocks": 84
+    "remainingModuleBlocks": 78
   },
   "verification": {
     "version": "5.0.29 beta",
@@ -11922,5 +12276,5 @@
     "pages": 40322560214,
     "live": "MATCH"
   },
-  "workingVersion": "5.0.29 beta"
+  "workingVersion": "5.0.30 beta"
 }

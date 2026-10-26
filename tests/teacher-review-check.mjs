@@ -26,7 +26,7 @@ assert.equal(JSON.parse(once).reviewHistory.Q13.grade.points,3,'history survives
 const a={checked:true,text:originalText,rubric:[0,1,2],score:1,revealed:true};r.migrateCourseAnswer(q('Q13'),a);assert.equal(a.checked,false);assert.equal(a.score,null);assert.equal(a.text,originalText);assert.equal(a.previousReviewResult.score,1);assert.equal(a.needsReviewRecheck,true);
 const aOnce=JSON.stringify(a);r.migrateCourseAnswer(q('Q13'),a);assert.equal(JSON.stringify(a),aOnce);
 const master=parse('STUDY_MASTER'),f=master['S1-09-0'].formulas;
-assert.equal(f.length,3);assert.ok(f.some(x=>x.title.includes('EBITDA')));assert.ok(f.some(x=>x.title.includes('ICR')));
+assert.equal(f.length,4);assert.ok(f.some(x=>x.title.includes('EBITDA')));assert.ok(f.some(x=>x.title.includes('ICR')));
 assert.equal((30-6)/8,3);assert.equal(12/3,4);assert.equal(9/3,3);
 for(const x of f.slice(-2))assert.ok(x.variables.length>=3&&x.meaning.length>40&&x.conditions.length>40&&x.example.length>40);
 const audit=JSON.parse(readFileSync(new URL('../QUALITY_AUDIT.json',import.meta.url),'utf8'));
