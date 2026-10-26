@@ -414,3 +414,11 @@ PR37 MERGED, опубликованный commit153322a2616f2274091088b7f8b05992
 ## CP-20261026-024 · T-02 · 96/96 · RELEASE_PENDING
 
 Подготовлен выпуск 5.0.27 beta, реестр всех 96 решений и полный отчёт. Несогласованность версии исправлена без потерь ранее вычитанного контента. Шесть локальных проверок PASS, расширенная браузерная регрессия/CI/Pages PENDING. Полный T-01 отдельно, T-06 исключён. Следующий шаг — PR, зелёный CI, merge и проверка live.
+
+## CP-20261026-025 · T-02 DONE96/96 · 5.0.27 beta VERIFIED
+
+[PR #38](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/38) MERGED; продуктовый commit `e3dad380e74f56629e4f906dfe1590ceb5b4c082`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40301865821), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216887), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216421).
+
+Live Git blobs: index `6602594dfddb71ae0a55862bc237eed8baacfdd8`, question-review.js `0cdae67810f74e8312b14ff1b81d46cb117a31f3`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519` — MATCH. Все шесть проверок PASS; desktop/mobile smoke и браузерные проверки96механизмов/примеров/выжимок, самопроверок и миграции/экспорта PASS.
+
+Все96блоков методически вычитаны. Полная академическая сверка отдельноT-01 PARTIAL; T-06 исключена. Следующая задачаT-01, beta сохраняется. Исправление версии не откатывало полезный контент.
