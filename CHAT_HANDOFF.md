@@ -1,3 +1,13 @@
+# Текущий подтверждённый результат
+
+## CP-20261026-045 · 5.0.31 beta VERIFIED · M01–M04 принято24/96
+
+[PR #47](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/47) MERGED; продукт `554efacbf0d80a3602a1d76311f28eb122e100bb`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40362988137), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363661338), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363662685). Live MATCH: index `b325350d00336239887ee0f553aac5427c028f51`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+Десять локальных и пять браузерных программ PASS. Приняты6блоков M04 с пределами QUALITY_M04_REVIEW.md: денежный риск/ALM, базис и модельное отклонение, семейства ПФИ/хеджирование, инфраструктура, OI/VM/поставка и согласованные хедж/carry/ролл. Q09проверен без изменения, Q10прежняяэффективнаярубрикасохранена. Исходные84формулы/raw275/19/309назначений/ID/прогресс/frozen5.0.8 сохранены.
+
+Всего110формул,502словарные записи,38дополнительных проверок. Источниковый осмотр183/557с пределами;24/96блока принято,72и сквознойпроходвпереди. Следующий M05: S2-03/S2-04/S2-05, арбитраж ифандинг, валютные риски, РЕПО/КСУ иставки денежного рынка; источники сверять до правки. Продолжать автономно, T-06исключена, D-012действует.
+
 # Текущий пакет M04
 
 ## CP-20261026-044 · M04 рассмотрен и исправлен · RELEASE_PENDING

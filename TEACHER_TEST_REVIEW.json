@@ -173,7 +173,7 @@
         "S2-06-1"
       ],
       "status": "SEMANTIC_MATCH",
-      "integratedM04": "Full effective question/prep checked; Q09 unchanged, Q10 previous one-or-more rule retained; no exam selection changes."
+      "integratedM04": "VERIFIED in M04: Q09 correct without changes; effective Q10 one-or-more criterion preserved; prep/browser aligned; D012 unchanged."
     },
     {
       "sourceNumber": 16,
@@ -229,7 +229,7 @@
       ],
       "status": "RUBRIC_TOO_RESTRICTIVE",
       "correction": "IMPLEMENTED_VERIFIED",
-      "integratedM04": "Full effective question/prep checked; Q09 unchanged, Q10 previous one-or-more rule retained; no exam selection changes."
+      "integratedM04": "VERIFIED in M04: Q09 correct without changes; effective Q10 one-or-more criterion preserved; prep/browser aligned; D012 unchanged."
     }
   ]
 }
