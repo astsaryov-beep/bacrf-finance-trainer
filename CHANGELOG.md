@@ -1,3 +1,9 @@
+# 5.0.30 beta · M03 · RELEASE_PENDING
+
+Шесть блоков S1-07…S1-09 исправлены:12новых полных формул,10концептуальных проверок, рейтинговые версии и обе частиQ07. Всего104формулы,477терминов,26дополнительных проверок. Исходные84формулы/275вопросов/19originalID/309назначений иstable5.0.8 сохранены. Принято12/96,ещё6рассмотрены;134/557страницы осмотрены с пределами. QUALITY_M03_REVIEW.md — карта источников, новичковые сценарии, независимые расчёты и ограничения. Девять локальных программ PASS; браузер/PRCI/mainCI/Pages/live нового выпуска PENDING. Опубликованная5.0.29 остаётся последнейVERIFIED.
+
+---
+
 # 5.0.29 beta · VERIFIED · CP-20261026-033
 
 [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.

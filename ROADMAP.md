@@ -89,3 +89,7 @@ M01:6/96 рассмотрены, RELEASE_PENDING; остальные90и скв�
 ## CP033 · M02 VERIFIED
 
 5.0.29 опубликована и подтверждена, M01/M02 принято12/96 с пределами. [PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`. Остальные84и сквозная приёмка открыты. Продолжать M03 автономно.
+
+## T-01/T-14/T-15/T-16 · M03 · CP037
+
+Шесть блоков S1-07…S1-09 согласованно исправлены в5.0.30 beta, статус RELEASE_PENDING. Полнота источников/точность/новичок/практика/экзамен/повторы совмещены; карта и границы QUALITY_M03_REVIEW.md. Принято12/96,6рассмотрены,78и финальный проход впереди. T-06 исключена, D-012 действует.

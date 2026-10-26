@@ -164,49 +164,98 @@
   {
     "id": "S1-07-0",
     "title": "Дюрация Маколея, модифицированная, DV01",
-    "status": "INHERITED_REVIEW",
-    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
-    "fingerprint": "5755fc2a2c5e2107533389857ecfdb306340269a17fef0593c05e6708082cf9a"
+    "status": "REVIEWED",
+    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
+    "fingerprint": "e34dff98acae4134c335f431520111b38c2e05f7e353c4c5d8d6e5ee5b714171",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "advanced",
+      "extraChecks",
+      "glossary",
+      "formulas"
+    ],
+    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
   },
   {
     "id": "S1-07-1",
     "title": "Выпуклость и ограничения линейной оценки",
-    "status": "INHERITED_REVIEW",
-    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
-    "fingerprint": "6bdfd55f7f5016ba83636638e2cb248c6097e4aa1fbf9fbe004b09e9a3b2775b"
+    "status": "REVIEWED",
+    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
+    "fingerprint": "2bb9453b7e4f55dafb94e5a63298664168e0704451d06603601b151b66f372be",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "advanced",
+      "extraChecks",
+      "glossary",
+      "formulas"
+    ],
+    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
   },
   {
     "id": "S1-08-0",
     "title": "RGBI, RGBITR и кривая бескупонной доходности",
-    "status": "INHERITED_REVIEW",
-    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
-    "fingerprint": "393c002c4585a21805f814d75ddd34f843e8369e88ab215d90a12760b5b1e0d5"
+    "status": "REVIEWED",
+    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
+    "fingerprint": "e96798509926944fa5826c67549093ab7234888710b1e0434e300796d601b6db",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "advanced",
+      "extraChecks",
+      "glossary",
+      "formulas"
+    ],
+    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
   },
   {
     "id": "S1-08-1",
     "title": "РЕПО как краткосрочное фондирование",
-    "status": "INHERITED_REVIEW",
-    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
-    "fingerprint": "90b69b9e06d30f206275b2cd883dfb7cc1adce9b3a354927dbdc0f8bb8e6f4de"
+    "status": "REVIEWED",
+    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
+    "fingerprint": "5eafc77f28aa06f637a72ec6abb177642f9c9d3f77c8de8c1f6759f515d13e06",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "advanced",
+      "extraChecks",
+      "glossary",
+      "formulas"
+    ],
+    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
   },
   {
     "id": "S1-09-0",
     "title": "Спреды к безрисковой кривой",
     "status": "REVIEWED",
-    "decision": "QA-001: добавлены недостающие четыре элемента преподавательского ответа, два коэффициента с полным раскрываемым разбором. M03 целиком ещё не принят. Добавлена доступная дополнительная проверка нового понятия с раскрываемым объяснением.",
-    "fingerprint": "71e64d9132c29791b4b6738a9cb3b59552f388427f25a257538704e9463533f5",
+    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
+    "fingerprint": "0543e7e9486f8c368000796f10b94c549f081106b380e4deec10881120f59ce5",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "application"
+      "mechanism",
+      "advanced",
+      "extraChecks",
+      "glossary",
+      "formulas"
     ],
-    "sourceCheck": "Комплексный аудит: S1 PDF4–40 прочитаны и визуально просмотрены; S3 PDF2–5; связанные первичные источники и оговорки в QUALITY_M01_REVIEW.md."
+    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
   },
   {
     "id": "S1-09-1",
     "title": "Самостоятельная кредитоспособность и внешняя поддержка",
-    "status": "INHERITED_REVIEW",
-    "decision": "Полный методический цикл предыдущих пакетов 5.0.21–5.0.25; исходная подтверждённая точка CP-20261026-009.",
-    "fingerprint": "409fc5fbf578c95e27689f79bee8bf08db61666dad2e7742956a60516932bc65"
+    "status": "REVIEWED",
+    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
+    "fingerprint": "1ab9643dfdeae19b7370a8dd3934e3945ba41f3969892776fc27eaef302486e4",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "advanced",
+      "extraChecks",
+      "glossary",
+      "formulas"
+    ],
+    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
   },
   {
     "id": "S1-10-0",

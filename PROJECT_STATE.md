@@ -5,11 +5,11 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "5.0.29 beta",
+  "working_version": "5.0.30 beta",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "BLOCKED",
+  "phase": "IN_PROGRESS",
   "active_task": "T-01",
   "next_task": "T-01",
   "last_verified_checkpoint": "CP-20261026-033",
@@ -60,3 +60,11 @@ M01/M02 принято12/96 с пределами, полный аудит IN_PR
 ## Техническое ограничение · CP035
 
 Рабочая среда unavailable; T-01/M03 BLOCKED до восстановления среды. Опубликованная5.0.29 VERIFIED сохраняется. Незавершённых кодовых изменений M03 нет; результат источниковой проверки сохранён в рабочей ветке. Подробности CHAT_HANDOFF.md / CP-20261026-035.
+
+## Возобновление · CP036
+
+Среда восстановлена. Фактический main d28009d98a021d69fa2c8fd8c92558dcc8ecde4e, CI40323729833/Pages40323729112 SUCCESS; открытых PR нет. Рабочая ветка audit/quality-m03-resume-20261026 восстановлена из удалённой audit/quality-m03-20261026 (acc2202e). Практика S1-06…S1-09 полностью прочитана, кодовые правки далее. Принято12/96, опубликована5.0.29 VERIFIED.
+
+## M03 · CP037 · RELEASE_PENDING
+
+Рабочая5.0.30 beta: шесть блоков исправлены,104формулы/477терминов/26дополнительных проверок. Принято12/96, ещё6рассмотрены;134страницы осмотрены. Браузер/новыйCI/Pages/live PENDING. Последний VERIFIED вJSON остаётся5.0.29. Подробности QUALITY_M03_REVIEW.md и CHAT_HANDOFF.md.

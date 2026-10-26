@@ -29,6 +29,8 @@ jobs:
         run: node tests/teacher-review-check.mjs
       - name: Verify bond cash flows and source-gap corrections
         run: node tests/quality-m02-check.mjs
+      - name: Verify sensitivities, benchmark bases, holding metrics and Q07 history
+        run: node tests/quality-m03-check.mjs
       - name: Verify conceptual learning and corrected answer keys
         run: node tests/learning-review-check.mjs
       - name: Verify fixed income strategy mathematics
@@ -47,6 +49,7 @@ jobs:
           node tests/browser-smoke.mjs
           node tests/learning-review-browser.mjs
           node tests/teacher-review-browser.mjs
+          node tests/quality-m03-browser.mjs
       - name: Attach screenshots and diagnostics
         if: always()
         uses: actions/upload-artifact@v4

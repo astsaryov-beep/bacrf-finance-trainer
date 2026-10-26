@@ -24,7 +24,7 @@ try{
  await page.locator('.v5-formula').last().locator('summary').click();
  assert.ok((await page.locator('.v5-formula').last().textContent()).includes('дефолт'));
  await page.evaluate(()=>goStudyLesson('S1-09',0));await page.locator('#v5FullBtn').click();
- assert.equal(await page.locator('.v5-formula').count(),3);
+ assert.equal(await page.locator('.v5-formula').count(),4);
  await page.locator('.v5-formula').nth(1).locator('summary').click();assert.ok((await page.locator('.v5-formula').nth(1).textContent()).includes('EBITDA'));
  const study=await page.evaluate(()=>{
   const i=STUDY_MAP.get('S1-09').blocks[0].qids.indexOf('Q13');getStudyBlock().answers.Q13={text:'Старый письменный ответ',rubric:[0,1,2],checked:true,revealed:true,score:1};
