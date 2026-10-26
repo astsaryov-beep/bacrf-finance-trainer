@@ -405,7 +405,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "Новый профиль25open/25multi подтверждён,60multiвпуле311;дальнейшее содержательное покрытие по модулям продолжается. CP059."
+    "resolution": "CP065:25open/25multi;76multiвпуле327. Дальнейшее содержательное покрытие по модулям продолжается."
   },
   {
     "id": "QA-049",
@@ -421,7 +421,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "49/309историческихназначенийпроверено/опубликовано;260PENDING. PM17/V2-072/Q09исправленыCP059;сквознойпроходвпереди."
+    "resolution": "CP065:85/309историческихназначенийпроверено/опубликовано,224PENDING. M07IV/time исправлены;сквознойпроходвпереди."
   },
   {
     "id": "QA-051",
@@ -514,49 +514,49 @@
   {
     "id": "QA-060",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M07 early IV/time prerequisites",
     "finding": "PM13/LQ07/V2-064 требовали влияниеIV/времени до подробного следующего блока.",
-    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+    "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-061",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M07 strategy diagrams",
     "finding": "Названия/ноги/пределы слайдов89–91 местами несовместимы; нельзя копировать неограниченностьput на неотрицательнуюакцию.",
-    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+    "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-062",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M07 pricing and Greeks",
     "finding": "Слайды универсализируютTV≥0/Theta<0/Gamma⇒Theta и смешивают единицы,паритет/полностьюоплаченнуюакцию.",
-    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+    "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-063",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M07 structured promises",
     "finding": "Условныйкупон/память/автоколл/защита имеютотдельныеусловия;экономическаярепликациянепередаётправаи непогашаетэмитентскийриск.",
-    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+    "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-064",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M07 gold accounting",
     "finding": "Источник129теряетГО/допускаетдвойнуюVM,130универсализируетпреимуществоfunding;118контрактовдают1003000экспозиции.",
-    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+    "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
   },
   {
     "id": "QA-065",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "PO08 and distractors",
     "finding": "PO08требовалобязательныйнаборрисков,несоответствующийлюбомупродукту;неверныевариантыавторскихsingleимеюточевидныеподарки.",
-    "resolution": "5.0.34/QUALITY_M07_REVIEW.md;единаяредакция/профили/практика. Фактические проверки и выпуск ещё ожидаются."
+    "resolution": "QUALITY_M07_REVIEW.md/CP065:14 local and7 browser programs PASS; PR52/mainCI/Pages SUCCESS; live5files MATCH. Нормативные/исторические пределы сохранены."
   }
 ]
