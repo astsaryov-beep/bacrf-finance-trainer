@@ -24,7 +24,7 @@ try{
  assert.equal(await page.locator('#studyText').inputValue(),'Исторический ответ Q07');
  assert.equal(await page.evaluate(()=>getStudyAnswer('Q07').score),null);
  assert.equal(await page.evaluate(()=>getStudyAnswer('Q07').previousReviewResult.score),1);
- await page.locator('#studyReveal').click();assert.ok((await page.locator('[data-studyrubric]').last().locator('..').textContent()).includes('Объяснён обратный случай'));
+ await page.locator('#studyReveal').click();assert.ok((await page.locator('.study-task .feedback').textContent()).includes('изымает ликвидность'));assert.ok((await page.locator('[data-studyrubric]').last().locator('..').textContent()).includes('Объяснён обратный случай'));
  for(const box of await page.locator('[data-studyrubric]').all())await box.check();
  await page.locator('#studyGradeOpen').click();assert.equal(await page.evaluate(()=>getStudyAnswer('Q07').score),1);
  await page.evaluate(()=>{
