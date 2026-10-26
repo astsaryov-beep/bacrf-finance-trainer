@@ -1,0 +1,229 @@
+{
+  "source": "S3",
+  "pdfPages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "visualInspected": true,
+  "sourceQuestionCount": 20,
+  "rawOriginalCount": 19,
+  "grading": {
+    "weight": "equal in this test",
+    "multipleChoice": "all and only correct options",
+    "open": "correct conclusion and logical reasoning",
+    "enumeration": "source criterion where stated; question11 at least3of5",
+    "scope": "This test; not an inferred full-exam scoring protocol"
+  },
+  "items": [
+    {
+      "sourceNumber": 1,
+      "pdfPage": 2,
+      "questionId": "Q03",
+      "sourceCorrectLetters": "A,D",
+      "blocks": [
+        "R-02-1"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 2,
+      "pdfPage": 2,
+      "questionId": "Q04",
+      "sourceCorrectLetters": "A,B,C",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 3,
+      "pdfPage": 2,
+      "questionId": "Q02",
+      "sourceCorrectLetters": "B,D",
+      "blocks": [
+        "R-03-0"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 4,
+      "pdfPage": 2,
+      "questionId": "Q01",
+      "sourceCorrectLetters": "A,E",
+      "blocks": [
+        "R-02-1"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 5,
+      "pdfPage": 3,
+      "questionId": "Q18",
+      "sourceCorrectLetters": "A,B,C,D",
+      "blocks": [
+        "S1-01-1",
+        "S2-05-1"
+      ],
+      "status": "SOURCE_ERROR_D",
+      "resolution": "Correct ABC retained; explicit teacher D conflict explained with CBR source."
+    },
+    {
+      "sourceNumber": 6,
+      "pdfPage": 3,
+      "questionId": "Q19",
+      "sourceCorrectLetters": "A,C,D,E",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 7,
+      "pdfPage": 3,
+      "questionId": "Q17",
+      "sourceCorrectLetters": "A,B,C,D",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 8,
+      "pdfPage": 3,
+      "questionId": null,
+      "sourceCorrectLetters": "A,B,D,E",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "status": "COVERED_BY_BM20_Q06_NOT_EXACT_COPY"
+    },
+    {
+      "sourceNumber": 9,
+      "pdfPage": 3,
+      "questionId": "Q08",
+      "sourceCorrectLetters": "A,B,C,D",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "status": "MATCH_KEY"
+    },
+    {
+      "sourceNumber": 10,
+      "pdfPage": 4,
+      "questionId": "Q13",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-09-0",
+        "S1-09-1"
+      ],
+      "status": "ANSWER_SCOPE_GAP",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
+    },
+    {
+      "sourceNumber": 11,
+      "pdfPage": 4,
+      "questionId": "Q12",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-10-1",
+        "S2-03-0"
+      ],
+      "status": "RUBRIC_TOO_RESTRICTIVE",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
+    },
+    {
+      "sourceNumber": 12,
+      "pdfPage": 4,
+      "questionId": "Q11",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S2-06-1"
+      ],
+      "status": "SEMANTIC_MATCH"
+    },
+    {
+      "sourceNumber": 13,
+      "pdfPage": 4,
+      "questionId": "Q06",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-08-0"
+      ],
+      "status": "SEMANTIC_MATCH"
+    },
+    {
+      "sourceNumber": 14,
+      "pdfPage": 4,
+      "questionId": "Q16",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-04-1"
+      ],
+      "status": "SEMANTIC_MATCH"
+    },
+    {
+      "sourceNumber": 15,
+      "pdfPage": 4,
+      "questionId": "Q09",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S2-06-1"
+      ],
+      "status": "SEMANTIC_MATCH"
+    },
+    {
+      "sourceNumber": 16,
+      "pdfPage": 5,
+      "questionId": "Q14",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-05-1"
+      ],
+      "status": "SEMANTIC_MATCH_WITH_EXTRA_RUBRIC"
+    },
+    {
+      "sourceNumber": 17,
+      "pdfPage": 5,
+      "questionId": "Q07",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-09-1"
+      ],
+      "status": "SEMANTIC_MATCH_REVERSE_CASE_REQUIRED"
+    },
+    {
+      "sourceNumber": 18,
+      "pdfPage": 5,
+      "questionId": "Q15",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-01-1",
+        "S2-05-1"
+      ],
+      "status": "MATCH_WITH_NEEDED_MARKET_CAVEAT"
+    },
+    {
+      "sourceNumber": 19,
+      "pdfPage": 5,
+      "questionId": "Q05",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-07-1"
+      ],
+      "status": "SEMANTIC_MATCH_WITH_CONVEXITY_CAVEAT"
+    },
+    {
+      "sourceNumber": 20,
+      "pdfPage": 5,
+      "questionId": "Q10",
+      "sourceCorrectLetters": null,
+      "blocks": [
+        "S1-10-1"
+      ],
+      "status": "RUBRIC_TOO_RESTRICTIVE",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
+    }
+  ]
+}

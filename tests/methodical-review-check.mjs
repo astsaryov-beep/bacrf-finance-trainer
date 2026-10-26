@@ -16,6 +16,7 @@ for(const l of lessons)for(const [i,b] of l.blocks.entries()){
  assert.ok(['REVIEWED','INHERITED_REVIEW'].includes(r.status),'unfinished review '+id);
  assert.ok(r.decision.length>40,'missing editorial judgment '+id);
  const core={title:b.title,beginner:beginner[id],story:stories[l.id]?stories[l.id][i]:'',foundation:m.foundation,mechanism:m.mechanism,principles:m.principles,application:m.application,advanced:m.advanced,glossary:b.glossary,formulas:m.formulas||[],selfCheck:m.selfCheck};
+ if(m.extraChecks?.length)core.extraChecks=m.extraChecks;
  assert.equal(createHash('sha256').update(canonical(core)).digest('hex'),r.fingerprint,'unreviewed content drift '+id);
  if(r.status==='REVIEWED'){
   for(const f of ['foundation','mechanism','application','advanced'])assert.equal(v5[id][f],m[f].join(' '),'legacy layer '+id+' '+f);

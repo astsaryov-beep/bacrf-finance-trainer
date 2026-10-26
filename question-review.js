@@ -3,6 +3,12 @@
  'use strict';
  const revision='2026-10-26';
  const corrections={
+  RO08:{brief:"Повышение ставки может удорожить новые и плавающие кредиты и уменьшить спрос компаний; изменение стоимости ресурсов и риска влияет на предложение кредитов банками.",explanation:"Для ответа различают спрос на кредит со стороны компаний и предложение со стороны банков. Рост процентных расходов может уменьшить спрос, а изменение цены фондирования и риска — изменить доступность, лимиты и иные условия предложения. Конкретная реакция зависит от договора и рынка."},
+  Q13:{"answer":"Для оценки используют рейтинг эмитента, Net Debt/EBITDA как показатель долговой нагрузки, Interest Coverage Ratio как покрытие процентных платежей прибылью и G-spread как наблюдаемую премию доходности к сопоставимому государственному ориентиру.","brief":"Рейтинг — оценка кредитоспособности; Net Debt/EBITDA — долговая нагрузка; Interest Coverage Ratio — покрытие процентов; G-spread — премия доходности к сопоставимому госориентиру.","explanation":"Это состав ответа из преподавательского разбора теста, вопрос 10 наS3PDF4. Чистый долг обычно получают вычитанием допустимых денежных средств из финансового долга; его деление на сопоставимую EBITDA характеризует нагрузку. ICR сопоставляет выбранный показатель прибыли с процентными расходами; в условиях нужно назвать EBIT или EBITDA. Низкая нагрузка и большое покрытие при прочих равных благоприятны, но коэффициенты не заменяют анализ денежного потока. G-spread содержит также влияние ликвидности и условий бумаги; Z-spread/OAS/ASW полезны в углублении, но не заменяют четыре элемента эталона.","rubric":["Рейтинг назван оценкой кредитоспособности эмитента","Объяснено, что Net Debt/EBITDA характеризует долговую нагрузку","Объяснено, что Interest Coverage Ratio характеризует покрытие процентных платежей прибылью","G-spread связан с сопоставимой государственной доходностью и премией за принимаемые риски"],"reviewNote":"Ответ и редакционный чек-лист согласованы с эталоном преподавателя (S3, вопрос 10). Чек-лист служит самооценке; полный балльный порог этого перечислительного вопроса на слайде не указан.","revision":"2026-10-26-teacher-1","reviewKind":"rubric"},
+  Q10:{"rubric":["Объяснено, что конструкция не является безусловно безрисковой","Названа и объяснена хотя бы одна причина возможного убытка: фондирование, базис, маржа/залог, ликвидность, поставка либо кредитный риск"],"reviewNote":"Условие допускает одну или несколько причин. Для полной учебной самооценки достаточно объяснить одну релевантную причину после верного вывода; обязательного одновременного перечисления двух разных рисков нет.","revision":"2026-10-26-teacher-1","reviewKind":"rubric"},
+  Q12:{"answer":"Классическая конструкция включает покупку облигации, финансирование через РЕПО, продажу связанного фьючерса, carry как разность дохода облигации и стоимости фондирования и изменение/схождение базиса при условиях модели.","brief":"Покупка облигации, РЕПО-фондирование, короткий фьючерс, carry и схождение базиса. В преподавательском разборе для этого вопроса указано: назвать не менее трёх элементов.","rubric":["Названы не менее трёх разных элементов: облигация, РЕПО, короткий фьючерс, carry, схождение базиса","Элементы относятся к данной конструкции и не содержат утверждения о гарантированном отсутствии риска"],"reviewNote":"Для вопроса 11 в преподавательском разборе указан зачёт за не менее 3 из 5 элементов. Редакционный чек-лист сохраняет этот порог; развёрнутый разбор объясняет всю конструкцию.","revision":"2026-10-26-teacher-1","reviewKind":"rubric"},
+  Q18:{"reviewNote":"В преподавательском разборе S3, вопрос 5, отмечен также вариантD. Здесь сохранено различие Банка России: накопленный RUONIA Index и срочная версия RUONIA на 1/3/6 месяцев — разные продукты. Поэтому D не включён в корректный ключ.","sources":["https://www.cbr.ru/hd_base/ruonia/sv_ruonia/"]},
+
   EM02:{correct:[0],explanation:'IPO — первое публичное предложение акций компании. Оно может включать новые акции и/или акции прежних владельцев. Поэтому исключительное размещение новых акций не является определением IPO. Ключ исправлен 26.10.2026; прежняя оценка этого вопроса могла отличаться.',brief:'Первое публичное предложение акций компании инвесторам.',reviewNote:'Исправлен ошибочный ключ; тексты исходных вариантов сохранены.',revision,sources:['https://ipoguide.moex.com/6/index.html','https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17']},
   'EXS-E02':{question:'Для расчёта EPS средневзвешенное число акций за период выросло на 20%, а соответствующая прибыль не изменилась. Какой эффект на EPS следует ожидать без других изменений?',reviewNote:'Уточнена база числа акций: средневзвешенная за сопоставимый период.'},
   'EXN-E03':{question:'Начальные доли двух акций в портфеле — 30% и 70%. Их доходности за один период равны 10% и −2%. Какова доходность портфеля в процентах без пополнений, изъятий, ребалансировки и комиссий? Введите число.'},
@@ -55,11 +61,31 @@
   if(!value?.responses)return value;
   if(value.version===3)value.version=2;
   for(const [id,patch] of Object.entries(corrections)){
-   if(!patch.revision||!value.grades?.[id]||!Array.isArray(value.responses[id]?.choice))continue;
-   const selected=value.responses[id].choice,strict=patch.correct.length===selected.length&&patch.correct.every(i=>selected.includes(i));
-   const grade=value.grades[id];if(grade.reviewRevision===patch.revision)continue;
+   const response=value.responses[id],grade=value.grades?.[id];
+   if(!patch.revision||!response)continue;
+   if(patch.reviewKind==='rubric'){
+    if(response.reviewRevision===patch.revision)continue;
+    if(grade||response.rubric?.length){
+     value.reviewHistory=value.reviewHistory||{};
+     value.reviewHistory[id]={grade:grade?{...grade}:null,response:{...response,rubric:[...(response.rubric||[])]},revision:patch.revision};
+     if(value.grades)delete value.grades[id];
+     response.rubric=[];response.checked=false;response.needsReviewRecheck=true;
+    }
+    response.reviewRevision=patch.revision;continue;
+   }
+   if(!grade||!Array.isArray(patch.correct)||!Array.isArray(response.choice))continue;
+   if(grade.reviewRevision===patch.revision)continue;
+   const selected=response.choice,strict=patch.correct.length===selected.length&&patch.correct.every(i=>selected.includes(i));
    value.grades[id]={...grade,previousReviewGrade:{score:grade.score,strict:grade.strict},score:strict?1:0,strict,reviewRevision:patch.revision};
   }return value;
+ }
+ function migrateCourseAnswer(q,a){
+  const patch=corrections[q?.id];if(!a||patch?.reviewKind!=='rubric'||a.reviewRevision===patch.revision)return a;
+  if(a.checked||a.rubric?.length){
+   a.previousReviewResult={text:a.text,score:a.score,checked:a.checked,rubric:[...(a.rubric||[])],reviewedAt:a.reviewedAt};
+   a.rubric=[];a.checked=false;a.revealed=false;a.score=null;a.needsReviewRecheck=true;
+  }
+  a.reviewRevision=patch.revision;return a;
  }
  const revisedIndependentIds=Array.from({length:8},(_,i)=>'FRI-O-'+String(i+10).padStart(2,'0')+'-0');
  function migrateIndependent(value){
@@ -69,5 +95,5 @@
    a.correct=false;a.draft='';a.needsReviewRecheck=true;a.reviewRevision=revision;
   }return value;
  }
- root.FinanceReview={revision,corrections,question,diagnostics,alternative,currentEvidence,migrateSession,migrateIndependent,revisedIndependentIds};
+ root.FinanceReview={revision,corrections,question,diagnostics,alternative,currentEvidence,migrateSession,migrateCourseAnswer,migrateIndependent,revisedIndependentIds};
 })(globalThis);
