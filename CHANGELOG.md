@@ -1,3 +1,11 @@
+# 5.0.30 beta · VERIFIED · CP042
+
+[PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+Переход к КСУ исправлен; приёмка остаётся18/96 с пределами. Остальные78блоков и сквозной проход впереди;134/557страницы осмотрены. Последующие разделы ниже сохраняют историю публикации.
+
+---
+
 # 5.0.30 beta · VERIFIED
 
 [PR #44](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/44) MERGED; продукт `794531600bf332f7b494cf486b41803704a33bb0`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335234506), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118). Live MATCH: index `4524e390509ce28f5f809818c0b9e77f847ffac1`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
