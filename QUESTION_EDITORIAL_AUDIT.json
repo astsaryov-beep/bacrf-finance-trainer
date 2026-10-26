@@ -1,0 +1,5057 @@
+{
+  "reviewedOn": "2026-10-26",
+  "scope": "Editorial question, options/key or answer, relevance and repetition. Source verification is separate.",
+  "counts": {
+    "main": 275,
+    "courseExtraEntries": 90,
+    "independent": 70,
+    "unique": 419
+  },
+  "exactTextRepeats": [],
+  "questions": [
+    {
+      "id": "Q01",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие из перечисленных видов деятельности НЕ поднадзорны Банку России?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q02",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие виды деятельности кредитная организация НЕ вправе осуществлять по российскому законодательству?",
+      "concept": "reg-banking-law",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q03",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие из перечисленных федеральных законов НЕ относятся напрямую к регулированию финансового рынка?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q04",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие из приведённых утверждений о секьюритизации верны в контексте нашего курса?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q05",
+      "collections": [
+        "main"
+      ],
+      "question": "Доходность облигации резко изменилась, и оценка новой цены, сделанная через модифицированную дюрацию, оказалась неточной: фактическая цена изменилась благоприятнее для держателя. Почему?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q06",
+      "collections": [
+        "main"
+      ],
+      "question": "Управляющего портфелем облигаций просят выбрать бенчмарк для оценки результатов его работы. Ему предлагают два индекса: RGBI и RGBITR. К какому искажению в оценке работы управляющего приведёт выбор одного из них, какого?",
+      "concept": "debt-index",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q09",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор держит облигацию с фиксированным купоном и заключает своп «платим фиксированную ставку — получаем RUONIA». Каким станет его итоговый доход и какой риск у него при этом остаётся?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q10",
+      "collections": [
+        "main"
+      ],
+      "question": "Трейдер купил облигацию, профинансировал покупку через РЕПО и продал фьючерс на неё. Эта конструкция выглядит безрисковой арбитражной сделкой. Действительно ли это так? Назовите причину (одну или несколько), по которой она может принести убыток.",
+      "concept": "deriv-carry",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q07",
+      "collections": [
+        "main"
+      ],
+      "question": "«Дочка» крупного устойчивого холдинга имеет посредственные собственные финансовые показатели. Её итоговый рейтинг заметно выше оценки собственной кредитоспособности. Почему? Может ли быть обратная ситуация?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q08",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие элементы входят в классическую структуру секьюритизации?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q11",
+      "collections": [
+        "main"
+      ],
+      "question": "Перечислите основные элементы asset swap package.",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q12",
+      "collections": [
+        "main"
+      ],
+      "question": "Перечислите основные элементы стратегии cash-and-carry на облигационном рынке.",
+      "concept": "deriv-carry",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q13",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие элементы используются для оценки кредитного спреда облигации, что они показывают?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q14",
+      "collections": [
+        "main"
+      ],
+      "question": "SPV выпускает облигации под пул кредитов среднего качества, часть облигаций получает инвестиционный рейтинг — выше качества большинства кредитов пула. Из-за какого фактора и как этот фактор работает?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q15",
+      "collections": [
+        "main"
+      ],
+      "question": "Ставка межбанковского кредитования (RUONIA) систематически держится выше ставки РЕПО-фондирования (RUSFAR). Почему?",
+      "concept": "debt-benchmarks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q16",
+      "collections": [
+        "main"
+      ],
+      "question": "Выпуск облигаций содержит колл-оферту. В какой рыночной ситуации она будет использована? Что при этом получит и что потеряет держатель облигации?",
+      "concept": "debt-call",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q17",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения о показателях процентного риска облигаций верны?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q18",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения о RUONIA и RUSFAR являются верными?",
+      "concept": "debt-benchmarks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "Q19",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие характеристики относятся к облигации с плавающим купоном на базе RUONIA?",
+      "concept": "debt-floaters",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM01",
+      "collections": [
+        "main"
+      ],
+      "question": "Финансовый рынок выполняет прежде всего какую функцию?",
+      "concept": "reg-market",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM02",
+      "collections": [
+        "main"
+      ],
+      "question": "Что отличает денежный рынок от рынка капитала по распространённой классификации?",
+      "concept": "reg-market",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM03",
+      "collections": [
+        "main"
+      ],
+      "question": "К какому элементу инфраструктуры относится центральный депозитарий?",
+      "concept": "reg-market-infra",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM04",
+      "collections": [
+        "main"
+      ],
+      "question": "Что является примером посреднической функции банка?",
+      "concept": "reg-market",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM05",
+      "collections": [
+        "main"
+      ],
+      "question": "Какова основная цель пруденциального надзора?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM06",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает институциональный подход к финансовому регулированию?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM07",
+      "collections": [
+        "main"
+      ],
+      "question": "Каков ключевой критерий функционального подхода к регулированию?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM08",
+      "collections": [
+        "main"
+      ],
+      "question": "Что призван защищать надзор за раскрытием информации эмитентов?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM09",
+      "collections": [
+        "main"
+      ],
+      "question": "Какая из функций непосредственно относится к Банку России?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM10",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему в регулировании финансовых рынков возникает проблема асимметрии информации?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM11",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой инструмент непосредственно связан с защитой клиентов банков при отзыве лицензии?",
+      "concept": "reg-deposits",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM12",
+      "collections": [
+        "main"
+      ],
+      "question": "Что в финансовом регулировании означает принцип пропорциональности?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM13",
+      "collections": [
+        "main"
+      ],
+      "question": "Что является характерной особенностью банковской лицензии?",
+      "concept": "reg-banking-law",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM14",
+      "collections": [
+        "main"
+      ],
+      "question": "Какая особенность отличает банк с базовой лицензией от банка с универсальной лицензией?",
+      "concept": "reg-banking-law",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM15",
+      "collections": [
+        "main"
+      ],
+      "question": "Для чего применяются нормативы достаточности капитала банка?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM16",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой показатель особенно характеризует способность банка покрывать краткосрочный отток средств?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM17",
+      "collections": [
+        "main"
+      ],
+      "question": "Какое утверждение о страховании вкладов корректно?",
+      "concept": "reg-deposits",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM18",
+      "collections": [
+        "main"
+      ],
+      "question": "Чем банковский кредит юридически отличается от займа в общем случае?",
+      "concept": "reg-banking-law",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM19",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой кредит обычно предназначен для краткосрочного покрытия кассовых разрывов по расчётному счёту?",
+      "concept": "reg-credit-lines",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM20",
+      "collections": [
+        "main"
+      ],
+      "question": "Что отличает возобновляемую кредитную линию?",
+      "concept": "reg-credit-lines",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM21",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем кредитору нужен ковенант в кредитном соглашении?",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM22",
+      "collections": [
+        "main"
+      ],
+      "question": "Что характеризует проектное финансирование?",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM23",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем синдицируют крупный кредит?",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RM24",
+      "collections": [
+        "main"
+      ],
+      "question": "Кто в российской финансовой инфраструктуре ведёт централизованный учёт прав на многие выпуски ценных бумаг?",
+      "concept": "reg-market-infra",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO01",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему регулирование одинаковых финансовых операций только по типу организации может приводить к регуляторному арбитражу?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO02",
+      "collections": [
+        "main"
+      ],
+      "question": "В чём отличие регулирования от надзора Банка России?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO03",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему для банка важны одновременно достаточность капитала и ликвидность?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO04",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания получила банковский кредит под плавающую ставку. Что происходит с её процентными расходами при повышении базового индикатора и какой риск здесь реализуется?",
+      "concept": "reg-rate",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO05",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему для проектного финансирования особенно важно оценивать будущие денежные потоки отдельного проекта?",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO06",
+      "collections": [
+        "main"
+      ],
+      "question": "Чем рискует банк, предоставляя невозобновляемую кредитную линию, и чем она отличается от возобновляемой для клиента?",
+      "concept": "reg-credit-lines",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO07",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему при оценке финансового продукта важно различать риск клиента и риск финансовой организации?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "RO08",
+      "collections": [
+        "main"
+      ],
+      "question": "Назовите два разных механизма, через которые повышение ключевой ставки влияет на корпоративное кредитование.",
+      "concept": "reg-rate",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM01",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему рыночная цена обычной облигации с фиксированными выплатами обычно падает при росте требуемой доходности?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM02",
+      "collections": [
+        "main"
+      ],
+      "question": "Облигация с номиналом 1000 рублей продаётся за 900 и погашается через год по номиналу. Купонов нет. Какова простая доходность к погашению?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM03",
+      "collections": [
+        "main"
+      ],
+      "question": "Что такое «грязная» цена облигации?",
+      "concept": "debt-dirty",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM04",
+      "collections": [
+        "main"
+      ],
+      "question": "Какое изменение при прочих равных обычно увеличивает дюрацию купонной облигации?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM05",
+      "collections": [
+        "main"
+      ],
+      "question": "Чему примерно равно изменение цены стандартной облигации с модифицированной дюрацией 4 при росте доходности на 0,5 процентного пункта, без поправки на выпуклость?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM06",
+      "collections": [
+        "main"
+      ],
+      "question": "Что измеряет DV01 для облигации?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM07",
+      "collections": [
+        "main"
+      ],
+      "question": "В каких условиях линейная оценка цены по дюрации наиболее точна?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM08",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему при положительной выпуклости цена обычной облигации выигрывает относительно линейной оценки дюрации при обоих направлениях изменения доходности?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM09",
+      "collections": [
+        "main"
+      ],
+      "question": "В чём базовое отличие облигации-флоатера от фиксированного купона?",
+      "concept": "debt-floaters",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM10",
+      "collections": [
+        "main"
+      ],
+      "question": "Какое утверждение о RUSFAR корректно?",
+      "concept": "debt-benchmarks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM11",
+      "collections": [
+        "main"
+      ],
+      "question": "Какая позиция соответствует получению денег в первой части классического РЕПО с обязательством обратного выкупа бумаг?",
+      "concept": "debt-repo",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM12",
+      "collections": [
+        "main"
+      ],
+      "question": "Что может произойти при падении рыночной стоимости обеспечения по сделке РЕПО?",
+      "concept": "debt-repo",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM13",
+      "collections": [
+        "main"
+      ],
+      "question": "Как обычно влияет ухудшение кредитоспособности эмитента на кредитный спред облигации?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM14",
+      "collections": [
+        "main"
+      ],
+      "question": "Что такое кредитный спред облигации в распространённой интерпретации?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM15",
+      "collections": [
+        "main"
+      ],
+      "question": "Для чего кредитный рейтинг эмитента учитывает долговую нагрузку и обслуживание долга?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM16",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему senior-транш секьюритизации может иметь лучшую защиту от убытков пула?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM17",
+      "collections": [
+        "main"
+      ],
+      "question": "Что в секьюритизации означает true sale?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM18",
+      "collections": [
+        "main"
+      ],
+      "question": "Какова функция servicer в секьюритизации?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM19",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем секьюритизируемые активы объединяют в пул?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM20",
+      "collections": [
+        "main"
+      ],
+      "question": "Чем индекс совокупного дохода облигаций отличается от ценового индекса?",
+      "concept": "debt-index",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM21",
+      "collections": [
+        "main"
+      ],
+      "question": "Выпуск облигаций предусматривает право эмитента досрочно погасить бумаги. При каком изменении ставок у эмитента чаще возникает мотив воспользоваться правом?",
+      "concept": "debt-call",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM22",
+      "collections": [
+        "main"
+      ],
+      "question": "Какова характерная особенность амортизируемой облигации?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM23",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему более высокая доходность корпоративной облигации по сравнению с ОФЗ не доказывает её выгодность?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BM24",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает высокая ликвидность облигации для инвестора?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO01",
+      "collections": [
+        "main"
+      ],
+      "question": "Владелец облигации видит рост её доходности к погашению. Что можно заключить об изменении цены, если ожидаемые платежи не меняются?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO02",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор сравнивает две облигации с одинаковой доходностью и сроком. Их купоны различаются. У какой обычно выше дюрация и почему?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO03",
+      "collections": [
+        "main"
+      ],
+      "question": "Облигация имеет модифицированную дюрацию 6. Оцените изменение цены при снижении доходности на 1 п.п. без учёта выпуклости. Почему это приближение?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO04",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему senior-транш может получить высокий рейтинг, даже если часть кредитов пула рискованна?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO05",
+      "collections": [
+        "main"
+      ],
+      "question": "Что может произойти с обеспечением РЕПО при резком падении цены облигаций и почему это опасно для стратегии?",
+      "concept": "debt-repo",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO06",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему ценовой индекс RGBI может оказаться некорректным ориентиром для оценки полной доходности облигационного портфеля?",
+      "concept": "debt-index",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO07",
+      "collections": [
+        "main"
+      ],
+      "question": "Как изменение кредитного спреда влияет на цену облигации при неизменной безрисковой ставке?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "BO08",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему досрочное погашение облигации по колл-оферте может оказаться невыгодным для инвестора?",
+      "concept": "debt-call",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM01",
+      "collections": [
+        "main"
+      ],
+      "question": "Что является основным правом владельца обыкновенной акции?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM02",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает IPO для компании?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM03",
+      "collections": [
+        "main"
+      ],
+      "question": "Каково базовое отличие SPO от IPO?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM04",
+      "collections": [
+        "main"
+      ],
+      "question": "Если компания размещает новые акции и получает выручку, какой эффект для существующих акционеров возможен при неизменной их доле в штуках?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM05",
+      "collections": [
+        "main"
+      ],
+      "question": "Каков смысл мультипликатора P/E?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM06",
+      "collections": [
+        "main"
+      ],
+      "question": "Капитализация компании — 600 млн рублей, годовая чистая прибыль — 60 млн. Чему равен P/E?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM07",
+      "collections": [
+        "main"
+      ],
+      "question": "Что измеряет P/BV?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM08",
+      "collections": [
+        "main"
+      ],
+      "question": "Каков смысл EV в показателе EV/EBITDA?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM09",
+      "collections": [
+        "main"
+      ],
+      "question": "Капитализация 800 млн, финансовый долг 300 млн, денежные средства 100 млн. Упрощённый EV равен:",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM10",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему некорректно сопоставлять P/E компаний разных отраслей без дополнительных поправок?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM11",
+      "collections": [
+        "main"
+      ],
+      "question": "Что такое дивидендная доходность акции в распространённом расчёте?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM12",
+      "collections": [
+        "main"
+      ],
+      "question": "Акция стоит 200 рублей, за год выплачено 12 рублей дивидендов. Какова историческая дивидендная доходность?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM13",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает дата закрытия реестра при выплате дивидендов?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM14",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему цена акции может снизиться в дату торгов без права на ближайший дивиденд?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM15",
+      "collections": [
+        "main"
+      ],
+      "question": "Чем привилегированная акция может отличаться от обыкновенной?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM16",
+      "collections": [
+        "main"
+      ],
+      "question": "Какова основная роль инвестиционного фонда для частного инвестора?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM17",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему фонд может отстать по доходности от отслеживаемого индекса?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM18",
+      "collections": [
+        "main"
+      ],
+      "question": "В чём особенность биржевого паевого фонда (БПИФ) по сравнению с обычным открытым ПИФом?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM19",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает СЧА фонда?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM20",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем управляющему инвестиционным фондом нужен бенчмарк?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM21",
+      "collections": [
+        "main"
+      ],
+      "question": "Что измеряет beta акции относительно индекса?",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM22",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает высокая корреляция доходностей двух акций для диверсификации их совместного портфеля?",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM23",
+      "collections": [
+        "main"
+      ],
+      "question": "Какая величина является компонентом доходности владения акцией за период?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EM24",
+      "collections": [
+        "main"
+      ],
+      "question": "Если индекс акций рассчитывается с весами по капитализации, то рост цены крупной компании обычно:",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO01",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания объявила дивиденд 12 рублей на акцию при рыночной цене 240 рублей. Рассчитайте индикативную дивидендную доходность на эту цену.",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO02",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему одинаковый P/E двух компаний не означает одинаковую инвестиционную привлекательность?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO03",
+      "collections": [
+        "main"
+      ],
+      "question": "Как дополнительная эмиссия акций может одновременно привлечь капитал и снизить долю прежнего акционера?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO04",
+      "collections": [
+        "main"
+      ],
+      "question": "В чём отличие полной доходности инвестирования в акцию от её ценовой доходности?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO05",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем в сравнительном анализе компаний используют сразу P/E, P/BV и EV/EBITDA?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO06",
+      "collections": [
+        "main"
+      ],
+      "question": "Чем риск вложения в отраслевой фонд отличается от риска широкого рыночного фонда?",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO07",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему результат управляющего фондом нужно сравнивать с бенчмарком и учитывать комиссии?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EO08",
+      "collections": [
+        "main"
+      ],
+      "question": "В чём ограничение индексного инвестирования для человека, которому деньги нужны через три месяца?",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM01",
+      "collections": [
+        "main"
+      ],
+      "question": "Что является базовым признаком форварда?",
+      "concept": "deriv-forwards",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM02",
+      "collections": [
+        "main"
+      ],
+      "question": "В чём типичное отличие биржевого фьючерса от индивидуального внебиржевого форварда?",
+      "concept": "deriv-forwards",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM03",
+      "collections": [
+        "main"
+      ],
+      "question": "Что такое вариационная маржа по фьючерсу?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM04",
+      "collections": [
+        "main"
+      ],
+      "question": "Что может заставить участника закрыть прибыльную в долгосрочном смысле фьючерсную позицию досрочно?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM05",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания ожидает купить валюту через три месяца и опасается её подорожания. Какая фьючерсная позиция соответствует направлению хеджа?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM06",
+      "collections": [
+        "main"
+      ],
+      "question": "Экспортёр получит иностранную валюту в будущем и опасается её удешевления к рублю. Какое действие соответствует хеджу?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM07",
+      "collections": [
+        "main"
+      ],
+      "question": "Что даёт держателю обычный опцион call?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM08",
+      "collections": [
+        "main"
+      ],
+      "question": "Что даёт держателю обычный опцион put?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM09",
+      "collections": [
+        "main"
+      ],
+      "question": "Акция стоит 120 рублей, страйк call 100 рублей. Какова внутренняя стоимость call при немедленном исполнении, без учёта премии?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM10",
+      "collections": [
+        "main"
+      ],
+      "question": "Акция стоит 80 рублей, страйк put 100 рублей. Какова внутренняя стоимость put при немедленном исполнении, без учёта премии?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM11",
+      "collections": [
+        "main"
+      ],
+      "question": "Покупатель call заплатил премию 8 рублей, в момент истечения опцион имеет внутреннюю стоимость 20. Каков результат сделки на один опцион без комиссий?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM12",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой максимум убытка у покупателя обычного call, полностью оплатившего премию, без дополнительных позиций и издержек?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM13",
+      "collections": [
+        "main"
+      ],
+      "question": "Как обычно влияет увеличение ожидаемой волатильности на цену стандартного опциона при прочих равных?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM14",
+      "collections": [
+        "main"
+      ],
+      "question": "Что показывает Delta опциона?",
+      "concept": "deriv-option-greeks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM15",
+      "collections": [
+        "main"
+      ],
+      "question": "Что показывает Gamma опциона?",
+      "concept": "deriv-option-greeks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM16",
+      "collections": [
+        "main"
+      ],
+      "question": "Что показывает Theta опциона в обычной трактовке?",
+      "concept": "deriv-option-greeks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM17",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем используют процентный своп «платим фиксированную — получаем плавающую» вместе с облигацией с фиксированным купоном?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM18",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему asset swap не делает корпоративную облигацию полностью безрисковой?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM19",
+      "collections": [
+        "main"
+      ],
+      "question": "Что такое базисный риск при хеджировании?",
+      "concept": "deriv-basis",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM20",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем в хеджировании важен размер позиции (hedge ratio)?",
+      "concept": "deriv-basis",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM21",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему cash-and-carry с покупкой облигации, РЕПО и продажей фьючерса может принести убыток?",
+      "concept": "deriv-carry",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM22",
+      "collections": [
+        "main"
+      ],
+      "question": "Для чего участник рынка может купить put на принадлежащую ему акцию?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM23",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает плечо 5x при анализе доходности собственного капитала, если прочие условия заданы упрощённо?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PM24",
+      "collections": [
+        "main"
+      ],
+      "question": "Что отличает структурный продукт от прямой покупки одного базового актива?",
+      "concept": "deriv-structured",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO01",
+      "collections": [
+        "main"
+      ],
+      "question": "Импортёр должен купить 1 млн долларов через 3 месяца и боится роста USD/RUB. Объясните направление фьючерсного хеджа и его ограничение.",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO02",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему при покупке опциона put инвестор сохраняет потенциал роста актива и платит премию за защиту?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO03",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания заключила своп: платит фиксированную ставку 12%, получает RUONIA. RUONIA выросла с 10% до 14%. Как меняется чистый поток по свопу, если ставки применяются к одной базе?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO04",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему длительное удержание дельта-нейтральной опционной позиции не гарантирует нулевого рыночного риска?",
+      "concept": "deriv-option-greeks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO05",
+      "collections": [
+        "main"
+      ],
+      "question": "Трейдер покупает облигацию через РЕПО и продаёт фьючерс с фиксируемым спредом. Назовите минимум три реальных источника возможных убытков.",
+      "concept": "deriv-carry",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO06",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему компания может предпочесть опцион фьючерсу для хеджирования будущей закупки?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO07",
+      "collections": [
+        "main"
+      ],
+      "question": "Что остаётся риском для владельца корпоративной облигации после превращения фиксированного купона в RUONIA + спред через asset swap?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PO08",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему структурный продукт с обещанием повышенного купона может иметь неожиданный убыток для инвестора?",
+      "concept": "deriv-structured",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-001",
+      "collections": [
+        "main"
+      ],
+      "question": "Небольшой банк формально соблюдает норматив капитала и ежедневно сталкивается с оттоком средств клиентов. Какой риск проявился в первую очередь?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-002",
+      "collections": [
+        "main"
+      ],
+      "question": "Банк продаёт клиенту сложный структурный продукт. Почему раскрытие условий выплат особенно важно?",
+      "concept": "deriv-structured",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-003",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой показатель непосредственно предназначен для ограничения риска недостаточности банковского капитала?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-004",
+      "collections": [
+        "main"
+      ],
+      "question": "Регулятор требует от банка провести стресс-тест кредитного портфеля. Какова главная цель?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-005",
+      "collections": [
+        "main"
+      ],
+      "question": "Что отличает банковский кредит от обычного займа по российской правовой модели?",
+      "concept": "reg-banking-law",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-006",
+      "collections": [
+        "main"
+      ],
+      "question": "Два института осуществляют похожие операции и подпадают под разные требования. Какой риск возникает для регулирования?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-007",
+      "collections": [
+        "main"
+      ],
+      "question": "Кому в стандартной модели принадлежит обязанность возвратить вклад физическому лицу?",
+      "concept": "reg-deposits",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-008",
+      "collections": [
+        "main"
+      ],
+      "question": "Клиент размещает средства на брокерском счёте. Почему это не тождественно банковскому вкладу?",
+      "concept": "reg-deposits",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-009",
+      "collections": [
+        "main"
+      ],
+      "question": "Какова основная задача центрального контрагента при клиринге биржевых сделок?",
+      "concept": "reg-market-infra",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-010",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем банку ограничивать концентрацию кредитов на одном заёмщике?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-011",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой показатель используют при оценке способности физического лица обслуживать долг из его доходов?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-012",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания заключает договор факторинга. Какова экономическая суть операции?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-013",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему высокий уровень капитала банка не исключает возможность его банкротства при паническом оттоке вкладов?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-014",
+      "collections": [
+        "main"
+      ],
+      "question": "Как изменится риск финансовой системы, если одинаковые операции перенести из банков в слабо регулируемые компании?",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-015",
+      "collections": [
+        "main"
+      ],
+      "question": "Зачем при выдаче крупного корпоративного кредита банк изучает прибыль за прошлый год и будущие денежные потоки?",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-016",
+      "collections": [
+        "main"
+      ],
+      "question": "Объясните отличие надзорного требования от рыночного стимула в управлении риском банка.",
+      "concept": "reg-oversight",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-017",
+      "collections": [
+        "main"
+      ],
+      "question": "У банка много качественных кредитов и мало ликвидных активов. Какую угрозу создаёт несоответствие сроков активов и пассивов?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-018",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания выбирает между банковским кредитом и выпуском облигаций. Назовите три фактора выбора.",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-019",
+      "collections": [
+        "main"
+      ],
+      "question": "Облигация с фиксированными денежными потоками торгуется с доходностью 12%. Рыночная требуемая доходность выросла до 14%. Что произойдёт с её ценой?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-020",
+      "collections": [
+        "main"
+      ],
+      "question": "Какая облигация обычно сильнее отреагирует ценой на одинаковое изменение доходности, если прочие условия сопоставимы?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-021",
+      "collections": [
+        "main"
+      ],
+      "question": "Если модифицированная дюрация облигации 4, какой ориентировочный эффект даст рост доходности на 0,5 процентного пункта?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-022",
+      "collections": [
+        "main"
+      ],
+      "question": "Что обычно произойдёт с ценой корпоративной облигации, если её кредитный спред расширится при неизменной кривой безрисковых ставок?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-023",
+      "collections": [
+        "main"
+      ],
+      "question": "Что измеряет DV01 облигации?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-024",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему инвестор может предпочесть RGBITR индексу RGBI при оценке полной доходности портфеля ОФЗ?",
+      "concept": "debt-index",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-025",
+      "collections": [
+        "main"
+      ],
+      "question": "Что может сделать эмитент при падении рыночных ставок, если облигация допускает досрочное погашение по call?",
+      "concept": "debt-call",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-026",
+      "collections": [
+        "main"
+      ],
+      "question": "Какой эффект чаще всего даёт рост просрочки по кредитам внутри секьюритизированного пула?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-027",
+      "collections": [
+        "main"
+      ],
+      "question": "Банк финансирует долгую позицию ежедневным РЕПО. Какой риск он принимает?",
+      "concept": "debt-repo",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-028",
+      "collections": [
+        "main"
+      ],
+      "question": "Что в первую очередь отражает RUONIA?",
+      "concept": "debt-benchmarks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-029",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему купон по флоатеру RUONIA+спред не всегда моментально изменяется при решении ЦБ о ставке?",
+      "concept": "debt-floaters",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-030",
+      "collections": [
+        "main"
+      ],
+      "question": "Какая характеристика лучше всего описывает «чистую» цену облигации?",
+      "concept": "debt-dirty",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-031",
+      "collections": [
+        "main"
+      ],
+      "question": "Два выпуска имеют одинаковую доходность к погашению. Первый погашается через год, второй через десять лет. Почему второй обычно чувствительнее к изменению ставок?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-032",
+      "collections": [
+        "main"
+      ],
+      "question": "У облигации цена 1000 руб., MD = 5 лет. Доходность выросла на 20 базисных пунктов. Оцените цену линейно.",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-033",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему рост кредитного спреда может привести к снижению цены облигации даже при неизменной ключевой ставке?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-034",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор купил флоатер с купоном RUONIA + 2%. Какие два риска сохраняются, несмотря на привязку купона к ставке?",
+      "concept": "debt-floaters",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-035",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему в секьюритизации младший транш может нести убытки, когда старший продолжает получать платежи?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-036",
+      "collections": [
+        "main"
+      ],
+      "question": "Цена облигации упала после повышения рыночных ставок. Означает ли это, что держатель обязательно понёс реализованный убыток?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-037",
+      "collections": [
+        "main"
+      ],
+      "question": "Прибыль, приходящаяся на обыкновенные акции, составляет 500 млн руб.; средневзвешенное число таких акций за период — 100 млн. Чему равна EPS?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-038",
+      "collections": [
+        "main"
+      ],
+      "question": "Акция стоит 120 руб., прибыль на акцию равна 10 руб. Каков P/E?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-039",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему P/E отрицательной по прибыли компании не даёт обычного интерпретируемого мультипликатора?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-040",
+      "collections": [
+        "main"
+      ],
+      "question": "Капитализация компании 8 млрд руб., собственный капитал по балансу 4 млрд руб. Каков P/BV?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-041",
+      "collections": [
+        "main"
+      ],
+      "question": "Какое событие при прочих равных условиях приводит к размыванию доли владельца 10% акций?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-042",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания впервые предлагает акции широкому кругу инвесторов (IPO). Чем эта операция отличается от обычной сделки двух инвесторов на вторичном рынке?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-043",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания выплатила дивиденды 8 руб. на акцию при цене 200 руб. Какова дивидендная доходность на эту цену?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-044",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему падение котировки на величину дивиденда в дату отсечки не означает автоматически, что инвестор потерял весь дивиденд?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-045",
+      "collections": [
+        "main"
+      ],
+      "question": "Для чего нужен индекс полной доходности акций (Total Return)?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-046",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор сравнивает два фонда на одинаковый индекс. Какой фактор непосредственно уменьшает его итоговую доходность при прочих равных?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-047",
+      "collections": [
+        "main"
+      ],
+      "question": "Что характеризует стоимость чистых активов фонда (СЧА)?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-048",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему риск отраслевого биржевого фонда часто выше специфического риска широкого рыночного фонда?",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-049",
+      "collections": [
+        "main"
+      ],
+      "question": "Две компании имеют одинаковый P/E = 8. Почему нельзя автоматически признать их одинаково недооценёнными?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-050",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор купил акцию за 100 руб., продал за 108 руб. и получил дивиденд 5 руб. Оцените полную доходность без реинвестирования и налогов.",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-051",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему инвестор в БПИФ на облигации может получить отрицательную доходность за квартал, даже если облигации выплачивают купоны?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-052",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания выпустила новые акции и привлекла деньги. Почему EPS может снизиться даже при росте абсолютной прибыли?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-053",
+      "collections": [
+        "main"
+      ],
+      "question": "Для чего оценивать доходность фонда после комиссий и сравнивать её с подходящим бенчмарком?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-054",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор собирается купить акции на деньги, нужные через два месяца. Назовите два обстоятельства, из-за которых решение рискованно.",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-055",
+      "collections": [
+        "main"
+      ],
+      "question": "Импортёр ожидает платёж в долларах через три месяца и опасается роста USD/RUB. Какая позиция по валютному форварду соответствует хеджу?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-056",
+      "collections": [
+        "main"
+      ],
+      "question": "Экспортёр получит валютную выручку через полгода. Какой инструмент может зафиксировать рублёвую стоимость будущей выручки?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-057",
+      "collections": [
+        "main"
+      ],
+      "question": "Покупатель колл-опциона на акцию получает:",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-058",
+      "collections": [
+        "main"
+      ],
+      "question": "Покупатель пут-опциона на акцию получает:",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-059",
+      "collections": [
+        "main"
+      ],
+      "question": "Трейдер купил колл-опцион, срок истёк, цена базового актива ниже страйка. Что обычно происходит?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-060",
+      "collections": [
+        "main"
+      ],
+      "question": "Фьючерсная позиция движется против трейдера. Какой механизм может потребовать дополнительных денег до истечения контракта?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-061",
+      "collections": [
+        "main"
+      ],
+      "question": "Что означает базисный риск при хеджировании фьючерсом?",
+      "concept": "deriv-basis",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-062",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания имеет плавающий кредит RUONIA + 3% и хочет зафиксировать процентные расходы. Какой стандартный IRS нужен?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-063",
+      "collections": [
+        "main"
+      ],
+      "question": "Процентный своп «платим 12% фиксировано — получаем RUONIA» имеет номинал 10 млн. При RUONIA 14% годовых какой чистый годовой процентный поток без учёта деталей расчёта?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-064",
+      "collections": [
+        "main"
+      ],
+      "question": "Что произойдёт с временной стоимостью обычного опциона при приближении к экспирации, если остальные условия фиксированы?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-065",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор держит облигацию и купил CDS на того же эмитента. Какой риск в первую очередь он стремится компенсировать?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-066",
+      "collections": [
+        "main"
+      ],
+      "question": "Трейдер утверждает, что дельта-нейтральный портфель опционов не зависит от движения базового актива при любом размере изменения цены. Почему утверждение неверно?",
+      "concept": "deriv-option-greeks",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-067",
+      "collections": [
+        "main"
+      ],
+      "question": "Импортёр выбирает между валютным форвардом и опционом call на валюту. Сравните результат при росте и снижении валютного курса.",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-068",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания имеет кредит RUONIA + 2%. Она заключила своп, платит фиксированные 11%, получает RUONIA. Какова синтетическая ставка по кредиту?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-069",
+      "collections": [
+        "main"
+      ],
+      "question": "Почему покупка опциона put страхует падение курса акций иначе, чем короткая позиция по фьючерсу?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-070",
+      "collections": [
+        "main"
+      ],
+      "question": "Фьючерсное хеджирование показывает положительный расчётный итог к дате исполнения. Участник закрыл позицию досрочно с убытком. Как это возможно?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-071",
+      "collections": [
+        "main"
+      ],
+      "question": "Поясните на примере корпоративной облигации, почему asset swap не исключает все риски.",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "V2-072",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания продаёт товары по цене, зависящей от нефти, и хочет зафиксировать минимальную выручку. Почему использование фьючерса на другую марку нефти не даёт идеальный хедж?",
+      "concept": "deriv-basis",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-01-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Что прежде всего определяет страховой полис?",
+      "concept": "INS-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-01-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Какова выплата при ущербе 80 тыс. руб., безусловной франшизе 10 тыс. и лимите 200 тыс. руб.?",
+      "concept": "INS-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-02-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Кто прежде всего оценивает риск при принятии договора на страхование?",
+      "concept": "INS-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-02-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Какой объект защищает ОСАГО?",
+      "concept": "INS-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-03-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Верно ли, что коэффициент выплат 60% доказывает прибыль страховщика 40%?",
+      "concept": "INS-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-03-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Перед кем по прямому договору обычно несёт обязательство страховщик, перестраховавший часть риска?",
+      "concept": "INS-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-01-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Какая модель предполагает формирование инвестиционных активов для будущих пенсионных выплат?",
+      "concept": "PEN-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-01-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Какой орган ведёт государственную систему учёта пенсионных прав и соответствующие выплаты?",
+      "concept": "PEN-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-02-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Какие средства формируются для исполнения обязательств по негосударственным пенсиям НПО?",
+      "concept": "PEN-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-02-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Где заключается договор ПДС?",
+      "concept": "PEN-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LEASE-01-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Кто обычно приобретает предмет лизинга у продавца и передаёт его пользователю?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LEASE-01-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Что происходит при возвратном лизинге?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FACTOR-01-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Какова сумма аванса по требованию на 500 тыс. руб. при доле финансирования 80%?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FACTOR-01-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Как обычно распределён кредитный риск покупателя в форфейтинге?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "MARKET-01-1-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Кто обычно исполняет поручение частного инвестора на покупку акции?",
+      "concept": "MARKET-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "MARKET-01-2-Q",
+      "collections": [
+        "main",
+        "course-extra"
+      ],
+      "question": "Кто управляет имуществом ПИФ в рамках правил фонда?",
+      "concept": "MARKET-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-R01",
+      "collections": [
+        "main"
+      ],
+      "question": "У банка растёт объём кредитов, а привлечённые средства преимущественно краткосрочные. Какие выводы об устойчивости обоснованны?",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-R02",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения об институтах российского финансового рынка корректны?",
+      "concept": "reg-market-infra",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-R03",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания выбирает между банковским кредитом и облигационным выпуском. Какие соображения обоснованны?",
+      "concept": "reg-project",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-R04",
+      "collections": [
+        "main"
+      ],
+      "question": "Поставщик уступает фактору денежное требование к покупателю. Какие утверждения корректны?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-D01",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор сравнивает две облигации с одинаковыми денежными потоками и разной требуемой доходностью. Какие утверждения верны?",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-D02",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения о дюрации и выпуклости обычной облигации с фиксированными выплатами верны?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-D03",
+      "collections": [
+        "main"
+      ],
+      "question": "Участник получает финансирование через РЕПО под облигации. Какие факторы могут потребовать дополнительного обеспечения?",
+      "concept": "debt-repo",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-D04",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения о классической секьюритизации кредитного портфеля корректны?",
+      "concept": "debt-securitization",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-E01",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания проводит дополнительный выпуск акций и продаёт новые бумаги инвесторам. Какие утверждения обоснованны?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-E02",
+      "collections": [
+        "main"
+      ],
+      "question": "Инвестор оценивает результат владения акцией и сравнивает индексы. Какие утверждения верны?",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-E03",
+      "collections": [
+        "main"
+      ],
+      "question": "Две компании имеют близкий P/E. Какие дополнительные проверки необходимы для корректного сравнения?",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-E04",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения о диверсификации и модели CAPM обоснованны?",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-P01",
+      "collections": [
+        "main"
+      ],
+      "question": "Российский импортёр через три месяца должен купить валюту. Какие действия способны снизить риск её удорожания?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-P02",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие особенности фьючерсной позиции необходимо учитывать при её применении для хеджирования?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-P03",
+      "collections": [
+        "main"
+      ],
+      "question": "Какие утверждения об обычных опционах и рисках держателя корректны?",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXM-P04",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания платит плавающую ставку по кредиту и заключает процентный своп: платит фиксированную, получает плавающую. Какие выводы допустимы?",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-R01",
+      "collections": [
+        "main"
+      ],
+      "question": "Поставщик рассматривает факторинг с регрессом и без регресса. Какое утверждение наиболее точно описывает разницу при неплатеже покупателя?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-R02",
+      "collections": [
+        "main"
+      ],
+      "question": "Лизингодатель предлагает низкий ежемесячный платёж, но высокий выкупной платёж в конце срока. Что корректнее сравнивать с альтернативным предложением?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-D01",
+      "collections": [
+        "main"
+      ],
+      "question": "Доходность корпоративных облигаций выросла из-за расширения кредитного спреда при неизменной безрисковой кривой. Какой вывод для обычной фиксированной облигации наиболее обоснован?",
+      "concept": "debt-credit-spread",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-D02",
+      "collections": [
+        "main"
+      ],
+      "question": "У двух облигаций близкая модифицированная дюрация, но разная выпуклость. При значительном одинаковом изменении доходности что следует учитывать?",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-E01",
+      "collections": [
+        "main"
+      ],
+      "question": "Индекс полной доходности акций растёт быстрее ценового индекса на длинном интервале. Какое объяснение наиболее вероятно при сопоставимой методике расчёта?",
+      "concept": "equity-funds",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-E02",
+      "collections": [
+        "main"
+      ],
+      "question": "Для расчёта EPS средневзвешенное число акций за период выросло на 20%, а соответствующая прибыль не изменилась. Какой эффект на EPS следует ожидать без других изменений?",
+      "concept": "equity-issuance",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-P01",
+      "collections": [
+        "main"
+      ],
+      "question": "Экспортёр получит валюту через три месяца. Какой инструмент непосредственно фиксирует рублёвую цену её будущей продажи?",
+      "concept": "deriv-fx-hedge",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXS-P02",
+      "collections": [
+        "main"
+      ],
+      "question": "Трейдеру выгодна конечная фьючерсная цена, однако позицию закрывают до срока из-за отсутствия денег на вариационную маржу. Какой риск реализовался?",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-R01",
+      "collections": [
+        "main"
+      ],
+      "question": "Банк получил процентные доходы 18 млн руб. и понёс процентные расходы 12 млн руб. Средний объём работающих активов 150 млн руб. Чему равна упрощённая чистая процентная маржа в процентах? Введите только число.",
+      "concept": "reg-capital",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-R02",
+      "collections": [
+        "main"
+      ],
+      "question": "Фактор финансирует 80% требования на 2,5 млн руб. и сразу удерживает комиссию 1,5% от всей суммы требования. Сколько рублей фактически получит поставщик первоначально? Введите число.",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-R03",
+      "collections": [
+        "main"
+      ],
+      "question": "По лизинговому договору предусмотрены 24 платежа по 20 тыс. руб. и выкуп за 40 тыс. руб. Сколько тысяч рублей составит номинальная сумма платежей без дисконтирования? Введите число.",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-R04",
+      "collections": [
+        "main"
+      ],
+      "question": "У компании в ближайший месяц ожидаемые денежные выплаты составят 90 млн руб., а доступные ликвидные средства — 72 млн руб. Каков разрыв ликвидности в млн руб. без новых привлечений? Введите положительное число дефицита.",
+      "concept": "reg-credit-lines",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-D01",
+      "collections": [
+        "main"
+      ],
+      "question": "Бескупонная облигация покупается за 900 руб. и погашается через один год по 1000 руб. Чему равна простая годовая доходность к погашению в процентах? Введите число с точностью до сотых.",
+      "concept": "debt-pricing",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-D02",
+      "collections": [
+        "main"
+      ],
+      "question": "Чистая цена облигации составляет 985,40 руб., накопленный купонный доход — 12,60 руб. Чему равна грязная цена в рублях? Введите число.",
+      "concept": "debt-dirty",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-D03",
+      "collections": [
+        "main"
+      ],
+      "question": "Модифицированная дюрация облигации 4,8. Требуемая доходность выросла на 0,5 процентного пункта. На сколько процентов приблизительно изменится цена по линейной оценке? Введите число со знаком.",
+      "concept": "debt-duration",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-D04",
+      "collections": [
+        "main"
+      ],
+      "question": "В сделке РЕПО рыночная стоимость обеспечения равна 100 млн руб., дисконт к ней — 5%. Каков максимально учитываемый объём обеспечения в млн руб. в упрощённом расчёте? Введите число.",
+      "concept": "debt-repo",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-E01",
+      "collections": [
+        "main"
+      ],
+      "question": "Компания выплатила 7,50 руб. дивидендов на акцию. Рыночная цена акции 150 руб. Рассчитайте дивидендную доходность в процентах по этой цене. Введите число.",
+      "concept": "equity-dividends",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-E02",
+      "collections": [
+        "main"
+      ],
+      "question": "Капитализация компании — 96 млрд руб., чистая прибыль за год — 12 млрд руб. Чему равен коэффициент P/E? Введите число без единиц.",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-E03",
+      "collections": [
+        "main"
+      ],
+      "question": "Начальные доли двух акций в портфеле — 30% и 70%. Их доходности за один период равны 10% и −2%. Какова доходность портфеля в процентах без пополнений, изъятий, ребалансировки и комиссий? Введите число.",
+      "concept": "equity-risk",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-E04",
+      "collections": [
+        "main"
+      ],
+      "question": "Капитализация компании — 700 млн руб., долг — 250 млн руб., денежные средства — 90 млн руб. Найдите упрощённую стоимость бизнеса EV в млн руб. Введите число.",
+      "concept": "equity-pe",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-P01",
+      "collections": [
+        "main"
+      ],
+      "question": "Спотовая цена актива 100 руб., годовая простая ставка финансирования 8%, до исполнения форварда 6 месяцев, доходов актива нет. Какова теоретическая форвардная цена в рублях при простом начислении? Введите число.",
+      "concept": "deriv-carry",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-P02",
+      "collections": [
+        "main"
+      ],
+      "question": "Куплен европейский call со страйком 95 руб. и премией 8 руб. За базовый актив на дату исполнения платят 120 руб. Каков результат по одному опциону на дату истечения в рублях без комиссий? Введите число.",
+      "concept": "deriv-options",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-P03",
+      "collections": [
+        "main"
+      ],
+      "question": "По процентному свопу компания получает плавающую ставку 12,1% и платит фиксированную 10,5% на номинал 20 млн руб. за период 0,25 года. Каков чистый платёж, получаемый компанией, в тысячах рублей? Введите число.",
+      "concept": "deriv-swap",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "EXN-P04",
+      "collections": [
+        "main"
+      ],
+      "question": "Куплен фьючерсный контракт на 1000 единиц актива по цене 105 руб. за единицу. Расчётная цена выросла до 111 руб. Какова положительная вариационная маржа в рублях без комиссий? Введите число.",
+      "concept": "deriv-margin",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ01",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что прежде всего характеризует субординацию долга?",
+      "concept": "S1-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ02",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что отличает долговой ЦФА от обычной биржевой облигации в контексте презентации?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ03",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какой индекс лучше использовать для сравнения полной доходности портфеля ОФЗ с рыночным ориентиром?",
+      "concept": "S1-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ04",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какой денежный поток может влиять на результат удержания вечного фьючерса?",
+      "concept": "S2-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ05",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что означает дневной VaR 95% = 1 млн руб. при применимости модели?",
+      "concept": "S2-07",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ06",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какое ограничение характерно для дельта-нормального VaR?",
+      "concept": "S2-07",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ07",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что обычно происходит с временной стоимостью стандартного опциона при приближении экспирации при прочих равных?",
+      "concept": "S2-09",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ08",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что означает рост implied volatility при прочих равных для обычного покупного опциона?",
+      "concept": "S2-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ09",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Когда у барьерной структурной облигации может перестать действовать условная защита капитала?",
+      "concept": "S2-11",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ10",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем особенно характеризуется autocall в структурном продукте?",
+      "concept": "S2-11",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ11",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему позиция «нейтральна по DV01» не гарантирует нулевой P&L при изменении ставок?",
+      "concept": "S1-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ12",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что чаще всего означает нарушение финансового ковенанта?",
+      "concept": "S1-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ13",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какая конструкция обычно относится к FX swap?",
+      "concept": "S2-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ14",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что означает 60%-ное валютное хеджирование будущего платежа?",
+      "concept": "S2-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ15",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что следует определить до выбора числа фьючерсных контрактов для хеджирования?",
+      "concept": "S2-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ17",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какой признак является существенным для разграничения обычной облигации и векселя?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ18",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему длительное удержание вечного фьючерса может иметь дополнительные расходы?",
+      "concept": "S2-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LQ16",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какой риск сохраняется у позиции с Delta, близкой к нулю?",
+      "concept": "S2-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-001",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какой орган обычно осуществляет общее руководство акционерным обществом?",
+      "concept": "E-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-001O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему владение 30% акций не означает автоматическое право принять любое решение?",
+      "concept": "E-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-002",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Если 40 из 100 млн акций находятся в свободном обращении, каков free-float?",
+      "concept": "E-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-002O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем различаются полная капитализация и капитализация свободного обращения?",
+      "concept": "E-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-003",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что означает листинг акции?",
+      "concept": "E-07",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-003O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему делистинг обычно увеличивает операционные сложности для инвестора?",
+      "concept": "E-07",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-004",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Кто обычно получает деньги при продаже ранее выпущенных акций действующим акционером на SPO?",
+      "concept": "E-07",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-004O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие этапы нужны компании до первого публичного размещения?",
+      "concept": "E-07",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-005",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "В модели Гордона при r=12% и g=5% какое условие соблюдается?",
+      "concept": "E-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-005O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему нельзя использовать модель Гордона при r≤g?",
+      "concept": "E-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-006",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что обязательно делают с терминальной стоимостью на конец второго года?",
+      "concept": "E-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-006O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что следует проверить в прогнозе двухфазной DDM?",
+      "concept": "E-08",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-007",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что используется для расчёта весов акций в IMOEX?",
+      "concept": "E-09",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-007O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему акция с самой высокой ценой может иметь небольшой вес в индексе?",
+      "concept": "E-09",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-008",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "За период ценовой индекс акций снизился, а индекс полной доходности вырос. Как это возможно?",
+      "concept": "E-09",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-008O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему доходность реального индексного фонда может отличаться от показателя индекса полной доходности, даже если набор акций близок?",
+      "concept": "E-09",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-009",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Корреляция доходностей двух активов может принимать какое значение?",
+      "concept": "E-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-009O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "У двух портфелей схожая ожидаемая доходность, но активы первого движутся почти синхронно, а второго — менее согласованно. Почему их риск может различаться?",
+      "concept": "E-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-010",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какой портфель эффективнее при равной ожидаемой доходности и иных равных условиях?",
+      "concept": "E-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-010O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему оптимальные веса Марковица могут оказаться нестабильными?",
+      "concept": "E-10",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-011",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Если β=0 в CAPM, чему равна требуемая доходность модели?",
+      "concept": "E-11",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-011O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие входные параметры нужны для расчёта CAPM?",
+      "concept": "E-11",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-012",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какая метрика использует только неблагоприятные отклонения ниже порога?",
+      "concept": "E-11",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-012O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему нельзя выбирать лучший фонд только по максимальной доходности?",
+      "concept": "E-11",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-013",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какая последовательность соответствует восходящему тренду в классическом описании?",
+      "concept": "E-12",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-013O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему наблюдение графической фигуры не доказывает прибыльность стратегии?",
+      "concept": "E-12",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-014",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Для чего в классическом подходе нужны подтверждающие индикаторы?",
+      "concept": "E-12",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-014O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие элементы нужны, чтобы превратить идею тренда в проверяемую стратегию?",
+      "concept": "E-12",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-015",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что происходит с относительным убытком собственного капитала при плече 2 и падении позиции на 10% без издержек?",
+      "concept": "E-13",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-015O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие дополнительные риски возникают при торговле с плечом?",
+      "concept": "E-13",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-016",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "При S=90, Mx=50 и отсутствии дополнительных слагаемых НПР2 равен?",
+      "concept": "E-13",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "runtime_correction",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "S3-016O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "В каком случае у брокера возникает обязанность закрыть позиции по Указанию 6681-У?",
+      "concept": "E-13",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-01-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие элементы полиса следует проверить перед покупкой?",
+      "concept": "INS-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-01-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем в типовой модели различаются условная и безусловная франшизы?",
+      "concept": "INS-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-02-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Назовите роли пяти участников договора и урегулирования страхового случая.",
+      "concept": "INS-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-02-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Объясните назначение личного, имущественного страхования и страхования ответственности.",
+      "concept": "INS-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-03-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Что нужно учесть при переходе от ожидаемого убытка к страховому тарифу?",
+      "concept": "INS-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "INS-03-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему перестрахование не устраняет все риски страховщика?",
+      "concept": "INS-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-01-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Разграничьте страховую пенсию, накопительную и негосударственную.",
+      "concept": "PEN-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-01-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему размер страховых взносов нельзя напрямую считать личным накопительным счётом?",
+      "concept": "PEN-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-02-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем отличаются функции НПФ, управляющей компании и специализированного депозитария?",
+      "concept": "PEN-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "PEN-02-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Назовите три фактора, влияющих на будущую сумму средств по ПДС.",
+      "concept": "PEN-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LEASE-01-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие положения договора лизинга нужно учесть при сравнении с кредитом?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "LEASE-01-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему недостаточно сравнивать только месячный платёж лизинга и кредита?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FACTOR-01-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Как различается распределение риска неоплаты при факторинге с регрессом и без регресса?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FACTOR-01-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие особенности форфейтинга важны при сравнении с факторингом?",
+      "concept": "FACTOR-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "MARKET-01-1-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему квалификация инвестора и гарантированная доходность не связаны напрямую?",
+      "concept": "MARKET-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "MARKET-01-2-O",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем отличается ПИФ от банковского вклада?",
+      "concept": "MARKET-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-01",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие факторы относятся к предпосылкам финансовых решений?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-02",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему будущие 1000 рублей обычно оценивают иначе, чем 1000 рублей сегодня?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-03",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие примеры соответствуют поведенческим искажениям инвестора?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-04",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Почему обнаружить неправильную оценку рынка недостаточно для гарантированной прибыли?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-05",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие утверждения о цифровом рубле верны по информации Банка России?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-06",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем различаются безналичные деньги на счёте и цифровой рубль?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-07",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Какие функции относятся к национальной платёжной инфраструктуре?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI509-08",
+      "collections": [
+        "course-extra"
+      ],
+      "question": "Чем отличаются СБП и система платёжных карт «Мир» по основному назначению?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-01-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания выпускает новые акции и получает 10 млн ₽. Это операция какого рынка?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-01-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания размещает средства на 20 дней до крупного платежа. К какому сегменту относится такое краткосрочное финансирование?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-01-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Предприятие привлекает деньги выпуском облигаций на семь лет. Какой рынок обеспечивает это долгосрочное финансирование?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-01-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания выбирает кредит, облигации или выпуск акций для строительства цеха. Какие права получат инвесторы в каждом случае?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-01-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему перепродажа уже выпущенных акций обычно не даёт новых денег эмитенту?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-02-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Инвестор купил облигацию через брокера. Какая организация ведёт учёт прав на неё?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-02-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "У брокерского клиента ценные бумаги учитываются через цепочку депозитариев. Какая инфраструктурная организация выполняет специальную центральную учётную функцию?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-02-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "После биржевой сделки одна сторона может не исполнить обязательство. Кто в клиринговой схеме становится стороной по обязательствам и управляет соответствующим риском?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-02-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Покупка акции проходит через брокера и биржу. Зачем отдельно нужны клиринг и депозитарий?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-02-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Чем центральный контрагент отличается от центрального депозитария?",
+      "concept": "R-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-03-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему регулятор устанавливает требования к достаточности капитала банка?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-03-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Надзорный орган обнаружил нарушение и требует его устранить. Что он осуществляет в этом случае?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-03-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Регулятор проверяет капитал и ликвидность банков, чтобы снизить вероятность их неспособности выполнять обязательства. Это пример какого надзора?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-03-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Как различить регулирование финансовой организации и надзор за ней?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-03-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему недостаточно проверять только прибыль банка при оценке его устойчивости?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-04-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "К кому относится надзор за профессиональным взысканием просроченных долгов по установленной законом процедуре?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-04-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания размещает собственные облигации для финансирования строительства. Какова её роль на рынке?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-04-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания выпускает цифровое денежное требование в специальной информационной системе. Кто обеспечивает работу предусмотренной законом системы учёта выпуска и обращения ЦФА?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-04-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему компетенция регулятора зависит от вида деятельности организации?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-04-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему профессиональное взыскание долгов нельзя автоматически отнести к надзору за банками?",
+      "concept": "R-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-05-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Банк предлагает клиенту вклад и брокерскую покупку облигации. Как корректно оценить защиту?",
+      "concept": "R-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-05-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Организация принимает вклады физических лиц и ведёт банковские счета на основании соответствующей лицензии. Какова её роль?",
+      "concept": "R-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-05-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Небольшой банк оценивает, какие операции ему разрешены по его конкретному виду лицензии. Что важно проверить?",
+      "concept": "R-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-05-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему банковский вклад и облигация в брокерском приложении имеют разные гарантии?",
+      "concept": "R-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-05-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Что нужно проверить до открытия кредитной организацией нового направления бизнеса?",
+      "concept": "R-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-06-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Кредиты банка прибыльны, но вкладчики сегодня требуют крупные выплаты. Какой риск проявляется?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-06-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Банк прибыльный, но сегодня вкладчики требуют больше выплат, чем он может быстро обеспечить денежными средствами. Какая проблема возникает?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-06-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Большая часть кредитного портфеля банка приходится на одного заёмщика. Какой риск особенно усиливается?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-06-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему устойчивый на бумаге банк может столкнуться с недостатком денег?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-06-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Что означает риск несоответствия сроков активов и пассивов для Н4?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-07-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Чем цифровой рубль отличается от частной криптовалюты?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-07-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "У клиента 10 000 ₽ на банковском счёте. Что в общем случае отражают эти средства с юридико-экономической точки зрения?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-07-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Инвестору в информационной системе выпустили цифровое право требования платежа к компании. Какой инструмент наиболее соответствует описанию?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-07-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Какие признаки позволяют отличить цифровой рубль от криптовалюты и ЦФА?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-07-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Как связаны банки, СБП и платёжная система «Мир»?",
+      "concept": "R-06",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-08-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Проект требует вложить сегодня 100 ₽ и обещает 110 ₽ через год. При требуемой доходности 20% NPV...",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-08-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Проект требует сегодня 900 тыс. ₽, а через год принесёт 1 млн ₽. Какой метод учитывает стоимость денег во времени при оценке проекта?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-08-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Безрисковая ставка равна 5%, премия рынка — 7%, бета акции — 1,2. Какую требуемую доходность даёт CAPM?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-08-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Зачем дисконтировать будущие денежные потоки при оценке инвестиционного проекта?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-08-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему даже правильная оценка переоценённости акции не гарантирует прибыль короткой позиции?",
+      "concept": "R-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-09-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "На счёте завода 200 тыс. ₽, сегодня нужно 500 тыс. ₽. Завтра ожидаются поступления. Каков разрыв?",
+      "concept": "S1-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-09-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Завтра компания получит оплату, а сегодня ей не хватает денег на выплату зарплаты. Какая характеристика описывает её проблему?",
+      "concept": "S1-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-09-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Финансовый директор хочет увидеть платежи по датам и заранее обнаружить кассовый разрыв. Какой инструмент ему нужен?",
+      "concept": "S1-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-09-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Сегодня заводу не хватает денег на зарплату, а завтра придёт выручка. Что должен определить казначей?",
+      "concept": "S1-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-10-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Линия на 1 млн ₽ возобновляемая. Выбрали 600 тыс., вернули 400 тыс. Какой лимит доступен при прочих равных?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-10-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Одна коммерческая компания передала другой деньги в долг по договору без участия банка как кредитора. Какая юридическая конструкция подходит?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-10-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания берёт кредит под залог склада. Какую дополнительную функцию выполняет залог?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-10-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Как различается доступная сумма возобновляемой и невозобновляемой линии после погашения транша?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-11-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Кредит с ежемесячным аннуитетом под номинальные 12% годовых. Какую ставку применяем за месяц в простой модели?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-11-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Лимит кредитной линии — 10 млн ₽, выбрано 6 млн, затем погашено 4 млн. По договору лимит восстанавливается. Как называется линия?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-11-2",
+      "collections": [
+        "independent"
+      ],
+      "question": "В кредитной линии банк ограничил общую сумму всех выдач. Погашение старых траншей не увеличивает остаток доступных выдач. Какой это тип?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-11-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "При аннуитетном графике общий платёж постоянен. Почему доля процентов и доля погашения долга внутри него меняются?",
+      "concept": "S1-02",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-12-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Проект планирует 120 млн ₽ свободного денежного потока для обслуживания долга и 100 млн ₽ выплат по долгу. DSCR?",
+      "concept": "S1-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-12-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Для строительства электростанции кредиторы прежде всего оценивают будущую выручку самого проекта и распределение проектных рисков. Какой подход используется?",
+      "concept": "S1-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-12-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Запуск проектного объекта задержан, а кредит нужно обслуживать по прежним датам. Что следует пересчитать?",
+      "concept": "S1-03",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-13-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания выпускает дополнительные акции, старый акционер не покупает новые. Что происходит с его долей?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-13-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Договор займа запрещает компании увеличивать отношение долга к EBITDA сверх согласованного уровня. Как называется это условие?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-13-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему компания при выборе кредита или облигаций сравнивает полную стоимость и ограничения, а не только объявленную ставку?",
+      "concept": "R-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-14-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Завод получает станок в лизинг. Какую важную особенность сделки проверить?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-14-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Лизинговая компания купила станок и передала заводу для использования за регулярные платежи. Кто является лизингополучателем?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-14-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Чем финансирование станка через лизинг отличается от финансирования отсроченной оплаты покупателя через факторинг?",
+      "concept": "LEASE-01",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-15-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Какой инструмент относится к долговым ценным бумагам с особыми обязательными реквизитами?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-15-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Компания оформила долговое обязательство в виде документа с обязательными установленными реквизитами и особым порядком обращения. Что это?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-15-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему одинаковая обещанная денежная сумма по векселю и долговому ЦФА не делает их одним юридическим инструментом?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-16-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "У облигации плавающий купон, привязанный к индикатору. Что возможно при изменении индикатора?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-16-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Купон облигации равен RUONIA за расчётный период плюс договорный спред. Как называется такой тип облигации?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-16-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "У облигации есть call-условие. Как снижение рыночных ставок может изменить будущие поступления её владельца?",
+      "concept": "S1-04",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-17-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Младший транш защищает старший в структуре секьюритизации. Кто в упрощённом waterfall первым поглощает потери?",
+      "concept": "S1-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-M-17-1",
+      "collections": [
+        "independent"
+      ],
+      "question": "Банк сформировал пул ипотечных требований и передал его специальной компании для выпуска облигаций. Как называется банк в этой схеме?",
+      "concept": "S1-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "retained",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    },
+    {
+      "id": "FRI-O-17-0",
+      "collections": [
+        "independent"
+      ],
+      "question": "Почему банк-оригинатор может продолжать принимать платежи заёмщиков после передачи требований SPV?",
+      "concept": "S1-05",
+      "review": "editorial_text_and_answer",
+      "date": "2026-10-26",
+      "decision": "reassigned_to_subject",
+      "sourceVerification": "T-01 separate; not a claim of complete source/legal verification"
+    }
+  ]
+}

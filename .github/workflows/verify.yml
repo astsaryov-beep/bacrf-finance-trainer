@@ -23,6 +23,8 @@ jobs:
         run: node tests/release-check.mjs
       - name: Verify content continuity and justified repetition
         run: node tests/content-dedup-check.mjs
+      - name: Verify conceptual learning and corrected answer keys
+        run: node tests/learning-review-check.mjs
       - name: Verify fixed income strategy mathematics
         run: node tests/strategies-check.mjs
   browser:
@@ -35,7 +37,9 @@ jobs:
       - name: Install browser driver
         run: npm install --no-package-lock --no-save playwright-core@1.56.1
       - name: Test desktop and mobile UI
-        run: node tests/browser-smoke.mjs
+        run: |
+          node tests/browser-smoke.mjs
+          node tests/learning-review-browser.mjs
       - name: Attach screenshots and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
