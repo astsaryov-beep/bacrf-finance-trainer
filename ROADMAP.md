@@ -77,3 +77,7 @@ PLANNED после модульных пакетов. Подтвердить п�
 ## Комплексный прогресс · CP-20261026-030
 
 M01:6/96 рассмотрены, RELEASE_PENDING; остальные90и сквозная приёмка открыты. Общая карта и20соответствий преподавательского теста готовы,54страницы прочитаны/визуально просмотрены с пределами проверки. Семь локальных проверок PASS, браузер/CI/Pages нового выпуска PENDING. Актуальный обзор QUALITY_STATUS.md; следующий M02. Продолжать автономно, T-06 не начинать.
+
+## Подтверждение CP-20261026-031
+
+5.0.28 VERIFIED, M01 принято6/96 с пределами проверки. [PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Остальные90и сквозная приёмка открыты. Далее M02 автономно, T-06 не начинать.

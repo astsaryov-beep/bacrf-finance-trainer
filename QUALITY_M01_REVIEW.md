@@ -1,6 +1,6 @@
 # Комплексный аудит · M01 · казначейство и банковский кредит
 
-26.10.2026. Основа 5.0.27; рабочий пакет 5.0.28 beta. Шесть блоков S1-01…S1-03 проверены совместно по источнику, понятности, точности, практике, экзаменационным пометкам и повторам. Предметная перепроверка и семь локальных программ PASS; браузер и публикация пока PENDING. Полная приёмка курса не заявляется.
+26.10.2026. Основа 5.0.27; рабочий пакет 5.0.28 beta. Шесть блоков S1-01…S1-03 проверены совместно по источнику, понятности, точности, практике, экзаменационным пометкам и повторам. Предметная перепроверка и семь локальных программ PASS; браузер, CI, Pages PASS и live MATCH. Полная приёмка курса не заявляется.
 
 ## Доказательства и границы
 
@@ -52,8 +52,12 @@
 
 Локально PASS: project-state-check, release-check, content-dedup-check, methodical-review-check, teacher-review-check, learning-review-check, strategies-check. Оригинальные 84 формулы сохранены по прежнему контрольному отпечатку; две новые добавлены отдельно, всего 86. Терминов 447. Fingerprints методических решений обновлены для фактически затронутых блоков. Stable 5.0.8 не менялась.
 
-Браузерный teacher-review-browser проверяет раскрытие новых учебных проверок/формул, старый Q13 в курсе, старый Q10 в сессии, повторное сохранение самооценки и настоящий экспорт/импорт истории. До фактического зелёного CI эти результаты PENDING. Полный исходниковый аудит остаётся 90 блоков + сквозная приёмка, а не DONE96/96.
+Браузерный teacher-review-browser проверяет раскрытие новых учебных проверок/формул, старый Q13 в курсе, старый Q10 в сессии, повторное сохранение самооценки и настоящий экспорт/импорт истории. Все эти браузерные проверки фактически PASS в PR и main CI. Полный исходниковый аудит остаётся 90 блоков + сквозная приёмка, а не DONE96/96.
 
 ## Проверочные первичные источники
 
 Проверены 26.10.2026: [операции Банка России](https://www.cbr.ru/oper_br/iro/), [RUONIA](https://www.cbr.ru/hd_base/ruonia/sv_ruonia/), [механизм банковской гарантии Сбербанка](https://www.sberbank.ru/mmb/ru/s_m_business/pro_business/bankovskaya-garantiya-zachem-nuzhna-i-kak-poluchit), [рамочное соглашение и заявка](https://www.sberbank.ru/mmb/help/business/sbbol/cred_legal/101100), [методология корпоративных рейтингов АКРА](https://www.acra-ratings.ru/upload/iblock/8de/cht4ym246q21oi6imvixhfp9kp7suhbh/20250909_ACRA_National_Corporate_FINAL.pdf). Эти ссылки подтверждают конкретные механизмы/различия, а не все исторические числа и все нормы источника. Правовая дата реформы гарантии и табличные условия банковских субордов целиком не проверены; в курс как правило не перенесены.
+
+## Подтверждение первого выпуска
+
+[PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Продуктовый commit `0108a6e429c5f56be008da7766f6067d572f35a6`. Live MATCH: index `2a72b21f28b535962511b2dd43e58657a2f03e4a`, question-review.js `aab1a7dc68eaa834ab8c94217170a8dd5cffd684`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.

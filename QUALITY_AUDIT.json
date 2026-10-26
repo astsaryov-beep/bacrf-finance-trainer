@@ -25,7 +25,7 @@
         "S1-03-0",
         "S1-03-1"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "dependencies": "Existing learner order; prerequisites checked explicitly before use, cross-links collected in issue ledger.",
       "evidence": "QUALITY_M01_REVIEW.md",
       "limits": [
@@ -314,7 +314,7 @@
         "RM19",
         "RO08"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
       "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
@@ -338,7 +338,7 @@
         "V2-028",
         "Q18"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
       "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
@@ -362,7 +362,7 @@
         "RM18",
         "RM13"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
       "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
@@ -386,7 +386,7 @@
         "RM20",
         "RO06"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
       "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
@@ -410,7 +410,7 @@
         "RM22",
         "RO05"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
       "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
@@ -433,7 +433,7 @@
         "LQ01",
         "LQ12"
       ],
-      "status": "REVIEWED_PENDING_BROWSER",
+      "status": "ACCEPTED_WITH_DISCLOSED_LIMITS",
       "priorMethodicalReview": "DONE_5.0.27",
       "sourceCoverage": "CORE_MAPPED_WITH_LIMITS",
       "accuracy": "REVIEWED_WITH_SOURCE_ERRATA",
@@ -11582,8 +11582,17 @@
   ],
   "inspectionCounts": {
     "textAndVisualThisAudit": 54,
-    "moduleBlocksReviewedPendingBrowser": 6,
-    "moduleBlocksAccepted": 0,
+    "moduleBlocksReviewedPendingBrowser": 0,
+    "moduleBlocksAccepted": 6,
     "remainingModuleBlocks": 90
+  },
+  "verification": {
+    "version": "5.0.28 beta",
+    "commit": "0108a6e429c5f56be008da7766f6067d572f35a6",
+    "pr": 40,
+    "prCI": 40318710837,
+    "mainCI": 40319001440,
+    "pages": 40319001017,
+    "live": "MATCH"
   }
 }
