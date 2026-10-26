@@ -405,7 +405,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "CP069:25open/25multi;100multiвпуле351;дальнейшее содержательное покрытие продолжается."
+    "resolution": "CP074:25open/25multi;118multiвпуле369;дальнейшее содержательное покрытие продолжается."
   },
   {
     "id": "QA-049",
@@ -421,7 +421,7 @@
     "status": "IN_PROGRESS",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "CP069:126/309историческихназначенийVERIFIED,183PENDING. РанниеQ01/Q02/Q03/V2-016/RM18/Q18объясненыдо заданий."
+    "resolution": "CP074:162/309историческихназначенийVERIFIED,147PENDING. РанниеQ01/Q02/Q03/V2-016/RM18/Q18объясненыдо заданий."
   },
   {
     "id": "QA-051",
@@ -610,57 +610,113 @@
   {
     "id": "QA-072",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 NSFR prerequisite",
     "finding": "RM16 использует NSFR до объяснения;отдельно нужны капитал,30днейLCR,годовая структурафондирования и ПДН.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-073",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 factoring prerequisite",
     "finding": "V2-012 требует механизма уступки/ролей/потоков до задания,а не только короткого словаря.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-074",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 and M02 open rubrics",
     "finding": "6условий/рубрик требовали лишнее или не проверяли явную часть:RO04/V2-015/V2-018/FRI509-06/FRI509-08/BO08.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-075",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 financial theories",
     "finding": "Не хватало объяснений издержек/институтов/агентскихстимулов/аддитивности/нестабильности и современныхтрендов;спорные даты не заучиватькакфакты.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-076",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 digital money scope",
     "finding": "Три учебныеформы не отменяют юридическую квалификацию цифрового рубля;NFT/ЦФА/стейблкоин/электронныеденьги требуют разныхправ/рисков.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-077",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 payment roles",
     "finding": "Оператор/операционныйцентр/клиринг/расчёт/НСПК/БанкРоссии и QRнуждаются в раздельном объяснении;датированныесрезынепостоянны.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
   },
   {
     "id": "QA-078",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M09 and M02 distractors",
     "finding": "13single/4multi усилены близкимипредметнымивариантами,ключисохранены. Эмпирическая трудностьнеизмерена.",
-    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+    "resolution": "QUALITY_M09_REVIEW.md/CP074:16local/7browser programs PASS;PR54/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
+  },
+  {
+    "id": "QA-079",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 prerequisites",
+    "finding": "SPO/EPSвE010;P/BV/EVвE020;даты/полная доходность/гэпвE030 раньше полного объяснения.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-080",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 valuation bases",
+    "finding": "Цена/EPSи текущая капитализация/прибыль могут различаться при выпуске в течение года.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-081",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 rights and interpretation",
+    "finding": "Права акционера/денежного токена,split/buyback/cash-in-out,отрицательныйEVи доходность требуют условий.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-082",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 and M02 open rubrics",
+    "finding": "EO02/V2-049/EO04/EO01/BO04/V2-035имели скрытые требования или повторяли учебную роль.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-083",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 distractors",
+    "finding": "14singleполучили предметные неверные варианты при сохранении индексов.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-084",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "MC section taxonomy",
+    "finding": "18добавленных ранееMCсеминара1 имели ошибочную категориюregвместоdebt;ID/ответы не менялись.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
+  },
+  {
+    "id": "QA-085",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M10 practice coverage",
+    "finding": "16концептуальныхMCдают знание и кейс8блокам,все опоры до заданий.",
+    "resolution": "QUALITY_M10_REVIEW.md/CP076;локальная и браузерная проверка/CI/Pages/live ожидаются."
   }
 ]

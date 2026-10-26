@@ -782,89 +782,82 @@
     "id": "E-01-0",
     "title": "Обыкновенные и привилегированные акции",
     "status": "REVIEWED",
-    "decision": "Механизм теперь соответствует видам акций и правам, а IPO вынесен в свой блок. Исправлена вводная, подразумевавшая финансирование эмитента при любой покупке акции; уточнены голосование и приоритет префов.",
-    "fingerprint": "62ed9feae61d7009fceabdc3125ccc1cb31cb07c700147137c8917150aff0fca",
+    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
+    "fingerprint": "f94e3005600c80ad7c55d75524fcbc1ab025841f287784e246a3a35ff8799563",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
       "mechanism",
-      "principles",
-      "advanced"
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Материалы курса и школа Мосбиржи: https://school.moex.com/articles/obyknovennye-i-privilegirovannye-akcii-v-chem-raznica-dlya-investora (28.09.2026). Конкретные корпоративные права проверяют по закону и уставу; обещание безусловного дивиденда не вводится."
+    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
   },
   {
     "id": "E-01-1",
     "title": "IPO, SPO и дополнительные выпуски",
     "status": "REVIEWED",
-    "decision": "IPO/SPO разобраны по получателю средств и изменению числа акций, включая смешанное предложение. Пример продажи старого пакета развивает, а не повторяет пример размывания; разводнение доли отделено от стоимости пакета.",
-    "fingerprint": "64168aa5163821ce8421ffb96d4823e8b3f18b75dd06dffe93dec5be76c6ad01",
+    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
+    "fingerprint": "c1a386c089ce5cfb9aebc35e6f962086f1102b9446e437230909ebd0ae08926f",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "mechanism",
-      "application",
-      "principles",
+      "advanced",
+      "glossary",
+      "extraChecks"
+    ],
+    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
+  },
+  {
+    "id": "E-02-0",
+    "title": "EPS и P/E",
+    "status": "REVIEWED",
+    "decision": "M10: согласованы базы P/E во всех определениях; технические сведения о доступе к первичным источникам остаются в отчёте QUALITY_M10_REVIEW.md.",
+    "fingerprint": "79d788ec28be52377d6c58ad8d2b8f566cf42594c0bdb0478ff2fd527c686b84",
+    "reviewedOn": "2026-10-26",
+    "changes": [
       "advanced",
       "glossary"
     ],
     "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
-    "id": "E-02-0",
-    "title": "EPS и P/E",
-    "status": "REVIEWED",
-    "decision": "EPS проверен по относимой прибыли и средневзвешенному числу акций. Добавлены пример изменения базы в середине года, базовый/разводнённый EPS и ограничение интерпретации P/E.",
-    "fingerprint": "7ed93ac86d0d52ff69e6d77b845a653a5292d70b7e4a03119ca01d4293e6755b",
-    "reviewedOn": "2026-10-26",
-    "changes": [
-      "foundation",
-      "principles",
-      "advanced"
-    ],
-    "sourceCheck": "IFRS Foundation, IAS 33: https://www.ifrs.org/issued-standards/list-of-standards/ias-33-earnings-per-share.html/. Применение конкретного стандарта и корректировки требуют отчётности; числовые примеры собственные учебные."
-  },
-  {
     "id": "E-02-1",
     "title": "P/BV и EV/EBITDA",
     "status": "REVIEWED",
-    "decision": "Разделены стоимость собственного капитала и всего бизнеса. Повтор чисел из бытового примера заменён сравнением двух долговых структур; углублены ограничения балансовой стоимости и EBITDA.",
-    "fingerprint": "d63d4fd8a593feab8ae8f88e8fe5cb26cc62e8908b0918522a01f04a5f67baa3",
+    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
+    "fingerprint": "5082cae5ce975b976ca891036499a93d8accaa9391babd63a8f38741c3d72764",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "application",
-      "principles",
-      "advanced"
+      "advanced",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
   },
   {
     "id": "E-03-0",
     "title": "Дивидендная доходность",
     "status": "REVIEWED",
-    "decision": "Дивидендная доходность раскрыта по периоду, статусу выплаты и выбранной цене; детали отсечки перенесены в следующий блок. Уточнена разовая выплата и сопоставимость показателей.",
-    "fingerprint": "e6fb1f124aaf04dcf99dd7f4af12feac381b7c0aac27719367e4d929c91e6e4b",
+    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
+    "fingerprint": "0b10d22b50f9700c3b24ccc8a7e0dbd8479273c54915dc51ba7f281a6377bbda",
     "reviewedOn": "2026-10-26",
     "changes": [
       "mechanism",
-      "principles",
-      "advanced"
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
   },
   {
     "id": "E-03-1",
     "title": "Дивидендная отсечка и полная доходность",
     "status": "REVIEWED",
-    "decision": "Восстановлен полный механизм сделки, учёта прав и экс-даты. Повторяющийся пример 13% заменён суммой цены и права на выплату; подчёркнута модельность дивидендного гэпа.",
-    "fingerprint": "cb98e1fb0bca33cb285094121b2d062ce37b1d354996ee73df68a2146670e138",
+    "decision": "M10: уточнён учебный календарь,типографика; источник и пределы QUALITY_M10_REVIEW.md.",
+    "fingerprint": "c3884a4af4307c57cf9151505bb9592d16097d91182bf5221bd7d1cae872688f",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "beginner",
-      "story",
-      "mechanism",
       "application",
-      "principles",
-      "advanced"
+      "extraChecks"
     ],
     "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
