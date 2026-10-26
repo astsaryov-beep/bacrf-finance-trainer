@@ -25,7 +25,7 @@ try{
  assert.ok((await page.locator('#catalog-EM02').textContent()).includes('A.'));
  await page.evaluate(()=>{session={version:2,ids:['EM02'],mode:'practice',pos:0,responses:{},grades:{},orders:{EM02:[0,1,2,3]},done:false,started:Date.now(),deadline:null,recorded:{}};tab='quiz';render()});
  await page.locator('input[name="qoption"][value="0"]').check();
- await page.evaluate(()=>{captureCurrent();gradeChoice(activeQ())});
+ await page.locator('#check').click();
  assert.equal(await page.evaluate(()=>session.grades.EM02.strict),true);
  // Saving and restoring a legacy version-3 concept attempt retains it and regrades the old IPO key.
  await page.evaluate(()=>{session.version=3;session.grades.EM02={score:0,strict:false};persist()});
@@ -38,6 +38,11 @@ try{
   const a=getStudyAnswer('EM02');return {score:a.score,previous:a.previousReviewScore,recheck:a.needsReviewRecheck};
  });
  assert.deepEqual(courseMigration,{score:1,previous:0,recheck:true});
+ await page.evaluate(()=>{studyNav.phase='practice';studyNav.index=STUDY_MAP.get(studyNav.lessonId).blocks[studyNav.block].qids.indexOf('EM02');render()});
+ await page.locator('#studyRecheck').click();
+ await page.locator('input[name="studyAnswer"][value="0"]').check();
+ await page.locator('#studyCheck').click();
+ assert.deepEqual(await page.evaluate(()=>({score:getStudyAnswer('EM02').score,recheck:getStudyAnswer('EM02').needsReviewRecheck})),{score:1,recheck:false});
  // Actual diagnostics button starts with another question and survives reload.
  const family=await page.evaluate(()=>{
   progress={};studyData.blocks={};const q=EFFECTIVE_BANK.find(q=>q.type==='single'&&FAMILIES.get(q.conceptFamily)?.length>=3);
