@@ -606,5 +606,61 @@
     "area": "M08 and M01 distractors",
     "finding": "Предметная близость25single усилена;ранниеRUONIA/кредитныепредпосылки явно раскрыты. Реальнаясложностьбезданныхучениковнеизмерена.",
     "resolution": "QUALITY_M08_REVIEW.md/CP069:15local/7browser programs PASS;PR53/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
+  },
+  {
+    "id": "QA-072",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 NSFR prerequisite",
+    "finding": "RM16 использует NSFR до объяснения;отдельно нужны капитал,30днейLCR,годовая структурафондирования и ПДН.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-073",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 factoring prerequisite",
+    "finding": "V2-012 требует механизма уступки/ролей/потоков до задания,а не только короткого словаря.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-074",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 and M02 open rubrics",
+    "finding": "6условий/рубрик требовали лишнее или не проверяли явную часть:RO04/V2-015/V2-018/FRI509-06/FRI509-08/BO08.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-075",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 financial theories",
+    "finding": "Не хватало объяснений издержек/институтов/агентскихстимулов/аддитивности/нестабильности и современныхтрендов;спорные даты не заучиватькакфакты.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-076",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 digital money scope",
+    "finding": "Три учебныеформы не отменяют юридическую квалификацию цифрового рубля;NFT/ЦФА/стейблкоин/электронныеденьги требуют разныхправ/рисков.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-077",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 payment roles",
+    "finding": "Оператор/операционныйцентр/клиринг/расчёт/НСПК/БанкРоссии и QRнуждаются в раздельном объяснении;датированныесрезынепостоянны.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
+  },
+  {
+    "id": "QA-078",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M09 and M02 distractors",
+    "finding": "13single/4multi усилены близкимипредметнымивариантами,ключисохранены. Эмпирическая трудностьнеизмерена.",
+    "resolution": "5.0.36/QUALITY_M09_REVIEW.md,единаяредакция. Регрессия/публикациявпереди."
   }
 ]

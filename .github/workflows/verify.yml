@@ -41,6 +41,8 @@ jobs:
         run: node tests/quality-m07-check.mjs
       - name: Verify M08 regulatory prerequisites and M01 rubric histories
         run: node tests/quality-m08-check.mjs
+      - name: Verify M09 bank liquidity, digital roles and M02 history
+        run: node tests/quality-m09-check.mjs
       - name: Verify multi-select exam and prior learning evidence
         run: node tests/exam-practice-check.mjs
       - name: Verify conceptual learning and corrected answer keys

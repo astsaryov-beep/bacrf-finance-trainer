@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
+const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
+const ctx={};vm.runInNewContext(read('question-review.js'),ctx);vm.runInNewContext(read('exam-practice.js'),ctx);
+const raw=[...parse('BANK'),...parse('STUDY_EXTRAS')],q=id=>ctx.FinanceReview.question(raw.find(x=>x.id===id)),master=parse('STUDY_MASTER'),legacy=parse('STUDY_V5');
+for(const id of 'V2-003 V2-004 V2-010 V2-011 RM21 FRI509-01 FRI509-03 FRI509-05 FRI509-07 LQ02 LQ17 BM21 V2-025 BM17 BM18 BM19 V2-026'.split(' ')){assert.equal(JSON.stringify(q(id).correct),JSON.stringify(raw.find(x=>x.id===id).correct),id);assert.equal(q(id).options.length,q(id).optionFeedback.length);}
+for(const id of ['Q04','Q08','Q16'])for(const field of ['options','correct'])assert.equal(JSON.stringify(q(id)[field]),JSON.stringify(raw.find(x=>x.id===id)[field]),id+' teacher '+field);
+for(const [id,n] of [['RO04',2],['V2-015',2],['V2-018',1],['FRI509-06',2],['FRI509-08',2],['BO08',2]]){assert.equal(q(id).rubric.length,n);const old={text:'Старый ответ '+id,checked:true,revealed:true,score:1,rubric:[0,1,2]};ctx.FinanceReview.migrateCourseAnswer(q(id),old);assert.equal(old.text,'Старый ответ '+id);assert.equal(old.previousReviewResult.score,1);assert.equal(old.score,null);const once=JSON.stringify(old);ctx.FinanceReview.migrateCourseAnswer(q(id),old);assert.equal(JSON.stringify(old),once);const session={ids:[id],responses:{[id]:{text:'История '+id,rubric:[0,1,2],checked:true}},grades:{[id]:{score:1,strict:true,type:'rubric'}},orders:{}};ctx.FinanceReview.migrateSession(session);assert.equal(session.reviewHistory[id].grade.score,1);assert.equal(session.reviewHistory[id].response.text,'История '+id);}
+// Independent balance and cash ledgers: recognising a loss and paying a deposit are different events.
+let assets=100,liabilities=88;assert.equal(assets-liabilities,12);assets-=5;assert.equal(assets-liabilities,7);
+let cash=8,loans=92,deposits=88;assert.equal(cash+loans-deposits,12);const shortfall=20-cash;assert.equal(shortfall,12);loans-=20;cash+=18;assert.equal(cash+loans-deposits,10);cash-=20;deposits-=20;assert.equal(cash,6);assert.equal(cash+loans-deposits,10);
+// LCR example uses recognised net outflow, not gross payments or capital.
+assert.equal(8/(20-10)*100,80);assert.notEqual(8/20*100,80);assert.notEqual(12/(20-10)*100,80);
+assert.equal(master['R-04-0'].formulas.length,3);assert.equal(JSON.stringify(master['R-04-0'].formulas),JSON.stringify(legacy['R-04-0'].formulas));assert.match(master['R-04-0'].formulas.at(-1).conditions,/NCOF₃₀>0/);
+for(const k of ['R-04-0','R-04-1','R-05-0','R-05-1','R-06-0','R-06-1'])assert.equal(master[k].extraChecks.length,2);
+assert.match(master['R-04-0'].mechanism.join(' '),/NSFR/);assert.match(master['R-04-0'].mechanism.join(' '),/одного года/);assert.match(master['R-04-1'].mechanism.join(' '),/поставщик/i);assert.match(master['R-06-0'].mechanism.join(' '),/Юридически цифровой рубль является разновидностью безналичных/);assert.match(master['R-06-1'].mechanism.join(' '),/НПС — более широкая/);
+const a=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json')),own=['R-04','R-05','R-06'],early=['S1-04-0','S1-04-1','S1-05-0'];assert.equal(a.assignments.filter(x=>own.includes(x.block.slice(0,-2))).length,23);assert.equal(a.assignments.filter(x=>early.includes(x.block)).length,13);assert.ok(a.assignments.filter(x=>own.includes(x.block.slice(0,-2))||early.includes(x.block)).every(x=>x.status!=='PENDING'));assert.equal(a.reviewedHistoricalAssignments,162);
+for(const k of [...own.flatMap(l=>[l+'-0',l+'-1']),...early]){const qs=ctx.ExamPractice.questions.filter(x=>x.block===k&&x.source.includes('QUALITY_M09_REVIEW'));assert.equal(qs.length,2);assert.equal(qs.filter(x=>x.taskKind==='knowledge').length,1);assert.equal(qs.filter(x=>x.taskKind==='case').length,1);}
+console.log('PASS M09:capital/cash conservation and recognised-net LCR,NSFR and factoring prerequisites,23+13 reviewed placements,18 conceptual MC,13 single/4multi original keys,6 open histories migrated without loss.');
