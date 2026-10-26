@@ -9,9 +9,9 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-02",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-02",
+  "next_task": "T-05",
   "last_verified_checkpoint": "CP-20261026-005",
   "last_verified_commit": "eaccf834641781c60142e13713fd73dfe5c34af1",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40244609542",
@@ -41,3 +41,7 @@
 История: [CHECKPOINTS.md](CHECKPOINTS.md), [архив](docs/PROJECT_STATE_HISTORY_20261026.md). Текущие ограничения: D-013.
 
 Live-проверка 26.10.2026: опубликованный index.html сообщает 5.0.24 beta; Git blob SHA `cc974157800bf64a1ede88dab1c00266bcffdc34` совпадает с проверенным исходным файлом.
+
+## Активный этап 26.10.2026
+
+Ветка content/remaining-content-20261026. Пользователь поручил закрыть доступные остатки T-01/T-02/T-04/T-05/T-12, исключив T-06. Получены шесть PDF (557 страниц). Начата содержательная сверка; новые результаты пока не подтверждены. T-07 сохраняет отдельную пользовательскую приёмку.
