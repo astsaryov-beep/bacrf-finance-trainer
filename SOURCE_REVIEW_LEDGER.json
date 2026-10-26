@@ -3355,7 +3355,7 @@
       "page": 29,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
@@ -3363,7 +3363,7 @@
       "page": 30,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
@@ -3371,7 +3371,7 @@
       "page": 31,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
@@ -3379,151 +3379,168 @@
       "page": 32,
       "textReview": "READ",
       "visualReview": "INSPECTED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 33,
       "textReview": "READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 34,
       "textReview": "READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 35,
       "textReview": "READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Текст прочитан; изображение просмотрено только для29–32. M05не принят; QUALITY_M05_REVIEW.md.",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
       "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 36,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 37,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 38,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 39,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 40,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 41,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 42,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 43,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 44,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 45,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 46,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 47,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 48,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 49,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 50,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 51,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 52,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
@@ -3668,16 +3685,18 @@
     {
       "document": "S2",
       "page": 73,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 74,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
@@ -3724,30 +3743,34 @@
     {
       "document": "S2",
       "page": 81,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 82,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 83,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
       "page": 84,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Полный текст/изображение просмотрены; основные единицы сопоставляются. Исторические параметры/частные нормы не сертифицированы. QUALITY_M05_REVIEW.md.",
+      "integratedAudit": "2026-10-26 M05 in progress"
     },
     {
       "document": "S2",
