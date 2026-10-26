@@ -262,58 +262,121 @@
   {
     "id": "S2-05-0",
     "title": "Механика РЕПО и КСУ",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "КСУ получил предметное определение и цепочку активы→пул→сертификат→РЕПО. Разделены сертификат, имущество и обязательства ЦК; экономическая аналогия обеспечения не подменяет правовую форму.",
+    "fingerprint": "e0506eb3a6bf380f30017899355702556e576878ee83412014022f534cd532a4",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "mechanism",
+      "glossary",
+      "principles"
+    ],
+    "sourceCheck": "НКЦ https://www.nationalclearingcentre.ru/catalog/020903; Мосбиржа https://www.moex.com/n12226 и материалы РЕПО с КСУ. Проверено 26.10.2026; числовая формула haircut остаётся учебной, не полная методика пула."
   },
   {
     "id": "S2-05-1",
     "title": "Ставки и передача сигнала ДКП",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Убраны повторные определения во вводной, механизм сосредоточен на трансмиссии и фиксации купона. Уточнено, что рыночные индикаторы могут учитывать заявки наряду со сделками.",
+    "fingerprint": "2f71c47caedd46e4f8252a05385cb2f3dbaefa909844906159a9011afba8dd6a",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "beginner"
+    ],
+    "sourceCheck": "Методика Мосбиржи https://www.moex.com/files/4jbaspd2wt21hw9p1d4yn5w8wh; определения RUONIA и срочной RUONIA Банка России из SOURCE_ERRATA_20261026.md. Числа в примере спреда условные."
   },
   {
     "id": "S2-06-0",
     "title": "Валютные, процентные и кредитные свопы",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Базовый IRS объясняется на кредите с плавающей ставкой, оставляя asset swap следующему блоку. Раскрыты обе даты FX swap, кредитное событие CDS и различие условного номинала и обмена валют.",
+    "fingerprint": "79a7f105936ccd0640dac0857e6b6fa92cc57ae6e80b20b2077837bedeabd70a",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-06-1",
     "title": "Облигация плюс IRS: asset swap",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Проверено совпадение потоков asset swap; пример теперь учитывает неттинг IRS: промежуточная потребность зависит от знака чистого платежа. Самопроверка уточнена без изменения темы.",
+    "fingerprint": "a2d97372475877451b8712876305ea5d3f9b4abba79de278fc0f93e1c81af7d6",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "story",
+      "application",
+      "advanced",
+      "selfCheck"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-07-0",
     "title": "Арбитраж, хеджирование, волатильность",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Волатильность отделена от направления и полной совокупности рисков; арбитраж в строгой модели отделён от прикладной стратегии относительной стоимости. Пример демонстрирует чувствительность к размеру колебаний и горизонту.",
+    "fingerprint": "31fd040d7d0c9d9daecc3eca7c1799a99ab1461149230bd526d459b87f1698bb",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-07-1",
     "title": "VaR и условия применимости",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "VaR разобран как последовательность модель→распределение→квантиль→проверка. Уточнено ожидаемое число превышений; удалено внутреннее примечание о составе банка. ES и масштабирование во времени получили отдельные условия.",
+    "fingerprint": "c8a814ebdbc0deaa46aaf5a2b031664fe6163a20b606874f88af4ef9cd2c4278",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-08-0",
     "title": "Шаги выбора и расчёта хеджа",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Подбор хеджа построен как экспозиция→цель→спецификация→объём→остаток. Разъяснены знаки DV01 и округление; устранена двусмысленная оговорка о размере лота после уже заданного контрактного объёма.",
+    "fingerprint": "160dc1cc3a02362003285e394e8f5d80d28da9fa438a590329de8ad5fae43cf6",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "mechanism",
+      "application",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-08-1",
     "title": "Частичный хедж и остаточные риски",
-    "status": "PENDING",
-    "decision": "",
-    "fingerprint": null
+    "status": "REVIEWED",
+    "decision": "Общий блок остаточных рисков перестроен на перекрёстный товарный хедж, чтобы развить валютный пример S2-04-1. Раздельно показаны непокрытый объём и расхождение цен.",
+    "fingerprint": "5ea7d47a7501b2b7434b39ba11de4bf7ff211aacf9dd2cf7ef086617fa33c499",
+    "reviewedOn": "2026-10-26",
+    "changes": [
+      "foundation",
+      "beginner",
+      "story",
+      "application",
+      "principles",
+      "advanced"
+    ],
+    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
   },
   {
     "id": "S2-09-0",
