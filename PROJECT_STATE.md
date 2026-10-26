@@ -9,8 +9,8 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
+  "phase": "IN_PROGRESS",
+  "active_task": "T-01",
   "next_task": "T-01",
   "last_verified_checkpoint": "CP-20261026-025",
   "last_verified_commit": "e3dad380e74f56629e4f906dfe1590ceb5b4c082",
@@ -35,3 +35,5 @@ Live Git blobs: index `6602594dfddb71ae0a55862bc237eed8baacfdd8`, question-revie
 T-01 PARTIAL: полная академическая сверка 557 слайдов остаётся отдельной. T-04 основного банка, T-05 редакционно и T-12 дедупликация DONE. T-06 только по отдельной команде, самый низкий приоритет. T-07: beta сохраняется до содержательной приёмки пользователем. Экзаменационная выборка не менялась, D-012 действует. BANK275/19,84 формулы,309 назначений, подготовка, идентификаторы, прогресс и 5.0.8 сохранены.
 
 Следующая содержательная задача — T-01. История в CHECKPOINTS.md и docs/PRE_5027_PROJECT_STATE.md.
+
+Комплексный аудит начат по COURSE_QUALITY_PLAN.md / COURSE_QUALITY_SPEC.md. QUALITY_AUDIT.json:557предварительных связей и96блоков, подтверждены только явно отмеченные результаты. QUALITY_ISSUES.json:отдельный реестр дефектов. Первый источник — преподавательский тестS3PDF2–5. Приложение пока5.0.27 без изменений.
