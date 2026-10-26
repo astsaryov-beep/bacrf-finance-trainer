@@ -12,14 +12,13 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-01",
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261026-040",
-  "last_verified_commit": "794531600bf332f7b494cf486b41803704a33bb0",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118",
+  "last_verified_checkpoint": "CP-20261026-042",
+  "last_verified_commit": "0ef721bb00ab90784685464fa219a9a8cda01f7d",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-26"
 }
-
 ```
 <!-- STATE_JSON_END -->
 
@@ -88,3 +87,11 @@ PR CI40334639599 SUCCESS: verify и browser, включая4программы. 
 ## CP-20261026-041 · уточнение перехода к КСУ · IN_PROGRESS
 
 5.0.30 опубликована и подтверждена CP040, документы в PR45. При чтении следующего модуля обнаружена ошибочная ссылка нового текста S1-08-1: подробности КСУ находятся в существующем S2-05-0, а не S1-10. Перекрёстная ссылка исправлена, видимые слои и методический отпечаток согласованы, добавлена проверка существования целевого объяснения. Версия5.0.30 beta сохраняется; этот небольшой патч ещё требует нового CI/Pages/live. Последний VERIFIED JSON остаётся CP040/7945316. M04 пока только прочитан как структура/основные тексты шести блоков, источники не приняты; число18/96 и134/557 не увеличено. T-06/D-012 сохраняются.
+
+## CP-20261026-042 · 5.0.30 beta, переход к КСУ исправлен · VERIFIED
+
+[PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+
+QA-030 закрыт: ссылка ведёт к существующему подробному объяснению КСУ в первом блоке S2-05. Видимые слои, методический отпечаток и регрессионная проверка согласованы; девять локальных и четыре браузерные программы PASS. Исходные данные/ID/прогресс/frozen5.0.8 сохраняются. CP040 остаётся историей предыдущего опубликованного дерева той же beta-версии; актуальный продукт указан здесь.
+
+Итог приёмки не расширен: M01–M03 принято18/96 с раскрытыми пределами,134/557страницы осмотрены;78блоков и итоговая сквозная приёмка остаются. M04 пока только прочитаны структура и основные тексты; материалы источника/практика ещё не приняты. Точный следующий пакет: S1-10 (портфель и относительная стоимость), S2-01 (введение в производные и инфраструктура), S2-02 (маржа, поставка, базис, перенос позиции). Подробная тема КСУ — S2-05, а не S1-10. Продолжать автономно, T-06 исключена, D-012 действует.
