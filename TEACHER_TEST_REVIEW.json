@@ -66,7 +66,8 @@
         "S1-01-1",
         "S2-05-1"
       ],
-      "status": "SOURCE_ERROR_D"
+      "status": "SOURCE_ERROR_D",
+      "resolution": "Correct ABC retained; explicit teacher D conflict explained with CBR source."
     },
     {
       "sourceNumber": 6,
@@ -117,7 +118,8 @@
         "S1-09-0",
         "S1-09-1"
       ],
-      "status": "ANSWER_SCOPE_GAP"
+      "status": "ANSWER_SCOPE_GAP",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
     },
     {
       "sourceNumber": 11,
@@ -128,7 +130,8 @@
         "S1-10-1",
         "S2-03-0"
       ],
-      "status": "RUBRIC_TOO_RESTRICTIVE"
+      "status": "RUBRIC_TOO_RESTRICTIVE",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
     },
     {
       "sourceNumber": 12,
@@ -219,7 +222,8 @@
       "blocks": [
         "S1-10-1"
       ],
-      "status": "RUBRIC_TOO_RESTRICTIVE"
+      "status": "RUBRIC_TOO_RESTRICTIVE",
+      "correction": "IMPLEMENTED_LOCAL_PASS_BROWSER_PENDING"
     }
   ]
 }

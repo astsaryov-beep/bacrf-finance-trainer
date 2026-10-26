@@ -25,6 +25,8 @@ jobs:
         run: node tests/content-dedup-check.mjs
       - name: Verify completed methodological review and content fingerprints
         run: node tests/methodical-review-check.mjs
+      - name: Verify teacher answer alignment and historical rubric migration
+        run: node tests/teacher-review-check.mjs
       - name: Verify conceptual learning and corrected answer keys
         run: node tests/learning-review-check.mjs
       - name: Verify fixed income strategy mathematics
@@ -42,6 +44,7 @@ jobs:
         run: |
           node tests/browser-smoke.mjs
           node tests/learning-review-browser.mjs
+          node tests/teacher-review-browser.mjs
       - name: Attach screenshots and diagnostics
         if: always()
         uses: actions/upload-artifact@v4

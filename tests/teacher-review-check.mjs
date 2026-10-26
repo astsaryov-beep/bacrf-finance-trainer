@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
+const ctx={};vm.runInNewContext(readFileSync(new URL('../question-review.js',import.meta.url),'utf8'),ctx);const r=ctx.FinanceReview;
+const raw=parse('BANK'),bank=raw.map(q=>r.question(q)),q=id=>bank.find(x=>x.id===id);
+const manifest=JSON.parse(readFileSync(new URL('../TEACHER_TEST_REVIEW.json',import.meta.url),'utf8'));
+assert.equal(manifest.items.length,20);assert.equal(raw.filter(x=>x.origin==='original').length,19);
+assert.equal(manifest.items.filter(x=>x.questionId).length,19);
+for(const x of manifest.items.filter(x=>x.status==='MATCH_KEY')){
+ const a=q(x.questionId).correct.map(i=>String.fromCharCode(65+i)).join(',');assert.equal(a,x.sourceCorrectLetters,'source key '+x.sourceNumber);
+}
+assert.equal(q('Q18').correct.join(','),'0,1,2','source Index error must not replace a correct effective key');
+assert.match(q('Q18').reviewNote,/преподавательском разборе/);
+for(const term of ['рейтинг','Net Debt/EBITDA','Interest Coverage Ratio','G-spread'])assert.ok(q('Q13').answer.toLowerCase().includes(term.toLowerCase()));
+assert.match(q('Q10').rubric[1],/хотя бы одна/);
+assert.match(q('Q12').rubric[0],/не менее трёх/);
+assert.equal(raw.find(x=>x.id==='Q13').rubric.length,3,'historical teacher payload must remain unchanged');
+const originalText='Рейтинг, долг к EBITDA, покрытие процентов и спред';
+const old={version:2,responses:{Q13:{choice:[],text:originalText,rubric:[0,1,2],checked:true,revealed:true}},grades:{Q13:{score:1,strict:true,type:'rubric',points:3,total:3}},recorded:{Q13:true}};
+r.migrateSession(old);assert.equal(old.grades.Q13,undefined,'old rubric cannot prove fresh understanding');
+assert.equal(old.reviewHistory.Q13.grade.score,1);assert.equal(old.reviewHistory.Q13.response.text,originalText);assert.equal(old.responses.Q13.text,originalText);assert.equal(old.responses.Q13.rubric.length,0);
+const once=JSON.stringify(old);r.migrateSession(old);assert.equal(JSON.stringify(old),once);
+assert.equal(JSON.parse(once).reviewHistory.Q13.grade.points,3,'history survives export format');
+const a={checked:true,text:originalText,rubric:[0,1,2],score:1,revealed:true};r.migrateCourseAnswer(q('Q13'),a);assert.equal(a.checked,false);assert.equal(a.score,null);assert.equal(a.text,originalText);assert.equal(a.previousReviewResult.score,1);assert.equal(a.needsReviewRecheck,true);
+const aOnce=JSON.stringify(a);r.migrateCourseAnswer(q('Q13'),a);assert.equal(JSON.stringify(a),aOnce);
+const master=parse('STUDY_MASTER'),f=master['S1-09-0'].formulas;
+assert.equal(f.length,3);assert.ok(f.some(x=>x.title.includes('EBITDA')));assert.ok(f.some(x=>x.title.includes('ICR')));
+assert.equal((30-6)/8,3);assert.equal(12/3,4);assert.equal(9/3,3);
+for(const x of f.slice(-2))assert.ok(x.variables.length>=3&&x.meaning.length>40&&x.conditions.length>40&&x.example.length>40);
+const audit=JSON.parse(readFileSync(new URL('../QUALITY_AUDIT.json',import.meta.url),'utf8'));
+assert.equal(audit.slides.length,557);assert.equal(new Set(audit.slides.map(x=>x.document+':'+x.pdfPage)).size,557);assert.equal(audit.blocks.length,96);assert.equal(new Set(audit.modules.flatMap(x=>x.blocks)).size,96);
+console.log('PASS teacher review:20 source tasks/19 original IDs, preserved source conflict, aligned rubric semantics, reversible historical answers and two complete added metrics.');

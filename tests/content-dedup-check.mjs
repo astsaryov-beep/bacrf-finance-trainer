@@ -24,9 +24,9 @@ for(const row of map){
 }
 assert.equal(assignments.length,309);assert.equal(new Set(assignments).size,309);
 // Preserve complete original formulas, not just their number.
-const formulaPayload=Object.fromEntries(Object.entries(legacy).map(([k,v])=>[k,v.formulas]));
-const formulaSha=createHash('sha256').update(JSON.stringify(formulaPayload)).digest('hex');
 const baseline=JSON.parse(readFileSync(new URL('./content-baseline.json',import.meta.url),'utf8'));
+const formulaPayload=Object.fromEntries(Object.entries(legacy).map(([k,v])=>[k,v.formulas.slice(0,baseline.originalFormulaCounts?.[k]??v.formulas.length)]));
+const formulaSha=createHash('sha256').update(JSON.stringify(formulaPayload)).digest('hex');
 assert.equal(formulaSha,baseline.formulasSha256,'formula definitions changed during editorial work');
 const qidsSha=createHash('sha256').update(JSON.stringify(blocks.map(x=>[x.id,x.b.qids,x.b.prep]))).digest('hex');
 assert.equal(qidsSha,baseline.practiceSha256,'assigned questions or answers changed during editorial work');

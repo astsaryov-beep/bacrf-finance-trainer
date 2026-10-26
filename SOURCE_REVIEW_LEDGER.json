@@ -27,9 +27,10 @@
     {
       "document": "L3",
       "page": 4,
-      "textReview": "EXCERPT_READ",
-      "visualReview": "VISUALLY_INSPECTED",
-      "note": "Прочитаны извлечённые фрагменты; нормативы/ставки проверяются отдельно."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "L3",
@@ -41,9 +42,10 @@
     {
       "document": "L3",
       "page": 6,
-      "textReview": "EXCERPT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитаны извлечённые фрагменты; нормативы/ставки проверяются отдельно."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "L3",
@@ -69,16 +71,18 @@
     {
       "document": "L3",
       "page": 10,
-      "textReview": "EXCERPT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитаны извлечённые фрагменты; нормативы/ставки проверяются отдельно."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "L3",
       "page": 11,
-      "textReview": "EXCERPT_READ",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Прочитаны извлечённые фрагменты; нормативы/ставки проверяются отдельно."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "L3",
@@ -160,30 +164,34 @@
     {
       "document": "S3",
       "page": 2,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S3",
       "page": 3,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S3",
       "page": 4,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S3",
       "page": 5,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечная проверка теста/предпосылок; полный модуль отдельно.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S3",
@@ -1791,289 +1799,330 @@
     {
       "document": "S1",
       "page": 4,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 5,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 6,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 7,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Определение ключевой ставки уточнено: не универсальный минимум по всем операциям.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 8,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Датированная таблица решений: не используется как текущий календарь.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 9,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Валютная и фондовая реакция не детерминирована одной ставкой.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 10,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "RUONIA overnight и RUSFAR3M не сопоставимы без поправки на срок; исторический ряд не реконструирован.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 11,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 12,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Вклады клиентов отделены от капитала/резервов; субсидия не обычный кредит.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 13,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 14,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Сопоставлены этапы кредитного процесса и условия фактической выдачи.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 15,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 16,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 17,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 18,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 19,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 20,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Онкольная линия, контокоррент и овердрафт: проверять конструкцию договора.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 21,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 22,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Границы кратко-/средне-/долгосрочности различаются по классификациям.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 23,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Мониторинг, господдержка и обеспечение зависят от продукта.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 24,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Датированные предложения банков не представлены как текущие.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 25,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 26,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 27,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Схема SPV: деньги собственников, долг и проектный поток не смешаны.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 28,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 29,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Точечный сопоставительный просмотр; не независимое подтверждение всех утверждений.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 30,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Проверены роли участников и агента синдиката.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 31,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Схема синдиката прочитана; исторические доли 2007 года не воспроизводятся.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 32,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Банковские требования к суборду не переносятся на любой корпоративный долг.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 33,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Таблица содержит нормативные/налоговые обобщения: не импортирована как действующая норма.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 34,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "PIK увеличивает долг; мезонин не устраняет риск банкротства.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 35,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Долговые и долевые права различаются; бридж создаёт риск рефинансирования.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 36,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Роли независимой гарантии объяснены; указанная в источнике дата 2022 не подтверждена и в курс не перенесена.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 37,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Просмотрен исторический образец гарантии; реквизиты/даты не копируются.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 38,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Позитивные/негативные ковенанты различены.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 39,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Финансовые показатели и EBITDA определены до применения.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 40,
-      "textReview": "PRIOR_TEXT_REVIEW_RECORDED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Предыдущие пакеты CP-20261025-022 и ранние этапы; не новая полная проверка."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Нарушение ковенанта не тождественно денежной просрочке и автоматическому банкротству.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 41,
-      "textReview": "TEXT_READ",
-      "visualReview": "VISUALLY_INSPECTED",
-      "note": "Закрыт прежний пропуск: БКИ, документарный аккредитив, ценообразование, исторические графики, платежи; см. SOURCE_ERRATA_20261026.md. Исторические ряды с первичной статистикой не воспроизводились."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Перекрёстная предпосылка; полный аудит R-03 ещё предстоит.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 42,
-      "textReview": "TEXT_READ",
-      "visualReview": "VISUALLY_INSPECTED",
-      "note": "Закрыт прежний пропуск: БКИ, документарный аккредитив, ценообразование, исторические графики, платежи; см. SOURCE_ERRATA_20261026.md. Исторические ряды с первичной статистикой не воспроизводились."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Документарная проверка аккредитива не подтверждает фактическое качество товара.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 43,
-      "textReview": "TEXT_READ",
-      "visualReview": "VISUALLY_INSPECTED",
-      "note": "Закрыт прежний пропуск: БКИ, документарный аккредитив, ценообразование, исторические графики, платежи; см. SOURCE_ERRATA_20261026.md. Исторические ряды с первичной статистикой не воспроизводились."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Сохраняется ранее зафиксированная поправка о безотзывности по умолчанию; полный набор классификаций будет проверен с R-03.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 44,
-      "textReview": "TEXT_READ",
-      "visualReview": "VISUALLY_INSPECTED",
-      "note": "Закрыт прежний пропуск: БКИ, документарный аккредитив, ценообразование, исторические графики, платежи; см. SOURCE_ERRATA_20261026.md. Исторические ряды с первичной статистикой не воспроизводились."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Перекрёстная зависимость M02: эвристика ставки не бухгалтерское тождество.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
@@ -2540,9 +2589,10 @@
     {
       "document": "S1",
       "page": 111,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Сопоставимость G-spread; диаграмма/исторические рейтинги не приняты как текущие рыночные данные.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
@@ -2575,30 +2625,34 @@
     {
       "document": "S1",
       "page": 116,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Рейтинг не единственный анализ; конкретные рейтинги компаний и универсальное правило наихудшего рейтинга требуют отдельной проверки M03.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 117,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Источник коэффициентов Q13; рыночные цифры среза не объявлены текущими.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 118,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "Эшелоны условны; числовые диапазоны не универсальные ставки.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
       "page": 119,
-      "textReview": "NOT_REVIEWED",
-      "visualReview": "NOT_REVIEWED",
-      "note": "Постраничная академическая сверка не завершена."
+      "textReview": "READ",
+      "visualReview": "INSPECTED",
+      "note": "График 5,5–14% несовместим с соседним рыночным срезом; пример с 11,5% не скопирован как текущий.",
+      "integratedAudit": "2026-10-26 M01 / teacher test / targeted prerequisites"
     },
     {
       "document": "S1",
