@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
-const lessons=parse('STUDY_LESSONS'),ctx={};vm.runInNewContext(read('question-review.js'),ctx);const review=ctx.FinanceReview;
+const lessons=parse('STUDY_LESSONS'),ctx={};vm.runInNewContext(read('assets/question-review.js'),ctx);const review=ctx.FinanceReview;
 const start=html.indexOf('const FRI_PRACTICE_BANK='),end=html.indexOf('\nfunction friExtraForBlock',start);
 const build=new Function('STUDY_MAP','FRI_COLLEAGUE_COVERAGE','FinanceReview',html.slice(start,end)+';return FRI_PRACTICE_BANK;');
 const map=new Map(lessons.map(l=>[l.id,l])),coverage=parse('FRI_COLLEAGUE_COVERAGE');

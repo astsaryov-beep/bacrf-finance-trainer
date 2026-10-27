@@ -8,21 +8,21 @@ M05принят,30/96;предварительныйисточниковыйпр
 
 # 5.0.31 beta · VERIFIED
 
-[PR #47](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/47) MERGED; продукт `554efacbf0d80a3602a1d76311f28eb122e100bb`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40362988137), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363661338), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363662685). Live MATCH: index `b325350d00336239887ee0f553aac5427c028f51`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #47](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/47) MERGED; продукт `554efacbf0d80a3602a1d76311f28eb122e100bb`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40362988137), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363661338), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363662685). Live MATCH: index `b325350d00336239887ee0f553aac5427c028f51`, assets/question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
-M01–M04 принято24/96 с раскрытыми пределами;183/557страницы осмотрены. Десять локальных и пять браузерных программ PASS. Остались72блока и сквозная приёмка. Предметный отчёт QUALITY_M04_REVIEW.md; T-06исключена.
+M01–M04 принято24/96 с раскрытыми пределами;183/557страницы осмотрены. Десять локальных и пять браузерных программ PASS. Остались72блока и сквозная приёмка. Предметный отчёт docs/audits/QUALITY_M04_REVIEW.md; T-06исключена.
 
 ---
 
 # 5.0.31 beta · M04 · RELEASE_PENDING
 
-Шесть блоков рассмотрены и исправлены;18/96уже принято,ещё6рассмотрены.183/557страницы осмотрены с пределами. Всего110формул,502словарные записи,38дополнительных концептуальных проверок. Десять локальных программ PASS; новый браузер/PRCI/mainCI/Pages/live PENDING. Последний опубликованный VERIFIED —5.0.30/CP042. Карта и предметные доказательства QUALITY_M04_REVIEW.md; T-06исключена, D-012сохранено.
+Шесть блоков рассмотрены и исправлены;18/96уже принято,ещё6рассмотрены.183/557страницы осмотрены с пределами. Всего110формул,502словарные записи,38дополнительных концептуальных проверок. Десять локальных программ PASS; новый браузер/PRCI/mainCI/Pages/live PENDING. Последний опубликованный VERIFIED —5.0.30/CP042. Карта и предметные доказательства docs/audits/QUALITY_M04_REVIEW.md; T-06исключена, D-012сохранено.
 
 ---
 
 # 5.0.30 beta · VERIFIED · CP042
 
-[PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, assets/question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
 Переход к КСУ исправлен; приёмка остаётся18/96 с пределами. Остальные78блоков и сквозной проход впереди;134/557страницы осмотрены. Последующие разделы ниже сохраняют историю публикации.
 
@@ -30,21 +30,21 @@ M01–M04 принято24/96 с раскрытыми пределами;183/557
 
 # 5.0.30 beta · VERIFIED
 
-[PR #44](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/44) MERGED; продукт `794531600bf332f7b494cf486b41803704a33bb0`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335234506), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118). Live MATCH: index `4524e390509ce28f5f809818c0b9e77f847ffac1`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #44](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/44) MERGED; продукт `794531600bf332f7b494cf486b41803704a33bb0`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335234506), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118). Live MATCH: index `4524e390509ce28f5f809818c0b9e77f847ffac1`, assets/question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
-M01–M03 принято18/96 с раскрытыми пределами;134/557страницы осмотрены. Девять локальных и четыре браузерные программы PASS. Остались78блоков и сквозной проход. Актуальный предметный отчёт QUALITY_M03_REVIEW.md; T-06 исключена.
+M01–M03 принято18/96 с раскрытыми пределами;134/557страницы осмотрены. Девять локальных и четыре браузерные программы PASS. Остались78блоков и сквозной проход. Актуальный предметный отчёт docs/audits/QUALITY_M03_REVIEW.md; T-06 исключена.
 
 ---
 
 # 5.0.30 beta · M03 · RELEASE_PENDING
 
-Шесть блоков S1-07…S1-09 исправлены:12новых полных формул,10концептуальных проверок, рейтинговые версии и обе частиQ07. Всего104формулы,477терминов,26дополнительных проверок. Исходные84формулы/275вопросов/19originalID/309назначений иstable5.0.8 сохранены. Принято12/96,ещё6рассмотрены;134/557страницы осмотрены с пределами. QUALITY_M03_REVIEW.md — карта источников, новичковые сценарии, независимые расчёты и ограничения. Девять локальных программ PASS; браузер/PRCI/mainCI/Pages/live нового выпуска PENDING. Опубликованная5.0.29 остаётся последнейVERIFIED.
+Шесть блоков S1-07…S1-09 исправлены:12новых полных формул,10концептуальных проверок, рейтинговые версии и обе частиQ07. Всего104формулы,477терминов,26дополнительных проверок. Исходные84формулы/275вопросов/19originalID/309назначений иstable5.0.8 сохранены. Принято12/96,ещё6рассмотрены;134/557страницы осмотрены с пределами. docs/audits/QUALITY_M03_REVIEW.md — карта источников, новичковые сценарии, независимые расчёты и ограничения. Девять локальных программ PASS; браузер/PRCI/mainCI/Pages/live нового выпуска PENDING. Опубликованная5.0.29 остаётся последнейVERIFIED.
 
 ---
 
 # 5.0.29 beta · VERIFIED · CP-20261026-033
 
-[PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #42](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/42) MERGED; commit `8133aa25b73bfdf9b7e7fcd91df6276c341acd91`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322174931), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560294), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40322560214). Live MATCH: index `69e13514ad34acc563010955dd224b42987a616e`, assets/question-review.js `bfa3350a9c6c308ff997180bb5607e60afbd66ea`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
 M01/M02 принято12/96 с пределами. Восемь локальных программ, три браузерные программы и настоящий экспорт/импорт истории PASS; полный аудит остаётся IN_PROGRESS,84блока и сквозной проход впереди. Историческая подготовка ниже сохраняет прежние статусы.
 
@@ -54,13 +54,13 @@ M01/M02 принято12/96 с пределами. Восемь локальны
 
 К прежним семи программам добавлена quality-m02-check: независимые PV/даты/конвенции/веса дней, пределыYTW, миграцияQ14/Q16. Браузер проверяет новые объяснения и3/7формул S1-06. Локальные проверки PASS; браузер/CI/Pages/live PENDING.
 
-Общий комплексный проход12/96(M01 принято6,M02 ждёт браузер),94/557страниц просмотрены с ограничениями. Остальные84и сквозная приёмка открыты. ПодробностиQUALITY_M02_REVIEW.md; CP032. Предыдущие84формулы/raw275/19/309иstable5.0.8сохранены.
+Общий комплексный проход12/96(M01 принято6,M02 ждёт браузер),94/557страниц просмотрены с ограничениями. Остальные84и сквозная приёмка открыты. Подробностиdocs/audits/QUALITY_M02_REVIEW.md; CP032. Предыдущие84формулы/raw275/19/309иstable5.0.8сохранены.
 
 ---
 
 # 5.0.28 beta · VERIFIED · CP-20261026-031
 
-[PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Продуктовый commit `0108a6e429c5f56be008da7766f6067d572f35a6`. Live MATCH: index `2a72b21f28b535962511b2dd43e58657a2f03e4a`, question-review.js `aab1a7dc68eaa834ab8c94217170a8dd5cffd684`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #40](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/40), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40318710837), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001440), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40319001017). Продуктовый commit `0108a6e429c5f56be008da7766f6067d572f35a6`. Live MATCH: index `2a72b21f28b535962511b2dd43e58657a2f03e4a`, assets/question-review.js `aab1a7dc68eaa834ab8c94217170a8dd5cffd684`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
 Все семь локальных проверок, три браузерные программы, main CI и Pages SUCCESS. Первый комплексный пакет6/96 принят с пределами источниковой проверки;90блоков и сквозная приёмка открыты. Историческая запись подготовки ниже сохраняет прежний PENDING.
 
@@ -72,7 +72,7 @@ PASS локально: project-state-check, release-check, content-dedup-check, 
 
 Новый teacher-review-browser добавлен в CI к двум прежним программам. Проверяет новые раскрываемые вопросы/формулы, скрытые разборы, Q13вкурсе/Q10всессии, повторную самооценку, настоящий экспорт/импорт истории. Браузерное исполнение и публикация ещё PENDING, не PASS.
 
-M01 шесть блоков прошли предметное редакционное моделирование новичка;54страницы прочитаны/осмотрены с ограничениями. Подробности QUALITY_M01_REVIEW.md. Ни реального учебного эксперимента, ни полного подтверждения557слайдов не заявляется.
+M01 шесть блоков прошли предметное редакционное моделирование новичка;54страницы прочитаны/осмотрены с ограничениями. Подробности docs/audits/QUALITY_M01_REVIEW.md. Ни реального учебного эксперимента, ни полного подтверждения557слайдов не заявляется.
 
 RawBANK275/19 и309назначений/подготовка не изменены. Старый контрольный отпечаток84формул сохранён; новые2учитываются отдельно, всего86. Stable5.0.8 Gitblob2b77ae8f74be9433af3c458c3be55314d2cc9519 сохранён. История прежнего подтверждения ниже.
 
@@ -94,7 +94,7 @@ CI запускает все шесть проверок и прежний deskt
 
 [PR #38](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/38) MERGED; продуктовый commit `e3dad380e74f56629e4f906dfe1590ceb5b4c082`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40301865821), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216887), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40302216421).
 
-Live Git blobs: index `6602594dfddb71ae0a55862bc237eed8baacfdd8`, question-review.js `0cdae67810f74e8312b14ff1b81d46cb117a31f3`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519` — MATCH. Все шесть проверок PASS; desktop/mobile smoke и браузерные проверки 96 механизмов/примеров/выжимок, самопроверок и миграции/экспорта PASS.
+Live Git blobs: index `6602594dfddb71ae0a55862bc237eed8baacfdd8`, assets/question-review.js `0cdae67810f74e8312b14ff1b81d46cb117a31f3`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519` — MATCH. Все шесть проверок PASS; desktop/mobile smoke и браузерные проверки 96 механизмов/примеров/выжимок, самопроверок и миграции/экспорта PASS.
 
 ## PR44 · мобильная регрессия · CP038
 
@@ -120,11 +120,11 @@ PR CI40334639599 SUCCESS: verify и browser, включая4программы. 
 
 Эффективные Q15/PO05 согласованы с эталоном/условием. Восемь прежних single получили правдоподобные неверные варианты:PM21,LQ04,LQ18,PM06,V2-055,V2-056,BM12,V2-029. Правильные индексы сохранены; прежние оценки требуют повторной проверки, история/текст сохраняются. Raw275/19и309назначений/prepне менялись.
 
-Допбанк exam-practice.js:18новыхmultiplechoice (12M05 +2инфраструктура/потоки +4акции/фонды/управление/мультипликаторы). Факты и кейсы, разбор каждого из5вариантов, конкретные опорные фрагменты теории до задания. Общий основной пул293: исходные275+18; multiplechoice42вместо24. Single/расчётные остаются в обычной тренировке. Новая практика расположена после теории, сохраняется в учебном прогрессе, не сбрасывает прежнюю отметку завершения блока.
+Допбанк assets/exam-practice.js:18новыхmultiplechoice (12M05 +2инфраструктура/потоки +4акции/фонды/управление/мультипликаторы). Факты и кейсы, разбор каждого из5вариантов, конкретные опорные фрагменты теории до задания. Общий основной пул293: исходные275+18; multiplechoice42вместо24. Single/расчётные остаются в обычной тренировке. Новая практика расположена после теории, сохраняется в учебном прогрессе, не сбрасывает прежнюю отметку завершения блока.
 
-Профиль нового экзамена:25open+25multi, без подменыsingleпри нехватке. EXAM_PROFILE.json перечисляет допуск/причины для всех293. Исключены16numeric и6содержательно расчётныхopen, которые не были помеченыnumeric:BO03,EO01,PO03,V2-032,V2-050,V2-068. Точный50/50формат поддержан; прежняя учебная пропорция четырёх разделов13/13/12/12 не объявляется реальной пропорцией преподавателя. Раздел маржинальной торговлиE-13иегоstudy-onlyвопросы не входят в основнойэкзамен; VM/ГОфьючерса не исключаются только из-за термина«маржа». Старые попытки сохраняются; новыйпрофиль применяется к новым экзаменам. Открытая оценка —самооценка.
+Профиль нового экзамена:25open+25multi, без подменыsingleпри нехватке. docs/audits/data/EXAM_PROFILE.json перечисляет допуск/причины для всех293. Исключены16numeric и6содержательно расчётныхopen, которые не были помеченыnumeric:BO03,EO01,PO03,V2-032,V2-050,V2-068. Точный50/50формат поддержан; прежняя учебная пропорция четырёх разделов13/13/12/12 не объявляется реальной пропорцией преподавателя. Раздел маржинальной торговлиE-13иегоstudy-onlyвопросы не входят в основнойэкзамен; VM/ГОфьючерса не исключаются только из-за термина«маржа». Старые попытки сохраняются; новыйпрофиль применяется к новым экзаменам. Открытая оценка —самооценка.
 
-QUESTION_LEARNING_ALIGNMENT.json: все309историческихназначений в карте,18M05содержательнорассмотрены и18новыхпривязаныкпредшествующейтеории.291историческое назначение ещё PENDING. Четыре новые точкиR/E имеют проверку этих конкретныхMC, но не комплексную приёмку их модулей. Уже принятые24/96нужно адресно дополнить поD-015; у M05критерий добавлен в общий проход. Нельзя объявлять все96проверенными по новой карте. Дистракторы оценены редакционно, их реальная трудность/различительнаяспособность без данных учеников не измерена.
+docs/audits/data/QUESTION_LEARNING_ALIGNMENT.json: все309историческихназначений в карте,18M05содержательнорассмотрены и18новыхпривязаныкпредшествующейтеории.291историческое назначение ещё PENDING. Четыре новые точкиR/E имеют проверку этих конкретныхMC, но не комплексную приёмку их модулей. Уже принятые24/96нужно адресно дополнить поD-015; у M05критерий добавлен в общий проход. Нельзя объявлять все96проверенными по новой карте. Дистракторы оценены редакционно, их реальная трудность/различительнаяспособность без данных учеников не измерена.
 
 Локально фактически PASS12программ:project-state,release,content-dedup,methodical-review,teacher-review,quality-m02/03/04/05,learning-review,strategies,exam-practice. Выполнены независимые расчёты и120сборокэкзамена; исходныйBANK/frozen5.0.8сохранены. Новые браузерныеquality-m05/exam-practice добавлены к прежним5, всего7; ожидают GitHubCI, поскольку Chrome в локальной среде отсутствует. VERIFIED/принятиеM05/Pages/liveпока не объявляются.
 
@@ -163,13 +163,13 @@ T-01/T-14/T-15/T-16/T-18. Фактически прошли все 13 локал
 
 ## CP-20261027-059 · 5.0.33 beta VERIFIED · принято 36/96
 
-[PR51](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/51) объединён: продукт 13992104e3d70f4645dde5bcecded2a3f36d8e5f. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40407796549), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40408414280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40408413910). Все 13 локальных и 7 браузерных программ PASS. Реальные modules-risk-mobile, modules-hedge-desktop, exam-multi-desktop/mobile из артефакта12691439359 осмотрены. Live MATCH: index d5b19a723ea8c965bd65e9896e3482812624f99f; question-review.js fc3941c0371df1add5bca96bdd7adf850d8a642c; exam-practice.js 80dc021da3adab151804c3c7d4ea2c48bb9f0344; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+[PR51](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/51) объединён: продукт 13992104e3d70f4645dde5bcecded2a3f36d8e5f. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40407796549), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40408414280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40408413910). Все 13 локальных и 7 браузерных программ PASS. Реальные modules-risk-mobile, modules-hedge-desktop, exam-multi-desktop/mobile из артефакта12691439359 осмотрены. Live MATCH: index d5b19a723ea8c965bd65e9896e3482812624f99f; assets/question-review.js fc3941c0371df1add5bca96bdd7adf850d8a642c; assets/exam-practice.js 80dc021da3adab151804c3c7d4ea2c48bb9f0344; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
 Приняты 6 блоков M06; всего 36/96, остаются 60 и итоговая сквозная приёмка. Дополнительно все 15 прежних назначений M04 проверены по D-015. Новые критерии приняты для 18/96 блоков: M04, M05, M06. Карта: 49/309 исторических назначений подтверждены, 260 PENDING; 36 новых MC имеют ранние теоретические опоры. Источниковый осмотр на момент выпуска 239/557, не приравнивается к приёмке всех страниц/модулей.
 
 Добавлены18MC (12M06+6M04), всего60multi в основном пуле311. Усилены17single; PO07 имеет согласованные условие и2критерия; его прежние ответы/оценки прошли реальный экспорт/импорт. Исправлены ранние предпосылки PM17, V2-072, Q09. Пять подробных формул, всего124;530терминов;62дополнительные концептуальные проверки. RawBANK275/19,309назначений/подготовка,84исходныеформулы,ID/прогресс/истории/frozen5.0.8 сохранены. D-015:25open/25multi без расчётных заданий и раздела маржинальной торговли; обычные single и учебные расчёты сохранены. T-06 исключена.
 
-Нормативные частные случаи, весь актуальный IFRS9 и исторические кривые не объявлены полностью сертифицированными; сложность вариантов оценена редакционно, не измерена на учениках. Далее M07 и адресные10назначенийM03 по COURSE_EXECUTION_PLAN.md, отдельная команда не нужна.
+Нормативные частные случаи, весь актуальный IFRS9 и исторические кривые не объявлены полностью сертифицированными; сложность вариантов оценена редакционно, не измерена на учениках. Далее M07 и адресные10назначенийM03 по docs/project/COURSE_EXECUTION_PLAN.md, отдельная команда не нужна.
 
 
 
@@ -199,7 +199,7 @@ PR52/CI40411821356: оба job SUCCESS, все7браузерныхпрогра�
 
 ## CP-20261027-065 · 5.0.34 beta VERIFIED · принято42/96
 
-[PR52](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/52) объединён: продукт 7f4412579d092ce85fb78f2286807c87fdd926d2. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40412625858), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40413237497), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40413236998). Все14локальных и7браузерных программ PASS. Реальные options-profiles-desktop/mobile повторного артефакта12694252074 осмотрены: контрастные подписи и прокрутка внутри карточки подтверждены. Первый зелёный прогон всё же имел визуальный дефект; историяCP064 сохранена. Live5files MATCH: index fc68504a239e1c2a2431d03d20eee1f6449010db; question-review.js 8c2d2cc5673fe9586a7f68e44b71a39ea4180927; exam-practice.js c95866da3b9e3d107306823c4534419298ca1346; option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+[PR52](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/52) объединён: продукт 7f4412579d092ce85fb78f2286807c87fdd926d2. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40412625858), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40413237497), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40413236998). Все14локальных и7браузерных программ PASS. Реальные options-profiles-desktop/mobile повторного артефакта12694252074 осмотрены: контрастные подписи и прокрутка внутри карточки подтверждены. Первый зелёный прогон всё же имел визуальный дефект; историяCP064 сохранена. Live5files MATCH: index fc68504a239e1c2a2431d03d20eee1f6449010db; assets/question-review.js 8c2d2cc5673fe9586a7f68e44b71a39ea4180927; assets/exam-practice.js c95866da3b9e3d107306823c4534419298ca1346; assets/option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
 Приняты6блоковM07,всего42/96;54и итоговая сквозная приёмка впереди. НовыйD015принятдля24блоковM04–M07;дополнительно10назначенийM03подтверждены,неприёмкавсегоM03.85/309историческихназначенийVERIFIED,224PENDING.52новыхMCимеют ранние опоры,всего76multiвпуле327.130формул,545терминов,74дополнительныхпроверки.288/557страницосмотрены,безприписыванияполнойюридическойсертификации. RawBANK275/19,309назначений,84исходныеформулы,ID/прогресс/истории/frozen5.0.8сохранены.
 
@@ -224,7 +224,7 @@ PR52/CI40411821356: оба job SUCCESS, все7браузерныхпрогра�
 
 ## CP-20261027-069 · 5.0.35 beta VERIFIED · принято48/96
 
-[PR53](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/53) объединён: продукт 4e88c7c7be3f5031278fe4a9f8d6dbb646b1b07f. [PRCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415379058), [mainCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415986654), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415985879).15локальных/7браузерныхпрограммPASS. Реальные modules-regulation-desktop/mobile артефакта12695232650 осмотрены. Браузер проверил30блоков,64MC,7открытыхисторийчерезреальныйэкспорт/импорт,desktop/320px;все прежние сценарии сохранены. Live5filesMATCH: index4192dcf6d168f519de66edd1b0d9c43da9c0cdcc;question-review.js a6032fb4314f7650add13ef34f5d278b155997ea;exam-practice.js 5cef6cd6f5373272b62cfd2ddfe6346733b4a8b2;option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566;frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+[PR53](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/53) объединён: продукт 4e88c7c7be3f5031278fe4a9f8d6dbb646b1b07f. [PRCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415379058), [mainCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415986654), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40415985879).15локальных/7браузерныхпрограммPASS. Реальные modules-regulation-desktop/mobile артефакта12695232650 осмотрены. Браузер проверил30блоков,64MC,7открытыхисторийчерезреальныйэкспорт/импорт,desktop/320px;все прежние сценарии сохранены. Live5filesMATCH: index4192dcf6d168f519de66edd1b0d9c43da9c0cdcc;assets/question-review.js a6032fb4314f7650add13ef34f5d278b155997ea;assets/exam-practice.js 5cef6cd6f5373272b62cfd2ddfe6346733b4a8b2;assets/option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566;frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
 Приняты6блоковM08;всего48/96,48и итоговаясквознаяприёмкавпереди. D015принятдля36блоковM01/M04–M08;126/309историческихназначенийVERIFIED,183PENDING.76дополнительныхMC,100multiвпуле351;130формул,557терминов,86дополнительныхпроверок.361/557страницосмотренысраскрытымипределами. ПрежнийBANK275/19,309назначений/84формулы/ID/истории/frozen5.0.8сохранены.
 
@@ -260,9 +260,9 @@ PR54/CI40418995802:verifySUCCESS,browserFAILвquality-modules-browser.mjsпри 
 
 [PR54](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/54) MERGED; продукт cfe05bd6e09d8006ade57571c3acf5dc734a08bb. [PRCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40419493693), [mainCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40420119400), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40420119327).16 локальных и7 браузерных программ PASS. Снимки modules-liquidity-desktop и modules-digital-mobile артефакта12697492326 осмотрены. Реальный экспорт/импорт:13 курсовых и11 допустимых экзаменационных историй. Первый красный прогон сохранён CP073: дефект тестовых данных исправлен, продуктовый импорт работал правильно.
 
-Live MATCH5: index f96578d36c83a579ca255dda96fd1332ca779844; question-review.js cc15505207b684faf7f11a25e0f96feb1b5ded6f; exam-practice.js 91d3155d5b77f7b3473fa85f5020443101392507; option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+Live MATCH5: index f96578d36c83a579ca255dda96fd1332ca779844; assets/question-review.js cc15505207b684faf7f11a25e0f96feb1b5ded6f; assets/exam-practice.js 91d3155d5b77f7b3473fa85f5020443101392507; assets/option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
-Принято M01–M09:54/96,42 блока и итоговая приёмка впереди. D015 принят для45 блоков;162/309 исторических назначений VERIFIED,147 PENDING.94 дополнительных MC,118 multi в пуле369;131 формула,579 терминов,98 дополнительных проверок.404/557 страниц осмотрены с пределами QUALITY_M09_REVIEW.md. Сохранены raw BANK275/19,309 назначений,84 прежние формулы,ID/истории/экспорт и frozen5.0.8.
+Принято M01–M09:54/96,42 блока и итоговая приёмка впереди. D015 принят для45 блоков;162/309 исторических назначений VERIFIED,147 PENDING.94 дополнительных MC,118 multi в пуле369;131 формула,579 терминов,98 дополнительных проверок.404/557 страниц осмотрены с пределами docs/audits/QUALITY_M09_REVIEW.md. Сохранены raw BANK275/19,309 назначений,84 прежние формулы,ID/истории/экспорт и frozen5.0.8.
 
 Далее M10: E01–E03 и6 ранних назначений M02 (S1-05-1/S1-06-0), затем остальные пакеты без новой команды. T06 исключена, D016 действует.
 
@@ -274,7 +274,7 @@ T-01/T-14/T-15/T-16;рабочая5.0.37beta,audit/quality-m10-20261027. В6бл
 
 16MC(12M10+4M02)дают по знанию и кейсу8блокам,без требуемых вычислений. В основном пуле385вопросов,134multi;новый экзамен25open/25multi.14singleсохранили ключи и получили близкие варианты;EM02[0]и учительскийQ14не переписаны.6 открытых заданий согласованы с критериями,EO02/V2-049имеют разные учебные роли,старые оценки сохраняются.18прежнихMCсеминара1 исправленыreg→debtбез сменыID/содержания/ответов. Регрессия должна учитывать фактическую темуS2-05(РЕПО/денежный рынок),а не один номер семинара.
 
-Карта200/309рассмотрены=162VERIFIED+38PENDING;109ещёнепроверены. D01545приняты+8ожидают+43остаются.457/557страницосмотрено с пределами QUALITY_M10_REVIEW.md.54/96принято,новые6 ещёнеприняты. Предметная quality-m10 PASS;полный набор,браузер,CI/Pages/live ожидаются. T06исключена;после проверенного выпускаM11без новой команды.
+Карта200/309рассмотрены=162VERIFIED+38PENDING;109ещёнепроверены. D01545приняты+8ожидают+43остаются.457/557страницосмотрено с пределами docs/audits/QUALITY_M10_REVIEW.md.54/96принято,новые6 ещёнеприняты. Предметная quality-m10 PASS;полный набор,браузер,CI/Pages/live ожидаются. T06исключена;после проверенного выпускаM11без новой команды.
 
 
 
@@ -287,9 +287,9 @@ T-01/T-14/T-15/T-16;рабочая5.0.37beta,audit/quality-m10-20261027. В6бл
 
 [PR55](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/55) MERGED; продукт fcc4cede3e5b1001d9231ee456aacfbe9dfd53d2. [PRCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40421875978), [mainCI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40422431764), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40422431011).17 локальных/7 браузерных программ PASS. Реальные modules-equity-desktop/modules-dividend-mobile артефакта12698375751 осмотрены. Браузер:47блоков/100MC,19курсовых и17допустимых экзаменационных историй через настоящий экспорт/импорт,desktop/320px.
 
-Live MATCH5: index5f98608a39452ae00df605cfa7f3686bdedc3e7f; question-review.js f65feb9f830653bf1ce3d37faf5a8ee670346ae9; exam-practice.js fc113e241a7a136f85af24cd0f8ce1777f86892b; option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+Live MATCH5: index5f98608a39452ae00df605cfa7f3686bdedc3e7f; assets/question-review.js f65feb9f830653bf1ce3d37faf5a8ee670346ae9; assets/exam-practice.js fc113e241a7a136f85af24cd0f8ce1777f86892b; assets/option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
-M01–M10приняты60/96,36и итоговая приёмка остаются. D015для53блоков;200/309исторических назначений VERIFIED,109PENDING.110дополнительныхMC/134multiвпуле385,131формула/588терминов/110дополнительныхпроверок.457/557страниц осмотрены с пределами QUALITY_M10_REVIEW.md.14single,6открытых рубрик и16новыхMC проверены;18прежнихMCполучили правильную категорию долга. RawBANK275/19,309назначений,84старыеформулы,ID/истории/frozen5.0.8сохранены.
+M01–M10приняты60/96,36и итоговая приёмка остаются. D015для53блоков;200/309исторических назначений VERIFIED,109PENDING.110дополнительныхMC/134multiвпуле385,131формула/588терминов/110дополнительныхпроверок.457/557страниц осмотрены с пределами docs/audits/QUALITY_M10_REVIEW.md.14single,6открытых рубрик и16новыхMC проверены;18прежнихMCполучили правильную категорию долга. RawBANK275/19,309назначений,84старыеформулы,ID/истории/frozen5.0.8сохранены.
 
 Далее M11/E04–E06 и9ранних назначенийM03:оставшиеся4S1-07-1и5S1-08-0. Затем M12–M16/финал без новой команды;T06исключена,D016действует.
 
@@ -301,7 +301,7 @@ T-01/T-14/T-15/T-16;рабочая5.0.38beta,audit/quality-m11-20261027.6бло�
 
 17singleполучили предметные варианты с прежними ключами;9открытых заданий имеют2предметных критерия,история сохранена.16новыхMC(12M11+4M03)с ранними опорами/вариантами2/3/4правильных. Два прежнихMCсохранены,новые роли отделены от повторов.126дополнительныхMC/150multiвпуле401;новые экзамены25open/25multi,без расчётов и раздела маржинальной торговли. Q06учителя/принятыйQ05не переписаны.
 
-Карта231/309рассмотрены=200VERIFIED+31PENDING,78впереди. D01553приняты+8ожидают+35остаются.488/557страниц осмотрены с пределами QUALITY_M11_REVIEW.md.60/96принято,новые6ещёнеприняты. QA086–091исправлены и ждут регрессии;QA092–096сохраняют находки следующихM12–M14,не объявлены закрытыми. Предметныеquality-m11/exam-practicePASS;полный набор/браузер/CI/Pages/live впереди. T06исключена;после выпускаM12безкоманды.
+Карта231/309рассмотрены=200VERIFIED+31PENDING,78впереди. D01553приняты+8ожидают+35остаются.488/557страниц осмотрены с пределами docs/audits/QUALITY_M11_REVIEW.md.60/96принято,новые6ещёнеприняты. QA086–091исправлены и ждут регрессии;QA092–096сохраняют находки следующихM12–M14,не объявлены закрытыми. Предметныеquality-m11/exam-practicePASS;полный набор/браузер/CI/Pages/live впереди. T06исключена;после выпускаM12безкоманды.
 
 
 
@@ -316,7 +316,7 @@ T-01/T-14/T-15/T-16;рабочая5.0.38beta,audit/quality-m11-20261027.6бло�
 
 T-01/T-14/T-15/T-16. Среда снова доступна. Фактическийmainfcc4cede3e5b1001d9231ee456aacfbe9dfd53d2;PR56open,удалённыйHEAD5754e2dbf1ad72d3a2a8e6163060e16629a1f691,CI40425590366SUCCESS. Локальнаяветкаaudit/quality-m11-resume-20261027создана от удалённой;старые локальные коммиты не удалены. Снимки modules-beta-desktop/modules-governance-mobile артефакта12699570893реально осмотрены. Найдена только слипшаяся типографика нового примера β_p;исправлены пробелы,исходные84формулы не менялись. Новыйкод потребует CIи нового осмотра примера. CP082BLOCKEDостаётся историей,текущийphaseIN_PROGRESS.
 
-Последняяпубликация5.0.37VERIFIED/CP078,60/96принято. M11не опубликован и ещёне принят. Далее локальнаяпроверка/PRCI/осмотр/mainCI/Pages/live5,затемM12безкоманды. НаходкиM12 сохранены QUALITY_M12_PREFLIGHT.md;T06исключена.
+Последняяпубликация5.0.37VERIFIED/CP078,60/96принято. M11не опубликован и ещёне принят. Далее локальнаяпроверка/PRCI/осмотр/mainCI/Pages/live5,затемM12безкоманды. НаходкиM12 сохранены docs/audits/QUALITY_M12_PREFLIGHT.md;T06исключена.
 
 
 ## CP-20261027-084 · 5.0.38 beta VERIFIED · принято66/96
@@ -333,7 +333,7 @@ Live5MATCH:index1b36bef42d68de6e22e59ff3e448613e4a710693;question-review0bfc7e5c
 
 ## CP-20261027-085 · источники/вопросы · IN_PROGRESS
 
-Ветка audit/quality-m12-20261027 от проверенного4b92aa9e45c284e0c3b3726fde9e7aa9640d72fa. Основнаяинформация и первичныепроверки:QUALITY_M12_PREFLIGHT.md(полностьюпрочитан). Прочитаны6полныхблоковE07/E08/E09,12назначенийи7раннихS1-06-1;включаяформулы/ключи/рубрики/prep. Ранниеexplanationпатчипроверяютсявэффективномслое,не дублируются. ДополнительныхпреподавательскихстраницдляM12нет:488/557наосновеM10/M11. Это не полнаяпроверка285страницправиллистингаиливсехисторическихданных.
+Ветка audit/quality-m12-20261027 от проверенного4b92aa9e45c284e0c3b3726fde9e7aa9640d72fa. Основнаяинформация и первичныепроверки:docs/audits/QUALITY_M12_PREFLIGHT.md(полностьюпрочитан). Прочитаны6полныхблоковE07/E08/E09,12назначенийи7раннихS1-06-1;включаяформулы/ключи/рубрики/prep. Ранниеexplanationпатчипроверяютсявэффективномслое,не дублируются. ДополнительныхпреподавательскихстраницдляM12нет:488/557наосновеM10/M11. Это не полнаяпроверка285страницправиллистингаиливсехисторическихданных.
 
 Планпакета:расширитьнедостающиемеханизмы/роли/условиядо вопросов;согласовать8открытыхрубрик,усилить9singleссохранениемключей;14новыхMC;закрыть19назначенийи7блоковD015послерегрессии. Инвентаризация доказала отсутствие openSTUDY_EXTRASвглавномпуле. Включитьпроверенные10IDчерезотдельныйразрешённыйсписок,сохранитьсырыеснимки,ID/истории/курс. Проверитьдоступностькаждоговэкзамене/экспорт-импорт. Необъявлятьновые6принятымираньшеCI/Pages/live. T06исключена.
 
@@ -342,7 +342,7 @@ Live5MATCH:index1b36bef42d68de6e22e59ff3e448613e4a710693;question-review0bfc7e5c
 
 ## CP-20261027-086 · M12 реализован · RELEASE_PENDING
 
-Рабочая5.0.39beta,audit/quality-m12-20261027. E07/E08/E09:6блоков,учебнаяцепочкаотдопуска/учётадоразмещения,границDDMииндексныхбаз.12новыхпонятийи12дополнительныхпроверок:132формулы(все84исходныесохранены),612терминов,134дополнительныхпроверки. Источниковаяоснова488/557неувеличена:нужныестраницыпрочитаны/осмотреныранее;пределыQUALITY_M12_PREFLIGHT.md. ЧисловыенесоответствияDDM/SBERPисправленыявно,актуальныеметодики/исключениянеподмененыуниверсальнымипорогами.
+Рабочая5.0.39beta,audit/quality-m12-20261027. E07/E08/E09:6блоков,учебнаяцепочкаотдопуска/учётадоразмещения,границDDMииндексныхбаз.12новыхпонятийи12дополнительныхпроверок:132формулы(все84исходныесохранены),612терминов,134дополнительныхпроверки. Источниковаяоснова488/557неувеличена:нужныестраницыпрочитаны/осмотреныранее;пределыdocs/audits/QUALITY_M12_PREFLIGHT.md. ЧисловыенесоответствияDDM/SBERPисправленыявно,актуальныеметодики/исключениянеподмененыуниверсальнымипорогами.
 
 9singleсохранилиключи,8открытыхполучиликонкретныедвухчастныерубрикисисторией,14новыхMC(12M12+2M02).140дополнительныхMC/164multi. Проверенные10существующихopenID(S3-001O…008O,FRI509-06/08)теперьвэффективномBANK_MAP/экзаменационномпуле,неповторяютсявпрактикеблока. Всего425эффективныхвопросов,rawBANK275/19прежний;прежниеID/истории/309назначений/frozen5.0.8сохранены. СледующиепроверенныеopenM13–M16добавитьвтотжемеханизме. Новыйэкзамен25open/25multi,безрасчётовимаржинальнойглавы.
 
@@ -492,7 +492,7 @@ Live5MATCH: index f74f0194fb616fd899fa8bcf84705ec8951e1612; question-review 3e8b
 
 ## CP-20261027-099 · M15/M16 источниковый preflight · IN_PROGRESS
 
-M14 опубликован/VERIFIED CP098. Последние26страниц L45PDF32–56/62 прочитаны и осмотрены на7контактных листах;557/557 имеют READ/INSPECTED,но это не сертификация всех исторических рядов/исключений. Найдены пенсионная классификация/устаревшая база/тариф и недораскрытые страховые роли/продукты. Первичные проверки и пределы QUALITY_M15_REVIEW.md. Принято84/96,D01584,285/309VERIFIED;новые темы пока не приняты. ПланM15:6блоков,12назначений,6рубрик,14MC,6проверенныхopenвосновнойпул;затемM16/финалавтономно,T06исключена.
+M14 опубликован/VERIFIED CP098. Последние26страниц L45PDF32–56/62 прочитаны и осмотрены на7контактных листах;557/557 имеют READ/INSPECTED,но это не сертификация всех исторических рядов/исключений. Найдены пенсионная классификация/устаревшая база/тариф и недораскрытые страховые роли/продукты. Первичные проверки и пределы docs/audits/QUALITY_M15_REVIEW.md. Принято84/96,D01584,285/309VERIFIED;новые темы пока не приняты. ПланM15:6блоков,12назначений,6рубрик,14MC,6проверенныхopenвосновнойпул;затемM16/финалавтономно,T06исключена.
 
 
 
@@ -524,7 +524,7 @@ CP102:после замены отвлекающего варианта полн
 
 [PR60](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/60) MERGED; продукт `db18536e04ce81398f6e46110ffe5f6249964362`. [PR CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40455584876), [main CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40456255631), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40456255317) SUCCESS. Полный набор 22 локальных и7 браузерных программ PASS. Реальные modules-insurance-roles-desktop, modules-franchise-mobile из артефакта12712312505 осмотрены. Браузер: 84 блоков с полным набором проверок/180 MC, 56 курсовых и54 допустимых экзаменационных историй через реальный экспорт/импорт, desktop/320px.
 
-Live5MATCH: index.html 84f86aa825af2fc5796859c63699e6413477f89b; question-review.js 5c92553a8b7d8ad3a1f550a6a4b86018dda18dc3; exam-practice.js 347d5df210da18a25473c742034022f930b69413; option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+Live5MATCH: index.html 84f86aa825af2fc5796859c63699e6413477f89b; assets/question-review.js 5c92553a8b7d8ad3a1f550a6a4b86018dda18dc3; assets/exam-practice.js 347d5df210da18a25473c742034022f930b69413; assets/option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
 90/96 комплексно принято с раскрытыми пределами; D015 для90 блоков. 297/309 назначений VERIFIED, 12 остаются. 135 формул/651 терминов/171 дополнительных концептуальных проверок. 186 дополнительных MC/210totalmulti, 28 дополнительных проверенных open; 489 эффективных ID. Экзамен25open/25multi,без вычислений и маржинальной главы. RawBANK275/19,все309назначений,84исходныеформулы,ID/истории/frozen5.0.8 сохранены.557/557 страниц прочитаны/осмотрены с оговорками;это не сертификация всех исторических рядов/исключений.
 
@@ -534,7 +534,7 @@ Live5MATCH: index.html 84f86aa825af2fc5796859c63699e6413477f89b; question-review
 
 ## CP-20261027-104 · M16 preflight · IN_PROGRESS
 
-Начаты последние6блоков PEN01/PEN02/FACTOR01 на проверенном M15. Источники и первичные основания QUALITY_M16_REVIEW.md,осмотр557/557неувеличен. План:12назначений/6рубрик/12MCпоследнихтем+6недостающихвидовMCраннихM04,ещё6старыхтеоретическихopenвосновнойпул. Финальнаяцель96/96,D01596,309/309поддержанныхназначений,теория+кейсMCвкаждомблоке;непомечатьпринятымидорегрессии/публикации. T06исключена;послеM16итоговыйпроход/сводка/архивисториибезновойкоманды.
+Начаты последние6блоков PEN01/PEN02/FACTOR01 на проверенном M15. Источники и первичные основания docs/audits/QUALITY_M16_REVIEW.md,осмотр557/557неувеличен. План:12назначений/6рубрик/12MCпоследнихтем+6недостающихвидовMCраннихM04,ещё6старыхтеоретическихopenвосновнойпул. Финальнаяцель96/96,D01596,309/309поддержанныхназначений,теория+кейсMCвкаждомблоке;непомечатьпринятымидорегрессии/публикации. T06исключена;послеM16итоговыйпроход/сводка/архивисториибезновойкоманды.
 
 
 
@@ -571,7 +571,7 @@ CP106:после финальной правки8дистракторов пол
 
 [PR61](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/61) MERGED; продукт `93bcb0b43d78c80da21d76440de48c6401a3e30b`. [PR CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40458697111), [main CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459482935), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459483653) SUCCESS. Полный набор 23 локальных и7 браузерных программ PASS. Реальные modules-pension-roles-desktop, modules-forfaiting-mobile из артефакта12713662990 осмотрены. Браузерные сценарии охватывают 96 блоков/204 MC, 62 курсовых и60 допустимых экзаменационных историй через реальный экспорт/импорт, desktop/320px.
 
-Live5MATCH: index.html 1c4758845873b6d5b966fdcc17373549334c9b54; question-review.js 4ca5e65031e96e6ff582d2b249d25cd711dcbba5; exam-practice.js ee90a581152a87fda3b086f2f8faa8004d19d100; option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+Live5MATCH: index.html 1c4758845873b6d5b966fdcc17373549334c9b54; assets/question-review.js 4ca5e65031e96e6ff582d2b249d25cd711dcbba5; assets/exam-practice.js ee90a581152a87fda3b086f2f8faa8004d19d100; assets/option-profiles.js cd2b04924ac937a59a443e12e9164591b5bb1566; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519.
 
 96/96 комплексно принято с раскрытыми пределами; D015 для96 блоков. 309/309 назначений VERIFIED, 0 остаются. 135 формул/663 терминов/183 дополнительных концептуальных проверок. 204 дополнительных MC/228totalmulti, 34 дополнительных проверенных open; 513 эффективных ID. Экзамен25open/25multi,без вычислений и маржинальной главы. RawBANK275/19,все309назначений,84исходныеформулы,ID/истории/frozen5.0.8 сохранены.557/557 страниц прочитаны/осмотрены с оговорками;это не сертификация всех исторических рядов/исключений.
 

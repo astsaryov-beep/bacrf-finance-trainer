@@ -24,7 +24,7 @@ assert.notEqual(1000*(10*.1+20*.12)/365,1000*.11*30/365,'unequal durations requi
 const scenarios=[.11,.09];near(Math.min(...scenarios),.09);assert.ok(-.4<Math.min(...scenarios),'contractual worst yield cannot bound default loss');
 // An already paid coupon must not re-enter the post-purchase valuation.
 assert.ok(pv(.1,[[0,100],[1,1100]])>pv(.1,[[1,1100]]));
-const ctx={};vm.runInNewContext(readFileSync(new URL('../question-review.js',import.meta.url),'utf8'),ctx);
+const ctx={};vm.runInNewContext(readFileSync(new URL('../assets/question-review.js',import.meta.url),'utf8'),ctx);
 const r=ctx.FinanceReview,raw=parse('BANK'),q=id=>r.question(raw.find(x=>x.id===id));
 assert.equal(q('Q14').rubric.length,2);assert.match(q('Q16').rubric.join(' '),/получени/);
 for(const id of ['Q14','Q16']){

@@ -4,10 +4,10 @@ import {resolve} from 'node:path';
 import vm from 'node:vm';
 
 const root=resolve(import.meta.dirname,'..');
-const js=readFileSync(resolve(root,'strategies.js'),'utf8');
-const css=readFileSync(resolve(root,'strategies.css'),'utf8');
+const js=readFileSync(resolve(root,'assets/strategies.js'),'utf8');
+const css=readFileSync(resolve(root,'assets/strategies.css'),'utf8');
 const html=readFileSync(resolve(root,'index.html'),'utf8');
-new vm.Script(js,{filename:'strategies.js'});
+new vm.Script(js,{filename:'assets/strategies.js'});
 const c=vm.runInNewContext(js+'\n({cases:FRI_STRATEGY_CASES,curve:strategyCurveSvg,credit:strategyCreditSvg,basis:strategyBasisSvg,asw:strategyAswSvg})');
 assert.equal(c.cases.length,5,'Steepener, Flattener and three other mechanisms');
 assert.deepEqual(Array.from(c.cases,x=>x.id),['steepener','flattener','credit','carry','asw']);

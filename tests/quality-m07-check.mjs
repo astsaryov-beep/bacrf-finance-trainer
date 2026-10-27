@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
-const ctx={};vm.runInNewContext(read('option-profiles.js'),ctx);vm.runInNewContext(read('question-review.js'),ctx);vm.runInNewContext(read('exam-practice.js'),ctx);
+const ctx={};vm.runInNewContext(read('assets/option-profiles.js'),ctx);vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);
 const near=(a,b,t=1e-8)=>assert.ok(Math.abs(a-b)<t,`${a} != ${b}`),profiles=ctx.OptionProfiles;
 const formulas={
  'bull-call':s=>Math.min(Math.max(s-100,0),10)-5,
@@ -35,6 +35,6 @@ const raw=[...parse('BANK'),...parse('STUDY_EXTRAS')],q=id=>ctx.FinanceReview.qu
 for(const id of ['PM22','V2-058','V2-059','V2-064','LQ07','PM13','PM12','LQ08','PM14','LQ16','V2-066','PM24','LQ09','LQ10','V2-023'])assert.equal(JSON.stringify(q(id).correct),JSON.stringify(raw.find(x=>x.id===id).correct));
 assert.equal(q('PO08').rubric.length,1);assert.match(q('PO08').question,/не менее двух разных/);
 const old={text:'Сохранённый ответPO08',checked:true,revealed:true,score:1,rubric:[0,1,2]};ctx.FinanceReview.migrateCourseAnswer(q('PO08'),old);assert.equal(old.score,null);assert.equal(old.previousReviewResult.score,1);assert.equal(old.text,'Сохранённый ответPO08');const once=JSON.stringify(old);ctx.FinanceReview.migrateCourseAnswer(q('PO08'),old);assert.equal(JSON.stringify(old),once);
-const a=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json')),m07=['S2-09','S2-10','S2-11'];assert.equal(a.assignments.filter(x=>m07.includes(x.block.slice(0,-2))).length,26);assert.ok(a.assignments.filter(x=>m07.includes(x.block.slice(0,-2))).every(x=>x.status!=='PENDING'));assert.ok(a.reviewedHistoricalAssignments>=85);
+const a=JSON.parse(read('docs/audits/data/QUESTION_LEARNING_ALIGNMENT.json')),m07=['S2-09','S2-10','S2-11'];assert.equal(a.assignments.filter(x=>m07.includes(x.block.slice(0,-2))).length,26);assert.ok(a.assignments.filter(x=>m07.includes(x.block.slice(0,-2))).every(x=>x.status!=='PENDING'));assert.ok(a.reviewedHistoricalAssignments>=85);
 assert.equal(ctx.ExamPractice.questions.filter(x=>m07.includes(x.lesson)).length,14);
 console.log('PASS M07:12 independent piecewise option profiles and tail boundaries, gold account conservation, funding/GO one-time inclusion, protection budget, Greek units,15 historical keys and PO08 migration,26+10 reviewed assignments.');

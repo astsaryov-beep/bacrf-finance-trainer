@@ -9,7 +9,7 @@ const frozen=readFileSync(resolve(root,'v5.0.8/index.html'),'utf8');
 const block=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(block,'inline JS exists');
 new vm.Script(block[1],{filename:'index.html:inline.js'});
-const stateText=readFileSync(resolve(root,'PROJECT_STATE.md'),'utf8');
+const stateText=readFileSync(resolve(root,'docs/project/PROJECT_STATE.md'),'utf8');
 const stateMatch=stateText.match(/<!-- STATE_JSON_BEGIN -->\s*```json\s*([\s\S]*?)\s*```/);
 assert.ok(stateMatch,'canonical release state exists');
 const releaseVersion=JSON.parse(stateMatch[1]).working_version;
@@ -22,9 +22,9 @@ function data(src,prefix){
  return JSON.parse(src.slice(i+prefix.length,end));
 }
 assert.doesNotMatch(html,/data-tab="strategies"/,"strategies are part of course, not top-level tab");
-assert.match(html,/src="strategies.js"/);
-assert.match(html,/href="strategies.css"/);
-assert.match(html,/href="course-sidebar.css"/,"compact course sidebar must load its CSS");
+assert.match(html,/src="assets\/strategies.js"/);
+assert.match(html,/href="assets\/strategies.css"/);
+assert.match(html,/href="assets\/course-sidebar.css"/,"compact course sidebar must load its CSS");
 const course=data(html,'const STUDY_LESSONS=');
 const stableBank=data(frozen,'const BANK=');
 const bank=data(html,'const BANK=');
@@ -103,11 +103,11 @@ assert.equal(course.length,48);
 assert.equal(blocks.length,96);
 assert.equal(bank.length,275);
 assert.deepEqual(bank,stableBank,'Main exam bank must equal frozen stable bank');
-const feedback=readFileSync(resolve(root,'exam-feedback.js'),'utf8');
-const feedbackCss=readFileSync(resolve(root,'exam-feedback.css'),'utf8');
-new vm.Script(feedback,{filename:'exam-feedback.js'});
-assert.match(html,/src="exam-feedback.js"/,'post-answer helper loaded');
-assert.match(html,/href="exam-feedback.css"/,'mobile feedback CSS loaded');
+const feedback=readFileSync(resolve(root,'assets/exam-feedback.js'),'utf8');
+const feedbackCss=readFileSync(resolve(root,'assets/exam-feedback.css'),'utf8');
+new vm.Script(feedback,{filename:'assets/exam-feedback.js'});
+assert.match(html,/src="assets\/exam-feedback.js"/,'post-answer helper loaded');
+assert.match(html,/href="assets\/exam-feedback.css"/,'mobile feedback CSS loaded');
 assert.match(feedback,/V2-069/,'put/futures feedback included');
 assert.match(feedback,/вариационная маржа/i);
 assert.match(feedback,/V2-070/);
@@ -116,11 +116,11 @@ assert.match(feedback,/formulaQuestions:Object.keys\(QUESTION_FORMULA_IDS\).leng
 assert.match(feedbackCss,/qa-scenario-grid/);
 assert.match(feedbackCss,/qa-learning-detail/);
 
-const futuresGuide=readFileSync(resolve(root,'futures-short-guide.js'),'utf8');
-const futuresCss=readFileSync(resolve(root,'futures-short-guide.css'),'utf8');
-new vm.Script(futuresGuide,{filename:'futures-short-guide.js'});
-assert.match(html,/src="futures-short-guide.js"/,'guide loaded in app');
-assert.match(html,/href="futures-short-guide.css"/,'guide stylesheet linked');
+const futuresGuide=readFileSync(resolve(root,'assets/futures-short-guide.js'),'utf8');
+const futuresCss=readFileSync(resolve(root,'assets/futures-short-guide.css'),'utf8');
+new vm.Script(futuresGuide,{filename:'assets/futures-short-guide.js'});
+assert.match(html,/src="assets\/futures-short-guide.js"/,'guide loaded in app');
+assert.match(html,/href="assets\/futures-short-guide.css"/,'guide stylesheet linked');
 assert.match(html,/futuresShortCourseMarkup\(l\.id,pos,'full'\)/,'foundations include futures short comparison');
 assert.match(html,/futuresShortCourseMarkup\(l\.id,pos,'brief'\)/,'exam summary includes short borrowing distinction');
 const futuresGuideMarkup=new Function(futuresGuide+'return futuresShortCourseMarkup;')();
@@ -232,7 +232,7 @@ for(const l of labs)assert.ok(ids.has(l[1]),'invalid lab '+l[1]);
 
 const start=html.indexOf('const FRI_PRACTICE_BANK='),end=html.indexOf('function friExtraForBlock',start);
 const courseMap=new Map(course.map(l=>[l.id,l]));
-const supplementaryReview={};vm.runInNewContext(readFileSync(resolve(root,'question-review.js'),'utf8'),supplementaryReview);
+const supplementaryReview={};vm.runInNewContext(readFileSync(resolve(root,'assets/question-review.js'),'utf8'),supplementaryReview);
 const practiceBuilder=new Function('STUDY_MAP','FRI_COLLEAGUE_COVERAGE','FinanceReview',
   html.slice(start,end)+'return FRI_PRACTICE_BANK;');
 const practice=practiceBuilder(courseMap,map,supplementaryReview.FinanceReview);

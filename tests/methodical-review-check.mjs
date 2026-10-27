@@ -7,7 +7,7 @@ const read=p=>readFileSync(resolve(root,p),'utf8');
 const html=read('index.html');
 function data(name){const match=new RegExp('const '+name+'\\s*=\\s*').exec(html);assert.ok(match,name);const i=match.index+match[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));}
 const lessons=data('STUDY_LESSONS'),master=data('STUDY_MASTER'),v5=data('STUDY_V5'),beginner=data('STUDY_BEGINNER'),stories=data('STUDY_SIMPLE_CASES');
-const rows=JSON.parse(read('COURSE_METHOD_REVIEW.json'));
+const rows=JSON.parse(read('docs/audits/data/COURSE_METHOD_REVIEW.json'));
 assert.equal(rows.length,96);assert.equal(new Set(rows.map(r=>r.id)).size,96);
 // Match the existing Unicode, sorted-key Python JSON fingerprints without adding a dependency.
 const canonical=x=>Array.isArray(x)?'['+x.map(canonical).join(', ')+']':x&&typeof x==='object'?'{'+Object.keys(x).sort().map(k=>JSON.stringify(k)+': '+canonical(x[k])).join(', ')+'}':JSON.stringify(x);

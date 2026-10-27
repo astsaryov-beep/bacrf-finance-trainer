@@ -9,6 +9,11 @@ if __name__=='__main__':
         assert not needs_browser(['README.md','docs/project/PROJECT_STATE.md','docs/audits/data/QUALITY_AUDIT.json'])
         for p in ['index.html','assets/new.json','assets/a.js','tests/test.mjs','.github/workflows/verify.yml','package.json','v5.0.8/index.html']:
             assert needs_browser([p]),p
+        import tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            result=os.path.join(directory,'result')
+            subprocess.run([sys.executable,__file__],env={**os.environ,'SCOPE_BASE_SHA':'invalid','GITHUB_OUTPUT':result},check=True)
+            with open(result)as f:assert f.read()=='browser=true'+chr(10)
         print('PASS change scope: documentation-only gate;assets,tests,workflow,dependencies and frozen trigger browsers')
     else:
         task_base=os.environ.get('SCOPE_BASE_SHA','')
@@ -18,5 +23,5 @@ if __name__=='__main__':
             run=needs_browser(paths)
         except (ValueError,subprocess.CalledProcessError):
             run=True
-        with open(os.environ['GITHUB_OUTPUT'],'a')as f:f.write('browser='+str(run).lower()+'\n')
+        with open(os.environ['GITHUB_OUTPUT'],'a')as f:print('browser='+str(run).lower(),file=f)
         print('Browser regression required:',run)

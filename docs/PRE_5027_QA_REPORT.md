@@ -1,4 +1,4 @@
-CP-20261026-020 · T-02 IN_PROGRESS: по поручению пользователя работа возобновлена. Проверка версии читает working_version из канонического PROJECT_STATE.md и сравнивает с HTML; дублирующий устаревший номер устранён. Контент 66/96 сохранён. Все пять локальных проверок PASS. Следующий E-09-0, осталось 30; T-06 исключён. CI/Pages нового пакета PENDING.
+CP-20261026-020 · T-02 IN_PROGRESS: по поручению пользователя работа возобновлена. Проверка версии читает working_version из канонического docs/project/PROJECT_STATE.md и сравнивает с HTML; дублирующий устаревший номер устранён. Контент 66/96 сохранён. Все пять локальных проверок PASS. Следующий E-09-0, осталось 30; T-06 исключён. CI/Pages нового пакета PENDING.
 
 Подтверждение CP-20261026-019: main CI40299760408 SUCCESS; 5.0.26 опубликована и проверена. Рабочая5.0.27 BLOCKED; никаких исправлений после остановки.
 
@@ -16,7 +16,7 @@ Release-check FAIL: tests/release-check.mjs:12 ожидает5.0.26 при HTML5
 
 # QA · 5.0.26 beta IN_PROGRESS
 
-Начата полная методическая проверка 96 блоков. Методические выводы фиксируются отдельно от структурных тестов в COURSE_METHOD_REVIEW.json. Новые результаты CI/Pages PENDING.
+Начата полная методическая проверка 96 блоков. Методические выводы фиксируются отдельно от структурных тестов в docs/audits/data/COURSE_METHOD_REVIEW.json. Новые результаты CI/Pages PENDING.
 
 ---
 
@@ -24,7 +24,7 @@ Release-check FAIL: tests/release-check.mjs:12 ожидает5.0.26 при HTML5
 
 [PR #35](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/35), [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40282611050), [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290). Все пять статических/логических проверок и обе браузерные программы PASS. Проверены 96 самопроверок, настоящее оценивание исправленного IPO и повторный ответ в курсе, старая сессия, другое задание, сохранение известной ошибки между режимами, реальный экспорт/импорт; прежняя регрессия desktop/mobile PASS. T-06 не выполнялся.
 
-Live index.html 9b6b3c08d80c8a029daf18dab95654589a577270; question-review.js 0cdae67810f74e8312b14ff1b81d46cb117a31f3; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519 — MATCH. Полные академическая и методическая проверки остаются PARTIAL (20/96 полных методических блоков, самопроверки 96/96). Реестры описывают точный охват и ограничения.
+Live index.html 9b6b3c08d80c8a029daf18dab95654589a577270; assets/question-review.js 0cdae67810f74e8312b14ff1b81d46cb117a31f3; v5.0.8/index.html 2b77ae8f74be9433af3c458c3be55314d2cc9519 — MATCH. Полные академическая и методическая проверки остаются PARTIAL (20/96 полных методических блоков, самопроверки 96/96). Реестры описывают точный охват и ограничения.
 
 ---
 
@@ -34,7 +34,7 @@ Live index.html 9b6b3c08d80c8a029daf18dab95654589a577270; question-review.js 0cd
 
 Браузерные сценарии: прежняя регрессия + все 96 самопроверок, IPO в каталоге и оценке, старые сессии/курсовые ответы, другое задание, история двух режимов, настоящий экспорт/импорт. Их фактический результат ожидается от CI. Pages/live PENDING.
 
-Реестры предметной работы отделены от тестов: COURSE_METHOD_REVIEW_20261026.md (20/96), COURSE_EDITORIAL_REVIEW.json (самопроверки 96/96), QUESTION_REVIEW_20261026.md (419 ID), SOURCE_REVIEW_LEDGER.json (этапы работы с 557 страницами). Полный T-01/T-02 и Safari-аудит не заявляются завершёнными. T-06 не выполнялся.
+Реестры предметной работы отделены от тестов: docs/audits/COURSE_METHOD_REVIEW_20261026.md (20/96), docs/audits/data/COURSE_EDITORIAL_REVIEW.json (самопроверки 96/96), docs/audits/QUESTION_REVIEW_20261026.md (419 ID), docs/audits/data/SOURCE_REVIEW_LEDGER.json (этапы работы с 557 страницами). Полный T-01/T-02 и Safari-аудит не заявляются завершёнными. T-06 не выполнялся.
 
 ---
 
@@ -65,7 +65,7 @@ Live-проверка 26.10.2026: опубликованный index.html соо
 - **PASS:** [CI main](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40237606709) и [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40237606626), PR #30. Release-check подтвердил отсутствие повторных ID, соответствие `prep`/`qids`, банк 275/19, 96 блоков, 84 формулы и 5.0.8. Chromium browser-smoke проверил поздние темы и вопросы, отсутствие вторичного показа задания и прежние мобильные сценарии.
 - **Ограничение:** исходные 275 экзаменационных вопросов могут содержать тематически близкие формулировки, но менять/удалять их без согласования нельзя. Предметный аудит всех 557 слайдов и iPhone Safari не выполнены этой работой.
 
-[Подробная матрица повторов](COURSE_DUPLICATION_AUDIT.md)
+[Подробная матрица повторов](audits/COURSE_DUPLICATION_AUDIT.md)
 
 ---
 

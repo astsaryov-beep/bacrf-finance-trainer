@@ -4,10 +4,10 @@
 
 ## Восстановление после прерывания
 
-- [ ] Прочитаны `AGENTS.md`, `PROJECT_STATE.md`, `ROADMAP.md`, `DECISIONS.md`, `CHECKPOINTS.md`; проверен HEAD.
+- [ ] Прочитаны `AGENTS.md`, `docs/project/PROJECT_STATE.md`, `docs/project/ROADMAP.md`, `docs/project/DECISIONS.md`, `docs/project/CHECKPOINTS.md`; проверен HEAD.
 - [ ] Изменение сохранено в рабочей ветке небольшими коммитами.
-- [ ] Обновлены `PROJECT_STATE.md` и `CHECKPOINTS.md`; следующий шаг записан конкретно.
-- [ ] Если менялся `index.html`, обновлены `CHANGELOG.md` и `QA_REPORT.md`.
+- [ ] Обновлены `docs/project/PROJECT_STATE.md` и `docs/project/CHECKPOINTS.md`; следующий шаг записан конкретно.
+- [ ] Если менялся `index.html`, обновлены `docs/project/CHANGELOG.md` и `docs/audits/QA_REPORT.md`.
 - [ ] Стабильная `v5.0.8/` не затронута; основной банк и преподавательские вопросы сохранены.
 - [ ] Запущены проверки целостности, регрессии и браузерного интерфейса; приведены ссылки/причины возможных сбоев.
 - [ ] Не заявлена полная академическая проверка, если подтверждена только структура.

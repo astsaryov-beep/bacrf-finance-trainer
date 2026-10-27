@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
-const ctx={};vm.runInNewContext(read('question-review.js'),ctx);vm.runInNewContext(read('exam-practice.js'),ctx);
+const ctx={};vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);
 const raw=[...parse('BANK'),...parse('STUDY_EXTRAS')],q=id=>ctx.FinanceReview.question(raw.find(x=>x.id===id)),master=parse('STUDY_MASTER');
 for(const id of 'EM01 EM03 EM15 V2-041 EM04 V2-042 EM07 V2-039 EM13 EM23 V2-044 EM14 BM16 V2-030'.split(' ')){assert.equal(JSON.stringify(q(id).correct),JSON.stringify(raw.find(x=>x.id===id).correct));assert.equal(q(id).optionFeedback.length,4);}
 assert.equal(JSON.stringify(q('EM02').correct),'[0]');assert.equal(JSON.stringify(raw.find(x=>x.id==='EM02').correct),'[1]');assert.equal(JSON.stringify(q('EM02').options),JSON.stringify(raw.find(x=>x.id==='EM02').options));assert.equal(q('Q14').rubric.length,2);assert.equal(q('Q14').question,raw.find(x=>x.id==='Q14').question);
@@ -28,7 +28,7 @@ let quote=100,dividendRight=0,received=0;quote-=5;dividendRight=5;near(quote+div
 // The teaching calendar is explicitly conditional T+1 without holidays: Wednesday settles Thursday; Thursday settles Friday.
 const settle=day=>day+1,record=4;assert.ok(settle(3)<=record);assert.ok(settle(4)>record);
 const lossToSenior=(loss,junior,mezz)=>Math.max(0,loss-junior-mezz);assert.equal(lossToSenior(25,10,20),0);assert.equal(lossToSenior(35,10,20),5);
-const own=['E-01','E-02','E-03'],early=['S1-05-1','S1-06-0'],a=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json'));
+const own=['E-01','E-02','E-03'],early=['S1-05-1','S1-06-0'],a=JSON.parse(read('docs/audits/data/QUESTION_LEARNING_ALIGNMENT.json'));
 assert.equal(a.assignments.filter(x=>own.includes(x.block.slice(0,-2))).length,32);assert.equal(a.assignments.filter(x=>early.includes(x.block)).length,6);assert.ok(a.assignments.filter(x=>own.includes(x.block.slice(0,-2))||early.includes(x.block)).every(x=>x.status!=='PENDING'));assert.ok(a.reviewedHistoricalAssignments>=200);
 for(const k of [...own.flatMap(l=>[l+'-0',l+'-1']),...early]){const qs=ctx.ExamPractice.questions.filter(x=>x.block===k&&x.source.includes('QUALITY_M10_REVIEW'));assert.equal(qs.length,2);assert.equal(qs.filter(x=>x.taskKind==='knowledge').length,1);assert.equal(qs.filter(x=>x.taskKind==='case').length,1);}
 const topicRules=[[/^E-/,'equity'],[/^(S1-|S2-05|LEASE-|FACTOR-)/,'debt'],[/^(R-|MARKET-|INS-|PEN-)/,'reg'],[/^S2-/,'deriv']];for(const q of ctx.ExamPractice.questions){const rule=topicRules.find(([re])=>re.test(q.block));assert.ok(rule,'unclassified topic '+q.id);assert.equal(q.section,rule[1],q.id+' topic');}

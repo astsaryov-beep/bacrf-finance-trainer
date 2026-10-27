@@ -9,7 +9,7 @@ const page=await browser.newPage({viewport:{width:1366,height:768}});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
 try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded'});
- const rows=JSON.parse(readFileSync(resolve(root,'COURSE_EDITORIAL_REVIEW.json'),'utf8'));
+ const rows=JSON.parse(readFileSync(resolve(root,'docs/audits/data/COURSE_EDITORIAL_REVIEW.json'),'utf8'));
  for(const row of rows){
   await page.evaluate(id=>goStudyLesson(id.slice(0,-2),Number(id.at(-1))),row.id);
   await page.locator('#v5FullBtn').click();

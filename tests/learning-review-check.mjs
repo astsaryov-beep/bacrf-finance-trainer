@@ -3,7 +3,7 @@ import vm from 'node:vm';
 import assert from 'node:assert/strict';
 const root=new URL('../',import.meta.url);
 const html=readFileSync(new URL('index.html',root),'utf8');
-const context={};vm.runInNewContext(readFileSync(new URL('question-review.js',root),'utf8'),context);
+const context={};vm.runInNewContext(readFileSync(new URL('assets/question-review.js',root),'utf8'),context);
 const review=context.FinanceReview;
 const parse=name=>{const match=new RegExp('const '+name+'\\s*=\\s*').exec(html);assert.ok(match);const start=match.index+match[0].length;return JSON.parse(html.slice(start,html.indexOf(';\n',start)));};
 const raw=parse('BANK'),effective=raw.map(q=>review.question(q)),original=raw.find(q=>q.id==='EM02'),fixed=effective.find(q=>q.id==='EM02');
@@ -12,7 +12,7 @@ assert.equal(fixed.correct.join(','),'0','IPO definition must be first public of
 assert.equal(raw.find(q=>q.id==='EM02').correct[0],1,'review function mutated raw bank');
 assert.match(fixed.explanation,/новые акции и\/или акции прежних владельцев/);
 const lessons=parse('STUDY_LESSONS'),master=parse('STUDY_MASTER');
-const manifest=JSON.parse(readFileSync(new URL('COURSE_EDITORIAL_REVIEW.json',root),'utf8'));
+const manifest=JSON.parse(readFileSync(new URL('docs/audits/data/COURSE_EDITORIAL_REVIEW.json',root),'utf8'));
 assert.equal(manifest.length,96);
 const questionTexts=new Set();
 for(const l of lessons)for(let i=0;i<l.blocks.length;i++){
