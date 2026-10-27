@@ -238,17 +238,13 @@
     "id": "S1-09-0",
     "title": "Спреды к безрисковой кривой",
     "status": "REVIEWED",
-    "decision": "M03: источники, понятность, расчёты и версии согласованы; независимая проверка далее.",
-    "fingerprint": "0543e7e9486f8c368000796f10b94c549f081106b380e4deec10881120f59ce5",
+    "decision": "M13 раннийвозврат:повторнаяодинаковаяроль Z-spreadудаленаизсловаря,содержательнаяформула/объяснениесохранены.",
+    "fingerprint": "d4346bfeafb3a3e2c3adaffe63efda40270efc6aab4acc19388031b6a97f1b5c",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "mechanism",
-      "advanced",
-      "extraChecks",
-      "glossary",
-      "formulas"
+      "glossary"
     ],
-    "sourceCheck": "QUALITY_M03_REVIEW.md; S1 PDF92–95,100–119,132–152 и первичные источники."
+    "sourceCheck": "РаннийM03,ключиучителяQ13/Q07непереписаны."
   },
   {
     "id": "S1-09-1",
@@ -1059,75 +1055,94 @@
     "id": "E-10-0",
     "title": "Доходность, волатильность и корреляция",
     "status": "REVIEWED",
-    "decision": "Проверены взвешенная доходность10% и риск14,14% приρ0 против20% приρ1. Термин равновесный заменён на равновзвешенный; уточнены положительные веса и границы тезиса о снижении корреляции.",
-    "fingerprint": "2a5d9fbfd7ae0a7991bd93cec18f97ea82d7dc11c97e44b9ad8a6664f98407cc",
+    "decision": "M13:портфельная механика,модельные границы и достаточные предпосылки до практики;новые роли без избыточного повтора.",
+    "fingerprint": "4a97b08e5713756362b6f1b1bdf86139629f252994adb2d01feeb68cb2fe0dcf",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "beginner",
-      "principles",
-      "advanced"
+      "mechanism",
+      "application",
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF45–62;пределы QUALITY_M13_REVIEW.md,первичные Sharpe1994/CFAKidd2012 отдельно."
   },
   {
     "id": "E-10-1",
     "title": "Эффективная граница и портфель Марковица",
     "status": "REVIEWED",
-    "decision": "ДоминированиеX надY проверено. Уточнено, что граница минимальной дисперсии включает нижнюю неэффективную часть; сохранены ограничения и ошибки оценки.",
-    "fingerprint": "ecc23aa979acff44531397df9d7ae0e128021c59b7abbe5b8797a6d07b84e7c8",
+    "decision": "M13:портфельная механика,модельные границы и достаточные предпосылки до практики;новые роли без избыточного повтора.",
+    "fingerprint": "78a7fea1baf155542aac6dbc44397eb03e805cc9f9f752c992615f76ee43d52c",
     "reviewedOn": "2026-10-26",
     "changes": [
       "mechanism",
-      "beginner"
+      "application",
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF45–62;пределы QUALITY_M13_REVIEW.md,первичные Sharpe1994/CFAKidd2012 отдельно."
   },
   {
     "id": "E-11-0",
     "title": "CAPM и бета рыночного риска",
     "status": "REVIEWED",
-    "decision": "Проверены CAPM17% иβ1,5, различены прогноз и требуемый ориентир. Углубление дополнено экономическими допущениями и ролью диверсификации.",
-    "fingerprint": "beb3d8d6148c7ad08322dab02e45faed46af954abeb6aadd2fcad7d4bf8a3cfd",
+    "decision": "M13:портфельная механика,модельные границы и достаточные предпосылки до практики;новые роли без избыточного повтора.",
+    "fingerprint": "6bc90c543b6fadd545b5a6c644582be6a869bc3b5bf4aa5110f5326937051d8c",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "advanced"
+      "mechanism",
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF45–62;пределы QUALITY_M13_REVIEW.md,первичные Sharpe1994/CFAKidd2012 отдельно."
   },
   {
     "id": "E-11-1",
     "title": "Шарп, Сортино и альфа Дженсена",
     "status": "REVIEWED",
-    "decision": "Проверены Sharpe0,5, Sortino0,8, Jensen4п.п.; добавлены границы сравнения при отрицательной премии и определение downside, без изменения формул. Редакционно нормализованы пробелы в числах и предложениях.",
-    "fingerprint": "f2b86cb8658bf2c9def3f3154945c9d7dbd909a655cca69f7bebc23ce37b9a6a",
+    "decision": "M13:портфельная механика,модельные границы и достаточные предпосылки до практики;новые роли без избыточного повтора.",
+    "fingerprint": "6008899e897e8b2b3724565835c6a224d1529ec23a98721e4f13fa645e5a9c87",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "story"
+      "mechanism",
+      "advanced",
+      "glossary",
+      "extraChecks",
+      "formulas"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF45–62;пределы QUALITY_M13_REVIEW.md,первичные Sharpe1994/CFAKidd2012 отдельно."
   },
   {
     "id": "E-12-0",
     "title": "Что предполагает технический анализ",
     "status": "REVIEWED",
-    "decision": "Проверены растущие экстремумы и самостоятельная роль: формулирование проверяемой гипотезы. Поддержка/сопротивление описаны как наблюдавшиеся области; гарантии прогноза нет.",
-    "fingerprint": "21fa59e597b286c5ce5f425d0ed2d288dc900e40c5aec2fb51a52697bcec0b53",
+    "decision": "M13:портфельная механика,модельные границы и достаточные предпосылки до практики;новые роли без избыточного повтора.",
+    "fingerprint": "95fb627007a3befc7863bb01350e7efa11c0b7365dc1d8b278d696c736e25c94",
     "reviewedOn": "2026-10-26",
-    "changes": [],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "changes": [
+      "mechanism",
+      "application",
+      "glossary",
+      "extraChecks"
+    ],
+    "sourceCheck": "S3 PDF45–62;пределы QUALITY_M13_REVIEW.md,первичные Sharpe1994/CFAKidd2012 отдельно."
   },
   {
     "id": "E-12-1",
     "title": "Подтверждение тренда и ограничения теории Доу",
     "status": "REVIEWED",
-    "decision": "Убрано необоснованное требование независимых индикаторов: подтверждение не доказывает статистическую независимость. Добавлено время доступности сигнала, защита от взгляда в будущее.",
-    "fingerprint": "5569202d650137221540cf48adf093da45f4ef493fca88ddb3a37840203a2cf0",
+    "decision": "M13:портфельная механика,модельные границы и достаточные предпосылки до практики;новые роли без избыточного повтора.",
+    "fingerprint": "ecb05a1b7114436f091fa8ec6dffac2ed2becece3272346cf35ea6ab1055045c",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "application",
-      "beginner"
+      "mechanism",
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF45–62;пределы QUALITY_M13_REVIEW.md,первичные Sharpe1994/CFAKidd2012 отдельно."
   },
   {
     "id": "E-13-0",
