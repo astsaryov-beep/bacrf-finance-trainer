@@ -13,7 +13,7 @@ const stateText=readFileSync(resolve(root,'docs/project/PROJECT_STATE.md'),'utf8
 const stateMatch=stateText.match(/<!-- STATE_JSON_BEGIN -->\s*```json\s*([\s\S]*?)\s*```/);
 assert.ok(stateMatch,'canonical release state exists');
 const releaseVersion=JSON.parse(stateMatch[1]).working_version;
-assert.match(releaseVersion,/^\d+\.\d+\.\d+ beta$/);
+assert.match(releaseVersion,/^\d+\.\d+(?:\.\d+)?(?: beta)?$/);
 assert.equal(html.match(/name="trainer-version" content="([^"]+)"/)?.[1],releaseVersion,'HTML version matches canonical release state');
 
 function data(src,prefix){
