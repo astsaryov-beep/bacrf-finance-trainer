@@ -51,6 +51,7 @@ try{
  await page.evaluate(()=>{goStudyLesson('S1-04',1);getStudyBlock().answers.BM21={selected:[0],checked:true,score:1,reviewRevision:'2026-10-27-m09-options-1'};studyNav.phase='practice';studyNav.index=STUDY_MAP.get('S1-04').blocks[1].qids.indexOf('BM21');drawStudy();});
  assert.equal(await page.locator('#studyRecheck').count(),1);assert.equal(await page.evaluate(()=>getStudyAnswer('BM21').previousReviewScore),1);assert.deepEqual(await page.evaluate(()=>getStudyAnswer('BM21').selected),[0]);
  await page.locator('#studyRecheck').click();await page.locator('input[name=studyAnswer][value="0"]').check();await page.locator('#studyCheck').click();assert.equal(await page.evaluate(()=>getStudyAnswer('BM21').needsReviewRecheck),false);
+ await page.evaluate(()=>goStudyLesson('S1-07',0));await page.locator('#v5FullBtn').click();const primerText=await page.locator('.fri-strategy-top').textContent();assert.match(primerText,/Long.*Short/s);assert.match(primerText,/2s10s/);assert.ok(await page.locator('.fri-strategy-top').evaluate(e=>Boolean(e.compareDocumentPosition(document.querySelector('.fri-strategy-case'))&Node.DOCUMENT_POSITION_FOLLOWING)),'position terms must precede the early strategy');
  // T-19: self-assessment follows all required teaching, and the next button follows the visible syllabus.
  for(const [lessonId,block] of [['S1-02',0],['S1-03',0],['S1-03',1]]){
   await page.evaluate(([l,b])=>goStudyLesson(l,b),[lessonId,block]);await page.locator('#v5FullBtn').click();
