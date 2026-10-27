@@ -583,96 +583,71 @@
     "id": "R-01-0",
     "title": "Участники, рынки и финансовые потоки",
     "status": "REVIEWED",
-    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
-    "fingerprint": "c1b2ce0478e42dc5d79297afd8f91ce89378764c3bbfe26737705cb2f1f8d05f",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: лекционное обобщение после семинаров обозначено явно, повторные цепочки сокращены, термины раскрыты до заданий.",
+    "fingerprint": "e8bc41424a6b03f3bf5a8f1fd88653f53cbaf66d59738a7366020b5282ce0267",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M08_REVIEW.md"
+    "sourceCheck": "Принятый M08/M09, ранее проверенные официальные источники; новые юридические параметры не вводятся."
   },
   {
     "id": "R-01-1",
     "title": "Финансовая инфраструктура и расчёты",
     "status": "REVIEWED",
-    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
-    "fingerprint": "94016064a67d0e1ae5afde7b1ea2f36110fcedde129792308ba4bd23cb83b5d8",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: лекционное обобщение после семинаров обозначено явно, повторные цепочки сокращены, термины раскрыты до заданий.",
+    "fingerprint": "68f8a4198980ad35f8ac57eba7fa61a8a32786a807f733d6ce1f8acdca7d9868",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
-      "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M08_REVIEW.md"
+    "sourceCheck": "Принятый M08/M09, ранее проверенные официальные источники; новые юридические параметры не вводятся."
   },
   {
     "id": "R-02-0",
     "title": "Правила финансового рынка и подходы к регулированию",
     "status": "REVIEWED",
-    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
-    "fingerprint": "1ef97cf54ef4b82b191ac816fe415442e9a4929bfac3ec15bd6a1d15570b99bf",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: лекционное обобщение после семинаров обозначено явно, повторные цепочки сокращены, термины раскрыты до заданий.",
+    "fingerprint": "62f73190b0637e572ca953954cfef3c339eaab55af51768067e6ec49d54d2376",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M08_REVIEW.md"
+    "sourceCheck": "Принятый M08/M09, ранее проверенные официальные источники; новые юридические параметры не вводятся."
   },
   {
     "id": "R-02-1",
     "title": "Сферы ответственности регуляторов и законы",
     "status": "REVIEWED",
-    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
-    "fingerprint": "d6c460919cf7a16bd16aabc5ac159c533e22bb9a79f490a1a949ec46a95fbc2a",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: лекционное обобщение после семинаров обозначено явно, повторные цепочки сокращены, термины раскрыты до заданий.",
+    "fingerprint": "b3b36b7727da4be844af8cd95ab820e5abb3c56f65c2f9aad19dfcf79a9465bb",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M08_REVIEW.md"
+    "sourceCheck": "Принятый M08/M09, ранее проверенные официальные источники; новые юридические параметры не вводятся."
   },
   {
     "id": "R-03-0",
     "title": "Лицензии и операции кредитной организации",
     "status": "REVIEWED",
-    "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
-    "fingerprint": "273b36e93d09612cbc9491743519e2d9edcb25f9827876c72a081198c058fbb9",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: лекционное обобщение после семинаров обозначено явно, повторные цепочки сокращены, термины раскрыты до заданий.",
+    "fingerprint": "12e24c3a97979dfbf183c87334beb6340a6cd9f2a597cf1dddbad6e49bcd4885",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary"
+      "advanced"
     ],
-    "sourceCheck": "QUALITY_M08_REVIEW.md"
+    "sourceCheck": "Принятый M08/M09, ранее проверенные официальные источники; новые юридические параметры не вводятся."
   },
   {
     "id": "R-03-1",
@@ -680,7 +655,7 @@
     "status": "REVIEWED",
     "decision": "Типографическая редакция текущего пакетаM08 и ранних опорM01; содержание/формулы/назначения сохранены.",
     "fingerprint": "4bab715ba03ebcee4fb197bc58de5496fb1934eb1802551019c55515076a1803",
-    "reviewedOn": "2026-10-26",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
       "story",
