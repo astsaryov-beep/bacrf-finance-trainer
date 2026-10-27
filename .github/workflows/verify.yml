@@ -49,6 +49,8 @@ jobs:
         run: node tests/quality-m11-check.mjs
       - name: Verify M12 listing, dividend valuation, indices and reviewed open supplement
         run: node tests/quality-m12-check.mjs
+      - name: Verify M13 portfolio risk, downside conventions and time-safe signals
+        run: node tests/quality-m13-check.mjs
       - name: Verify multi-select exam and prior learning evidence
         run: node tests/exam-practice-check.mjs
       - name: Verify conceptual learning and corrected answer keys

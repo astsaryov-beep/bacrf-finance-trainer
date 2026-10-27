@@ -770,18 +770,18 @@
   {
     "id": "QA-092",
     "severity": "MEDIUM",
-    "status": "OPEN",
+    "status": "FIXED_PENDING_REGRESSION",
     "area": "M13 source arithmetic",
     "finding": "S3PDF50:правильные дисперсия0,0415/волатильность20,3715%/условныйдневнойVaR212588руб.;слайд16,3%ошибочен.",
-    "resolution": "M13:сопоставить с курсом,внести явное исправление и независимую проверку. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+    "resolution": "M13:исправленыарифметика/ограниченияVaR/бета/масштабирование/DD/альфа,явнаяполнаякарточкаDD;пределыQUALITY_M13_REVIEW.md,регрессиявпереди."
   },
   {
     "id": "QA-093",
     "severity": "MEDIUM",
-    "status": "OPEN",
+    "status": "FIXED_PENDING_REGRESSION",
     "area": "M13 model limits",
     "finding": "S3PDF45–57:VaRквантиль,остатоквбете,downside deviation/просадка,альфа и пороги оценки требуют предпосылок.",
-    "resolution": "M13:прочитано как источник,не принято;проверить и исправить в соответствующих блоках. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+    "resolution": "M13:исправленыарифметика/ограниченияVaR/бета/масштабирование/DD/альфа,явнаяполнаякарточкаDD;пределыQUALITY_M13_REVIEW.md,регрессиявпереди."
   },
   {
     "id": "QA-094",
@@ -813,7 +813,7 @@
     "status": "PARTIAL",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "CP089:10проверенныхSTUDY_EXTRASopenIDвэффективномпуле,доступностькаждогоипереносисториипроверены. ОставшиесяпоздниетеоретическиеopenдобавитьпослепроверкиM13–M16;маржинальнуюглавуисключить."
+    "resolution": "M13:18проверенныхSTUDY_EXTRASopenIDтеперьвэффективномпуле;новые6ещёожидаютрегрессии. Страхование/пенсии/лизинг/факторинг/участники—M14–M16;маржинальнаяглаваисключена."
   },
   {
     "id": "QA-098",
@@ -830,5 +830,45 @@
     "area": "M12 and M02 practice",
     "finding": "9singleс близкими вариантами и прежнимиключами;8открытыхсогласованных2частныхрубрик;14новыхMCсфактической/кейсовойролью.",
     "resolution": "QUALITY_M12_REVIEW.md/CP089:19local/7browser PASS;PR57/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
+  },
+  {
+    "id": "QA-100",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M13 portfolio prerequisites",
+    "finding": "Связь весов/ковариации/GMV/ограничений,условиякорнявременииостаточныйрискCAPMтребуютпредметногопояснениядо вопросов.",
+    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+  },
+  {
+    "id": "QA-101",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M13 metrics",
+    "finding": "Downsidedeviationнеотрицательнаяподвыборкавокругеёсреднегоинемаксимальнаяпросадка;Шарп/альфатакженеполныедоказательстванавыка.",
+    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+  },
+  {
+    "id": "QA-102",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M13 technical analysis",
+    "finding": "OHLC/типыграфиков/аксиомы/фазы/масштабы/подтвержденияиобъём;доступностьданныхвовремени,детерминированностьнеравнаприбыльности.",
+    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+  },
+  {
+    "id": "QA-103",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M13 early dedup",
+    "finding": "ВсловареS1-09-0дваждыповторенаодинаковаярольZ-spread;одинтерминудалён,полезноеопределение/формуласохранены.",
+    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+  },
+  {
+    "id": "QA-104",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M13 practice",
+    "finding": "11singleспрежнимиключами,8предметныхрубриксисторией,18новыхfactual/caseMCс2/3/4ответами;23назначениявключая11раннихпроверены.",
+    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
   }
 ]
