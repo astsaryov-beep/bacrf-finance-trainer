@@ -9,9 +9,9 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-07",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-19",
+  "next_task": "T-19",
   "last_verified_checkpoint": "CP-20261027-107",
   "last_verified_commit": "93bcb0b43d78c80da21d76440de48c6401a3e30b",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459482935",
@@ -22,7 +22,7 @@
 ```
 <!-- STATE_JSON_END -->
 
-**Содержательный цикл завершён: 96/96**, с оговорками итогового отчёта. Последний проверенный продукт 5.0.43 beta; указанный JSON коммит относится к продукту, последующие коммиты могут менять только документацию.
+**Модульный содержательный цикл завершён: 96/96**. По новой команде начат T-19: последовательный путь новичка по окончательной версии, включая повторяемость внутри блока и порядок изложения. Итоговая сквозная приёмка этого прохода ещё не завершена. Последний проверенный продукт 5.0.43 beta; указанный JSON коммит относится к продукту, последующие коммиты могут менять только документацию.
 
 [PR61](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/61), [PR CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40458697111), [main CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459482935), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459483653) — SUCCESS; совпадение пяти файлов сайта подтверждено. T-06 исключена. Beta сохраняется до отдельного принятия пользователем.
 
