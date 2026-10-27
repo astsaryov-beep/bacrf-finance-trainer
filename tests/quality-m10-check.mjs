@@ -22,7 +22,7 @@ const weighted=100*.5+120*.5,profit=500,eps=profit/weighted,pricePerShare=60;
 near(weighted,110);near(pricePerShare/eps,13.2);near(pricePerShare*120/profit,14.4);assert.notEqual(pricePerShare/eps,pricePerShare*120/profit);
 near((profit*1.1)/(weighted*1.2)/(profit/weighted),1.1/1.2);assert.ok((profit*1.1)/(weighted*1.2)<eps);
 // Negative EV is an output of a model; cash is still held by the company, not credited to the minority investor.
-near(90+10-150,-50);let shareholderCash=0,companyCash=150;assert.equal(shareholderCash,0);assert.equal(companyCash,150);
+near(800+300-100,1000);near(90+10-150,-50);let shareholderCash=0,companyCash=150;assert.equal(shareholderCash,0);assert.equal(companyCash,150);
 // No free dividend: isolate a receivable from a quote; actual cash is a separate event.
 let quote=100,dividendRight=0,received=0;quote-=5;dividendRight=5;near(quote+dividendRight+received,100);received+=dividendRight;dividendRight=0;near(quote+dividendRight+received,100);near((108-100+5)/100,.13);near(12/240,.05);
 // The teaching calendar is explicitly conditional T+1 without holidays: Wednesday settles Thursday; Thursday settles Friday.
@@ -33,5 +33,5 @@ assert.equal(a.assignments.filter(x=>own.includes(x.block.slice(0,-2))).length,3
 for(const k of [...own.flatMap(l=>[l+'-0',l+'-1']),...early]){const qs=ctx.ExamPractice.questions.filter(x=>x.block===k&&x.source.includes('QUALITY_M10_REVIEW'));assert.equal(qs.length,2);assert.equal(qs.filter(x=>x.taskKind==='knowledge').length,1);assert.equal(qs.filter(x=>x.taskKind==='case').length,1);}
 const topicRules=[[/^E-/,'equity'],[/^(S1-|S2-05|LEASE-|FACTOR-)/,'debt'],[/^(R-|MARKET-|INS-|PEN-)/,'reg'],[/^S2-/,'deriv']];for(const q of ctx.ExamPractice.questions){const rule=topicRules.find(([re])=>re.test(q.block));assert.ok(rule,'unclassified topic '+q.id);assert.equal(q.section,rule[1],q.id+' topic');}
 for(const k of own.flatMap(l=>[l+'-0',l+'-1']))assert.equal(master[k].extraChecks.length,2);
-assert.match(master['E-01-0'].mechanism.join(' '),/SPO/);assert.match(master['E-01-0'].mechanism.join(' '),/EPS/);assert.match(master['E-02-0'].mechanism.join(' '),/P\/BV/);assert.match(master['E-02-0'].mechanism.join(' '),/800\+300/);assert.match(master['E-03-0'].mechanism.join(' '),/Экс-дивидендная дата/);
+assert.match(master['E-01-0'].mechanism.join(' '),/SPO/);assert.match(master['E-01-0'].mechanism.join(' '),/EPS/);assert.match(master['E-02-0'].mechanism.join(' '),/P\/BV/);assert.match(master['E-02-0'].mechanism.join(' '),/EV.*капитализацию.*финансовый долг.*вычитает денежные средства/);assert.match(master['E-03-0'].mechanism.join(' '),/Экс-дивидендная дата/);
 console.log('PASS M10: ownership/cash ledgers, unequal weighted/year-end P/E, negative EV and dividend conservation, conditional dates,32+6 placements,16 conceptual MC,14 preserved single keys,EM02/Q14 protected,6 rubric histories.');

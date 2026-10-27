@@ -702,84 +702,81 @@
     "id": "E-01-0",
     "title": "Обыкновенные и привилегированные акции",
     "status": "REVIEWED",
-    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
-    "fingerprint": "f94e3005600c80ad7c55d75524fcbc1ab025841f287784e246a3a35ff8799563",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: ранние предпосылки сохранены, числовые повторы сокращены, переходы между правами/стоимостью и статусами выплат уточнены.",
+    "fingerprint": "12731847dc549d547064c5c3dc36503a01424c2c62efa4a64c502ea643054646",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "mechanism",
-      "advanced",
-      "glossary",
-      "extraChecks"
+      "mechanism"
     ],
-    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
+    "sourceCheck": "Принятые M10/M11, исходные формулы и задания не меняются."
   },
   {
     "id": "E-01-1",
     "title": "IPO, SPO и дополнительные выпуски",
     "status": "REVIEWED",
-    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
-    "fingerprint": "c1a386c089ce5cfb9aebc35e6f962086f1102b9446e437230909ebd0ae08926f",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: ранние предпосылки сохранены, числовые повторы сокращены, переходы между правами/стоимостью и статусами выплат уточнены.",
+    "fingerprint": "7cd1b46899e9f2f02ea9a5c1e2896feba01aab3e47f386bdc7aced3dd55e5b11",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
+      "application",
       "advanced",
-      "glossary",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
+    "sourceCheck": "Принятые M10/M11, исходные формулы и задания не меняются."
   },
   {
     "id": "E-02-0",
     "title": "EPS и P/E",
     "status": "REVIEWED",
-    "decision": "M10: согласованы базы P/E во всех определениях; технические сведения о доступе к первичным источникам остаются в отчёте QUALITY_M10_REVIEW.md.",
-    "fingerprint": "79d788ec28be52377d6c58ad8d2b8f566cf42594c0bdb0478ff2fd527c686b84",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: полная словесная опора EV до задания, числовой дубликат не нужен.",
+    "fingerprint": "073ef5ccc7f6f00d8aa9708fa41e2f2ab19ef3fef68720ba92a961ac71548567",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "advanced",
-      "glossary"
+      "mechanism"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятый M10, сохранение причинного механизма."
   },
   {
     "id": "E-02-1",
     "title": "P/BV и EV/EBITDA",
     "status": "REVIEWED",
-    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
-    "fingerprint": "5082cae5ce975b976ca891036499a93d8accaa9391babd63a8f38741c3d72764",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: EBITDA определена через амортизацию, без расплывчатого набора неденежных расходов.",
+    "fingerprint": "92a6466c7f8db7d3109f2d42929e7e99d06ef862dff89ad182c942e0bcd14ce1",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "advanced",
-      "extraChecks"
+      "beginner",
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
+    "sourceCheck": "Согласование с сохранённым словарём/формулой M10."
   },
   {
     "id": "E-03-0",
     "title": "Дивидендная доходность",
     "status": "REVIEWED",
-    "decision": "M10: источник, новичок, предпосылки всех вариантов, оправданные повторы и практика рассмотрены вместе.",
-    "fingerprint": "0b10d22b50f9700c3b24ccc8a7e0dbd8479273c54915dc51ba7f281a6377bbda",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: ранние предпосылки сохранены, числовые повторы сокращены, переходы между правами/стоимостью и статусами выплат уточнены.",
+    "fingerprint": "c814796f5f6b2f46171780a6575166d2b02d9d9b2423747a62d63a755d8e375c",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
-      "advanced",
-      "glossary",
-      "extraChecks"
+      "story",
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF1/6–39; L45 PDF1–18; точные первичные проверки и ограничения QUALITY_M10_REVIEW.md."
+    "sourceCheck": "Принятые M10/M11, исходные формулы и задания не меняются."
   },
   {
     "id": "E-03-1",
     "title": "Дивидендная отсечка и полная доходность",
     "status": "REVIEWED",
-    "decision": "M10: уточнён учебный календарь,типографика; источник и пределы QUALITY_M10_REVIEW.md.",
-    "fingerprint": "c3884a4af4307c57cf9151505bb9592d16097d91182bf5221bd7d1cae872688f",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: ранние предпосылки сохранены, числовые повторы сокращены, переходы между правами/стоимостью и статусами выплат уточнены.",
+    "fingerprint": "e18e1a460665667681de3aa13a338152243050fa368bfe415a7e85ff8cd1dcef",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "application",
-      "extraChecks"
+      "beginner",
+      "foundation"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M10/M11, исходные формулы и задания не меняются."
   },
   {
     "id": "E-04-0",
