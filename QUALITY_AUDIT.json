@@ -881,7 +881,7 @@
         "QUALITY_M04_REVIEW.md"
       ],
       "newExamPracticeAudit": "VERIFIED_M04_M06_D015",
-      "supplementalMCReview": "M16_PENDING_REGRESSION"
+      "supplementalMCReview": "VERIFIED_M16_CP107"
     },
     {
       "id": "S1-10-1",
@@ -907,7 +907,7 @@
         "QUALITY_M04_REVIEW.md"
       ],
       "newExamPracticeAudit": "VERIFIED_M04_M06_D015",
-      "supplementalMCReview": "M16_PENDING_REGRESSION"
+      "supplementalMCReview": "VERIFIED_M16_CP107"
     },
     {
       "id": "S2-01-0",
@@ -935,7 +935,7 @@
         "QUALITY_M04_REVIEW.md"
       ],
       "newExamPracticeAudit": "VERIFIED_M04_M06_D015",
-      "supplementalMCReview": "M16_PENDING_REGRESSION"
+      "supplementalMCReview": "VERIFIED_M16_CP107"
     },
     {
       "id": "S2-01-1",
@@ -962,7 +962,7 @@
         "QUALITY_M04_REVIEW.md"
       ],
       "newExamPracticeAudit": "VERIFIED_M04_M06_D015",
-      "supplementalMCReview": "M16_PENDING_REGRESSION"
+      "supplementalMCReview": "VERIFIED_M16_CP107"
     },
     {
       "id": "S2-02-0",
@@ -990,7 +990,7 @@
         "QUALITY_M04_REVIEW.md"
       ],
       "newExamPracticeAudit": "VERIFIED_M04_M06_D015",
-      "supplementalMCReview": "M16_PENDING_REGRESSION"
+      "supplementalMCReview": "VERIFIED_M16_CP107"
     },
     {
       "id": "S2-02-1",
@@ -1017,7 +1017,7 @@
         "QUALITY_M04_REVIEW.md"
       ],
       "newExamPracticeAudit": "VERIFIED_M04_M06_D015",
-      "supplementalMCReview": "M16_PENDING_REGRESSION"
+      "supplementalMCReview": "VERIFIED_M16_CP107"
     },
     {
       "id": "S2-03-0",
