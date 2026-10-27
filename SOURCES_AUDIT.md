@@ -1,3 +1,7 @@
+# Текущий источниковый охват · CP099
+
+557/557страниц прочитаны и визуально осмотрены с оговорками QUALITY_M15_REVIEW.md. Комплексная приёмка84/96;M15/M16ещё впереди. Исторические сводки ниже относятся к своим датам.
+
 # 5.0.32 beta VERIFIED · CP053
 
 [PR49](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/49) MERGED; продукт fc62a66d8a35d19fb1f5a4f5a35ab5265871c50c. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40385819291), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40386540271), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40386538843). Live MATCH: index526ae3ae5f8bc6001620849631e09c9d3eff52df; question-review.js8f6e3807b7c605745e056ca93c98813ee217d471; exam-practice.js398cecf6c71a83c88fa6e5aaad263c59705c2c18; frozen5.0.8 2b77ae8f74be9433af3c458c3be55314d2cc9519. Четыре реальных скриншота из финального артефакта12679969239осмотрены;12локальных/7браузерныхпрограммPASS.
