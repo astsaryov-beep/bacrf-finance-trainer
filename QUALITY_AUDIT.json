@@ -9547,5 +9547,15 @@
       "independent reconstruction of historical datasets",
       "all legal exceptions"
     ]
+  },
+  "sequentialAcceptance": {
+    "task": "T-19",
+    "status": "IN_PROGRESS",
+    "contentRead": 12,
+    "total": 96,
+    "liveCompletedBlocks": 6,
+    "report": "NOVICE_PATH_REVIEW.md",
+    "details": "NOVICE_PATH_REVIEW.json",
+    "note": "Ранее завершённая модульная редакция и CP108 не являются подтверждением нового прохода. NP013/NP017 уточняют фактическую достаточность прежних опор."
   }
 }
