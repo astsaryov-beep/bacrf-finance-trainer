@@ -78,6 +78,7 @@ jobs:
         run: npm install --no-package-lock --no-save playwright-core@1.56.1
       - name: Test desktop and mobile UI
         run: |
+          node tests/navigation-browser.mjs
           node tests/browser-smoke.mjs
           node tests/learning-review-browser.mjs
           node tests/teacher-review-browser.mjs

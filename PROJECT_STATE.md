@@ -5,13 +5,13 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "5.0.44 beta",
+  "working_version": "5.0.45 beta",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-07",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-20",
+  "next_task": "T-21",
   "last_verified_checkpoint": "CP-20261027-127",
   "last_verified_commit": "8557474a9e211c3d545f605193d45f58bb8cb69e",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40547525625",
@@ -29,3 +29,5 @@
 [Итог качества](NOVICE_PATH_FINAL_REVIEW_20261027.md) · [журнал 96 блоков](NOVICE_PATH_REVIEW.md) · [контекст](CHAT_HANDOFF.md).
 
 T-07 — отдельное принятие beta, не автозадача. T-06 — только отдельная команда. Новых незавершённых содержательных задач нет.
+
+T-20 IN_PROGRESS: навигация тренировки/экзамена, отложенные вопросы без потери черновика, чтение завершённой теории без сброса. T-21 далее: организация репозитория и чистовой README. Последний VERIFIED продукт5.0.44;5.0.45 RELEASE_PENDING.
