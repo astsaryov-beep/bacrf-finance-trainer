@@ -813,7 +813,7 @@
     "status": "PARTIAL",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "CP098:22проверенныхSTUDY_EXTRASopen доступны в эффективном пуле. M15/M16 проверят и добавят оставшиеся12;2маржинальныхopen остаются в обучении."
+    "resolution": "M15:28проверенныхпо содержаниюopen(6новыхстраховыхожидаютрегрессии);M16добавит6пенсионных/факторинговых. Маржинальные2толькообучение."
   },
   {
     "id": "QA-098",
@@ -910,5 +910,37 @@
     "area": "M14 practice and pending card",
     "finding": "12новых назначений/6конкретныхрубрик;9назначенийS1070ужеVERIFIED,карточкаD015перепроверена;14MCвключают2отличающихсяраннихкейса и4маржинальныхтолько для обучения.",
     "resolution": "QUALITY_M14_REVIEW.md/CP098:21local/7browser PASS;PR59/mainCI/Pages SUCCESS;live5MATCH. CP097 исправляет преждевременную запись CP096; источниковые пределы раскрыты."
+  },
+  {
+    "id": "QA-110",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M15 coverage/franchise",
+    "finding": "Риск/случай/полис,франшиза на равенстве,тотал/абандон и ограничения расчёта требуют предметных объяснений.",
+    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+  },
+  {
+    "id": "QA-111",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M15 participant roles",
+    "finding": "Все10ролей,включая сюрвейера/комиссара/аджастера,нужны до вопросов;СРО/реестр актуария не лицензия страховщика.",
+    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+  },
+  {
+    "id": "QA-112",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M15 insurance products and bases",
+    "finding": "Классификации,жизнь/ДСЖ/новые режимы2026,ИИСгарантии/рынок,устаревший22% и коэффициенты премий требуют условий и дат.",
+    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+  },
+  {
+    "id": "QA-113",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M15 practice",
+    "finding": "Очевидныеsingle и общие рубрики:пятьнеуказанныхролей/критериибезсодержания. Открытые страховые вопросы отсутствовали в основном пуле.",
+    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
   }
 ]
