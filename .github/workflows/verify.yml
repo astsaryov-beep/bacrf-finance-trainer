@@ -53,6 +53,8 @@ jobs:
         run: node tests/quality-m13-check.mjs
       - name: Verify M14 investor roles, margin boundaries, leasing and ESG
         run: node tests/quality-m14-check.mjs
+      - name: Verify M15 insurance obligations, franchise boundaries and participant roles
+        run: node tests/quality-m15-check.mjs
       - name: Verify multi-select exam and prior learning evidence
         run: node tests/exam-practice-check.mjs
       - name: Verify conceptual learning and corrected answer keys
