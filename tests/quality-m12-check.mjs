@@ -22,6 +22,9 @@ const alignment=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json')),own=['E-07'
 for(const k of [...own.flatMap(l=>[l+'-0',l+'-1']),'S1-06-1']){const qs=ctx.ExamPractice.questions.filter(q=>q.block===k&&q.source.includes('QUALITY_M12_REVIEW'));assert.equal(qs.length,2);assert.equal(qs.filter(q=>q.taskKind==='knowledge').length,1);assert.equal(qs.filter(q=>q.taskKind==='case').length,1);}
 for(const k of own.flatMap(l=>[l+'-0',l+'-1']))assert.equal(master[k].extraChecks.length,2);
 assert.equal(JSON.stringify([...new Set(ctx.ExamPractice.questions.filter(q=>q.source.includes('QUALITY_M12_REVIEW')).map(q=>q.correct.length))].sort()),JSON.stringify([2,3,4]));
+// Execute the actual declaration sequence, so an early access/TDZ fails here too.
+const initialization=html.slice(html.indexOf('const BANK='),html.indexOf('const SECTION='));
+vm.runInNewContext(initialization+';globalThis.initializedBank=EFFECTIVE_BANK;',ctx);assert.equal(ctx.initializedBank.length,425);assert.equal(new Set(ctx.initializedBank.map(q=>q.id)).size,425);
 const openids=ctx.ExamPractice.openQuestionIds;assert.equal(openids.length,10);for(const id of openids){assert.equal(q(id).type,'open');assert.ok(ctx.ExamPractice.eligibleIds.has(id));assert.equal(q(id).rubric.length,2);}
 assert.match(html,/STUDY_EXTRAS\.filter\(q=>ExamPractice\.openQuestionIds\.includes\(q\.id\)\)/);assert.match(master['E-09-1'].mechanism.join(' '),/иностранных организаций/);assert.match(master['E-08-1'].application.join(' '),/354,86/);
 console.log('PASS M12:independent finite dividend sums/date boundary/sensitivity,issue cash allocation,cap/free-float/divisor/dividend bases,12+7 prerequisites,14MC,9keys/8rubric histories,10 reviewed open supplements.');
