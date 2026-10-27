@@ -1,3 +1,17 @@
+# 5.0.39 VERIFIED · текущая сводка
+
+## CP-20261027-089 · 5.0.39 beta VERIFIED · принято72/96
+
+[PR57](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/57) MERGED; продукт c609de344e06260722d1b50c57b72e475cde108f. [PRCI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40430956718), [mainCI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40449111863), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40449111767) SUCCESS.19локальных/7браузерныхпрограммPASS. Реальныеснимкиmodules-ddm-desktop/modules-indices-mobileартефакта12702226294осмотрены. Браузер62блока/133MC,36курсовыхи36экзаменационныхисторийчерезэкспорт/импорт,desktop/320px. ПрежниесбоиTDZиустаревшихбуквальныхожиданийсохраненыCP088,исправленыдообъединения.
+
+Live5MATCH:index a3c2ead9988ca1a144d37e32d0274bf6c07e6587;question-review b99d5b7ac23ed70c91d26c08548f2253ec08079b;exam-practice 668ae1aa3d8c97f9a49b6d0256e02b0b80ba53be;option-profiles cd2b04924ac937a59a443e12e9164591b5bb1566;frozen 2b77ae8f74be9433af3c458c3be55314d2cc9519.
+
+72/96комплекснопринятосраскрытымипределами,24ифиналостаются. D015для68блоков;250/309назначенийVERIFIED,59PENDING.132формулы/612терминов/134дополнительныхпроверки,140дополнительныхMC/164multi+10проверенныхстарыхopenвпуле425. Новыйэкзамен25open/25multi,безрасчётовимаржинальнойглавы. Счётисходников488/557дляM12неувеличен. RawBANK275/19,309назначений,84старыеформулы,ID/истории/frozenсохранены.
+
+ДалееM13/E10–E12и11оставшихсяназначенийM03(S1-08-1/S1-09-0/1). ЗатемM14–M16иитоговаяприёмкабезновойкоманды. Добавлятьпроверенныеоткрытыевопросыпозднихтемвтотжемеханизме. T06исключена.
+
+---
+
 # 5.0.39 PENDING · опубликована5.0.38 VERIFIED
 
 ## CP-20261027-086 · M12 реализован · RELEASE_PENDING

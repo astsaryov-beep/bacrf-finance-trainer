@@ -2616,7 +2616,7 @@
       "questionId": "BM02",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Доходность однолетнего дисконтного платежа относительно цены покупки;учебныйрасчёт.",
       "support": [
         {
@@ -2693,13 +2693,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "BM01",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Неизменные положительные потоки и увеличение ставки дисконтирования.",
       "support": [
         {
@@ -2776,13 +2777,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "BM22",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Частичный возврат номинала,необязательнаяравномерность купона/опциона.",
       "support": [
         {
@@ -2859,13 +2861,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "BM24",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ликвидность/спред/ценовое влияние vsкредитныйриск/YTM/график.",
       "support": [
         {
@@ -2942,13 +2945,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "BO01",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Цена иYTMсвязаны обратно,фиксированный купон отличается отYTM.",
       "support": [
         {
@@ -3025,13 +3029,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "V2-019",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "При неизменныхпотоках12→14%снижает цену;ключсохранён.",
       "support": [
         {
@@ -3108,13 +3113,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "V2-036",
       "block": "S1-06-1",
       "sequence": 11,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Переоценка vsреализация,удержание не гарантирует исходнуюYTM.",
       "support": [
         {
@@ -3191,7 +3197,8 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "BM06",
@@ -16611,7 +16618,7 @@
       "questionId": "S3-003",
       "block": "E-07-0",
       "sequence": 62,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Листинг/эмиссия/индекс/учёт различены; уровни и котировальные списки объяснены.",
       "support": [
         {
@@ -16681,13 +16688,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-003O",
       "block": "E-07-0",
       "sequence": 62,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Прекращение биржевого допуска, поиск покупателя и сохранение прав различены.",
       "support": [
         {
@@ -16757,13 +16765,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-004",
       "block": "E-07-1",
       "sequence": 63,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Новый выпуск и старый пакет имеют разных получателей денег.",
       "support": [
         {
@@ -16837,13 +16846,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-004O",
       "block": "E-07-1",
       "sequence": 63,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Готовность компании и подготовка предложения: явные предметные группы критериев.",
       "support": [
         {
@@ -16917,13 +16927,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-005",
       "block": "E-08-0",
       "sequence": 64,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ставки12/5 удовлетворяют r>g, остальные допущения не доказываются.",
       "support": [
         {
@@ -16989,13 +17000,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-005O",
       "block": "E-08-0",
       "sequence": 64,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Сходимость вечных положительных выплат и нарушение предпосылки при r≤g.",
       "support": [
         {
@@ -17061,13 +17073,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-006",
       "block": "E-08-1",
       "sequence": 65,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Терминал на дату2 дисконтируется на2периода; D3не переносит его дату.",
       "support": [
         {
@@ -17125,13 +17138,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-006O",
       "block": "E-08-1",
       "sequence": 65,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "D_(N+1),r>g,одна дата и отсутствие повторногоD_N.",
       "support": [
         {
@@ -17189,13 +17203,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-007",
       "block": "E-09-0",
       "sequence": 66,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Капитализация конкретного выпуска/FF/ограничения vsцена/оборот.",
       "support": [
         {
@@ -17263,13 +17278,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-007O",
       "block": "E-09-0",
       "sequence": 66,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Количество и свободная доля,доля в общей базе и ограничения.",
       "support": [
         {
@@ -17337,13 +17353,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-008",
       "block": "E-09-1",
       "sequence": 67,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Дивидендная составляющая может перекрыть падение цен,без гарантиироста.",
       "support": [
         {
@@ -17409,13 +17426,14 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-008O",
       "block": "E-09-1",
       "sequence": 67,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Сопоставимость серии/периода/валюты и фактическая реализация/расходы.",
       "support": [
         {
@@ -17481,7 +17499,8 @@
           ]
         }
       ],
-      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди."
+      "decision": "M12:ключ,существенные неверные варианты и обязательные критерии доступны из теории до вопроса;регрессия впереди.",
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "S3-009",
@@ -29036,7 +29055,7 @@
       "questionId": "MC-E-07-0-1",
       "block": "E-07-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29106,13 +29125,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-07-0-2",
       "block": "E-07-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29182,13 +29202,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-07-1-1",
       "block": "E-07-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29262,13 +29283,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-07-1-2",
       "block": "E-07-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29342,13 +29364,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-08-0-1",
       "block": "E-08-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29414,13 +29437,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-08-0-2",
       "block": "E-08-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29486,13 +29510,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-08-1-1",
       "block": "E-08-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29550,13 +29575,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-08-1-2",
       "block": "E-08-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29614,13 +29640,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-09-0-1",
       "block": "E-09-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29688,13 +29715,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-09-0-2",
       "block": "E-09-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29762,13 +29790,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-09-1-1",
       "block": "E-09-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29834,13 +29863,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-E-09-1-2",
       "block": "E-09-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29906,13 +29936,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-06-1-1",
       "block": "S1-06-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -29989,13 +30020,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-06-1-2",
       "block": "S1-06-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключ и существенные неверные варианты следуют из теории текущего блока или ранее.",
       "distractorReview": "Предметные различия близких ролей,дат,денежных баз и допущений;эмпирическая трудность не измерена.",
       "support": [
@@ -30072,9 +30104,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP089/PR57/CI40430956718/mainCI40449111863/Pages40449111767/liveMATCH5files"
     }
   ],
-  "blocksAcceptedNewCriteria": 61,
-  "blocksReviewedPendingNewCriteria": 7
+  "blocksAcceptedNewCriteria": 68,
+  "blocksReviewedPendingNewCriteria": 0
 }

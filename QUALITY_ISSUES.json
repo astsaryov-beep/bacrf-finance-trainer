@@ -794,18 +794,18 @@
   {
     "id": "QA-095",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M12 index methodology",
     "finding": "S3PDF40–44:делитель/дивиденды,netверсии,пороги/кэпы/состав и арифметика SBERPтребуют сверки.",
-    "resolution": "M12:учебные параметры пересчитаны независимо;делитель/выплаты/налоговые версии и несогласованная строка SBERPобъяснены. Источниковые пределы QUALITY_M12_REVIEW.md;регрессиявпереди."
+    "resolution": "QUALITY_M12_REVIEW.md/CP089:19local/7browser PASS;PR57/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-096",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M12 dividend valuation",
     "finding": "S3PDF18–22:необоснованное«почти вдвое»приr16→18,график266vsтекст279,условиеr>gи дата терминала.",
-    "resolution": "M12:учебные параметры пересчитаны независимо;делитель/выплаты/налоговые версии и несогласованная строка SBERPобъяснены. Источниковые пределы QUALITY_M12_REVIEW.md;регрессиявпереди."
+    "resolution": "QUALITY_M12_REVIEW.md/CP089:19local/7browser PASS;PR57/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-097",
@@ -813,22 +813,22 @@
     "status": "PARTIAL",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "M12:10проверенныхсуществующихopenIDвключены вэффективныйпул безповторакурсовойпрактики;остальныепоM13–M16. Проверкипубликациивпереди."
+    "resolution": "CP089:10проверенныхSTUDY_EXTRASopenIDвэффективномпуле,доступностькаждогоипереносисториипроверены. ОставшиесяпоздниетеоретическиеopenдобавитьпослепроверкиM13–M16;маржинальнуюглавуисключить."
   },
   {
     "id": "QA-098",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M12 source coverage and prerequisites",
     "finding": "Листинг/котировальныесписки/учёт/проспект,книга/аллокация/lock-up/стабилизация,сценарностьDDM/даты/индексныекорректировки раскрыты до практики.",
-    "resolution": "QUALITY_M12_REVIEW.md;регрессиявпереди."
+    "resolution": "QUALITY_M12_REVIEW.md/CP089:19local/7browser PASS;PR57/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-099",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M12 and M02 practice",
     "finding": "9singleс близкими вариантами и прежнимиключами;8открытыхсогласованных2частныхрубрик;14новыхMCсфактической/кейсовойролью.",
-    "resolution": "QUALITY_M12_REVIEW.md;регрессиявпереди."
+    "resolution": "QUALITY_M12_REVIEW.md/CP089:19local/7browser PASS;PR57/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   }
 ]
