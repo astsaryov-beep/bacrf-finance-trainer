@@ -770,26 +770,26 @@
   {
     "id": "QA-092",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 source arithmetic",
     "finding": "S3PDF50:правильные дисперсия0,0415/волатильность20,3715%/условныйдневнойVaR212588руб.;слайд16,3%ошибочен.",
-    "resolution": "M13:исправленыарифметика/ограниченияVaR/бета/масштабирование/DD/альфа,явнаяполнаякарточкаDD;пределыQUALITY_M13_REVIEW.md,регрессиявпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-093",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 model limits",
     "finding": "S3PDF45–57:VaRквантиль,остатоквбете,downside deviation/просадка,альфа и пороги оценки требуют предпосылок.",
-    "resolution": "M13:исправленыарифметика/ограниченияVaR/бета/масштабирование/DD/альфа,явнаяполнаякарточкаDD;пределыQUALITY_M13_REVIEW.md,регрессиявпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-094",
     "severity": "MEDIUM",
-    "status": "OPEN",
+    "status": "FIXED_PENDING_REGRESSION",
     "area": "M14 source definitions and dates",
     "finding": "L45PDF20/24/29–31:критерии квалификации,форекс-дилер,несогласованные числаПИФ3708vs3663,режимыИИС.",
-    "resolution": "M14:первичные актуальные нормы,исторические срезы не выдавать за вечные свойства. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+    "resolution": "M14: квалификация/даты/форекс-дилер/типПИФ/несогласованная статистика/разные ограничения ИИС раскрыты. Пределы QUALITY_M14_REVIEW.md;регрессия впереди."
   },
   {
     "id": "QA-095",
@@ -813,7 +813,7 @@
     "status": "PARTIAL",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "M13:18проверенныхSTUDY_EXTRASopenIDтеперьвэффективномпуле;новые6ещёожидаютрегрессии. Страхование/пенсии/лизинг/факторинг/участники—M14–M16;маржинальнаяглаваисключена."
+    "resolution": "M14:22старых проверенныхopen в эффективном пуле;4новых MARKET/LEASEожидают регрессии. S3-015O/016Oне включены:маржинальная глава исключена из экзамена. M15/M16добавят оставшиеся12open."
   },
   {
     "id": "QA-098",
@@ -834,41 +834,81 @@
   {
     "id": "QA-100",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 portfolio prerequisites",
     "finding": "Связь весов/ковариации/GMV/ограничений,условиякорнявременииостаточныйрискCAPMтребуютпредметногопояснениядо вопросов.",
-    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-101",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 metrics",
     "finding": "Downsidedeviationнеотрицательнаяподвыборкавокругеёсреднегоинемаксимальнаяпросадка;Шарп/альфатакженеполныедоказательстванавыка.",
-    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-102",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 technical analysis",
     "finding": "OHLC/типыграфиков/аксиомы/фазы/масштабы/подтвержденияиобъём;доступностьданныхвовремени,детерминированностьнеравнаприбыльности.",
-    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-103",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 early dedup",
     "finding": "ВсловареS1-09-0дваждыповторенаодинаковаярольZ-spread;одинтерминудалён,полезноеопределение/формуласохранены.",
-    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
   },
   {
     "id": "QA-104",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M13 practice",
     "finding": "11singleспрежнимиключами,8предметныхрубриксисторией,18новыхfactual/caseMCс2/3/4ответами;23назначениявключая11раннихпроверены.",
-    "resolution": "QUALITY_M13_REVIEW.md/CP091;полныйнабор/браузер/CI/Pages/liveвпереди."
+    "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
+  },
+  {
+    "id": "QA-105",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 margin",
+    "finding": "Плановая позиция/капитал/ставка риска/граница НПР2=0,исключение Mx0,сроки/категории/строгие договорные условия требуют согласованного изложения.300тыс.вгод без теста не подтверждены.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-106",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 investor roles and dates",
+    "finding": "Квалификация/тест/категория риска,ПВО/суд/собрание,форекс-дилер,учёт/контроль/оценка,ИИС/льготы/вклад и датированные числа различены.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-107",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 leasing",
+    "finding": "Косвенная/прямая/возвратная/сублизинг,обслуживание,собственность/финансирование/страхование,полный график и конечный актив объяснены.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-108",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 source closures",
+    "finding": "ESG4компонента/SLB/KPI/углеродная единица,организация эмиссии/программа/ПВО/расчётная цена раскрыты;датированные ряды и частные процедуры не выданы за универсальные нормы.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-109",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 practice and pending card",
+    "finding": "12новых назначений/6конкретныхрубрик;9назначенийS1070ужеVERIFIED,карточкаD015перепроверена;14MCвключают2отличающихсяраннихкейса и4маржинальныхтолько для обучения.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
   }
 ]
