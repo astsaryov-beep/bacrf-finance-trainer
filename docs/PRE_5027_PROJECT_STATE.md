@@ -26,7 +26,7 @@
 
 [PR #35](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/35) MERGED, продуктовый SHA `855041be6883c60c0f253bf9a0bda59e3e2651f2`. [CI main SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283104055), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40283105290); PR CI 40282611050 SUCCESS.
 
-Live index.html: `9b6b3c08d80c8a029daf18dab95654589a577270`; question-review.js: `0cdae67810f74e8312b14ff1b81d46cb117a31f3`; frozen v5.0.8/index.html: `2b77ae8f74be9433af3c458c3be55314d2cc9519`. Все три опубликованных файла совпадают с Git blob исходников.
+Live index.html: `9b6b3c08d80c8a029daf18dab95654589a577270`; assets/question-review.js: `0cdae67810f74e8312b14ff1b81d46cb117a31f3`; frozen v5.0.8/index.html: `2b77ae8f74be9433af3c458c3be55314d2cc9519`. Все три опубликованных файла совпадают с Git blob исходников.
 
 ## Завершено
 
@@ -42,7 +42,7 @@ Live index.html: `9b6b3c08d80c8a029daf18dab95654589a577270`; question-review.js:
 
 T-06 — самый низкий приоритет, только по отдельной команде; не запускался. T-07 — после содержательной приёмки пользователем; beta сохранена. Экзамен не фильтровался и не перебалансировался (D-012). 48 тем, 96 блоков, 84 формулы и исходные 275/19 сохранены.
 
-Отчёты: COURSE_METHOD_REVIEW_20261026.md, LEARNING_REVIEW_20261026.md, QUESTION_REVIEW_20261026.md, SOURCE_ERRATA_20261026.md. Точный следующий шаг и история — CHAT_HANDOFF.md / CHECKPOINTS.md.
+Отчёты: docs/audits/COURSE_METHOD_REVIEW_20261026.md, docs/audits/LEARNING_REVIEW_20261026.md, docs/audits/QUESTION_REVIEW_20261026.md, docs/audits/SOURCE_ERRATA_20261026.md. Точный следующий шаг и история — docs/project/CHAT_HANDOFF.md / docs/project/CHECKPOINTS.md.
 
 ## Активная работа · полный T-02
 
@@ -66,7 +66,7 @@ CP-20261026-016: полный методический охват 58/96 в ра�
 
 CP-20261026-019: main CI40299760408 SUCCESS. Опубликованная5.0.26 подтверждена; рабочая5.0.27 остаётся BLOCKED, без публикации.
 
-CP-20261026-020 · T-02 IN_PROGRESS: по поручению пользователя работа возобновлена. Проверка версии читает working_version из канонического PROJECT_STATE.md и сравнивает с HTML; дублирующий устаревший номер устранён. Контент 66/96 сохранён. Все пять локальных проверок PASS. Следующий E-09-0, осталось 30; T-06 исключён. CI/Pages нового пакета PENDING.
+CP-20261026-020 · T-02 IN_PROGRESS: по поручению пользователя работа возобновлена. Проверка версии читает working_version из канонического docs/project/PROJECT_STATE.md и сравнивает с HTML; дублирующий устаревший номер устранён. Контент 66/96 сохранён. Все пять локальных проверок PASS. Следующий E-09-0, осталось 30; T-06 исключён. CI/Pages нового пакета PENDING.
 
 CP-20261026-021: полный методический охват 76/96 в рабочей ветке; следующий INS-01-0, публикация PENDING.
 

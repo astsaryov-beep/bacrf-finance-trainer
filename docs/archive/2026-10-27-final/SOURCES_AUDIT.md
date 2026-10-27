@@ -1,6 +1,6 @@
 # Текущий источниковый охват · CP099
 
-557/557страниц прочитаны и визуально осмотрены с оговорками QUALITY_M15_REVIEW.md. Комплексная приёмка84/96;M15/M16ещё впереди. Исторические сводки ниже относятся к своим датам.
+557/557страниц прочитаны и визуально осмотрены с оговорками docs/audits/QUALITY_M15_REVIEW.md. Комплексная приёмка84/96;M15/M16ещё впереди. Исторические сводки ниже относятся к своим датам.
 
 # 5.0.32 beta VERIFIED · CP053
 
@@ -12,21 +12,21 @@ M05принят,30/96;предварительныйисточниковыйпр
 
 # 5.0.31 beta · VERIFIED
 
-[PR #47](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/47) MERGED; продукт `554efacbf0d80a3602a1d76311f28eb122e100bb`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40362988137), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363661338), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363662685). Live MATCH: index `b325350d00336239887ee0f553aac5427c028f51`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #47](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/47) MERGED; продукт `554efacbf0d80a3602a1d76311f28eb122e100bb`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40362988137), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363661338), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40363662685). Live MATCH: index `b325350d00336239887ee0f553aac5427c028f51`, assets/question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
-M01–M04 принято24/96 с раскрытыми пределами;183/557страницы осмотрены. Десять локальных и пять браузерных программ PASS. Остались72блока и сквозная приёмка. Предметный отчёт QUALITY_M04_REVIEW.md; T-06исключена.
+M01–M04 принято24/96 с раскрытыми пределами;183/557страницы осмотрены. Десять локальных и пять браузерных программ PASS. Остались72блока и сквозная приёмка. Предметный отчёт docs/audits/QUALITY_M04_REVIEW.md; T-06исключена.
 
 ---
 
 # 5.0.31 beta · M04 · RELEASE_PENDING
 
-Шесть блоков рассмотрены и исправлены;18/96уже принято,ещё6рассмотрены.183/557страницы осмотрены с пределами. Всего110формул,502словарные записи,38дополнительных концептуальных проверок. Десять локальных программ PASS; новый браузер/PRCI/mainCI/Pages/live PENDING. Последний опубликованный VERIFIED —5.0.30/CP042. Карта и предметные доказательства QUALITY_M04_REVIEW.md; T-06исключена, D-012сохранено.
+Шесть блоков рассмотрены и исправлены;18/96уже принято,ещё6рассмотрены.183/557страницы осмотрены с пределами. Всего110формул,502словарные записи,38дополнительных концептуальных проверок. Десять локальных программ PASS; новый браузер/PRCI/mainCI/Pages/live PENDING. Последний опубликованный VERIFIED —5.0.30/CP042. Карта и предметные доказательства docs/audits/QUALITY_M04_REVIEW.md; T-06исключена, D-012сохранено.
 
 ---
 
 # 5.0.30 beta · VERIFIED · CP042
 
-[PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #45](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/45) MERGED; продукт `0ef721bb00ab90784685464fa219a9a8cda01f7d`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40336743087), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358979302), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40358978309). Live MATCH: index `f504887c5acc0d606d91a2475ff94764f08154fe`, assets/question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
 Переход к КСУ исправлен; приёмка остаётся18/96 с пределами. Остальные78блоков и сквозной проход впереди;134/557страницы осмотрены. Последующие разделы ниже сохраняют историю публикации.
 
@@ -34,24 +34,24 @@ M01–M04 принято24/96 с раскрытыми пределами;183/557
 
 # 5.0.30 beta · VERIFIED
 
-[PR #44](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/44) MERGED; продукт `794531600bf332f7b494cf486b41803704a33bb0`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335234506), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118). Live MATCH: index `4524e390509ce28f5f809818c0b9e77f847ffac1`, question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
+[PR #44](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/44) MERGED; продукт `794531600bf332f7b494cf486b41803704a33bb0`. [PR CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335234506), [main CI SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335640280), [Pages SUCCESS](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40335639118). Live MATCH: index `4524e390509ce28f5f809818c0b9e77f847ffac1`, assets/question-review.js `6e753d8e5ed0f516e2b066126648e97e4a751958`, frozen5.0.8 `2b77ae8f74be9433af3c458c3be55314d2cc9519`.
 
-M01–M03 принято18/96 с раскрытыми пределами;134/557страницы осмотрены. Девять локальных и четыре браузерные программы PASS. Остались78блоков и сквозной проход. Актуальный предметный отчёт QUALITY_M03_REVIEW.md; T-06 исключена.
+M01–M03 принято18/96 с раскрытыми пределами;134/557страницы осмотрены. Девять локальных и четыре браузерные программы PASS. Остались78блоков и сквозной проход. Актуальный предметный отчёт docs/audits/QUALITY_M03_REVIEW.md; T-06 исключена.
 
 ---
 
 # 5.0.30 beta · M03 · RELEASE_PENDING
 
-Шесть блоков S1-07…S1-09 исправлены:12новых полных формул,10концептуальных проверок, рейтинговые версии и обе частиQ07. Всего104формулы,477терминов,26дополнительных проверок. Исходные84формулы/275вопросов/19originalID/309назначений иstable5.0.8 сохранены. Принято12/96,ещё6рассмотрены;134/557страницы осмотрены с пределами. QUALITY_M03_REVIEW.md — карта источников, новичковые сценарии, независимые расчёты и ограничения. Девять локальных программ PASS; браузер/PRCI/mainCI/Pages/live нового выпуска PENDING. Опубликованная5.0.29 остаётся последнейVERIFIED.
+Шесть блоков S1-07…S1-09 исправлены:12новых полных формул,10концептуальных проверок, рейтинговые версии и обе частиQ07. Всего104формулы,477терминов,26дополнительных проверок. Исходные84формулы/275вопросов/19originalID/309назначений иstable5.0.8 сохранены. Принято12/96,ещё6рассмотрены;134/557страницы осмотрены с пределами. docs/audits/QUALITY_M03_REVIEW.md — карта источников, новичковые сценарии, независимые расчёты и ограничения. Девять локальных программ PASS; браузер/PRCI/mainCI/Pages/live нового выпуска PENDING. Опубликованная5.0.29 остаётся последнейVERIFIED.
 
 ---
 
 # Текущий источниковый статус · 26.10.2026
 
-Комплексный M02: рассмотрены ещё шесть блоков, общий предметный проход 12/96;94/557 страниц прочитаны и осмотрены с пределами независимого подтверждения. Актуальны QUALITY_STATUS.md и QUALITY_M02_REVIEW.md; браузер нового пакета PENDING. История предыдущего M01 ниже.
+Комплексный M02: рассмотрены ещё шесть блоков, общий предметный проход 12/96;94/557 страниц прочитаны и осмотрены с пределами независимого подтверждения. Актуальны docs/audits/QUALITY_STATUS.md и docs/audits/QUALITY_M02_REVIEW.md; браузер нового пакета PENDING. История предыдущего M01 ниже.
 
 
-Полный T-01 остаётся PARTIAL. Новый комплексный проход M01:6/96 рассмотрены,54/557 страниц прочитаны/просмотрены с явными границами; предметные результаты и ограничения — QUALITY_M01_REVIEW.md, текущая приёмка — QUALITY_STATUS.md. Прежний пропуск S1 41–47 прочитан, визуально осмотрен и сопоставлен с курсом. Исправлены найденные ошибки/устаревшие оговорки Н4, МКК, RUONIA, аккредитива, аннуитета и выводов об индексах. Подробно: SOURCE_ERRATA_20261026.md; 557 страниц с раздельными статусами текста и изображения — SOURCE_REVIEW_LEDGER.json. Выгрузка текста, прочитанный фрагмент и просмотр картинки не равны полной верификации. Прежние приоритеты ниже — история; актуален ROADMAP.md, T-06 только по отдельной команде.
+Полный T-01 остаётся PARTIAL. Новый комплексный проход M01:6/96 рассмотрены,54/557 страниц прочитаны/просмотрены с явными границами; предметные результаты и ограничения — docs/audits/QUALITY_M01_REVIEW.md, текущая приёмка — docs/audits/QUALITY_STATUS.md. Прежний пропуск S1 41–47 прочитан, визуально осмотрен и сопоставлен с курсом. Исправлены найденные ошибки/устаревшие оговорки Н4, МКК, RUONIA, аккредитива, аннуитета и выводов об индексах. Подробно: docs/audits/SOURCE_ERRATA_20261026.md; 557 страниц с раздельными статусами текста и изображения — docs/audits/data/SOURCE_REVIEW_LEDGER.json. Выгрузка текста, прочитанный фрагмент и просмотр картинки не равны полной верификации. Прежние приоритеты ниже — история; актуален docs/project/ROADMAP.md, T-06 только по отдельной команде.
 
 ---
 
@@ -73,7 +73,7 @@ M01–M03 принято18/96 с раскрытыми пределами;134/557
 
 ## Выполнено в 5.0.11
 
-- Полная матрица сопоставления 17 разделов с 48 темами: [INTEGRATION_COVERAGE.md](INTEGRATION_COVERAGE.md).
+- Полная матрица сопоставления 17 разделов с 48 темами: [docs/audits/INTEGRATION_COVERAGE.md](INTEGRATION_COVERAGE.md).
 - Разделы про Н4, аннуитет, гарантии, аккредитивы, срочную RUONIA и обязанности оригинатора уточнены и дополнены учебными примерами.
 - Количество проверок понимания увеличено с 34 до 96, финансовых моделей — с 5 до 10, добавлено 15 схем.
 - Добавлены новые авторские упражнения 45+25; банк преподавательских заданий оставлен неизменным.

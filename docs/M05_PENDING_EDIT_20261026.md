@@ -4,7 +4,7 @@
 
 ## Фактическое состояние
 
-В локальной среде `audit_work/quality_m05_content.py` был создан и один раз успешно выполнен: изменены index.html, COURSE_METHOD_REVIEW.json и tests/content-baseline.json. Вывод: Reviewed 96/96 (это прежний T-02, НЕ комплексная приёмка), batch 6; formulas 119, terms 517, extraChecks 50. Индекс локально получил 5.0.32. Это только структурный подсчёт, не PASS. Эти изменения НЕ закоммичены и НЕ загружены на GitHub; среда затем стала unavailable, доступность файлов при восстановлении неизвестна.
+В локальной среде `audit_work/quality_m05_content.py` был создан и один раз успешно выполнен: изменены index.html, docs/audits/data/COURSE_METHOD_REVIEW.json и tests/content-baseline.json. Вывод: Reviewed 96/96 (это прежний T-02, НЕ комплексная приёмка), batch 6; formulas 119, terms 517, extraChecks 50. Индекс локально получил 5.0.32. Это только структурный подсчёт, не PASS. Эти изменения НЕ закоммичены и НЕ загружены на GitHub; среда затем стала unavailable, доступность файлов при восстановлении неизвестна.
 
 Попытка создать/выполнить `audit_work/m05_followup.py` (эффективные рубрики Q15/PO05, обновление release-check и workflow) завершилась transport disconnected. Нельзя считать даже создание файла подтверждённым. Новые M05-тесты не созданы. Никакой CI/Pages для 5.0.32 не запускался.
 

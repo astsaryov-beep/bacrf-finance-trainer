@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
-const ctx={};vm.runInNewContext(read('question-review.js'),ctx);vm.runInNewContext(read('exam-practice.js'),ctx);
+const ctx={};vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);
 const bank=parse('BANK'),ext=ctx.ExamPractice,all=[...bank,...parse('STUDY_EXTRAS').filter(q=>ext.openQuestionIds.includes(q.id)),...ext.questions].map(q=>ctx.FinanceReview.question(q));
 assert.equal(bank.length,275);assert.equal(ext.questions.length,204);assert.equal(new Set(all.map(q=>q.id  )).size,513);assert.equal(all.filter(q=>q.type==='multi').length,228);
 const lessons=parse('STUDY_LESSONS'),master=parse('STUDY_MASTER'),ordered=lessons.flatMap(l=>l.blocks.map((b,i)=>l.id+'-'+i));
@@ -21,7 +21,7 @@ for(let i=0;i<120;i++){
 assert.ok(ext.choose(all.filter(q=>q.origin==='original'),a=>a).error,'incomplete filter must fail, not fall back to single-choice');
 assert.ok(ext.choose(all.filter(q=>q.type!=='multi'),a=>a).error);
 assert.ok(all.some(q=>q.type==='single'),'ordinary questions retained');
-const a=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json'));assert.equal(a.assignments.length,309);assert.equal(a.reviewedHistoricalAssignments,309);assert.equal(a.assignments.filter(x=>x.status==='PENDING').length,0);
+const a=JSON.parse(read('docs/audits/data/QUESTION_LEARNING_ALIGNMENT.json'));assert.equal(a.assignments.length,309);assert.equal(a.reviewedHistoricalAssignments,309);assert.equal(a.assignments.filter(x=>x.status==='PENDING').length,0);
 for(const row of [...a.assignments.filter(x=>x.support.length),...a.additions])for(const ref of row.support){assert.ok(ordered.indexOf(ref.block)<=ordered.indexOf(row.block),'future theory '+row.questionId);assert.equal(JSON.stringify(master[ref.block]?.[ref.field]||lessons.find(l=>l.id===ref.block.slice(0,-2)).blocks[+ref.block.at(-1)].glossary),JSON.stringify(ref.passages));}
 assert.ok(a.assignments.find(x=>x.questionId==='V2-067').support.some(x=>JSON.stringify(x.passages).includes('call даёт держателю право купить')));
 for(const id of ext.openQuestionIds){const chosen=ext.choose(all,a=>[...a].sort((x,y)=>(y.id===id)-(x.id===id)));assert.ok(chosen.items.some(q=>q.id===id),'open supplement unreachable '+id);}

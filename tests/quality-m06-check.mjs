@@ -28,14 +28,14 @@ const scenarios=[{p:.92,a:0,b:0},{p:.04,a:100,b:0},{p:.04,a:0,b:100}];
 function quantile(field){let p=0;for(const s of [...scenarios].sort((x,y)=>field(x)-field(y))){p+=s.p;if(p>=.95)return field(s);}}
 near(quantile(s=>s.a),0);near(quantile(s=>s.b),0);near(quantile(s=>s.a+s.b),100);
 assert.match(master['S2-06-0'].mechanism.join(' '),/владельца облигации/);assert.match(master['S2-07-0'].mechanism.join(' '),/местный спрос/);assert.match(master['S1-10-1'].mechanism.join(' '),/получает фиксированный купон C.*платит K по IRS.*получает RUONIA/);
-const ctx={};vm.runInNewContext(read('question-review.js'),ctx);vm.runInNewContext(read('exam-practice.js'),ctx);const r=ctx.FinanceReview,q=id=>r.question(raw.find(x=>x.id===id));
+const ctx={};vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);const r=ctx.FinanceReview,q=id=>r.question(raw.find(x=>x.id===id));
 assert.equal(q('PO07').rubric.length,2);assert.match(q('PO07').question,/хотя бы один другой/);assert.match(q('LQ05').question,/непрерывным/);
 for(const id of ['PM17','LQ13','V2-062','PM18','LQ05','LQ06','PM20','LQ15','LQ14','LQ11','PM23','V2-065','PM03','V2-009','PM04','V2-060','V2-061']){
  assert.equal(JSON.stringify(q(id).correct),JSON.stringify(raw.find(x=>x.id===id).correct));assert.equal(q(id).optionFeedback.length,q(id).options.length);
 }
 const old={text:'Прежний PO07',checked:true,revealed:true,score:1,rubric:[0,1,2]};r.migrateCourseAnswer(q('PO07'),old);assert.equal(old.score,null);assert.equal(old.previousReviewResult.score,1);assert.equal(old.text,'Прежний PO07');const once=JSON.stringify(old);r.migrateCourseAnswer(q('PO07'),old);assert.equal(JSON.stringify(old),once);
 const session={version:2,responses:{PO07:{text:'Старый ответ',rubric:[0,1,2],checked:true}},grades:{PO07:{score:1,strict:true,type:'rubric'}}};r.migrateSession(session);assert.equal(session.grades.PO07,undefined);assert.equal(session.reviewHistory.PO07.grade.score,1);assert.equal(session.responses.PO07.text,'Старый ответ');
-const a=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json')),m04=['S1-10','S2-01','S2-02'],m06=['S2-06','S2-07','S2-08'];
+const a=JSON.parse(read('docs/audits/data/QUESTION_LEARNING_ALIGNMENT.json')),m04=['S1-10','S2-01','S2-02'],m06=['S2-06','S2-07','S2-08'];
 assert.equal(a.assignments.filter(x=>m04.includes(x.block.slice(0,-2))).length,15);assert.equal(a.assignments.filter(x=>m06.includes(x.block.slice(0,-2))).length,16);
 assert.ok(a.assignments.filter(x=>[...m04,...m06].includes(x.block.slice(0,-2))).every(x=>x.status!=='PENDING'&&x.support.length));
 assert.equal(ctx.ExamPractice.questions.filter(q=>m06.includes(q.lesson)).length,12);assert.equal(ctx.ExamPractice.questions.filter(q=>m04.includes(q.lesson)&&q.source.includes('QUALITY_M06_REVIEW')).length,6);

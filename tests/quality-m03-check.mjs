@@ -44,7 +44,7 @@ assert.ok(harmonicCurrent(6,5,2,6)<harmonicCurrent(6,5,5,6));
 near(40/(100-10-(8-3)),40/85);near((20+10)/(25+10),6/7);
 const icr=12/3,ecr=12/(3+1);near(icr,4);near(ecr,3);assert.ok(ecr<icr);
 assert.notEqual(12/3,9/3,'different profit and cash-flow numerators are not interchangeable');
-const ctx={};vm.runInNewContext(readFileSync(new URL('../question-review.js',import.meta.url),'utf8'),ctx);
+const ctx={};vm.runInNewContext(readFileSync(new URL('../assets/question-review.js',import.meta.url),'utf8'),ctx);
 const r=ctx.FinanceReview,raw=parse('BANK'),q=r.question(raw.find(x=>x.id==='Q07'));
 assert.match(q.rubric[2],/Объяснён обратный случай/);assert.match(q.brief,/изымает ликвидность/);assert.equal(q.answer,q.brief,'catalog and practice must expose the same complete short answer');
 const answer={text:'Сохранённый ответ',checked:true,revealed:true,score:1,rubric:[0,1,2]};
