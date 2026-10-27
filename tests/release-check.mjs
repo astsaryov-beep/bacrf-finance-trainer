@@ -232,9 +232,10 @@ for(const l of labs)assert.ok(ids.has(l[1]),'invalid lab '+l[1]);
 
 const start=html.indexOf('const FRI_PRACTICE_BANK='),end=html.indexOf('function friExtraForBlock',start);
 const courseMap=new Map(course.map(l=>[l.id,l]));
-const practiceBuilder=new Function('STUDY_MAP','FRI_COLLEAGUE_COVERAGE',
+const supplementaryReview={};vm.runInNewContext(readFileSync(resolve(root,'question-review.js'),'utf8'),supplementaryReview);
+const practiceBuilder=new Function('STUDY_MAP','FRI_COLLEAGUE_COVERAGE','FinanceReview',
   html.slice(start,end)+'return FRI_PRACTICE_BANK;');
-const practice=practiceBuilder(courseMap,map);
+const practice=practiceBuilder(courseMap,map,supplementaryReview.FinanceReview);
 assert.equal(practice.length,70);
 assert.equal(practice.filter(q=>q.type==='multi').length,45);
 assert.equal(practice.filter(q=>q.type==='open').length,25);

@@ -1,7 +1,7 @@
 {
   "task": "T-19",
   "base": "4c08b154b41e17c200e6827c49f6f02a0f8ad0db",
-  "version": "5.0.43 beta",
+  "version": "5.0.44 beta",
   "status": "IN_PROGRESS",
   "contentReviewed": 96,
   "total": 96,
@@ -1331,7 +1331,7 @@
   },
   "selfChecksPositionIssue": "NP-006 исправлена: вопросы после advanced; браузерная регрессия PASS в CI40497935164.",
   "localVerification": {
-    "programs": 24,
+    "programs": 25,
     "exit": 0,
     "coversContentRead": 96,
     "note": "Структурные и предметные тесты не заменяют редакционное чтение оставшихся 0 блоков."
@@ -1451,6 +1451,18 @@
       "run": 40538417323,
       "result": "SUCCESS",
       "reviewedBlocks": 84
+    },
+    {
+      "reviewedBlocks": 90,
+      "commit": "6b7a71db6d882ac8d4b7b2b2daa2ac866abacbdb",
+      "run": 40539460596,
+      "result": "SUCCESS"
+    },
+    {
+      "reviewedBlocks": 96,
+      "commit": "ebd1bb38156164a8612e3e76b2a73d72fcf9fc7f",
+      "run": 40540497850,
+      "result": "SUCCESS"
     }
   ],
   "nativeRouteFixture": {
@@ -1471,7 +1483,22 @@
     }
   },
   "additionalLayers": {
-    "status": "REVIEW_PENDING_AFTER_MAIN_ROUTE",
-    "scope": "FRI_DIAGRAMS, FRI_TRAP_CASES/FALLBACK, FRI_PEER_CONTRASTS, FRI_PRACTICE_BANK and interactive labs: verify current rendering and backfill all96 blocks before final acceptance. Existing strategies/profiles already separately read."
+    "status": "CONTENT_REVIEWED_BROWSER_PENDING",
+    "blocksRead": 96,
+    "pitfallsRead": 96,
+    "trapsRead": 96,
+    "diagramsRead": 15,
+    "comparisonsRead": 34,
+    "independentPromptsRead": 70,
+    "singleChoicePrompts": 45,
+    "openPrompts": 25,
+    "modelsReadAndExecuted": 10,
+    "independentPatches": 35,
+    "independentRevisions": 31,
+    "prerequisiteMoves": 6,
+    "trapRevisions": 7,
+    "method": "Содержательная редакторская сверка всех дополнительных слоёв. Ключи ловушек были видны при чтении кода; это не самостоятельные ответы новичка до ключа. Модели выполнены с независимо рассчитанными ожиданиями.",
+    "history": "Старые ответы и накопительные счётчики сохранены; исправленные задания требуют новой проверки. Миграция запускается и при загрузке, и при импорте.",
+    "browser": "PENDING:9-я браузерная программа, реальный импорт старого файла/96 ловушек/70 упражнений/15 схем/34 сравнений/10 моделей/перезагрузка/экспорт-импорт/320px."
   }
 }
