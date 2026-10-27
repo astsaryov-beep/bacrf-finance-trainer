@@ -55,6 +55,8 @@ jobs:
         run: node tests/quality-m14-check.mjs
       - name: Verify M15 insurance obligations, franchise boundaries and participant roles
         run: node tests/quality-m15-check.mjs
+      - name: Verify M16 pension rights, factoring risks and complete MC coverage
+        run: node tests/quality-m16-check.mjs
       - name: Verify multi-select exam and prior learning evidence
         run: node tests/exam-practice-check.mjs
       - name: Verify conceptual learning and corrected answer keys
