@@ -672,43 +672,31 @@
     "id": "R-04-0",
     "title": "Капитал, ликвидность и стресс-тестирование",
     "status": "REVIEWED",
-    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
-    "fingerprint": "6102dd59a1e1f2604cb6f4a7eac6f9dce92b2fa0347e794272bb3a5c81ae5c11",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: новые задачи отделены от повторных вводных, сокращения пояснены при первом использовании, технические и юридические оговорки сохранены.",
+    "fingerprint": "d78083b37c59cbe2ab0366c1455895cede43208111f21d2355943795467f6c73",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary",
-      "formulas",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M09_REVIEW.md"
+    "sourceCheck": "Принятый M09 и добавленные R05/R06; текущие официальные параметры из уже проверенного комплекта не меняются."
   },
   {
     "id": "R-04-1",
     "title": "Кредитование бизнеса и выбор финансирования",
     "status": "REVIEWED",
-    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
-    "fingerprint": "000243039b17951227c8056a2f4acd62ea18084ab5f768ea0b412257682ae3c4",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: новые задачи отделены от повторных вводных, сокращения пояснены при первом использовании, технические и юридические оговорки сохранены.",
+    "fingerprint": "570ffb76834485a7a3c7f81bad8a3cdd4b87681e910041efde9319d23d476942",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary",
-      "formulas",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M09_REVIEW.md"
+    "sourceCheck": "Принятый M09 и добавленные R05/R06; текущие официальные параметры из уже проверенного комплекта не меняются."
   },
   {
     "id": "E-01-0",
@@ -1388,84 +1376,58 @@
     "id": "R-05-0",
     "title": "Как возникли основные финансовые теории",
     "status": "REVIEWED",
-    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
-    "fingerprint": "97e6850af7b0d386c2cf3e340d04a4ef9bbfe36c458044251ce49179431522a0",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: новые задачи отделены от повторных вводных, сокращения пояснены при первом использовании, технические и юридические оговорки сохранены.",
+    "fingerprint": "c49074c62dc97aea7bcdca65a1550bee257c9aef8382eb973aeae5efdf0ce990",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary",
-      "formulas",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M09_REVIEW.md"
+    "sourceCheck": "Принятый M09 и добавленные R05/R06; текущие официальные параметры из уже проверенного комплекта не меняются."
   },
   {
     "id": "R-05-1",
     "title": "Эффективность рынка и поведенческие финансы",
     "status": "REVIEWED",
-    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
-    "fingerprint": "c02914eda05ec1873247d1abc39255ba1dae8e0d59ec0b65d9ac20f8555317be",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: новые задачи отделены от повторных вводных, сокращения пояснены при первом использовании, технические и юридические оговорки сохранены.",
+    "fingerprint": "86dae5b3b95785b29484643b9f2b99ea97c3c7a546074a8350387efb3bd337f5",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary",
-      "formulas",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M09_REVIEW.md"
+    "sourceCheck": "Принятый M09 и добавленные R05/R06; текущие официальные параметры из уже проверенного комплекта не меняются."
   },
   {
     "id": "R-06-0",
     "title": "Формы денег, цифровой рубль и цифровые активы",
     "status": "REVIEWED",
-    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
-    "fingerprint": "59864d859f304937abd223b2d6a0dcecca3fbf23c8593d3de83a09141baa4a8b",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: новые задачи отделены от повторных вводных, сокращения пояснены при первом использовании, технические и юридические оговорки сохранены.",
+    "fingerprint": "6686d5f1c25067bd4520a111fa10505d34e3737145ff1bfa3ad1ad1cf570a2ee",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary",
-      "formulas",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M09_REVIEW.md"
+    "sourceCheck": "Принятый M09 и добавленные R05/R06; текущие официальные параметры из уже проверенного комплекта не меняются."
   },
   {
     "id": "R-06-1",
     "title": "Национальная платёжная система и способы расчётов",
     "status": "REVIEWED",
-    "decision": "M09 окончательная типографическая редакция и проверка единиц/слов перед практикой.",
-    "fingerprint": "6b00bd98c069da233be84778e717d49ff3f5cd08727b0f531274672d8896dc2b",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: новые задачи отделены от повторных вводных, сокращения пояснены при первом использовании, технические и юридические оговорки сохранены.",
+    "fingerprint": "b7de4a1a31466d736642bd219c5363542d3b828dc97ee38c2785077739216db2",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
-      "mechanism",
-      "principles",
       "application",
-      "advanced",
-      "glossary",
-      "formulas",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M09_REVIEW.md"
+    "sourceCheck": "Принятый M09 и добавленные R05/R06; текущие официальные параметры из уже проверенного комплекта не меняются."
   }
 ]
