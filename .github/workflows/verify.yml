@@ -7,6 +7,8 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    outputs:
+      browser: ${{ steps.scope.outputs.browser }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -14,6 +16,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Determine conservative browser scope
+        id: scope
+        env:
+          SCOPE_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          python tests/change-scope.py --self-test
+          python tests/change-scope.py
       - name: Validate recoverable project state and frozen stable snapshot
         env:
           GITHUB_BASE_SHA: ${{ github.event.pull_request.base.sha }}
@@ -68,7 +77,13 @@ jobs:
       - name: Verify fixed income strategy mathematics
         run: node tests/strategies-check.mjs
   browser:
+    needs: verify
+    if: needs.verify.outputs.browser == 'true'
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        suite: [core, course, route]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -76,21 +91,29 @@ jobs:
           node-version: '22'
       - name: Install browser driver
         run: npm install --no-package-lock --no-save playwright-core@1.56.1
-      - name: Test desktop and mobile UI
+      - name: Core navigation and answer history
+        if: matrix.suite == 'core'
         run: |
+          node tests/navigation-browser.mjs
           node tests/browser-smoke.mjs
           node tests/learning-review-browser.mjs
           node tests/teacher-review-browser.mjs
           node tests/quality-m03-browser.mjs
           node tests/quality-m04-browser.mjs
+      - name: Course rendering and exam
+        if: matrix.suite == 'course'
+        run: |
           node tests/quality-modules-browser.mjs
           node tests/exam-practice-browser.mjs
+      - name: Complete native route and supplemental layers
+        if: matrix.suite == 'route'
+        run: |
           node tests/novice-path-browser.mjs
           node tests/novice-supplements-browser.mjs
       - name: Attach screenshots and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: trainer-browser-smoke
+          name: trainer-browser-${{ matrix.suite }}
           path: test-artifacts/
           if-no-files-found: ignore
