@@ -356,8 +356,9 @@ try{
  await page.locator('.study-mobile-nav > summary').click();
  await page.locator('.study-mobile-nav [data-studylesson="S1-07"]').click();
  await page.waitForSelector('.fri-strategy-case svg');
- const chartBounds=await page.locator('.fri-strategy-case svg').first().evaluate(el=>({width:el.getBoundingClientRect().width,viewport:innerWidth,documentWidth:document.documentElement.scrollWidth}));
- assert.ok(chartBounds.width<chartBounds.viewport,'integrated 390px SVG fits mobile screen');
+ const chartBounds=await page.locator('.fri-strategy-case .strategy-plot').first().evaluate(el=>({width:el.getBoundingClientRect().width,plotWidth:el.scrollWidth,viewport:innerWidth,documentWidth:document.documentElement.scrollWidth}));
+ assert.ok(chartBounds.width<chartBounds.viewport,'integrated 390px plot viewport fits mobile screen');
+ assert.ok(chartBounds.plotWidth>=560&&chartBounds.plotWidth>chartBounds.width,'SVG labels retain readable scale within their own scroll viewport');
  assert.ok(chartBounds.documentWidth<=chartBounds.viewport+2,'no horizontal overflow '+JSON.stringify(chartBounds));
  await page.locator('.fri-strategy-miniquestion').first().locator('[data-strategy-option="0"]').click();
  assert.ok((await page.locator('.fri-strategy-feedback').first().textContent()).includes('Верно'),'mobile interactive self-check');
