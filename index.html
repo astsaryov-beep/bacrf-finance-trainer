@@ -551,7 +551,7 @@ function correctChoice(q,arr){return q.correct.length===arr.length&&q.correct.ev
 function partialScore(q,arr){if(q.type==='single')return correctChoice(q,arr)?1:0;let tp=arr.filter(i=>q.correct.includes(i)).length,fp=arr.filter(i=>!q.correct.includes(i)).length;return Math.max(0,(tp-fp)/q.correct.length)}
 function selectedChoices(){return [...document.querySelectorAll('input[name="qoption"]:checked')].map(x=>Number(x.value)).sort((a,b)=>a-b)}
 function confidenceVal(){return Number(byId('confidence')?.value||2)}
-function captureCurrent(){if(!session||session.done)return;let q=activeQ(),r=resultFor(q.id);if(q.type==='open'){let field=byId('freeText');if(field)r.text=field.value;}else if(document.querySelector('input[name="qoption"]'))r.choice=selectedChoices();r.confidence=confidenceVal();resultSet(q,r)}
+function captureCurrent(){if(!session||session.done)return;let q=activeQ(),r=resultFor(q.id);if(q.type==='open'){let field=byId('freeText');if(field)r.text=field.value;}else if(document.querySelector('input[name="qoption"]'))r.choice=selectedChoices();if(byId('confidence'))r.confidence=confidenceVal();resultSet(q,r)}
 function record(q,score,conf,replace=false){let p=progress[q.id]||{tries:0,correct:0,scoreSum:0,streak:0};let ok=score>=.999;
  if(p.tries&&p.answered!==false)p.lastAnsweredEvidence={tries:p.tries,last:p.last,lastScore:p.lastScore,when:p.when,lastWrongAt:p.lastWrongAt,reviewRevision:p.reviewRevision,lastChoices:p.lastChoices};
  if(replace&&p.tries){p.correct-=Number(p.last===true);p.scoreSum=(p.scoreSum||0)-(p.lastScore||0)}else p.tries++;
