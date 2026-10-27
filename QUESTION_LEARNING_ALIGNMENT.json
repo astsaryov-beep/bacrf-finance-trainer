@@ -19583,7 +19583,7 @@
       "questionId": "INS-01-1-Q",
       "block": "INS-01-0",
       "sequence": 76,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Полис/премия/покрытие/предел,личные и имущественные выплаты.",
       "support": [
         {
@@ -19652,13 +19652,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-01-1-O",
       "block": "INS-01-0",
       "sequence": 76,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Покрытие/сумма/франшиза/сообщение и урегулирование до задания.",
       "support": [
         {
@@ -19727,13 +19728,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-01-2-Q",
       "block": "INS-01-1",
       "sequence": 77,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Упрощённая безусловная франшиза и лимит с явными условиями;расчёт вне экзамена.",
       "support": [
         {
@@ -19802,13 +19804,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-01-2-O",
       "block": "INS-01-1",
       "sequence": 77,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Два правила франшиз и равенство порогу;прочие условия.",
       "support": [
         {
@@ -19877,13 +19880,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-02-1-Q",
       "block": "INS-02-0",
       "sequence": 78,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Андеррайтинг vs актуарий/аджастер/комиссар по функции и стадии.",
       "support": [
         {
@@ -19962,13 +19966,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-02-1-O",
       "block": "INS-02-0",
       "sequence": 78,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Пять явно названных участников и их функции;не произвольные пять из списка.",
       "support": [
         {
@@ -20047,13 +20052,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-02-2-Q",
       "block": "INS-02-1",
       "sequence": 79,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ответственность перед потерпевшим vs свой автомобиль/возврат премии/штрафы.",
       "support": [
         {
@@ -20133,13 +20139,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-02-2-O",
       "block": "INS-02-1",
       "sequence": 79,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Три практические группы,примеры и правовой уровень имущественного страхования.",
       "support": [
         {
@@ -20219,13 +20226,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-03-1-Q",
       "block": "INS-03-0",
       "sequence": 80,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Премиальная база/денежные выплаты/резервы/расходы/капитал vs прибыль.",
       "support": [
         {
@@ -20286,13 +20294,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-03-1-O",
       "block": "INS-03-0",
       "sequence": 80,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Частота/тяжесть,расходы/капитал,изменение условий/зависимость рисков.",
       "support": [
         {
@@ -20353,13 +20362,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-03-2-Q",
       "block": "INS-03-1",
       "sequence": 81,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Первичное обязательство vs отдельное перестрахование/сострахование/агент.",
       "support": [
         {
@@ -20428,13 +20438,14 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "INS-03-2-O",
       "block": "INS-03-1",
       "sequence": 81,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Удержание/лимиты/исключения,контрагент,операционная ликвидность/сроки.",
       "support": [
         {
@@ -20503,7 +20514,8 @@
           ]
         }
       ],
-      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди."
+      "decision": "M15:все содержательные альтернативы/критерии доступны до практики;регрессия впереди.",
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "PEN-01-1-Q",
@@ -35924,7 +35936,7 @@
       "questionId": "MC-INS-01-0-1",
       "block": "INS-01-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -35993,13 +36005,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-01-0-2",
       "block": "INS-01-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36068,13 +36081,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-01-1-1",
       "block": "INS-01-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36143,13 +36157,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-01-1-2",
       "block": "INS-01-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36218,13 +36233,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-02-0-1",
       "block": "INS-02-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36303,13 +36319,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-02-0-2",
       "block": "INS-02-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36388,13 +36405,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-02-1-1",
       "block": "INS-02-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36474,13 +36492,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-02-1-2",
       "block": "INS-02-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36560,13 +36579,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-02-1-3",
       "block": "INS-02-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36646,13 +36666,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-02-1-4",
       "block": "INS-02-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36732,13 +36753,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-03-0-1",
       "block": "INS-03-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36799,13 +36821,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-03-0-2",
       "block": "INS-03-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36866,13 +36889,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-03-1-1",
       "block": "INS-03-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -36941,13 +36965,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     },
     {
       "questionId": "MC-INS-03-1-2",
       "block": "INS-03-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Содержательные различия всех вариантов объяснены до задания.",
       "distractorReview": "Близкие страховые роли,права,условия и базы;эмпирическая сложность не измерена.",
       "support": [
@@ -37016,9 +37041,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP-20261027-103/PR60/CI40455584876/mainCI40456255631/Pages40456255317/liveMATCH5files"
     }
   ],
-  "blocksAcceptedNewCriteria": 84,
-  "blocksReviewedPendingNewCriteria": 6
+  "blocksAcceptedNewCriteria": 90,
+  "blocksReviewedPendingNewCriteria": 0
 }
