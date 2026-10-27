@@ -782,103 +782,77 @@
     "id": "E-04-0",
     "title": "Паевые и биржевые фонды",
     "status": "REVIEWED",
-    "decision": "M11: окончательная содержательная и типографская сверка;исходные формулы защищены. Источники и пределы QUALITY_M11_REVIEW.md.",
-    "fingerprint": "df417368a66cf00c93ec19c73531f33cb6793382fa3416fdeb18db5f24fafc0c",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии вводной/механизма/примера устранены; сохранены разные роли определения, метода, применения и ограничений.",
+    "fingerprint": "1e7e3daf50f5ed6a1fb92032d419a375dcbd99fd212476a092e369fa0999f1cb",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "foundation",
-      "mechanism",
-      "application",
-      "advanced",
-      "extraChecks",
-      "glossary"
+      "advanced"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M11/M12, исходные формулы/банк/корпоративные условия не меняются."
   },
   {
     "id": "E-04-1",
     "title": "Индексные фонды и расходы инвестора",
     "status": "REVIEWED",
-    "decision": "M11: окончательная содержательная и типографская сверка;исходные формулы защищены. Источники и пределы QUALITY_M11_REVIEW.md.",
-    "fingerprint": "ad5fda9dcecba7e7e9348a07a11528b3c0c3eb8afaf205d890e6de96ebe91917",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии вводной/механизма/примера устранены; сохранены разные роли определения, метода, применения и ограничений.",
+    "fingerprint": "92d70938fb32ecb6e378f950128ae7337f40f018aece972373993ab64ec543fe",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "foundation",
-      "mechanism",
-      "application",
-      "advanced",
-      "extraChecks",
-      "glossary"
+      "advanced"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M11/M12, исходные формулы/банк/корпоративные условия не меняются."
   },
   {
     "id": "E-05-0",
     "title": "Бета и корреляция",
     "status": "REVIEWED",
-    "decision": "M11: после визуальной проверки исправлены пробелы нового примера беты;исходные две формулы сохранены.",
-    "fingerprint": "507c6adcf06a6d1fc4bddea20db5b667cdfb78e5d83bcf100c5af48710afcd1a",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии вводной/механизма/примера устранены; сохранены разные роли определения, метода, применения и ограничений.",
+    "fingerprint": "6071e6dedb868f1a59ed3fed248b3df5e8c9cd68230aea1df9d501cbfd444bbc",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "formulas"
+      "beginner",
+      "foundation"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M11/M12, исходные формулы/банк/корпоративные условия не меняются."
   },
   {
     "id": "E-05-1",
     "title": "Горизонт инвестиций и выбор инструмента",
     "status": "REVIEWED",
-    "decision": "M11: окончательная содержательная и типографская сверка;исходные формулы защищены. Источники и пределы QUALITY_M11_REVIEW.md.",
-    "fingerprint": "5f54dbf4736f8fa9796e1a309cb065dc6d02cc38073332e34d8d0fb9140380fa",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: пример отдельно применяет механизм; числа и единицы оформлены с пробелами.",
+    "fingerprint": "adf6dcd77c95b69f50d6908fd92e23cf9504495db1228777d3428caa3fbb1b6f",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "foundation",
-      "mechanism",
-      "application",
-      "advanced",
-      "extraChecks",
-      "glossary"
+      "application"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M11/M12."
   },
   {
     "id": "E-06-0",
     "title": "Кто управляет акционерным обществом",
     "status": "REVIEWED",
-    "decision": "M11: окончательная содержательная и типографская сверка;исходные формулы защищены. Источники и пределы QUALITY_M11_REVIEW.md.",
-    "fingerprint": "70ca539f0f0d9ce87b270443be944d1955cfb5f02a64f70f243dc7d6c24dd5de",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: пример отдельно применяет механизм; числа и единицы оформлены с пробелами.",
+    "fingerprint": "819c39ba5f0e3a7a4d9b6e4088cb0216a35c0d3713752abce65f2dcad1c3878c",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "foundation",
-      "mechanism",
-      "application",
-      "advanced",
-      "extraChecks",
-      "glossary"
+      "application"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M11/M12."
   },
   {
     "id": "E-06-1",
     "title": "Свободное обращение и free-float",
     "status": "REVIEWED",
-    "decision": "M11: окончательная содержательная и типографская сверка;исходные формулы защищены. Источники и пределы QUALITY_M11_REVIEW.md.",
-    "fingerprint": "87cb871f377828903844ef5f2105b544d264fe79410b32a88d11722f76f98829",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии вводной/механизма/примера устранены; сохранены разные роли определения, метода, применения и ограничений.",
+    "fingerprint": "1249e441eef82dc30c0cca94be033bfa0d4e3b17d59a9c955031c9e7740a65f2",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "foundation",
       "mechanism",
-      "application",
-      "advanced",
-      "extraChecks",
-      "glossary"
+      "story",
+      "foundation"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "Принятые M11/M12, исходные формулы/банк/корпоративные условия не меняются."
   },
   {
     "id": "E-07-0",
