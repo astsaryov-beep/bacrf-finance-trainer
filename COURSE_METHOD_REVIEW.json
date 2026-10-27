@@ -901,17 +901,10 @@
     "id": "E-05-0",
     "title": "Бета и корреляция",
     "status": "REVIEWED",
-    "decision": "M11: окончательная содержательная и типографская сверка;исходные формулы защищены. Источники и пределы QUALITY_M11_REVIEW.md.",
-    "fingerprint": "a3438405bb01914d2c3e308799b02e98725189290e591e3679bfaccd4bbdf500",
+    "decision": "M11: после визуальной проверки исправлены пробелы нового примера беты;исходные две формулы сохранены.",
+    "fingerprint": "507c6adcf06a6d1fc4bddea20db5b667cdfb78e5d83bcf100c5af48710afcd1a",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "beginner",
-      "foundation",
-      "mechanism",
-      "application",
-      "advanced",
-      "extraChecks",
-      "glossary",
       "formulas"
     ],
     "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
