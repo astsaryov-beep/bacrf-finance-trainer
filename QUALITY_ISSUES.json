@@ -786,10 +786,10 @@
   {
     "id": "QA-094",
     "severity": "MEDIUM",
-    "status": "OPEN",
+    "status": "FIXED_PENDING_REGRESSION",
     "area": "M14 source definitions and dates",
     "finding": "L45PDF20/24/29–31:критерии квалификации,форекс-дилер,несогласованные числаПИФ3708vs3663,режимыИИС.",
-    "resolution": "M14:первичные актуальные нормы,исторические срезы не выдавать за вечные свойства. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+    "resolution": "M14: квалификация/даты/форекс-дилер/типПИФ/несогласованная статистика/разные ограничения ИИС раскрыты. Пределы QUALITY_M14_REVIEW.md;регрессия впереди."
   },
   {
     "id": "QA-095",
@@ -813,7 +813,7 @@
     "status": "PARTIAL",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "CP093:18проверенныхSTUDY_EXTRASopenIDвэффективномпуле,доступностькаждогоипереносисториипроверены. ОставшиесяпоздниетеоретическиеopenдобавитьпослепроверкиM14–M16;маржинальнуюглавуисключить."
+    "resolution": "M14:22старых проверенныхopen в эффективном пуле;4новых MARKET/LEASEожидают регрессии. S3-015O/016Oне включены:маржинальная глава исключена из экзамена. M15/M16добавят оставшиеся12open."
   },
   {
     "id": "QA-098",
@@ -870,5 +870,45 @@
     "area": "M13 practice",
     "finding": "11singleспрежнимиключами,8предметныхрубриксисторией,18новыхfactual/caseMCс2/3/4ответами;23назначениявключая11раннихпроверены.",
     "resolution": "QUALITY_M13_REVIEW.md/CP093:20local/7browser PASS;PR58/mainCI/Pages SUCCESS;live5MATCH. Источниковые пределы раскрыты."
+  },
+  {
+    "id": "QA-105",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 margin",
+    "finding": "Плановая позиция/капитал/ставка риска/граница НПР2=0,исключение Mx0,сроки/категории/строгие договорные условия требуют согласованного изложения.300тыс.вгод без теста не подтверждены.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-106",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 investor roles and dates",
+    "finding": "Квалификация/тест/категория риска,ПВО/суд/собрание,форекс-дилер,учёт/контроль/оценка,ИИС/льготы/вклад и датированные числа различены.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-107",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 leasing",
+    "finding": "Косвенная/прямая/возвратная/сублизинг,обслуживание,собственность/финансирование/страхование,полный график и конечный актив объяснены.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-108",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 source closures",
+    "finding": "ESG4компонента/SLB/KPI/углеродная единица,организация эмиссии/программа/ПВО/расчётная цена раскрыты;датированные ряды и частные процедуры не выданы за универсальные нормы.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-109",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M14 practice and pending card",
+    "finding": "12новых назначений/6конкретныхрубрик;9назначенийS1070ужеVERIFIED,карточкаD015перепроверена;14MCвключают2отличающихсяраннихкейса и4маржинальныхтолько для обучения.",
+    "resolution": "QUALITY_M14_REVIEW.md/CP095;браузер/CI/Pages/live впереди."
   }
 ]
