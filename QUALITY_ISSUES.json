@@ -102,7 +102,7 @@
     "status": "EXPLAINED_WITH_LIMITS",
     "area": "S1 PDF111/116–119",
     "finding": "Исторические рейтинги и пример доходности не согласованы с соседним срезом; таблица эшелонов условна.",
-    "resolution": "Расчётные примеры курса самостоятельные, методика и условия явные. Полный модуль M03 ещё не принят."
+    "resolution": "M03/M14/финал приняты с оговорками:датированные рейтинги/ряды не представлены как текущие. Курс раскрывает механизмы и условия;не все исторические значения восстановлены независимо."
   },
   {
     "id": "QA-013",
@@ -182,7 +182,7 @@
     "status": "EXPLAINED_WITH_LIMITS",
     "area": "S1 PDF59–63",
     "finding": "Историческая статистика имеет спорные подписи/единицы и пенсионную хронологию.",
-    "resolution": "Числовые ряды не скопированы. Дефолт/реструктуризация1998 подтверждены отчётомЦБ; конкретная пенсионная хронология связана с PEN и пока не подтверждена."
+    "resolution": "M16 различает заморозку прежнего направления взносов с2014и сохранение/инвестирование ранее сформированных накоплений. Исторические потоки2013–2014соS1PDF62не восстановлены и не используются как текущее правило. История1998и ограничения сохранены в источниковых обзорах."
   },
   {
     "id": "QA-023",
@@ -402,26 +402,26 @@
   {
     "id": "QA-048",
     "severity": "MEDIUM",
-    "status": "IN_PROGRESS",
+    "status": "FIXED_VERIFIED",
     "area": "D-015 exam multiple choice",
     "finding": "В банке24multi, генераторподменяетmultiplechoiceлюбымизакрытымивопросами.",
-    "resolution": "CP078:25open/25multi;134multiвпуле385;дальнейшее содержательное покрытие продолжается."
+    "resolution": "CP107/CP108:96блоков с factual+caseMC,204новыхMC,309/309назначений с ранними опорами и регрессией,34проверенныхopenвпуле513. Новыйэкзамен25open/25multiбезрасчётов/маржинальнойглавы;редакторская сложность,не эмпирическая калибровка. Подробности FINAL_COURSE_REVIEW_20261027.md."
   },
   {
     "id": "QA-049",
     "severity": "MEDIUM",
-    "status": "IN_PROGRESS",
+    "status": "FIXED_VERIFIED",
     "area": "D-015 distractor quality",
     "finding": "Частьавторскихневерныхвариантовочевиднонесвязанаспредметом, позволяяугадатьбезпонимания.",
-    "resolution": "17singleM04/M06и18новыхMCподтвержденыCP059,предыдущаяредактураM05сохранена. Остальнойбанквпереди;эмпирическаясложностьнеизмерена."
+    "resolution": "CP107/CP108:96блоков с factual+caseMC,204новыхMC,309/309назначений с ранними опорами и регрессией,34проверенныхopenвпуле513. Новыйэкзамен25open/25multiбезрасчётов/маржинальнойглавы;редакторская сложность,не эмпирическая калибровка. Подробности FINAL_COURSE_REVIEW_20261027.md."
   },
   {
     "id": "QA-050",
     "severity": "HIGH",
-    "status": "IN_PROGRESS",
+    "status": "FIXED_VERIFIED",
     "area": "D-015 full question-to-theory sequence",
     "finding": "Обратнаясвязьстудентовуказываетнавопросыдообъяснениянужнойтеории, особеннововторойполовине.",
-    "resolution": "CP078:200/309историческихназначенийVERIFIED,109PENDING. РанниеQ01/Q02/Q03/V2-016/RM18/Q18объясненыдо заданий."
+    "resolution": "CP107/CP108:96блоков с factual+caseMC,204новыхMC,309/309назначений с ранними опорами и регрессией,34проверенныхopenвпуле513. Новыйэкзамен25open/25multiбезрасчётов/маржинальнойглавы;редакторская сложность,не эмпирическая калибровка. Подробности FINAL_COURSE_REVIEW_20261027.md."
   },
   {
     "id": "QA-051",
@@ -810,10 +810,10 @@
   {
     "id": "QA-097",
     "severity": "MEDIUM",
-    "status": "PARTIAL",
+    "status": "FIXED_VERIFIED",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "M16:34теоретическихopenSTUDY_EXTRASвэффективномпуле;6новыхожидаютрегрессии.2маржинальныхopenсохраненытольковобучении."
+    "resolution": "CP107/CP108:96блоков с factual+caseMC,204новыхMC,309/309назначений с ранними опорами и регрессией,34проверенныхopenвпуле513. Новыйэкзамен25open/25multiбезрасчётов/маржинальнойглавы;редакторская сложность,не эмпирическая калибровка. Подробности FINAL_COURSE_REVIEW_20261027.md."
   },
   {
     "id": "QA-098",
@@ -946,41 +946,41 @@
   {
     "id": "QA-114",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M16 pension rights and dates",
     "finding": "Социальная пенсия/страховая и собственные условия,база2026,22% и сохранение накоплений после2014 требуют согласования.",
-    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+    "resolution": "QUALITY_M16_REVIEW.md/CP-20261027-107:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-115",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M16 pension institutions and asset bases",
     "finding": "Вкладчик/участник,НПФ/УК/спецдеп/СФР/ВЭБ/актуарий/АСВ различаются;активы/AUM/контроль и ФНБ не одно и то же.",
-    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+    "resolution": "QUALITY_M16_REVIEW.md/CP-20261027-107:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-116",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M16 PDS",
     "finding": "15летили55/60альтернативны;гарантия/выкуп/поддержка/налог/доходность не тождественны,режимы ОПС и резервов разные.",
-    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+    "resolution": "QUALITY_M16_REVIEW.md/CP-20261027-107:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-117",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M16 factoring and complete practice",
     "finding": "Уведомление/регресс,кредитный риск/непоставка,аванс/дисконт/полная стоимость требуют ранних опор;6позднихopenи6недостающихвидовMCраннихблоков закрываются здесь.",
-    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+    "resolution": "QUALITY_M16_REVIEW.md/CP-20261027-107:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-118",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "Final explicit insurance rubric prerequisites",
     "finding": "В рубриках есть документы/сроки и операционная ликвидность перестрахования;предпосылку нужно изложить явно в текущем блоке,не полагаться на ответ/связь с предыдущей темой.",
-    "resolution": "M16:INS-01-0/INS-03-1получили явные предпосылки до практики;все опоры обновлены. Новыйполныйпрогон/CIожидаются."
+    "resolution": "QUALITY_M16_REVIEW.md/CP-20261027-107:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   }
 ]
