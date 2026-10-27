@@ -21,8 +21,7 @@ async function inspect(label){
   return {pale,overflow:document.documentElement.scrollWidth>innerWidth+2,width:innerWidth};
  });
  evidence.push({label,...result});
- assert.deepEqual(result.pale,[],label+' has pale surfaces');
- assert.equal(result.overflow,false,label+' has horizontal overflow');
+ // Collect all visual findings in one pass to avoid one CI round per card.
 }
 async function screen(name){await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:resolve(out,'release6-'+name+'.png')});}
 try{
@@ -69,6 +68,7 @@ try{
  assert.match(await page.locator('main').innerText(),/6\.0/);
  assert.equal(await page.locator('.card').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(17, 40, 58)');
  await screen('versions');
+ assert.deepEqual(evidence.filter(r=>r.pale.length||r.overflow),[],'visual findings across all screens/lessons');
  assert.deepEqual(errors,[]);
  console.log('PASS release6 UI:7 tabs at1440/320,96 expanded lessons,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors');
 }catch(e){await page.screenshot({path:resolve(out,'release6-failure.png')});throw e}

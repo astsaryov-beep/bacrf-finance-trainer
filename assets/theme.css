@@ -35,3 +35,18 @@
 input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
 @media(max-width:760px){.course-source-grid,.grid2,.diagGrid{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:620px){.course-source-card,.course-epilogue{padding:16px}.course-source-pref{font-size:13px}.release-intro h2{font-size:26px}}
+/* Keep chart geometry and red/blue roles while adapting the slide palette to dark UI. */
+.strategy-chart{background:var(--panel-input);color:var(--text-main);border-color:var(--line)}
+.strategy-chart figcaption{color:var(--text-muted)}
+.strategy-chart svg text{fill:#c4daea}
+.strategy-chart svg [fill="#fff"]{fill:#102536}
+.strategy-chart svg [fill="#e9f4fe"],.strategy-chart svg [fill="#dceafe"]{fill:#173d57}
+.strategy-chart svg [fill="#fcebec"]{fill:#4a2c3b}
+.strategy-chart svg [fill="#e6f6ec"]{fill:#173c32}
+.strategy-chart svg [fill="#1262b6"],.strategy-chart svg [fill="#1462b4"],.strategy-chart svg [fill="#155ab7"],.strategy-chart svg [fill="#1568bc"],.strategy-chart svg [fill="#16518d"],.strategy-chart svg [fill="#1768bf"],.strategy-chart svg [fill="#184e8d"]{fill:#80bfff}
+.strategy-chart svg [stroke="#1262b6"],.strategy-chart svg [stroke="#1462b4"],.strategy-chart svg [stroke="#155ab7"],.strategy-chart svg [stroke="#1568bc"],.strategy-chart svg [stroke="#16518d"],.strategy-chart svg [stroke="#1768bf"],.strategy-chart svg [stroke="#184e8d"]{stroke:#80bfff}
+.strategy-chart svg [fill="#b6282c"],.strategy-chart svg [fill="#ba2426"],.strategy-chart svg [fill="#bf252b"],.strategy-chart svg [fill="#cb3133"],.strategy-chart svg [fill="#d62226"],.strategy-chart svg [fill="#dc2729"]{fill:#ff9ca6}
+.strategy-chart svg [stroke="#b6282c"],.strategy-chart svg [stroke="#ba2426"],.strategy-chart svg [stroke="#bf252b"],.strategy-chart svg [stroke="#cb3133"],.strategy-chart svg [stroke="#d62226"],.strategy-chart svg [stroke="#dc2729"]{stroke:#ff9ca6}
+.strategy-chart svg [fill="#1a8955"]{fill:#8de0b5}
+.strategy-chart svg [stroke="#1a8955"]{stroke:#8de0b5}
+.strategy-chart svg [stroke="#d9e5f0"],.strategy-chart svg [stroke="#dae6f1"],.strategy-chart svg [stroke="#dce5ef"],.strategy-chart svg [stroke="#edf2f7"]{stroke:#35556b}
