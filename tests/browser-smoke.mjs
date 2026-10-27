@@ -64,7 +64,7 @@ try{
  // v5.0.23: late themes test new ideas, not a second copy of definitions.
  await page.evaluate(()=>goStudyLesson('E-09',1));
  await page.locator('#v5FullBtn').click();
- assert.ok((await page.locator('.study-paper').textContent()).includes('реальный фонд'),'equity index lesson focuses on fund tracking');
+ assert.ok((await page.locator('.study-paper').textContent()).toLowerCase().includes('реальный фонд'),'equity index lesson focuses on fund tracking');
  await page.locator('#studyToPractice').click();
  assert.equal(await page.locator('.study-excounter').textContent(),'Вопрос 1 из 2');
  assert.ok((await page.locator('.study-task h3').textContent()).toLowerCase().includes('ценовой индекс одной корзины снизился'),'index quiz is not repeated definition');
