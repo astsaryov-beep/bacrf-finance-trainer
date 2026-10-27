@@ -858,93 +858,92 @@
     "id": "E-07-0",
     "title": "Листинг, депозитарий и биржевые индексы",
     "status": "REVIEWED",
-    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
-    "fingerprint": "fc3f723c640da06df71e7803d4bd60b9cd8fe5c2d12a18e1afe750c8d09cd26e",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии расчётов и полных абзацев сокращены, механизм и пример выполняют разные роли, подробная сверка слайда после основной модели.",
+    "fingerprint": "9b28aa14af22b5a460e56df98f47b20c4bb36d6654d048c9c39851f19528e0db",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
       "advanced",
-      "application",
-      "glossary",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
+    "sourceCheck": "Принятый M12, сохранены содержательные исправления источников и исходные формулы."
   },
   {
     "id": "E-07-1",
     "title": "Путь компании к IPO и SPO",
     "status": "REVIEWED",
-    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
-    "fingerprint": "394a0fe1c74d9fd32b428ebb0a268376f9b93c305d827a3a315fde2252339faa",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии расчётов и полных абзацев сокращены, механизм и пример выполняют разные роли, подробная сверка слайда после основной модели.",
+    "fingerprint": "29ea11ef457035f43c000ae2f7e44e6202223a9fa2e17da1f061142d7eb617d4",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
       "application",
-      "glossary",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
+    "sourceCheck": "Принятый M12, сохранены содержательные исправления источников и исходные формулы."
   },
   {
     "id": "E-08-0",
     "title": "Модель Гордона и её допущения",
     "status": "REVIEWED",
-    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
-    "fingerprint": "27f087cbeb1479b7830bb9f2f74e38c700ab9995bcc3ab39c90053b46988e31c",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии расчётов и полных абзацев сокращены, механизм и пример выполняют разные роли, подробная сверка слайда после основной модели.",
+    "fingerprint": "3ebab5861d0d4e39819e00ca5af27e8c8d1345ef6a954366cc57a1e40cba5342",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
       "advanced",
-      "glossary",
-      "extraChecks"
+      "story",
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
+    "sourceCheck": "Принятый M12, сохранены содержательные исправления источников и исходные формулы."
   },
   {
     "id": "E-08-1",
     "title": "Двухфазная модель роста дивидендов",
     "status": "REVIEWED",
-    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
-    "fingerprint": "c42f75ff095d69f565ed089984022641fbd0c24f907d7741bf34a3786d95230e",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии расчётов и полных абзацев сокращены, механизм и пример выполняют разные роли, подробная сверка слайда после основной модели.",
+    "fingerprint": "6ad8a5f9370dbe334184b406670067cd27640632773fbbf2080ee56ab09007ee",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "mechanism",
+      "beginner",
       "application",
       "advanced",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
+    "sourceCheck": "Принятый M12, сохранены содержательные исправления источников и исходные формулы."
   },
   {
     "id": "E-09-0",
     "title": "Как формируется вес акции в индексе",
     "status": "REVIEWED",
-    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
-    "fingerprint": "eff2d5f14bcfbd9490720c9c5e9ea239b62e1fb69db3fb6d0952b84273fd6b76",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии расчётов и полных абзацев сокращены, механизм и пример выполняют разные роли, подробная сверка слайда после основной модели.",
+    "fingerprint": "560fa60bc5605a04da1debb2b67b6c689f4783179f93923a47e1a8315c855c1d",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
       "application",
       "advanced",
-      "glossary",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
+    "sourceCheck": "Принятый M12, сохранены содержательные исправления источников и исходные формулы."
   },
   {
     "id": "E-09-1",
     "title": "Ценовой индекс и индекс полной доходности",
     "status": "REVIEWED",
-    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
-    "fingerprint": "8b3760694605d1d3c4432e012fd4939542fe4d6815e6023afb30df40d15610b4",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: точные копии расчётов и полных абзацев сокращены, механизм и пример выполняют разные роли, подробная сверка слайда после основной модели.",
+    "fingerprint": "250895b7dcef1bbc329820c724f2f8df56d9b2531166c4100f72b9415b6e052d",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
-      "advanced",
-      "glossary",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
+    "sourceCheck": "Принятый M12, сохранены содержательные исправления источников и исходные формулы."
   },
   {
     "id": "E-10-0",
