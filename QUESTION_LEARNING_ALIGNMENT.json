@@ -4549,7 +4549,7 @@
       "questionId": "BM11",
       "block": "S1-08-1",
       "sequence": 15,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Две частиклассическогоРЕПО,получениеденегпервымпродавцом.",
       "support": [
         {
@@ -4618,13 +4618,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "BO05",
       "block": "S1-08-1",
       "sequence": 15,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Падениеоценки→дополнение/сокращение;промежуточнаяликвидность/вынужденныйвыход.",
       "support": [
         {
@@ -4693,13 +4694,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "V2-027",
       "block": "S1-08-1",
       "sequence": 15,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Продлениекороткогофондирования,рискставки/недоступностидоходастратегии.",
       "support": [
         {
@@ -4768,13 +4770,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "BM14",
       "block": "S1-09-0",
       "sequence": 16,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Спреддоходностей vsbid-ask/цена–номинал/купон–месячныйрезультат.",
       "support": [
         {
@@ -4854,13 +4857,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "Q13",
       "block": "S1-09-0",
       "sequence": 16,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Рейтинг/NetDebt-EBITDA/ICR/G-spreadизучительскогоэталонаобъясненывS1090;прежнийэффективныйключсохранён.",
       "support": [
         {
@@ -4940,13 +4944,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "BM13",
       "block": "S1-09-0",
       "sequence": 16,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Расширениеспреда и снижениекомпарированнойценыфиксированныхпотоков.",
       "support": [
         {
@@ -5026,13 +5031,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "BM23",
       "block": "S1-09-0",
       "sequence": 16,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Премиязариски/условия,негарантированнаявыгода/неточнаяPD.",
       "support": [
         {
@@ -5112,13 +5118,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "V2-022",
       "block": "S1-09-0",
       "sequence": 16,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Отдельныйканалспреда при неизменнойбазовойкривой.",
       "support": [
         {
@@ -5198,13 +5205,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "V2-033",
       "block": "S1-09-0",
       "sequence": 16,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ключеваяставканеобозначаетвсепремии,снижениетекущейстоимости.",
       "support": [
         {
@@ -5284,13 +5292,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "Q07",
       "block": "S1-09-1",
       "sequence": 17,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Экстраординарнаяподдержка vsобычнаядвойнойучёт,обратныйслучайизъятияликвидности;ключM03сохранён.",
       "support": [
         {
@@ -5373,13 +5382,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "BM15",
       "block": "S1-09-1",
       "sequence": 17,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Финансоваянагрузка/обслуживаниеи способностьвыполнятьдолг,неодинрыночныйпоказатель.",
       "support": [
         {
@@ -5462,7 +5472,8 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "BO07",
@@ -18326,7 +18337,7 @@
       "questionId": "S3-009",
       "block": "E-10-0",
       "sequence": 68,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Корреляция и её границы/отличие от волатильности и независимости.",
       "support": [
         {
@@ -18396,13 +18407,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-009O",
       "block": "E-10-0",
       "sequence": 68,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Положительные веса/ковариация/условное снижение риска,не гарантиякризиса.",
       "support": [
         {
@@ -18472,13 +18484,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-010",
       "block": "E-10-1",
       "sequence": 69,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Доминирование при равном ожидании/меньшем риске,при прочих равных.",
       "support": [
         {
@@ -18545,13 +18558,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-010O",
       "block": "E-10-1",
       "sequence": 69,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Ошибка входов/устойчивость/допустимые ограничения/ликвидность/расходы.",
       "support": [
         {
@@ -18618,13 +18632,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-011",
       "block": "E-11-0",
       "sequence": 70,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "β0→RfвCAPM,остаточныйрискнеисключён.",
       "support": [
         {
@@ -18690,13 +18705,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-011O",
       "block": "E-11-0",
       "sequence": 70,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Rf/бета/ожидаемаяпремия и согласованные рынок/валюта/горизонт.",
       "support": [
         {
@@ -18762,13 +18778,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-012",
       "block": "E-11-1",
       "sequence": 71,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Сортино/DD/цель vsШарп/общаяволатильность/альфа/TE.",
       "support": [
         {
@@ -18836,13 +18853,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-012O",
       "block": "E-11-1",
       "sequence": 71,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Сопоставимостьриска/периода/расходов/ориентира и пределисторическоговывода.",
       "support": [
         {
@@ -18910,13 +18928,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-013",
       "block": "E-12-0",
       "sequence": 72,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Растущие максимумы и минимумы vsрасширение/сужение/нисходящийпорядок.",
       "support": [
         {
@@ -18982,13 +19001,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-013O",
       "block": "E-12-0",
       "sequence": 72,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Рисунокнепроверкапереноса;доступныеправила/новыйпериод/расходы.",
       "support": [
         {
@@ -19054,13 +19074,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-014",
       "block": "E-12-1",
       "sequence": 73,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Подтверждениегипотезы vsложнаянезависимость/подгонка/игнорированиеиздержек.",
       "support": [
         {
@@ -19127,13 +19148,14 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-014O",
       "block": "E-12-1",
       "sequence": 73,
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Правилорешения,доступностьданных/позиция/риск;проверкавненастройкипослеиздержек.",
       "support": [
         {
@@ -19200,7 +19222,8 @@
           ]
         }
       ],
-      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди."
+      "decision": "M13:все существенные различия вариантов и обязательные критерии доступны до задания;истории/ключи сохранены. Регрессия впереди.",
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "S3-015",
@@ -31703,7 +31726,7 @@
       "questionId": "MC-E-10-0-1",
       "block": "E-10-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -31773,13 +31796,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-10-0-2",
       "block": "E-10-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -31849,13 +31873,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-10-1-1",
       "block": "E-10-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -31922,13 +31947,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-10-1-2",
       "block": "E-10-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -31995,13 +32021,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-11-0-1",
       "block": "E-11-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32067,13 +32094,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-11-0-2",
       "block": "E-11-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32139,13 +32167,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-11-1-1",
       "block": "E-11-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32213,13 +32242,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-11-1-2",
       "block": "E-11-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32287,13 +32317,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-12-0-1",
       "block": "E-12-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32359,13 +32390,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-12-0-2",
       "block": "E-12-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32431,13 +32463,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-12-1-1",
       "block": "E-12-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32504,13 +32537,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-E-12-1-2",
       "block": "E-12-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32577,13 +32611,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-08-1-1",
       "block": "S1-08-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32652,13 +32687,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-08-1-2",
       "block": "S1-08-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32727,13 +32763,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-09-0-1",
       "block": "S1-09-0",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32813,13 +32850,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-09-0-2",
       "block": "S1-09-0",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32899,13 +32937,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-09-1-1",
       "block": "S1-09-1",
       "taskKind": "knowledge",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -32988,13 +33027,14 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     },
     {
       "questionId": "MC-S1-09-1-2",
       "block": "S1-09-1",
       "taskKind": "case",
-      "status": "CONTENT_REVIEWED_PENDING_REGRESSION",
+      "status": "REVIEWED_AND_REGRESSION_VERIFIED",
       "requiredKnowledge": "Все элементы ответа и близких неверных вариантов доступны до задания.",
       "distractorReview": "Веса/условия/предпосылки/временная доступность вместо очевидно несвязанных вариантов;эмпирическая трудность не измерена.",
       "support": [
@@ -33077,9 +33117,10 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": "CP093/PR58/CI40450090460/mainCI40450686470/Pages40450685889/liveMATCH5files"
     }
   ],
-  "blocksAcceptedNewCriteria": 68,
-  "blocksReviewedPendingNewCriteria": 9
+  "blocksAcceptedNewCriteria": 77,
+  "blocksReviewedPendingNewCriteria": 0
 }
