@@ -26,7 +26,7 @@ for(const l of lessons)for(let i=0;i<l.blocks.length;i++){
 }
 assert.match(html,/master\.selfCheck\.answer/,'answer unavailable in course');
 assert.match(html,/<summary>Открыть разбор<\/summary>/,'answer must be optional');
-assert.match(html,/const EFFECTIVE_BANK=\[\.\.\.BANK,\.\.\.ExamPractice\.questions\]\.map/);
+assert.match(html,/const EFFECTIVE_BANK=\[\.\.\.BANK,\.\.\.STUDY_EXTRAS\.filter\(q=>ExamPractice\.openQuestionIds\.includes\(q\.id\)\),\.\.\.ExamPractice\.questions\]\.map/);
 assert.match(html,/const STUDY_QMAP=new Map\(\[\.\.\.EFFECTIVE_BANK.map/);
 assert.match(html,/version:2,ids:items.map/,'concept exercise must survive reload validation');
 const groupBank=[{id:'a',conceptFamily:'f',conceptLabel:'Понятие'},{id:'b',conceptFamily:'f'},{id:'c',conceptFamily:'f'}];

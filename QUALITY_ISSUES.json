@@ -722,50 +722,50 @@
   {
     "id": "QA-086",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M11 prerequisites",
     "finding": "EM24требовал ещё не объяснённые индексные веса;роль бенчмарка/расходов текущего блока расширена.",
-    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+    "resolution": "QUALITY_M11_REVIEW.md/CP084:18local/7browser programs PASS;PR56/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые пределы сохранены."
   },
   {
     "id": "QA-087",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M11 funds and tracking",
     "finding": "Правовая форма/стратегия/обращение,СЧА/цена,TE/TDи однократный учёт расходов требуют различения.",
-    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+    "resolution": "QUALITY_M11_REVIEW.md/CP084:18local/7browser programs PASS;PR56/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые пределы сохранены."
   },
   {
     "id": "QA-088",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M11 risk",
     "finding": "Бета не копия индекса/не вся волатильность,нулевая корреляция не независимость;секторальная концентрация/горизонт/валюта различены.",
-    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+    "resolution": "QUALITY_M11_REVIEW.md/CP084:18local/7browser programs PASS;PR56/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые пределы сохранены."
   },
   {
     "id": "QA-089",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M11 governance and free-float",
     "finding": "Раскрыты стимулы/KPI/конфликт/органы/независимость,номинальный учёт vsвладение и оборот vsсвободный запас.",
-    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+    "resolution": "QUALITY_M11_REVIEW.md/CP084:18local/7browser programs PASS;PR56/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые пределы сохранены."
   },
   {
     "id": "QA-090",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M11 and M03 rubrics",
     "finding": "9открытых заданий получили предметные согласованные2частные рубрики с сохранением истории;близкие вопросы имеют разные роли.",
-    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+    "resolution": "QUALITY_M11_REVIEW.md/CP084:18local/7browser programs PASS;PR56/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые пределы сохранены."
   },
   {
     "id": "QA-091",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M11 practice",
     "finding": "17singleсохранили ключи,16новыхMCимеют2/3/4верных варианта,близкие предметные альтернативы и ранние опоры.",
-    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+    "resolution": "QUALITY_M11_REVIEW.md/CP084:18local/7browser programs PASS;PR56/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые пределы сохранены."
   },
   {
     "id": "QA-092",
@@ -794,17 +794,41 @@
   {
     "id": "QA-095",
     "severity": "MEDIUM",
-    "status": "OPEN",
+    "status": "FIXED_PENDING_REGRESSION",
     "area": "M12 index methodology",
     "finding": "S3PDF40–44:делитель/дивиденды,netверсии,пороги/кэпы/состав и арифметика SBERPтребуют сверки.",
-    "resolution": "M12:текущая методика;малый положительный вес уже объяснёнM11,полный индекс ещё впереди. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+    "resolution": "M12:учебные параметры пересчитаны независимо;делитель/выплаты/налоговые версии и несогласованная строка SBERPобъяснены. Источниковые пределы QUALITY_M12_REVIEW.md;регрессиявпереди."
   },
   {
     "id": "QA-096",
     "severity": "MEDIUM",
-    "status": "OPEN",
+    "status": "FIXED_PENDING_REGRESSION",
     "area": "M12 dividend valuation",
     "finding": "S3PDF18–22:необоснованное«почти вдвое»приr16→18,график266vsтекст279,условиеr>gи дата терминала.",
-    "resolution": "M12:сверить с курсом/формулами и пересчитать независимо. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+    "resolution": "M12:учебные параметры пересчитаны независимо;делитель/выплаты/налоговые версии и несогласованная строка SBERPобъяснены. Источниковые пределы QUALITY_M12_REVIEW.md;регрессиявпереди."
+  },
+  {
+    "id": "QA-097",
+    "severity": "MEDIUM",
+    "status": "PARTIAL",
+    "area": "Final exam open coverage",
+    "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
+    "resolution": "M12:10проверенныхсуществующихopenIDвключены вэффективныйпул безповторакурсовойпрактики;остальныепоM13–M16. Проверкипубликациивпереди."
+  },
+  {
+    "id": "QA-098",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M12 source coverage and prerequisites",
+    "finding": "Листинг/котировальныесписки/учёт/проспект,книга/аллокация/lock-up/стабилизация,сценарностьDDM/даты/индексныекорректировки раскрыты до практики.",
+    "resolution": "QUALITY_M12_REVIEW.md;регрессиявпереди."
+  },
+  {
+    "id": "QA-099",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M12 and M02 practice",
+    "finding": "9singleс близкими вариантами и прежнимиключами;8открытыхсогласованных2частныхрубрик;14новыхMCсфактической/кейсовойролью.",
+    "resolution": "QUALITY_M12_REVIEW.md;регрессиявпереди."
   }
 ]

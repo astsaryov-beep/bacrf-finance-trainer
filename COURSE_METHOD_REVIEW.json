@@ -967,66 +967,93 @@
     "id": "E-07-0",
     "title": "Листинг, депозитарий и биржевые индексы",
     "status": "REVIEWED",
-    "decision": "Роли листинга, индекса и учёта прав разделены. Делистинг не объявляется ликвидацией компании; практическая задача самостоятельна относительно R-01. Уточнено, что условия выхода зависят от основания и процедуры события. Сохранено.",
-    "fingerprint": "74d53a1133cad273d829f51acc022efcb768fcb738f67eec6fc3dc0f0c32aca5",
+    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
+    "fingerprint": "fc3f723c640da06df71e7803d4bd60b9cd8fe5c2d12a18e1afe750c8d09cd26e",
     "reviewedOn": "2026-10-26",
-    "changes": [],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "changes": [
+      "mechanism",
+      "advanced",
+      "application",
+      "glossary",
+      "extraChecks"
+    ],
+    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
   },
   {
     "id": "E-07-1",
     "title": "Путь компании к IPO и SPO",
     "status": "REVIEWED",
-    "decision": "Цепочка подготовки размещения проверена, разводнение 1/12=8,33% корректно. Принципы перенесены с повторного определения IPO/SPO на качество подготовки и последующее раскрытие; краткая предпосылка о получателе денег остаётся полезной.",
-    "fingerprint": "d89fce46ef78deedbb086c636366202595418825526da271b59178b93163fb7c",
+    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
+    "fingerprint": "394a0fe1c74d9fd32b428ebb0a268376f9b93c305d827a3a315fde2252339faa",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "principles"
+      "mechanism",
+      "application",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
   },
   {
     "id": "E-08-0",
     "title": "Модель Гордона и её допущения",
     "status": "REVIEWED",
-    "decision": "Проверены r>g, D1, согласование периодов и чувствительность: 120 и 109,09 руб. Снята формулировка об обещании дивидендов; выплаты являются условными прогнозами.",
-    "fingerprint": "7f2521a0620da60633a77912ab8ba47c1ad22c854d8b7827064b960fed4da4b0",
+    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
+    "fingerprint": "27f087cbeb1479b7830bb9f2f74e38c700ab9995bcc3ab39c90053b46988e31c",
     "reviewedOn": "2026-10-26",
     "changes": [
-      "foundation",
-      "beginner"
+      "mechanism",
+      "advanced",
+      "glossary",
+      "extraChecks"
     ],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
   },
   {
     "id": "E-08-1",
     "title": "Двухфазная модель роста дивидендов",
     "status": "REVIEWED",
-    "decision": "Проверены дата терминала, D3=11,33, терминал113,30 и итог106,19; нет двойного учёта D2 в терминале, последующие выплаты начинаются сD3. Условия устойчивого этапа и ошибки дисконтирования раскрыты. Сохранено.",
-    "fingerprint": "3ebf9829e44d2df2314cef6f3373a9cad2282b092c1fed6c641c06f4aea316ff",
+    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
+    "fingerprint": "c42f75ff095d69f565ed089984022641fbd0c24f907d7741bf34a3786d95230e",
     "reviewedOn": "2026-10-26",
-    "changes": [],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "changes": [
+      "mechanism",
+      "application",
+      "advanced",
+      "extraChecks"
+    ],
+    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
   },
   {
     "id": "E-09-0",
     "title": "Как формируется вес акции в индексе",
     "status": "REVIEWED",
-    "decision": "Проверены ценовой характер IMOEX, free-float и ограничения методики; 1 млрд/0,5 млрд дают66,67/33,33%. Текущие точные лимиты не закрепляются в учебном примере.",
-    "fingerprint": "53b9dc328ddd809091f75f0c8cd9d6a65e4170f7071996ffeae823268ef10510",
+    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
+    "fingerprint": "eff2d5f14bcfbd9490720c9c5e9ea239b62e1fb69db3fb6d0952b84273fd6b76",
     "reviewedOn": "2026-10-26",
-    "changes": [],
-    "sourceCheck": "MOEX https://www.moex.com/ru/index/IMOEX; https://www.moex.com/fsn/ru-indices-methodology, проверено26.10.2026."
+    "changes": [
+      "mechanism",
+      "application",
+      "advanced",
+      "glossary",
+      "extraChecks"
+    ],
+    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
   },
   {
     "id": "E-09-1",
     "title": "Ценовой индекс и индекс полной доходности",
     "status": "REVIEWED",
-    "decision": "Сопоставлены price/TR, брутто/нетто и реальное реинвестирование; простая TR акции7% отделена от методики индекса. Повтор понятиядивидендов необходим для выбора бенчмарка, а не заменяет E-03.",
-    "fingerprint": "aa88fb3344db16cc1b1b2b8a50be7724dc4481b17d68ad775e649d9f159a7b36",
+    "decision": "M12: достаточная теория до практики, механизм и независимый перенос; оправданные предпосылки сохранены.",
+    "fingerprint": "8b3760694605d1d3c4432e012fd4939542fe4d6815e6023afb30df40d15610b4",
     "reviewedOn": "2026-10-26",
-    "changes": [],
-    "sourceCheck": "Приоритет материалов курса; полная постраничная сверка T-01 отдельно."
+    "changes": [
+      "mechanism",
+      "advanced",
+      "glossary",
+      "extraChecks"
+    ],
+    "sourceCheck": "S3 PDF18–22/29–44, L45 PDF9; первичные источники и пределы QUALITY_M12_PREFLIGHT.md/QUALITY_M12_REVIEW.md."
   },
   {
     "id": "E-10-0",
