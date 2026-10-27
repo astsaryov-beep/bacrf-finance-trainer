@@ -293,15 +293,13 @@
     "id": "S2-01-1",
     "title": "Биржевой и внебиржевой рынок",
     "status": "REVIEWED",
-    "decision": "T-19: первый раздел деривативов прочитан последовательно; сокращены повторы определения вместо объяснения действия, термины раскрыты до использования. Сохранены специальный разбор short/funding и все исходные формулы.",
-    "fingerprint": "7fd44710dc7e94436b4f28ee117094b9cc16e90f099b1bc5753ff6b11dd72b45",
+    "decision": "T-19: минимальное определение статуса дано при первом упоминании до подробного95.",
+    "fingerprint": "75725629d085074d6f37d2c8dce594965f03cf1557fb3096bfa607b6791280e0",
     "reviewedOn": "2026-10-27",
     "changes": [
-      "glossary",
-      "application",
       "advanced"
     ],
-    "sourceCheck": "Принятые M04 и futures-short-guide.js; собственные ответы до ключей NOVICE_PATH_REVIEW.json."
+    "sourceCheck": "Согласование с принятым M16, без новых критериев."
   },
   {
     "id": "S2-02-0",
@@ -1207,102 +1205,80 @@
     "id": "LEASE-01-0",
     "title": "Предмет лизинга и стороны договора",
     "status": "REVIEWED",
-    "decision": "M14:механизмы/права/денежные потоки и нормативные границы до практики;источниковые пробелы закрыты с раскрытыми пределами.",
-    "fingerprint": "d40dae5fed4475ace91c5ffc72163f3974b5ae5df4d17b18a72c1b7210812d4e",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: единицы примера оформлены с пробелами.",
+    "fingerprint": "51174c7935d8eee6f6d937d0de4d3c72831ecbdd85ee0f96524213b8316972c9",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "mechanism",
-      "application",
-      "glossary",
-      "extraChecks"
+      "application"
     ],
-    "sourceCheck": "S3PDF63–75,L45PDF19–31/57–59,S1целевые страницы;первичные источники и пределы QUALITY_M14_REVIEW.md."
+    "sourceCheck": "Принятый M15."
   },
   {
     "id": "LEASE-01-1",
     "title": "Виды лизинга и анализ стоимости",
     "status": "REVIEWED",
-    "decision": "M14:механизмы/права/денежные потоки и нормативные границы до практики;источниковые пробелы закрыты с раскрытыми пределами.",
-    "fingerprint": "18a78f8707b7355f63f16c182b3675e40dd964fe8839b04fbfaf0e89a91d41d3",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: финальные инструментальные главы переходят от знакомой схемы к условиям договора; повторы сокращены, роли/права/доступ и специальные параметры сгруппированы.",
+    "fingerprint": "a2d88b90433e72df407380c8a6ef4ab3c5db0ae2bed519b54daae6a83207b1f2",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "mechanism",
-      "glossary",
-      "extraChecks"
+      "story"
     ],
-    "sourceCheck": "S3PDF63–75,L45PDF19–31/57–59,S1целевые страницы;первичные источники и пределы QUALITY_M14_REVIEW.md."
+    "sourceCheck": "Принятые M15/M16; исходные формулы, банк, правовые параметры и условия примеров сохранены."
   },
   {
     "id": "FACTOR-01-0",
     "title": "Как работает факторинг и регресс",
     "status": "REVIEWED",
-    "decision": "M16: естественный русский язык,согласованные модели/предпосылки/проверки;защищённые формулы не изменены.",
-    "fingerprint": "a056784d878d307a55b610361ed845d7530ab4a817a519302dbf5a94b9b7a5e3",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: финальные инструментальные главы переходят от знакомой схемы к условиям договора; повторы сокращены, роли/права/доступ и специальные параметры сгруппированы.",
+    "fingerprint": "fe15eb9a54b31941c1bb20648eb135914756947ae519bebc178f7fa9cdb3d7be",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
-      "mechanism",
-      "principles",
-      "application",
       "advanced",
-      "glossary",
-      "selfCheck",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M16_REVIEW.md;адресные первичные проверки27.10.2026."
+    "sourceCheck": "Принятые M15/M16; исходные формулы, банк, правовые параметры и условия примеров сохранены."
   },
   {
     "id": "FACTOR-01-1",
     "title": "Форфейтинг и выбор финансирования",
     "status": "REVIEWED",
-    "decision": "M16: естественный русский язык,согласованные модели/предпосылки/проверки;защищённые формулы не изменены.",
-    "fingerprint": "57945bb147bac6cb031b9acf1f34a455146ad5608eff7a735b04495ae625cad0",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: сохранено наименование правил ICC URF 800.",
+    "fingerprint": "4ea78348f6ab100b94acd0dbe81bd090942d895a4ad0bc6f61030ee31e3a78ff",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "story",
-      "foundation",
-      "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary",
-      "selfCheck",
-      "extraChecks"
+      "mechanism"
     ],
-    "sourceCheck": "QUALITY_M16_REVIEW.md;адресные первичные проверки27.10.2026."
+    "sourceCheck": "Принятый M16."
   },
   {
     "id": "MARKET-01-0",
     "title": "Инвесторы и профессиональные участники рынка",
     "status": "REVIEWED",
-    "decision": "M14:механизмы/права/денежные потоки и нормативные границы до практики;источниковые пробелы закрыты с раскрытыми пределами.",
-    "fingerprint": "6b79ac08b2fcd261213912e767aff5e18b7ac892e1230b5b5628755f76eb6bc3",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: финальные инструментальные главы переходят от знакомой схемы к условиям договора; повторы сокращены, роли/права/доступ и специальные параметры сгруппированы.",
+    "fingerprint": "4ea59b0c51bc9bfa4ee7dafb440fe5720505087b3002618bedb6cc5556887399",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
-      "application",
-      "glossary",
-      "extraChecks"
+      "advanced",
+      "foundation"
     ],
-    "sourceCheck": "S3PDF63–75,L45PDF19–31/57–59,S1целевые страницы;первичные источники и пределы QUALITY_M14_REVIEW.md."
+    "sourceCheck": "Принятые M15/M16; исходные формулы, банк, правовые параметры и условия примеров сохранены."
   },
   {
     "id": "MARKET-01-1",
     "title": "Депозитарии, ПИФ, ИИС и учёт прав",
     "status": "REVIEWED",
-    "decision": "M14:механизмы/права/денежные потоки и нормативные границы до практики;источниковые пробелы закрыты с раскрытыми пределами.",
-    "fingerprint": "17083447213fb6f4ce7e241e8634391d291e30f249f01bbf28e19b8e4d75d0c4",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: финальные инструментальные главы переходят от знакомой схемы к условиям договора; повторы сокращены, роли/права/доступ и специальные параметры сгруппированы.",
+    "fingerprint": "216f3d747860e0ee51877e551f986475c135b55515ae41b707ceac482ea896bc",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "mechanism",
-      "advanced",
-      "glossary",
-      "extraChecks"
+      "advanced"
     ],
-    "sourceCheck": "S3PDF63–75,L45PDF19–31/57–59,S1целевые страницы;первичные источники и пределы QUALITY_M14_REVIEW.md."
+    "sourceCheck": "Принятые M15/M16; исходные формулы, банк, правовые параметры и условия примеров сохранены."
   },
   {
     "id": "R-05-0",
