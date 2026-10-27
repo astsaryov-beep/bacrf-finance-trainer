@@ -101,7 +101,10 @@ const FRI_STRATEGY_COURSE_MAP={
 function friStrategyInlineMarkup(lessonId,pos){
  const ids=FRI_STRATEGY_COURSE_MAP[lessonId+'-'+pos]||[];
  if(!ids.length)return '';
- return '<section class="fri-strategy-in-course" aria-label="Торговые стратегии в контексте темы"><div class="fri-strategy-top"><span>ПРИМЕНЯЕМ ТЕОРИЮ</span><h3>Торговые стратегии: разбор по шагам</h3><p>Сначала объясните себе, какую позицию открывает инвестор и почему. Затем изучите схему, раскройте расчёт и проверьте свой ответ.</p></div>'+
+ const bondPair=ids.some(id=>['steepener','flattener','credit'].includes(id));
+ const curvePair=ids.some(id=>['steepener','flattener'].includes(id));
+ const positionPrimer=bondPair?'<p>Обозначения позиций: Long — покупка и владение облигацией. Для Short облигацию обычно берут взаймы, продают, а затем возвращают; снижение её цены может дать прибыль до расходов, рост — убыток. Прибыль и убыток обозначают P&amp;L. Короткий или длинный срок облигации — отдельный признак.</p>'+(curvePair?'<p>2Y и 10Y обозначают сроки два и десять лет. Спред 2s10s здесь равен доходности десятилетней бумаги минус доходность двухлетней. Одинаковое изменение обеих доходностей называют параллельным сдвигом; изменение их разницы — изменением формы кривой.</p>':''):'';
+ return '<section class="fri-strategy-in-course aria-label="Торговые стратегии в контексте темы"><div class="fri-strategy-top"><span>ПРИМЕНЯЕМ ТЕОРИЮ</span><h3>Торговые стратегии: разбор по шагам</h3><p>Сначала объясните себе, какую позицию открывает инвестор и почему. Затем изучите схему, раскройте расчёт и проверьте свой ответ.</p>'+positionPrimer+'</div>'+
  ids.map((id,i)=>{
   const c=FRI_STRATEGY_CASES.find(x=>x.id===id);
   if(!c)return '';
