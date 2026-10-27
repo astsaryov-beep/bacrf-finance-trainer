@@ -1,3 +1,7 @@
+# QA · 6.0 RELEASE_PENDING
+
+T22:проверка7вкладок desktop/mobile,96 раскрытых блоков,светлых артефактов,переполнения,сохранения черновика при смене вкладки и оперативного счётчика добавлена в tests/release-ui-browser.mjs. Полный прогон и снимки PENDING. Новая академическая или эмпирическая приёмка не заявляется.
+
 # QA · 5.0.46 beta VERIFIED
 
 Продукт `24a4536c0cbe86caf521dd9bc57dc674e79982dc`: [PR66](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/66) объединён; [проверки main](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40588009270) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40588009478) SUCCESS. Все 12 публичных файлов совпали с проверенным деревом; версия 5.0.8 не изменилась.

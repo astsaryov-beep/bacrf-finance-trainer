@@ -25,7 +25,7 @@ const readme=read('README.md');
 
 assert.equal(state.schema_version,1,'Unsupported state schema');
 assert.equal(state.repository,'astsaryov-beep/bacrf-finance-trainer');
-assert.ok(/^\d+\.\d+\.\d+ beta$/.test(state.working_version),'Working version format');
+assert.ok(/^\d+\.\d+(?:\.\d+)?(?: beta)?$/.test(state.working_version),'Working version format');
 assert.equal(state.stable_version,'5.0.8','Stable release identifier changed');
 assert.equal(state.stable_path,'v5.0.8/index.html','Stable release path changed');
 assert.match(state.stable_blob_sha,/^[a-f0-9]{40}$/,'Stable hash format');

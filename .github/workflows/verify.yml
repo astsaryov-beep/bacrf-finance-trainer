@@ -96,6 +96,7 @@ jobs:
       - name: Core navigation and answer history
         if: matrix.suite == 'core'
         run: |
+          node tests/release-ui-browser.mjs
           node tests/navigation-browser.mjs
           node tests/browser-smoke.mjs
           node tests/learning-review-browser.mjs

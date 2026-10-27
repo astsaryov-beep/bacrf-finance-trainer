@@ -1,0 +1,57 @@
+/* 6.0: shared surfaces for all screens, including cards outside lesson prose. */
+:root{color-scheme:dark;--panel:#11283a;--panel-raised:#173748;--panel-input:#102536;--text-main:#e8f4ff;--text-muted:#aec8d8;--line:#365a6e}
+.course-source-pref,.course-source-card,.course-epilogue,.fri-card,.fri-learning-summary,
+.fri-trap-question,.fri-concept-list details,.fri-lab-result,.fri-followup{
+ background:var(--panel);border-color:var(--line);color:var(--text-main);box-shadow:none
+}
+.course-source-card h3,.course-source-card>p,.fri-card h3,.fri-lab-label strong{color:var(--text-main)}
+.course-pages,.course-source-facts,.course-related-link small,.fri-search-label,.fri-eyebrow,
+.fri-reading-meta,.fri-trap-title,.fri-trap-feedback,.fri-lab-label,.fri-lab-row b{color:var(--text-muted)}
+.course-source-card .course-scope{background:var(--panel-raised);color:#c5e5e9}
+.course-related{border-color:var(--line)}
+.course-related summary,.fri-concept-list summary,.fri-textlink,.fri-followup strong,
+.source .course-source-link{color:#91e9df}
+.course-related-link{background:#153343;border-color:var(--line);color:var(--text-main)}
+.course-related-link:hover{background:#204858;border-color:#70c4bc}
+.course-source-pref input{accent-color:var(--blue);flex:none}
+.fri-study-search{background:var(--panel-input);border-color:var(--line);color:var(--text-main)}
+.fri-tip{background:#352f26;color:#f5deb3;border-left-color:#ddbc79}
+.fri-good{color:#94ecc3}.fri-bad{color:#ffb6ae}
+.fri-trap-why{border-color:var(--line)}.fri-lab-figure{color:#82e8db}
+.fri-lab-track{background:#2a5654}.fri-lab-track i{background:#e09b85}
+.course-epilogue{border:1px solid var(--line)}
+.course-source-grid,.grid2,.diagGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.course-source-card,.outline,.diagnostic,.result,.catalogItem,.fri-card{min-width:0;overflow-wrap:anywhere}
+.course-source-facts,.course-related-link,.fri-followup{overflow-wrap:anywhere}
+.course-source-pref{align-items:flex-start;font-weight:600}
+.course-source-pref input{margin-top:5px}
+.course-source-head{flex-wrap:wrap}
+.release-intro{max-width:82ch}.release-intro p{line-height:1.8}
+.course-progress-summary{margin:18px 0}
+.fri-peer-progress{display:block;color:var(--text-muted);font-size:13px;margin-top:6px}
+.diagnostic>b{float:none;display:block;overflow-wrap:anywhere}
+.diagnostic>span+b{float:right}
+#content{scroll-margin-top:100px}
+input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
+@media(max-width:760px){.course-source-grid,.grid2,.diagGrid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.course-source-card,.course-epilogue{padding:16px}.course-source-pref{font-size:13px}.release-intro h2{font-size:26px}}
+/* Keep chart geometry and red/blue roles while adapting the slide palette to dark UI. */
+.strategy-chart{background:var(--panel-input);color:var(--text-main);border-color:var(--line)}
+.strategy-chart figcaption{color:var(--text-muted)}
+.strategy-chart svg text{fill:#c4daea}
+.strategy-chart svg [fill="#fff"]{fill:#102536}
+.strategy-chart svg [fill="#e9f4fe"],.strategy-chart svg [fill="#dceafe"]{fill:#173d57}
+.strategy-chart svg [fill="#fcebec"]{fill:#4a2c3b}
+.strategy-chart svg [fill="#e6f6ec"]{fill:#173c32}
+.strategy-chart svg [fill="#1262b6"],.strategy-chart svg [fill="#1462b4"],.strategy-chart svg [fill="#155ab7"],.strategy-chart svg [fill="#1568bc"],.strategy-chart svg [fill="#16518d"],.strategy-chart svg [fill="#1768bf"],.strategy-chart svg [fill="#184e8d"]{fill:#80bfff}
+.strategy-chart svg [stroke="#1262b6"],.strategy-chart svg [stroke="#1462b4"],.strategy-chart svg [stroke="#155ab7"],.strategy-chart svg [stroke="#1568bc"],.strategy-chart svg [stroke="#16518d"],.strategy-chart svg [stroke="#1768bf"],.strategy-chart svg [stroke="#184e8d"]{stroke:#80bfff}
+.strategy-chart svg [fill="#b6282c"],.strategy-chart svg [fill="#ba2426"],.strategy-chart svg [fill="#bf252b"],.strategy-chart svg [fill="#cb3133"],.strategy-chart svg [fill="#d62226"],.strategy-chart svg [fill="#dc2729"]{fill:#ff9ca6}
+.strategy-chart svg [stroke="#b6282c"],.strategy-chart svg [stroke="#ba2426"],.strategy-chart svg [stroke="#bf252b"],.strategy-chart svg [stroke="#cb3133"],.strategy-chart svg [stroke="#d62226"],.strategy-chart svg [stroke="#dc2729"]{stroke:#ff9ca6}
+.strategy-chart svg [fill="#1a8955"]{fill:#8de0b5}
+.strategy-chart svg [stroke="#1a8955"]{stroke:#8de0b5}
+.strategy-chart svg [stroke="#d9e5f0"],.strategy-chart svg [stroke="#dae6f1"],.strategy-chart svg [stroke="#dce5ef"],.strategy-chart svg [stroke="#edf2f7"]{stroke:#35556b}
+
+/* Phone plots retain readable labels; only their own viewport scrolls. */
+.strategy-plot{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-color:#6bb8bc #102536;scrollbar-width:thin}
+.strategy-scroll-hint{display:none}
+@media(max-width:760px){.strategy-plot svg{min-width:560px;min-height:0}.strategy-scroll-hint{display:block;color:#9aede0;font-weight:650;margin-bottom:8px}}
