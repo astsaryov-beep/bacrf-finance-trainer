@@ -57,6 +57,13 @@ try{
    for(let i=0;i<await charts.count();i++){
     assert.equal(await charts.nth(i).locator('svg rect[fill="#fff"]').evaluate(el=>getComputedStyle(el).fill),'rgb(16, 37, 54)');
     await charts.nth(i).screenshot({path:resolve(out,'release6-chart-'+id+'-'+i+'-'+width+'.png')});
+    if(width===320){
+     const plot=charts.nth(i).locator('.strategy-plot');
+     assert.ok(await plot.evaluate(el=>el.scrollWidth>el.clientWidth&&el.scrollWidth>=560),'readable plot has its own scroll viewport');
+     await plot.evaluate(el=>el.scrollLeft=el.scrollWidth);
+     assert.ok(await plot.evaluate(el=>el.scrollLeft>0));
+     await charts.nth(i).screenshot({path:resolve(out,'release6-chart-'+id+'-'+i+'-'+width+'-end.png')});
+    }
    }
    await inspect('charts-'+id+'-'+width);
   }

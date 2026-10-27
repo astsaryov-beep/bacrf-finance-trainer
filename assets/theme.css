@@ -50,3 +50,8 @@ input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
 .strategy-chart svg [fill="#1a8955"]{fill:#8de0b5}
 .strategy-chart svg [stroke="#1a8955"]{stroke:#8de0b5}
 .strategy-chart svg [stroke="#d9e5f0"],.strategy-chart svg [stroke="#dae6f1"],.strategy-chart svg [stroke="#dce5ef"],.strategy-chart svg [stroke="#edf2f7"]{stroke:#35556b}
+
+/* Phone plots retain readable labels; only their own viewport scrolls. */
+.strategy-plot{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-color:#6bb8bc #102536;scrollbar-width:thin}
+.strategy-scroll-hint{display:none}
+@media(max-width:760px){.strategy-plot svg{min-width:560px;min-height:0}.strategy-scroll-hint{display:block;color:#9aede0;font-weight:650;margin-bottom:8px}}
