@@ -5,3 +5,5 @@
 23 локальные программы и 7 браузерных программ прошли проверки, публикация проверена: [PR61](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/61), [PR CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40458697111), [main CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459482935), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40459483653). Совпадение пяти файлов сайта подтверждено. Продукт `93bcb0b43d78c80da21d76440de48c6401a3e30b`.
 
 Это не эмпирическое доказательство экзаменационной сложности и не независимая реконструкция всех исторических рядов. [Полный результат и пределы](FINAL_COURSE_REVIEW_20261027.md). T-06 не выполнялась; T-07 отдельное принятие beta. Текущие задачи — [ROADMAP.md](ROADMAP.md), история — [CHECKPOINTS.md](CHECKPOINTS.md).
+
+Новый T-19 IN_PROGRESS по команде27.10.2026:отдельный последовательный путь после модульной приёмки,пока6/96прочитаны,не веськурс. NP001–009/правки/пределы — NOVICE_PATH_REVIEW.md/json. Общая приёмка прежнего цикла не заменяет этот проход. Рабочий код ещё не опубликован.
