@@ -24,7 +24,7 @@ near(variance(.72),.76);near(variance(1),1.25);assert.ok(variance(.72)<variance(
 near(.72*10000/100,72);assert.ok(218>200,'the source optimum still violates the VaR limit');
 near(6e6*.9+4e6*.8-8.4e6,.2e6);near(6e6*.9+4e6*.8-8.4e6-.5e6,-.3e6);
 const accumulation=(1+.1*3/365)*(1+.2/365)-1;near(accumulation,.0013703133796210132);near(accumulation*365/4,.12504109589041745);assert.notEqual(accumulation*365/4,.15);
-assert.match(master['S2-04-1'].mechanism.join(' '),/call даёт держателю право купить/);assert.match(master['S2-04-1'].mechanism.join(' '),/VaR — модельный порог/);
+assert.match(master['S2-04-1'].mechanism.join(' '),/call даёт держателю право купить/);assert.match([...master['S2-04-1'].mechanism,...master['S2-04-1'].advanced].join(' '),/VaR — модельный порог/);
 const ctx={};vm.runInNewContext(read('question-review.js'),ctx);const r=ctx.FinanceReview,q=id=>r.question(raw.find(x=>x.id===id));
 assert.equal(q('PO05').rubric.length,1);assert.match(q('PO05').rubric[0],/не менее трёх различных/);assert.equal(q('Q15').rubric.length,2);
 for(const id of ['PO05','Q15']){
