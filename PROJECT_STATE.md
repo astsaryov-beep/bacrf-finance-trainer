@@ -12,10 +12,10 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-01",
   "next_task": "T-01",
-  "last_verified_checkpoint": "CP-20261027-078",
-  "last_verified_commit": "fcc4cede3e5b1001d9231ee456aacfbe9dfd53d2",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40422431764",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40422431011",
+  "last_verified_checkpoint": "CP-20261027-084",
+  "last_verified_commit": "4b92aa9e45c284e0c3b3726fde9e7aa9640d72fa",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40429782508",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40429782226",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-27"
 }
@@ -420,3 +420,24 @@ M11:18локальных программ PASS; PR CI40424554940 SUCCESS, verify
 T-01/T-14/T-15/T-16. Среда снова доступна. Фактическийmainfcc4cede3e5b1001d9231ee456aacfbe9dfd53d2;PR56open,удалённыйHEAD5754e2dbf1ad72d3a2a8e6163060e16629a1f691,CI40425590366SUCCESS. Локальнаяветкаaudit/quality-m11-resume-20261027создана от удалённой;старые локальные коммиты не удалены. Снимки modules-beta-desktop/modules-governance-mobile артефакта12699570893реально осмотрены. Найдена только слипшаяся типографика нового примера β_p;исправлены пробелы,исходные84формулы не менялись. Новыйкод потребует CIи нового осмотра примера. CP082BLOCKEDостаётся историей,текущийphaseIN_PROGRESS.
 
 Последняяпубликация5.0.37VERIFIED/CP078,60/96принято. M11не опубликован и ещёне принят. Далее локальнаяпроверка/PRCI/осмотр/mainCI/Pages/live5,затемM12безкоманды. НаходкиM12 сохранены QUALITY_M12_PREFLIGHT.md;T06исключена.
+
+
+## CP-20261027-084 · 5.0.38 beta VERIFIED · принято66/96
+
+[PR56](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/56) MERGED, продукт 4b92aa9e45c284e0c3b3726fde9e7aa9640d72fa. [PRCI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40429171245), [mainCI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40429782508), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40429782226) SUCCESS.18локальных/7браузерных программ PASS;55блоков/119MC/28курсовых и24экзаменационных историй через настоящий экспорт/импорт,desktop/320px. Снимки беты/корпоративного управления осмотрены;после исправления пробелов повторно осмотрен modules-beta-desktop артефакта12701621530.
+
+Live5MATCH:index1b36bef42d68de6e22e59ff3e448613e4a710693;question-review0bfc7e5cc27d97a745963a25812b208457955352;exam-practice6f17e39ce3b9a3468b9fc30a2be11a7594a623ac;option-profilescd2b04924ac937a59a443e12e9164591b5bb1566;frozen2b77ae8f74be9433af3c458c3be55314d2cc9519.
+
+66/96комплексно принято с раскрытыми пределами,30и финал впереди. D015для61блока;231/309назначенийVERIFIED,78PENDING.132формулы/600терминов/122дополнительныхпроверки,126дополнительныхMC/150multiвпуле401.488/557страниц прочитаны/осмотрены;это не сертификация всех датированных чисел и частных правовых случаев. RawBANK275/19,309назначений,84старыеформулы,ID/истории/frozen5.0.8сохранены.
+
+ДалееM12/E07–E09+7S1-06-1. Read-onlyинвентаризация показала:теоретические открытые задания позднихтем имеются вSTUDY_EXTRAS,но не входят вэкзаменационныйBANK_MAP. Исправить в эффективном слое по мере предметной проверки без сменыID,с отдельной регрессией/историей;затемM13–M16и финал без новойкоманды. T06исключена.
+
+
+
+## CP-20261027-085 · источники/вопросы · IN_PROGRESS
+
+Ветка audit/quality-m12-20261027 от проверенного4b92aa9e45c284e0c3b3726fde9e7aa9640d72fa. Основнаяинформация и первичныепроверки:QUALITY_M12_PREFLIGHT.md(полностьюпрочитан). Прочитаны6полныхблоковE07/E08/E09,12назначенийи7раннихS1-06-1;включаяформулы/ключи/рубрики/prep. Ранниеexplanationпатчипроверяютсявэффективномслое,не дублируются. ДополнительныхпреподавательскихстраницдляM12нет:488/557наосновеM10/M11. Это не полнаяпроверка285страницправиллистингаиливсехисторическихданных.
+
+Планпакета:расширитьнедостающиемеханизмы/роли/условиядо вопросов;согласовать8открытыхрубрик,усилить9singleссохранениемключей;14новыхMC;закрыть19назначенийи7блоковD015послерегрессии. Инвентаризация доказала отсутствие openSTUDY_EXTRASвглавномпуле. Включитьпроверенные10IDчерезотдельныйразрешённыйсписок,сохранитьсырыеснимки,ID/истории/курс. Проверитьдоступностькаждоговэкзамене/экспорт-импорт. Необъявлятьновые6принятымираньшеCI/Pages/live. T06исключена.
+
+Пределы:арифметическиеучебныесценариипересчитаныотдельно,невоспроизводятнынешнююценуСбербанка;датыправил/категорииналоговыхверсийподтвержденыпервичнымиисточникамивpreflight,полныеправовыепроцедуры/всетекущиепорогиисключениянесертифицированы. Обоснованныерегуляторныеоговоркинепревращаютсявэкзаменационноезаучиваниевсехпорогов.
