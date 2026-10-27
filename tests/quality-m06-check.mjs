@@ -38,5 +38,5 @@ const session={version:2,responses:{PO07:{text:'Старый ответ',rubric:
 const a=JSON.parse(read('QUESTION_LEARNING_ALIGNMENT.json')),m04=['S1-10','S2-01','S2-02'],m06=['S2-06','S2-07','S2-08'];
 assert.equal(a.assignments.filter(x=>m04.includes(x.block.slice(0,-2))).length,15);assert.equal(a.assignments.filter(x=>m06.includes(x.block.slice(0,-2))).length,16);
 assert.ok(a.assignments.filter(x=>[...m04,...m06].includes(x.block.slice(0,-2))).every(x=>x.status!=='PENDING'&&x.support.length));
-assert.equal(ctx.ExamPractice.questions.filter(q=>m06.includes(q.lesson)).length,12);assert.equal(ctx.ExamPractice.questions.filter(q=>m04.includes(q.lesson)).length,6);
+assert.equal(ctx.ExamPractice.questions.filter(q=>m06.includes(q.lesson)).length,12);assert.equal(ctx.ExamPractice.questions.filter(q=>m04.includes(q.lesson)&&q.source.includes('QUALITY_M06_REVIEW')).length,6);
 console.log('PASS M06/M04: CDS conservation, IRS signs, FX parity, four returns/two denominators, hedge units/variance/VaR, non-subadditive VaR counterexample,17 keys preserved, PO07 historical migration,31 reviewed placements and18 new conceptual MCs.');

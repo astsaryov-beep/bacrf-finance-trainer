@@ -813,7 +813,7 @@
     "status": "PARTIAL",
     "area": "Final exam open coverage",
     "finding": "Открытые заданияSTUDY_EXTRASотсутствоваливэффективномэкзаменационномпуле;инвентаризацияBANKне нашлатеоретическихopenпоDDM/портфельныммоделям/страхованию/пенсиям/листингу.",
-    "resolution": "M15:28проверенныхпо содержаниюopen(6новыхстраховыхожидаютрегрессии);M16добавит6пенсионных/факторинговых. Маржинальные2толькообучение."
+    "resolution": "M16:34теоретическихopenSTUDY_EXTRASвэффективномпуле;6новыхожидаютрегрессии.2маржинальныхopenсохраненытольковобучении."
   },
   {
     "id": "QA-098",
@@ -914,33 +914,73 @@
   {
     "id": "QA-110",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M15 coverage/franchise",
     "finding": "Риск/случай/полис,франшиза на равенстве,тотал/абандон и ограничения расчёта требуют предметных объяснений.",
-    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+    "resolution": "QUALITY_M15_REVIEW.md/CP-20261027-103:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-111",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M15 participant roles",
     "finding": "Все10ролей,включая сюрвейера/комиссара/аджастера,нужны до вопросов;СРО/реестр актуария не лицензия страховщика.",
-    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+    "resolution": "QUALITY_M15_REVIEW.md/CP-20261027-103:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-112",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M15 insurance products and bases",
     "finding": "Классификации,жизнь/ДСЖ/новые режимы2026,ИИСгарантии/рынок,устаревший22% и коэффициенты премий требуют условий и дат.",
-    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+    "resolution": "QUALITY_M15_REVIEW.md/CP-20261027-103:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
   },
   {
     "id": "QA-113",
     "severity": "MEDIUM",
-    "status": "FIXED_PENDING_REGRESSION",
+    "status": "FIXED_VERIFIED",
     "area": "M15 practice",
     "finding": "Очевидныеsingle и общие рубрики:пятьнеуказанныхролей/критериибезсодержания. Открытые страховые вопросы отсутствовали в основном пуле.",
-    "resolution": "QUALITY_M15_REVIEW.md/CP100;CI/Pages/live ещё впереди."
+    "resolution": "QUALITY_M15_REVIEW.md/CP-20261027-103:полный локальный и браузерный прогоны PASS;PR/mainCI/Pages SUCCESS;live5MATCH. Пределы источников раскрыты."
+  },
+  {
+    "id": "QA-114",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M16 pension rights and dates",
+    "finding": "Социальная пенсия/страховая и собственные условия,база2026,22% и сохранение накоплений после2014 требуют согласования.",
+    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-115",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M16 pension institutions and asset bases",
+    "finding": "Вкладчик/участник,НПФ/УК/спецдеп/СФР/ВЭБ/актуарий/АСВ различаются;активы/AUM/контроль и ФНБ не одно и то же.",
+    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-116",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M16 PDS",
+    "finding": "15летили55/60альтернативны;гарантия/выкуп/поддержка/налог/доходность не тождественны,режимы ОПС и резервов разные.",
+    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-117",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M16 factoring and complete practice",
+    "finding": "Уведомление/регресс,кредитный риск/непоставка,аванс/дисконт/полная стоимость требуют ранних опор;6позднихopenи6недостающихвидовMCраннихблоков закрываются здесь.",
+    "resolution": "QUALITY_M16_REVIEW.md/CP105;CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-118",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "Final explicit insurance rubric prerequisites",
+    "finding": "В рубриках есть документы/сроки и операционная ликвидность перестрахования;предпосылку нужно изложить явно в текущем блоке,не полагаться на ответ/связь с предыдущей темой.",
+    "resolution": "M16:INS-01-0/INS-03-1получили явные предпосылки до практики;все опоры обновлены. Новыйполныйпрогон/CIожидаются."
   }
 ]
