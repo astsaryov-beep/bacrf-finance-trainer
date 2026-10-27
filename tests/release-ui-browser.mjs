@@ -41,12 +41,29 @@ try{
  // Inspect every complete lesson, including all nested explanations, at phone width.
  const route=await page.evaluate(()=>STUDY_ROUTE.flatMap(l=>l.blocks.map((b,pos)=>({id:l.id,pos}))));
  for(const {id,pos} of route){
-  await page.evaluate(({id,pos})=>{goStudyLesson(id,pos);goStudyStartBlock(pos);document.querySelectorAll('#content details').forEach(el=>el.open=true)},{id,pos});
-  await inspect(id+'-'+pos+'-full-320');
+  for(const view of ['full','brief','insights']){
+   await page.evaluate(({id,pos,view})=>{goStudyLesson(id,pos);goStudyStartBlock(pos);studyTheoryView=view;drawStudy();document.querySelectorAll('#content details').forEach(el=>el.open=true)},{id,pos,view});
+   await inspect(id+'-'+pos+'-'+view+'-320');
+  }
  }
  await screen('lesson-320');
+ // Inspect each embedded strategy graph at desktop and phone widths.
+ for(const width of [1440,320]){
+  await page.setViewportSize({width,height:900});
+  for(const [id,pos] of [['S1-07',0],['S1-09',0],['S2-02',1],['S2-06',0]]){
+   await page.evaluate(({id,pos})=>{goStudyLesson(id,pos);goStudyStartBlock(pos);studyTheoryView='full';drawStudy();document.querySelectorAll('#content details').forEach(el=>el.open=true)},{id,pos});
+   assert.equal(await page.locator('.fri-strategy-in-course').getAttribute('aria-label'),'Торговые стратегии в контексте темы');
+   const charts=page.locator('.strategy-chart');
+   for(let i=0;i<await charts.count();i++){
+    assert.equal(await charts.nth(i).locator('svg rect[fill="#fff"]').evaluate(el=>getComputedStyle(el).fill),'rgb(16, 37, 54)');
+    await charts.nth(i).screenshot({path:resolve(out,'release6-chart-'+id+'-'+i+'-'+width+'.png')});
+   }
+   await inspect('charts-'+id+'-'+width);
+  }
+ }
+
  // UI-01: the summary updates immediately and remains correct after reload.
- const fixture=await page.evaluate(()=>{const q=FRI_PRACTICE_BANK.find(q=>q.type==='multi');goStudyLesson(q.lessonId,q.pos);goStudyStartBlock(q.pos);return {id:q.id,correct:q.correct,key:q.lessonId+'-'+q.pos}});
+ const fixture=await page.evaluate(()=>{const q=FRI_PRACTICE_BANK.find(q=>q.type==='multi');goStudyLesson(q.lessonId,q.pos);goStudyStartBlock(q.pos);studyTheoryView='insights';drawStudy();return {id:q.id,correct:q.correct,key:q.lessonId+'-'+q.pos}});
  await page.locator('[data-fri-extra-answer="'+fixture.id+'"]').first().evaluate(el=>el.closest('details').open=true);
  await page.locator('[data-fri-extra-answer="'+fixture.id+'"][data-fri-extra-choice="'+fixture.correct+'"]').click();
  assert.match(await page.locator('[data-fri-extra-progress="'+fixture.key+'"]').innerText(),/Верно выполнено 1 из/);
@@ -70,6 +87,6 @@ try{
  await screen('versions');
  assert.deepEqual(evidence.filter(r=>r.pale.length||r.overflow),[],'visual findings across all screens/lessons');
  assert.deepEqual(errors,[]);
- console.log('PASS release6 UI:7 tabs at1440/320,96 expanded lessons,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors');
+ console.log('PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors');
 }catch(e){await page.screenshot({path:resolve(out,'release6-failure.png')});throw e}
 finally{writeFileSync(resolve(out,'release6-ui-evidence.json'),JSON.stringify({evidence,errors},null,2));await browser.close()}
