@@ -9551,7 +9551,7 @@
   "sequentialAcceptance": {
     "task": "T-19",
     "status": "IN_PROGRESS",
-    "contentRead": 84,
+    "contentRead": 90,
     "total": 96,
     "liveCompletedBlocks": 6,
     "report": "NOVICE_PATH_REVIEW.md",

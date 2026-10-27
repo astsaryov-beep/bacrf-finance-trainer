@@ -1122,16 +1122,17 @@
     "id": "INS-03-0",
     "title": "Как оценивают стоимость риска и формируют резервы",
     "status": "REVIEWED",
-    "decision": "M15: теория/термины/пример/самопроверка согласованы до практики; естественное закрепление сохранено.",
-    "fingerprint": "53d576976281ebd9518dcb008b59a416e87d73856fce9e8182e2be054b8253fe",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: термины пояснены до первого использования, повторные вводные заменены переходом к новой задаче; обоснованное закрепление сохранено.",
+    "fingerprint": "6649e01534ae79531280e9718c39bb406060e46b448405c486cf613fa1d2476c",
+    "reviewedOn": "2026-10-27",
     "changes": [
+      "beginner",
       "mechanism",
-      "application",
       "advanced",
-      "extraChecks"
+      "sources",
+      "foundation"
     ],
-    "sourceCheck": "L45 PDF33–45; правовые и датированные пределы QUALITY_M15_REVIEW.md."
+    "sourceCheck": "M14; определение заработанной премии адресно сверено по NAIC Glossary, Premiums Earned. Проверен термин, не весь глоссарий. EIOPA2521 доступен в поисковой выдержке, прямое открытие429; не заявляется полное чтение."
   },
   {
     "id": "INS-03-1",
@@ -1139,7 +1140,7 @@
     "status": "REVIEWED",
     "decision": "Финальный M16:все предметные элементы уже заданной страховой рубрики явно изложены до практики,не только в ответе/другой теме.",
     "fingerprint": "904838d3509095e6805f026a55f05208ec140b9ff741c6f9e3b9e748a552828c",
-    "reviewedOn": "2026-10-26",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "mechanism"
     ],
@@ -1149,85 +1150,58 @@
     "id": "PEN-01-0",
     "title": "Распределительная и накопительная модели",
     "status": "REVIEWED",
-    "decision": "M16: естественный русский язык,согласованные модели/предпосылки/проверки;защищённые формулы не изменены.",
-    "fingerprint": "31732aa8f5f1cd0c27082dc7d240d5ab716fa3e542df3c1f4ff6b23346164b18",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: термины пояснены до первого использования, повторные вводные заменены переходом к новой задаче; обоснованное закрепление сохранено.",
+    "fingerprint": "0eac8793ac42a5e0fe56ed38391d2b56835188e63517b82fe7c36cb3d99aeb8a",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
       "application",
-      "advanced",
-      "glossary",
-      "selfCheck",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M16_REVIEW.md;адресные первичные проверки27.10.2026."
+    "sourceCheck": "Принятые M14/M15, исходные параметры и формулы сохраняются."
   },
   {
     "id": "PEN-01-1",
     "title": "ОПС, социальные и государственные пенсии",
     "status": "REVIEWED",
-    "decision": "M16: естественный русский язык,согласованные модели/предпосылки/проверки;защищённые формулы не изменены.",
-    "fingerprint": "f713cbf975c7b87abe8ae6ff762eff9b38ee63c755e2d6ef2a81e47f495c8efc",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: термины пояснены до первого использования, повторные вводные заменены переходом к новой задаче; обоснованное закрепление сохранено.",
+    "fingerprint": "fb58d532221de98ca4b43a603d385aa69cd54ab9fb91f59fbf6434ace4cfd676",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
       "story",
-      "foundation",
-      "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary",
-      "selfCheck",
-      "extraChecks"
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M16_REVIEW.md;адресные первичные проверки27.10.2026."
+    "sourceCheck": "Принятые M14/M15, исходные параметры и формулы сохраняются."
   },
   {
     "id": "PEN-02-0",
     "title": "НПФ, пенсионные накопления и пенсионные резервы",
     "status": "REVIEWED",
-    "decision": "M16: естественный русский язык,согласованные модели/предпосылки/проверки;защищённые формулы не изменены.",
-    "fingerprint": "2824fd674fc9cfb94a0f534faac1ea6e6c5a2e3da37a5f19075210fa54f5616f",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: термины пояснены до первого использования, повторные вводные заменены переходом к новой задаче; обоснованное закрепление сохранено.",
+    "fingerprint": "4e6279ec31e12eef62849d0ebfd8166c8a9ed26dcc16083d16b57126bd10fba0",
+    "reviewedOn": "2026-10-27",
     "changes": [
-      "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary",
-      "selfCheck",
-      "extraChecks"
+      "advanced"
     ],
-    "sourceCheck": "QUALITY_M16_REVIEW.md;адресные первичные проверки27.10.2026."
+    "sourceCheck": "Принятые M14/M15, исходные параметры и формулы сохраняются."
   },
   {
     "id": "PEN-02-1",
     "title": "Программа долгосрочных сбережений и её риски",
     "status": "REVIEWED",
-    "decision": "M16: естественный русский язык,согласованные модели/предпосылки/проверки;защищённые формулы не изменены.",
-    "fingerprint": "be8b50a3f824e28c0fe2c1ece515fc1613925cd05085e078b703d3f476c35af9",
-    "reviewedOn": "2026-10-26",
+    "decision": "T-19: термины пояснены до первого использования, повторные вводные заменены переходом к новой задаче; обоснованное закрепление сохранено.",
+    "fingerprint": "87ab67c8f96f94103ae9c2f6c6ed9355fe9b016d4dd0bacdcc15517c3c21146c",
+    "reviewedOn": "2026-10-27",
     "changes": [
       "beginner",
-      "story",
-      "foundation",
       "mechanism",
-      "principles",
-      "application",
-      "advanced",
-      "glossary",
-      "selfCheck",
-      "extraChecks"
+      "story",
+      "foundation"
     ],
-    "sourceCheck": "QUALITY_M16_REVIEW.md;адресные первичные проверки27.10.2026."
+    "sourceCheck": "Принятые M14/M15, исходные параметры и формулы сохраняются."
   },
   {
     "id": "LEASE-01-0",
