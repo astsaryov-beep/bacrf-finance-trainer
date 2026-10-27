@@ -53,4 +53,8 @@ const session={version:2,responses:{Q07:{text:'Исторический отве
 r.migrateSession(session);assert.equal(session.grades.Q07,undefined);assert.equal(session.reviewHistory.Q07.grade.score,1);assert.equal(session.responses.Q07.text,'Исторический ответ');
 const saved=JSON.stringify(session);r.migrateSession(session);assert.equal(JSON.stringify(session),saved);
 assert.equal(JSON.parse(saved).reviewHistory.Q07.response.rubric.length,3);
+// T-19: a follow-up numerical question uses market value, and a conceptual one scales money risk.
+near(9000000*4*.005,180000);assert.notEqual(10000000*4*.005,180000);
+for(const id of ['V2-021','V2-023','V2-024']){const q=r.question(raw.find(x=>x.id===id));assert.equal(q.correct[0],1);assert.equal(q.options.length,4);assert.ok(q.revision.includes('t19'));}
+assert.match(r.question(raw.find(x=>x.id==='V2-021')).options[1],/180/);
 console.log('PASS M03: independent duration/convexity/PV, basket/forward/spread, holding metrics and versions, Q07 answer/history preservation.');
