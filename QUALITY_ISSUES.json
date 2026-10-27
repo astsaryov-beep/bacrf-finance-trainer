@@ -718,5 +718,93 @@
     "area": "M10 practice coverage",
     "finding": "16концептуальныхMCдают знание и кейс8блокам,все опоры до заданий.",
     "resolution": "QUALITY_M10_REVIEW.md/CP078:17local/7browser programs PASS;PR55/mainCI/Pages SUCCESS;live5filesMATCH. Источниковые/правовые пределы сохранены."
+  },
+  {
+    "id": "QA-086",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M11 prerequisites",
+    "finding": "EM24требовал ещё не объяснённые индексные веса;роль бенчмарка/расходов текущего блока расширена.",
+    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-087",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M11 funds and tracking",
+    "finding": "Правовая форма/стратегия/обращение,СЧА/цена,TE/TDи однократный учёт расходов требуют различения.",
+    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-088",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M11 risk",
+    "finding": "Бета не копия индекса/не вся волатильность,нулевая корреляция не независимость;секторальная концентрация/горизонт/валюта различены.",
+    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-089",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M11 governance and free-float",
+    "finding": "Раскрыты стимулы/KPI/конфликт/органы/независимость,номинальный учёт vsвладение и оборот vsсвободный запас.",
+    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-090",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M11 and M03 rubrics",
+    "finding": "9открытых заданий получили предметные согласованные2частные рубрики с сохранением истории;близкие вопросы имеют разные роли.",
+    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-091",
+    "severity": "MEDIUM",
+    "status": "FIXED_PENDING_REGRESSION",
+    "area": "M11 practice",
+    "finding": "17singleсохранили ключи,16новыхMCимеют2/3/4верных варианта,близкие предметные альтернативы и ранние опоры.",
+    "resolution": "QUALITY_M11_REVIEW.md/CP080;регрессия/CI/Pages/live впереди."
+  },
+  {
+    "id": "QA-092",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "area": "M13 source arithmetic",
+    "finding": "S3PDF50:правильные дисперсия0,0415/волатильность20,3715%/условныйдневнойVaR212588руб.;слайд16,3%ошибочен.",
+    "resolution": "M13:сопоставить с курсом,внести явное исправление и независимую проверку. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+  },
+  {
+    "id": "QA-093",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "area": "M13 model limits",
+    "finding": "S3PDF45–57:VaRквантиль,остатоквбете,downside deviation/просадка,альфа и пороги оценки требуют предпосылок.",
+    "resolution": "M13:прочитано как источник,не принято;проверить и исправить в соответствующих блоках. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+  },
+  {
+    "id": "QA-094",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "area": "M14 source definitions and dates",
+    "finding": "L45PDF20/24/29–31:критерии квалификации,форекс-дилер,несогласованные числаПИФ3708vs3663,режимыИИС.",
+    "resolution": "M14:первичные актуальные нормы,исторические срезы не выдавать за вечные свойства. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+  },
+  {
+    "id": "QA-095",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "area": "M12 index methodology",
+    "finding": "S3PDF40–44:делитель/дивиденды,netверсии,пороги/кэпы/состав и арифметика SBERPтребуют сверки.",
+    "resolution": "M12:текущая методика;малый положительный вес уже объяснёнM11,полный индекс ещё впереди. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
+  },
+  {
+    "id": "QA-096",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "area": "M12 dividend valuation",
+    "finding": "S3PDF18–22:необоснованное«почти вдвое»приr16→18,график266vsтекст279,условиеr>gи дата терминала.",
+    "resolution": "M12:сверить с курсом/формулами и пересчитать независимо. Источник/пределы QUALITY_M10_REVIEW.md/QUALITY_M11_REVIEW.md."
   }
 ]

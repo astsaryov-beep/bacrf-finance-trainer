@@ -178,9 +178,9 @@ assert.equal((90-100)+(102-122),-30,'forced close loses futures hedge');
 
 assert.equal(bank.filter(x=>x.origin==='original').length,19);
 assert.equal(Object.keys(legacy).length,96);
-assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),588);
+assert.equal(blocks.reduce((n,x)=>n+x.b.glossary.length,0),600);
 const formulaCount=Object.values(legacy).reduce((n,x)=>n+(x.formulas?.length||0),0);
-assert.equal(formulaCount,131);
+assert.equal(formulaCount,132);
 for(const [id,unit] of Object.entries(legacy)){
  assert.ok(unit.foundation?.length>=120,'beginner explanation too short '+id);
  assert.ok(unit.mechanism?.length>=120,'mechanism too short '+id);
@@ -303,4 +303,4 @@ assert.match(html,/friBindStrategyInline\(content\)/,"interactive question handl
 assert.match(html,/friKnowledgeRegistry/);
 assert.match(html,/independentPractice:friExtra/);
 assert.match(html,/friInsights:friLearning/);
-console.log('PASS '+releaseVersion+': 96 complete beginner-to-advanced lessons, 131 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 131 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
+console.log('PASS '+releaseVersion+': 96 complete beginner-to-advanced lessons, 132 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 132 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.');
