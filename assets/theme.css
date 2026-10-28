@@ -55,3 +55,14 @@ input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
 .strategy-plot{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-color:#6bb8bc #102536;scrollbar-width:thin}
 .strategy-scroll-hint{display:none}
 @media(max-width:760px){.strategy-plot svg{min-width:560px;min-height:0}.strategy-scroll-hint{display:block;color:#9aede0;font-weight:650;margin-bottom:8px}}
+
+/* T24: compact question links and an explicit route back from reading. */
+.question-theory-links{display:block;margin:12px 0 18px;padding:13px 16px}
+.question-theory-links>summary{cursor:pointer;color:#98eee1;font-weight:750}
+.question-theory-links p{margin:10px 0}
+.question-theory-targets{display:grid;gap:9px}
+.question-theory-targets .btn{display:grid;gap:4px;text-align:left;white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.question-theory-return{border:1px solid #4e8586;background:#163b45;border-radius:14px;padding:15px;margin:12px 0 20px;overflow-wrap:anywhere}
+.question-theory-return p{margin:10px 0 4px}
+.question-theory-supplement{scroll-margin-top:100px}
+@media(max-width:620px){.question-theory-links{padding:12px}.question-theory-return .btn{width:100%}}
