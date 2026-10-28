@@ -5,13 +5,13 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.0.2",
+  "working_version": "6.0.3",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-23",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-26",
+  "next_task": "T-26",
   "last_verified_checkpoint": "CP-20261028-138",
   "last_verified_commit": "a30b129ce9b0aca78eefaa7385c59df1fcce0445",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40676149564",
@@ -24,7 +24,7 @@
 ```
 <!-- STATE_JSON_END -->
 
-**6.0.2 VERIFIED. T-25 завершена.**
+**6.0.3 / T26 IN_PROGRESS.** Далее предыдущая подтверждённая точка6.0.2.
 
 [PR73](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/73), продукт `a30b129ce9b0aca78eefaa7385c59df1fcce0445`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40676149564) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40676951965) — SUCCESS. Дерево приложения после merge совпало с проверенным PR; HTTP-сверка16 публичных файлов — MATCH.
 

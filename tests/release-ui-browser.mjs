@@ -28,6 +28,11 @@ async function screen(name){await page.evaluate(()=>window.scrollTo({top:0,behav
 try{
  await page.goto('file://'+resolve(root,'index.html'));
  assert.equal(await page.locator('meta[name="trainer-version"]').getAttribute('content'),release);
+ const labels=await page.evaluate(()=>EFFECTIVE_BANK.filter(q=>q.origin==='original').map(q=>badge(q)));
+ assert.equal(labels.length,19);assert.ok(labels.every(s=>s.includes('Вопрос из теста')&&!s.includes('Вопрос преподавателя')));
+ assert.match(await page.locator('#questionSource').innerText(),/Только вопросы из теста \(19\)/);
+ assert.equal(await page.locator('#teacherPractice').innerText(),'Тренировать 19 вопросов из теста');
+
  const tabs=['overview','learn','quiz','catalog','stats','sources','about'];
  for(const width of [1440,320]){
   await page.setViewportSize({width,height:900});

@@ -1,3 +1,7 @@
+# QA · 6.0.3 IN_PROGRESS
+
+T26: нейтральные подписи вопросов из теста и дополнительных упражнений; корректная формулировка адаптации источников. Данные/прогресс/frozen сохранены. Проверки и публикация ожидаются.
+
 # QA · 6.0.2 VERIFIED
 
 [PR73](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/73), продукт `a30b129ce9b0aca78eefaa7385c59df1fcce0445`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40676149564) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40676951965) — SUCCESS. Дерево приложения после merge совпало с проверенным PR; HTTP-сверка16 публичных файлов — MATCH.
