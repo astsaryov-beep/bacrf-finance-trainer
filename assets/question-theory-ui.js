@@ -28,6 +28,7 @@
   studyTheoryView='full';studyNav={lessonId:id,block:index,phase:'theory',index:0};persistStudy();tab='learn';render();
   const anchor=button.dataset.theoryAnchor;
   requestAnimationFrame(()=>{
+   if(tab!=='learn'||studyNav.lessonId!==id||studyNav.block!==index)return;
    const el=anchor?document.getElementById(anchor):document.querySelector('.study-paper>h2');
    if(el){el.tabIndex=-1;el.style.scrollMarginTop='100px';el.focus({preventScroll:true});el.scrollIntoView({block:'start',behavior:'instant'})}
   });
@@ -40,10 +41,10 @@
  function returnToQuestion(){
   const c=context();if(!c){save(null);notify('Исходная попытка уже заменена или очищена.');return}
   session.pos=session.ids.indexOf(c.id);session.reviewMode=false;save(null);persist();tab='quiz';render();
-  if(session.done)requestAnimationFrame(()=>{
+  if(session.done){
    const card=document.querySelector('[data-result-question="'+CSS.escape(c.id)+'"]');
-   if(card){card.open=true;card.style.scrollMarginTop='100px';const title=card.querySelector('summary');title.focus({preventScroll:true});card.scrollIntoView({block:'start',behavior:'instant'})}
-  });
+   if(card){card.open=true;card.style.scrollMarginTop='100px';requestAnimationFrame(()=>{if(tab==='quiz'&&card.isConnected){card.querySelector('summary').focus({preventScroll:true});card.scrollIntoView({block:'start',behavior:'instant'})}})}
+  }
  }
  function syncView(){const c=context();if(c&&c.active!==(tab==='learn'))save({...c,active:tab==='learn'})}
  function resume(){const c=context();if(c?.active&&STUDY_MAP.has(studyNav.lessonId)){tab='learn';studyNav.phase='theory';studyTheoryView='full'}}
