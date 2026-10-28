@@ -28,3 +28,5 @@
 [Интерфейс и выпуск 6.0](audits/UI_RELEASE_6.md).
 
 [Из упражнения к теории](audits/QUESTION_THEORY_LINK_REVIEW.md).
+
+[Очистка кода6.0.2](audits/CODE_CLEANUP_6_0_2.md).

@@ -274,7 +274,7 @@ assert.match(html,/review:isPlainRecord\(obj\.friInsights\.review\)/,'review imp
 
 // Execute 32 boundary examples of all ten interactive financial models.
 const fnStart=html.indexOf('function friUpdateLab(');
-const fnEnd=html.indexOf('const FRI_ORIGINAL_QUESTION_MAP',fnStart);
+const fnEnd=html.indexOf('function friRelatedMarkup',fnStart);
 assert.ok(fnStart>=0&&fnEnd>fnStart);
 const calc=new Function('container',html.slice(fnStart,fnEnd)+'friUpdateLab(container)');
 const boundary={

@@ -5,13 +5,13 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.0.1",
+  "working_version": "6.0.2",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-23",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-25",
+  "next_task": "T-25",
   "last_verified_checkpoint": "CP-20261028-136",
   "last_verified_commit": "ff1f9c0c205a7623e124c67513bb074078295305",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40606149502",
@@ -24,7 +24,9 @@
 ```
 <!-- STATE_JSON_END -->
 
-**6.0.1 VERIFIED. T-24 завершена.**
+**T-25 / 6.0.2 IN_PROGRESS.** Осторожная очистка кода; опубликованная 6.0.1 подтверждена. main `8ca9b08c3acf245b04340bd6a8c2f10e2166f58f`, CI40657300145 и Pages40657299835 SUCCESS, открытых PR нет.
+
+Новый выпуск ещё не опубликован; сведения ниже — предыдущая проверенная точка.
 
 [PR71](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/71), продукт `ff1f9c0c205a7623e124c67513bb074078295305`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40606149502) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40656987250) — SUCCESS. Дерево после merge совпадает с проверенным PR; HTTP-сверка подтвердила совпадение 16 публичных файлов.
 
