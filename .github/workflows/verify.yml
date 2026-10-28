@@ -30,6 +30,8 @@ jobs:
         run: node tests/project-state-check.mjs
       - name: Verify repository structure and local documentation links
         run: node tests/repository-layout-check.mjs
+      - name: Verify explicit question-to-theory links
+        run: node tests/question-theory-check.mjs
       - name: Verify study bank and finance labs
         run: node tests/release-check.mjs
       - name: Verify content continuity and justified repetition
@@ -96,6 +98,7 @@ jobs:
       - name: Core navigation and answer history
         if: matrix.suite == 'core'
         run: |
+          node tests/question-theory-browser.mjs
           node tests/release-ui-browser.mjs
           node tests/navigation-browser.mjs
           node tests/browser-smoke.mjs

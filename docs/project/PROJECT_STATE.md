@@ -5,13 +5,13 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.0",
+  "working_version": "6.0.1",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-23",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-24",
+  "next_task": "T-24",
   "last_verified_checkpoint": "CP-20261028-134",
   "last_verified_commit": "8518180b9d0ce1da6a6f4a40c4ee94f6d3f84bdc",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40593953771",
@@ -33,3 +33,5 @@
 Снятие beta прямо разрешено пользователем (D019). Новая академическая или эмпирическая приёмка не заявляется. Поле `stable_version=5.0.8` сохраняет исторический замороженный снимок; актуальный выпуск задают `current_release` / `working_version` (6.0). T-23 ожидает только новой обратной связи, обязательных незавершённых работ текущего запроса нет.
 
 [Контекст](CHAT_HANDOFF.md) · [План](ROADMAP.md) · [Проверка выпуска](../audits/UI_RELEASE_6.md) · [QA](../audits/QA_REPORT.md).
+
+T24 IN_PROGRESS:6.0.1 готовится; предыдущий опубликованный выпуск6.0 подтверждён. НовыеCI/Pages/live PENDING.

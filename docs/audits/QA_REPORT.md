@@ -1,3 +1,7 @@
+# QA · 6.0.1 RELEASE_PENDING
+
+T24:явные связи513 вопросов и40 дополнительных учебныхID с553 записями навигации;40 самостоятельных заданий сопоставлены отдельно. Добавлены структурный и браузерный сценарии переходов/возврата/сохранности/ограничения экзамена. Общая регрессия и публикация PENDING.
+
 # QA · 6.0 VERIFIED
 
 [PR69](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/69), продукт `8518180b9d0ce1da6a6f4a40c4ee94f6d3f84bdc`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40593953771) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40594826214) — SUCCESS. Дерево приложения после merge совпадает с проверенным PR. HTTP-сверка подтвердила совпадение 14 публичных файлов: приложения, 11 ресурсов, выбора версии и замороженная 5.0.8.

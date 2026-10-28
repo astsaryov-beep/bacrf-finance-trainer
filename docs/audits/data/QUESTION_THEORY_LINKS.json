@@ -1,0 +1,5121 @@
+{
+  "revision": "2026-10-28",
+  "scope": "Navigation only:513 training questions and40 additional course IDs; original question/answer/placement records preserved.",
+  "trainingQuestionCount": 513,
+  "linkedQuestionCount": 553,
+  "manualNavigationCount": 40,
+  "source": "QUESTION_LEARNING_ALIGNMENT.json",
+  "rows": [
+    {
+      "questionId": "RM19",
+      "blocks": [
+        "S1-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO08",
+      "blocks": [
+        "S1-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-028",
+      "blocks": [
+        "S1-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q18",
+      "blocks": [
+        "S1-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM18",
+      "blocks": [
+        "S1-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM13",
+      "blocks": [
+        "S1-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM20",
+      "blocks": [
+        "S1-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO06",
+      "blocks": [
+        "S1-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM22",
+      "blocks": [
+        "S1-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO05",
+      "blocks": [
+        "S1-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM23",
+      "blocks": [
+        "S1-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ01",
+      "blocks": [
+        "S1-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ12",
+      "blocks": [
+        "S1-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ02",
+      "blocks": [
+        "S1-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ17",
+      "blocks": [
+        "S1-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM09",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q16",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM21",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO08",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-025",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM17",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM18",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q04",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q08",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM19",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-026",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM16",
+      "blocks": [
+        "S1-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q14",
+      "blocks": [
+        "S1-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO04",
+      "blocks": [
+        "S1-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-035",
+      "blocks": [
+        "S1-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM03",
+      "blocks": [
+        "S1-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-030",
+      "blocks": [
+        "S1-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM02",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM01",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM22",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM24",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO01",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-019",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-036",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM06",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM05",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q17",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM04",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO02",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-020",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-021",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-023",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-031",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q05",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM08",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM07",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO03",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-032",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q06",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO06",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ03",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM20",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-024",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM11",
+      "blocks": [
+        "S1-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO05",
+      "blocks": [
+        "S1-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-027",
+      "blocks": [
+        "S1-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM14",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q13",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM13",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM23",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-022",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-033",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q07",
+      "blocks": [
+        "S1-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM15",
+      "blocks": [
+        "S1-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BO07",
+      "blocks": [
+        "S1-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ11",
+      "blocks": [
+        "S1-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q10",
+      "blocks": [
+        "S1-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q09",
+      "blocks": [
+        "S1-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM01",
+      "blocks": [
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM02",
+      "blocks": [
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM23",
+      "blocks": [
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-065",
+      "blocks": [
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM03",
+      "blocks": [
+        "S2-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-009",
+      "blocks": [
+        "S2-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM04",
+      "blocks": [
+        "S2-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-060",
+      "blocks": [
+        "S2-02-0",
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-070",
+      "blocks": [
+        "S2-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM19",
+      "blocks": [
+        "S2-02-1",
+        "S2-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-061",
+      "blocks": [
+        "S2-02-1",
+        "S2-02-0",
+        "S2-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO05",
+      "blocks": [
+        "S2-03-0",
+        "S2-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q12",
+      "blocks": [
+        "S2-03-0",
+        "S2-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM21",
+      "blocks": [
+        "S2-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ04",
+      "blocks": [
+        "S2-03-1",
+        "S2-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ18",
+      "blocks": [
+        "S2-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM05",
+      "blocks": [
+        "S2-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM06",
+      "blocks": [
+        "S2-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO06",
+      "blocks": [
+        "S2-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO01",
+      "blocks": [
+        "S2-04-1",
+        "S2-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-055",
+      "blocks": [
+        "S2-04-1",
+        "S2-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-056",
+      "blocks": [
+        "S2-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-067",
+      "blocks": [
+        "S2-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM12",
+      "blocks": [
+        "S2-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q15",
+      "blocks": [
+        "S2-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q19",
+      "blocks": [
+        "S2-05-1",
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "BM10",
+      "blocks": [
+        "S2-05-1",
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-029",
+      "blocks": [
+        "S2-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-034",
+      "blocks": [
+        "S2-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM17",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ13",
+      "blocks": [
+        "S2-06-0",
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO03",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-062",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-063",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q11",
+      "blocks": [
+        "S2-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM18",
+      "blocks": [
+        "S2-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO07",
+      "blocks": [
+        "S2-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-068",
+      "blocks": [
+        "S2-06-1",
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-071",
+      "blocks": [
+        "S2-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-072",
+      "blocks": [
+        "S2-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ05",
+      "blocks": [
+        "S2-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ06",
+      "blocks": [
+        "S2-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM20",
+      "blocks": [
+        "S2-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ15",
+      "blocks": [
+        "S2-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ14",
+      "blocks": [
+        "S2-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM07",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM08",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM09",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM10",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM22",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO02",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-057",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-058",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-059",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-064",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-069",
+      "blocks": [
+        "S2-09-0",
+        "S2-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM11",
+      "blocks": [
+        "S2-09-1",
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM13",
+      "blocks": [
+        "S2-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ07",
+      "blocks": [
+        "S2-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM12",
+      "blocks": [
+        "S2-10-0",
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ08",
+      "blocks": [
+        "S2-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM14",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM15",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ16",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM16",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO04",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-066",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PM24",
+      "blocks": [
+        "S2-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PO08",
+      "blocks": [
+        "S2-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ09",
+      "blocks": [
+        "S2-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LQ10",
+      "blocks": [
+        "S2-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM01",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM02",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM04",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM10",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO07",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM03",
+      "blocks": [
+        "R-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM24",
+      "blocks": [
+        "R-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q01",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM05",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM07",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM09",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO01",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-002",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-014",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q03",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM06",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM08",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM12",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO02",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-006",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-016",
+      "blocks": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "Q02",
+      "blocks": [
+        "R-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM14",
+      "blocks": [
+        "R-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-005",
+      "blocks": [
+        "R-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM11",
+      "blocks": [
+        "R-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM17",
+      "blocks": [
+        "R-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-007",
+      "blocks": [
+        "R-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-008",
+      "blocks": [
+        "R-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM15",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM16",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO03",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-001",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-003",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-004",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-010",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-011",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-013",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-017",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RM21",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "RO04",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-012",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-015",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-018",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM01",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM03",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM15",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-041",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-052",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM02",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM04",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO03",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-042",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM05",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM07",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM09",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO02",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-037",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-039",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-049",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM06",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM08",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM10",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO05",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-038",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-040",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM11",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM13",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM23",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO04",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-044",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM12",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM14",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO01",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-043",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-050",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM16",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM18",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM20",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO07",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-046",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-051",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM17",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM19",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM24",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-045",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-047",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-053",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM21",
+      "blocks": [
+        "E-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO06",
+      "blocks": [
+        "E-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-048",
+      "blocks": [
+        "E-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EM22",
+      "blocks": [
+        "E-05-1",
+        "E-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EO08",
+      "blocks": [
+        "E-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "V2-054",
+      "blocks": [
+        "E-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-001",
+      "blocks": [
+        "E-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-001O",
+      "blocks": [
+        "E-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-002",
+      "blocks": [
+        "E-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-002O",
+      "blocks": [
+        "E-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-003",
+      "blocks": [
+        "E-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-003O",
+      "blocks": [
+        "E-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-004",
+      "blocks": [
+        "E-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-004O",
+      "blocks": [
+        "E-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-005",
+      "blocks": [
+        "E-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-005O",
+      "blocks": [
+        "E-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-006",
+      "blocks": [
+        "E-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-006O",
+      "blocks": [
+        "E-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-007",
+      "blocks": [
+        "E-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-007O",
+      "blocks": [
+        "E-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-008",
+      "blocks": [
+        "E-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-008O",
+      "blocks": [
+        "E-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-009",
+      "blocks": [
+        "E-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-009O",
+      "blocks": [
+        "E-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-010",
+      "blocks": [
+        "E-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-010O",
+      "blocks": [
+        "E-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-011",
+      "blocks": [
+        "E-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-011O",
+      "blocks": [
+        "E-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-012",
+      "blocks": [
+        "E-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-012O",
+      "blocks": [
+        "E-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-013",
+      "blocks": [
+        "E-12-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-013O",
+      "blocks": [
+        "E-12-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-014",
+      "blocks": [
+        "E-12-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-014O",
+      "blocks": [
+        "E-12-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-015",
+      "blocks": [
+        "E-13-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-015O",
+      "blocks": [
+        "E-13-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-016",
+      "blocks": [
+        "E-13-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "S3-016O",
+      "blocks": [
+        "E-13-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-01-1-Q",
+      "blocks": [
+        "INS-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-01-1-O",
+      "blocks": [
+        "INS-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-01-2-Q",
+      "blocks": [
+        "INS-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-01-2-O",
+      "blocks": [
+        "INS-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-02-1-Q",
+      "blocks": [
+        "INS-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-02-1-O",
+      "blocks": [
+        "INS-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-02-2-Q",
+      "blocks": [
+        "INS-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-02-2-O",
+      "blocks": [
+        "INS-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-03-1-Q",
+      "blocks": [
+        "INS-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-03-1-O",
+      "blocks": [
+        "INS-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-03-2-Q",
+      "blocks": [
+        "INS-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "INS-03-2-O",
+      "blocks": [
+        "INS-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-01-1-Q",
+      "blocks": [
+        "PEN-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-01-1-O",
+      "blocks": [
+        "PEN-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-01-2-Q",
+      "blocks": [
+        "PEN-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-01-2-O",
+      "blocks": [
+        "PEN-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-02-1-Q",
+      "blocks": [
+        "PEN-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-02-1-O",
+      "blocks": [
+        "PEN-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-02-2-Q",
+      "blocks": [
+        "PEN-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "PEN-02-2-O",
+      "blocks": [
+        "PEN-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LEASE-01-1-Q",
+      "blocks": [
+        "LEASE-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LEASE-01-1-O",
+      "blocks": [
+        "LEASE-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LEASE-01-2-Q",
+      "blocks": [
+        "LEASE-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "LEASE-01-2-O",
+      "blocks": [
+        "LEASE-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FACTOR-01-1-Q",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FACTOR-01-1-O",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FACTOR-01-2-Q",
+      "blocks": [
+        "FACTOR-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FACTOR-01-2-O",
+      "blocks": [
+        "FACTOR-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MARKET-01-1-Q",
+      "blocks": [
+        "MARKET-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MARKET-01-1-O",
+      "blocks": [
+        "MARKET-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MARKET-01-2-Q",
+      "blocks": [
+        "MARKET-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MARKET-01-2-O",
+      "blocks": [
+        "MARKET-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-01",
+      "blocks": [
+        "R-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-02",
+      "blocks": [
+        "R-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-03",
+      "blocks": [
+        "R-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-04",
+      "blocks": [
+        "R-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-05",
+      "blocks": [
+        "R-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-06",
+      "blocks": [
+        "R-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-07",
+      "blocks": [
+        "R-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "FRI509-08",
+      "blocks": [
+        "R-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-03-0-1",
+      "blocks": [
+        "S2-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-03-0-2",
+      "blocks": [
+        "S2-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-03-1-1",
+      "blocks": [
+        "S2-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-03-1-2",
+      "blocks": [
+        "S2-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-04-0-1",
+      "blocks": [
+        "S2-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-04-0-2",
+      "blocks": [
+        "S2-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-04-1-1",
+      "blocks": [
+        "S2-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-04-1-2",
+      "blocks": [
+        "S2-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-05-0-1",
+      "blocks": [
+        "S2-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-05-0-2",
+      "blocks": [
+        "S2-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-05-1-1",
+      "blocks": [
+        "S2-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-05-1-2",
+      "blocks": [
+        "S2-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-01-0-1",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-01-1-1",
+      "blocks": [
+        "R-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-01-0-1",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-02-0-1",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-04-0-1",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-06-0-1",
+      "blocks": [
+        "E-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-06-0-1",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-06-0-2",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-06-1-1",
+      "blocks": [
+        "S2-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-06-1-2",
+      "blocks": [
+        "S2-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-07-0-1",
+      "blocks": [
+        "S2-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-07-0-2",
+      "blocks": [
+        "S2-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-07-1-1",
+      "blocks": [
+        "S2-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-07-1-2",
+      "blocks": [
+        "S2-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-08-0-1",
+      "blocks": [
+        "S2-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-08-0-2",
+      "blocks": [
+        "S2-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-08-1-1",
+      "blocks": [
+        "S2-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-08-1-2",
+      "blocks": [
+        "S2-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-10-0-1",
+      "blocks": [
+        "S1-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-10-1-1",
+      "blocks": [
+        "S1-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-01-0-1",
+      "blocks": [
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-01-1-1",
+      "blocks": [
+        "S2-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-02-0-1",
+      "blocks": [
+        "S2-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-02-1-1",
+      "blocks": [
+        "S2-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-09-0-1",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-09-0-2",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-09-1-1",
+      "blocks": [
+        "S2-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-09-1-2",
+      "blocks": [
+        "S2-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-09-1-3",
+      "blocks": [
+        "S2-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-09-1-4",
+      "blocks": [
+        "S2-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-10-0-1",
+      "blocks": [
+        "S2-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-10-0-2",
+      "blocks": [
+        "S2-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-10-1-1",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-10-1-2",
+      "blocks": [
+        "S2-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-11-0-1",
+      "blocks": [
+        "S2-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-11-0-2",
+      "blocks": [
+        "S2-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-11-1-1",
+      "blocks": [
+        "S2-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-11-1-2",
+      "blocks": [
+        "S2-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-07-0-1",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-07-1-1",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-01-0-2",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-01-0-3",
+      "blocks": [
+        "R-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-01-1-2",
+      "blocks": [
+        "R-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-01-1-3",
+      "blocks": [
+        "R-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-02-0-1",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-02-0-2",
+      "blocks": [
+        "R-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-02-1-1",
+      "blocks": [
+        "R-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-02-1-2",
+      "blocks": [
+        "R-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-03-0-1",
+      "blocks": [
+        "R-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-03-0-2",
+      "blocks": [
+        "R-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-03-1-1",
+      "blocks": [
+        "R-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-03-1-2",
+      "blocks": [
+        "R-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-01-0-1",
+      "blocks": [
+        "S1-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-01-0-2",
+      "blocks": [
+        "S1-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-01-1-1",
+      "blocks": [
+        "S1-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-01-1-2",
+      "blocks": [
+        "S1-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-02-0-1",
+      "blocks": [
+        "S1-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-02-0-2",
+      "blocks": [
+        "S1-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-02-1-1",
+      "blocks": [
+        "S1-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-02-1-2",
+      "blocks": [
+        "S1-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-03-0-1",
+      "blocks": [
+        "S1-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-03-0-2",
+      "blocks": [
+        "S1-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-03-1-1",
+      "blocks": [
+        "S1-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-03-1-2",
+      "blocks": [
+        "S1-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-04-0-1",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-04-0-2",
+      "blocks": [
+        "R-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-04-1-1",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-04-1-2",
+      "blocks": [
+        "R-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-05-0-1",
+      "blocks": [
+        "R-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-05-0-2",
+      "blocks": [
+        "R-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-05-1-1",
+      "blocks": [
+        "R-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-05-1-2",
+      "blocks": [
+        "R-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-06-0-1",
+      "blocks": [
+        "R-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-06-0-2",
+      "blocks": [
+        "R-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-06-1-1",
+      "blocks": [
+        "R-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-R-06-1-2",
+      "blocks": [
+        "R-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-04-0-1",
+      "blocks": [
+        "S1-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-04-0-2",
+      "blocks": [
+        "S1-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-04-1-1",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-04-1-2",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-05-0-1",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-05-0-2",
+      "blocks": [
+        "S1-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-01-0-2",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-01-0-3",
+      "blocks": [
+        "E-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-01-1-1",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-01-1-2",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-02-0-2",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-02-0-3",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-02-1-1",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-02-1-2",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-03-0-1",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-03-0-2",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-03-1-1",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-03-1-2",
+      "blocks": [
+        "E-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-05-1-1",
+      "blocks": [
+        "S1-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-05-1-2",
+      "blocks": [
+        "S1-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-06-0-1",
+      "blocks": [
+        "S1-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-06-0-2",
+      "blocks": [
+        "S1-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-04-0-2",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-04-0-3",
+      "blocks": [
+        "E-04-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-04-1-1",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-04-1-2",
+      "blocks": [
+        "E-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-05-0-1",
+      "blocks": [
+        "E-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-05-0-2",
+      "blocks": [
+        "E-05-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-05-1-1",
+      "blocks": [
+        "E-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-05-1-2",
+      "blocks": [
+        "E-05-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-06-0-2",
+      "blocks": [
+        "E-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-06-0-3",
+      "blocks": [
+        "E-06-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-06-1-1",
+      "blocks": [
+        "E-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-06-1-2",
+      "blocks": [
+        "E-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-07-1-2",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-07-1-3",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-08-0-1",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-08-0-2",
+      "blocks": [
+        "S1-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-07-0-1",
+      "blocks": [
+        "E-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-07-0-2",
+      "blocks": [
+        "E-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-07-1-1",
+      "blocks": [
+        "E-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-07-1-2",
+      "blocks": [
+        "E-07-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-08-0-1",
+      "blocks": [
+        "E-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-08-0-2",
+      "blocks": [
+        "E-08-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-08-1-1",
+      "blocks": [
+        "E-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-08-1-2",
+      "blocks": [
+        "E-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-09-0-1",
+      "blocks": [
+        "E-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-09-0-2",
+      "blocks": [
+        "E-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-09-1-1",
+      "blocks": [
+        "E-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-09-1-2",
+      "blocks": [
+        "E-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-06-1-1",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-06-1-2",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-10-0-1",
+      "blocks": [
+        "E-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-10-0-2",
+      "blocks": [
+        "E-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-10-1-1",
+      "blocks": [
+        "E-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-10-1-2",
+      "blocks": [
+        "E-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-11-0-1",
+      "blocks": [
+        "E-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-11-0-2",
+      "blocks": [
+        "E-11-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-11-1-1",
+      "blocks": [
+        "E-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-11-1-2",
+      "blocks": [
+        "E-11-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-12-0-1",
+      "blocks": [
+        "E-12-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-12-0-2",
+      "blocks": [
+        "E-12-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-12-1-1",
+      "blocks": [
+        "E-12-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-12-1-2",
+      "blocks": [
+        "E-12-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-08-1-1",
+      "blocks": [
+        "S1-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-08-1-2",
+      "blocks": [
+        "S1-08-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-09-0-1",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-09-0-2",
+      "blocks": [
+        "S1-09-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-09-1-1",
+      "blocks": [
+        "S1-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-09-1-2",
+      "blocks": [
+        "S1-09-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-13-0-1",
+      "blocks": [
+        "E-13-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-13-0-2",
+      "blocks": [
+        "E-13-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-13-1-1",
+      "blocks": [
+        "E-13-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-E-13-1-2",
+      "blocks": [
+        "E-13-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-MARKET-01-0-1",
+      "blocks": [
+        "MARKET-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-MARKET-01-0-2",
+      "blocks": [
+        "MARKET-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-MARKET-01-1-1",
+      "blocks": [
+        "MARKET-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-MARKET-01-1-2",
+      "blocks": [
+        "MARKET-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-LEASE-01-0-1",
+      "blocks": [
+        "LEASE-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-LEASE-01-0-2",
+      "blocks": [
+        "LEASE-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-LEASE-01-1-1",
+      "blocks": [
+        "LEASE-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-LEASE-01-1-2",
+      "blocks": [
+        "LEASE-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-07-0-2",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-04-1-3",
+      "blocks": [
+        "S1-04-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-01-0-1",
+      "blocks": [
+        "INS-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-01-0-2",
+      "blocks": [
+        "INS-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-01-1-1",
+      "blocks": [
+        "INS-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-01-1-2",
+      "blocks": [
+        "INS-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-02-0-1",
+      "blocks": [
+        "INS-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-02-0-2",
+      "blocks": [
+        "INS-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-02-1-1",
+      "blocks": [
+        "INS-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-02-1-2",
+      "blocks": [
+        "INS-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-02-1-3",
+      "blocks": [
+        "INS-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-02-1-4",
+      "blocks": [
+        "INS-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-03-0-1",
+      "blocks": [
+        "INS-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-03-0-2",
+      "blocks": [
+        "INS-03-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-03-1-1",
+      "blocks": [
+        "INS-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-INS-03-1-2",
+      "blocks": [
+        "INS-03-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-01-0-1",
+      "blocks": [
+        "PEN-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-01-0-2",
+      "blocks": [
+        "PEN-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-01-1-1",
+      "blocks": [
+        "PEN-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-01-1-2",
+      "blocks": [
+        "PEN-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-02-0-1",
+      "blocks": [
+        "PEN-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-02-0-2",
+      "blocks": [
+        "PEN-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-02-1-1",
+      "blocks": [
+        "PEN-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-PEN-02-1-2",
+      "blocks": [
+        "PEN-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-FACTOR-01-0-1",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-FACTOR-01-0-2",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-FACTOR-01-1-1",
+      "blocks": [
+        "FACTOR-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-FACTOR-01-1-2",
+      "blocks": [
+        "FACTOR-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-10-0-2",
+      "blocks": [
+        "S1-10-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S1-10-1-2",
+      "blocks": [
+        "S1-10-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-01-0-2",
+      "blocks": [
+        "S2-01-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-01-1-2",
+      "blocks": [
+        "S2-01-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-02-0-2",
+      "blocks": [
+        "S2-02-0"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "MC-S2-02-1-2",
+      "blocks": [
+        "S2-02-1"
+      ],
+      "basis": "reviewed_assignment_and_support",
+      "evidence": "QUESTION_LEARNING_ALIGNMENT.json",
+      "status": "NAVIGATION_VERIFIED"
+    },
+    {
+      "questionId": "EXM-R01",
+      "blocks": [
+        "R-04-0",
+        "S1-01-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "У банка растёт объём кредитов, а привлечённые средства преимущественно краткосрочные. Какие выводы об устойчивости обоснованны?",
+      "focus": "Капитал, ликвидность и ALM",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-R02",
+      "blocks": [
+        "MARKET-01-1",
+        "R-01-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Какие утверждения об институтах российского финансового рынка корректны?",
+      "focus": "Инфраструктура и учёт прав",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-R03",
+      "blocks": [
+        "R-04-1",
+        "S1-03-1",
+        "S1-04-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Компания выбирает между банковским кредитом и облигационным выпуском. Какие соображения обоснованны?",
+      "focus": "Выбор источника финансирования",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-R04",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Поставщик уступает фактору денежное требование к покупателю. Какие утверждения корректны?",
+      "focus": "Факторинг и риск дебитора",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-D01",
+      "blocks": [
+        "S1-06-1",
+        "S1-06-0",
+        "S1-07-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Инвестор сравнивает две облигации с одинаковыми денежными потоками и разной требуемой доходностью. Какие утверждения верны?",
+      "focus": "Цена облигации и риск ставки",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-D02",
+      "blocks": [
+        "S1-07-0",
+        "S1-07-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Какие утверждения о дюрации и выпуклости обычной облигации с фиксированными выплатами верны?",
+      "focus": "Дюрация и выпуклость",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-D03",
+      "blocks": [
+        "S1-08-1",
+        "S2-05-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Участник получает финансирование через РЕПО под облигации. Какие факторы могут потребовать дополнительного обеспечения?",
+      "focus": "РЕПО: обеспечение и маржин-колл",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-D04",
+      "blocks": [
+        "S1-05-0",
+        "S1-05-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Какие утверждения о классической секьюритизации кредитного портфеля корректны?",
+      "focus": "Секьюритизация и транширование",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-E01",
+      "blocks": [
+        "E-01-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Компания проводит дополнительный выпуск акций и продаёт новые бумаги инвесторам. Какие утверждения обоснованны?",
+      "focus": "Размещение и размытие доли",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-E02",
+      "blocks": [
+        "E-03-0",
+        "E-03-1",
+        "E-09-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Инвестор оценивает результат владения акцией и сравнивает индексы. Какие утверждения верны?",
+      "focus": "Дивиденды и полная доходность",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-E03",
+      "blocks": [
+        "E-02-0",
+        "E-02-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Две компании имеют близкий P/E. Какие дополнительные проверки необходимы для корректного сравнения?",
+      "focus": "Мультипликаторы и сравнимость",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-E04",
+      "blocks": [
+        "E-10-0",
+        "E-11-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Какие утверждения о диверсификации и модели CAPM обоснованны?",
+      "focus": "Диверсификация, бета, CAPM",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-P01",
+      "blocks": [
+        "S2-04-1",
+        "S2-09-0",
+        "S2-08-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Российский импортёр через три месяца должен купить валюту. Какие действия способны снизить риск её удорожания?",
+      "focus": "Валютный хедж импортёра",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-P02",
+      "blocks": [
+        "S2-02-0",
+        "S2-08-1",
+        "S2-01-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Какие особенности фьючерсной позиции необходимо учитывать при её применении для хеджирования?",
+      "focus": "Фьючерсы, вариационная маржа и базис",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-P03",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Какие утверждения об обычных опционах и рисках держателя корректны?",
+      "focus": "Права и риски опционов",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXM-P04",
+      "blocks": [
+        "S2-06-0",
+        "S2-08-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Компания платит плавающую ставку по кредиту и заключает процентный своп: платит фиксированную, получает плавающую. Какие выводы допустимы?",
+      "focus": "Процентный своп и базисный риск",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-R01",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Поставщик рассматривает факторинг с регрессом и без регресса. Какое утверждение наиболее точно описывает разницу при неплатеже покупателя?",
+      "focus": "Факторинг и регресс",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-R02",
+      "blocks": [
+        "LEASE-01-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Лизингодатель предлагает низкий ежемесячный платёж, но высокий выкупной платёж в конце срока. Что корректнее сравнивать с альтернативным предложением?",
+      "focus": "Экономика лизинга",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-D01",
+      "blocks": [
+        "S1-09-0",
+        "S1-06-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Доходность корпоративных облигаций выросла из-за расширения кредитного спреда при неизменной безрисковой кривой. Какой вывод для обычной фиксированной облигации наиболее обоснован?",
+      "focus": "Кредитный спред и цена облигации",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-D02",
+      "blocks": [
+        "S1-07-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "У двух облигаций близкая модифицированная дюрация, но разная выпуклость. При значительном одинаковом изменении доходности что следует учитывать?",
+      "focus": "Выпуклость облигации",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-E01",
+      "blocks": [
+        "E-09-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Индекс полной доходности акций растёт быстрее ценового индекса на длинном интервале. Какое объяснение наиболее вероятно при сопоставимой методике расчёта?",
+      "focus": "Индекс полной доходности",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-E02",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Для расчёта EPS средневзвешенное число акций за период выросло на 20%, а соответствующая прибыль не изменилась. Какой эффект на EPS следует ожидать без других изменений?",
+      "focus": "Размытие прибыли на акцию",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-P01",
+      "blocks": [
+        "S2-04-1",
+        "S2-01-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Экспортёр получит валюту через три месяца. Какой инструмент непосредственно фиксирует рублёвую цену её будущей продажи?",
+      "focus": "Валютный хедж экспортёра",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXS-P02",
+      "blocks": [
+        "S2-02-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Трейдеру выгодна конечная фьючерсная цена, однако позицию закрывают до срока из-за отсутствия денег на вариационную маржу. Какой риск реализовался?",
+      "focus": "Фьючерсная маржа и ликвидность",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-R01",
+      "blocks": [
+        "R-04-0",
+        "S1-01-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Банк получил процентные доходы 18 млн руб. и понёс процентные расходы 12 млн руб. Средний объём работающих активов 150 млн руб. Чему равна упрощённая чистая процентная маржа в процентах? Введите только число.",
+      "focus": "Процентная маржа банка",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Для EXN-R01 добавлено адресное пояснение NIM в R-04-0."
+    },
+    {
+      "questionId": "EXN-R02",
+      "blocks": [
+        "FACTOR-01-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Фактор финансирует 80% требования на 2,5 млн руб. и сразу удерживает комиссию 1,5% от всей суммы требования. Сколько рублей фактически получит поставщик первоначально? Введите число.",
+      "focus": "Стоимость факторинга",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-R03",
+      "blocks": [
+        "LEASE-01-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "По лизинговому договору предусмотрены 24 платежа по 20 тыс. руб. и выкуп за 40 тыс. руб. Сколько тысяч рублей составит номинальная сумма платежей без дисконтирования? Введите число.",
+      "focus": "Совокупный платёж по лизингу",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-R04",
+      "blocks": [
+        "S1-01-0",
+        "R-04-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "У компании в ближайший месяц ожидаемые денежные выплаты составят 90 млн руб., а доступные ликвидные средства — 72 млн руб. Каков разрыв ликвидности в млн руб. без новых привлечений? Введите положительное число дефицита.",
+      "focus": "Платёжный календарь и разрыв ликвидности",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-D01",
+      "blocks": [
+        "S1-06-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Бескупонная облигация покупается за 900 руб. и погашается через один год по 1000 руб. Чему равна простая годовая доходность к погашению в процентах? Введите число с точностью до сотых.",
+      "focus": "Доходность бескупонной облигации",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-D02",
+      "blocks": [
+        "S1-06-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Чистая цена облигации составляет 985,40 руб., накопленный купонный доход — 12,60 руб. Чему равна грязная цена в рублях? Введите число.",
+      "focus": "Чистая и грязная цена",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-D03",
+      "blocks": [
+        "S1-07-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Модифицированная дюрация облигации 4,8. Требуемая доходность выросла на 0,5 процентного пункта. На сколько процентов приблизительно изменится цена по линейной оценке? Введите число со знаком.",
+      "focus": "Модифицированная дюрация",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-D04",
+      "blocks": [
+        "S1-08-1",
+        "S2-05-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "В сделке РЕПО рыночная стоимость обеспечения равна 100 млн руб., дисконт к ней — 5%. Каков максимально учитываемый объём обеспечения в млн руб. в упрощённом расчёте? Введите число.",
+      "focus": "Дисконт обеспечения в РЕПО",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-E01",
+      "blocks": [
+        "E-03-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Компания выплатила 7,50 руб. дивидендов на акцию. Рыночная цена акции 150 руб. Рассчитайте дивидендную доходность в процентах по этой цене. Введите число.",
+      "focus": "Дивидендная доходность",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-E02",
+      "blocks": [
+        "E-02-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Капитализация компании — 96 млрд руб., чистая прибыль за год — 12 млрд руб. Чему равен коэффициент P/E? Введите число без единиц.",
+      "focus": "Оценка акции по P/E",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-E03",
+      "blocks": [
+        "E-10-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Начальные доли двух акций в портфеле — 30% и 70%. Их доходности за один период равны 10% и −2%. Какова доходность портфеля в процентах без пополнений, изъятий, ребалансировки и комиссий? Введите число.",
+      "focus": "Взвешенная доходность портфеля",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-E04",
+      "blocks": [
+        "E-02-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Капитализация компании — 700 млн руб., долг — 250 млн руб., денежные средства — 90 млн руб. Найдите упрощённую стоимость бизнеса EV в млн руб. Введите число.",
+      "focus": "Стоимость бизнеса EV",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-P01",
+      "blocks": [
+        "S2-02-1"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Спотовая цена актива 100 руб., годовая простая ставка финансирования 8%, до исполнения форварда 6 месяцев, доходов актива нет. Какова теоретическая форвардная цена в рублях при простом начислении? Введите число.",
+      "focus": "Форвардная цена и стоимость переноса",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-P02",
+      "blocks": [
+        "S2-09-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Куплен европейский call со страйком 95 руб. и премией 8 руб. За базовый актив на дату исполнения платят 120 руб. Каков результат по одному опциону на дату истечения в рублях без комиссий? Введите число.",
+      "focus": "Результат по call",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-P03",
+      "blocks": [
+        "S2-06-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "По процентному свопу компания получает плавающую ставку 12,1% и платит фиксированную 10,5% на номинал 20 млн руб. за период 0,25 года. Каков чистый платёж, получаемый компанией, в тысячах рублей? Введите число.",
+      "focus": "Чистые платежи по процентному свопу",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    },
+    {
+      "questionId": "EXN-P04",
+      "blocks": [
+        "S2-02-0"
+      ],
+      "basis": "editorial_navigation_mapping",
+      "question": "Куплен фьючерсный контракт на 1000 единиц актива по цене 105 руб. за единицу. Расчётная цена выросла до 111 руб. Какова положительная вариационная маржа в рублях без комиссий? Введите число.",
+      "focus": "Вариационная маржа",
+      "status": "NAVIGATION_VERIFIED",
+      "note": "Сопоставлены механизм/права/потоки/расчёт задания и указанные блоки; назначение в основном курсе не меняется."
+    }
+  ],
+  "targetedSupplement": {
+    "block": "R-04-0",
+    "anchor": "theory-nim",
+    "questionId": "EXN-R01",
+    "kind": "editorial explanation of NIM for existing standalone numeric practice",
+    "source": "https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2021-vol15-2/fdic-v15n2-1q2021.pdf"
+  }
+}

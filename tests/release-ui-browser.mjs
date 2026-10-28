@@ -1,10 +1,11 @@
 import {chromium} from 'playwright-core';
 import {resolve} from 'node:path';
-import {mkdirSync,writeFileSync} from 'node:fs';
+import {mkdirSync,writeFileSync,readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 
 const root=resolve(import.meta.dirname,'..'),out=resolve(root,'test-artifacts');
 mkdirSync(out,{recursive:true});
+const release=JSON.parse(readFileSync(resolve(root,'docs/project/PROJECT_STATE.md'),'utf8').match(/<!-- STATE_JSON_BEGIN -->\s*```json\s*([\s\S]*?)\s*```/)[1]).working_version;
 const browser=await chromium.launch({executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const page=await browser.newPage({viewport:{width:1440,height:900},colorScheme:'light'}),errors=[],evidence=[];
 page.on('pageerror',e=>errors.push(e.message));
@@ -26,7 +27,7 @@ async function inspect(label){
 async function screen(name){await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:resolve(out,'release6-'+name+'.png')});}
 try{
  await page.goto('file://'+resolve(root,'index.html'));
- assert.equal(await page.locator('meta[name="trainer-version"]').getAttribute('content'),'6.0');
+ assert.equal(await page.locator('meta[name="trainer-version"]').getAttribute('content'),release);
  const tabs=['overview','learn','quiz','catalog','stats','sources','about'];
  for(const width of [1440,320]){
   await page.setViewportSize({width,height:900});
@@ -89,7 +90,7 @@ try{
  assert.equal(await page.evaluate(()=>Object.keys(session.grades).length),0);
  // The historical chooser also uses dark surfaces with a light OS preference.
  await page.goto('file://'+resolve(root,'versions/index.html'));
- assert.match(await page.locator('main').innerText(),/6\.0/);
+ assert.ok((await page.locator('main').innerText()).includes(release));
  assert.equal(await page.locator('.card').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(17, 40, 58)');
  await screen('versions');
  assert.deepEqual(evidence.filter(r=>r.pale.length||r.overflow),[],'visual findings across all screens/lessons');
