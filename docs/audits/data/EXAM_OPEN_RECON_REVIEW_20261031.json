@@ -1013,5 +1013,17 @@
     "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
     "public_files_match": 17,
     "artifact": 13058525936
+  },
+  "final_acceptance": {
+    "version": "6.1.5",
+    "commit": "d2c39bae380ebfe36437cd3cb2b59b1190900eea",
+    "pr": 87,
+    "feature_pr": 86,
+    "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
+    "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262",
+    "live_proof": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248963920",
+    "public_files_match": 18,
+    "core_artifact": 13060036703,
+    "course_artifact": 13060436267
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-10-31",
-  "status": "LOCAL_PASS_FULL_BROWSER_PENDING",
+  "status": "PUBLISHED_LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
   "official_model": false,
   "profile_id": "theory-exam-50-v1",
   "revision": "2026-10-31",
@@ -1111,14 +1111,29 @@
     }
   ],
   "verification": {
-    "local": "29_PROGRAMS_PASS_1000_SEEDED_SETS_AND_ASSESSMENT_BOUNDARIES",
-    "browser": "PENDING",
-    "pages": "PENDING",
-    "live": "PENDING"
+    "check_programs": 29,
+    "seeded_sets": 1000,
+    "browser_programs": 12,
+    "browser_groups": 3,
+    "live_public_files_match": 18,
+    "assessment_boundaries": "PASS",
+    "legacy_compatibility": "PASS"
   },
   "practice_only_calculation_multi": [
     "TRANSFER-INDEX-01",
     "TRANSFER-COLLATERAL-01"
   ],
-  "eligible_total": 93
+  "eligible_total": 93,
+  "publication": {
+    "version": "6.1.5",
+    "commit": "d2c39bae380ebfe36437cd3cb2b59b1190900eea",
+    "pr": 87,
+    "feature_pr": 86,
+    "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
+    "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262",
+    "live_proof": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248963920",
+    "public_files_match": 18,
+    "core_artifact": 13060036703,
+    "course_artifact": 13060436267
+  }
 }
