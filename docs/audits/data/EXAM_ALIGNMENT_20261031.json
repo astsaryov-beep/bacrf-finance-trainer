@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_commit": "b3287408d1c7e9221ce25e825dde071586e789f5",
-  "status": "IN_PROGRESS_LISTS_IMPLEMENTED",
+  "status": "IN_PROGRESS_SECOND_PACKAGE_PUBLISHED",
   "inventory": {
     "raw_question_objects": 569,
     "unique_question_ids": 553,
@@ -1104,11 +1104,11 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-28"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Рыночная цена учитывает всё",
         "Цены двигаются направленно",
@@ -1122,13 +1122,14 @@
           60
         ]
       },
-      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "LISTS_PUBLISHED_VERIFIED",
       "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
       "rubric": [
         "Названы все три аксиомы.",
         "Объяснена роль цены как отражения факторов в рамках подхода.",
         "Не заявлена гарантия общей осведомлённости, точного прогноза или справедливой цены."
-      ]
+      ],
+      "published_version": "6.1.1"
     },
     {
       "id": "EX17-29",
@@ -1423,12 +1424,12 @@
       "candidate_excerpts": [],
       "gap_type": "PARTIAL",
       "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-39",
         "TRANSFER-FUNDING-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "D — отклонение цены вечного фьючерса от базового ориентира по методике контракта",
         "L1 — допустимое отклонение (нейтральная зона)",
@@ -1441,13 +1442,14 @@
           31
         ]
       },
-      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "LISTS_PUBLISHED_VERIFIED",
       "semantic_finding": "D/L₁/L₂ и кусочная формула уже полностью есть в S2-03-1; нужен отдельный закрытый recall и проверка границ, длинный вывод не продублирован.",
       "rubric": [
         "D и роль отклонения",
         "L₁ и нулевая зона",
         "L₂ и предел одного платежа"
-      ]
+      ],
+      "published_version": "6.1.1"
     },
     {
       "id": "EX17-40",
@@ -1592,12 +1594,12 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-45",
         "TRANSFER-WATERFALL-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Индивидуальное ГО дефолтера",
         "Взнос дефолтера в гарантийный фонд",
@@ -1610,13 +1612,14 @@
           13
         ]
       },
-      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "LISTS_PUBLISHED_VERIFIED",
       "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
       "rubric": [
         "Первым названо индивидуальное обеспечение дефолтера.",
         "Вторым назван его собственный взнос в гарантийный фонд.",
         "Третьим назван выделенный капитал ЦК; порядок первых трёх уровней сохранён."
-      ]
+      ],
+      "published_version": "6.1.1"
     },
     {
       "id": "EX17-46",
@@ -1651,12 +1654,12 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-46",
         "TRANSFER-ASV-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Страхование вкладов",
         "Гарантирование в пенсионных системах",
@@ -1668,13 +1671,14 @@
           16
         ]
       },
-      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "LISTS_PUBLISHED_VERIFIED",
       "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
       "rubric": [
         "Названо страхование вкладов.",
         "Названо гарантирование прав в пенсионных системах.",
         "Названы функции конкурсного управляющего/ликвидатора финансовых организаций."
-      ]
+      ],
+      "published_version": "6.1.1"
     },
     {
       "id": "EX17-47",
@@ -1722,12 +1726,12 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-48",
         "TRANSFER-DOW-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Накопление",
         "Публичное участие",
@@ -1741,13 +1745,14 @@
           62
         ]
       },
-      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "LISTS_PUBLISHED_VERIFIED",
       "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
       "rubric": [
         "В порядке названы накопление, публичное участие и распределение.",
         "Различены действия ранних участников и широкой публики по фазам.",
         "Сигнал возможного разворота объяснён через подтверждение изменения тенденции, а не гарантированный исход."
-      ]
+      ],
+      "published_version": "6.1.1"
     },
     {
       "id": "EX17-49",
