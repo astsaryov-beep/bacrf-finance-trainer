@@ -12,24 +12,24 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-28",
   "next_task": "T-28",
-  "last_verified_checkpoint": "CP-20261031-143",
-  "last_verified_commit": "bac5e67bf1e8263d3bfcf3ea086d0ce9c42633da",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41197807164",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41198278783",
+  "last_verified_checkpoint": "CP-20261031-145",
+  "last_verified_commit": "1240069e758ffd39b4882f428e0ff54a4227bd7e",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41199287155",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41199788872",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-31",
-  "current_release": "6.1.0",
+  "current_release": "6.1.1",
   "release_channel": "stable"
 }
 ```
 <!-- STATE_JSON_END -->
 
-**Первый пакет6.1.0 VERIFIED; T27–T30 IN_PROGRESS.**
+**6.1.1 VERIFIED; полное ТЗ IN_PROGRESS.**
 
-[PR77](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/77), продукт `bac5e67bf1e8263d3bfcf3ea086d0ce9c42633da`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41197807164) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41198278783) SUCCESS. Дерево приложения совпало с проверенным PR;17публичных файлов live MATCH.
+[PR79](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/79), продукт `1240069e758ffd39b4882f428e0ff54a4227bd7e`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41199287155) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41199788872) SUCCESS;17публичных файлов live MATCH,дерево приложения совпало с проверенным PR.
 
-28локальных и12браузерных программ PASS. Новый набор проверяет518уникальных тренировочныхID,5связанных упражнений,4полных/кратких пояснения,цветовые подписи,точный возврат/черновики,независимые денежные/квантильные/хеджевые примеры. Браузер проверил310состояний и отсутствие служебных путей; прежние96блоков,экзамен,истории,импорт/экспорт сохранены.
+28локальных и12браузерных программ PASS. Подтверждены527связей к теории,все14новых упражнений на320px,фактическая проверкаmultiс1/4верными ичастичного выбора,атомарные рубрики,сохранение/возврат/перезагрузка. 310UI-состояний без pageerror,белых поверхностей,переполнения ислужебных путей. Осмотрены снимки фиолетового экзаменационного иоранжевого восстановленного вопроса на320px.
 
-Полная задача T27–T30 НЕ завершена: в публичной матрице4из86записей имеют реализованный пакет,82ещё не закрыты;10из125альтернатив получили независимое обоснование,115ожидают проверки. Официального ключа нет. Итоговый профиль25/25 пока прежний; новые5вопросов доступны в тренировке. Следующий пакет — точные перечни Доу/ЦК/АСВ и параметры funding, затем оставшиеся составные/правовые/индексные задачи и новый экзаменационный профиль.
+T27–T30 IN_PROGRESS: опубликовано9из86целевых записей (8по скану+1реконструкция),77не закрыты. Независимо обосновано10из125исходных альтернатив,115ожидают проверки;новые синтетическиеmultiвэтотсчёт не входят. Текущий итоговый экзамен пока прежний; T29 будет реализован после предметной матрицы.
 
-Семь основных констант содержания/вопросов побайтно сохранены,513старых тренировочныхID/ключей и135основных карточек не менялись. Историческая5.0.8 заморожена. [План](EXAM_ALIGNMENT_PLAN.md) · [Контекст](CHAT_HANDOFF.md) · [Матрица/отчёт](../audits/EXAM_ALIGNMENT_20261031.md).
+Прежние513вопросов,96блоков,135формульных карточек,ID/истории/frozen сохранены. Семь основных констант побайтно не менялись; добавления адресные. [План](EXAM_ALIGNMENT_PLAN.md) · [Контекст](CHAT_HANDOFF.md) · [Матрица/отчёт](../audits/EXAM_ALIGNMENT_20261031.md).
