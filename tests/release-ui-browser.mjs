@@ -34,8 +34,8 @@ try{
  assert.equal(await page.locator('#teacherPractice').innerText(),'Тренировать 19 вопросов из теста');
 
  const labelsNew=await page.evaluate(()=>ExamAlignment.questions.map(q=>({id:q.id,markup:badge(q),links:FinanceTheoryUI.blocks(q).length})));
- assert.equal(labelsNew.length,5);assert.ok(labelsNew.every(x=>x.links===1));
- assert.equal(labelsNew.filter(x=>x.markup.includes('Экзаменационное задание · адаптировано')).length,3);
+ assert.equal(labelsNew.length,14);assert.ok(labelsNew.every(x=>x.links===1));
+ assert.equal(labelsNew.filter(x=>x.markup.includes('Экзаменационное задание · адаптировано')).length,8);
  assert.equal(labelsNew.filter(x=>x.markup.includes('Восстановленный вопрос')).length,1);
  const tabs=['overview','learn','quiz','catalog','stats','sources','about'];
  for(const width of [1440,320]){
@@ -45,7 +45,7 @@ try{
    else await page.locator('.top-tabs [data-tab="'+name+'"]').click();
    await page.evaluate(()=>{document.querySelectorAll('#content details').forEach(el=>el.open=true)});
    await inspect(name+'-'+width);await screen(name+'-'+width);
-   if(name==='about')assert.match(await page.locator('#content').innerText(),/518 вопросов/);
+   if(name==='about')assert.match(await page.locator('#content').innerText(),/527 вопросов/);
   }
  }
  // Inspect every complete lesson, including all nested explanations, at phone width.

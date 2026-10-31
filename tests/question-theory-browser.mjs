@@ -7,7 +7,7 @@ async function openLinks(id){const card=page.locator('[data-theory-for="'+id+'"]
 try{
  await page.goto('file://'+resolve(root,'index.html'));
  const coverage=await page.evaluate(()=>EFFECTIVE_BANK.map(q=>({id:q.id,links:FinanceTheoryUI.blocks(q).map(b=>b.key)})));
- assert.equal(coverage.length,518);assert.ok(coverage.every(x=>x.links.length));
+ assert.equal(coverage.length,527);assert.ok(coverage.every(x=>x.links.length));
  // A completed course block opens directly as full theory, preserving its results.
  await page.evaluate(()=>{studyData.blocks[studyKey('S1-05',0)]={answers:{Q04:{checked:true,selected:[0],score:0}},complete:true,completedAt:'2026-10-28T00:00:00Z'};persistStudy()});
  const before=await page.evaluate(()=>JSON.stringify(studyData.blocks[studyKey('S1-05',0)]));
@@ -49,6 +49,15 @@ try{
  assert.match(await page.locator('[data-aligned-block="R-02-0"]').innerText(),/Право быть выслушанным/);
  await page.reload();await page.locator('[data-theory-return]').click();assert.match(await page.locator('#freeText').inputValue(),/Право на информацию/);
  assert.equal(await page.evaluate(()=>Object.hasOwn(session.grades,'RECON-01')),false);
- assert.deepEqual(errors,[]);console.log('PASS question theory UI:518 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
+ await fixture(['TRANSFER-FUNDING-01']);await page.locator('input[name="qoption"][value="0"]').check();await page.locator('#check').click();assert.equal(await page.evaluate(()=>session.grades['TRANSFER-FUNDING-01'].strict),true);
+ await fixture(['TRANSFER-WATERFALL-01']);for(const i of [0,1,2])await page.locator('input[name="qoption"][value="'+i+'"]').check();await page.locator('#check').click();assert.equal(await page.evaluate(()=>session.grades['TRANSFER-WATERFALL-01'].strict),false);assert.equal(await page.evaluate(()=>session.grades['TRANSFER-WATERFALL-01'].score),.75);
+ await fixture(['EX17-45']);assert.equal(await page.locator('.question').evaluate(el=>getComputedStyle(el).color),'rgb(226, 214, 255)');await page.screenshot({path:resolve(out,'exam-list-purple.png')});
+ await fixture(['RECON-01']);assert.equal(await page.locator('.question').evaluate(el=>getComputedStyle(el).color),'rgb(255, 214, 161)');await page.screenshot({path:resolve(out,'exam-reconstruction-orange.png')});
+ await page.setViewportSize({width:320,height:900});
+ const newIds=await page.evaluate(()=>ExamAlignment.questions.map(q=>q.id));
+ for(const id of newIds){await fixture([id]);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'new question320px '+id);assert.ok(await page.locator('.qmeta .tag').last().innerText());}
+ await fixture(['EX17-45']);await page.screenshot({path:resolve(out,'exam-list-purple-320.png')});
+ await fixture(['RECON-01']);await page.screenshot({path:resolve(out,'exam-reconstruction-orange-320.png')});
+ assert.deepEqual(errors,[]);console.log('PASS question theory UI:527 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
 }catch(e){await page.screenshot({path:resolve(out,'theory-links-failure.png')});throw e}
-finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:518,errors},null,2));await browser.close()}
+finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:527,errors},null,2));await browser.close()}

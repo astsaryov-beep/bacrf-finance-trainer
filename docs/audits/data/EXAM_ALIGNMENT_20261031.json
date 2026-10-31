@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_commit": "b3287408d1c7e9221ce25e825dde071586e789f5",
-  "status": "IN_PROGRESS_FIRST_FOUNDATIONS_PUBLISHED",
+  "status": "IN_PROGRESS_LISTS_IMPLEMENTED",
   "inventory": {
     "raw_question_objects": 569,
     "unique_question_ids": 553,
@@ -10,7 +10,8 @@
     "original_exam_questions": 50,
     "original_alternatives": 125,
     "reconstruction_records": 36,
-    "effective_training_bank_after_foundations": 518
+    "effective_training_bank_after_foundations": 518,
+    "effective_training_bank_after_lists": 527
   },
   "rows": [
     {
@@ -1081,8 +1082,7 @@
       "text_status": "VISUALLY_RECONCILED_NORMALIZED",
       "skill": "дословно 3 аксиомы Доу без вариантов",
       "existing_block_ids": [
-        "E-12-0",
-        "E-12-1"
+        "E-12-0"
       ],
       "existing_training_question_ids": [
         "S3-013",
@@ -1102,11 +1102,33 @@
           "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
         }
       ],
-      "gap_type": "PENDING_SEMANTIC_REVIEW",
-      "key_verification_status": "UNVERIFIED",
-      "qa_status": "SOURCE_RECONCILED_ONLY",
-      "new_training_ids": [],
-      "published": false
+      "gap_type": "PARTIAL",
+      "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_BROWSER_PENDING",
+      "new_training_ids": [
+        "EX17-28"
+      ],
+      "published": false,
+      "required_elements": [
+        "Рыночная цена учитывает всё",
+        "Цены двигаются направленно",
+        "История повторяется",
+        "Экономический смысл первой аксиомы без заявления о фактически одинаковой информации"
+      ],
+      "presentation_ref": {
+        "document": "S3",
+        "pdf_pages": [
+          59,
+          60
+        ]
+      },
+      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
+      "rubric": [
+        "Названы все три аксиомы.",
+        "Объяснена роль цены как отражения факторов в рамках подхода.",
+        "Не заявлена гарантия общей осведомлённости, точного прогноза или справедливой цены."
+      ]
     },
     {
       "id": "EX17-29",
@@ -1394,14 +1416,38 @@
       "original_page": 5,
       "text_status": "VISUALLY_RECONCILED_NORMALIZED",
       "skill": "формула funding perpetual future, 3 параметра",
-      "existing_block_ids": [],
+      "existing_block_ids": [
+        "S2-03-1"
+      ],
       "existing_training_question_ids": [],
       "candidate_excerpts": [],
-      "gap_type": "PENDING_SEMANTIC_REVIEW",
-      "key_verification_status": "UNVERIFIED",
-      "qa_status": "SOURCE_RECONCILED_ONLY",
-      "new_training_ids": [],
-      "published": false
+      "gap_type": "PARTIAL",
+      "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_BROWSER_PENDING",
+      "new_training_ids": [
+        "EX17-39",
+        "TRANSFER-FUNDING-01"
+      ],
+      "published": false,
+      "required_elements": [
+        "D — отклонение цены вечного фьючерса от базового ориентира по методике контракта",
+        "L1 — допустимое отклонение (нейтральная зона)",
+        "L2 — максимальный модуль фандинга"
+      ],
+      "presentation_ref": {
+        "document": "S2",
+        "pdf_pages": [
+          30,
+          31
+        ]
+      },
+      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "semantic_finding": "D/L₁/L₂ и кусочная формула уже полностью есть в S2-03-1; нужен отдельный закрытый recall и проверка границ, длинный вывод не продублирован.",
+      "rubric": [
+        "D и роль отклонения",
+        "L₁ и нулевая зона",
+        "L₂ и предел одного платежа"
+      ]
     },
     {
       "id": "EX17-40",
@@ -1521,8 +1567,7 @@
       "text_status": "VISUALLY_RECONCILED_NORMALIZED",
       "skill": "3 уровня дефолтной защиты ЦК, в порядке использования",
       "existing_block_ids": [
-        "R-01-0",
-        "R-01-1"
+        "S2-01-1"
       ],
       "existing_training_question_ids": [
         "RM01",
@@ -1545,11 +1590,33 @@
           "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
         }
       ],
-      "gap_type": "PENDING_SEMANTIC_REVIEW",
-      "key_verification_status": "UNVERIFIED",
-      "qa_status": "SOURCE_RECONCILED_ONLY",
-      "new_training_ids": [],
-      "published": false
+      "gap_type": "PARTIAL",
+      "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_BROWSER_PENDING",
+      "new_training_ids": [
+        "EX17-45",
+        "TRANSFER-WATERFALL-01"
+      ],
+      "published": false,
+      "required_elements": [
+        "Индивидуальное ГО дефолтера",
+        "Взнос дефолтера в гарантийный фонд",
+        "Выделенный собственный капитал ЦК",
+        "Указанный порядок использования"
+      ],
+      "presentation_ref": {
+        "document": "S2",
+        "pdf_pages": [
+          13
+        ]
+      },
+      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
+      "rubric": [
+        "Первым названо индивидуальное обеспечение дефолтера.",
+        "Вторым назван его собственный взнос в гарантийный фонд.",
+        "Третьим назван выделенный капитал ЦК; порядок первых трёх уровней сохранён."
+      ]
     },
     {
       "id": "EX17-46",
@@ -1559,7 +1626,6 @@
       "text_status": "VISUALLY_RECONCILED_NORMALIZED",
       "skill": "3 функции АСВ дословно",
       "existing_block_ids": [
-        "R-03-0",
         "R-03-1"
       ],
       "existing_training_question_ids": [
@@ -1583,11 +1649,32 @@
           "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
         }
       ],
-      "gap_type": "PENDING_SEMANTIC_REVIEW",
-      "key_verification_status": "UNVERIFIED",
-      "qa_status": "SOURCE_RECONCILED_ONLY",
-      "new_training_ids": [],
-      "published": false
+      "gap_type": "PARTIAL",
+      "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_BROWSER_PENDING",
+      "new_training_ids": [
+        "EX17-46",
+        "TRANSFER-ASV-01"
+      ],
+      "published": false,
+      "required_elements": [
+        "Страхование вкладов",
+        "Гарантирование в пенсионных системах",
+        "Ликвидатор при банкротстве финансовых организаций"
+      ],
+      "presentation_ref": {
+        "document": "L3",
+        "pdf_pages": [
+          16
+        ]
+      },
+      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
+      "rubric": [
+        "Названо страхование вкладов.",
+        "Названо гарантирование прав в пенсионных системах.",
+        "Названы функции конкурсного управляющего/ликвидатора финансовых организаций."
+      ]
     },
     {
       "id": "EX17-47",
@@ -1613,7 +1700,6 @@
       "text_status": "VISUALLY_RECONCILED_NORMALIZED",
       "skill": "3 фазы Доу, роли, сигнал разворота",
       "existing_block_ids": [
-        "E-12-0",
         "E-12-1"
       ],
       "existing_training_question_ids": [
@@ -1634,11 +1720,34 @@
           "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
         }
       ],
-      "gap_type": "PENDING_SEMANTIC_REVIEW",
-      "key_verification_status": "UNVERIFIED",
-      "qa_status": "SOURCE_RECONCILED_ONLY",
-      "new_training_ids": [],
-      "published": false
+      "gap_type": "PARTIAL",
+      "key_verification_status": "SOURCE_AND_CONDITIONAL_PRIMARY_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_BROWSER_PENDING",
+      "new_training_ids": [
+        "EX17-48",
+        "TRANSFER-DOW-01"
+      ],
+      "published": false,
+      "required_elements": [
+        "Накопление",
+        "Публичное участие",
+        "Распределение",
+        "Роли участников и ограниченный смысл сигнала разворота"
+      ],
+      "presentation_ref": {
+        "document": "S3",
+        "pdf_pages": [
+          61,
+          62
+        ]
+      },
+      "action_status": "LISTS_IMPLEMENTED_PENDING_FULL_CI",
+      "semantic_finding": "Часть объяснения уже есть; добавлен точный учебный перечень и самостоятельное воспроизведение/перенос.",
+      "rubric": [
+        "В порядке названы накопление, публичное участие и распределение.",
+        "Различены действия ранних участников и широкой публики по фазам.",
+        "Сигнал возможного разворота объяснён через подтверждение изменения тенденции, а не гарантированный исход."
+      ]
     },
     {
       "id": "EX17-49",
