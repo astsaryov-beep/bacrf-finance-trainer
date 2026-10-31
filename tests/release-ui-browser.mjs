@@ -19,7 +19,7 @@ async function inspect(label){
    if(r.width<120||r.height<32||c.visibility==='hidden'||!rgb)continue;
    if((rgb[3]??1)>.8&&rgb.slice(0,3).every(v=>v>210))pale.push({tag:el.tagName,cls:el.className,text:el.textContent.trim().slice(0,65),bg:c.backgroundColor});
   }
-  return {pale,overflow:document.documentElement.scrollWidth>innerWidth+2,width:innerWidth};
+  return {pale,overflow:document.documentElement.scrollWidth>innerWidth+2,width:innerWidth,internalText:/docs\/audits\/|audit_work|пересдач/i.test(document.querySelector('#content')?.innerText||'')};
  });
  evidence.push({label,...result});
  // Collect all visual findings in one pass to avoid one CI round per card.
@@ -33,6 +33,10 @@ try{
  assert.match(await page.locator('#questionSource').innerText(),/Только вопросы из теста \(19\)/);
  assert.equal(await page.locator('#teacherPractice').innerText(),'Тренировать 19 вопросов из теста');
 
+ const labelsNew=await page.evaluate(()=>ExamAlignment.questions.map(q=>({id:q.id,markup:badge(q),links:FinanceTheoryUI.blocks(q).length})));
+ assert.equal(labelsNew.length,5);assert.ok(labelsNew.every(x=>x.links===1));
+ assert.equal(labelsNew.filter(x=>x.markup.includes('Экзаменационное задание · адаптировано')).length,3);
+ assert.equal(labelsNew.filter(x=>x.markup.includes('Восстановленный вопрос')).length,1);
  const tabs=['overview','learn','quiz','catalog','stats','sources','about'];
  for(const width of [1440,320]){
   await page.setViewportSize({width,height:900});
@@ -41,7 +45,7 @@ try{
    else await page.locator('.top-tabs [data-tab="'+name+'"]').click();
    await page.evaluate(()=>{document.querySelectorAll('#content details').forEach(el=>el.open=true)});
    await inspect(name+'-'+width);await screen(name+'-'+width);
-   if(name==='about')assert.match(await page.locator('#content').innerText(),/513 вопросов/);
+   if(name==='about')assert.match(await page.locator('#content').innerText(),/518 вопросов/);
   }
  }
  // Inspect every complete lesson, including all nested explanations, at phone width.
@@ -98,7 +102,7 @@ try{
  assert.ok((await page.locator('main').innerText()).includes(release));
  assert.equal(await page.locator('.card').first().evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(17, 40, 58)');
  await screen('versions');
- assert.deepEqual(evidence.filter(r=>r.pale.length||r.overflow),[],'visual findings across all screens/lessons');
+ assert.deepEqual(evidence.filter(r=>r.pale.length||r.overflow||r.internalText),[],'visual findings across all screens/lessons');
  assert.deepEqual(errors,[]);
  console.log('PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors');
 }catch(e){await page.screenshot({path:resolve(out,'release6-failure.png')});throw e}

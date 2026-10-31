@@ -7,7 +7,7 @@ async function openLinks(id){const card=page.locator('[data-theory-for="'+id+'"]
 try{
  await page.goto('file://'+resolve(root,'index.html'));
  const coverage=await page.evaluate(()=>EFFECTIVE_BANK.map(q=>({id:q.id,links:FinanceTheoryUI.blocks(q).map(b=>b.key)})));
- assert.equal(coverage.length,513);assert.ok(coverage.every(x=>x.links.length));
+ assert.equal(coverage.length,518);assert.ok(coverage.every(x=>x.links.length));
  // A completed course block opens directly as full theory, preserving its results.
  await page.evaluate(()=>{studyData.blocks[studyKey('S1-05',0)]={answers:{Q04:{checked:true,selected:[0],score:0}},complete:true,completedAt:'2026-10-28T00:00:00Z'};persistStudy()});
  const before=await page.evaluate(()=>JSON.stringify(studyData.blocks[studyKey('S1-05',0)]));
@@ -35,6 +35,20 @@ try{
  // A real active exam exposes neither links nor answer explanations.
  await page.evaluate(()=>{session=null;persist();tab='quiz';render()});await page.locator('#mode').selectOption('exam');await page.locator('#start').click();assert.equal(await page.evaluate(()=>session.ids.length),50);assert.equal(await page.locator('[data-question-theory]').count(),0);assert.equal(await page.locator('[data-theory-for]').count(),0);
  await page.evaluate(()=>FinanceTheoryUI.open({dataset:{friOpenLesson:'S1-05',friOpenBlock:'0',questionTheory:'Q04'}}));assert.equal(await page.evaluate(()=>tab),'quiz');assert.equal(await page.locator('#v5-level-1').count(),0);assert.equal(await page.evaluate(()=>Object.keys(session.grades).length),0);
- assert.deepEqual(errors,[]);console.log('PASS question theory UI:513 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
+ // New source-reviewed practice preserves drafts and opens its actual prerequisite.
+ await fixture(['EX17-03','RECON-01']);
+ assert.equal(await page.locator('.exam-source-tag').innerText(),'Экзаменационное задание · адаптировано');
+ for(const i of [0,1,2])await page.locator('input[name="qoption"][value="'+i+'"]').check();
+ await page.locator('#check').click();assert.equal(await page.evaluate(()=>session.grades['EX17-03'].strict),true);
+ const vmLinks=await openLinks('EX17-03');await vmLinks.locator('[data-question-theory]').click();
+ assert.ok(await page.locator('[data-aligned-block="S2-02-0"]').innerText().then(s=>s.includes('РЦ1')&&s.includes('W/R')));
+ await page.locator('[data-theory-return]').click();await page.locator('#next').click();
+ assert.equal(await page.locator('.reconstructed-source-tag').innerText(),'Восстановленный вопрос');
+ await page.locator('#freeText').fill('Право на информацию: существенные риски нужны для осознанного выбора.');
+ const rightsLinks=await openLinks('RECON-01');await rightsLinks.locator('[data-question-theory]').click();
+ assert.match(await page.locator('[data-aligned-block="R-02-0"]').innerText(),/Право быть выслушанным/);
+ await page.reload();await page.locator('[data-theory-return]').click();assert.match(await page.locator('#freeText').inputValue(),/Право на информацию/);
+ assert.equal(await page.evaluate(()=>Object.hasOwn(session.grades,'RECON-01')),false);
+ assert.deepEqual(errors,[]);console.log('PASS question theory UI:518 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
 }catch(e){await page.screenshot({path:resolve(out,'theory-links-failure.png')});throw e}
-finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:513,errors},null,2));await browser.close()}
+finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:518,errors},null,2));await browser.close()}

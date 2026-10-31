@@ -5,26 +5,26 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.0.3",
+  "working_version": "6.1.0",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
-  "next_task": "T-23",
+  "phase": "IN_PROGRESS",
+  "active_task": "T-27",
+  "next_task": "T-27",
   "last_verified_checkpoint": "CP-20261028-140",
   "last_verified_commit": "a6a19bfb46c918873e88567902fa284e4c31a596",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678054057",
   "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678892389",
   "last_verified_status": "VERIFIED",
-  "state_updated_on": "2026-10-28",
+  "state_updated_on": "2026-10-31",
   "current_release": "6.0.3",
   "release_channel": "stable"
 }
 ```
 <!-- STATE_JSON_END -->
 
-**6.0.3 VERIFIED. T26 завершена.**
+**T27–T30 IN_PROGRESS. Опубликованный продукт6.0.3 остаётся VERIFIED.** Новая содержательная проверка ведётся по [плану](EXAM_ALIGNMENT_PLAN.md); прежняя приёмка не доказывает новый охват.
 
 [PR75](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/75), продукт `a6a19bfb46c918873e88567902fa284e4c31a596`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678054057) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678892389) SUCCESS; приложение после merge совпало с проверенным PR;16 публичных файлов live MATCH.
 

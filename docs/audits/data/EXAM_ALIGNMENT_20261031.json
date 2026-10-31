@@ -1,0 +1,2236 @@
+{
+  "schema_version": 1,
+  "base_commit": "b3287408d1c7e9221ce25e825dde071586e789f5",
+  "status": "IN_PROGRESS_FOUNDATIONS_IMPLEMENTED",
+  "inventory": {
+    "raw_question_objects": 569,
+    "unique_question_ids": 553,
+    "effective_training_bank": 513,
+    "blocks": 96,
+    "original_exam_questions": 50,
+    "original_alternatives": 125,
+    "reconstruction_records": 36,
+    "effective_training_bank_after_foundations": 518
+  },
+  "rows": [
+    {
+      "id": "EX17-01",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 1,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "ПФИ, стандартизация, контрагент и поставка, 5 нюансов",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-02",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 2,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "75%, squeeze-out, добровольный/принудительный делистинг, различие правовых оснований",
+      "existing_block_ids": [
+        "E-06-0",
+        "E-07-0"
+      ],
+      "existing_training_question_ids": [
+        "S3-001",
+        "S3-001O",
+        "S3-003",
+        "S3-003O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-06-0",
+          "text": "Собрание реализует права акционеров по своей компетенции;совет рассматривает стратегию и контролирует исполнительные органы;исполнительный орган организует текущую работу. Совет и его комитеты по аудиту, рискам, назначениям или вознаграждению не заменяют каждый договор менеджера. Внутренний контроль и аудит помогают проверить процедуры и информацию, но не обещают отсутствия убытков.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-07-0",
+          "text": "Разделите три события: выпуск акции создаёт определённые права, допуск к торгам организует возможность биржевых сделок, переход права учитывается инфраструктурой. Эти события могут происходить в разные моменты.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-03",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 3,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "РЦ1/РЦ2/W/R/число контрактов, не только «что такое ВМ»",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [
+        {
+          "block": "S2-02-0",
+          "formula": {
+            "title": "Вариационная маржа одного фьючерса",
+            "expression": "VM ≈ (F₁ − F₀) × M × N × s",
+            "variables": [
+              {
+                "symbol": "VM",
+                "description": "результат переоценки позиции по установленной биржей конвенции",
+                "unit": "руб."
+              },
+              {
+                "symbol": "F₁",
+                "description": "расчётная цена в конце интервала",
+                "unit": "пункты цены"
+              },
+              {
+                "symbol": "F₀",
+                "description": "расчётная цена в начале интервала",
+                "unit": "пункты цены"
+              },
+              {
+                "symbol": "M",
+                "description": "денежная стоимость пункта цены",
+                "unit": "руб./пункт"
+              },
+              {
+                "symbol": "N",
+                "description": "число контрактов",
+                "unit": "шт."
+              },
+              {
+                "symbol": "s",
+                "description": "знак направления: +1 для длинной, −1 для короткой",
+                "unit": "безразмерный"
+              }
+            ],
+            "meaning": "Схематически показывает поток от ежедневной переоценки при неизменной позиции.",
+            "example": "Цена выросла на 5 пунктов, один пункт 10 рублей, 3 длинных контракта: VM=+150 рублей; для трёх коротких VM=−150.",
+            "conditions": "Правила шага цены, размера контракта и клиринга определяются спецификацией биржи.",
+            "pitfall": "Отрицательная VM может потребовать немедленного перечисления денег."
+          },
+          "status": "ACTUAL_DISPLAYED_FORMULA"
+        },
+        {
+          "block": "S2-02-0",
+          "formula": {
+            "title": "Денежная стоимость пункта из минимального шага",
+            "expression": "M = W / R",
+            "variables": [
+              {
+                "symbol": "M",
+                "description": "денежный множитель одного пункта котировки",
+                "unit": "руб./пункт"
+              },
+              {
+                "symbol": "W",
+                "description": "денежная стоимость минимального шага",
+                "unit": "руб."
+              },
+              {
+                "symbol": "R",
+                "description": "минимальный шаг изменения котировки",
+                "unit": "пунктов"
+              }
+            ],
+            "meaning": "Связывает котировку с денежным результатом перед подстановкой M в формулу VM.",
+            "example": "ШагR=0,5 пункта стоитW=5 руб., поэтому M=10 руб./пункт. Изменение на 5 пунктов по 3long-контрактам даёт 5×10×3=150 руб.",
+            "conditions": "Одна спецификация, R>0, неизменная денежная стоимость шага на интервале. Возможная валютная конвертация и округление учитываются по правилам контракта.",
+            "pitfall": "Лот, шаг котировки и стоимость шага — разные параметры. Изменение на 5 пунктов не обязательно означает 5 рублей."
+          },
+          "status": "ACTUAL_DISPLAYED_FORMULA"
+        }
+      ],
+      "gap_type": "PARTIAL",
+      "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_CHECKS_PENDING",
+      "new_training_ids": [
+        "EX17-03"
+      ],
+      "published": false,
+      "semantic_finding": "M = W / R есть в формульной карточке; требуется связать F₀/F₁ с РЦ1/РЦ2 и воспроизведением обозначений, не добавлять второй полный пересказ.",
+      "action_status": "IMPLEMENTED_PENDING_FULL_CI",
+      "original_option_audit": [
+        {
+          "letter": "A",
+          "correct": true,
+          "explanation": "РЦ1 соответствует началу интервала, в том числе цене новой сделки.",
+          "slide_ref": "S2 PDF11",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Точное правило зависит от спецификации."
+        },
+        {
+          "letter": "B",
+          "correct": true,
+          "explanation": "РЦ2 — конечная расчётная цена.",
+          "slide_ref": "S2 PDF11",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Точное правило зависит от спецификации."
+        },
+        {
+          "letter": "C",
+          "correct": true,
+          "explanation": "W/R переводит пункты котировки в деньги.",
+          "slide_ref": "S2 PDF11",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Точное правило зависит от спецификации."
+        },
+        {
+          "letter": "D",
+          "correct": false,
+          "explanation": "Общий результат зависит от числа контрактов.",
+          "slide_ref": "S2 PDF11",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Точное правило зависит от спецификации."
+        },
+        {
+          "letter": "E",
+          "correct": false,
+          "explanation": "Начальная база интервала не всегда совпадает с исторической ценой сделки.",
+          "slide_ref": "S2 PDF11",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Точное правило зависит от спецификации."
+        }
+      ]
+    },
+    {
+      "id": "EX17-04",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 4,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "IPO + SPO + переподписка + эффект free-float/эмиссии",
+      "existing_block_ids": [
+        "E-01-1",
+        "E-07-1"
+      ],
+      "existing_training_question_ids": [
+        "EM02",
+        "EM04",
+        "EO03",
+        "V2-042",
+        "S3-004",
+        "S3-004O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-01-1",
+          "text": "При размещении новых акций инвестор передаёт средства эмитенту, компания получает дополнительный капитал, а число размещённых акций увеличивается. Доля прежнего владельца меняется, если его пакет не вырос пропорционально новой базе.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-07-1",
+          "text": "Типичная подготовка начинается с решения о целях и структуре: сколько капитала нужно бизнесу, продаётся ли новый выпуск, пакет владельца или обе части. Затем проверяют правовую структуру, отчётность и управление, привлекают организаторов и консультантов, готовят необходимые документы и раскрытия, условия предложения и допуск. Эти этапы могут идти параллельно и уточняться; это учебная схема, а не универсальный обязательный календарь.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-05",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 5,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "конкретное сочетание TOM, СПФИ, своп и правовая конструкция",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-06",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 6,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "точные типы надзора, дистанционный/саморегулирование, ограничения классификации",
+      "existing_block_ids": [
+        "R-01-0",
+        "R-01-1",
+        "MARKET-01-0",
+        "MARKET-01-1"
+      ],
+      "existing_training_question_ids": [
+        "RM01",
+        "RM02",
+        "RM04",
+        "RM10",
+        "RO07",
+        "RM03",
+        "RM24",
+        "MARKET-01-1-Q",
+        "MARKET-01-1-O",
+        "MARKET-01-2-Q",
+        "MARKET-01-2-O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-01-0",
+          "text": "Для каждого способа финансирования из исходной ситуации запишите две стороны и два момента: кто передаёт деньги сегодня и какие права получает на будущее. Отдельно укажите, получает ли деньги сама компания или прежний владелец уже выпущенного инструмента.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-01-1",
+          "text": "Инвестор передаёт поручение брокеру. Биржа организует встречу заявок по своим правилам. Заключение сделки определяет условия, на которых стороны должны передать активы.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "MARKET-01-0",
+          "text": "Сначала определите, кто принимает решение о составе позиции и за чей счёт проводится сделка. По этим вопросам различают исполнение поручения, собственную торговлю участника и управление клиентским имуществом.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "MARKET-01-1",
+          "text": "Управляющая компания принимает инвестиционные решения по правилам фонда; специализированный депозитарий осуществляет предусмотренный учёт и контроль. Центральный депозитарий и клиентские депозитарии находятся в учётной цепочке, регистратор ведёт соответствующий реестр. Ценовой центр НРД предоставляет расчётные оценки инструментов по методикам: это другая функция, чем запись права собственности, и такая оценка не гарантирует реального покупателя по указанной цене.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-07",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 7,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Gordon D0/D1, привилегированные акции, корпоративные решения",
+      "existing_block_ids": [
+        "E-03-0",
+        "E-03-1",
+        "E-08-0",
+        "E-08-1"
+      ],
+      "existing_training_question_ids": [
+        "EM11",
+        "EM13",
+        "EM23",
+        "EO04",
+        "V2-044",
+        "EM12",
+        "EM14",
+        "EO01",
+        "V2-043",
+        "V2-050",
+        "S3-005",
+        "S3-005O",
+        "S3-006",
+        "S3-006O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-03-0",
+          "text": "Сначала определите дивиденд на одну акцию: он уже выплачен, объявлен решением или только ожидается аналитиком. Для расчёта также нужен период; один квартальный платёж не становится автоматически годовой выплатой.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-03-1",
+          "text": "Сначала компания объявляет выплату и определяет соответствующую дату фиксации прав. Покупатель проверяет режим расчётов: в условном T+1 сделка исполняется на следующий рабочий день, поэтому одной покупки в день фиксации может быть недостаточно. Реальные правила конкретного рынка уточняют отдельно.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-08-0",
+          "text": "Постройте цепочку будущих выплат: D₁ через один период, D₁(1+g) через два и далее по выбранному темпу. Каждую сумму приводят к дате оценки по ставке r. Формула постоянного роста сокращает сумму этой бесконечной цепочки при её сходимости; постоянный дивиденд является частным случаем g=0.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-08-1",
+          "text": "В двухфазной DDM дивиденды первых N лет прогнозируются отдельно и дисконтируются по требуемой доходности. Затем рассчитывается терминальная стоимость P_N=D_(N+1)/(r−g), если r>g, и также приводится к сегодняшнему дню. Итоговая цена P₀=Σ(D_t/(1+r)^t)+P_N/(1+r)^N. Нужно согласовать период выплат, ставку и момент расчёта терминала.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-08",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 8,
+      "original_page": 1,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "нота, PV, N−PV, max, коэффициент участия",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-09",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 9,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Credit Spread Arbitrage, относительные спреды и нефинансовые причины",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-10",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 10,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "три уровня листинга, котировальные списки",
+      "existing_block_ids": [
+        "E-07-0"
+      ],
+      "existing_training_question_ids": [
+        "S3-003",
+        "S3-003O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-07-0",
+          "text": "Разделите три события: выпуск акции создаёт определённые права, допуск к торгам организует возможность биржевых сделок, переход права учитывается инфраструктурой. Эти события могут происходить в разные моменты.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-11",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 11,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "SPV и регресс; проектные денежные потоки",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-12",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 12,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "корпоративные права по РЕПО, дивиденды, физлица, риски",
+      "existing_block_ids": [
+        "E-13-0",
+        "E-13-1",
+        "E-06-0",
+        "E-06-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-015",
+        "S3-015O",
+        "S3-016",
+        "S3-016O",
+        "S3-001",
+        "S3-001O",
+        "S3-002",
+        "S3-002O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-13-0",
+          "text": "Установите конструкцию: клиент занимает деньги для длинной позиции, занимает бумаги для короткой продажи либо участвует в РЕПО. Для каждой запишите передаваемый актив, возвратное обязательство, обеспечение и сроки. Название «плечо» само не описывает договорный путь этих потоков.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-13-1",
+          "text": "В модели Указания Банка России № 6681-У используются стоимость портфеля S, начальная маржа M₀, минимальная маржа Mx, норматив покрытия риска НПР1 и норматив покрытия риска НПР2. В упрощённом случае без заблокированных сумм НПР1=S−M₀, НПР2=S−Mx. При НПР2 ниже нуля и положительной минимальной марже по общему правилу брокер обязан действовать в соответствии с нормативными сроками и процедурами закрытия; конкретные ставки риска и условия определяются применимыми правилами.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-06-0",
+          "text": "Собрание реализует права акционеров по своей компетенции;совет рассматривает стратегию и контролирует исполнительные органы;исполнительный орган организует текущую работу. Совет и его комитеты по аудиту, рискам, назначениям или вознаграждению не заменяют каждый договор менеджера. Внутренний контроль и аудит помогают проверить процедуры и информацию, но не обещают отсутствия убытков.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-06-1",
+          "text": "Для расчёта выберите один тип акций и дату, установите общее число бумаг и выделите свободную часть по применимой методике. Затем умножьте её долю на капитализацию соответствующего выпуска, если нужна оценка свободного обращения. Дополнительные ограничения весов индекса проверяют отдельно.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-13",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 13,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "внутренняя/временная стоимость, ATM/ITM, breakeven",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-14",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 14,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "мезонин, PIK, субординация, обязательства",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-15",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 15,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "теоретическая цена фьючерса vs биржевая расчётная ВМ",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-16",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 16,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "free-float и квазиказначейские акции, 59%/11%",
+      "existing_block_ids": [
+        "E-06-1",
+        "E-09-0"
+      ],
+      "existing_training_question_ids": [
+        "S3-002",
+        "S3-002O",
+        "S3-007",
+        "S3-007O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-06-1",
+          "text": "Для расчёта выберите один тип акций и дату, установите общее число бумаг и выделите свободную часть по применимой методике. Затем умножьте её долю на капитализацию соответствующего выпуска, если нужна оценка свободного обращения. Дополнительные ограничения весов индекса проверяют отдельно.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-09-0",
+          "text": "Сначала определяют допустимую корзину по правилам отбора: тип бумаги, обращение, ликвидность, free-float и прочие требования. Затем для каждого выпуска согласуют цену P, количество N, долю свободного обращения FF и применимый коэффициент ограничения веса. В упрощённом случае без ограничений расчётная база равна P×N×FF, а вес — доля этой базы в общей сумме. Обыкновенные и привилегированные акции являются разными выпусками; данные по ним нельзя произвольно смешивать.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-17",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 17,
+      "original_page": 2,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "статус ЦБ, бюджет, АСВ, функции/независимость",
+      "existing_block_ids": [
+        "R-01-0",
+        "R-01-1",
+        "R-03-0",
+        "R-03-1"
+      ],
+      "existing_training_question_ids": [
+        "RM01",
+        "RM02",
+        "RM04",
+        "RM10",
+        "RO07",
+        "RM03",
+        "RM24",
+        "Q02",
+        "RM14",
+        "V2-005",
+        "RM11",
+        "RM17",
+        "V2-007",
+        "V2-008"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-01-0",
+          "text": "Для каждого способа финансирования из исходной ситуации запишите две стороны и два момента: кто передаёт деньги сегодня и какие права получает на будущее. Отдельно укажите, получает ли деньги сама компания или прежний владелец уже выпущенного инструмента.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-01-1",
+          "text": "Инвестор передаёт поручение брокеру. Биржа организует встречу заявок по своим правилам. Заключение сделки определяет условия, на которых стороны должны передать активы.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-03-0",
+          "text": "Сначала определите правовой статус организации: банк, иная кредитная организация, микрофинансовая организация или другой участник. Сходная экономическая цель клиента не делает одинаковыми разрешённые операции и способы защиты.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-03-1",
+          "text": "По договору вклада клиент приобретает денежное требование к банку. Система страхования защищает определённые средства при предусмотренном страховом случае в пределах правил; это отдельный механизм, а не замена обязательству банка.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-18",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 18,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Sharpe/Sortino и целевой уровень T",
+      "existing_block_ids": [
+        "E-11-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-012",
+        "S3-012O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-11-1",
+          "text": "Для исторического Шарпа используют ряд избыточных доходностей за одинаковые интервалы: среднее превышение над ориентиром делят на стандартное отклонение этого превышения. При постоянном безрисковом ориентире его вычитание не меняет стандартное отклонение; при меняющемся ориентире нужно считать именно разности. Одна годовая доходность сама не содержит наблюдений для оценки годового стандартного отклонения.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-19",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 19,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "λ,V,σ,√T — точная формула и смысл",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [
+        {
+          "block": "S2-07-1",
+          "formula": {
+            "title": "Приближённый параметрический VaR",
+            "expression": "VaR ≈ V × z × σ × √T",
+            "variables": [
+              {
+                "symbol": "VaR",
+                "description": "квантиль возможных потерь при принятых допущениях",
+                "unit": "руб."
+              },
+              {
+                "symbol": "V",
+                "description": "стоимость рассматриваемого портфеля",
+                "unit": "руб."
+              },
+              {
+                "symbol": "z",
+                "description": "квантиль стандартного нормального распределения для выбранного уровня",
+                "unit": "безразмерный"
+              },
+              {
+                "symbol": "σ",
+                "description": "волатильность относительной доходности за базовый период",
+                "unit": "доля"
+              },
+              {
+                "symbol": "T",
+                "description": "число базовых периодов до горизонта",
+                "unit": "периодов"
+              }
+            ],
+            "meaning": "Упрощённая формула для нормальной модели и независимых сопоставимых приращений, при нулевом ожидаемом изменении.",
+            "example": "V=10 млн, σ=1% в день, z≈1,65 для одностороннего 95%, T=1 день: VaR≈165 000 руб.",
+            "conditions": "Для нелинейных портфелей, толстых хвостов и зависимости периодов формула может давать неверную оценку.",
+            "pitfall": "VaR не является гарантированным верхним пределом убытка."
+          },
+          "status": "ACTUAL_DISPLAYED_FORMULA"
+        }
+      ],
+      "gap_type": "PARTIAL",
+      "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_CHECKS_PENDING",
+      "new_training_ids": [
+        "EX17-19"
+      ],
+      "published": false,
+      "semantic_finding": "VaR ≈ V × z × σ × √T уже разобран; обозначение λ в вопросе требует явного соответствия z и упражнения на квантиль/горизонт.",
+      "action_status": "IMPLEMENTED_PENDING_FULL_CI",
+      "original_option_audit": [
+        {
+          "letter": "A",
+          "correct": false,
+          "explanation": "Корневое масштабирование не линейно по горизонту.",
+          "slide_ref": "S2 PDF68–71",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Для денежного VaR экспозиция определяется выбранной моделью."
+        },
+        {
+          "letter": "B",
+          "correct": true,
+          "explanation": "σ относится к базовому периоду; согласуются единицы и модель риск-фактора.",
+          "slide_ref": "S2 PDF68–71",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Для денежного VaR экспозиция определяется выбранной моделью."
+        },
+        {
+          "letter": "C",
+          "correct": false,
+          "explanation": "В модели относительной доходности V — стоимость позиции; номинал не универсальная замена текущей экспозиции.",
+          "slide_ref": "S2 PDF68–71",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Для денежного VaR экспозиция определяется выбранной моделью."
+        },
+        {
+          "letter": "D",
+          "correct": true,
+          "explanation": "Односторонний нормальный квантиль растёт при переходе95%→99%.",
+          "slide_ref": "S2 PDF68–71",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Для денежного VaR экспозиция определяется выбранной моделью."
+        },
+        {
+          "letter": "E",
+          "correct": false,
+          "explanation": "Направление изменения квантиля указано неверно.",
+          "slide_ref": "S2 PDF68–71",
+          "confidence": "HIGH_WITH_MODEL_CONDITIONS",
+          "validity_as_written": "WITH_STATED_MODEL",
+          "ambiguity_notes": "Для денежного VaR экспозиция определяется выбранной моделью."
+        }
+      ]
+    },
+    {
+      "id": "EX17-20",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 20,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "разделить посредников/инфраструктуру/учёт прав",
+      "existing_block_ids": [
+        "R-01-1",
+        "MARKET-01-0",
+        "MARKET-01-1"
+      ],
+      "existing_training_question_ids": [
+        "RM03",
+        "RM24",
+        "MARKET-01-1-Q",
+        "MARKET-01-1-O",
+        "MARKET-01-2-Q",
+        "MARKET-01-2-O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-01-1",
+          "text": "Инвестор передаёт поручение брокеру. Биржа организует встречу заявок по своим правилам. Заключение сделки определяет условия, на которых стороны должны передать активы.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "MARKET-01-0",
+          "text": "Сначала определите, кто принимает решение о составе позиции и за чей счёт проводится сделка. По этим вопросам различают исполнение поручения, собственную торговлю участника и управление клиентским имуществом.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "MARKET-01-1",
+          "text": "Управляющая компания принимает инвестиционные решения по правилам фонда; специализированный депозитарий осуществляет предусмотренный учёт и контроль. Центральный депозитарий и клиентские депозитарии находятся в учётной цепочке, регистратор ведёт соответствующий реестр. Ценовой центр НРД предоставляет расчётные оценки инструментов по методикам: это другая функция, чем запись права собственности, и такая оценка не гарантирует реального покупателя по указанной цене.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-21",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 21,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "YTP/YTW/YTM, оферты, cashflow",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-22",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 22,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Basel I/II/III, базовая/универсальная лицензии",
+      "existing_block_ids": [
+        "R-03-0",
+        "R-03-1"
+      ],
+      "existing_training_question_ids": [
+        "Q02",
+        "RM14",
+        "V2-005",
+        "RM11",
+        "RM17",
+        "V2-007",
+        "V2-008"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-03-0",
+          "text": "Сначала определите правовой статус организации: банк, иная кредитная организация, микрофинансовая организация или другой участник. Сходная экономическая цель клиента не делает одинаковыми разрешённые операции и способы защиты.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-03-1",
+          "text": "По договору вклада клиент приобретает денежное требование к банку. Система страхования защищает определённые средства при предусмотренном страховом случае в пределах правил; это отдельный механизм, а не замена обязательству банка.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-23",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 23,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "национальная/международная шкала, агентства/конфликт",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-24",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 24,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "ключевая ставка vs RUONIA, basis risk, close-out netting",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-25",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 25,
+      "original_page": 3,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "требования именно третьего уровня и отбор IMOEX",
+      "existing_block_ids": [
+        "E-07-0",
+        "E-09-0"
+      ],
+      "existing_training_question_ids": [
+        "S3-003",
+        "S3-003O",
+        "S3-007",
+        "S3-007O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-07-0",
+          "text": "Разделите три события: выпуск акции создаёт определённые права, допуск к торгам организует возможность биржевых сделок, переход права учитывается инфраструктурой. Эти события могут происходить в разные моменты.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-09-0",
+          "text": "Сначала определяют допустимую корзину по правилам отбора: тип бумаги, обращение, ликвидность, free-float и прочие требования. Затем для каждого выпуска согласуют цену P, количество N, долю свободного обращения FF и применимый коэффициент ограничения веса. В упрощённом случае без ограничений расчётная база равна P×N×FF, а вес — доля этой базы в общей сумме. Обыкновенные и привилегированные акции являются разными выпусками; данные по ним нельзя произвольно смешивать.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-26",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 26,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "передачи голосов РЕПО, права/ограничения физлиц",
+      "existing_block_ids": [
+        "E-06-0",
+        "E-13-0",
+        "E-13-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-001",
+        "S3-001O",
+        "S3-015",
+        "S3-015O",
+        "S3-016",
+        "S3-016O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-06-0",
+          "text": "Собрание реализует права акционеров по своей компетенции;совет рассматривает стратегию и контролирует исполнительные органы;исполнительный орган организует текущую работу. Совет и его комитеты по аудиту, рискам, назначениям или вознаграждению не заменяют каждый договор менеджера. Внутренний контроль и аудит помогают проверить процедуры и информацию, но не обещают отсутствия убытков.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-13-0",
+          "text": "Установите конструкцию: клиент занимает деньги для длинной позиции, занимает бумаги для короткой продажи либо участвует в РЕПО. Для каждой запишите передаваемый актив, возвратное обязательство, обеспечение и сроки. Название «плечо» само не описывает договорный путь этих потоков.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-13-1",
+          "text": "В модели Указания Банка России № 6681-У используются стоимость портфеля S, начальная маржа M₀, минимальная маржа Mx, норматив покрытия риска НПР1 и норматив покрытия риска НПР2. В упрощённом случае без заблокированных сумм НПР1=S−M₀, НПР2=S−Mx. При НПР2 ниже нуля и положительной минимальной марже по общему правилу брокер обязан действовать в соответствии с нормативными сроками и процедурами закрытия; конкретные ставки риска и условия определяются применимыми правилами.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-27",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 27,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "σ_S/σ_F, hedge ratio и ρ",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [
+        {
+          "block": "S2-08-0",
+          "formula": {
+            "title": "Количество контрактов для DV01-хеджа",
+            "expression": "N ≈ −DV01_портфеля / DV01_контракта",
+            "variables": [
+              {
+                "symbol": "N",
+                "description": "число хеджирующих контрактов со знаком направления",
+                "unit": "шт."
+              },
+              {
+                "symbol": "DV01_портфеля",
+                "description": "чувствительность позиции, которую хеджируют",
+                "unit": "руб./б. п."
+              },
+              {
+                "symbol": "DV01_контракта",
+                "description": "чувствительность одного контракта в согласованных единицах",
+                "unit": "руб./б. п."
+              }
+            ],
+            "meaning": "Соотносит денежную чувствительность основной позиции с чувствительностью производного контракта.",
+            "example": "DV01 портфеля +900 руб./б. п., DV01 одного длинного фьючерса +150: N≈−6, требуется короткая позиция в 6 контрактов.",
+            "conditions": "Должны совпадать валюты, сроки и определения чувствительности; число контрактов округляется с пересчётом остатка.",
+            "pitfall": "Нулевая первая чувствительность не гарантирует нулевой базисный и кредитный риск."
+          },
+          "status": "ACTUAL_DISPLAYED_FORMULA"
+        },
+        {
+          "block": "S2-08-0",
+          "formula": {
+            "title": "Размер линейного хеджа по доходностям",
+            "expression": "h* = ρ × σ_S / σ_F; N* ≈ h* × V_S / V_F",
+            "variables": [
+              {
+                "symbol": "h*",
+                "description": "оптимальный вес компенсирующей позиции по модели доходностей",
+                "unit": "безразмерно"
+              },
+              {
+                "symbol": "ρ",
+                "description": "корреляция согласованных доходностей",
+                "unit": "безразмерно"
+              },
+              {
+                "symbol": "σ_S, σ_F",
+                "description": "стандартные отклонения доходностей исходной позиции и одного контрактного базового объёма за один период",
+                "unit": "доля за период"
+              },
+              {
+                "symbol": "V_S",
+                "description": "положительная стоимость исходной длинной позиции",
+                "unit": "руб."
+              },
+              {
+                "symbol": "V_F",
+                "description": "положительная базовая стоимость одного фьючерсного контракта",
+                "unit": "руб./контракт"
+              },
+              {
+                "symbol": "N*",
+                "description": "подписанное число коротких контрактов для защиты заданной длинной позиции; отрицательное означает long",
+                "unit": "контрактов"
+              }
+            ],
+            "meaning": "Минимизирует дисперсию линейного результата V_S r_S−N V_F r_F при фиксированных стоимостях и оценённых параметрах.",
+            "example": "ρ=0,75, σ_S=2%, σ_F=1,8%: h*=0,833333. При V_S=10 млн и V_F=100 тыс. руб./контракт N*≈83,33 коротких контракта; 83 или 84 проверяются после округления.",
+            "conditions": "Ненулевая σ_F, одинаковый горизонт доходностей и валюта стоимостей, линейный контракт, стабильные коэффициенты. Для валютной закупки или иной исходной стороны направление выводят из её денежных потоков отдельно. V_F — базовая стоимость, не ГО и не цена покупки фьючерса.",
+            "pitfall": "Физические количества применяют к согласованной модели изменений цен, денежные стоимости — к доходностям. h* не является автоматически номинальной долей 0…1."
+          },
+          "status": "ACTUAL_DISPLAYED_FORMULA"
+        }
+      ],
+      "gap_type": "PARTIAL",
+      "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_CHECKS_PENDING",
+      "new_training_ids": [
+        "EX17-27"
+      ],
+      "published": false,
+      "semantic_finding": "h* = ρ × σ_S / σ_F уже присутствует. Проверить отдельное воспроизведение отношения волатильностей, не объявлять формулу отсутствующей.",
+      "action_status": "IMPLEMENTED_PENDING_FULL_CI"
+    },
+    {
+      "id": "EX17-28",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 28,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "дословно 3 аксиомы Доу без вариантов",
+      "existing_block_ids": [
+        "E-12-0",
+        "E-12-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-013",
+        "S3-013O",
+        "S3-014",
+        "S3-014O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-12-0",
+          "text": "Выберите временной масштаб и наблюдаемые данные. Отдельно опишите последовательность максимумов/минимумов и сопутствующий объём, затем сформулируйте гипотезу продолжения или разворота. Название фигуры должно ссылаться на воспроизводимые признаки, а не только на впечатление от графика.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-12-1",
+          "text": "Классическая теория Доу рассматривает рыночные движения нескольких масштабов, взаимное подтверждение важных индикаторов, роль объёма и сохранение тенденции до убедительных признаков разворота. В современных условиях выбор индекса, рынка и критериев подтверждения требует адаптации. Практический смысл — заранее определить вход, выход, риск и способ проверки гипотезы.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-29",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 29,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "pay-fixed/receive-floating: сторона и риск",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-30",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 30,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "четыре шага IPO, органы, «Астра», SPO",
+      "existing_block_ids": [
+        "E-01-1",
+        "E-07-1"
+      ],
+      "existing_training_question_ids": [
+        "EM02",
+        "EM04",
+        "EO03",
+        "V2-042",
+        "S3-004",
+        "S3-004O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-01-1",
+          "text": "При размещении новых акций инвестор передаёт средства эмитенту, компания получает дополнительный капитал, а число размещённых акций увеличивается. Доля прежнего владельца меняется, если его пакет не вырос пропорционально новой базе.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-07-1",
+          "text": "Типичная подготовка начинается с решения о целях и структуре: сколько капитала нужно бизнесу, продаётся ли новый выпуск, пакет владельца или обе части. Затем проверяют правовую структуру, отчётность и управление, привлекают организаторов и консультантов, готовят необходимые документы и раскрытия, условия предложения и допуск. Эти этапы могут идти параллельно и уточняться; это учебная схема, а не универсальный обязательный календарь.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-31",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 31,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "3 стороны факторинга, no-recourse",
+      "existing_block_ids": [
+        "FACTOR-01-0"
+      ],
+      "existing_training_question_ids": [
+        "FACTOR-01-1-Q",
+        "FACTOR-01-1-O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "FACTOR-01-0",
+          "text": "Сначала возникает денежное требование по поставке. Поставщик уступает требование фактору или исполняет иную предусмотренную структуру финансирования. Фактор проверяет документы и лимиты на покупателя.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-32",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 32,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "ГО, ВМ, CSA, close-out, haircut, КСУ как единый open",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-33",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 33,
+      "original_page": 4,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Rho, Call/Put, допущения",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-34",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 34,
+      "original_page": 5,
+      "text_status": "PARTLY_OBSCURED_RECONSTRUCTED_PREFIX",
+      "skill": "Марковиц, диверсифицируемый/систематический, beta CAPM",
+      "existing_block_ids": [
+        "E-10-0",
+        "E-10-1",
+        "E-11-0",
+        "E-11-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-009",
+        "S3-009O",
+        "S3-010",
+        "S3-010O",
+        "S3-011",
+        "S3-011O",
+        "S3-012",
+        "S3-012O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-10-0",
+          "text": "Сначала оценивают ожидаемые доходности и волатильности отдельных бумаг на сопоставимых периодах. Затем задают доли активов в портфеле. Наконец учитывают, насколько доходности движутся вместе: для риска нужны не только отдельные волатильности, но и ковариации с учётом весов. Снижение корреляции при прочих равных часто уменьшает общий риск, но в кризис связи могут усилиться.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-10-1",
+          "text": "Модель Марковица задаёт ожидаемые доходности, дисперсии и ковариации, затем ищет допустимые веса с учётом ограничений. На эффективной границе нет портфеля, который можно улучшить по ожидаемой доходности без роста риска или по риску без снижения ожидаемой доходности. Нижняя часть границы минимальной дисперсии может быть неэффективной: при том же риске доступна большая ожидаемая доходность. Выбор среди эффективных вариантов зависит от допустимого риска инвестора.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-11-0",
+          "text": "Для расчёта сначала вычтите согласованный безрисковый ориентир из ожидаемой рыночной доходности: получите рыночную премию. Умножьте её на бету актива к тому же рынку и добавьте безрисковый ориентир. Именно чувствительность к рынку, а не вся индивидуальная волатильность, определяет премию в этой модели.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-11-1",
+          "text": "Для исторического Шарпа используют ряд избыточных доходностей за одинаковые интервалы: среднее превышение над ориентиром делят на стандартное отклонение этого превышения. При постоянном безрисковом ориентире его вычитание не меняет стандартное отклонение; при меняющемся ориентире нужно считать именно разности. Одна годовая доходность сама не содержит наблюдений для оценки годового стандартного отклонения.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-35",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 35,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "невостребованный лимит/комиссия/conditional liquidity",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-36",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 36,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "FX swap закрывает рассогласование даты CNY",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-37",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 37,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "норматив дивидендов госкомпаний → DDM/оценка",
+      "existing_block_ids": [
+        "E-03-0",
+        "E-03-1",
+        "E-08-0",
+        "E-08-1"
+      ],
+      "existing_training_question_ids": [
+        "EM11",
+        "EM13",
+        "EM23",
+        "EO04",
+        "V2-044",
+        "EM12",
+        "EM14",
+        "EO01",
+        "V2-043",
+        "V2-050",
+        "S3-005",
+        "S3-005O",
+        "S3-006",
+        "S3-006O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-03-0",
+          "text": "Сначала определите дивиденд на одну акцию: он уже выплачен, объявлен решением или только ожидается аналитиком. Для расчёта также нужен период; один квартальный платёж не становится автоматически годовой выплатой.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-03-1",
+          "text": "Сначала компания объявляет выплату и определяет соответствующую дату фиксации прав. Покупатель проверяет режим расчётов: в условном T+1 сделка исполняется на следующий рабочий день, поэтому одной покупки в день фиксации может быть недостаточно. Реальные правила конкретного рынка уточняют отдельно.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-08-0",
+          "text": "Постройте цепочку будущих выплат: D₁ через один период, D₁(1+g) через два и далее по выбранному темпу. Каждую сумму приводят к дате оценки по ставке r. Формула постоянного роста сокращает сумму этой бесконечной цепочки при её сходимости; постоянный дивиденд является частным случаем g=0.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-08-1",
+          "text": "В двухфазной DDM дивиденды первых N лет прогнозируются отдельно и дисконтируются по требуемой доходности. Затем рассчитывается терминальная стоимость P_N=D_(N+1)/(r−g), если r>g, и также приводится к сегодняшнему дню. Итоговая цена P₀=Σ(D_t/(1+r)^t)+P_N/(1+r)^N. Нужно согласовать период выплат, ставку и момент расчёта терминала.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-38",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 38,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "цифровой рубль vs деньги банка",
+      "existing_block_ids": [
+        "R-06-0"
+      ],
+      "existing_training_question_ids": [
+        "FRI509-05",
+        "FRI509-06"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-06-0",
+          "text": "Наличные, банковские остатки и цифровые рубли используются в платёжных отношениях, но различаются учётом и характером обязательства. Остаток на банковском счёте в общем случае представляет требование клиента к банку; цифровой рубль учитывается на платформе Банка России.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-39",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 39,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "формула funding perpetual future, 3 параметра",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-40",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 40,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Carry vs Basis Decay vs ROE, разные знаменатели",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-41",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 41,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "инфляционно-индексируемые ОФЗ, альтернативное название",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-42",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 42,
+      "original_page": 5,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "Sharpe: числитель/знаменатель и downside limitation",
+      "existing_block_ids": [
+        "E-11-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-012",
+        "S3-012O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-11-1",
+          "text": "Для исторического Шарпа используют ряд избыточных доходностей за одинаковые интервалы: среднее превышение над ориентиром делят на стандартное отклонение этого превышения. При постоянном безрисковом ориентире его вычитание не меняет стандартное отклонение; при меняющемся ориентире нужно считать именно разности. Одна годовая доходность сама не содержит наблюдений для оценки годового стандартного отклонения.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-43",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 43,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "YTM, maturity, Z-spread/НКД, cashflow bullet/amortization",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-44",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 44,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "полная формула IMOEX; FF/W/D_n, эмитент/бумага, MCFTR",
+      "existing_block_ids": [
+        "E-06-1",
+        "E-09-0"
+      ],
+      "existing_training_question_ids": [
+        "S3-002",
+        "S3-002O",
+        "S3-007",
+        "S3-007O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-06-1",
+          "text": "Для расчёта выберите один тип акций и дату, установите общее число бумаг и выделите свободную часть по применимой методике. Затем умножьте её долю на капитализацию соответствующего выпуска, если нужна оценка свободного обращения. Дополнительные ограничения весов индекса проверяют отдельно.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-09-0",
+          "text": "Сначала определяют допустимую корзину по правилам отбора: тип бумаги, обращение, ликвидность, free-float и прочие требования. Затем для каждого выпуска согласуют цену P, количество N, долю свободного обращения FF и применимый коэффициент ограничения веса. В упрощённом случае без ограничений расчётная база равна P×N×FF, а вес — доля этой базы в общей сумме. Обыкновенные и привилегированные акции являются разными выпусками; данные по ним нельзя произвольно смешивать.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-45",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 45,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "3 уровня дефолтной защиты ЦК, в порядке использования",
+      "existing_block_ids": [
+        "R-01-0",
+        "R-01-1"
+      ],
+      "existing_training_question_ids": [
+        "RM01",
+        "RM02",
+        "RM04",
+        "RM10",
+        "RO07",
+        "RM03",
+        "RM24"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-01-0",
+          "text": "Для каждого способа финансирования из исходной ситуации запишите две стороны и два момента: кто передаёт деньги сегодня и какие права получает на будущее. Отдельно укажите, получает ли деньги сама компания или прежний владелец уже выпущенного инструмента.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-01-1",
+          "text": "Инвестор передаёт поручение брокеру. Биржа организует встречу заявок по своим правилам. Заключение сделки определяет условия, на которых стороны должны передать активы.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-46",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 46,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "3 функции АСВ дословно",
+      "existing_block_ids": [
+        "R-03-0",
+        "R-03-1"
+      ],
+      "existing_training_question_ids": [
+        "Q02",
+        "RM14",
+        "V2-005",
+        "RM11",
+        "RM17",
+        "V2-007",
+        "V2-008"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "R-03-0",
+          "text": "Сначала определите правовой статус организации: банк, иная кредитная организация, микрофинансовая организация или другой участник. Сходная экономическая цель клиента не делает одинаковыми разрешённые операции и способы защиты.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "R-03-1",
+          "text": "По договору вклада клиент приобретает денежное требование к банку. Система страхования защищает определённые средства при предусмотренном страховом случае в пределах правил; это отдельный механизм, а не замена обязательству банка.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-47",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 47,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "гарант/принципал/бенефициар, требования, документы, сроки/эмитент",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-48",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 48,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "3 фазы Доу, роли, сигнал разворота",
+      "existing_block_ids": [
+        "E-12-0",
+        "E-12-1"
+      ],
+      "existing_training_question_ids": [
+        "S3-013",
+        "S3-013O",
+        "S3-014",
+        "S3-014O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "E-12-0",
+          "text": "Выберите временной масштаб и наблюдаемые данные. Отдельно опишите последовательность максимумов/минимумов и сопутствующий объём, затем сформулируйте гипотезу продолжения или разворота. Название фигуры должно ссылаться на воспроизводимые признаки, а не только на впечатление от графика.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        },
+        {
+          "block": "E-12-1",
+          "text": "Классическая теория Доу рассматривает рыночные движения нескольких масштабов, взаимное подтверждение важных индикаторов, роль объёма и сохранение тенденции до убедительных признаков разворота. В современных условиях выбор индекса, рынка и критериев подтверждения требует адаптации. Практический смысл — заранее определить вход, выход, риск и способ проверки гипотезы.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-49",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 49,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "gold swap, экономический результат без ставки на цену золота",
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "candidate_excerpts": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "EX17-50",
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_exam_number": 50,
+      "original_page": 6,
+      "text_status": "VISUALLY_RECONCILED_NORMALIZED",
+      "skill": "страхователь, страховщик, застрахованный, выгодоприобретатель",
+      "existing_block_ids": [
+        "INS-02-0"
+      ],
+      "existing_training_question_ids": [
+        "INS-02-1-Q",
+        "INS-02-1-O"
+      ],
+      "candidate_excerpts": [
+        {
+          "block": "INS-02-0",
+          "text": "Андеррайтер анализирует принимаемый риск и определяет условия/тариф или отказ. Актуарий строит количественные оценки распределения выплат и обязательств на основе данных. Один специалист может использовать результаты другого, но выбор условий отдельного риска и оценка портфеля имеют разные задачи.",
+          "status": "SEARCH_CANDIDATE_NOT_EVIDENCE_OF_SUFFICIENCY"
+        }
+      ],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "SOURCE_RECONCILED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-01",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "право потребителя на информацию по Кеннеди (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [
+        "R-02-0"
+      ],
+      "existing_training_question_ids": [],
+      "gap_type": "MISSING",
+      "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
+      "qa_status": "LOCAL_CHECKS_PENDING",
+      "new_training_ids": [
+        "RECON-01",
+        "TRANSFER-KENNEDY-01"
+      ],
+      "published": false,
+      "semantic_finding": "Четыре права Кеннеди отсутствуют в извлечённых слоях96блоков и553уникальных объектах вопросов. Перечень подтверждён визуально и текстом на Л1–2 PDF71.",
+      "presentation_ref": {
+        "document": "L12",
+        "pdf_page": 71,
+        "slide": 71
+      },
+      "action_status": "IMPLEMENTED_PENDING_FULL_CI"
+    },
+    {
+      "id": "RECON-02",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "70% DV01 и остаточный риск (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-03",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "корреляция и риск двух акций (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-04",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "Sharpe=1 против Sortino=2 (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-05",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "три функции/причины создания мегарегулятора (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-06",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "ограничения функционального регулирования (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-07",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "отличие графического и индикаторного технического анализа (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-08",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "формула паритета put–call, синтетическая длинная позиция (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-09",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "инверсия/изменение кривой 2Y и 10Y (HIGH для темы, MEDIUM для формулировки)",
+      "confidence": "HIGH для темы, MEDIUM для формулировки",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-10",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "RUONIA/RUSFAR/MIACR, кто рассчитывает (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-11",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "кредит против займа (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-12",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "комбинированное обеспечение кредита (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-13",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "аккредитивы и порядок расчётов (HIGH для темы, MEDIUM для точной постановки)",
+      "confidence": "HIGH для темы, MEDIUM для точной постановки",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-14",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "синдицированный кредит vs SPV проектного финансирования (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-15",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "методология рейтинга холдинга (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-16",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "что случилось с рейтинговой оценкой до действия агентства (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-17",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "права владельца 26% голосов (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-18",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "Minetoken «Норникеля» (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-19",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "отрицательный EV «Сургутнефтегаза» (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-20",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "парадокс владения акциями и оборота (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-21",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "крупные пакеты и права акционеров (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-22",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "мультипликаторы стоимости (LOW–MEDIUM)",
+      "confidence": "LOW–MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-23",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "НПФ, ОПС/НПО/ПДС (LOW–MEDIUM)",
+      "confidence": "LOW–MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-24",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "пенсионная распределительная система (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-25",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "виды страхования, ОСАГО/каско (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-26",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "электронные деньги/цифровой рубль (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-27",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "cash-and-carry, «что cash и что carry» (HIGH для темы)",
+      "confidence": "HIGH для темы",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-28",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "расчёты чистой/грязной цены и НКД (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-29",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "кредитные линии/комиссии/гарантии (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-30",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "расширенный gold swap (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-31",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "формула валютного фьючерса/форварда с двумя ставками (MEDIUM)",
+      "confidence": "MEDIUM",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-32",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "время/внутренняя стоимость опционов и max(…) (LOW–MEDIUM)",
+      "confidence": "…",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-33",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "IPO и конкретные процедуры/кейсы (HIGH для темы)",
+      "confidence": "HIGH для темы",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-34",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "виды РЕПО, РЕПО с КСУ и обеспечение (HIGH для темы, MEDIUM для формулировки)",
+      "confidence": "HIGH для темы, MEDIUM для формулировки",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-35",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "индексные требования, обычные и привилегированные акции одного эмитента (HIGH)",
+      "confidence": "HIGH",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    },
+    {
+      "id": "RECON-36",
+      "source_kind": "RECON_FROM_PEER_MEMORY",
+      "text_synthetic": true,
+      "title": "дюрация и корреляция активов (LOW)",
+      "confidence": "LOW",
+      "original_exam_number": null,
+      "existing_block_ids": [],
+      "existing_training_question_ids": [],
+      "gap_type": "PENDING_SEMANTIC_REVIEW",
+      "key_verification_status": "UNVERIFIED",
+      "qa_status": "REGISTERED_ONLY",
+      "new_training_ids": [],
+      "published": false
+    }
+  ]
+}

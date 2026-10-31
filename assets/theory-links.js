@@ -1709,5 +1709,5 @@
  ]
 };
  const anchors={'EXN-R01':'theory-nim'};
- root.TheoryLinks={revision:'2026-10-28',entries,get:id=>(entries[id]||[]).slice(),anchor:id=>anchors[id]||''};
+ root.TheoryLinks={revision:'2026-10-28',entries,get:id=>((typeof ExamAlignment!=='undefined'&&ExamAlignment.links[id])||entries[id]||[]).slice(),anchor:id=>anchors[id]||''};
 })(globalThis);
