@@ -1,0 +1,33 @@
+{
+  "commit": "d2c39bae380ebfe36437cd3cb2b59b1190900eea",
+  "version": "6.1.5",
+  "public_files_match": 18,
+  "hashes": {
+    "index.html": "41bd0701d594526704daaa256fe9e872eaa9c210",
+    "versions/index.html": "87043dc4749be2b9b6ac5640d7fb6cf780fa82f3",
+    "v5.0.8/index.html": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+    "assets/course-sidebar.css": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+    "assets/strategies.css": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+    "assets/exam-feedback.css": "7dec3a63971fe914d88547664969cdb77495eea8",
+    "assets/futures-short-guide.css": "dcf745c2a43eec706222a86622a02bf75716cb07",
+    "assets/theme.css": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+    "assets/question-review.js": "74cf12a544c1f6ab059fb8622cdafd2af9ae5a55",
+    "assets/exam-practice.js": "955838e91bb5726c45487ca33369a47d317a0ff9",
+    "assets/exam-alignment.js": "6c9dae0ffba66c165b82549002e205623d5bba76",
+    "assets/exam-profile.js": "73d23cf79d0a2ad59c4b0b40afcade3143c71b78",
+    "assets/theory-links.js": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+    "assets/question-theory-ui.js": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+    "assets/exam-feedback.js": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+    "assets/futures-short-guide.js": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+    "assets/strategies.js": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+    "assets/option-profiles.js": "cd2b04924ac937a59a443e12e9164591b5bb1566"
+  },
+  "pr": 87,
+  "feature_pr": 86,
+  "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
+  "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262",
+  "live_proof": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248963920",
+  "core_artifact": 13060036703,
+  "course_artifact": 13060436267,
+  "checkpoint": "CP-20261031-155"
+}
