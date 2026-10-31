@@ -45,6 +45,8 @@ const valid={version:2,mode:'exam',ids:Array.from(sample.items,q=>q.id),pos:0,re
 assert.equal(ctx.validSessionState(valid),true);valid.examProfile.setId='FM-00000001';assert.equal(ctx.validSessionState(valid),false);valid.examProfile=normalize(sample.profile);
 valid.examProfile.seed=-1;assert.equal(ctx.validSessionState(valid),false);
 const single=base.find(q=>q.type==='single');const legacy={version:2,mode:'practice',ids:[single.id],pos:0,responses:{[single.id]:{choice:[single.correct[0]]}},grades:{},orders:{},recorded:{},done:false,deadline:null};assert.equal(ctx.validSessionState(legacy),true);
+ctx.session=session;vm.runInNewContext(h.split('\n').find(l=>l.startsWith('function gradeLabel(')),ctx);
+assert.equal(ctx.gradeLabel(q),'Требует повторной проверки');
 const report=JSON.parse(read('docs/audits/data/EXAM_PROFILE_20261031.json'));assert.equal(report.official_model,false);assert.deepEqual(report.quotas,normalize(p.quotas));
 assert.deepEqual(report.questions,normalize(a.questions.map(q=>({id:q.id,section:q.section,type:q.type,...p.metadata(q),revision:q.reviewRevision}))));
 console.log('PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification');
