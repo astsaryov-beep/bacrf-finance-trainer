@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const ctx={};vm.runInNewContext(read('assets/exam-alignment.js'),ctx);vm.runInNewContext(read('assets/theory-links.js'),ctx);
-vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);vm.runInNewContext(html.slice(html.indexOf('const BANK='),html.indexOf('const SECTION='))+';globalThis.fullBank=EFFECTIVE_BANK;',ctx);assert.equal(ctx.fullBank.length,518);assert.equal(new Set(ctx.fullBank.map(q=>q.id)).size,518);
-const a=ctx.ExamAlignment;assert.equal(a.questions.length,5);assert.equal(new Set(a.questions.map(q=>q.id)).size,5);
-const expected={'EX17-03':[0,1,2],'EX17-19':[1,3]};
+vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);vm.runInNewContext(html.slice(html.indexOf('const BANK='),html.indexOf('const SECTION='))+';globalThis.fullBank=EFFECTIVE_BANK;',ctx);assert.equal(ctx.fullBank.length,527);assert.equal(new Set(ctx.fullBank.map(q=>q.id)).size,527);
+const a=ctx.ExamAlignment;assert.equal(a.questions.length,14);assert.equal(new Set(a.questions.map(q=>q.id)).size,14);
+const expected={'EX17-03':[0,1,2],'EX17-19':[1,3],'TRANSFER-WATERFALL-01':[0,1,2,3],'TRANSFER-FUNDING-01':[0]};
 for(const q of a.questions){assert.ok(a.lessons[q.block]);assert.deepEqual(Array.from(ctx.TheoryLinks.get(q.id)),[q.block]);assert.ok(q.source);if(q.type==='multi'){assert.equal(q.options.length,5);assert.equal(q.optionFeedback.length,5);assert.deepEqual(Array.from(q.correct),expected[q.id]);}else assert.ok(q.answer&&q.rubric.length>=2)}
-assert.equal(a.questions.filter(q=>q.provenance==='confirmed_exam_adapted').length,3);assert.equal(a.questions.filter(q=>q.provenance==='reconstructed').length,1);
+assert.equal(a.questions.filter(q=>q.provenance==='confirmed_exam_adapted').length,8);assert.equal(a.questions.filter(q=>q.provenance==='reconstructed').length,1);
 // Independent money/unit/normal-quantile and hedge-ratio boundary checks.
 const pnl=(begin,end,step,value,n,side)=>(end-begin)*value/step*n*side;
 assert.equal(pnl(100,102,.5,5,3,1),60);assert.equal(pnl(100,102,.5,5,3,-1),-60);assert.equal(pnl(100,102,.5,5,6,1),120);
@@ -15,8 +15,20 @@ const rights=a.lessons['R-02-0'];assert.equal(rights.facts.length,4);for(const w
 assert.ok(a.lessons['S2-02-0'].facts.join(' ').includes('W/R'));assert.ok(a.lessons['S2-07-1'].facts.join(' ').includes('λ=z'));
 assert.ok(html.includes('...ExamAlignment.questions')||html.includes('?ExamAlignment.questions:[]'));assert.ok(html.includes("ExamAlignment.supplement(l.id+'-'+pos,true)"));
 const matrix=JSON.parse(read('docs/audits/data/EXAM_ALIGNMENT_20261031.json'));assert.equal(matrix.rows.length,86);assert.equal(matrix.rows.filter(r=>r.source_kind==='CONFIRMED_EXAM_SCAN').length,50);assert.equal(new Set(matrix.rows.map(r=>r.id)).size,86);
-console.log('PASS source alignment:5 linked exercises,3 adapted scan/1 reconstruction/1 transfer,5 plausible alternatives and independent money/quantile/hedge checks,4 prerequisites/full+brief,no workflow labels in extensions,86 tracked requirements');
+console.log('PASS source alignment:14 linked exercises,8 adapted scan/1 reconstruction/5 transfer,5 plausible alternatives and independent money/quantile/hedge checks,4 prerequisites/full+brief,no workflow labels in extensions,86 tracked requirements');
 
 vm.runInNewContext(html.split('\n').find(l=>l.startsWith('function learnerText(')),ctx);
 for(const input of ['Авторское задание по изложенной теории S1-07-0; источник и пределы: docs/audits/QUALITY_M14_REVIEW.md.','Самостоятельные учебные примеры; исправления и границы docs/audits/QUALITY_M03_REVIEW.md.','Условия применения сохраняются; docs/audits/QUALITY_M04_REVIEW.md.','Основное объяснение. Подробные пределы первичной сверки сохранены в docs/audits/QUALITY_M06_REVIEW.md.'])assert.ok(!ctx.learnerText(input).includes('docs/'));
 assert.equal(ctx.learnerText('Условия применения сохраняются; docs/audits/QUALITY_M04_REVIEW.md.'),'Условия применения сохраняются.');
+
+for(const name of ['correctChoice','partialScore'])vm.runInNewContext(html.split('\n').find(l=>l.startsWith('function '+name+'(')),ctx);
+const one=a.questions.find(q=>q.id==='TRANSFER-FUNDING-01'),four=a.questions.find(q=>q.id==='TRANSFER-WATERFALL-01');
+assert.equal(ctx.correctChoice(one,[0]),true);assert.equal(ctx.correctChoice(one,[]),false);assert.equal(ctx.correctChoice(one,[0,1]),false);
+assert.equal(ctx.correctChoice(four,[3,1,0,2]),true);assert.equal(ctx.correctChoice(four,[0,1,2]),false);assert.equal(ctx.partialScore(four,[0,1,2]),.75);assert.equal(ctx.partialScore(four,[0,1,2,3,4]),.75);
+const clip=(d,l1,l2)=>Math.min(l2,Math.max(-l2,Math.min(-l1,d)+Math.max(l1,d)));
+const independent=(d,l1,l2)=>Math.sign(d)*Math.min(l2,Math.max(Math.abs(d)-l1,0));
+for(const l1 of [0,2])for(const l2 of [1,5])for(const d of [-20,-7,-2,-1,0,1,2,7,20])assert.ok(Math.abs(clip(d,l1,l2)-independent(d,l1,l2))<1e-12);
+for(const id of ['EX17-28','EX17-39','EX17-45','EX17-46','EX17-48']){const q=a.questions.find(q=>q.id===id);assert.ok(q&&q.rubric.length>=3);assert.ok(q.provenance==='confirmed_exam_adapted');}
+const l=a.lessons;assert.equal(l['E-12-0'].facts.length,3);assert.equal(l['S2-01-1'].facts.length,3);assert.equal(l['R-03-1'].facts.length,3);assert.equal(l['S2-03-1'].recallOnly,true);
+assert.ok(!a.supplement('S2-03-1').includes('g(D) ='));
+console.log('PASS list/funding package:explicit ordered levels/atomic rubrics,1-and4-correct actual grading,independent clipped-funding boundaries,existing derivation reused');

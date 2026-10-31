@@ -72,3 +72,8 @@ input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
 .tag.reconstructed-source-tag{background:#4b3322;color:#ffd6a1;border-color:#b97d3d}
 .aligned-keypoint strong,.aligned-theory strong{color:#bcebe7}
 .aligned-theory{overflow-wrap:anywhere}
+
+.question.exam-question{color:#e2d6ff;border-left:3px solid #8f78cc;padding-left:13px}
+.question.reconstructed-question{color:#ffd6a1;border-left:3px solid #c68c49;padding-left:13px}
+
+.question,.opt>span:last-child{overflow-wrap:anywhere}
