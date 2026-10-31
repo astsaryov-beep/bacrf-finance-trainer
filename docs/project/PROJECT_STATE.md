@@ -12,24 +12,24 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-28",
   "next_task": "T-28",
-  "last_verified_checkpoint": "CP-20261031-147",
-  "last_verified_commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+  "last_verified_checkpoint": "CP-20261031-149",
+  "last_verified_commit": "77200ec127fd8339f4fbe5199fbcff046fb3ed19",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41241541221",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41242183042",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-31",
-  "current_release": "6.1.2",
+  "current_release": "6.1.3",
   "release_channel": "stable"
 }
 ```
 <!-- STATE_JSON_END -->
 
-**6.1.2 VERIFIED; рабочая6.1.3 IN_PROGRESS, CI/публикацияPENDING.**
+**6.1.3 VERIFIED; полное ТЗ IN_PROGRESS.**
 
-[PR81](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/81), продукт `6c9ac13cb3e5deb3837befe8277440cd5358d119`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555) SUCCESS;17публичных файлов live MATCH,дерево приложения совпало с проверенным PR.
+[PR83](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/83), продукт `77200ec127fd8339f4fbe5199fbcff046fb3ed19`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41241541221) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41242183042) SUCCESS; 17 публичных файлов live MATCH. Дерево приложения совпало с проверенным PR.
 
-28локальных и12браузерных программ PASS. Подтверждены541связь к теории,все28новых заданий на320px,многоблочный переход/возврат с черновиком и перезагрузкой,первичные ссылки,цветовые подписи. 310UI-состояний без pageerror/переполнения/белых поверхностей/служебных путей. Осмотрен core13043340499,снимок составного вопроса итеориина320px. НезависимыеPV/YTM/Z-spread/НКД/haircut/капитализация ивсеMCнаборы PASS;семьосновныхконстант/frozenMATCH.
+28 локальных и 12 браузерных программ PASS. Проверены 564 связи с теорией и все 51 добавленное задание на ширине 320px. Многоблочные переходы, возврат, черновики, перезагрузка и первичные ссылки работают. В 310 UI-состояниях нет pageerror, переполнений, белых поверхностей и служебных путей. Осмотрены артефакт core 13058225360 и снимки надзора/границ РЕПО на 320px. Исходные константы, ID, ключи, истории и frozen сохранены.
 
-T27–T30 IN_PROGRESS: опубликовано18из86целевых записей (13по скану+5реконструкций),68не закрыты. Независимо обосновано10из125исходных альтернатив,115ожидают окончательной проверки;новые синтетическиеmultiвэтотсчёт не входят. Полный экзаменационный профиль пока прежний. Неоднозначности оригиналов не превращены в якобы официальный ключ.
+T27–T30 IN_PROGRESS. Опубликован 41 из 86 целевых пунктов: 36 адаптаций исходного варианта (25 MC и 11 open), 5 реконструкций. Остаются 14 открытых вопросов и 31 запись воспоминаний. Все 125 исходных альтернатив получили независимое обоснование: 41 истинна в указанной модели, 52 ложны, 27 требуют условий, 5 неоднозначны или не подтверждены как универсальные. Официального ключа нет. Итоговый экзамен пока использует прежний профиль.
 
-[План](EXAM_ALIGNMENT_PLAN.md) ·[Контекст](CHAT_HANDOFF.md) ·[Матрица](../audits/EXAM_ALIGNMENT_20261031.md).
+[План](EXAM_ALIGNMENT_PLAN.md) · [Контекст](CHAT_HANDOFF.md) · [Матрица](../audits/EXAM_ALIGNMENT_20261031.md).
