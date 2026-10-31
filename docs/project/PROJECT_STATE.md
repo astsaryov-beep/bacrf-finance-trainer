@@ -10,26 +10,26 @@
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
   "phase": "IN_PROGRESS",
-  "active_task": "T-27",
-  "next_task": "T-27",
-  "last_verified_checkpoint": "CP-20261028-140",
-  "last_verified_commit": "a6a19bfb46c918873e88567902fa284e4c31a596",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678054057",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678892389",
+  "active_task": "T-28",
+  "next_task": "T-28",
+  "last_verified_checkpoint": "CP-20261031-143",
+  "last_verified_commit": "bac5e67bf1e8263d3bfcf3ea086d0ce9c42633da",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41197807164",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41198278783",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-10-31",
-  "current_release": "6.0.3",
+  "current_release": "6.1.0",
   "release_channel": "stable"
 }
 ```
 <!-- STATE_JSON_END -->
 
-**T27–T30 IN_PROGRESS. Опубликованный продукт6.0.3 остаётся VERIFIED.** Новая содержательная проверка ведётся по [плану](EXAM_ALIGNMENT_PLAN.md); прежняя приёмка не доказывает новый охват.
+**Первый пакет6.1.0 VERIFIED; T27–T30 IN_PROGRESS.**
 
-[PR75](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/75), продукт `a6a19bfb46c918873e88567902fa284e4c31a596`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678054057) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/40678892389) SUCCESS; приложение после merge совпало с проверенным PR;16 публичных файлов live MATCH.
+[PR77](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/77), продукт `bac5e67bf1e8263d3bfcf3ea086d0ce9c42633da`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41197807164) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41198278783) SUCCESS. Дерево приложения совпало с проверенным PR;17публичных файлов live MATCH.
 
-27 локальных и12 браузерных программ PASS. Дополнительно проверены все19меток «Вопрос из теста», фильтр и кнопка. Все семь основных констант курса, assets и frozen побайтно сохранены; сами вопросы/ответы/ключи/ID/прогресс не менялись.
+28локальных и12браузерных программ PASS. Новый набор проверяет518уникальных тренировочныхID,5связанных упражнений,4полных/кратких пояснения,цветовые подписи,точный возврат/черновики,независимые денежные/квантильные/хеджевые примеры. Браузер проверил310состояний и отсутствие служебных путей; прежние96блоков,экзамен,истории,импорт/экспорт сохранены.
 
-Маркировка19вопросов заменена на «Вопрос из теста» в карточках, фильтрах, кнопке и сведениях о курсе. «Экзаменационный аналог» и «Авторские вопросы» заменены нейтральными обозначениями дополнительных вопросов. Оговорка об источниках объясняет адаптацию материала для самостоятельной подготовки. Ссылки/авторство исходных материалов, оговорки о самооценке, формате экзамена и расхождениях сохранены.
+Полная задача T27–T30 НЕ завершена: в публичной матрице4из86записей имеют реализованный пакет,82ещё не закрыты;10из125альтернатив получили независимое обоснование,115ожидают проверки. Официального ключа нет. Итоговый профиль25/25 пока прежний; новые5вопросов доступны в тренировке. Следующий пакет — точные перечни Доу/ЦК/АСВ и параметры funding, затем оставшиеся составные/правовые/индексные задачи и новый экзаменационный профиль.
 
-Обязательных незавершённых работ текущего запроса нет; T23 ждёт обратной связи. stable_version5.0.8 — исторический снимок. [Контекст](CHAT_HANDOFF.md) · [План](ROADMAP.md) · [QA](../audits/QA_REPORT.md).
+Семь основных констант содержания/вопросов побайтно сохранены,513старых тренировочныхID/ключей и135основных карточек не менялись. Историческая5.0.8 заморожена. [План](EXAM_ALIGNMENT_PLAN.md) · [Контекст](CHAT_HANDOFF.md) · [Матрица/отчёт](../audits/EXAM_ALIGNMENT_20261031.md).

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_commit": "b3287408d1c7e9221ce25e825dde071586e789f5",
-  "status": "IN_PROGRESS_FOUNDATIONS_IMPLEMENTED",
+  "status": "IN_PROGRESS_FIRST_FOUNDATIONS_PUBLISHED",
   "inventory": {
     "raw_question_objects": 569,
     "unique_question_ids": 553,
@@ -150,13 +150,13 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_CHECKS_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-03"
       ],
-      "published": false,
+      "published": true,
       "semantic_finding": "M = W / R есть в формульной карточке; требуется связать F₀/F₁ с РЦ1/РЦ2 и воспроизведением обозначений, не добавлять второй полный пересказ.",
-      "action_status": "IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "FOUNDATIONS_PUBLISHED_VERIFIED",
       "original_option_audit": [
         {
           "letter": "A",
@@ -203,7 +203,8 @@
           "validity_as_written": "WITH_STATED_MODEL",
           "ambiguity_notes": "Точное правило зависит от спецификации."
         }
-      ]
+      ],
+      "published_version": "6.1.0"
     },
     {
       "id": "EX17-04",
@@ -714,13 +715,13 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_CHECKS_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-19"
       ],
-      "published": false,
+      "published": true,
       "semantic_finding": "VaR ≈ V × z × σ × √T уже разобран; обозначение λ в вопросе требует явного соответствия z и упражнения на квантиль/горизонт.",
-      "action_status": "IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "FOUNDATIONS_PUBLISHED_VERIFIED",
       "original_option_audit": [
         {
           "letter": "A",
@@ -767,7 +768,8 @@
           "validity_as_written": "WITH_STATED_MODEL",
           "ambiguity_notes": "Для денежного VaR экспозиция определяется выбранной моделью."
         }
-      ]
+      ],
+      "published_version": "6.1.0"
     },
     {
       "id": "EX17-20",
@@ -1062,13 +1064,14 @@
       ],
       "gap_type": "PARTIAL",
       "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_CHECKS_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "EX17-27"
       ],
-      "published": false,
+      "published": true,
       "semantic_finding": "h* = ρ × σ_S / σ_F уже присутствует. Проверить отдельное воспроизведение отношения волатильностей, не объявлять формулу отсутствующей.",
-      "action_status": "IMPLEMENTED_PENDING_FULL_CI"
+      "action_status": "FOUNDATIONS_PUBLISHED_VERIFIED",
+      "published_version": "6.1.0"
     },
     {
       "id": "EX17-28",
@@ -1693,19 +1696,20 @@
       "existing_training_question_ids": [],
       "gap_type": "MISSING",
       "key_verification_status": "INDEPENDENT_EDITORIAL_REVIEW_NOT_OFFICIAL",
-      "qa_status": "LOCAL_CHECKS_PENDING",
+      "qa_status": "LOCAL_BROWSER_PAGES_LIVE_PASS",
       "new_training_ids": [
         "RECON-01",
         "TRANSFER-KENNEDY-01"
       ],
-      "published": false,
+      "published": true,
       "semantic_finding": "Четыре права Кеннеди отсутствуют в извлечённых слоях96блоков и553уникальных объектах вопросов. Перечень подтверждён визуально и текстом на Л1–2 PDF71.",
       "presentation_ref": {
         "document": "L12",
         "pdf_page": 71,
         "slide": 71
       },
-      "action_status": "IMPLEMENTED_PENDING_FULL_CI"
+      "action_status": "FOUNDATIONS_PUBLISHED_VERIFIED",
+      "published_version": "6.1.0"
     },
     {
       "id": "RECON-02",
