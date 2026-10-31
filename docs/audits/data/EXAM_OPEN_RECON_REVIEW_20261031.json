@@ -1,0 +1,1009 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "status": "SUBJECT_REVIEW_COMPLETE_LOCAL_BROWSER_PENDING",
+  "official_key": false,
+  "new_questions": 44,
+  "actual_open": 14,
+  "new_reconstructed_questions": 30,
+  "reconstruction_records_with_new_questions": 28,
+  "topic_only_dispositions": 3,
+  "records": [
+    {
+      "record_id": "EX17-26",
+      "question_ids": [
+        "EX17-26"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-13-0",
+        "S2-05-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Указан переход собственности по первой части к покупателю.",
+        "Голос связан с собственностью/учётом на корпоративную дату, а не автоматически оставлен продавцу.",
+        "Компенсация соответствующего дивидендного дохода отличена от голоса.",
+        "Названо предусмотренное законом участие/посредничество для РЕПО за счёт физлица.",
+        "Объяснён риск падения стоимости и непокрытого требования первого покупателя."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 34
+    },
+    {
+      "record_id": "EX17-29",
+      "question_ids": [
+        "EX17-29"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-06-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Названа роль плательщика фиксированной ставки/fixed-rate payer.",
+        "Объяснена защита совокупных расходов плавающего кредита от роста согласованного индикатора.",
+        "Указаны совпадение номинала, индикатора и периодов; отмечены границы защиты."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 21
+    },
+    {
+      "record_id": "EX17-31",
+      "question_ids": [
+        "EX17-31"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "FACTOR-01-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Назван поставщик/клиент и его роль уступающего требование.",
+        "Назван покупатель/дебитор и его платёжное обязательство.",
+        "Назван фактор и его роль финансирования/обслуживания.",
+        "Принятый кредитный риск при отсутствии регресса отнесён к фактору с договорными границами.",
+        "Сохранены собственные обязанности поставщика/различие кредитного риска и дефектов поставки."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 10
+    },
+    {
+      "record_id": "EX17-33",
+      "question_ids": [
+        "EX17-33"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-10-1"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Рост цены Call указан при заданных прочих равных.",
+        "Снижение цены Put указано в той же модели.",
+        "Названа Rho и смысл чувствительности к безрисковой ставке.",
+        "Различены запись на процентный пункт и ставка в долях."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 12
+    },
+    {
+      "record_id": "EX17-34",
+      "question_ids": [
+        "EX17-34"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-10-1",
+        "E-11-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Оптимизация/эффективность по Марковицу не признана доказательством нулевого риска.",
+        "Различены специфический диверсифицируемый и общий рыночный компоненты.",
+        "Названа бета CAPM и её смысл чувствительности к рынку.",
+        "Нулевая бета не отождествлена с полным отсутствием всех рисков."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 18
+    },
+    {
+      "record_id": "EX17-35",
+      "question_ids": [
+        "EX17-35"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-02-1"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Процент связан с фактически выбранной задолженностью.",
+        "Комиссия за резервирование/доступность отделена по назначению и базе.",
+        "Невыбранный лимит отличён от уже имеющихся денег на счёте.",
+        "Названы условия/ограничения выборки и риск её приостановления."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 17
+    },
+    {
+      "record_id": "EX17-36",
+      "question_ids": [
+        "EX17-36"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-04-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Назван валютный своп/FX swap для временной ликвидности.",
+        "Правильно направлена ближняя нога: покупка CNY.",
+        "Правильно направлена дальняя нога: продажа CNY.",
+        "Указано согласование дат/объёма и сохранившиеся расчётные/ликвидностные условия."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 19
+    },
+    {
+      "record_id": "EX17-37",
+      "question_ids": [
+        "EX17-37"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-03-0",
+        "E-08-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Назван канал ожидаемого дивидендного денежного потока.",
+        "При неизменных остальных условиях показана связь большего потока с большей PV.",
+        "Различены норматив, ожидание и фактическая выплата по условиям/ограничениям.",
+        "Названы возможные изменения удержанной прибыли/роста, риска или ставки, исключающие гарантированный рост цены."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 21
+    },
+    {
+      "record_id": "EX17-38",
+      "question_ids": [
+        "EX17-38"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "R-06-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Различены обязательство коммерческого банка и обязательство Банка России.",
+        "Учёт цифрового рубля отнесён к платформе Банка России.",
+        "Интерфейс банка не перепутан с эмиссией/основным обязательством.",
+        "Сохранена рублёвая единица и отличие от частного криптоактива."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 15
+    },
+    {
+      "record_id": "EX17-40",
+      "question_ids": [
+        "EX17-40"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-10-1"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Carry определён через доходы/затраты удержания и фондирования за период.",
+        "Basis Decay объяснён как изменение относительной цены со знаком/направлением позиции.",
+        "ROE связан с результатом и собственным капиталом, а не отдельным источником дохода.",
+        "Показаны разные возможные причины изменения показателей и необходимость согласовать базы/периоды.",
+        "Нет двойного счёта и обещания безрискового роста через плечо."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 18
+    },
+    {
+      "record_id": "EX17-41",
+      "question_ids": [
+        "EX17-41"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-04-1"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Назван ОФЗ-ИН и полное значение индексируемого номинала.",
+        "Названо распространённое обозначение линкер/инфляционный линкер.",
+        "Индексация номинала по CPI отличена от плавающего процентного купона.",
+        "Указаны ограничения: цена/срок/лаг/досрочный результат или личная инфляция."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 21
+    },
+    {
+      "record_id": "EX17-42",
+      "question_ids": [
+        "EX17-42"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-11-1"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Числитель — средняя избыточная доходность над согласованным ориентиром.",
+        "Знаменатель — общая волатильность согласованного ряда; период/единицы не смешаны.",
+        "Назван учёт и положительных, и отрицательных отклонений как ограничение для указанной цели.",
+        "Исторический показатель/один порог не признан полным доказательством качества и будущего риска."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 10
+    },
+    {
+      "record_id": "EX17-49",
+      "question_ids": [
+        "EX17-49"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-06-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Ближняя продажа связана с получением рублей, дальний выкуп — с обратным денежным оттоком и возвратом металла.",
+        "Результат связан с согласованной разницей цен/сроком/стоимостью ликвидности.",
+        "Названы релевантные издержки, обеспечение и риски исполнения.",
+        "Направленный прогноз золота не принят за необходимый/единственный источник экономики свопа."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 21
+    },
+    {
+      "record_id": "EX17-50",
+      "question_ids": [
+        "EX17-50"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "INS-02-0"
+      ],
+      "conditions": [
+        "ADAPTED_SCAN_NOT_OFFICIAL_KEY"
+      ],
+      "requirements": [
+        "Человек правильно назван страхователем.",
+        "Тот же человек назван застрахованным, показано совмещение ролей.",
+        "Страховая организация названа страховщиком.",
+        "Супруга названа выгодоприобретателем по заданной выплате."
+      ],
+      "reuse_decision": "ADAPTED_SCAN",
+      "support_count": 8
+    },
+    {
+      "record_id": "RECON-02",
+      "question_ids": [
+        "RECON-02"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-08-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Названы оставшиеся 30% параллельной чувствительности.",
+        "Названы непараллельная кривая и базис/состав корзины.",
+        "Учтена выпуклость/ограничение линейной DV01.",
+        "Учтены ликвидность и промежуточное обеспечение.",
+        "Отличён локальный коэффициент хеджа от общего риска/VaR через зависимости и модель."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 18
+    },
+    {
+      "record_id": "RECON-03",
+      "question_ids": [
+        "RECON-03"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-10-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Учтены веса и ковариационный член/совместное движение.",
+        "Верно объяснён случай ρ=+1 для положительных весов.",
+        "При ρ=−1 указана зависимость от разности взвешенных волатильностей.",
+        "Для нуля требуется w₁σ₁=w₂σ₂; корреляции недостаточно.",
+        "Вывод ограничен моделью и не объявлен безрисковостью любых будущих исходов."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 13
+    },
+    {
+      "record_id": "RECON-04",
+      "question_ids": [
+        "RECON-04"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-11-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Различены общая волатильность и downside deviation от цели.",
+        "Разница чисел объяснена при согласованном положительном числителе.",
+        "Выбор показателя связан с целью и сопоставимостью данных.",
+        "Больший Sortino не объявлен универсальным доказательством лучшего управления/всех рисков."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 10
+    },
+    {
+      "record_id": "RECON-05",
+      "question_ids": [
+        "RECON-05"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "R-02-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Назван контроль финансовых групп/холдингов.",
+        "Названа унификация регулирования.",
+        "Названо снижение затрат Правительства/координационных надзорных затрат в схеме.",
+        "Ожидаемые преимущества не выданы за автоматическую гарантию."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 32
+    },
+    {
+      "record_id": "RECON-06",
+      "question_ids": [
+        "RECON-06"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "R-02-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Названа трудность границы компетенций/нового продукта.",
+        "Названы дублирование запросов или противоречивые требования.",
+        "Назван недостаток целостной оценки группы/системного риска.",
+        "Объяснена роль интеграции на конкретном примере без обещания автоматического устранения всех проблем."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 32
+    },
+    {
+      "record_id": "RECON-07",
+      "question_ids": [
+        "RECON-07"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-12-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно: анализируется структура графика.",
+        "Верно: формализация не устраняет модельные решения и риск подгонки.",
+        "Неверно: подгонка на той же истории не доказывает устойчивость на новых данных; нужны проверка вне обучающей выборки и учёт издержек.",
+        "Неверно: использование проверяемых данных для выбора параметров нарушает независимость такой проверки.",
+        "Верно: исторический паттерн не заменяет проверку переноса."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 12
+    },
+    {
+      "record_id": "RECON-08",
+      "question_ids": [
+        "RECON-08",
+        "RECON-08-PROTECT"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-10-0",
+        "S2-09-0"
+      ],
+      "conditions": [
+        "MEDIUM_TWO_ALTERNATIVE_TOPICS_SYNTHETIC",
+        "MEDIUM_TWO_ALTERNATIVE_TOPICS_SYNTHETIC"
+      ],
+      "requirements": [
+        "Верно записан/объяснён паритет C+PV(K)=P+S₀.",
+        "Синтетическая акция включает длинный Call, короткий Put и PV(K).",
+        "C−P без денежной части отличено от оплаченного владения.",
+        "Названы одинаковые параметры и отсутствие дивидендов/идеализированные условия.",
+        "Верно: при S_T<K пут дополняет стоимость до K.",
+        "Неверно: валовой минимум и возврат всех начальных затрат не совпадают автоматически.",
+        "Неверно: короткий Put добавляет обязательство, а не страхует падение акции.",
+        "Верно: цена защиты входит в затраты.",
+        "Верно: защитный пакет не равен бесплатному обещанию роста."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 27
+    },
+    {
+      "record_id": "RECON-09",
+      "question_ids": [
+        "RECON-09"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-07-0",
+        "S1-07-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_MEDIUM_WORDING_EXPLICIT_SYNTHETIC_SCENARIO"
+      ],
+      "requirements": [
+        "Верно: падение доходности повышает цену длинной бумаги, рост снижает цену проданной в short.",
+        "Неверно: дюрации/чувствительности могут отличаться при одинаковых суммах.",
+        "Верно: это условная локальная нейтральность, не полное отсутствие риска.",
+        "Неверно: это другие компоненты движения.",
+        "Верно: конкретный сценарий обязателен для знака."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 24
+    },
+    {
+      "record_id": "RECON-10",
+      "question_ids": [
+        "RECON-10"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-05-1",
+        "S1-01-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно: это иной объект, чем административно устанавливаемая ключевая ставка.",
+        "Верно: важны обеспеченный базовый рынок и конкретный срок ряда.",
+        "Неверно:MIACR связан с фактическими операциями; опрос предложений — иной тип индикатора.",
+        "Неверно: ключевая ставка и рыночные индикаторы различаются.",
+        "Верно: риск и сроки влияют на сравнимость."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 27
+    },
+    {
+      "record_id": "RECON-11",
+      "question_ids": [
+        "RECON-11"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-02-0"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Кредитор по кредитному договору связан с банком/кредитной организацией.",
+        "Предмет кредита определён как денежные средства.",
+        "Для займа указаны более широкий круг лиц и предусмотренные предметы.",
+        "Процентность/название не заменяют проверку условий и специального режима."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 31
+    },
+    {
+      "record_id": "RECON-12",
+      "question_ids": [
+        "RECON-12"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-02-0",
+        "INS-02-0"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Объяснена роль залога и процедура реализации стоимости.",
+        "Поручительство отличено как дополнительное личное обязательство.",
+        "Страхование связано с указанным событием/объектом и ограничениями.",
+        "Гарантия отличена по самостоятельным условиям требования.",
+        "Сохранены риски стоимости/исполнения и возможной зависимости источников покрытия."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 39
+    },
+    {
+      "record_id": "RECON-13",
+      "question_ids": [
+        "RECON-13",
+        "RECON-13-MC"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-02-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_MEDIUM_WORDING_SYNTHETIC",
+        "HIGH_TOPIC_MEDIUM_WORDING_SYNTHETIC"
+      ],
+      "requirements": [
+        "Верно названы плательщик/получатель и роли двух банков.",
+        "Платёж связан с предусмотренными документами и условиями.",
+        "Различены покрытый и непокрытый по механизму покрытия/возмещения.",
+        "Отзывность отделена от покрытия, названо общее правило безотзывности.",
+        "Документарная проверка не выдана за гарантию фактического качества товара.",
+        "Верно:статья 869 задаёт безотзывность при отсутствии иного текста.",
+        "Неверно:финансирование покрытия не отменяет документарные условия.",
+        "Верно:это различие по расчётному механизму, а не по качеству товара.",
+        "Верно:банк не заменяет исполнение всех фактических обязанностей продавца.",
+        "Неверно:способ покрытия и возможность отмены являются разными признаками."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 31
+    },
+    {
+      "record_id": "RECON-14",
+      "question_ids": [
+        "RECON-14"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-03-1",
+        "S1-03-0"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно:это организационный признак кредитования.",
+        "Неверно:эти категории могут сочетаться.",
+        "Верно:проектные потоки и договорная поддержка — отдельные вопросы.",
+        "Неверно:агентская функция не означает финансирование/гарантию всех долей.",
+        "Верно:нужно читать весь пакет, а не только название SPV."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 19
+    },
+    {
+      "record_id": "RECON-15",
+      "question_ids": [
+        "RECON-15"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-09-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "БОСК связана с тремя указанными факторными группами.",
+        "ОСК связана с модификаторами, включая stress и peer.",
+        "Названы операционная трансформация и регуляторные/санкционные риски среди модификаторов.",
+        "Финал связан с внешним влиянием: негативным влиянием бенефициаров/экстраординарной поддержкой.",
+        "Методика рейтинга отделена от процедур IPO и универсального порядка всех агентств."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 22
+    },
+    {
+      "record_id": "RECON-16",
+      "question_ids": [
+        "RECON-16"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-09-1"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Объяснены различие скорости/процедур реакции рынка и агентства.",
+        "Неизменный рейтинг не принят за отсутствие новых рисков.",
+        "Расширение спреда не приписано единственной причине; нужен самостоятельный анализ."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 22
+    },
+    {
+      "record_id": "RECON-17",
+      "question_ids": [
+        "RECON-17"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-06-0",
+        "E-07-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "При заданном знаменателе показано 74<75 и блокирование.",
+        "26 голосов не признаны достаточными для самостоятельного принятия решения.",
+        "Названы орган/тип акций/участие и знаменатель.",
+        "Вывод не распространён автоматически на все дивиденды/делистинг и специальные пороги."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 33
+    },
+    {
+      "record_id": "RECON-18",
+      "question_ids": [
+        "RECON-18"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-01-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Привязка выплат отличена от прямого владения акцией.",
+        "Голос по акции не приписан держателю данного денежногоЦФА.",
+        "Требование связано с обязанным эмитентом и документами выпуска.",
+        "Названы условия выплат/погашения/риски и предел вывода для других видовЦФА."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 22
+    },
+    {
+      "record_id": "RECON-19",
+      "question_ids": [
+        "RECON-19"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-02-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Правильно объяснена структура EV и причина отрицательного значения.",
+        "Отрицательное EV не выдано за автоматическую выплату/безрисковый арбитраж.",
+        "Указаны доступность денег и неучтённые обязательства/периметр.",
+        "Права миноритария и корпоративные решения отделены от формулы стоимости."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 11
+    },
+    {
+      "record_id": "RECON-20",
+      "question_ids": [
+        "RECON-20"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-06-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно:одни бумаги могут многократно менять владельца.",
+        "Неверно: повторные сделки и разные периоды владения меняют оборот без такой же смены структуры собственности.",
+        "Верно:поток и запас не отождествляют.",
+        "Неверно: полная капитализация учитывает выпуск, а не только акции, прошедшие через дневные сделки; free-float — отдельная база.",
+        "Верно:нельзя переносить процент одной структуры на другую."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 9
+    },
+    {
+      "record_id": "RECON-21",
+      "question_ids": [
+        "RECON-21"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-06-0",
+        "E-03-0",
+        "E-07-0"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно:роль рекомендации отличается от окончательного решения.",
+        "Неверно:нужны компетенция и процедура; размер пакета не заменяет их.",
+        "Верно:корпоративные роли и ограничения рассматривают вместе.",
+        "Верно:разные органы имеют собственные полномочия.",
+        "Неверно:эти действия различаются, даже если сумма совпадает."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 45
+    },
+    {
+      "record_id": "RECON-22",
+      "question_ids": [
+        "RECON-22"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "E-02-0",
+        "E-02-1"
+      ],
+      "conditions": [
+        "LOW_MEDIUM_TOPIC_ONLY_SYNTHETIC_EXERCISE"
+      ],
+      "requirements": [
+        "Снижение P/E связано с разовым знаменателем и не признано доказательством устойчивого улучшения.",
+        "Для P/BV учтены качество/знак капитала и оценки.",
+        "Для EV/EBITDA учтены долг/деньги/периметр и согласование показателей.",
+        "Проверяются отрасль/период/денежные потоки, нет гарантии из одной кратности."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 23
+    },
+    {
+      "record_id": "RECON-23",
+      "question_ids": [
+        "MC-PEN-02-0-1",
+        "MC-PEN-02-0-2",
+        "MC-PEN-02-1-1",
+        "MC-PEN-02-1-2"
+      ],
+      "topic_only": true,
+      "theory_block_ids": [
+        "PEN-02-0",
+        "PEN-02-1"
+      ],
+      "conditions": [],
+      "requirements": [],
+      "reuse_decision": "KNOWN_TOPIC_ONLY_NO_SPECIFIC_EXAM_STEM_CLAIM",
+      "support_count": 18
+    },
+    {
+      "record_id": "RECON-24",
+      "question_ids": [
+        "RECON-24"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "PEN-01-0"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Названа распределительная модель.",
+        "Источник текущих выплат связан с текущими поступлениями, а не индивидуальным инвестиционным накоплением."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 10
+    },
+    {
+      "record_id": "RECON-25",
+      "question_ids": [
+        "RECON-25"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "INS-02-1"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно:это не страховка всех повреждений собственной машины.",
+        "Неверно:различаются объект, условия, лимиты и основания.",
+        "Верно:конкретный набор рисков определяет договор.",
+        "Верно:страховой интерес связан с жизнью/личными событиями.",
+        "Неверно:ответственность перед другими и собственный ущерб не совпадают."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 12
+    },
+    {
+      "record_id": "RECON-26",
+      "question_ids": [
+        "RECON-26"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "R-06-0"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно:форма интерфейса не меняет обязанное лицо.",
+        "Верно:денежное право зависит от конкретного выпуска.",
+        "Неверно:интерфейс доступа и эмиссия различаются.",
+        "Неверно:права и гарантии выводят из конструкции и норм, не названия.",
+        "Верно:криптоактив не становится цифровым рублём."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 15
+    },
+    {
+      "record_id": "RECON-27",
+      "question_ids": [
+        "RECON-27"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-10-1"
+      ],
+      "conditions": [
+        "HIGH_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Правильно заданы покупка спота и продажа фьючерса.",
+        "РЕПО объяснено как отдельный источник финансирования с обязательствами/обеспечением.",
+        "Короткий фьючерс отличён от продажи заимствованной базовой бумаги.",
+        "Названы условия совпадения и остаточные риски, не обещана безрисковая доходность."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 18
+    },
+    {
+      "record_id": "RECON-29",
+      "question_ids": [
+        "RECON-29"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S1-02-1"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Верно:назначение платы проверяют отдельно.",
+        "Неверно:получение транша ещё требует исполнения условий.",
+        "Неверно:одна комиссия не меняет автоматически базу процентов.",
+        "Верно:нужно оценить статус ковенанта и документы.",
+        "Верно:арифметический остаток и доступность не тождественны."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 17
+    },
+    {
+      "record_id": "RECON-30",
+      "question_ids": [
+        "RECON-30"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-06-0"
+      ],
+      "conditions": [
+        "MEDIUM_TOPIC_SYNTHETIC_WORDING"
+      ],
+      "requirements": [
+        "Правильно указаны денежный отток и получение металла в ближней ноге.",
+        "Правильно указаны возврат рублей и передача металла в дальней ноге.",
+        "Экономика связана со сроком/разницей цен/стоимостью ликвидности и расходами.",
+        "Указаны условия исполнения/обеспечения и отсутствие гарантии безрисковости."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 21
+    },
+    {
+      "record_id": "RECON-31",
+      "question_ids": [
+        "RECON-31"
+      ],
+      "topic_only": false,
+      "theory_block_ids": [
+        "S2-06-0"
+      ],
+      "conditions": [
+        "MEDIUM_FORMULA_MEMORY_UNCERTAIN_CORRECT_MODEL_SYNTHETIC"
+      ],
+      "requirements": [
+        "Восстановлено корректное отношение двух процентных множителей.",
+        "Ставки связаны с заданной котировкой RUB/CNY.",
+        "Названы согласованные T/единицы/тип начисления и модельные ограничения.",
+        "При обратной котировке роли валют/ставок меняются."
+      ],
+      "reuse_decision": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
+      "support_count": 21
+    },
+    {
+      "record_id": "RECON-32",
+      "question_ids": [
+        "EX17-13",
+        "RECON-08",
+        "RECON-08-PROTECT"
+      ],
+      "topic_only": true,
+      "theory_block_ids": [
+        "S2-09-0",
+        "S2-10-0"
+      ],
+      "conditions": [],
+      "requirements": [],
+      "reuse_decision": "KNOWN_TOPIC_ONLY_NO_SPECIFIC_EXAM_STEM_CLAIM",
+      "support_count": 27
+    },
+    {
+      "record_id": "RECON-36",
+      "question_ids": [
+        "MC-S1-01-1-1",
+        "MC-S1-07-0-1",
+        "RECON-02"
+      ],
+      "topic_only": true,
+      "theory_block_ids": [
+        "S1-01-1",
+        "S1-07-0",
+        "S2-08-1"
+      ],
+      "conditions": [],
+      "requirements": [],
+      "reuse_decision": "KNOWN_TOPIC_ONLY_NO_SPECIFIC_EXAM_STEM_CLAIM",
+      "support_count": 43
+    }
+  ],
+  "primary_references": [
+    "https://www.moex.com/s1742",
+    "https://www.moex.com/preciousmetals/for-business",
+    "https://www.nornickel.digital/invest",
+    "https://www.cbr.ru/PSystem/dr/",
+    "https://www.cbr.ru/hd_base/mkr/mkr_base/Comment_new/",
+    "https://www.cbr.ru/hd_base/ruonia/ruonia/",
+    "https://www.moex.com/s2990",
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/ade1a56b9fd08842b5355739ce8b3618593c5f83/",
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/76156d366a8356c87144b936b364bb5c5e87b2e3/",
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/bbb41480e7d427b19ba268effd2c523cbeabf40c/",
+    "https://www.consultant.ru/document/cons_doc_LAW_9027/e2052f310ee077ef3649f424400e2757d0da35f6/",
+    "https://www.consultant.ru/document/cons_doc_LAW_8743/9f4fbb73c39e25049b6c7c98bbbec1b66f83a9f2/"
+  ],
+  "limits": [
+    "No official answer key or empirical difficulty calibration.",
+    "Three topic-only memories are not claimed as reconstructed specific exam questions.",
+    "Partial hedge: local DV01 percentage is not a guaranteed percentage change of total VaR.",
+    "LC: current general Civil Code irrevocability differs from outdated slide wording.",
+    "Rating stages and weights are the particular teaching methodology, not all agencies.",
+    "Minetoken monetary claim does not transfer the underlying share; other CFA types can have different legal rights."
+  ]
+}

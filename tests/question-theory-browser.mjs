@@ -7,7 +7,7 @@ async function openLinks(id){const card=page.locator('[data-theory-for="'+id+'"]
 try{
  await page.goto('file://'+resolve(root,'index.html'));
  const coverage=await page.evaluate(()=>EFFECTIVE_BANK.map(q=>({id:q.id,links:FinanceTheoryUI.blocks(q).map(b=>b.key)})));
- assert.equal(coverage.length,564);assert.ok(coverage.every(x=>x.links.length));
+ assert.equal(coverage.length,608);assert.ok(coverage.every(x=>x.links.length));
  // A completed course block opens directly as full theory, preserving its results.
  await page.evaluate(()=>{studyData.blocks[studyKey('S1-05',0)]={answers:{Q04:{checked:true,selected:[0],score:0}},complete:true,completedAt:'2026-10-28T00:00:00Z'};persistStudy()});
  const before=await page.evaluate(()=>JSON.stringify(studyData.blocks[studyKey('S1-05',0)]));
@@ -78,6 +78,25 @@ try{
  await fixture(['EX17-12']);const repo=await openLinks('EX17-12');await repo.locator('[data-question-theory]').first().click();
  const repoText=await page.locator('#content').innerText();assert.ok(repoText.includes('Брокерская маржинальная торговля и её расчётные задания'));assert.ok(!repoText.includes('новый экзаменационный профиль исключает эту главу'));
  await page.locator('[data-aligned-block="E-13-0"]').scrollIntoViewIfNeeded();await page.screenshot({path:resolve(out,'exam-repo-scope-320.png')});
- assert.deepEqual(errors,[]);console.log('PASS question theory UI:564 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
+ // Exact new prerequisites, not only theme-title matches, at the narrow viewport.
+ await fixture(['RECON-13-MC']);for(const i of [0,2,3])await page.locator('input[name="qoption"][value="'+i+'"]').check();
+ await page.locator('#check').click();assert.equal(await page.evaluate(()=>session.grades['RECON-13-MC'].strict),true);
+ const lc=await openLinks('RECON-13-MC');await lc.locator('[data-question-theory]').first().click();
+ assert.match(await page.locator('[data-aligned-block="S1-02-0-part-1"]').innerText(),/безотзывный/);
+ assert.match(await page.locator('[data-aligned-block="S1-02-0-part-1"]').innerText(),/Покрытый аккредитив/);
+ await page.locator('[data-aligned-block="S1-02-0-part-1"]').scrollIntoViewIfNeeded();await page.screenshot({path:resolve(out,'exam-lc-theory-320.png')});
+ await page.reload();await page.locator('[data-theory-return]').click();assert.equal(await page.evaluate(()=>session.grades['RECON-13-MC'].strict),true);
+ for(const [id,target,term,file] of [
+ ['EX17-41','S1-04-1','ОФЗ-ИН','exam-linker-theory-320.png'],
+ ['RECON-15','S1-09-1','операционная трансформация','exam-rating-theory-320.png'],
+ ['RECON-18','E-01-0-part-1','денежным требованием','exam-minetoken-theory-320.png'],
+ ['RECON-02','S2-08-1','Кривая и выпуклость','exam-partial-hedge-theory-320.png'],
+ ['RECON-05','R-02-0-part-2','Три причины','exam-megareg-theory-320.png']]){
+  await fixture([id]);const links=await openLinks(id);await links.locator('[data-question-theory]').first().click();
+  assert.ok((await page.locator('[data-aligned-block="'+target+'"]').innerText()).includes(term));
+  await page.locator('[data-aligned-block="'+target+'"]').scrollIntoViewIfNeeded();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  await page.screenshot({path:resolve(out,file)});await page.locator('[data-theory-return]').click();
+ }
+ assert.deepEqual(errors,[]);console.log('PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
 }catch(e){await page.screenshot({path:resolve(out,'theory-links-failure.png')});throw e}
-finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:564,errors},null,2));await browser.close()}
+finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:608,errors},null,2));await browser.close()}
