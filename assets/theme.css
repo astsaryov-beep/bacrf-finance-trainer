@@ -66,3 +66,9 @@ input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
 .question-theory-return p{margin:10px 0 4px}
 .question-theory-supplement{scroll-margin-top:100px}
 @media(max-width:620px){.question-theory-links{padding:12px}.question-theory-return .btn{width:100%}}
+
+/* Exam provenance has a text label as well as a distinct color. */
+.tag.exam-source-tag{background:#34305a;color:#e2d6ff;border-color:#7764b5}
+.tag.reconstructed-source-tag{background:#4b3322;color:#ffd6a1;border-color:#b97d3d}
+.aligned-keypoint strong,.aligned-theory strong{color:#bcebe7}
+.aligned-theory{overflow-wrap:anywhere}

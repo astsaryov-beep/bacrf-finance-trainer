@@ -30,6 +30,8 @@ jobs:
         run: node tests/project-state-check.mjs
       - name: Verify repository structure and local documentation links
         run: node tests/repository-layout-check.mjs
+      - name: Verify source-reviewed exam learning extensions
+        run: node tests/exam-alignment-check.mjs
       - name: Verify explicit question-to-theory links
         run: node tests/question-theory-check.mjs
       - name: Verify study bank and finance labs

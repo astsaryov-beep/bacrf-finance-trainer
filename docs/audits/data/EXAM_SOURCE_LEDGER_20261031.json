@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "file": "БА_ЦРФ_Финрынки_и_институты_Семинар_11.pdf",
+      "pages": 172,
+      "sha256": "b5fff0cdb917dc6620210e23d18fbee67aac00c118b12e828da015b891db03ac",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "AVAILABLE_TARGETED_REVIEW_IN_PROGRESS"
+    },
+    {
+      "file": "БА_ЦРФ_Финрынки_и_институты_Семинар_3_акции.pdf",
+      "pages": 75,
+      "sha256": "6526e2700823c3858351bebf2a64db6e46e27ab7260d119ab2f10a15b306a957",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "AVAILABLE_TARGETED_REVIEW_IN_PROGRESS"
+    },
+    {
+      "file": "БА_ЦРФ_Финрынки_и_институты_Семинар_2_ПФИ_реф.pdf",
+      "pages": 133,
+      "sha256": "eed5aafd88eb3ab964a9f9484c7a9d917de393c11180acb2bdb37a666d7ee1f2",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "AVAILABLE_TARGETED_REVIEW_IN_PROGRESS"
+    },
+    {
+      "file": "Финрынки_и_институты_БАЦРФ_Магистры_4,5.pdf",
+      "pages": 62,
+      "sha256": "f009c4d9f33e9e7fc40227f0a53525e7bfb640a896caffbd03eb615ddb2252f8",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "AVAILABLE_TARGETED_REVIEW_IN_PROGRESS"
+    },
+    {
+      "file": "Финрынки_и_институты_БАЦРФ_Магистры_1,2.pdf",
+      "pages": 94,
+      "sha256": "0f95413318d6a8a18e34eead7861c4a9aec0963e28d62f04e4a68ddae2bc1c8b",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "AVAILABLE_TARGETED_REVIEW_IN_PROGRESS"
+    },
+    {
+      "file": "Финрынки_и_институты_БАЦРФ_Магистры_Кредитная_система.pdf",
+      "pages": 21,
+      "sha256": "dee5645c94d849df12aeb4f13af9522142b0e16c1d1a5f1afd9b7e2738fc65e6",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "AVAILABLE_TARGETED_REVIEW_IN_PROGRESS"
+    },
+    {
+      "file": "Документ 8.pdf",
+      "pages": 6,
+      "sha256": "22471b6ff66582230d88807df51a998dca316b71121e650ed8d39a2db7ee6a5c",
+      "access": "PRIVATE_NOT_PUBLISHED",
+      "review_status": "ALL_6_PAGES_VISUALLY_INSPECTED"
+    }
+  ],
+  "original_key": "NOT_PROVIDED",
+  "private_registry": "Exam_Source_Registry_20261031.json",
+  "personal_data_published": false
+}
