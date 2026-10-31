@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_commit": "b3287408d1c7e9221ce25e825dde071586e789f5",
-  "status": "IN_PROGRESS_COMPOUND_IMPLEMENTED",
+  "status": "IN_PROGRESS_THIRD_PACKAGE_PUBLISHED",
   "inventory": {
     "raw_question_objects": 569,
     "unique_question_ids": 553,
@@ -1176,13 +1176,13 @@
       ],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-30",
         "RECON-33",
         "TRANSFER-IPO-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Deal Review связан с решением биржи и поставлен перед последующими выбранными вехами.",
         "Различены утверждение проспекта советом директоров и его регистрация Банком России.",
@@ -1193,7 +1193,7 @@
         "Для заданного cash-out SPO число акций не растёт, деньги получает акционер; free-float может увеличиться.",
         "Переподписка и исторический кейс не объявлены гарантией последующей доходности."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Общая механика IPO/SPO и риск переподписки уже есть. Уточнены четыре выбранные вехи, ответственные и корпоративная регистрация; cash-out задан явно, не распространён на все SPO.",
       "verified_support": [
         {
@@ -1236,7 +1236,14 @@
         "IPO определено как первое, SPO как последующее публичное предложение.",
         "Для заданного cash-out SPO число акций не растёт, деньги получает акционер; free-float может увеличиться.",
         "Переподписка и исторический кейс не объявлены гарантией последующей доходности."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "EX17-31",
@@ -1288,13 +1295,13 @@
       "candidate_excerpts": [],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-32",
         "RECON-34",
         "TRANSFER-COLLATERAL-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "ГО связано с резервированием и поддержанием покрытия будущего риска, а не предельным убытком.",
         "ВМ связана с текущей переоценкой и предусмотренными моментами клиринга.",
@@ -1304,7 +1311,7 @@
         "КСУ связан с имущественным пулом и условным требованием выплаты номинальной стоимости к клиринговой организации.",
         "Роль НКЦ/ЦК объяснена для данного режима, без универсального утверждения о любом обращении КСУ."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "ГО/ВМ/CSA/неттинг/дисконт/КСУ уже изложены в трёх блоках. Добавлен составной мост и точное юридическое требование по статье24.3; фраза слайда о доле пула не принята за прямое владение активами. Ограничение ЦК отнесено к данному режиму, не ко всем мыслимым сделкам.",
       "verified_support": [
         {
@@ -1380,7 +1387,14 @@
       "primary_refs": [
         "https://www.nationalclearingcentre.ru/catalog/020903",
         "https://www.consultant.ru/document/cons_doc_LAW_110267/19edb2cb7097df8a110eef38487d5ef44c1b76ae/"
-      ]
+      ],
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "EX17-33",
@@ -1697,13 +1711,13 @@
       "candidate_excerpts": [],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-43",
         "RECON-28",
         "TRANSFER-BONDS-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Maturity отличено от полного графика и указаны ранние возвраты при амортизации.",
         "Для YTM названы цена, даты и все оставшиеся купоны/возвраты, без вывода из одной конечной даты.",
@@ -1712,7 +1726,7 @@
         "Различены постоянство надбавки по срокам и нелинейная связь цены со спредом.",
         "НКД объяснён как накопленная часть купона и связан с чистой/грязной ценой, единицы не смешаны."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Все составляющие уже есть; не хватало составного контрпримера и явного различия постоянного Z-спреда и нелинейной PV. Добавлен пример, в котором разные потоки имеют одинаковую YTM при соответствующих ценах.",
       "verified_support": [
         {
@@ -1763,7 +1777,14 @@
         "Условие подбора спреда — PV потоков равна грязной цене.",
         "Различены постоянство надбавки по срокам и нелинейная связь цены со спредом.",
         "НКД объяснён как накопленная часть купона и связан с чистой/грязной ценой, единицы не смешаны."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "EX17-44",
@@ -1796,13 +1817,13 @@
       ],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-44",
         "RECON-35",
         "TRANSFER-INDEX-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Названы FF≥10%, регулярность≥99%, LC≥15%, вес≥0,25%, первый/второй котировальный список.",
         "Различены пороги FF 10/5 и LC 15/10 и объяснён смысл двух порогов.",
@@ -1813,7 +1834,7 @@
         "Лимит применён к эмитенту, сумма 14,43% признана ниже 15%.",
         "Ценовая серия отличена от брутто полной доходности с реинвестированием дивидендов."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Механика FF/коэффициента/делителя и ценовая/TR серия уже есть. Добавлены точные учебные пороги, обозначениеQ/W/Dₙ, три базы и лимит по эмитенту. PDF41 говорит о3месяцах регулярности, историческая первичная методика2022/публичное обучениеMOEX — о6; конкретный период не оценён как единый доказанный ответ. Вопрос не требует длину периода; применяются основные учебные критерии с оговоркой редакции.",
       "verified_support": [
         {
@@ -1867,7 +1888,14 @@
         "Лимит применён к эмитенту, сумма 14,43% признана ниже 15%.",
         "Ценовая серия отличена от брутто полной доходности с реинвестированием дивидендов."
       ],
-      "review_limit": "Exact 2026 DOCX body unavailable through current access (HTTP403/unsupported-content); no claim of full current regulatory certification. Core exam-required thresholds cross-checked with teaching PDF and primary MOEX materials. Observation-period discrepancy disclosed and not graded."
+      "review_limit": "Exact 2026 DOCX body unavailable through current access (HTTP403/unsupported-content); no claim of full current regulatory certification. Core exam-required thresholds cross-checked with teaching PDF and primary MOEX materials. Observation-period discrepancy disclosed and not graded.",
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "EX17-45",
@@ -2005,12 +2033,12 @@
       "candidate_excerpts": [],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-47",
         "TRANSFER-GUARANTEE-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Поставщик назван принципалом и объяснена его роль.",
         "Покупатель назван бенефициаром, банк — гарантом, роли объяснены.",
@@ -2020,7 +2048,7 @@
         "Возмещение принципалом поставлено в зависимость от статьи 379/соглашения, неправильный платёж не объявлен безусловно возмещаемым.",
         "Для общего ГК названы иные кредитные и другие коммерческие организации, без смешения с закупочным перечнем."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Исходник не уточняет общийГК или закупки. Слайд смешивает реформуГК2015 и закупочные изменения2022. Адаптация явно задаёт общийГК; теория раздельно даёт специальный круг44-ФЗ. Не назначен безусловный официальный ключ неоднозначной части исходника.",
       "verified_support": [
         {
@@ -2069,7 +2097,14 @@
         "https://www.consultant.ru/document/cons_doc_LAW_5142/b859bbaf77159554e95426860fee9f969e612559/",
         "https://www.consultant.ru/document/cons_doc_LAW_5142/e8b1dba1c6def4f632470a9857908caf60fec137/",
         "https://www.consultant.ru/document/cons_doc_LAW_144624/af90cad46f4484d18fa490ef1c9d7a3b2fd3be3b/"
-      ]
+      ],
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "EX17-48",
@@ -2621,20 +2656,20 @@
       ],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-43",
         "RECON-28",
         "TRANSFER-BONDS-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Котировка 98% переведена в 980 руб.",
         "К чистой цене прибавлен НКД, получено 995 руб.",
         "Купонная ставка отличена от YTM, названы цена/временной график потоков.",
         "НКД отличён от спреда по смыслу и единицам."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Точное исходное условие неизвестно. Создан условный самостоятельный расчёт995руб. с разграничением купона/YTM и НКД/Z-spread; повтор служит переносу из нового условия.",
       "verified_support": [
         {
@@ -2683,7 +2718,14 @@
         "К чистой цене прибавлен НКД, получено 995 руб.",
         "Купонная ставка отличена от YTM, названы цена/временной график потоков.",
         "НКД отличён от спреда по смыслу и единицам."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "RECON-29",
@@ -2761,13 +2803,13 @@
       ],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-30",
         "RECON-33",
         "TRANSFER-IPO-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Верно: важен переход пакета в свободное обращение, а не само название SPO.",
         "Верно: в данном cash-out продаются акции владельца.",
@@ -2775,7 +2817,7 @@
         "Неверно: переподписка отражает спрос на условиях предложения, будущая цена меняется.",
         "Неверно: регистрация документа, биржевой допуск и депозитарные услуги имеют разные функции."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Тема совпадает сEX30; вместо почти копии — самостоятельные пять утверждений о вторичной продаже существующего пакета.",
       "verified_support": [
         {
@@ -2821,6 +2863,13 @@
           "Неверно: переподписка отражает спрос на условиях предложения, будущая цена меняется.",
           "Неверно: регистрация документа, биржевой допуск и депозитарные услуги имеют разные функции."
         ]
+      },
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
       }
     },
     {
@@ -2838,20 +2887,20 @@
       ],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-32",
         "RECON-34",
         "TRANSFER-COLLATERAL-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Названа проверка допустимости акций для конкретного пула.",
         "Рыночная стоимость отличена от стоимости после дисконта; объяснена возможная нехватка.",
         "Указаны достаточность покрытия/открытые обязательства и правила НКЦ.",
         "Свободный безусловный вывод активов при занятом покрытии отвергнут."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Тема совпадает сEX32; отдельный кейс замены актива в пуле, проверяющий допуск/дисконт/покрытие и ограничения вывода.",
       "verified_support": [
         {
@@ -2885,7 +2934,14 @@
         "Рыночная стоимость отличена от стоимости после дисконта; объяснена возможная нехватка.",
         "Указаны достаточность покрытия/открытые обязательства и правила НКЦ.",
         "Свободный безусловный вывод активов при занятом покрытии отвергнут."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
+      }
     },
     {
       "id": "RECON-35",
@@ -2906,13 +2962,13 @@
       ],
       "gap_type": "PARTIAL_COMPOUND_TRANSFER_OR_PRECISE_RECALL",
       "key_verification_status": "SOURCE_REVIEWED_WITH_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-44",
         "RECON-35",
         "TRANSFER-INDEX-01"
       ],
-      "published": false,
+      "published": true,
       "required_elements": [
         "Верно: недостаточность для нового входа не равна основанию немедленного исключения.",
         "Верно:7%<10% и 12%<15%.",
@@ -2920,7 +2976,7 @@
         "Неверно: для лимита складываются учитываемые выпуски одного эмитента.",
         "Неверно: реинвестирование относится к соответствующей серии полной доходности."
       ],
-      "action_status": "COMPOUND_IMPLEMENTED_PENDING_FULL_CI",
+      "action_status": "COMPOUND_PUBLISHED",
       "semantic_finding": "Тема совпадает сEX44; новые числа7/12 и9+7 проверяют перенос двух порогов и суммирование выпусков эмитента.",
       "verified_support": [
         {
@@ -2977,6 +3033,13 @@
           "Неверно: для лимита складываются учитываемые выпуски одного эмитента.",
           "Неверно: реинвестирование относится к соответствующей серии полной доходности."
         ]
+      },
+      "publication": {
+        "version": "6.1.2",
+        "commit": "6c9ac13cb3e5deb3837befe8277440cd5358d119",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41201661346",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41202297555",
+        "public_files_match": 17
       }
     },
     {
