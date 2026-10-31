@@ -35,7 +35,7 @@ session.responses[q.id]={text:' ',rubric:Array.from(criteria),checked:true};sess
 session.responses[q.id]={text:'Ответ',rubric:Array.from(criteria),checked:true,needsReviewRecheck:true};assert.equal(p.summary(session,bank).strict,25);
 session.responses[q.id].needsReviewRecheck=false;session.examProfile.questionRevisions[q.id]='obsolete';score=p.summary(session,bank);assert.equal(score.strict,25);assert.equal(score.stale,1);
 const mc=sample.items.find(q=>q.type==='multi');session.responses[mc.id].choice=[...Array.from(mc.correct),mc.correct[0]];assert.equal(p.summary(session,bank).verified,24,'duplicate choices cannot pass exact grading');
-const h=read('index.html');assert.ok(h.includes('ExamProfile.choose(pool,seed)'));assert.ok(h.includes('if(selection.profile)session.examProfile=selection.profile'));
+const h=read('index.html');const version=h.match(/name="trainer-version" content="([^"]+)"/)[1];for(const asset of ['assets/exam-alignment.js','assets/exam-profile.js','assets/theme.css'])assert.ok(h.includes(asset+'?v='+version),'changed assets must refresh with the product version');assert.ok(h.includes('ExamProfile.choose(pool,seed)'));assert.ok(h.includes('if(selection.profile)session.examProfile=selection.profile'));
 assert.ok(h.includes("assessmentStatus:'self_assessed'"));assert.ok(h.includes('ExamProfile.summary(session,BANK_MAP)'));
 // The current importer keeps legacy sessions and requires coherent metadata for new mocks.
 const base=JSON.parse(h.match(/const BANK\s*=\s*([\s\S]*?);\n/)[1]);ctx.BANK_MAP=new Map([...base,...a.questions].map(q=>[q.id,q]));ctx.EFFECTIVE_BANK=[...base,...a.questions];
