@@ -7,7 +7,7 @@ async function openLinks(id){const card=page.locator('[data-theory-for="'+id+'"]
 try{
  await page.goto('file://'+resolve(root,'index.html'));
  const coverage=await page.evaluate(()=>EFFECTIVE_BANK.map(q=>({id:q.id,links:FinanceTheoryUI.blocks(q).map(b=>b.key)})));
- assert.equal(coverage.length,527);assert.ok(coverage.every(x=>x.links.length));
+ assert.equal(coverage.length,541);assert.ok(coverage.every(x=>x.links.length));
  // A completed course block opens directly as full theory, preserving its results.
  await page.evaluate(()=>{studyData.blocks[studyKey('S1-05',0)]={answers:{Q04:{checked:true,selected:[0],score:0}},complete:true,completedAt:'2026-10-28T00:00:00Z'};persistStudy()});
  const before=await page.evaluate(()=>JSON.stringify(studyData.blocks[studyKey('S1-05',0)]));
@@ -58,6 +58,17 @@ try{
  for(const id of newIds){await fixture([id]);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'new question320px '+id);assert.ok(await page.locator('.qmeta .tag').last().innerText());}
  await fixture(['EX17-45']);await page.screenshot({path:resolve(out,'exam-list-purple-320.png')});
  await fixture(['RECON-01']);await page.screenshot({path:resolve(out,'exam-reconstruction-orange-320.png')});
- assert.deepEqual(errors,[]);console.log('PASS question theory UI:527 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
+ // Composite exercise exposes all exact prerequisites and preserves its unassessed draft.
+ await fixture(['EX17-32']);await page.locator('#freeText').fill('ГО покрывает будущий риск, ВМ отражает переоценку. Остальные части ещё не разобраны.');
+ const composite=await openLinks('EX17-32');assert.equal(await composite.locator('[data-question-theory]').count(),3);
+ await composite.locator('[data-question-theory]').nth(2).click();
+ assert.match(await page.locator('[data-aligned-block="S2-05-0"]').innerText(),/номинальной стоимости/);
+ assert.ok(await page.locator('[data-aligned-block="S2-05-0"] a[href^="https://"]').count()>=2);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+ await page.screenshot({path:resolve(out,'exam-compound-theory-320.png')});
+ await page.reload();await page.locator('[data-theory-return]').click();assert.match(await page.locator('#freeText').inputValue(),/Остальные части/);
+ assert.equal(await page.evaluate(()=>Object.hasOwn(session.grades,'EX17-32')),false);
+ await page.screenshot({path:resolve(out,'exam-compound-question-320.png')});
+ assert.deepEqual(errors,[]);console.log('PASS question theory UI:541 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');
 }catch(e){await page.screenshot({path:resolve(out,'theory-links-failure.png')});throw e}
-finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:527,errors},null,2));await browser.close()}
+finally{writeFileSync(resolve(out,'question-theory-evidence.json'),JSON.stringify({coverage:541,errors},null,2));await browser.close()}

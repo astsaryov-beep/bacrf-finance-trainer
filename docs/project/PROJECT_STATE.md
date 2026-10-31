@@ -5,7 +5,7 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.1.1",
+  "working_version": "6.1.2",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
@@ -24,7 +24,7 @@
 ```
 <!-- STATE_JSON_END -->
 
-**6.1.1 VERIFIED; полное ТЗ IN_PROGRESS.**
+**6.1.1 VERIFIED; рабочий пакет6.1.2 IN_PROGRESS, CI/публикацияPENDING.**
 
 [PR79](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/79), продукт `1240069e758ffd39b4882f428e0ff54a4227bd7e`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41199287155) и [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41199788872) SUCCESS;17публичных файлов live MATCH,дерево приложения совпало с проверенным PR.
 
