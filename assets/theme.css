@@ -77,3 +77,6 @@ input::placeholder,textarea::placeholder{color:#91adbf;opacity:1}
 .question.reconstructed-question{color:#ffd6a1;border-left:3px solid #c68c49;padding-left:13px}
 
 .question,.opt>span:last-child{overflow-wrap:anywhere}
+
+/* Keep nested source-reviewed explanations readable on narrow phones. */
+@media(max-width:480px){.aligned-theory.v5-level{padding:14px 10px}.aligned-theory .study-solutions-body{padding:12px 10px}.aligned-theory .v5-worked-example{padding:14px 10px}.exam-model-summary .score{align-items:flex-start;flex-wrap:wrap}.exam-model-summary .outline{min-width:0}}

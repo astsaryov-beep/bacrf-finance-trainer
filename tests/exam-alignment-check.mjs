@@ -18,7 +18,7 @@ const rights=a.lessons['R-02-0'];assert.equal(rights.facts.length,4);for(const w
 assert.ok(a.lessons['S2-02-0'].facts.join(' ').includes('W/R'));assert.ok(a.lessons['S2-07-1'].facts.join(' ').includes('λ=z'));
 assert.ok(html.includes('...ExamAlignment.questions')||html.includes('?ExamAlignment.questions:[]'));assert.ok(html.includes("ExamAlignment.supplement(l.id+'-'+pos,true)"));
 const matrix=JSON.parse(read('docs/audits/data/EXAM_ALIGNMENT_20261031.json'));assert.equal(matrix.rows.length,86);assert.equal(matrix.rows.filter(r=>r.source_kind==='CONFIRMED_EXAM_SCAN').length,50);assert.equal(new Set(matrix.rows.map(r=>r.id)).size,86);
-console.log('PASS source alignment:95 linked exercises,50 adapted scan/35 reconstructions/10 transfer,5 plausible alternatives and independent money/quantile/hedge checks,29 prerequisite roots+5 additional parts/full+brief,no workflow labels in extensions,86 tracked requirements');
+console.log('PASS source alignment:95 linked exercises,50 adapted scan/35 reconstructions/10 transfer,5 plausible alternatives and independent money/quantile/hedge checks,30 prerequisite roots+5 additional parts/full+brief,no workflow labels in extensions,86 tracked requirements');
 
 vm.runInNewContext(html.split('\n').find(l=>l.startsWith('function learnerText(')),ctx);
 for(const input of ['Авторское задание по изложенной теории S1-07-0; источник и пределы: docs/audits/QUALITY_M14_REVIEW.md.','Самостоятельные учебные примеры; исправления и границы docs/audits/QUALITY_M03_REVIEW.md.','Условия применения сохраняются; docs/audits/QUALITY_M04_REVIEW.md.','Основное объяснение. Подробные пределы первичной сверки сохранены в docs/audits/QUALITY_M06_REVIEW.md.'])assert.ok(!ctx.learnerText(input).includes('docs/'));
@@ -66,7 +66,7 @@ assert.equal(statements.statement_count,125);assert.equal(statements.rows.length
 assert.equal(statements.rows.flatMap(r=>r.statements).length,125);
 for(const row of statements.rows){assert.equal(row.statements.length,5);assert.ok(row.theory_block_ids.length);assert.ok(a.questions.some(q=>q.id===row.adapted_training_id&&q.type==='multi'&&q.options.length===5));for(const s of row.statements){assert.ok(s.rationale&&/^[a-f0-9]{64}$/.test(s.source_text_sha256));assert.equal(s.official_key,false)}}
 assert.equal(a.questions.filter(q=>q.provenance==='confirmed_exam_adapted'&&q.type==='multi').length,25);
-assert.equal(Object.keys(a.lessons).length,29);assert.equal(a.lessons['R-02-0'].additional.length,2);
+assert.equal(Object.keys(a.lessons).length,30);assert.equal(a.lessons['R-02-0'].additional.length,2);
 assert.equal((a.supplement('R-02-0').match(/data-aligned-block="R-02-0"/g)||[]).length,1);
 assert.ok(a.supplement('R-02-0').includes('R-02-0-part-1'));
 const scope='По сообщению преподавателя раздел маржинальной торговли не входит в экзамен. Его объяснения и расчётные задания сохранены для обучения; новый экзаменационный профиль исключает эту главу.';
@@ -106,4 +106,14 @@ const forward=10*(1+.15*.5)/(1+.03*.5),inverse=.1*(1+.03*.5)/(1+.15*.5);assert.o
 for(const key of Object.keys(a.lessons)){
  const markup=a.supplement(key);const anchors=Array.from(markup.matchAll(/data-aligned-block="([^"]+)"/g),m=>m[1]);assert.equal(new Set(anchors).size,anchors.length,key+' unique anchors');
 }
+// Audit every source record, including already published cohorts, against the actual data layer.
+for(const row of matrix.rows)for(const fragment of row.verified_support||[]){
+ const raw=fragment.raw_source_quote||fragment.quote;
+ const content=fragment.layer==='existing_beginner'?JSON.stringify(beginnerData[fragment.block]):fragment.layer.startsWith('existing_master.')?JSON.stringify(master[fragment.block]):JSON.stringify(a.lessons[fragment.block]);
+ assert.ok(content.includes(JSON.stringify(raw).slice(1,-1)),row.id+' all-cohort prerequisite literal');
+ if(fragment.raw_source_quote)assert.equal(fragment.quote,ctx.learnerText(raw),'proof excludes metadata hidden from the learner');
+ if(fragment.part!==undefined){const part=fragment.part?[...a.lessons[fragment.block].additional][fragment.part-1]:a.lessons[fragment.block];assert.ok(JSON.stringify(part).includes(JSON.stringify(fragment.quote).slice(1,-1)),row.id+' exact support part');}
+}
 console.log('PASS final content package:50 adapted originals/33 reconstructed records with35 exercises/3 topic-only reuse;all86 dispositions and exact displayed prerequisites;independent parity/protection/covariance/DV01/FX boundaries');
+
+assert.equal(a.lessons['E-02-1'].recallOnly,true);assert.ok(a.supplement('E-02-1').includes('Сургутнефтегаз'));
