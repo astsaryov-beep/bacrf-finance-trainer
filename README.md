@@ -16,7 +16,7 @@
 
 ## Версии и материалы
 
-Версия **6.1.2**. [Предыдущая замороженная версия 5.0.8](https://astsaryov-beep.github.io/bacrf-finance-trainer/v5.0.8/) · [Выбор версии](https://astsaryov-beep.github.io/bacrf-finance-trainer/versions/).
+Версия **6.1.3**. [Предыдущая замороженная версия 5.0.8](https://astsaryov-beep.github.io/bacrf-finance-trainer/v5.0.8/) · [Выбор версии](https://astsaryov-beep.github.io/bacrf-finance-trainer/versions/).
 
 Курс основан на материалах лекций и семинаров. Это независимый учебный проект, не официальный продукт НИУ ВШЭ. Пределы редакционной проверки описаны в [итоговом аудите](docs/audits/NOVICE_PATH_FINAL_REVIEW_20261027.md).
 

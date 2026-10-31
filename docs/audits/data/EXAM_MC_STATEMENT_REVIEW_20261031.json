@@ -1,0 +1,1489 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "status": "SUBJECT_REVIEW_COMPLETE_QA_PENDING",
+  "official_key": false,
+  "statement_count": 125,
+  "verdict_counts": {
+    "FALSE": 52,
+    "TRUE_IN_STATED_MODEL": 41,
+    "AMBIGUOUS_OR_UNSUPPORTED_AS_UNIVERSAL": 5,
+    "REQUIRES_CONDITIONS": 27
+  },
+  "scope": "Original alternatives are reviewed individually; ambiguous/conditional statements are not assigned a fabricated universal official key. Public practice uses explicit adapted conditions.",
+  "rows": [
+    {
+      "original_number": 1,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S2": [
+          7,
+          11,
+          15
+        ]
+      },
+      "theory_block_ids": [
+        "S2-01-0",
+        "S2-01-1",
+        "S2-04-0"
+      ],
+      "adapted_training_id": "EX17-01",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "c119bd21967861d6472c0c7e2853480adc3e4b0715e1c62b4cf7d29985e75142",
+          "verdict": "FALSE",
+          "rationale": "Для указанного поставочного контура нужны предусмотренные срок и признаки; одной надписи в договоре недостаточно.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "abcd5c45252658fdf4458fefc187bc7c253f21ff8d9c34f8ea59cff86eaa61ff",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "В классическом немаржируемом форварде промежуточных платежей нет, хотя стоимость можно переоценивать. CSA/клиринг могут менять платёжный режим.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "07ba7547c47bf4c37b6fa5cd5f8ae0da9f5b577444dc4bd1773af86bc1c9227e",
+          "verdict": "FALSE",
+          "rationale": "Расчётная выплата не является поставкой базового актива.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "d16ce5e9ffb370b0cf8ed16edce75a3196dffc54313c5f1c9358e15333b980a6",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Биржевая спецификация стандартизирует параметры; двусторонний форвард согласуется сторонами.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "ab81271674ab14b1462ed30b3d158b3d7137f1bced2546bb7c0683dff9166f7b",
+          "verdict": "FALSE",
+          "rationale": "Клирируемый фьючерс и неклирируемый форвард имеют иную структуру контрагентских обязательств; ЦК не появляется у любого форварда.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 2,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S3": [
+          39
+        ]
+      },
+      "theory_block_ids": [
+        "E-07-0",
+        "E-06-0"
+      ],
+      "adapted_training_id": "EX17-02",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "c4d62ead7ea287128ebd19ac874ee204e624351121556acaf4d725f2fb72ab5a",
+          "verdict": "FALSE",
+          "rationale": "Squeeze-out требует доли более 95% и дополнительных условий статей 84.7–84.8, а не 75%.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "4585ba54286b0cce9741b0679e6241b83d5a32b0f86916dd3bad227990911ca1",
+          "verdict": "AMBIGUOUS_OR_UNSUPPORTED_AS_UNIVERSAL",
+          "rationale": "Отдельный план защиты назван в слайде, но не установлен здесь как универсальный обязательный документ любой текущей процедуры.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "e9d97c542a008ce3757da30e107a3b34ef9276d87e640cd4b0acc7110277a8e9",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Правило 3/4 участвующих имеет специальное исключение для полного ухода всех акций/прекращения публичности по 7.2:95% всех категорий; исходнику нужен контекст.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "a86a4830f795c3b3cf749762009bacd6c8913c05c1807f9a06591a1875150eca",
+          "verdict": "FALSE",
+          "rationale": "Принудительная процедура не ограничивается инициативой самого эмитента.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "808ecc1949a3dca4bbd35923637ca4deb3a1156573bc45da901b1b0d0d15a53b",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Банкротство/ликвидация и судебные основания рассматриваются по конкретным правилам и условиям; одно событие не означает автоматический любой запрет.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 3,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S2": [
+          11
+        ]
+      },
+      "theory_block_ids": [
+        "S2-02-0"
+      ],
+      "adapted_training_id": "EX17-03",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "d21fb178881db2f38e2a0fa9ea2b0c3a32300e63740b183ab7e17534308ccfe7",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Начальная расчётная база зависит от истории позиции и регламента; может применяться предыдущая расчётная цена либо цена новой сделки.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "2529f061b13cead87db8fae1466eb41ea7a00352f06cb306b73415782db8caf4",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Конечная расчётная цена относится к концу выбранного интервала.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "d6f1ca2a02f7845be4682f0c65738e9c2140ac997e5e5226a1323cdc65df5dc5",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "W/R переводит пункты в денежный результат при согласованных единицах.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "e7c02c2b00a180266bbe8e431d0776f28456c124a1e723a9ff685ac059fd2629",
+          "verdict": "FALSE",
+          "rationale": "Число одинаковых контрактов масштабирует общий результат.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "e2454a3040e44d5607e19f948e0ec70d4193e27965ca9ee6fda580c8e06a83bf",
+          "verdict": "FALSE",
+          "rationale": "Начальная база переносимой позиции не всегда является первоначальной ценой сделки.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 4,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S3": [
+          8,
+          33,
+          35,
+          36,
+          37
+        ]
+      },
+      "theory_block_ids": [
+        "E-07-1"
+      ],
+      "adapted_training_id": "EX17-04",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "d8b13a86b2031590c9e7401dce9e440ddb5d85a9d0b0a07cfff1fe98255114d4",
+          "verdict": "AMBIGUOUS_OR_UNSUPPORTED_AS_UNIVERSAL",
+          "rationale": "Первое предложение может содержать новые и существующие акции, но выручка cash-out поступает владельцу; фраза о привлечении компанией требует уточнения.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "32c4ba6130c4dfb20e6e61c7543bf58ea73d552b992ced0ebc9c0c99b3565ea9",
+          "verdict": "FALSE",
+          "rationale": "НазваниеSPO не означает обязательной новой эмиссии.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "e6ea77a918561f31f4291722713a159ae39635aa6f1aeaa5e855bb545e1cace6",
+          "verdict": "FALSE",
+          "rationale": "Переподписка не гарантирует будущий рост цены.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "e72e6a3f5267824a47765d61f4a211367c41227a8088e1cb7d7e7e2111053790",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Это первое публичное предложение в рассматриваемой биржевой модели; состав продаваемых акций уточняется отдельно.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "eb70e723c0a6254b448d88f2797e40642552a3f099fa4a88b03c20e25ab16adc",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Продажа существующего пакета может повысить FF при переходе в свободное обращение; это не универсальный исход любогоSPO.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 5,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S2": [
+          37,
+          58
+        ]
+      },
+      "theory_block_ids": [
+        "S2-04-0",
+        "S2-01-1"
+      ],
+      "adapted_training_id": "EX17-05",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "a80ce30dcb6fe12743128d42799bbdd45e3bf8486aa403ed15aab8b93b333844",
+          "verdict": "FALSE",
+          "rationale": "Короткие конверсионные ноги не становятся двумя ПФИ только из-за названия; для второго контракта важна его конструкция.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "838b198129e5fd89ec0da65912c8c603d2214290d5327a923f8adcddde0b4d63",
+          "verdict": "AMBIGUOUS_OR_UNSUPPORTED_AS_UNIVERSAL",
+          "rationale": "PvP связывает встречные валюты внутри ноги; разные даты двух ног не отменяютPvP. Между датами остаются другие риски; фраза о риске поставки неоднозначна.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "9176a7c6662d4e7cb46f742a76e1743bb3c6c1084076f42597d3d339e826d9a4",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Экономическое название «своп» возможно для разных правовых конструкций.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "12fa263ad9791d2381deef0c34a609d30ce9159beedeece944ea4b7054fad701",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Слайд различает частичное депонирование и ГО/ВМ в заданных режимах; конкретный регламент обязателен для вывода.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "996fde27c22cb47013ddd14ffdf90294c0f1dd05d14b7c9d6ca603c4f03edd4f",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Для квалификации важны срок и все предусмотренные обязательства; одно название не определяет режим.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 6,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "L12": [
+          67,
+          68
+        ]
+      },
+      "theory_block_ids": [
+        "R-02-0"
+      ],
+      "adapted_training_id": "EX17-06",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "e1f8440b1f9fcd4840bc62fd69cb851b17e56c230e88007f45036d566639836b",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Финансовая устойчивость и количественные нормативы относятся к пруденциальному предмету.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "dac60600c72d99f6136c11a614cc59838b1d47b170e0a1fb141a7f93866e989c",
+          "verdict": "FALSE",
+          "rationale": "Поведенческий контур в схеме шире продажи компании потребителю.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "3c4005376d4513a402c3d7082f6dc2de8d97c80b17496d1d6edd19848ede0eac",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Слайд 68 включаетПОД/ФТ и инсайд/манипулирование в поведенческую схему. Это учебная группировка, не исчерпывающий юридический классификатор.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "1533f6b5b960cd14a2ab5ad5e9aac46a0f08c00080390dc269b15547b6766f3d",
+          "verdict": "FALSE",
+          "rationale": "Визуально на 67 общий надзор связан с прокуратурой, а саморегулирование/аудит/комплаенс вынесены отдельным рядом.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "003cef362726c987aaf792fad0020738765414004aeedb6126ec1561f5660c74",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Камеральный означает дистанционный способ, независимо от предмета контроля.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 7,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S3": [
+          6,
+          8,
+          18,
+          19
+        ]
+      },
+      "theory_block_ids": [
+        "E-08-0",
+        "E-01-0"
+      ],
+      "adapted_training_id": "EX17-07",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "288a0275e7cd1b68a06e284fa492b55da7104c44851e125051c47eab81618c19",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "D/r — модель бессрочного постоянного ожидаемого потока приr>0; юридической гарантии выплаты она не создаёт.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "de4496baef259df42eca06297cd425d600c851f9794f0b3f9489d1e27aca7596",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Чистая прибыль — общий источник; для предусмотренных привилегированных акций закон допускает специальные фонды.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "b9fbb41daa56212309e1ec70889203d0343c526e2b08edf457faaf687891d8a1",
+          "verdict": "FALSE",
+          "rationale": "D₁ — ожидаемый дивиденд следующего периода, не уже выплаченныйD₀.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "1b1990eba602d8aca7aaae8cf10811d67851f26b220f13c4374a67261d5d613f",
+          "verdict": "FALSE",
+          "rationale": "Конвертация обыкновенных акций в привилегированные не допускается.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "a968caf01f8629b2b9f224d804c61bd4b5ebf2107a9c815d8ffb4a76ead13e68",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Голос при невыплате зависит от типа, кумулятивности, сроков и оснований статьи 32; нельзя переносить на все специальные типы.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 8,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 1,
+      "presentation_pages": {
+        "S2": [
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "theory_block_ids": [
+        "S2-11-0"
+      ],
+      "adapted_training_id": "EX17-08",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "745f6589ab9477c6f5d35db00eb36de72d575bbbbd2f46d091b279afc9e8f9ab",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "max делает рыночную добавку неотрицательной в данной формуле; номинал создаёт защитная часть при исполнении эмитентом. Дефолт/досрочный выход остаются.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "124c4e5037698ff7d43efd1523bb1dd2b29fb17ea60aa2def056c8b070522d6b",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "При полной защите и без расходовN−PV — опционный бюджет.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "a928c3e6bf7d807f799aa7b20160e54a978f2d7837700d0d3ac67aa0b3c75db3",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "PV — сегодняшняя стоимость заданной будущей защищённой суммы при принятыхr,T.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "5ceb79ddab9ad7d15574da0a2fa205d4d66143a1bf47de151b01ec75c9a60093",
+          "verdict": "FALSE",
+          "rationale": "Участие является множителем результата базы, не долей депозита.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "e8a0ec2eec77160c9187d2f0cb78c058e9189308a748df7544e7392a5402c962",
+          "verdict": "FALSE",
+          "rationale": "Более дорогая защита/короткий срок при прочих равных ограничивают, а не обязательно увеличивают опционный бюджет и участие.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 9,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S1": [
+          154,
+          159
+        ]
+      },
+      "theory_block_ids": [
+        "S1-10-0",
+        "S1-09-0"
+      ],
+      "adapted_training_id": "EX17-09",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "a843b83e5ddce110dda2acb05a91741a7070147c011612ecec3fce89bcf721c3",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Навес предложения и задержка реакции на рейтинг являются гипотезами временного разрыва, которые нужно проверить.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "d50f5cea8f081783b1b00a09977a95d572c7d0c3a9fd6378c086d5d01afd251f",
+          "verdict": "FALSE",
+          "rationale": "Конвергенция — сближение относительных оценок/спредов, не изменение купонной ставки по договору.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "d0c1753f7c692e1f7103dea48ef05d5ea81256f8ed73a484cd3b1391439326c5",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Выравнивание процентной чувствительности не снимает дефолтный риск.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "fa60f56e8ddbdbd351ab3a45e19849657133868d368a9a06d5c7942d454aba4e",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Нужно отделять реальную премию за риск от необоснованного отклонения.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "91c768abec0c812a2817888ff967f88566c08619179802aa13a5eec124400e42",
+          "verdict": "FALSE",
+          "rationale": "Одна рейтинговая категория не заменяет анализ отрасли, выпуска и новостей.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 10,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S3": [
+          28,
+          30,
+          31
+        ]
+      },
+      "theory_block_ids": [
+        "E-07-0"
+      ],
+      "adapted_training_id": "EX17-10",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "c1134842e254627b605840fa2be0f62943404e56421cd58aef2e3dc8d39f46bf",
+          "verdict": "FALSE",
+          "rationale": "Второй уровень котировальный.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "b7fba2784f713b0e3d3acc1eda2a9611241a9fb68a3dfc8460dafc3f3dfe6328",
+          "verdict": "FALSE",
+          "rationale": "Три уровня имеет общий список; котировальными являются только первые два.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "9690812d3233b8f248aed76a24fbf937a0aa2cb635de51e39625b7540f3f8334",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Первый и Второй входят в котировальные списки.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "f839d30d738064100424ada045a7a5b2ca52bc1b7faabfe9b1078df090a12fe2",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Третий относится к некотировальной части.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "c397b52325407108ad7a3df55445002e6252db239661e2fb110dd29fd63fccad",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Голубая фишка — рыночное/индексное обозначение; типичность Первого уровня не является автоматическим юридическим критерием.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 11,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S1": [
+          25,
+          26,
+          27,
+          29
+        ]
+      },
+      "theory_block_ids": [
+        "S1-03-0"
+      ],
+      "adapted_training_id": "EX17-11",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "55281175cebe6af2f6099fac01ba38805ff0c5e197879dd6e54580a73e47d574",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "График, сумма и срок обслуживания согласуются с будущими потоками проекта.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "57d890b687ebcc2a90b77e7d525ce8d4d756e32c33101773ddbfd2597e1308fc",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "SPV обособляет проект, но регресс задаётся договорами поддержки и другими условиями.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "f32c101048364b72d759623dff8721780ecdde0c737a768b1ba1be0b1a32723b",
+          "verdict": "FALSE",
+          "rationale": "Будущие потоки проекта не заменяются исключительно прошлой прибылью спонсора.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "b81d6979f62b250944607809fac036f403e2a9560d6e8a80b2eeb43d02e61f5e",
+          "verdict": "FALSE",
+          "rationale": "Ограниченный регресс не перекладывает весь риск только на заёмщика.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "295b597a00fa50831b1ae620d698bc93c18e1bf66c4c5e8baa4693f15e4eac7a",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Необходимо установить распределение строительных, операционных и финансовых рисков.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 12,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S3": [
+          63,
+          64
+        ]
+      },
+      "theory_block_ids": [
+        "E-13-0",
+        "S2-05-0"
+      ],
+      "adapted_training_id": "EX17-12",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "5a9907737a9c00952ee722d73b7352631a1ea82a90dbb1f9666cf7e32808255e",
+          "verdict": "FALSE",
+          "rationale": "В предусмотренном периоде доход по переданным бумагам компенсируется продавцу или учитывается в обратной цене; не всегда остаётся покупателю.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "b9fe4581a1df9829b205bfb5f869be2d25f6036453a26e0ef2e9b0d16d30c297",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Собственность по первой части и голос относятся к покупателю с учётом учётной/корпоративной даты; компенсация дохода не означает сохранение голоса продавцом.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "7e41fb4892aac7de70230f1e596aa381dae0994125628299770d7cd2cd3783c2",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Ликвидность и волатильность учитывают при дисконте и покрытии.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "ac20f71da62596aa68fb8662a75c6356affe3ec0ff5854461f402731d5f31eb7",
+          "verdict": "FALSE",
+          "rationale": "Статья 51.3 требует предусмотренной стороны/посредничества для РЕПО за счёт физлица.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "fcc37d7e4789d50f6233a019e23155dde5c695a638ce634a868258c8614c8fdc",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Падение стоимости обеспечения может создать риск первого покупателя при неисполнении обратной части; дисконт не гарантирует полного покрытия.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 13,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S2": [
+          97,
+          98,
+          99
+        ]
+      },
+      "theory_block_ids": [
+        "S2-10-0",
+        "S2-09-0"
+      ],
+      "adapted_training_id": "EX17-13",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "7fda68e5ee220b3c0746367321feed1735f8df0611d700f70479bf208b1a6303",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "В стандартной модели к окончательной экспирации будущая временная составляющая исчезает.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "f9c1e523a79a30a3e32ae1cae044be8de88f8092c04a9ff5d83788dd17cd1242",
+          "verdict": "FALSE",
+          "rationale": "Для Call используетсяmax(S−K,0); предложено выражение Put.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "9bfc49cd6dcd32837e4ad60c70c1b815e67db143c395e078ecee4c091871efbd",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "При указанной терминальной базе без дисконтирования премии/расходов порогиK+c иK−p.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "1451c79e7b14c2c2fcbcedaa4352b8fe74a80dd705dd5cba76a75c176dbe3da4",
+          "verdict": "FALSE",
+          "rationale": "Тезис о максимуме у глубокогоITM не соответствует типовой учебной картине; для точного сравнения фиксируют модель/прочие параметры.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "f74a1c9ca217970c290ca7214baf11f2b8044fb9f618f1ab63168239a4560db4",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "ПриS=K внутренняя стоимость нулевая; до экспирации ненулевая премия относится к временной части. На самой экспирации обе могут быть нулевыми.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 14,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S1": [
+          34,
+          35
+        ]
+      },
+      "theory_block_ids": [
+        "S1-03-1"
+      ],
+      "adapted_training_id": "EX17-14",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "faee564e227b057092d0d0d395ce2a85f821a614f03c1c0539d16ee50f9d50a7",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "PIK капитализирует предусмотренные проценты в обязательство.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "4d687b01d5bd03cdfd3e166ce37370e3461888b4ed9afe74e29989cdca9ddb6a",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Участие в прибыли является самостоятельным компонентом вознаграждения по структуре сделки.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "b88ea90c1e1311fd1ab2ff9a4b3ab6bc60bb0b4e650832bedfc0d524f05e077d",
+          "verdict": "FALSE",
+          "rationale": "Отсутствие текущего денежного платежа не отменяет процентного начисления.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "c049f71880f845d58222d54499d60ee7c46c66b9f14a5443660869208a6abd6c",
+          "verdict": "AMBIGUOUS_OR_UNSUPPORTED_AS_UNIVERSAL",
+          "rationale": "В слайдовой конструкции денежный купон относительно невысок в обмен на другие компоненты; общий тезис об обязательно высокой фиксированной ставке некорректен.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "ca868db7229bf50c6f129f147bdedebae435d5dd173a13b8177260496dd5e55e",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Низкий текущий денежный купон совместим с ростом будущего долга и более сложной полной стоимостью.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 15,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S2": [
+          11,
+          17,
+          26
+        ]
+      },
+      "theory_block_ids": [
+        "S2-02-1",
+        "S2-02-0"
+      ],
+      "adapted_training_id": "EX17-15",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "baae1608c523fac9f2286c314ad0525185005b26ad19a39f82274eb4ed80b5b0",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "ВМ рассчитывается по предусмотренным расчётным базам, а не по модельной справедливой цене.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "52e2b8f6dfcd2e66d5813badd8acd43f50e801abe0a0c40936df84809e6aced5",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Разница может отражать модельные/рыночные условия; арбитраж проверяется после всех расходов и ограничений, не гарантируется.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "6a528d4d80a5dda20c7089fc2b58565f4b9e44781096f47e3bfa3964f9491da4",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Модель переноса и биржевая расчётная цена имеют разные определения; последняя не всегда просто последняя сделка.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "a5a7616cc4cb5003d2a5179a1ad4bc5f8a00c99f7aa1651b2790baf6f884eb17",
+          "verdict": "FALSE",
+          "rationale": "Расчётная цена не определена исключительно формулойcost of carry.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "a82f7f4d46aff790b687791be1a3fd40674dd880a993d7937511f6e7ff6780d5",
+          "verdict": "FALSE",
+          "rationale": "Знак длиннойВМ зависит от изменения расчётных баз и истории позиции, не от одного сравнения модели с текущей ценой.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 16,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "S3": [
+          8,
+          10,
+          12,
+          13,
+          41
+        ]
+      },
+      "theory_block_ids": [
+        "E-06-1",
+        "E-09-0"
+      ],
+      "adapted_training_id": "EX17-16",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "2412b00cacab4f5da9a61f9046ef21fb10a5f7f12687a1463e50e2f59c3af5bf",
+          "verdict": "FALSE",
+          "rationale": "Квазиказначейское владение не означает автоматического погашения акций.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "99454fa29f881f1baefc6b4b79a9de27b862a0e1e78a1767da865ea3e6811680",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Предусмотренные методикой контрольные/стратегические пакеты исключают из свободного обращения.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "4213b9a18d389e8e4c3bb4b83334c9d3331309230c2ac057f369559c3851835d",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "При равной полной капитализацииFF-база первой больше, но итоговый вес зависит также от ограничивающегоW и прочих правил.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "85aad2a23a41615413eeb94d4478162a1eca77f1570a77aedcb6b68f8b909a1b",
+          "verdict": "FALSE",
+          "rationale": "МеньшийFF при прочих равных снижает, а не повышает индексную базу выпуска.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "b3f1de3035e1f414fa3a25f6f547546bca3072edd0893bff9da7ff1abf42068f",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "FF определяется биржей по методике и раскрытым данным с предусмотренными рекомендациями, не произвольным заявлением эмитента.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 17,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 2,
+      "presentation_pages": {
+        "L12": [
+          62,
+          63
+        ],
+        "L3": [
+          16
+        ]
+      },
+      "theory_block_ids": [
+        "R-02-1",
+        "R-02-0"
+      ],
+      "adapted_training_id": "EX17-17",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "517813baa4c4db7df62ac7d7ddc9755c702eeda115bf0a0fa9730e7ff1e69e92",
+          "verdict": "FALSE",
+          "rationale": "АСВ является государственной корпорацией, а не независимой частной фирмой.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "b343ef2977ac32d1ffa6cb7f39c4d8ff52ef47e6903291648ad2293bf0513b60",
+          "verdict": "FALSE",
+          "rationale": "Собственные доходы финансируют расходы Банка России.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "c9d8d2cb5f81275d027a96db760c2f5ac4dd574f28cfa0e2df9bf14f5be1a05f",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Грамотность и доступность реализуются во взаимодействии с Правительством; это направления функций.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "244abde9c28895b7fb0eacdc6249f6ae1cef6980ffa3eb153562eab8f99ef922",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Независимость полномочий сочетается с законной подотчётностью.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "e6d9d618a52bc1ab6ff04441f3a9156a0d4af1c32b0358bb3162c31e48a90d0d",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Взаимная неответственность имеет оговорки принятых обязательств и федерального закона.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 18,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "S3": [
+          55,
+          56
+        ]
+      },
+      "theory_block_ids": [
+        "E-11-1"
+      ],
+      "adapted_training_id": "EX17-18",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "a0484a4514910c63839da4cedaa3fbe3c4183594b9225d3a993a73f072501b8a",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Шарп использует общий разброс согласованной избыточной доходности в обе стороны.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "9df85ba42f8764126125fd4b9f5e2867d27dcdbfadff339bb7d26f9973d729ce",
+          "verdict": "FALSE",
+          "rationale": "Уровень выше 1 не означает провал, но также не является доказательством качества любого будущего результата.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "cb7f694644a35b1f3fb95ab460784db3b486421f692f01e18d014519b18c3506",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "ВDD учитываются отклонения ниже цели. В принятой дискретной версии это не SD отрицательной подвыборки вокруг её среднего.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "46f401e8fa9df27b81f9af856ae7f80998b2887c8fd19cd8aa14d651e3c42879",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Более высокийСортино следует при одинаковом положительном числителе и меньшем DD; одного словесного описания взлётов для универсального неравенства недостаточно.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "9797934799fbea7fcaf63dcd82d907a7ca378add8a0dfe861c1f5c5c2bc1d8a1",
+          "verdict": "FALSE",
+          "rationale": "ЦельT задаётся и не обязана быть нулевой.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 19,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "S2": [
+          71,
+          72
+        ]
+      },
+      "theory_block_ids": [
+        "S2-07-1"
+      ],
+      "adapted_training_id": "EX17-19",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "3c54dc7f7888f1fd966c5d61de92b194bae4ed1860ea87dbface72cf31e73ca4",
+          "verdict": "FALSE",
+          "rationale": "√T не означает линейного роста поT; сама модель масштабирования имеет предпосылки.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "8f0efc0832181d63cd466fa012e828fd313453da57b223c13aade7262a1867f3",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "σ согласуется с периодом и определением относительного риск-фактора; в типовой модели она однодневная.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "ec0a0f3993e3d4b378e0fc0cc6d6063e655799c0ea80d608904e21a57025cb99",
+          "verdict": "FALSE",
+          "rationale": "V — согласованный денежный масштаб/рыночная стоимость, не обязательно фиксированный номинал.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "d39de84eb62aaaef04717c3f554dba4fc1678c9cd2d9e317982a99279c1b22fa",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Нормальный квантиль определяется доверием;99% больше 95%.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "cbc525cb2cc4f7a50f77e3e0b0ff29ef105ac5bb5f64fc273a3ffb5beb4d9cca",
+          "verdict": "FALSE",
+          "rationale": "Утверждение о меньшем квантиле для 99% противоречит его монотонности.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 20,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "L45": [
+          23,
+          24,
+          28,
+          29
+        ]
+      },
+      "theory_block_ids": [
+        "R-01-1",
+        "MARKET-01-0",
+        "MARKET-01-1"
+      ],
+      "adapted_training_id": "EX17-20",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "b9cb6a7abae032e8cc1e6c72389bf2b897dfc03597a24b08052e3252a64ee5e4",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Ведение реестра является отдельным видом профессиональной деятельности.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "38c432e824433e761fb8ab0659dab5b826a5fede8a91b88c2b4b2cd493ce3b18",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Репозитарий — инфраструктура договорных сведений.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "060f696104eedb972be47c47373666a9738f6ae701e192aec5dd86264183c68a",
+          "verdict": "FALSE",
+          "rationale": "Клиринг определяет обязательства; учёт прав — другая функция депозитария/регистратора.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "af0f2282d77fa63f44860840b0a145681b1f1bee115cfee47d688fe152f8b26e",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Учебная классификация включает инвестиционных посредников/фонды, но ПИФ — имущественный комплекс без юридического лица.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "c87cdd554af19ede6dbecd743621c350848856bb697572ea610b3c24544d5aaa",
+          "verdict": "FALSE",
+          "rationale": "Инвестиционный советник является профессиональным участником по 39-ФЗ 6.1, с собственным порядком допуска.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 21,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "S1": [
+          73,
+          98
+        ]
+      },
+      "theory_block_ids": [
+        "S1-06-1",
+        "S1-04-1"
+      ],
+      "adapted_training_id": "EX17-21",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "b66120952124d055fb9e831246ebf0532eee41de6cb4a939fd01e0a1632e746b",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "YTP использует поток до выбранной оферты и её выкупную цену.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "aac9923bcdde4ef3a6b95be1e82cad261c93798e39e2246cf6e3e30085d90be7",
+          "verdict": "FALSE",
+          "rationale": "Put может сдвигать потребность эмитента в ликвидности на более раннюю дату.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "23fc75deb5643e6b3b69fc700bcf231b0fb9c343760fde2ec58a5fd89bf9177b",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "YTW — минимум по принятым договорным сценариям, а не гарантия худшего дефолтного исхода.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "8f966b55bbef9b58de80f9643733e13e84ee3e8b3e4e687a0528b7254164ee94",
+          "verdict": "FALSE",
+          "rationale": "Максимум противоречит определению учебного YTW.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "6aea69ed3403f8a43909307e46347266eaafb3306a5023a61ed6bba8f173004a",
+          "verdict": "FALSE",
+          "rationale": "Равный купон не уравнивает разные даты, цены и сценарии.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 22,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "L3": [
+          9,
+          10,
+          11
+        ]
+      },
+      "theory_block_ids": [
+        "R-04-0",
+        "R-03-0"
+      ],
+      "adapted_training_id": "EX17-22",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "9277ee9f5410ab315a821e15d8cd88c3b4e78a8c012bf1faa00bcc1ce9dd7735",
+          "verdict": "FALSE",
+          "rationale": "Базовая лицензия имеет предусмотренные ограничения, включая международный контур; свободный полный допуск не следует из её названия.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "93deaf4860667743a4f50e4ae1db6515282df50c663fdfd945036da7f65f778e",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "BaselIII усиливает ликвидность, буферы и другие элементы устойчивости.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "2a784da737b15c7309a0e5558d0f461c61e41ef3edf7bb30a012dbaa7716429f",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Три столпаBaselII: капитал, надзорная оценка, рыночная дисциплина/раскрытие.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "f23acb2f3fe0714a68be4b9fb90c269d6b9bb6fabbbcb5abb94defb0d7eae093",
+          "verdict": "FALSE",
+          "rationale": "ПервоначальныйBaselI1988 фокусировался на кредитном риске; поправка 1996 о рыночном риске не превращает его в полный охват операционного риска.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "64eea58c170679de059705f996f92c98a5536e833e63ee41af02fa4d5e3c4446",
+          "verdict": "FALSE",
+          "rationale": "BaselII включает внутренние модели и их ограничения, не устраняет зависимость от предпосылок.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 23,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "S1": [
+          133,
+          134,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143
+        ]
+      },
+      "theory_block_ids": [
+        "S1-09-1"
+      ],
+      "adapted_training_id": "EX17-23",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "a19f40013dd08e3209f2e83ce014f3f7b5c67e7d5f7ea1482e009e7ad3f8f08a",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Для регуляторной цели нужны конкретные допуск, шкала, методология и уровень; запись агентства в реестре не даёт автоматического любого использования.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "fe989b67a9e92526e9679250891602fb148982f42771a6ef79b8d54ee86fcc91",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Различные методологии дают разные оценки; рейтинг дополняет собственный анализ.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "5cb3ed46dce295ef5071205272ec8175b6455f6eee71bd8462848bc90ff87542",
+          "verdict": "FALSE",
+          "rationale": "Рейтинги бывают у выпусков и могут зависеть от субординации/обеспечения/очередности.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "a0f2d3733928451cb56b68244a8177a98635c72eed99058134679db79dfa65e6",
+          "verdict": "FALSE",
+          "rationale": "Оплата эмитентом создаёт потенциальный конфликт, который нужно контролировать.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "2faa7c74d0a3fc3d08b9277fbff67b4c9f8d491c4cb4e68d32ffe1168145d9ce",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "Национальные и международные буквы не сравниваются напрямую как одинаковый риск.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 24,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "S2": [
+          15,
+          60,
+          63
+        ]
+      },
+      "theory_block_ids": [
+        "S2-06-0",
+        "S2-01-1"
+      ],
+      "adapted_training_id": "EX17-24",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "dfe4b2ef14fc0a7387662c8a55d1558481d8a630061d8d84284c06d623005b23",
+          "verdict": "FALSE",
+          "rationale": "Непередача номинала не исключает риск положительного требования к контрагенту.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "bf20d2c98aaa20a67331618a430994ad635649bc3af8b36a84a0b052c9b3126d",
+          "verdict": "FALSE",
+          "rationale": "При точном совпадении потоковR+s+K−R=K+s: ростR компенсируется свопом.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "7a65db44ffa5fc2e1b56a2ff7cfb0d06edd98793a7aea773a9ccf0b693199e06",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Разные индикаторы или графики сохраняют базисный риск без дефолта.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "3e96261e50408d47399510b5804ff559a7171c8d60a1abcb0bad4747f804e097",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "При сниженииRс 16 до 12 payer доплачивает 4 п.п., но плавающий кредит дешевеет; сумма фиксирована при согласованных условиях.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "ed9e79a76529de2eeaf139e29d8a0ca0f400323fbfb751990e2a8c9ceb6b4407",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Юридически признанныйclose-out сводит охваченные требования к одному итогу и ограничивает выбор выгодных сделок; риск остатка сохраняется.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    },
+    {
+      "original_number": 25,
+      "source_kind": "CONFIRMED_EXAM_SCAN",
+      "original_page": 3,
+      "presentation_pages": {
+        "S3": [
+          28,
+          30,
+          31,
+          41
+        ]
+      },
+      "theory_block_ids": [
+        "E-07-0",
+        "E-09-0"
+      ],
+      "adapted_training_id": "EX17-25",
+      "statements": [
+        {
+          "position": 1,
+          "source_text_sha256": "71a520f5dc5ee2f255f849d070fca6988c70062bbac93f92babe88e03b918d8e",
+          "verdict": "REQUIRES_CONDITIONS",
+          "rationale": "Применимые законные обязанности раскрытия сохраняются для III; дополнительные биржевые условияI/II и исключения закона нужно отличать от безусловного «полного объёма».",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 2,
+          "source_text_sha256": "4319339c978ee45a3fd13d720859d00630cff22f70da2a1cf729387212b93289",
+          "verdict": "AMBIGUOUS_OR_UNSUPPORTED_AS_UNIVERSAL",
+          "rationale": "Доля 70% датирована источником, а причинное объяснение оценочное. Оно не установлено как универсальный проверенный факт о качестве всех компаний.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 3,
+          "source_text_sha256": "bd9ffe5a74a74ee439fa7ec38236ffd9957d1cd78c22f04a96155a18b65b3d64",
+          "verdict": "TRUE_IN_STATED_MODEL",
+          "rationale": "В текущей типовой биржевой таблице отдельный входной порогFFдля III не применяется; это не отменяет иных правил.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 4,
+          "source_text_sha256": "c79c05febf92e3dfe4ff60d486c81f5c519bc157f425c1039323c66c00ef5ba6",
+          "verdict": "FALSE",
+          "rationale": "Текущая первичная таблицаMOEX/a2584 различаетI:3 года иII:1 год; требования проспекта/особых случаев проверяют отдельно.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        },
+        {
+          "position": 5,
+          "source_text_sha256": "01e964f3071fc2144dfd6dac0a34ac13ff29585312073793ee427c04a0d6824f",
+          "verdict": "FALSE",
+          "rationale": "Для основной учебной корзиныIMOEX требуется такжеI/II котировальный список, одного FF≥10%недостаточно.",
+          "official_key": false,
+          "review_status": "INDEPENDENTLY_REVIEWED_WITH_DISCLOSED_LIMITS"
+        }
+      ]
+    }
+  ]
+}
