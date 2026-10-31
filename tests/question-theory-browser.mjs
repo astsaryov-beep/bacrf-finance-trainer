@@ -92,7 +92,8 @@ try{
  ['RECON-15','S1-09-1','операционная трансформация','exam-rating-theory-320.png'],
  ['RECON-18','E-01-0-part-1','денежным требованием','exam-minetoken-theory-320.png'],
  ['RECON-02','S2-08-1','Кривая и выпуклость','exam-partial-hedge-theory-320.png'],
- ['RECON-05','R-02-0-part-2','Три причины','exam-megareg-theory-320.png']]){
+ ['RECON-05','R-02-0-part-2','Три причины','exam-megareg-theory-320.png'],
+ ['RECON-19','E-02-1','Сургутнефтегаз','exam-negative-ev-theory-320.png']]){
   await fixture([id]);const links=await openLinks(id);await links.locator('[data-question-theory]').first().click();
   assert.ok((await page.locator('[data-aligned-block="'+target+'"]').innerText()).includes(term));
   await topOf('[data-aligned-block="'+target+'"]');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
