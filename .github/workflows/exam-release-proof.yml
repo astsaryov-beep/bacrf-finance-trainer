@@ -52,6 +52,46 @@ jobs:
               for i in range(0,len(encoded),4000):print(encoded[i:i+4000])
               print('QA_IMAGE_END '+name)
           PY
+      - name: Inspect the scorecard at its actual content position
+        run: |
+          npm install --no-package-lock --no-save playwright-core@1.56.1
+          node --input-type=module <<'JS'
+          import {chromium} from 'playwright-core';
+          import {resolve} from 'node:path';
+          const browser=await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+          const page=await browser.newPage({viewport:{width:320,height:900}}),errors=[];
+          page.on('pageerror',e=>errors.push(e.message));
+          await page.goto('file://'+resolve('index.html'));
+          await page.evaluate(()=>{
+            const selected=ExamProfile.choose(EFFECTIVE_BANK,42);
+            session={version:2,ids:selected.items.map(q=>q.id),mode:'exam',pos:0,responses:{},grades:{},orders:selected.orders,examProfile:selected.profile,done:true,started:Date.now(),deadline:null,recorded:{}};
+            let written=false;
+            for(const q of selected.items){
+              if(q.type==='multi'){session.responses[q.id]={choice:q.correct.slice()};session.grades[q.id]={type:'choice',strict:true,score:1};}
+              else if(!written){written=true;session.responses[q.id]={text:q.answer,rubric:q.rubric.map((_,i)=>i),checked:true};session.grades[q.id]={type:'rubric',points:q.rubric.length,total:q.rubric.length,strict:true,score:1};}
+            }
+            tab='quiz';render();
+          });
+          const result=await page.evaluate(()=>ExamProfile.summary(session,BANK_MAP));
+          if(result.strict!==26||result.verified!==25||result.selfFull!==1||result.unverified!==24)throw Error('Visual fixture result mismatch');
+          for(const [name,selector]of [['visual-model-top-320.png','.exam-model-summary'],['visual-model-self-320.png','.exam-model-summary .outline:nth-child(2)']]){
+            await page.locator(selector).evaluate(el=>scrollTo({top:Math.max(0,el.getBoundingClientRect().top+scrollY-90),behavior:'instant'}));
+            await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));
+            if(!(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2)))throw Error('Scorecard overflow');
+            await page.screenshot({path:name});
+          }
+          if(errors.length)throw Error(JSON.stringify(errors));
+          await browser.close();
+          JS
+          python - <<'PY'
+          from pathlib import Path
+          import base64
+          for name in ['visual-model-top-320.png','visual-model-self-320.png']:
+              encoded=base64.b64encode(Path(name).read_bytes()).decode()
+              print('QA_IMAGE_BEGIN '+name)
+              for i in range(0,len(encoded),4000):print(encoded[i:i+4000])
+              print('QA_IMAGE_END '+name)
+          PY
       - uses: actions/upload-artifact@v4
         with:
           name: release-6.1.5-live-proof
