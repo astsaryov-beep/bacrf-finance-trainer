@@ -106,4 +106,12 @@ const forward=10*(1+.15*.5)/(1+.03*.5),inverse=.1*(1+.03*.5)/(1+.15*.5);assert.o
 for(const key of Object.keys(a.lessons)){
  const markup=a.supplement(key);const anchors=Array.from(markup.matchAll(/data-aligned-block="([^"]+)"/g),m=>m[1]);assert.equal(new Set(anchors).size,anchors.length,key+' unique anchors');
 }
+// Audit every source record, including already published cohorts, against the actual data layer.
+for(const row of matrix.rows)for(const fragment of row.verified_support||[]){
+ const raw=fragment.raw_source_quote||fragment.quote;
+ const content=fragment.layer==='existing_beginner'?JSON.stringify(beginnerData[fragment.block]):fragment.layer.startsWith('existing_master.')?JSON.stringify(master[fragment.block]):JSON.stringify(a.lessons[fragment.block]);
+ assert.ok(content.includes(JSON.stringify(raw).slice(1,-1)),row.id+' all-cohort prerequisite literal');
+ if(fragment.raw_source_quote)assert.equal(fragment.quote,ctx.learnerText(raw),'proof excludes metadata hidden from the learner');
+ if(fragment.part!==undefined){const part=fragment.part?[...a.lessons[fragment.block].additional][fragment.part-1]:a.lessons[fragment.block];assert.ok(JSON.stringify(part).includes(JSON.stringify(fragment.quote).slice(1,-1)),row.id+' exact support part');}
+}
 console.log('PASS final content package:50 adapted originals/33 reconstructed records with35 exercises/3 topic-only reuse;all86 dispositions and exact displayed prerequisites;independent parity/protection/covariance/DV01/FX boundaries');

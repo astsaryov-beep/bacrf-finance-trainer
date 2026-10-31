@@ -9,7 +9,7 @@ for(let seed=0;seed<1000;seed++){
  assert.equal(s.items.filter(q=>p.metadata(q).taskKind==='knowledge').length,22);for(const type of ['multi','open'])assert.equal(s.items.filter(q=>q.type===type&&p.metadata(q).taskKind==='knowledge').length,11);assert.ok(s.items.filter(q=>p.metadata(q).complex).length>=3);
  assert.ok(s.items.every(q=>!q.numeric&&['multi','open'].includes(q.type)&&!q.block.startsWith('E-13-1')));
  for(const q of s.items)if(q.type==='multi'){
-  assert.equal(q.options.length,5);distribution[q.correct.length]=(distribution[q.correct.length]||0)+1;
+  assert.ok(!['TRANSFER-INDEX-01','TRANSFER-COLLATERAL-01'].includes(q.id),'calculation MC belongs in practice');assert.equal(q.options.length,5);distribution[q.correct.length]=(distribution[q.correct.length]||0)+1;
   assert.deepEqual(Array.from(s.orders[q.id]).sort((a,b)=>a-b),[0,1,2,3,4]);
  }
  assert.equal(JSON.stringify(s),JSON.stringify(p.choose(a.questions,seed)));
@@ -47,6 +47,6 @@ valid.examProfile.seed=-1;assert.equal(ctx.validSessionState(valid),false);
 const single=base.find(q=>q.type==='single');const legacy={version:2,mode:'practice',ids:[single.id],pos:0,responses:{[single.id]:{choice:[single.correct[0]]}},grades:{},orders:{},recorded:{},done:false,deadline:null};assert.equal(ctx.validSessionState(legacy),true);
 ctx.session=session;vm.runInNewContext(h.split('\n').find(l=>l.startsWith('function gradeLabel(')),ctx);
 assert.equal(ctx.gradeLabel(q),'Требует повторной проверки');
-const report=JSON.parse(read('docs/audits/data/EXAM_PROFILE_20261031.json'));assert.equal(report.official_model,false);assert.deepEqual(report.quotas,normalize(p.quotas));
+const report=JSON.parse(read('docs/audits/data/EXAM_PROFILE_20261031.json'));assert.equal(report.official_model,false);assert.equal(report.eligible_total,93);assert.equal(report.questions.filter(q=>q.examEligible).length,93);assert.deepEqual(report.quotas,normalize(p.quotas));
 assert.deepEqual(report.questions,normalize(a.questions.map(q=>({id:q.id,section:q.section,type:q.type,...p.metadata(q),revision:q.reviewRevision}))));
 console.log('PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification');

@@ -50,6 +50,10 @@ try{
  await page.reload();await page.evaluate(()=>{tab='quiz';render();});assert.equal(await page.evaluate(()=>ExamProfile.summary(session,BANK_MAP).strict),26);
  await page.setViewportSize({width:320,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
  await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await page.screenshot({path:resolve(root,'test-artifacts','exam-model-result-320.png')});
+ const staleId=await page.evaluate(()=>{const id=session.ids.find(id=>BANK_MAP.get(id).type==='multi');session.examProfile.questionRevisions[id]='previous-revision';render();return id;});
+ assert.equal(await page.locator('.exam-model-summary .scoreN').innerText(),'25/50');
+ assert.match(await page.locator('[data-result-question="'+staleId+'"] summary .tag').innerText(),/Требует повторной проверки/);
+ assert.match(await page.locator('.exam-model-summary').innerText(),/Версии некоторых заданий изменились/);
  await page.setViewportSize({width:1366,height:768});
  // Old single-choice sessions are still valid and keep the same IDs and responses.
  await page.evaluate(()=>{const q=BANK.find(q=>q.type==='single');session={version:2,ids:[q.id],mode:'practice',pos:0,responses:{[q.id]:{choice:[q.correct[0]]}},grades:{},orders:{[q.id]:q.options.map((_,i)=>i)},done:false,started:Date.now(),deadline:null,recorded:{}};persist();});await page.reload();assert.equal(await page.evaluate(()=>BANK_MAP.get(session.ids[0]).type),'single');
