@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "status": "LOCAL_PASS_FULL_BROWSER_PENDING",
+  "official_model": false,
+  "profile_id": "theory-exam-50-v1",
+  "revision": "2026-10-31",
+  "scope": "Editorial classification of the adapted observed variant; not a specification of all future exams or empirically calibrated difficulty.",
+  "quotas": {
+    "reg": {
+      "multi": 4,
+      "open": 3
+    },
+    "debt": {
+      "multi": 5,
+      "open": 5
+    },
+    "equity": {
+      "multi": 8,
+      "open": 8
+    },
+    "deriv": {
+      "multi": 8,
+      "open": 9
+    }
+  },
+  "source_counts": {
+    "lecture": {
+      "multi": 4,
+      "open": 4
+    },
+    "seminar": {
+      "multi": 21,
+      "open": 21
+    }
+  },
+  "task_kind_counts": {
+    "multi": {
+      "knowledge": 11,
+      "case": 14
+    },
+    "open": {
+      "knowledge": 11,
+      "case": 14
+    }
+  },
+  "minimum_composite_open": 3,
+  "model_threshold": 25,
+  "counts": {
+    "deriv/multi/seminar/knowledge": 3,
+    "deriv/open/seminar/knowledge": 4,
+    "equity/open/seminar/knowledge": 3,
+    "reg/open/lecture/knowledge": 2,
+    "equity/open/seminar/case": 5,
+    "deriv/open/seminar/case": 5,
+    "debt/open/seminar/case": 3,
+    "deriv/multi/seminar/case": 5,
+    "equity/multi/seminar/knowledge": 4,
+    "equity/multi/seminar/case": 4,
+    "reg/multi/lecture/knowledge": 4,
+    "debt/multi/seminar/case": 5,
+    "debt/open/lecture/knowledge": 1,
+    "debt/open/seminar/knowledge": 1,
+    "reg/open/lecture/case": 1
+  },
+  "questions": [
+    {
+      "id": "EX17-03",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "EX17-03",
+      "revision": "2026-10-31-foundations"
+    },
+    {
+      "id": "EX17-19",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "EX17-19",
+      "revision": "2026-10-31-foundations"
+    },
+    {
+      "id": "EX17-27",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "EX17-27",
+      "revision": "2026-10-31-foundations"
+    },
+    {
+      "id": "RECON-01",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "case",
+      "complex": false,
+      "family": "rights-kennedy",
+      "revision": "2026-10-31-foundations"
+    },
+    {
+      "id": "TRANSFER-KENNEDY-01",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "case",
+      "complex": false,
+      "family": "rights-kennedy",
+      "revision": "2026-10-31-foundations"
+    },
+    {
+      "id": "EX17-28",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "EX17-28",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "EX17-45",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "clearing-waterfall",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "EX17-46",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "asv-functions",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "EX17-48",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "dow-phases",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "EX17-39",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "funding-symbols",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "TRANSFER-DOW-01",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "dow-phases",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "TRANSFER-ASV-01",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "case",
+      "complex": false,
+      "family": "asv-functions",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "TRANSFER-WATERFALL-01",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "clearing-waterfall",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "TRANSFER-FUNDING-01",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "funding-symbols",
+      "revision": "2026-10-31-lists"
+    },
+    {
+      "id": "EX17-30",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": true,
+      "family": "ipo-process",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "EX17-32",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": true,
+      "family": "collateral-mechanisms",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "EX17-43",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": true,
+      "family": "bond-cashflow-comparison",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "EX17-44",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": true,
+      "family": "index-construction",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "EX17-47",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": true,
+      "family": "independent-guarantee",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "RECON-28",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "bond-cashflow-comparison",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "RECON-33",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "ipo-process",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "RECON-34",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "collateral-mechanisms",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "RECON-35",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "index-construction",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "TRANSFER-IPO-01",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "ipo-process",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "TRANSFER-COLLATERAL-01",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "collateral-mechanisms",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "TRANSFER-BONDS-01",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "bond-cashflow-comparison",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "TRANSFER-INDEX-01",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "index-construction",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "TRANSFER-GUARANTEE-01",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "independent-guarantee",
+      "revision": "2026-10-31-compound"
+    },
+    {
+      "id": "EX17-01",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "exam-topic-1",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-02",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "listing-and-exit",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-04",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "ipo-process",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-05",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "fx-swap-regimes",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-06",
+      "section": "reg",
+      "type": "multi",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "supervision-classification",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-07",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "exam-topic-7",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-08",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "structured-protection",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-09",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "spread-relative-value",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-10",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "listing-and-exit",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-11",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "project-finance",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-12",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "equity-repo-rights",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-13",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "option-value-components",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-14",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "mezzanine-pik",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-15",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "fair-vs-settlement-price",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-16",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "free-float-weight",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-17",
+      "section": "reg",
+      "type": "multi",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "central-bank-status",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-18",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "risk-adjusted-performance",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-20",
+      "section": "reg",
+      "type": "multi",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "market-roles",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-21",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "bond-yield-scenarios",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-22",
+      "section": "reg",
+      "type": "multi",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "basel-and-licensing",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-23",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "credit-rating-methodology",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-24",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "payer-swap-hedge",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-25",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "listing-and-exit",
+      "revision": "2026-10-31-all-mc"
+    },
+    {
+      "id": "EX17-26",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "equity-repo-rights",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-29",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "payer-swap-hedge",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-31",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "factoring-roles",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-33",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "option-rho",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-34",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "portfolio-market-risk",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-35",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "credit-line-availability",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-36",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "fx-swap-regimes",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-37",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "dividend-policy-value",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-38",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "digital-ruble-rights",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-40",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "carry-basis-roe",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-41",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "inflation-linker",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-42",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "risk-adjusted-performance",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-49",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "gold-swap-liquidity",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "EX17-50",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "case",
+      "complex": false,
+      "family": "insurance-roles",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-02",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-02",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-03",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-03",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-04",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-04",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-05",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-05",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-06",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-06",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-07",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-07",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-08",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-08",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-08-PROTECT",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-08",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-09",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-09",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-10",
+      "section": "deriv",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-10",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-11",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-11",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-12",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-12",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-13",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-13",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-13-MC",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-13",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-14",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-14",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-15",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-15",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-16",
+      "section": "debt",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-16",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-17",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-17",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-18",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-18",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-19",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-19",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-20",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-20",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-21",
+      "section": "equity",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-21",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-22",
+      "section": "equity",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-22",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-24",
+      "section": "reg",
+      "type": "open",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-24",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-25",
+      "section": "reg",
+      "type": "multi",
+      "sourceGroup": "lecture",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-25",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-26",
+      "section": "reg",
+      "type": "multi",
+      "sourceGroup": "lecture",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-26",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-27",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-27",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-29",
+      "section": "debt",
+      "type": "multi",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-29",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-30",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "case",
+      "complex": false,
+      "family": "RECON-30",
+      "revision": "2026-10-31-open-reconstructed"
+    },
+    {
+      "id": "RECON-31",
+      "section": "deriv",
+      "type": "open",
+      "sourceGroup": "seminar",
+      "taskKind": "knowledge",
+      "complex": false,
+      "family": "RECON-31",
+      "revision": "2026-10-31-open-reconstructed"
+    }
+  ],
+  "verification": {
+    "local": "29_PROGRAMS_PASS_1000_SEEDED_SETS_AND_ASSESSMENT_BOUNDARIES",
+    "browser": "PENDING",
+    "pages": "PENDING",
+    "live": "PENDING"
+  }
+}

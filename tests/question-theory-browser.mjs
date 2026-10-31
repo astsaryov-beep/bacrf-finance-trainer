@@ -3,6 +3,7 @@ const root=resolve(import.meta.dirname,'..'),out=resolve(root,'test-artifacts');
 const browser=await chromium.launch({executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const page=await browser.newPage({viewport:{width:1366,height:900}}),errors=[];page.setDefaultTimeout(15000);page.on('pageerror',e=>errors.push(e.message));
 async function fixture(ids){await page.evaluate(ids=>{session={version:2,ids,mode:'practice',pos:0,responses:{},grades:{},orders:Object.fromEntries(ids.filter(id=>BANK_MAP.get(id).options).map(id=>[id,BANK_MAP.get(id).options.map((_,i)=>i)])),done:false,started:Date.now(),deadline:null,recorded:{},reviewFlags:{}};tab='quiz';persist();render()},ids)}
+async function topOf(selector){await page.locator(selector).evaluate(el=>window.scrollTo({top:Math.max(0,el.getBoundingClientRect().top+scrollY-90),behavior:'instant'}));await page.evaluate(()=>new Promise(r=>requestAnimationFrame(r)));}
 async function openLinks(id){const card=page.locator('[data-theory-for="'+id+'"]');await card.locator('summary').click();return card}
 try{
  await page.goto('file://'+resolve(root,'index.html'));
@@ -84,7 +85,7 @@ try{
  const lc=await openLinks('RECON-13-MC');await lc.locator('[data-question-theory]').first().click();
  assert.match(await page.locator('[data-aligned-block="S1-02-0-part-1"]').innerText(),/безотзывный/);
  assert.match(await page.locator('[data-aligned-block="S1-02-0-part-1"]').innerText(),/Покрытый аккредитив/);
- await page.locator('[data-aligned-block="S1-02-0-part-1"]').scrollIntoViewIfNeeded();await page.screenshot({path:resolve(out,'exam-lc-theory-320.png')});
+ await topOf('[data-aligned-block="S1-02-0-part-1"]');await page.screenshot({path:resolve(out,'exam-lc-theory-320.png')});
  await page.reload();await page.locator('[data-theory-return]').click();assert.equal(await page.evaluate(()=>session.grades['RECON-13-MC'].strict),true);
  for(const [id,target,term,file] of [
  ['EX17-41','S1-04-1','ОФЗ-ИН','exam-linker-theory-320.png'],
@@ -94,7 +95,7 @@ try{
  ['RECON-05','R-02-0-part-2','Три причины','exam-megareg-theory-320.png']]){
   await fixture([id]);const links=await openLinks(id);await links.locator('[data-question-theory]').first().click();
   assert.ok((await page.locator('[data-aligned-block="'+target+'"]').innerText()).includes(term));
-  await page.locator('[data-aligned-block="'+target+'"]').scrollIntoViewIfNeeded();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  await topOf('[data-aligned-block="'+target+'"]');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
   await page.screenshot({path:resolve(out,file)});await page.locator('[data-theory-return]').click();
  }
  assert.deepEqual(errors,[]);console.log('PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px');

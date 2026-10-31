@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_commit": "b3287408d1c7e9221ce25e825dde071586e789f5",
-  "status": "ALL_86_DISPOSITIONS_SUBJECT_REVIEWED_PENDING_FINAL_PACKAGE_QA",
+  "status": "ALL_86_DISPOSITIONS_CONTENT_PUBLISHED_WITH_DISCLOSED_LIMITS",
   "inventory": {
     "raw_question_objects": 569,
     "unique_question_ids": 553,
@@ -507,7 +507,7 @@
         {
           "block": "E-07-0",
           "layer": "ExamAlignment.full_and_brief",
-          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2:95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
+          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2: 95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
         },
         {
           "block": "E-07-0",
@@ -2176,7 +2176,7 @@
         {
           "block": "E-07-0",
           "layer": "ExamAlignment.full_and_brief",
-          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2:95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
+          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2: 95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
         },
         {
           "block": "E-07-0",
@@ -4051,7 +4051,7 @@
         {
           "block": "S2-07-1",
           "layer": "ExamAlignment.full_and_brief",
-          "quote": "λ=z — односторонний квантиль стандартного нормального распределения: примерно1,645 для95% и2,326 для99%. Более высокий доверительный уровень увеличивает квантиль при той же модели."
+          "quote": "λ=z — односторонний квантиль стандартного нормального распределения: примерно 1,645 для 95% и 2,326 для 99%. Более высокий доверительный уровень увеличивает квантиль при той же модели."
         },
         {
           "block": "S2-07-1",
@@ -4061,7 +4061,7 @@
         {
           "block": "S2-07-1",
           "layer": "ExamAlignment.full_and_brief",
-          "quote": "T — число базовых периодов: при дневной σ горизонт задают в днях. Множитель √T отражает корневое масштабирование: переход от одного до четырёх периодов даёт множитель2."
+          "quote": "T — число базовых периодов: при дневной σ горизонт задают в днях. Множитель √T отражает корневое масштабирование: переход от одного до четырёх периодов даёт множитель 2."
         },
         {
           "block": "S2-07-1",
@@ -5405,7 +5405,7 @@
         {
           "block": "E-07-0",
           "layer": "ExamAlignment.full_and_brief",
-          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2:95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
+          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2: 95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
         },
         {
           "block": "E-07-0",
@@ -5569,11 +5569,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-26"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -5781,7 +5781,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 63–64; 39-ФЗ, статья 51.3."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-27",
@@ -5955,11 +5963,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-29"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -6092,7 +6100,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, PDF 60,63."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-30",
@@ -6214,11 +6230,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-31"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -6295,7 +6311,15 @@
       ],
       "presentation_refs": [
         "Лекции 4–5, PDF 60–61: участники факторинга и безрегрессная схема."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-32",
@@ -6442,11 +6466,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-33"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -6531,7 +6555,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, раздел греков; базовая европейская модель."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-34",
@@ -6574,11 +6606,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-34"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -6693,7 +6725,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 46–54."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-35",
@@ -6712,11 +6752,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-35"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -6831,7 +6871,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 16,21."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-36",
@@ -6850,11 +6898,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-36"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -6979,7 +7027,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, PDF 57–59."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-37",
@@ -7025,11 +7081,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-37"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -7159,7 +7215,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 15,18–22."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-38",
@@ -7184,11 +7248,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-38"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -7288,7 +7352,15 @@
       ],
       "presentation_refs": [
         "Лекции 1–2, денежный раздел; официальный FAQ Банка России."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-39",
@@ -7348,11 +7420,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-40"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -7475,7 +7547,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 164–166; уточнения базиса и метрик в курсе."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-41",
@@ -7497,11 +7577,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-41"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -7636,7 +7716,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, разновидности ОФЗ; MOEX, ОФЗ-ИН."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-42",
@@ -7661,11 +7749,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-42"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -7740,7 +7828,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 55–56."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-43",
@@ -8247,11 +8343,11 @@
       "candidate_excerpts": [],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-49"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -8386,7 +8482,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, PDF 59."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "EX17-50",
@@ -8411,11 +8515,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "EX17-50"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "ADAPTED_SCAN",
       "required_elements": [
@@ -8480,7 +8584,15 @@
       ],
       "presentation_refs": [
         "Лекции 4–5, PDF 36: участники страхования."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-01",
@@ -8525,11 +8637,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-02"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -8652,7 +8764,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, PDF 83–84."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-03",
@@ -8670,11 +8790,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-03"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -8766,7 +8886,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 46–50."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-04",
@@ -8784,11 +8912,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-04"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -8863,7 +8991,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 55–56."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-05",
@@ -8886,11 +9022,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-05"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -9090,7 +9226,15 @@
       ],
       "presentation_refs": [
         "Лекции 1–2, PDF 63."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-06",
@@ -9113,11 +9257,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-06"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -9317,7 +9461,15 @@
       ],
       "presentation_refs": [
         "Лекции 1–2, PDF 42,47–48,63."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-07",
@@ -9335,11 +9487,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-07"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -9435,7 +9587,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 58–60."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-08",
@@ -9465,12 +9625,12 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-08",
         "RECON-08-PROTECT"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -9651,7 +9811,15 @@
       "presentation_refs": [
         "Семинар 2, PDF 101.",
         "Семинар 2, PDF 101, опционные стратегии."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-09",
@@ -9682,11 +9850,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-09"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -9838,7 +10006,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 155–158; разборы стратегий в курсе."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-10",
@@ -9862,11 +10038,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-10"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -10033,7 +10209,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, денежные индикаторы; Банк России, методики RUONIA и MIACR; Московская биржа, методика RUSFAR."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-11",
@@ -10051,11 +10235,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-11"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -10253,7 +10437,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 11–12; ГК РФ 807,819."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-12",
@@ -10274,11 +10466,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-12"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -10518,7 +10710,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, обеспечение кредита; главы о гарантии и страховании."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-13",
@@ -10536,12 +10736,12 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-13",
         "RECON-13-MC"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -10762,7 +10962,15 @@
       "presentation_refs": [
         "Семинар 1, PDF 42–43; ГК РФ 867,869.",
         "Семинар 1, PDF 42–43; ГК РФ 867,869."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-14",
@@ -10784,11 +10992,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-14"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -10915,7 +11123,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 25–31."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-15",
@@ -10933,11 +11149,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-15"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -11079,7 +11295,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 138."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-16",
@@ -11097,11 +11321,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-16"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -11239,7 +11463,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 134–135, рейтинговые методологии."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-17",
@@ -11260,11 +11492,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-17"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -11449,7 +11681,7 @@
           "block": "E-07-0",
           "layer": "ExamAlignment.full_and_brief",
           "part": 0,
-          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2:95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
+          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2: 95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
         },
         {
           "block": "E-07-0",
@@ -11466,7 +11698,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 6–7,39; 208-ФЗ."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-18",
@@ -11487,11 +11727,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-18"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -11635,7 +11875,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 9; Норникель, программа «Цифровой инвестор»."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-19",
@@ -11657,11 +11905,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-19"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -11741,7 +11989,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 38; разбор EV в курсе."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-20",
@@ -11759,11 +12015,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-20"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -11840,7 +12096,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 11."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-21",
@@ -11867,11 +12131,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-21"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -12123,7 +12387,7 @@
           "block": "E-07-0",
           "layer": "ExamAlignment.full_and_brief",
           "part": 0,
-          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2:95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
+          "quote": "Полный уход всех акций и прекращение публичности — применяется специальная совокупность решений статьи 7.2: 95% голосов всех владельцев акций всех категорий, наряду с другими условиями. Это иной знаменатель и процедура."
         },
         {
           "block": "E-07-0",
@@ -12140,7 +12404,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, PDF 6–7,15; 208-ФЗ, дивиденды."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-22",
@@ -12170,11 +12442,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-22"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -12314,7 +12586,15 @@
       ],
       "presentation_refs": [
         "Семинар 3, раздел оценки компаний."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-23",
@@ -12335,9 +12615,9 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "EXISTING_TASK_KEYS_INDEPENDENTLY_CHECKED_NOT_ORIGINAL_KEY",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [],
-      "published": false,
+      "published": true,
       "action_status": "TOPIC_ONLY_REUSED_VALIDATED_EXISTING",
       "semantic_finding": "Known only as a pension topic; no specific original reconstructed. Existing knowledge/case tasks cover regimes,roles and guarantees.",
       "reused_training_ids": [
@@ -12441,7 +12721,15 @@
       ],
       "presentation_refs": [
         "Тема известна без достоверной исходной формулировки; проверены конкретные существующие упражнения."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-24",
@@ -12459,11 +12747,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-24"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -12534,7 +12822,15 @@
       ],
       "presentation_refs": [
         "Лекции 4–5, PDF 47: распределительная и накопительная пенсионные модели."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-25",
@@ -12552,11 +12848,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-25"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -12648,7 +12944,15 @@
       ],
       "presentation_refs": [
         "Лекции 4–5, PDF 38–39: объекты и виды страхования."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-26",
@@ -12666,11 +12970,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-26"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -12777,7 +13081,15 @@
       ],
       "presentation_refs": [
         "Лекции 1–2, денежный раздел; ЦБ, цифровой рубль."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-27",
@@ -12795,11 +13107,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-27"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -12920,7 +13232,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 164–166; Семинар 2, cash-and-carry."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-28",
@@ -13040,11 +13360,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-29"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -13166,7 +13486,15 @@
       ],
       "presentation_refs": [
         "Семинар 1, PDF 16,21."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-30",
@@ -13187,11 +13515,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-30"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -13326,7 +13654,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, PDF 59."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-31",
@@ -13347,11 +13683,11 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "INDEPENDENTLY_REVIEWED_EXPLICIT_CONDITIONS_NOT_OFFICIAL",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [
         "RECON-31"
       ],
-      "published": false,
+      "published": true,
       "action_status": "OPEN_OR_RECONSTRUCTED_IMPLEMENTED_PENDING_FULL_CI",
       "disposition": "SYNTHETIC_RECONSTRUCTION_TOPIC_CONFIDENCE_RETAINED",
       "required_elements": [
@@ -13486,7 +13822,15 @@
       ],
       "presentation_refs": [
         "Семинар 2, валютные форварды и свопы; карточка формулы в курсе."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-32",
@@ -13516,9 +13860,9 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "EXISTING_TASK_KEYS_INDEPENDENTLY_CHECKED_NOT_ORIGINAL_KEY",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [],
-      "published": false,
+      "published": true,
       "action_status": "TOPIC_ONLY_REUSED_DISTINCT_PAYOFF_AND_PROTECTION_TASKS",
       "semantic_finding": "Only max-formula topic is known. Existing/new distinct tasks cover payoff,profit,premium,time,synthetic and protected positions; no invented original.",
       "reused_training_ids": [
@@ -13666,7 +14010,15 @@
       ],
       "presentation_refs": [
         "Тема известна без достоверной исходной формулировки; проверены конкретные существующие упражнения."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     },
     {
       "id": "RECON-33",
@@ -13951,9 +14303,9 @@
       ],
       "gap_type": "PRECISE_PREREQUISITES_AND_FORMAT_REVIEWED",
       "key_verification_status": "EXISTING_TASK_KEYS_INDEPENDENTLY_CHECKED_NOT_ORIGINAL_KEY",
-      "qa_status": "SEMANTIC_COMPLETE_LOCAL_BROWSER_PENDING",
+      "qa_status": "LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
       "new_training_ids": [],
-      "published": false,
+      "published": true,
       "action_status": "LOW_CONFIDENCE_TOPIC_REUSED_WITHOUT_INVENTED_ORIGINAL",
       "semantic_finding": "No reliable original stem. Reviewed topic preparation retained; no synthetic question attributed to a specific exam.",
       "reused_training_ids": [
@@ -14187,7 +14539,15 @@
       ],
       "presentation_refs": [
         "Тема известна без достоверной исходной формулировки; проверены конкретные существующие упражнения."
-      ]
+      ],
+      "publication": {
+        "version": "6.1.4",
+        "commit": "5dd008358c413d061e4b5ab852d6336a375151fa",
+        "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41243836731",
+        "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41244407882",
+        "public_files_match": 17,
+        "artifact": 13058525936
+      }
     }
   ]
 }
