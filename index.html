@@ -436,7 +436,7 @@ const EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestio
 const SECTION={reg:'1 · Институты и регулирование',debt:'2 · Денежный и долговой рынок',equity:'3 · Акции и коллективные инвестиции',deriv:'4 · ПФИ и хеджирование'};
 const PROGRESS_KEY='bacrf_finance_trainer_v1',SESSION_KEY='bacrf_finance_trainer_v2_session',FLAG_KEY='bacrf_finance_trainer_v2_flags';
 const byId=id=>document.getElementById(id);
-function learnerText(s){return String(s??'').replace(/Авторское задание по изложенной теории [A-Z]+-\d+-\d; источник и пределы(?: сверки)?: docs\/audits\/[A-Z0-9_]+\.md\./g,'Учебное задание по материалам соответствующего блока.').replace(/\s*Подробные пределы первичной сверки сохранены в docs\/audits\/[A-Z0-9_]+\.md\./g,'')}
+function learnerText(s){return String(s??'').replace(/Авторское задание по изложенной теории [A-Z]+-\d+-\d; источник и пределы(?: сверки)?: docs\/audits\/[A-Z0-9_]+\.md\./g,'Учебное задание по материалам соответствующего блока.').replace(/\s*Подробные пределы первичной сверки сохранены в docs\/audits\/[A-Z0-9_]+\.md\./g,'').replace(/; исправления и границы docs\/audits\/[A-Z0-9_]+\.md\./g,'.').replace(/;\s*docs\/audits\/[A-Z0-9_]+\.md\./g,'.')}
 const esc=s=>learnerText(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const BANK_MAP=new Map(EFFECTIVE_BANK.map(q=>[q.id,q]));
 const FAMILIES=new Map();for(const q of EFFECTIVE_BANK){if(q.conceptFamily){if(!FAMILIES.has(q.conceptFamily))FAMILIES.set(q.conceptFamily,[]);FAMILIES.get(q.conceptFamily).push(q)}}

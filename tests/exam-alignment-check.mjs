@@ -16,3 +16,7 @@ assert.ok(a.lessons['S2-02-0'].facts.join(' ').includes('W/R'));assert.ok(a.less
 assert.ok(html.includes('...ExamAlignment.questions')||html.includes('?ExamAlignment.questions:[]'));assert.ok(html.includes("ExamAlignment.supplement(l.id+'-'+pos,true)"));
 const matrix=JSON.parse(read('docs/audits/data/EXAM_ALIGNMENT_20261031.json'));assert.equal(matrix.rows.length,86);assert.equal(matrix.rows.filter(r=>r.source_kind==='CONFIRMED_EXAM_SCAN').length,50);assert.equal(new Set(matrix.rows.map(r=>r.id)).size,86);
 console.log('PASS source alignment:5 linked exercises,3 adapted scan/1 reconstruction/1 transfer,5 plausible alternatives and independent money/quantile/hedge checks,4 prerequisites/full+brief,no workflow labels in extensions,86 tracked requirements');
+
+vm.runInNewContext(html.split('\n').find(l=>l.startsWith('function learnerText(')),ctx);
+for(const input of ['Авторское задание по изложенной теории S1-07-0; источник и пределы: docs/audits/QUALITY_M14_REVIEW.md.','Самостоятельные учебные примеры; исправления и границы docs/audits/QUALITY_M03_REVIEW.md.','Условия применения сохраняются; docs/audits/QUALITY_M04_REVIEW.md.','Основное объяснение. Подробные пределы первичной сверки сохранены в docs/audits/QUALITY_M06_REVIEW.md.'])assert.ok(!ctx.learnerText(input).includes('docs/'));
+assert.equal(ctx.learnerText('Условия применения сохраняются; docs/audits/QUALITY_M04_REVIEW.md.'),'Условия применения сохраняются.');
