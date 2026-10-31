@@ -1,0 +1,58 @@
+name: Release 6.1.5 deployment proof
+on:
+  push:
+    branches: [verify/exam-release-20261031]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  live-and-visual-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_SHA: 56153ca894626e7982737bcfd88cd36b2aa6a35a
+      CI_RUN: "41246984321"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 56153ca894626e7982737bcfd88cd36b2aa6a35a
+      - name: Compare every deployed application file
+        run: |
+          python - <<'PY'
+          import os,re,json,urllib.request,hashlib,concurrent.futures
+          from pathlib import Path
+          sha=os.environ['RELEASE_SHA'];base='https://astsaryov-beep.github.io/bacrf-finance-trainer/'
+          html=Path('index.html').read_text();assert 'content="6.1.5"'in html
+          refs={p:u for u,p in re.findall(r'(?:src|href)="((assets/[^"?#]+\.(?:css|js))(?:\?[^"#]*)?)"',html)}
+          paths=['index.html','versions/index.html','v5.0.8/index.html',*refs]
+          assert len(paths)==18,len(paths)
+          for p in ['assets/exam-alignment.js','assets/exam-profile.js','assets/theme.css']:assert refs[p].endswith('?v=6.1.5')
+          def check(p):
+              u=refs.get(p,p);data=urllib.request.urlopen(base+u+('&'if'?'in u else'?')+'release='+sha,timeout=45).read()
+              assert data==Path(p).read_bytes(),p+' live mismatch'
+              return p,hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5)as ex:hashes=dict(ex.map(check,paths))
+          assert hashes['v5.0.8/index.html']=='2b77ae8f74be9433af3c458c3be55314d2cc9519'
+          proof={'commit':sha,'version':'6.1.5','public_files_match':len(hashes),'hashes':hashes}
+          Path('release-live-proof.json').write_text(json.dumps(proof,indent=2))
+          print('QA_LIVE_PROOF '+json.dumps(proof))
+          PY
+      - name: Retrieve visual evidence from the successful full check
+        run: |
+          gh run download "$CI_RUN" --repo "$GITHUB_REPOSITORY" --name trainer-browser-course --dir evidence/course
+          gh run download "$CI_RUN" --repo "$GITHUB_REPOSITORY" --name trainer-browser-core --dir evidence/core
+          python - <<'PY'
+          from pathlib import Path
+          import base64
+          for folder,name in [('course','exam-model-result-320.png'),('core','exam-negative-ev-theory-320.png')]:
+              matches=list(Path('evidence',folder).rglob(name));assert len(matches)==1,(name,len(matches))
+              encoded=base64.b64encode(matches[0].read_bytes()).decode()
+              print('QA_IMAGE_BEGIN '+name)
+              for i in range(0,len(encoded),4000):print(encoded[i:i+4000])
+              print('QA_IMAGE_END '+name)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-6.1.5-live-proof
+          path: release-live-proof.json
