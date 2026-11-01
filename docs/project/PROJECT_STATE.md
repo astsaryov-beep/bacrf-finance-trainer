@@ -5,7 +5,7 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.2.0",
+  "working_version": "6.2.1",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
@@ -51,12 +51,15 @@
   "current_work": {
     "task": "T-33",
     "status": "IN_PROGRESS",
-    "reviewed_mc": 24,
-    "reviewed_statements": 120,
-    "pending_mc": 225,
+    "reviewed_mc": 48,
+    "reviewed_statements": 240,
+    "pending_mc": 201,
     "P2": "NOT_STARTED_PENDING_P1",
-    "application_changed": false,
-    "report": "docs/audits/T33_MC_BANK_REVIEW.md"
+    "application_changed": true,
+    "report": "docs/audits/T33_MC_BANK_REVIEW.md",
+    "release_status": "PENDING",
+    "edited_mc": 2,
+    "keep_mc": 46
   }
 }
 ```

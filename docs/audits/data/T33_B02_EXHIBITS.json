@@ -1,0 +1,34 @@
+{
+  "task": "T-33",
+  "status": "EDITORIAL_CHECK",
+  "european_put_counterexample": {
+    "model": "European Black-Scholes, no dividends",
+    "parameters": {
+      "S": 40,
+      "K": 100,
+      "r": 0.1,
+      "sigma": 0.1,
+      "T": 1
+    },
+    "put": 50.48374180359594,
+    "immediate_intrinsic": 60,
+    "difference": -9.51625819640406,
+    "purpose": "Supports possibility, not universality, of negative price-minus-immediate-intrinsic value; numerical calculation is editorial evidence, not a new student exam exercise.",
+    "course_block": "S2-10-0",
+    "source": "S2 PDF101–102, European parity and pricing; immediate intrinsic S2 PDF97; own numerical deduction."
+  },
+  "visually_checked_source_pages": {
+    "S2": [
+      89,
+      90,
+      91,
+      101,
+      106
+    ]
+  },
+  "source_discrepancies": [
+    "S2 PDF89 labels stock-plus-protective-put lower plateau as call. Existing correct MC-S2-09-1-4 retained.",
+    "S2 PDF99 describes general time decay without European-put qualification. Existing MC-S2-10-0-2 and pre-question example already include it.",
+    "S1 PDF162 overstates immunity of DV01-neutral spread; current MC-S1-10-0-1 correctly retains curve/spread/convexity risks."
+  ]
+}

@@ -158,13 +158,17 @@
       "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
     }
   ],
-  "browser": "PENDING_GITHUB_ACTIONS",
-  "publication": "PENDING",
+  "browser": "GITHUB_ACTIONS_SUCCESS: 13 programs across core/course/route",
+  "publication": "MERGED_PR93_PAGES_SUCCESS; LIVE_CONTENT_UNCHANGED_FROM_6.2.0",
   "subject_review": {
     "questions": 24,
     "statements": 120,
     "keep": 24,
     "edited": 0,
     "key_errors": 0
-  }
+  },
+  "pull_request": "https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/93",
+  "commit": "c3fa9ec0daaf554e5d24bcc7c81498b4ba8cbba9",
+  "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41315291574",
+  "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41315948552"
 }

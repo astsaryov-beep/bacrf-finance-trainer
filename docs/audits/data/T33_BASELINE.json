@@ -7,7 +7,8 @@
     "assets/exam-practice.js": "8c5c1fc000a946d0947cfd5884cb9084927bedf8563ca916d850c81f0744c289",
     "assets/exam-alignment.js": "c377999bba76dd3ecc31a56b16ef2feaa5b50098deabd06d2823808be077e1f8",
     "assets/learning-path.js": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
-    "v5.0.8/index.html": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+    "v5.0.8/index.html": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d",
+    "assets/question-review.js": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
   },
   "open_assessment_protection": "index.html and assets/exam-profile.js unchanged in this audit stage; preserve open scoring/UI/rubrics in subsequent stages.",
   "counts": {
@@ -42,5 +43,7 @@
       "id": 41295985860,
       "conclusion": "success"
     }
-  }
+  },
+  "index_normalized_sha256": "cbeb8660cbb41cfff6c9e54a0ea14f57cad1c7cac79aee878d4f7977733fe333",
+  "normalization_policy": "Only displayed/meta/cache release versions and the version query on exam-practice.js may change. Whole remaining index, including open UI, scoring and all rubrics, must match the baseline byte-for-byte."
 }

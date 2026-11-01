@@ -5,9 +5,11 @@ import vm from 'node:vm';
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8');
 const json=p=>JSON.parse(read('docs/audits/data/'+p));
 const matrix=json('T33_MC_REVIEW.json'),baseline=json('T33_BASELINE.json'),changes=json('T33_MC_CHANGES.json');
-const ctx={};for(const f of ['exam-practice','exam-alignment'])vm.runInNewContext(read('assets/'+f+'.js'),ctx);
+const ctx={};for(const f of ['question-review','exam-practice','exam-alignment'])vm.runInNewContext(read('assets/'+f+'.js'),ctx);
 // Obtain the two public supplementary banks; never infer review from a key match.
-const banks=[...Array.from(ctx.ExamPractice.questions),...Array.from(ctx.ExamAlignment.questions).filter(q=>q.type==='multi')];
+// Compare literal source records: alignment adds derived topic/family metadata at runtime.
+const rawQuestions=f=>{const s=read('assets/'+f+'.js'),m=/const questions\s*=\s*/.exec(s),start=m.index+m[0].length;return JSON.parse(s.slice(start,s.indexOf(';\n',start)));};
+const banks=[...rawQuestions('exam-practice'),...rawQuestions('exam-alignment').filter(q=>q.type==='multi')];
 const current=new Map(banks.map(q=>[q.id,q]));
 const stable=v=>v===null||typeof v!=='object'?JSON.stringify(v):Array.isArray(v)?'['+v.map(stable).join(',')+']':'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+stable(v[k])).join(',')+'}';
 const sha=s=>createHash('sha256').update(s).digest('hex');
@@ -20,7 +22,7 @@ for(const cohort of ['P1-A','P1-C'])assert.equal(matrix.records.filter(r=>r.coho
 for(const r of matrix.records){
  const q=current.get(r.question_id);assert.ok(q,r.question_id);assert.equal(q.options.length,5);
  assert.equal(r.baseline.commit,baseline.baseline_commit);assert.match(r.baseline.question_sha256,/^[a-f0-9]{64}$/);
- if(r.status==='PENDING'){assert.equal(r.review,null);assert.equal(r.decision,null);continue;}
+ if(r.status==='PENDING'){assert.equal(r.review,null);assert.equal(r.decision,null);assert.equal(sha(stable(q)),r.baseline.question_sha256,'Unreviewed question changed '+q.id);continue;}
  assert.ok(['REVIEWED_KEEP','REVIEWED_EDIT'].includes(r.status));
  assert.equal(r.review.alternatives.length,5);assert.equal(new Set(r.review.alternatives.map(a=>a.index)).size,5);
  assert.ok(r.review.skill&&r.review.independence&&r.review.prerequisite_review&&r.review.duplicate_review);
@@ -32,9 +34,36 @@ for(const r of matrix.records){
  assert.deepEqual(r.review.independent_correct,r.review.alternatives.filter(a=>a.verdict==='TRUE').map(a=>a.index));
  assert.deepEqual(r.review.independent_correct,Array.from(q.correct));
  if(r.decision==='KEEP')assert.equal(sha(stable(q)),r.baseline.question_sha256,'Unrecorded change to reviewed question '+q.id);
+ else assert.equal(sha(stable(q)),r.review.after_question_sha256,'Changed question differs from reviewed version '+q.id);
 }
 if(matrix.status==='COMPLETED')assert.equal(reviewed.length,249,'Cannot accept partial P1');
-// This stage edits evidence only. Exact file hashes protect open UI/scoring, all rubrics and historical content.
-if(changes.changes.length===0)for(const [p,h]of Object.entries(baseline.sha256))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Unexpected application change '+p);
+// Only release labels/cache queries may change in HTML. Open UI, scoring, all rubrics and historical content stay exact.
+const html=read('index.html'),version=html.match(/name="trainer-version" content="([^"]+)"/)[1];
+const normalized=html.replaceAll(version,'__VERSION__').replace('assets/exam-practice.js?v=__VERSION__','assets/exam-practice.js');
+assert.equal(sha(normalized),baseline.index_normalized_sha256,'Changes beyond release labels/cache in index.html');
+for(const [p,h]of Object.entries(baseline.sha256))if(!['index.html','assets/exam-practice.js'].includes(p))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Protected application changed '+p);
 assert.equal(changes.reviewed_questions,reviewed.length);
-console.log(`PASS T33 audit evidence: ${reviewed.length}/249 reviewed (${reviewed.length*5}/1245 statements); ${249-reviewed.length} explicitly pending; protected application unchanged.`);
+for(const change of changes.changes){
+ const q=current.get(change.question_id),patch=ctx.FinanceReview.corrections[q.id];
+ assert.equal(patch.reviewKind,'wording');assert.equal(patch.revision,q.reviewRevision);
+ assert.deepEqual(change.before.correct,change.after.correct,'This cohort changes distractors, not keys');
+ const open=ctx.ExamAlignment.questions.find(q=>q.type==='open');
+ const openPatch=ctx.FinanceReview.corrections[open.id];
+ const old={version:2,responses:{[q.id]:{choice:[0,2,3],confidence:3,checked:true},[open.id]:{text:'Сохранённый открытый ответ',rubric:[0],checked:true,reviewRevision:openPatch?.revision}},grades:{[q.id]:{strict:true,score:1},[open.id]:{score:.5,type:'open'}},recorded:{[q.id]:true},optionOrders:{[q.id]:[4,2,0,3,1]}};
+ const openBefore=JSON.stringify({response:old.responses[open.id],grade:old.grades[open.id]});
+ ctx.FinanceReview.migrateSession(old);
+ assert.deepEqual(Array.from(old.responses[q.id].choice),[]);assert.equal(old.responses[q.id].confidence,3);assert.equal(old.responses[q.id].needsReviewRecheck,true);
+ assert.equal(old.grades[q.id],undefined);assert.equal(old.recorded[q.id],undefined);
+ assert.deepEqual(Array.from(old.reviewHistory[q.id].response.choice),[0,2,3]);assert.equal(old.reviewHistory[q.id].grade.strict,true);
+ assert.deepEqual(old.optionOrders[q.id],[4,2,0,3,1]);
+ assert.equal(JSON.stringify({response:old.responses[open.id],grade:old.grades[open.id]}),openBefore,'MC migration changed open response/assessment');
+ const once=JSON.stringify(old);ctx.FinanceReview.migrateSession(old);assert.equal(JSON.stringify(old),once,'Migration must be idempotent');
+ old.responses[q.id].choice=[...q.correct];old.responses[q.id].checked=true;old.responses[q.id].needsReviewRecheck=false;
+ ctx.FinanceReview.migrateSession(old);assert.deepEqual(Array.from(old.responses[q.id].choice),Array.from(q.correct),'Fresh choices lost on reload');
+ const course={selected:[0,2,3],checked:true,score:1,confidence:3};ctx.FinanceReview.migrateCourseAnswer(q,course);
+ assert.deepEqual(Array.from(course.previousReviewResult.selected),[0,2,3]);assert.equal(course.previousReviewResult.score,1);
+ assert.deepEqual(Array.from(course.selected),[]);assert.equal(course.checked,false);assert.equal(course.score,null);assert.equal(course.needsReviewRecheck,true);assert.equal(course.confidence,3);
+ assert.equal(ctx.FinanceReview.currentEvidence(q,{tries:1,reviewRevision:'old'}),false);
+ assert.equal(ctx.FinanceReview.currentEvidence(q,{tries:1,reviewRevision:q.reviewRevision}),true);
+}
+console.log(`PASS T33 audit evidence: ${reviewed.length}/249 reviewed (${reviewed.length*5}/1245 statements); ${249-reviewed.length} explicitly pending; ${changes.changes.length} revision-safe edits; open UI/scoring/rubrics unchanged.`);
