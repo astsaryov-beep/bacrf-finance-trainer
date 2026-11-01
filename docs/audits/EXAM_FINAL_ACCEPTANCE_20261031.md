@@ -1,5 +1,7 @@
 # Приёмка экзаменационного обновления ·6.1.5
 
+> Обновление 01.11.2026: [повторный аудит](INDEPENDENT_REQUIREMENTS_AUDIT_20261101.md) выявил A01–A07. Наличие учебного охвата и прежний технический PASS не означают полного закрытия ТЗ. Закрытие замечаний — T-32; приложение при аудите не изменено.
+
 **VERIFIED ·T27–T30 завершены с раскрытыми пределами.**
 
 [PR86](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/86) и [PR87](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/87), окончательный продукт d2c39bae380ebfe36437cd3cb2b59b1190900eea. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262) и [проверка HTTP/мобильного результата](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248963920) — SUCCESS. Все 18 публичных файлов совпали с проверенным приложением; дерево после merge совпало с проверенным PR.

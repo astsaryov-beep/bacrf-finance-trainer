@@ -11,7 +11,7 @@
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
   "phase": "READY",
   "active_task": null,
-  "next_task": "T-23",
+  "next_task": "T-32",
   "last_verified_checkpoint": "CP-20261101-156",
   "last_verified_commit": "d352b95f793594a25d3e2327ed6c03404bddf42f",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
@@ -27,10 +27,34 @@
     "live_public_files_match": 18,
     "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41249684184",
     "proof": "docs/audits/data/RELEASE_6_1_5_RECHECK_20261101.json"
+  },
+  "last_audit": {
+    "checkpoint": "CP-20261101-157",
+    "date": "2026-11-01",
+    "commit": "bd5a442f301559260162e963dfa43e875969d721",
+    "status": "AUDIT_COMPLETE_WITH_OPEN_FINDINGS",
+    "findings": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07"
+    ],
+    "report": "docs/audits/INDEPENDENT_REQUIREMENTS_AUDIT_20261101.md",
+    "runtime_changed": false
   }
 }
 ```
 <!-- STATE_JSON_END -->
+
+## Текущий вывод аудита ·CP157
+
+01.11.2026 повторный аудит выявил A01–A07. **6.1.5 технически опубликована, но полное выполнение содержательного ТЗ нельзя считать закрытым.** RECON-28 с обязательным денежным расчётом попадает в пробный экзамен; 95 новых вопросов не входят в штатные задания курса; качество отбора/дистракторов и актуальный маршрут требуют доработки. Следующая задача T-32. Изменений приложения при аудите нет; phase READY означает отсутствие активной разработки, а не отсутствие замечаний. Последняя подтверждённая техническая контрольная точка сохранена отдельно.
+
+[Отчёт](../audits/INDEPENDENT_REQUIREMENTS_AUDIT_20261101.md) · [Результаты](../audits/data/INDEPENDENT_REQUIREMENTS_AUDIT_20261101.json). Прежние утверждения о завершении ниже относятся к приёмке до обнаружения этих замечаний.
+
 
 ## Контроль после восстановления ·01.11.2026
 

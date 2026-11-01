@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-01",
+  "task": "T-31",
+  "base_commit": "bd5a442f301559260162e963dfa43e875969d721",
+  "product_version": "6.1.5",
+  "status": "AUDIT_COMPLETE_WITH_OPEN_FINDINGS",
+  "runtime_changed": false,
+  "frozen_changed": false,
+  "source_files_hash_match": 7,
+  "original_statement_hashes_match": 125,
+  "matrix_rows": 86,
+  "rows_with_exact_support": 86,
+  "new_questions": 95,
+  "new_questions_in_primary_course": [],
+  "new_questions_in_inline_course": [],
+  "primary_course_assignments": 309,
+  "inline_mc": 204,
+  "all_new_question_difficulty_values": [
+    3
+  ],
+  "new_multi_correct_counts": {
+    "1": 1,
+    "2": 6,
+    "3": 37,
+    "4": 1
+  },
+  "eligible_multi_correct_counts": {
+    "1": 1,
+    "2": 5,
+    "3": 36,
+    "4": 1
+  },
+  "mock_generation": {
+    "seed_range": [
+      0,
+      999
+    ],
+    "pair_counts": {
+      "EX17-45+TRANSFER-WATERFALL-01": {
+        "n": 0,
+        "first": null
+      },
+      "EX17-39+TRANSFER-FUNDING-01": {
+        "n": 0,
+        "first": null
+      },
+      "EX17-48+TRANSFER-DOW-01": {
+        "n": 385,
+        "first": 1
+      }
+    },
+    "calculation_question": {
+      "id": "RECON-28",
+      "count": 69,
+      "first_seed": 15
+    },
+    "mean_adjacent_overlap": 31.065065065065067,
+    "three_correct_in_25000_mc": 21043
+  },
+  "same_concept_family_sets": {
+    "count": 917,
+    "total": 1000,
+    "meaning": "Repeated family is a screening signal; not every repeated broad topic is redundant."
+  },
+  "checks": [
+    {
+      "command": "node tests/project-state-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/repository-layout-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/exam-alignment-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/exam-profile-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/question-theory-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/release-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/content-dedup-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/methodical-review-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/teacher-review-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m02-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m03-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m04-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m05-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m06-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m07-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m08-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m09-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m10-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m11-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m12-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m13-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m14-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m15-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m16-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/final-course-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/exam-practice-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/novice-supplements-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/learning-review-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/strategies-check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "browser_scope": "New live inspection: overview, syllabus, training settings, full Dow block. No new full 96-block or mobile browser rerun. Prior full release browser evidence applies to unchanged runtime.",
+  "requirements_findings": [
+    {
+      "id": "A01",
+      "priority": "P1",
+      "status": "OPEN",
+      "kind": "learning_path_integration"
+    },
+    {
+      "id": "A02",
+      "priority": "P1",
+      "status": "OPEN",
+      "kind": "calculation_in_mock",
+      "qid": "RECON-28",
+      "reproduction_seed": 15
+    },
+    {
+      "id": "A03",
+      "priority": "P1",
+      "status": "OPEN",
+      "kind": "overlapping_skill_selection",
+      "reproduction_seed": 1
+    },
+    {
+      "id": "A04",
+      "priority": "P1",
+      "status": "OPEN",
+      "kind": "answer_cardinality_and_distractor_quality"
+    },
+    {
+      "id": "A05",
+      "priority": "P2",
+      "status": "OPEN",
+      "kind": "targeted_practice_access"
+    },
+    {
+      "id": "A06",
+      "priority": "P2",
+      "status": "OPEN",
+      "kind": "current_path_editorial_acceptance"
+    },
+    {
+      "id": "A07",
+      "priority": "P2",
+      "status": "OPEN",
+      "kind": "source_status_metadata"
+    }
+  ],
+  "limits": [
+    "No official key",
+    "No empirical student study or difficulty calibration",
+    "Not a new independent line-by-line academic review of all 557 pages and 608 answers",
+    "No change to app or implementation of T-06"
+  ],
+  "report": "docs/audits/INDEPENDENT_REQUIREMENTS_AUDIT_20261101.md"
+}
