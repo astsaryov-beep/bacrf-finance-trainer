@@ -796,5 +796,8 @@
       "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
       "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
     }
-  ]
+  ],
+  "historical_initial_snapshot": true,
+  "resolved_in": "T33_MC_REVIEW.json",
+  "current_review_status": "B04_SOURCE_REVIEW_COMPLETED_IN_WORK_BRANCH"
 }

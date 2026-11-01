@@ -1,0 +1,49 @@
+{
+  "task": "T-33",
+  "stage": "B08",
+  "status": "IN_PROGRESS_NOT_RELEASE_ACCEPTANCE",
+  "local_programs": [
+    {
+      "program": "tests/project-state-check.mjs",
+      "exit_code": 0,
+      "output": "PASS recovery standard: canonical state, roadmap, decisions, checkpoints, frozen Git SHA 2b77ae8f74be, working version 6.2.2.\n"
+    },
+    {
+      "program": "tests/repository-layout-check.mjs",
+      "exit_code": 0,
+      "output": "PASS layout:3 public root files,local documentation links:173,runtime assets:16,historical evidence preserved\n"
+    },
+    {
+      "program": "tests/mc-review-audit-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T33 audit evidence: 204/249 reviewed (1020/1245 statements); 45 explicitly pending; 40 revision-safe edits; open UI/scoring/rubrics unchanged.\n"
+    },
+    {
+      "program": "tests/exam-practice-check.mjs",
+      "exit_code": 0,
+      "output": "PASS exam practice:204 reviewed new MCs/228 total +34 reviewed open supplements, exact25open+25multi/no calculation/no fallback, historical singles retained, explicit earlier-theory evidence for309/309 assignments and204 additions. No pending placements.\n"
+    },
+    {
+      "program": "tests/learning-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS learning review: 96 unique conceptual checks; corrected IPO grading; raw snapshot retained; alternate selection, distinct evidence, stale key and history migration.\n"
+    },
+    {
+      "program": "tests/learning-path-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice\n"
+    },
+    {
+      "program": "tests/question-theory-check.mjs",
+      "exit_code": 0,
+      "output": "PASS theory links:all513 training/40 additional course IDs,553 explicit mappings,all audited supports,40 reviewed standalone mappings,valid targets/no heuristics,no active-exam hints,independent NIM reference\n"
+    },
+    {
+      "program": "tests/release-check.mjs",
+      "exit_code": 0,
+      "output": "PASS 6.2.2: 96 complete beginner-to-advanced lessons, 135 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 135 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.\n"
+    }
+  ],
+  "browser": "PENDING: all changed cards handled dynamically; full GH Actions run required before release",
+  "release": "6.2.2_NOT_PUBLISHED"
+}

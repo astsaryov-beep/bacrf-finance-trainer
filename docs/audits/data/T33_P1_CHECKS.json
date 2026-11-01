@@ -1,0 +1,201 @@
+{
+  "task": "T-33",
+  "phase": "P1",
+  "status": "LOCAL_PASS_BROWSER_CI_DEPLOY_PENDING",
+  "reviewed_mc": 249,
+  "reviewed_statements": 1245,
+  "local_programs": [
+    {
+      "program": "tests/project-state-check.mjs",
+      "exit_code": 0,
+      "output": "PASS recovery standard: canonical state, roadmap, decisions, checkpoints, frozen Git SHA 2b77ae8f74be, working version 6.2.2.\n"
+    },
+    {
+      "program": "tests/repository-layout-check.mjs",
+      "exit_code": 0,
+      "output": "PASS layout:3 public root files,local documentation links:174,runtime assets:16,historical evidence preserved\n"
+    },
+    {
+      "program": "tests/exam-alignment-check.mjs",
+      "exit_code": 0,
+      "output": "PASS source alignment:95 linked exercises,50 adapted scan/35 reconstructions/10 transfer,5 plausible alternatives and independent money/quantile/hedge checks,30 prerequisite roots+5 additional parts/full+brief,no workflow labels in extensions,86 tracked requirements\nPASS list/funding package:explicit ordered levels/atomic rubrics,1-and4-correct actual grading,independent clipped-funding boundaries,existing derivation reused\nPASS compound package:independent PV/YTM counterexample,nonlinear Z-spread,dirty/collateral/index units,exact/missing/extra sets for every MC,multipart rubrics and public primary references\nPASS complete MC review:125 individually documented original statements/conditions,no official-key claim,25adapted five-option tasks,existing prerequisite reuse,independent payer flows/ratios/voting denominators,unique support anchors and REPO scope\nPASS final content package:50 adapted originals/33 reconstructed records with35 exercises/3 topic-only reuse;all86 dispositions and exact displayed prerequisites;independent parity/protection/covariance/DV01/FX boundaries\n"
+    },
+    {
+      "program": "tests/mc-review-audit-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T33 audit evidence: 249/249 reviewed (1245/1245 statements); 0 explicitly pending; 42 revision-safe edits; open UI/scoring/rubrics unchanged.\n"
+    },
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "exit_code": 0,
+      "output": "PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification\n"
+    },
+    {
+      "program": "tests/learning-path-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice\n"
+    },
+    {
+      "program": "tests/question-theory-check.mjs",
+      "exit_code": 0,
+      "output": "PASS theory links:all513 training/40 additional course IDs,553 explicit mappings,all audited supports,40 reviewed standalone mappings,valid targets/no heuristics,no active-exam hints,independent NIM reference\n"
+    },
+    {
+      "program": "tests/release-check.mjs",
+      "exit_code": 0,
+      "output": "PASS 6.2.2: 96 complete beginner-to-advanced lessons, 135 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 135 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.\n"
+    },
+    {
+      "program": "tests/content-dedup-check.mjs",
+      "exit_code": 0,
+      "output": "PASS content: 96 mapped roles, 33 edited blocks, consistent layers, preserved formulas/questions, spread example. Semantic judgment remains editorial.\n"
+    },
+    {
+      "program": "tests/methodical-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS methodical review: 96 explicit judgments and fingerprints; reviewed theory/digest layers; independent finance scenarios. Full source audit remains separate.\n"
+    },
+    {
+      "program": "tests/teacher-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS teacher review:20 source tasks/19 original IDs, preserved source conflict, aligned rubric semantics, reversible historical answers and two complete added metrics.\n"
+    },
+    {
+      "program": "tests/quality-m02-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M02: source-gap teaching and effective rubrics, independent price/horizon/compounding/day-weight identities, retained old answers.\n"
+    },
+    {
+      "program": "tests/quality-m03-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M03: independent duration/convexity/PV, basket/forward/spread, holding metrics and versions, Q07 answer/history preservation.\n"
+    },
+    {
+      "program": "tests/quality-m04-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M04: money-risk matching, cash-flow ALM/convexity, margin path/tick/sign, OI/netting, basis/hedge sign, carry/time base and reverse legs.\n"
+    },
+    {
+      "program": "tests/quality-m05-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M05: reverse-carry cash availability, funding zero/cap/sign and no VM double count, FX hedges/units, minimum variance vs VaR, coverage, calendar compounding and rubric history.\n"
+    },
+    {
+      "program": "tests/quality-m06-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M06/M04: CDS conservation, IRS signs, FX parity, four returns/two denominators, hedge units/variance/VaR, non-subadditive VaR counterexample,17 keys preserved, PO07 historical migration,31 reviewed placements and18 new conceptual MCs.\n"
+    },
+    {
+      "program": "tests/quality-m07-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M07:12 independent piecewise option profiles and tail boundaries, gold account conservation, funding/GO one-time inclusion, protection budget, Greek units,15 historical keys and PO08 migration,26+10 reviewed assignments.\n"
+    },
+    {
+      "program": "tests/quality-m08-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M08:28+13 prerequisites reviewed,24 factual/case multi,25 historical single indices and3 protected teacher keys,3 two-part rubric migrations retaining original results, no extra arithmetic scope.\n"
+    },
+    {
+      "program": "tests/quality-m09-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M09:capital/cash conservation and recognised-net LCR,NSFR and factoring prerequisites,23+13 reviewed placements,18 conceptual MC,13 single/4multi original keys,6 open histories migrated without loss.\n"
+    },
+    {
+      "program": "tests/quality-m10-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M10: ownership/cash ledgers, unequal weighted/year-end P/E, negative EV and dividend conservation, conditional dates,32+6 placements,16 conceptual MC,14 preserved single keys,EM02/Q14 protected,6 rubric histories.\n"
+    },
+    {
+      "program": "tests/quality-m11-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M11: covariance-linear beta with residual risk, zero correlation/nonlinear dependence, TE versus gap, fee counted once, index weights/voting/free-float/convex prices,22+9 placements,16 MC,17 single keys,9 history migrations.\n"
+    },
+    {
+      "program": "tests/quality-m12-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M12:independent finite dividend sums/date boundary/sensitivity,issue cash allocation,cap/free-float/divisor/dividend bases,12+7 prerequisites,14MC,9keys/8rubric histories,10 reviewed open supplements.\n"
+    },
+    {
+      "program": "tests/quality-m13-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M13:independent covariance/GMV/short-weight/normalVaR/downside-vs-drawdown/alpha examples,12+11 placements,18MC,11keys/8rubric histories,6 reviewed open IDs,real451-question initialization.\n"
+    },
+    {
+      "program": "tests/quality-m14-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M14:margin boundary/risk-parameter/cash balance,lease cashflows/time bases,DV01 size reversal,12new+9rechecked placements,14MC/6rubric histories,4marginMCexcluded,469unique effective IDs.\n"
+    },
+    {
+      "program": "tests/quality-m15-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M15:franchise equality/caps,expected-vs-tariff and reserve cashflows,reinsurance layers,10roles,12placements,14MC/6specific rubric histories,489initialized unique IDs;no insurance calculation in exam.\n"
+    },
+    {
+      "program": "tests/quality-m16-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M16:invoice/advance/fee conservation,financing time base,zero-return accumulation and discount denominators,6rubric histories,18MC,96blocks with factual+case MC and309supported placements,513unique initialized IDs,34reviewedopen;25/25 without calculations.\n"
+    },
+    {
+      "program": "tests/final-course-check.mjs",
+      "exit_code": 0,
+      "output": "PASS final acceptance:96module/D015 blocks,557read+visual source rows with evidence,309verified placements/204MC,all34eligible supplementalopens,513unique effectiveIDs,228multi,135formulas/663terms/183checks,no exact interblock long paragraphs or duplicate MC prompts;beta acceptance and T06 separated. Semantic/empirical limits remain explicit.\n"
+    },
+    {
+      "program": "tests/exam-practice-check.mjs",
+      "exit_code": 0,
+      "output": "PASS exam practice:204 reviewed new MCs/228 total +34 reviewed open supplements, exact25open+25multi/no calculation/no fallback, historical singles retained, explicit earlier-theory evidence for309/309 assignments and204 additions. No pending placements.\n"
+    },
+    {
+      "program": "tests/novice-supplements-check.mjs",
+      "exit_code": 0,
+      "output": "PASS novice supplements:70 prompts/45 preserved keys,6 prerequisite moves,31 targeted revisions,7 trap histories/recheck/idempotence,all96 truth keys and10 executed models.\n"
+    },
+    {
+      "program": "tests/learning-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS learning review: 96 unique conceptual checks; corrected IPO grading; raw snapshot retained; alternate selection, distinct evidence, stale key and history migration.\n"
+    },
+    {
+      "program": "tests/strategies-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
+    }
+  ],
+  "initial_failures": [
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "exit_code": 1,
+      "cause": "Audit profile JSON still had the previous revisions for two typography-only cards; corrected only those revision fields, generator unchanged."
+    }
+  ],
+  "syntax_browser": "PASS",
+  "diff_check": "PASS",
+  "browser": "PENDING_GITHUB_ACTIONS",
+  "publication": "6.2.2_NOT_PUBLISHED",
+  "public_version": "6.2.1",
+  "protected": {
+    "docs/audits/data/EXAM_SOURCE_LEDGER_20261031.json": "78e4368aa77b8027e7cac37864eaab9d6176aaa915feb5283983b47cb6ecbd71",
+    "assets/exam-profile.js": "c50f401ac39f4316e21985e41fcbc800e1e9b69e40421395d3ff49e5e4e43585",
+    "assets/learning-path.js": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
+    "assets/question-review.js": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9",
+    "v5.0.8/index.html": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+  },
+  "first_pr_run": {
+    "id": 41343887805,
+    "head": "c220f8bf040dec272861eece7513f704076af31f",
+    "verify": "PASS",
+    "core_browser": "PASS_9_PROGRAMS",
+    "course_browser": "FAIL_TEST_SELECTOR_FOR_NATIVE_SURFACE",
+    "route_browser": "PASS_2_PROGRAMS"
+  },
+  "browser_scenario_fix": "Static inspection found that the two edited alignment cards use the native aligned exercise surface, while40old cards use supplemental details. The browser test now navigates and grades each through its actual existing UI. No app/UI changes. Fresh fullCI required.",
+  "second_pr_run": {
+    "id": 41344506309,
+    "head": "c622058f32adcc837c0f8ffa598a4a749a786879",
+    "verify": "PASS",
+    "core_browser": "PASS_9_PROGRAMS",
+    "course_browser": "FAIL_TEST_FIXTURE_SAVED_RECON09_IN_ORIGINAL_NOT_ASSIGNED_BLOCK",
+    "route_browser": "CHECK_FINAL_JOB_STATUS"
+  },
+  "native_fixture_fix": "RECON-09 original block S1-07-0, actual assigned block S1-07-1 after convexity prerequisite. Seed now uses courseBlock||block, same as navigation. Actual getStudyAnswer migration tested locally for all42; all45native assignments checked against reviewed prerequisites. App code unchanged."
+}
