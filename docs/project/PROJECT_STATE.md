@@ -63,11 +63,17 @@
     "keep_mc": 136,
     "work_branch": "work/t33-p1-review-remaining",
     "conditional_scope_clarifications": 3,
-    "typography_only_mc": 30
+    "typography_only_mc": 30,
+    "execution_status": "BLOCKED_ENVIRONMENT",
+    "recovery_checkpoint": "CP-20261101-169",
+    "pending_draft": "docs/audits/data/T33_B08_RECOVERY_DRAFT.json",
+    "latest_source_review_commit": "996f66432d73061d8393903a200a190aaf74d0bd"
   }
 }
 ```
 <!-- STATE_JSON_END -->
+
+**Среда исполнения недоступна; новые тесты и выпуск заблокированы.** [Восстановление CP169](CHAT_HANDOFF.md).
 
 **На сайте проверенная 6.2.1; рабочая 6.2.2 ещё не опубликована. T-33 продолжается.**
 

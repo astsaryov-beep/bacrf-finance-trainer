@@ -1,0 +1,1025 @@
+{
+  "schema_version": 1,
+  "task": "T-33",
+  "stage": "B08",
+  "status": "DRAFT_NOT_COUNTED_AS_REVIEWED",
+  "date": "2026-11-01",
+  "range": "oldMC175–204",
+  "reason": "Environment unavailable before source matrix finalisation, baseline linking, final edit recording and regression. Reconstructed condensed notes from blind judgments already recorded before key access; not a new blind review.",
+  "independence": "150 initial verdicts were stored locally before correct/brief/optionFeedback were read. Keys and feedback were subsequently read; all sets matched initial verdicts. This draft preserves condensed rationales, not the byte-for-byte local original or its hash.",
+  "key_comparison": "PRELIMINARY_MATCH_ALL30_NOT_SUBJECT_ACCEPTANCE",
+  "counts": {
+    "reviewed_total_unchanged": 174,
+    "pending_total_unchanged": 75
+  },
+  "records": [
+    {
+      "question_id": "MC-INS-01-1-1",
+      "skill": "Франшиза и порог",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Безусловный вычет ограничен снизу нулём."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Равенство условному порогу обычно не покрыто."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Выше условного порога франшизу не вычитают."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Лимит не устанавливает вид франшизы."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Премия и предел выплаты различны."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-01-1-2",
+      "skill": "Тотал и абандон",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужно проверить критерий гибели и полис."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Слово не оформляет переход собственности."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Остатки и условия передачи влияют на расчёт."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Абандон относится к предусмотренному отказу от прав."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Гибель не означает простой возврат премии."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-02-0-1",
+      "skill": "Специалисты",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Андеррайтер принимает конкретный риск и условия."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Сюрвейер не заменяет портфельную актуарную оценку."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Комиссар документирует обстоятельства."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Аджастер исследует и урегулирует убыток."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Актуарий количественно оценивает риски и обязательства."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-02-0-2",
+      "skill": "Банк, завод и эксперт",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Страхователь и выгодоприобретатель могут различаться."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Премия завода не делает банк страховщиком."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "Осмотр не принимает страховую обязанность."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Агент не становится должником по выплате."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Банк не превращает объект в банковский вклад."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-02-1-1",
+      "skill": "ОСАГО и оформление",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "ОСАГО покрывает ответственность."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Каско и ОСАГО различаются объектом, не лишь оформлением."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Европротокол является процедурой оформления."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Обязательность и объект являются разными осями."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "КБМ влияет на тариф, не покрывает сам ущерб."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-02-1-2",
+      "skill": "Ранний выход из полиса",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Выкуп может отличаться от внесённой премии."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Банк-продавец не меняет природу договора."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны гарантии, условный доход и права на активы."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Защита и риск страховщика проверяются отдельно."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Условная формула не обещает прибыль каждого исхода."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-02-1-3",
+      "skill": "Обязательность и актуарий",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Договорное требование не создаёт всеобщего обязательного вида."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Лицензия компании не допускает отдельного специалиста."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "ОСОПО и ОСГОП имеют разные объекты ответственности."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Социальная выплата не всегда частный полис."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны членство в СРО и специальный реестр."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-02-1-4",
+      "skill": "ДСЖ и расчётный доход",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Паи инвестиционной части принадлежат клиенту, проверено по ЦБ."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Собственность не гарантирует рыночную цену."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Формула задаётся договором расчётной схемы."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Квалификация не гарантирует полезность сделки."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Цена паёв и риск обязательства имеют разные основания."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-03-0-1",
+      "skill": "Резервы и результат",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "FALSE",
+          "rationale": "Ожидаемая выплата не включает все расходы и риски."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "Резерв оценивает обязательства, активы обеспечивают их."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "Премия не вся свободная прибыль."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны единые период и премиальная база."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Расходы и изменение обязательств меняют результат."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-03-0-2",
+      "skill": "Катастрофический риск",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Среднее не описывает зависимость и хвост."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Равные средние не дают равного капитала."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны концентрация и передача риска."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Массовые выплаты требуют ликвидности."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Общий фактор не исчезает от числа полисов."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-03-1-1",
+      "skill": "Формы объединения риска",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Перестрахование создаёт отдельный договор."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Прямой страховщик автоматически не заменяется."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Состраховщики непосредственно покрывают клиента."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Взаимное общество объединяет средства членов."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Удержание остаётся у прямого страховщика."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-INS-03-1-2",
+      "skill": "Спор перестраховщика",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Основное обязательство сохраняется."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Право клиента автоматически не исчезает."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Лимиты второго договора проверяются отдельно."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Задержка возмещения создаёт разрыв ликвидности."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Распределение риска не устраняет первичный убыток."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-01-0-1",
+      "skill": "Пенсионные модели",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Текущие взносы помогают текущим выплатам."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "Инфляция снижает реальную покупательную способность."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Накопления инвестируют для будущих выплат."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Демография влияет на обязательства."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Смешанная модель сочетает механизмы."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-01-0-2",
+      "skill": "Стресс пенсионной системы",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужно разделить бюджетный и инвестиционный каналы."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Это не одно индивидуальное снятие вклада."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Источники и права различаются по системе."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Активы не фиксируют реальный уровень жизни."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Инфляция и долголетие меняют достаточность."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-01-1-1",
+      "skill": "Виды пенсионных прав",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "FALSE",
+          "rationale": "Общий плательщик не объединяет юридические виды."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "Социальная пенсия относится к государственному обеспечению."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "ИПК не денежный остаток накоплений."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Возраст, стаж и ИПК проверяются по правилам."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Ранее сформированные накопления не уничтожены мораторием."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-01-1-2",
+      "skill": "Отсутствие страхового права",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Проверить именно страховые условия."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Социальная старость не автоматически в том же возрасте."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны собственные основания социальной выплаты."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Взносы не немедленно возвращаемый депозит."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны год и категория для цифр слайда."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-02-0-1",
+      "skill": "НПФ и УК",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "ОПС и НПО/ПДС имеют разные режимы."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "УК не заменяет пенсионного должника."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "У фонда и УК разные функции."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Спецдепозитарий учитывает и контролирует."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Доверенные активы не становятся собственными средствами УК."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-02-0-2",
+      "skill": "НПО и двойной счёт",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Работодатель может быть вкладчиком за участника."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Базы фонда, AUM и контроля могут перекрываться."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны дата, база и пересечения."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Учёт не превращает активы в свободную прибыль."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Контроль и обязанность фонда различны."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-02-1-1",
+      "skill": "Обычные выплаты ПДС",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Оператором договора является НПФ."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "15 лет или 55/60 являются альтернативными основаниями периодической выплаты."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "Максимальная поддержка не за любой взнос."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Гарантийный случай не гарантирует ежегодную доходность."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Нужны также инвестиционный результат, расходы и выплаты."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-PEN-02-1-2",
+      "skill": "Досрочный ПДС",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны источники и основания доступа."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Расторжение не банкротство."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "Особая ситуация и обычный выкуп различны."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Гарантия не разрешает снять любую сумму сейчас."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Проверить налоги и судьбу поддержки."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-FACTOR-01-0-1",
+      "skill": "Условия факторинга",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "FALSE",
+          "rationale": "Открытость относится к уведомлению, не регрессу."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "Регресс задаёт требования к поставщику."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Аванс финансирует часть требования, не скидку покупателю."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Действительность и поставка остаются обязанностями."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Услуги и финансирование могут иметь разные базы платы."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-FACTOR-01-0-2",
+      "skill": "Дефолт и коммерческий спор",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны пределы принятого риска."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "Спор поставки может иметь иной режим, чем кредитный дефолт."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "Название не освобождает от документов."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Проверить действительность и исполнение поставки."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Уведомление не распределяет автоматически все риски."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-FACTOR-01-1-1",
+      "skill": "Форфейтинг",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Продавец получает цену раньше погашения."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Безрегрессность не узаконивает недействительное требование."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Номинал и текущая цена разные базы."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "У гарантии собственные условия."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Валюта не устанавливает применимость конвенции."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-FACTOR-01-1-2",
+      "skill": "Сравнение финансирования",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужен сопоставимый полный график."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Дисконт и ставка на выданное имеют разные знаменатели."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны риск, регресс и обеспечение."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Валюта не уравнивает страну и правовой режим."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Банк не отменяет чтение гарантии."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-S1-10-0-2",
+      "skill": "Остатки DV01-хеджа",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Денежные чувствительности компенсируют первый порядок малого параллельного сдвига."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Относительной дюрации без размера недостаточно."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Спред и участки кривой требуют сценариев."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Большой сдвиг усиливает нелинейность."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Нулевая производная не устраняет все потери."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-S1-10-1-2",
+      "skill": "Трансформация asset swap",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Совместный IRS может менять процентные потоки."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Своп не погашает долг эмитента."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужны графики, номинал и встречные обязанности."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Трансформация не требует арбитража."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Кредитный риск бумаги сохраняется."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-S2-01-0-2",
+      "skill": "Валютный форвард и call",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Форвард задаёт будущее обязательство."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "Покупка обычного call даёт право за премию."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "FALSE",
+          "rationale": "Покупатель не обязан исполнять невыгодное право."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "Базовая валюта не уравнивает договорные потоки."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Асимметричная защита имеет стоимость."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-S2-01-1-2",
+      "skill": "OTC и ЦК",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "OTC допускает настройку параметров."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Некоторые OTC имеют центральный клиринг."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "ЦК не отменяет маржинальные требования."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "FALSE",
+          "rationale": "ГО не общий предел убытка."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "TRUE",
+          "rationale": "Документация и контрагентская схема требуют контроля."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-S2-02-0-2",
+      "skill": "Фьючерсная ликвидность",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "FALSE",
+          "rationale": "ГО обеспечение, не цена контракта."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "TRUE",
+          "rationale": "VM отражает расчётное изменение позиции."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Списания могут требовать денег до конца срока."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Единицы и исполнение задаёт спецификация."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Без денег можно не дожить до восстановления."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    },
+    {
+      "question_id": "MC-S2-02-1-2",
+      "skill": "Роллирование и базис",
+      "alternatives": [
+        {
+          "index": 0,
+          "initial_verdict": "TRUE",
+          "rationale": "Нужна спецификация актива."
+        },
+        {
+          "index": 1,
+          "initial_verdict": "FALSE",
+          "rationale": "Сроки допускают разный carry и сезонность."
+        },
+        {
+          "index": 2,
+          "initial_verdict": "TRUE",
+          "rationale": "Две сделки имеют расходы и новые сроки."
+        },
+        {
+          "index": 3,
+          "initial_verdict": "TRUE",
+          "rationale": "Конвенция знака и остаточный риск важны."
+        },
+        {
+          "index": 4,
+          "initial_verdict": "FALSE",
+          "rationale": "Похожий актив не гарантирует сходимость."
+        }
+      ],
+      "status": "SOURCE_FINALISATION_AND_REGRESSION_PENDING"
+    }
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://www.cbr.ru/press/event/?id=32892",
+      "scope": "1Oct2026; DSЖ ownership of units versus calculated-yield insurer assets, contractual calculation."
+    },
+    {
+      "url": "https://cbr.ru/na/774-p/",
+      "scope": "Units owned by policyholder under11.1 of4015-1, not insurer assets."
+    },
+    {
+      "url": "https://cbr.ru/admissionfinmarket/navigator/otv_act/",
+      "scope": "SRO membership and registry of responsible actuaries."
+    },
+    {
+      "url": "https://cbr.ru/faq/pens_k_inv/program/",
+      "scope": "Periodic payments15years or55women/60men; early redemption differs by fund source and special situations."
+    },
+    {
+      "url": "https://sfr.gov.ru/branches/altaikr/info/~/14588",
+      "scope": "2026 insurance old-age eligibility distinct from social pension; historical slide amount not certified."
+    },
+    {
+      "url": "https://www.unidroit.org/instruments/factoring/convention/",
+      "scope": "Articles1–3; currency alone not sufficient. Earlier guessed/ottawa-1988 URL inaccessible, corrected official URL found."
+    },
+    {
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_9027/5cbcbf4992bffe009a7903d8fe7b59a6020a8209/",
+      "scope": "Civil Code967 reproduced statutory primary text; direct insurer remains liable."
+    },
+    {
+      "url": "https://www.consultant.ru/law/podborki/uslovnaya_franshiza/",
+      "scope": "Only reproduced4015-1Art10(9) and Supreme Court2024No19(21), not commentary."
+    }
+  ],
+  "private_course_sources_read": "L45 physicalPDF35/36/39–44/47–52/54–56/60/61; earlier S1 duration/ASW and S2 derivatives source review needs precise per-question B08 final mapping. No private PDFs or slide transcripts included.",
+  "proposed_edits_not_applied": [
+    {
+      "question_id": "MC-INS-02-0-1",
+      "finding": "Missing space after semicolon in feedback: риски;количественная.",
+      "kind": "TYPOGRAPHY"
+    },
+    {
+      "question_id": "MC-FACTOR-01-0-1",
+      "finding": "Missing space in optionC:80%определяет.",
+      "kind": "TYPOGRAPHY"
+    }
+  ],
+  "next": "Restore environment and sync branch checkpoint; recover local original blind_batch08_verdicts.json if available. Complete individual physical-page refs/prerequisites/plausibility/duplicate decisions. Then apply only justified edits, revision/history records, test and checkpoint. Only afterwards begin45newMC."
+}
