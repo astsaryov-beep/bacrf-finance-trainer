@@ -55,7 +55,7 @@
     "reviewed_mc": 249,
     "reviewed_statements": 1245,
     "pending_mc": 0,
-    "P2": "CANDIDATE_INVENTORY_PENDING_ADMISSION",
+    "P2": "BASELINE_1000_CAPTURED_ADMISSION_REVIEW_PENDING",
     "application_changed": false,
     "report": "docs/audits/T33_MC_BANK_REVIEW.md",
     "release_status": "6.2.2_VERIFIED",
@@ -91,3 +91,5 @@
 PR96 и31локальная/13браузерныхпрограммPASS;mainCIиPagesSUCCESS;совпали19файловсайтаишестьфактическихURLресурсов. [Доказательства](../audits/data/RELEASE_6_2_2_PROOF.json).
 
 P2:инвентаризациякандидатовизсуществующегобанка,допусксовместимыхMC/open,атомарныецели/отсутствиеподсказок,≥1000seedипересечения. Расширениеещёне реализовано. Алгоритм/UI/рубрики/баллыopen,275/19,96блоков,135формул,frozen и история сохраняются. T-32непереоткрывается,T-06внеобъёма.
+
+CP177: P2 baseline1000seed сохранён до изменений, фактически43MC+49open; среднее пересечение30,2696/50. Приложение не менялось.
