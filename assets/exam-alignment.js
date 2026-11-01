@@ -3039,13 +3039,13 @@
   "lesson": "S1-07",
   "section": "debt",
   "type": "multi",
-  "question": "Условный flattener состоит из длинной 10Y и короткой 2Y позиции с равными по модулю DV01. Доходность 10Y снизилась,2Y выросла. Сдвиги малы, прочие факторы исключены. Выберите верные выводы.",
+  "question": "Условный flattener состоит из длинной 10Y и короткой 2Y позиции с равными по модулю DV01. Доходность 10Y снизилась, 2Y выросла. Сдвиги малы, прочие факторы исключены. Выберите верные выводы.",
   "source": "Семинар 1, PDF 155–158; разборы стратегий в курсе.",
   "origin": "author",
   "coverage": "core",
   "difficulty": 3,
   "conceptFamily": "RECON-09",
-  "reviewRevision": "2026-10-31-open-reconstructed",
+  "reviewRevision": "2026-11-01-t33-b10",
   "provenance": "reconstructed",
   "confidence": "HIGH_TOPIC_MEDIUM_WORDING_EXPLICIT_SYNTHETIC_SCENARIO",
   "reconstruction_record": "RECON-09",
@@ -3737,13 +3737,13 @@
   "coverage": "core",
   "difficulty": 3,
   "conceptFamily": "RECON-26",
-  "reviewRevision": "2026-10-31-open-reconstructed",
+  "reviewRevision": "2026-11-01-t33-b10",
   "provenance": "reconstructed",
   "confidence": "MEDIUM_TOPIC_SYNTHETIC_WORDING",
   "reconstruction_record": "RECON-26",
   "options": [
    "Обязанное лицо по цифровым рублям — Банк России, по обычному банковскому остатку — соответствующий банк.",
-   "Для указанногоЦФА нужно определить обязанного эмитента и условия решения о выпуске.",
+   "Для указанного ЦФА нужно определить обязанного эмитента и условия решения о выпуске.",
    "Доступ через приложение банка делает этот банк эмитентом цифровых рублей.",
    "Слово «цифровой» доказывает одинаковый риск и одинаковую возможность погашения у всех трёх инструментов.",
    "Для необеспеченного криптоактива нельзя подразумевать фиксированное рублёвое обязательство Банка России."
@@ -4613,7 +4613,7 @@
  const relatedFamilies={'RECON-01':'rights-kennedy','TRANSFER-KENNEDY-01':'rights-kennedy','EX17-45':'clearing-waterfall','TRANSFER-WATERFALL-01':'clearing-waterfall','EX17-46':'asv-functions','TRANSFER-ASV-01':'asv-functions','EX17-48':'dow-phases','TRANSFER-DOW-01':'dow-phases','EX17-39':'funding-symbols','TRANSFER-FUNDING-01':'funding-symbols'};
  for(const q of questions)if(relatedFamilies[q.id])q.conceptFamily=relatedFamilies[q.id];
  for(const q of questions){q.topic??=lessons[q.block]?.title||'Финансовые инструменты и институты';q.conceptLabel??=q.topic;}
- for(const q of questions)if(q.reviewRevision==='2026-11-01-editorial'&&root.FinanceReview)root.FinanceReview.corrections[q.id]={correct:q.correct,revision:q.reviewRevision,reviewKind:'wording'};
+ for(const q of questions)if((q.reviewRevision==='2026-11-01-editorial'||q.reviewRevision?.startsWith('2026-11-01-t33-'))&&root.FinanceReview)root.FinanceReview.corrections[q.id]={correct:q.correct,revision:q.reviewRevision,reviewKind:'wording'};
  const links=Object.fromEntries(questions.map(q=>[q.id,q.blocks||[q.block]]));
  const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function supplement(key,brief=false){const d=lessons[key];return [d,...(d?.additional||[])].filter(Boolean).map((part,i)=>renderPart(i?key+'-part-'+i:key,part,brief)).join('');}

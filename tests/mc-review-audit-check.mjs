@@ -42,7 +42,16 @@ const html=read('index.html'),version=html.match(/name="trainer-version" content
 const normalized=html.replaceAll(version,'__VERSION__').replace('assets/exam-practice.js?v=__VERSION__','assets/exam-practice.js');
 assert.equal(sha(normalized),baseline.index_normalized_sha256,'Changes beyond release labels/cache in index.html');
 assert.equal(sha(read('versions/index.html').replaceAll(version,'__VERSION__')),baseline.versions_normalized_sha256,'Unexpected version chooser change');
-for(const [p,h]of Object.entries(baseline.sha256))if(!['index.html','assets/exam-practice.js'].includes(p))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Protected application changed '+p);
+for(const [p,h]of Object.entries(baseline.sha256))if(!['index.html','assets/exam-practice.js','assets/exam-alignment.js'].includes(p))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Protected application changed '+p);
+// An explicit MC revision must not permit changes to the 50 open records, lessons or module logic.
+const alignmentGuard=json('T33_ALIGNMENT_REVISION_GUARD.json');
+assert.equal(alignmentGuard.original_file_sha256,baseline.sha256['assets/exam-alignment.js']);
+let alignmentText=read('assets/exam-alignment.js').replace("(q.reviewRevision==='2026-11-01-editorial'||q.reviewRevision?.startsWith('2026-11-01-t33-'))&&root.FinanceReview","q.reviewRevision==='2026-11-01-editorial'&&root.FinanceReview");
+const alignmentStart=/const questions\s*=\s*/.exec(alignmentText);const literalStart=alignmentStart.index+alignmentStart[0].length,literalEnd=alignmentText.indexOf(';\n',literalStart);
+assert.equal(sha(alignmentText.slice(0,literalStart)+'__QUESTIONS__'+alignmentText.slice(literalEnd)),alignmentGuard.outside_questions_sha256,'Alignment lessons/module logic changed');
+const openRecords=rawQuestions('exam-alignment').filter(q=>q.type==='open');
+assert.equal(openRecords.length,50);assert.equal(Object.keys(alignmentGuard.open_questions_sha256).length,50);
+for(const q of openRecords)assert.equal(sha(stable(q)),alignmentGuard.open_questions_sha256[q.id],'Open record changed '+q.id);
 assert.equal(changes.reviewed_questions,reviewed.length);
 for(const change of changes.changes){
  const q=current.get(change.question_id),patch=ctx.FinanceReview.corrections[q.id],oldSelected=change.before.correct;
@@ -50,7 +59,7 @@ for(const change of changes.changes){
  assert.deepEqual(change.before.correct,change.after.correct,'This cohort changes distractors, not keys');
  const open=ctx.ExamAlignment.questions.find(q=>q.type==='open');
  const openPatch=ctx.FinanceReview.corrections[open.id];
- const old={version:2,responses:{[q.id]:{choice:[...oldSelected],confidence:3,checked:true},[open.id]:{text:'Сохранённый открытый ответ',rubric:[0],checked:true,reviewRevision:openPatch?.revision}},grades:{[q.id]:{strict:true,score:1},[open.id]:{score:.5,type:'open'}},recorded:{[q.id]:true},optionOrders:{[q.id]:[4,2,0,3,1]}};
+ const old={version:2,responses:{[q.id]:{choice:[...oldSelected],confidence:3,checked:true,reviewRevision:change.previous_review_revision},[open.id]:{text:'Сохранённый открытый ответ',rubric:[0],checked:true,reviewRevision:openPatch?.revision}},grades:{[q.id]:{strict:true,score:1},[open.id]:{score:.5,type:'open'}},recorded:{[q.id]:true},optionOrders:{[q.id]:[4,2,0,3,1]}};
  const openBefore=JSON.stringify({response:old.responses[open.id],grade:old.grades[open.id]});
  ctx.FinanceReview.migrateSession(old);
  assert.deepEqual(Array.from(old.responses[q.id].choice),[]);assert.equal(old.responses[q.id].confidence,3);assert.equal(old.responses[q.id].needsReviewRecheck,true);
@@ -61,7 +70,7 @@ for(const change of changes.changes){
  const once=JSON.stringify(old);ctx.FinanceReview.migrateSession(old);assert.equal(JSON.stringify(old),once,'Migration must be idempotent');
  old.responses[q.id].choice=[...q.correct];old.responses[q.id].checked=true;old.responses[q.id].needsReviewRecheck=false;
  ctx.FinanceReview.migrateSession(old);assert.deepEqual(Array.from(old.responses[q.id].choice),Array.from(q.correct),'Fresh choices lost on reload');
- const course={selected:[...oldSelected],checked:true,score:1,confidence:3};ctx.FinanceReview.migrateCourseAnswer(q,course);
+ const course={selected:[...oldSelected],checked:true,score:1,confidence:3,reviewRevision:change.previous_review_revision};ctx.FinanceReview.migrateCourseAnswer(q,course);
  assert.deepEqual(Array.from(course.previousReviewResult.selected),oldSelected);assert.equal(course.previousReviewResult.score,1);
  assert.deepEqual(Array.from(course.selected),[]);assert.equal(course.checked,false);assert.equal(course.score,null);assert.equal(course.needsReviewRecheck,true);assert.equal(course.confidence,3);
  assert.equal(ctx.FinanceReview.currentEvidence(q,{tries:1,reviewRevision:'old'}),false);

@@ -876,7 +876,7 @@
       "examEligible": true,
       "complex": false,
       "family": "RECON-09",
-      "revision": "2026-10-31-open-reconstructed"
+      "revision": "2026-11-01-t33-b10"
     },
     {
       "id": "RECON-10",
@@ -1063,7 +1063,7 @@
       "examEligible": true,
       "complex": false,
       "family": "RECON-26",
-      "revision": "2026-10-31-open-reconstructed"
+      "revision": "2026-11-01-t33-b10"
     },
     {
       "id": "RECON-27",

@@ -1,0 +1,50 @@
+{
+  "task": "T-33",
+  "status": "SUBJECT_REVIEW_COMPLETE_TECHNICAL_ACCEPTANCE_PENDING",
+  "reviewed_mc": 249,
+  "reviewed_statements": 1245,
+  "unchanged_mc": 207,
+  "edited_mc": 42,
+  "typography_only_mc": 34,
+  "subject_edits": 8,
+  "condition_clarifications": 3,
+  "distractor_or_case_improvements": 5,
+  "categorical_key_errors": 0,
+  "correct_sets_changed": 0,
+  "old204": {
+    "keep": 164,
+    "edit": 40,
+    "cardinality_before_after": {
+      "1": 0,
+      "2": 11,
+      "3": 184,
+      "4": 9
+    }
+  },
+  "new45": {
+    "keep": 43,
+    "edit": 2,
+    "cardinality_before_after": {
+      "1": 1,
+      "2": 15,
+      "3": 22,
+      "4": 7
+    }
+  },
+  "combined": {
+    "1": 1,
+    "2": 26,
+    "3": 206,
+    "4": 16
+  },
+  "cardinality_limitation": "Old bank remains90.2% three-correct; combined82.7%.No artificial rewriting or key flips. This is not a difficulty estimate; P2 must measure actual admitted-pool/ticket distributions and maintain cardinality variety without false guarantees.",
+  "duplicates": "Distinct role/case/prerequisite/exception reviews in all249 records. Purposeful reinforcement retained. No claim of unique skills across all608catalogue cards. P2 must prevent mutual hints and duplicate atomic targets inside one ticket.",
+  "original_exam_ambiguities": "Original source ledger and32conditional/ambiguous judgments preserved byte-for-byte; adapted explicit cases do not become official instructor keys.",
+  "open": "HTML UI/rubrics/scoring normalized baseline exact; all50alignment open records and module text except registered T33wording exact; generator/profile code unchanged.",
+  "remaining": [
+    "Full13browserprograms and PR/mainCI",
+    "Pages/live6.2.2",
+    "Formal P1 technical acceptance",
+    "Only then P2 expansion and1000seed overlap/diversity analysis"
+  ]
+}

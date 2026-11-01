@@ -58,12 +58,12 @@ try{
  // Old single-choice sessions are still valid and keep the same IDs and responses.
  await page.evaluate(()=>{const q=BANK.find(q=>q.type==='single');session={version:2,ids:[q.id],mode:'practice',pos:0,responses:{[q.id]:{choice:[q.correct[0]]}},grades:{},orders:{[q.id]:q.options.map((_,i)=>i)},done:false,started:Date.now(),deadline:null,recorded:{}};persist();});await page.reload();assert.equal(await page.evaluate(()=>BANK_MAP.get(session.ids[0]).type),'single');
  await page.setViewportSize({width:320,height:844});await page.evaluate(()=>{goStudyLesson('S2-04',1);studyNav.phase='theory';render();});await page.locator('#v5FullBtn').click();await page.locator(`[data-mc-question="${id}"] summary`).click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.screenshot({path:resolve(root,'test-artifacts','exam-multi-mobile.png')});assert.deepEqual(errors,[]);
- // T33: the old 204-card supplement must migrate real saved course answers, too.
+ // T33: changed cards in either supplementary bank must migrate actual previous revisions.
  const reviewedChanges=JSON.parse(readFileSync(resolve(root,'docs/audits/data/T33_MC_CHANGES.json'),'utf8')).changes;
  async function showRevisedSupplement(id){await page.evaluate(id=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));studyNav.phase='theory';render();},id);}
  for(const change of reviewedChanges){
   const changedId=change.question_id,oldSelected=change.before.correct;
-  await page.evaluate(({id,oldSelected})=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const b=getStudyBlock();b.complete=true;b.answers[id]={selected:oldSelected,checked:true,score:1,confidence:3,reviewRevision:'previous-wording'};persistStudy();},{id:changedId,oldSelected});
+  await page.evaluate(({id,oldSelected,previousRevision})=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const b=getStudyBlock();b.complete=true;b.answers[id]={selected:oldSelected,checked:true,score:1,confidence:3,reviewRevision:previousRevision};persistStudy();},{id:changedId,oldSelected,previousRevision:change.previous_review_revision});
   await page.reload();await showRevisedSupplement(changedId);
   const revised=page.locator(`[data-mc-question="${changedId}"]`);
   if(!await revised.isVisible())await page.locator('#v5FullBtn').click();
