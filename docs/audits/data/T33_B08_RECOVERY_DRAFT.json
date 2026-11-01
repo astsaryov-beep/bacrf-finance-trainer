@@ -1021,5 +1021,8 @@
       "kind": "TYPOGRAPHY"
     }
   ],
-  "next": "Restore environment and sync branch checkpoint; recover local original blind_batch08_verdicts.json if available. Complete individual physical-page refs/prerequisites/plausibility/duplicate decisions. Then apply only justified edits, revision/history records, test and checkpoint. Only afterwards begin45newMC."
+  "next": "Restore environment and sync branch checkpoint; recover local original blind_batch08_verdicts.json if available. Complete individual physical-page refs/prerequisites/plausibility/duplicate decisions. Then apply only justified edits, revision/history records, test and checkpoint. Only afterwards begin45newMC.",
+  "historical_initial_draft": true,
+  "resolved_in": "T33_MC_REVIEW.json / B08 / CP-20261101-170",
+  "current_status": "SOURCE_REVIEW_COMPLETED_IN_WORK_BRANCH"
 }
