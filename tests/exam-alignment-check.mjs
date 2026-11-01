@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const ctx={};vm.runInNewContext(read('assets/exam-alignment.js'),ctx);vm.runInNewContext(read('assets/theory-links.js'),ctx);
-vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);vm.runInNewContext(html.slice(html.indexOf('const BANK='),html.indexOf('const SECTION='))+';globalThis.fullBank=EFFECTIVE_BANK;',ctx);assert.equal(ctx.fullBank.length,608);assert.equal(new Set(ctx.fullBank.map(q=>q.id)).size,608);
+vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);vm.runInNewContext(read('assets/exam-admission.js'),ctx);vm.runInNewContext(html.slice(html.indexOf('const BANK='),html.indexOf('const SECTION='))+';globalThis.fullBank=EFFECTIVE_BANK;',ctx);assert.equal(ctx.fullBank.length,608);assert.equal(new Set(ctx.fullBank.map(q=>q.id)).size,608);
 const a=ctx.ExamAlignment;assert.equal(a.questions.length,95);assert.equal(new Set(a.questions.map(q=>q.id)).size,95);
 const mm=/const STUDY_MASTER\s*=\s*/.exec(html),mi=mm.index+mm[0].length,master=JSON.parse(html.slice(mi,html.indexOf(';\n',mi)));
 const expected={'EX17-03':[0,1,2],'EX17-19':[1,3],'TRANSFER-WATERFALL-01':[0,1,2,3],'TRANSFER-FUNDING-01':[0],'RECON-33':[0,1],'RECON-35':[0,1,2],'TRANSFER-IPO-01':[0,1,4],'TRANSFER-COLLATERAL-01':[0,2],'TRANSFER-BONDS-01':[0,3,4],'TRANSFER-INDEX-01':[0,1,2],'TRANSFER-GUARANTEE-01':[0,2,4]};

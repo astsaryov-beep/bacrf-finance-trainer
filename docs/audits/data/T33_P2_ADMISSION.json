@@ -1,0 +1,4023 @@
+{
+  "task": "T-33",
+  "phase": "P2",
+  "status": "CURATED_ADMISSION_ACCEPTED_RELEASE_PENDING",
+  "native_count": 92,
+  "added_mc": 100,
+  "added_open": 35,
+  "total": 227,
+  "review_note": "Редакционный анализ оценочных целей и совместимости существующих заданий; не новый независимый аудит всех открытых ответов. Тексты, рубрики и оценки не меняются. Прямые подсказки в условии учитываются направленно; общая тема сама по себе не блокируется.",
+  "excluded": {
+    "standalone_brokerage_margin": [
+      "MC-E-13-0-1",
+      "MC-E-13-0-2",
+      "MC-E-13-1-1",
+      "MC-E-13-1-2"
+    ],
+    "calculation": [
+      "RECON-28",
+      "TRANSFER-INDEX-01",
+      "TRANSFER-COLLATERAL-01",
+      "BO03",
+      "EO01",
+      "PO03",
+      "V2-032",
+      "V2-050",
+      "V2-068"
+    ],
+    "source_quota_incompatible_open": [
+      "RO04",
+      "RO05",
+      "RO06",
+      "RO08"
+    ],
+    "single_bundled_criterion": [
+      "EO02",
+      "PO05",
+      "PO08",
+      "V2-018"
+    ]
+  },
+  "records": [
+    {
+      "id": "EX17-01",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 7,11,15; Указание Банка России 3565-У, пункты 3–4.",
+      "goals": [
+        "forward-futures-contract",
+        "fx-delivery"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Для валютного платежа через несколько месяцев сравнивают биржевой фьючерс и классический двусторонний форвард без промежуточного обмена обеспечением. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "f46f5792d7113e5187cecef8e288b41c91c73b9ecd2ae9100a30ffa3e99cdcf6"
+    },
+    {
+      "id": "EX17-02",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 39; 208-ФЗ, статьи 7.2,49,84.7–84.8; правила листинга MOEX.",
+      "goals": [
+        "delisting-rights"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Различайте обычное решение о заявлении на делистинг, полный уход всех акций с прекращением публичного статуса и принудительный выкуп. Выберите верные утверждения по указанным процедурам.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0bf2e7e99d3c5301e602c035e17e00fdb4dc46f6af9cde2fe471058dc322bb3a"
+    },
+    {
+      "id": "EX17-03",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF-страница 11: вариационная маржа и спецификация контракта.",
+      "goals": [
+        "vm-units"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В линейном фьючерсе денежный результат переоценки рассчитывают через РЦ1, РЦ2, W, R и число контрактов. Выберите верные утверждения о величинах формулы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2c53056c6068b77f19a734fcfa222845442c2a9cfe91802c221d14219b03213c"
+    },
+    {
+      "id": "EX17-04",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 30,33,35–37.",
+      "goals": [
+        "ipo-capital-flows",
+        "ipo-demand"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Первое публичное предложение содержит новый выпуск и продажу части пакета основателя. Позднее он проводит cash-out SPO уже существующих акций. Выберите верные выводы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "d9dd91cfb633179c9a3c910acf11661fbd0e483c7aeafe83c05c0d6a8905755f"
+    },
+    {
+      "id": "EX17-05",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 37,58; 3565-У, пункт 5.",
+      "goals": [
+        "fx-swap-legal",
+        "pvp"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В учебном сравнении короткий валютный своп состоит из двух близких конверсионных обменов, а другой своп заключён как ПФИ с ЦК на СПФИ. Для первого предусмотрен PvP по каждой ноге. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "dcebbf7dcda0b4e451da79a49250dd70b19e11133cf1edf7b6c23b5c6093ac19"
+    },
+    {
+      "id": "EX17-06",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "multi",
+      "source": "Лекции 1–2, PDF 67–68.",
+      "goals": [
+        "supervision-types"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Сопоставьте предмет контроля и способ проверки в учебной схеме надзора. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "1f32423c797d852625959bbd447dadfa6640d12a6c3c82fb5a9689b7b4034ed7"
+    },
+    {
+      "id": "EX17-07",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 6,8,18–19; 208-ФЗ, статьи 31–32,42.",
+      "goals": [
+        "preferred-rights",
+        "ddm-gordon"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Рассматриваются привилегированные акции и условная бессрочная модель постоянного дивиденда D при r>0. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "fd9fdd56036c1141ca93f4144cceb9fef928b6f15dd6ce50a52cadb27225602b"
+    },
+    {
+      "id": "EX17-08",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 114–118.",
+      "goals": [
+        "note-budget",
+        "note-credit"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В простой модели ноты инвестор вносит N; к сроку T обещана N плюс участие в неотрицательном приросте базового актива. Защитный компонент стоит PV=N/(1+r)^T. Комиссии пока не учитываются. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "f7241972ef6647ae30d83cbef5d02cd68a67621976a985b30a97015cf618c6eb"
+    },
+    {
+      "id": "EX17-09",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 154,159.",
+      "goals": [
+        "credit-relative-value",
+        "curve-dv01"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У двух облигаций сопоставлены процентные чувствительности, но одна имеет более широкий кредитный спред. Какие выводы об относительной стоимости обоснованы?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5b21081e9c68dcc7435dd2afbb197bd2b670a3abb9c908b35b76dd6282248560"
+    },
+    {
+      "id": "EX17-10",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 28; MOEX, требования для акций.",
+      "goals": [
+        "listing-levels"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Разграничьте уровни списка ценных бумаг, включение в котировальные списки и включение в индекс.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "84113062296e5c15853062a5ba139b0038fb62dbaaba83829312d50cda8bccc0"
+    },
+    {
+      "id": "EX17-11",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 25–29.",
+      "goals": [
+        "project-cashflow"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Проект финансируется через SPV с договорно ограниченным регрессом к спонсору. Какие утверждения верны?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b6b8ce848e4b77cd2db0a22005f205a60f49b06c214359aa176413ebe9651d76"
+    },
+    {
+      "id": "EX17-12",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 63–64; 39-ФЗ, статья 51.3.",
+      "goals": [
+        "repo-risk-income"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Рассматривается РЕПО с голосующими акциями, а не брокерский заём для маржинальной позиции. Первая часть исполнена; корпоративные даты приходятся на срок РЕПО. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5b0f07df0d26c8e9fe504a8bade9c5adf5bc3f523404d67ae712b0409584f2f7"
+    },
+    {
+      "id": "EX17-13",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 97–99.",
+      "goals": [
+        "option-value"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В стандартной учебной модели опционов рассматривается выплата на экспирации; премия уплачена при покупке, расходы и её дисконтирование не учитываются. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "984500f50bfa8c8e34ca31d6895bb3886bf39e8e1a5abaf46bd54eb1f77ee175"
+    },
+    {
+      "id": "EX17-14",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 34–35.",
+      "goals": [
+        "mezzanine-pik"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Мезонинный договор сочетает небольшой текущий денежный купон, PIK и участие в прибыли. Выберите верные выводы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9182c0e13c5483ca1291c95561d8858567ac879e197bc2955443dd1e0d6308a2"
+    },
+    {
+      "id": "EX17-15",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 11,17,26.",
+      "goals": [
+        "futures-settlement"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Модель cost of carry дала одну цену товарного фьючерса, а биржа определила другую расчётную цену. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2a28d516fa5b1e00de69d9c9194762e9a78fcb8dfbbe45cc28a161c969ab7dae"
+    },
+    {
+      "id": "EX17-16",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 8,10–13,41; методика FF MOEX.",
+      "goals": [
+        "free-float-weight",
+        "free-float-definition"
+      ],
+      "reveals": [
+        "free-float-weight"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У двух включённых выпусков одинаковая полная капитализация и одинаковые остальные индексные коэффициенты; FF первого 59%, второго 11%. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "df5d4fed5c2b0fcb0f7135fc2fbffa801b6eddedc9a61d9fd43aaa97ce0f1dfa"
+    },
+    {
+      "id": "EX17-17",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "multi",
+      "source": "Лекции 1–2, PDF 62–63; Банк России, правовой статус и функции.",
+      "goals": [
+        "cbr-status"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Выберите верные утверждения о правовом статусе и функциях Банка России.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "eb6b1f8c3bba0df03d4a981a4ba03e1b077fd5cffa15b858cc87d3ce8a27148e"
+    },
+    {
+      "id": "EX17-18",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 55–56; разбор downside deviation в курсе.",
+      "goals": [
+        "sharpe-sortino",
+        "drawdown-path"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Для одной выборки используются одинаковый период и положительное среднее превышение над одним ориентиром. Общая волатильность 10%, downside deviation 5%. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "50e844b8ca7a5c4f097c25a659ce9548e26050302d05e24b14243427494f508f"
+    },
+    {
+      "id": "EX17-19",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF-страницы 68–71: параметры, квантиль и параметрический VaR.",
+      "goals": [
+        "var-scaling",
+        "var-interpretation"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Для линейной позиции используют приближение VaR = V × λ × σ × √T при нулевом среднем изменении. Какие пояснения согласованы с этой моделью?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "220342b1178f553e70926ebf35795db501cf2b71450d1c6dcc9602c609e131ca"
+    },
+    {
+      "id": "EX17-20",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "multi",
+      "source": "Лекции 4–5, PDF 23–24,28–29; 39-ФЗ, статья 6.1; Банк России, профессиональные участники.",
+      "goals": [
+        "market-roles",
+        "fund-rights",
+        "market-rights-record"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Разграничьте инфраструктуру, профессиональную деятельность и коллективные инвестиции. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b0a4bd15aee9bfa0ca4d1df489fa9e6c6a5201fb3df9974e9d8d49833366466a"
+    },
+    {
+      "id": "EX17-21",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 73,98.",
+      "goals": [
+        "yield-scenarios"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У облигации предусмотрены окончательное погашение и более ранняя put-оферта с собственной ценой выкупа. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "4adc2bbe8ceca2daee6e56e502ad490d7b8d4bcb04e00acf71a3b70fac73c615"
+    },
+    {
+      "id": "EX17-22",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "multi",
+      "source": "Кредитная система, PDF 9–11.",
+      "goals": [
+        "basel-history",
+        "bank-license"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Сопоставьте исторические Базельские соглашения и пропорциональное регулирование. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "4414f00dd703f2e862067e97fcf03e870bb1fa9d109dd77d78c6dba429d72499"
+    },
+    {
+      "id": "EX17-23",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 133–143; Банк России, кредитные рейтинговые агентства.",
+      "goals": [
+        "rating-scales",
+        "rating-issue"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Рейтинг выпуска AA по российской национальной шкале сравнивают с AA по международной шкале другого агентства. Выберите верные выводы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "d32fa203db8d6b65f681e608c18b36eb4bfb3169a62a6d903f8300154165e1e7"
+    },
+    {
+      "id": "EX17-24",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 15,60,63.",
+      "goals": [
+        "irs-fix-credit",
+        "irs-residual",
+        "closeout-netting"
+      ],
+      "reveals": [
+        "irs-fix-credit"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Компания платит по кредиту R + s и по свопу платит K=16%, получая R. Номиналы и периоды совпадают. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "10fcf4dc3e8ffb9b1d41c8b5cbfff1b057df273605aec99e18c688a599fedb31"
+    },
+    {
+      "id": "EX17-25",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 28,41; MOEX/a2584, требования для акций.",
+      "goals": [
+        "listing-levels",
+        "index-eligibility"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Бумага находится на Третьем уровне списка. Различайте требования закона, специальные условия биржи и индексный отбор. Выберите верные выводы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "4c3d8ce3a495894500b7e035ca898cdbe8f082753c44ad16c212c011fba6e251"
+    },
+    {
+      "id": "EX17-26",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 63–64; 39-ФЗ, статья 51.3.",
+      "goals": [
+        "repo-voting"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Профессиональные участники заключили РЕПО с голосующими акциями на срок, включающий корпоративную дату. Объясните переход собственности и возможное осуществление голоса, компенсацию дивидендного дохода, ограничение для договора за счёт физлица и риск первого покупателя.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "89e5cb9f7dec89909a4fa88cc88ccb102f13766fc8d5721c87babd6681c7edac"
+    },
+    {
+      "id": "EX17-27",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF-страницы 80 и 84; учебная модель согласованных доходностей.",
+      "goals": [
+        "hedge-ratio-units"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В формуле h* = ρ × σ_S / σ_F объясните роль отношения σ_S / σ_F. Почему одинаковая корреляция сама по себе не задаёт одинаковый размер хеджа? Укажите требования к единицам и какие данные нужны для перехода к числу контрактов.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "6bfd93b22b1c35f78e181d2ff096eac525d2a429e88fcc80c65c2117d58520b9"
+    },
+    {
+      "id": "EX17-28",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF-страницы 59–60.",
+      "goals": [
+        "dow-axioms"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Назовите три аксиомы технического анализа в учебной классификации Доу. Что означает тезис о том, что рыночная цена учитывает всё?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "8cf15ee19f433973c9b9b93b6cebf55aee61ca37ced3df8c2d7e6cec323923d6"
+    },
+    {
+      "id": "EX17-29",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF 60,63.",
+      "goals": [
+        "irs-fix-credit"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Компания с плавающим процентным долгом платит фиксированную ставку по IRS и получает плавающую. Как называется её роль и от какого изменения расходов защищает согласованный по параметрам пакет? Назовите условия согласования.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "060db14f1589565c1a2ae490ef97e08278eeae9899ef411ad65cdcfe1a8a4f18"
+    },
+    {
+      "id": "EX17-30",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO».",
+      "goals": [
+        "ipo-procedure",
+        "ipo-capital-flows",
+        "ipo-demand"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Компания готовит первое публичное предложение акций. Расположите четыре выбранные вехи: Deal Review; проспект и статус ПАО; листинг и услуги НРД; букбилдинг и размещение. Назовите ответственных и результат каждой. Затем сравните IPO и последующее cash-out SPO существующих акций по числу акций, получателю денег и возможному free-float. Почему сильная переподписка, как в историческом кейсе «Астры», не гарантирует последующую доходность?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "91b7e6ac2f47f0b8256201906f32f6f1f50d703d8213a04a429708f5abe317c8"
+    },
+    {
+      "id": "EX17-31",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Лекции 4–5, PDF 60–61: участники факторинга и безрегрессная схема.",
+      "goals": [
+        "factoring-roles"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Поставщик уступил фактору денежное требование к покупателю. Назовите трёх участников и их роли. Кто несёт принятый кредитный риск неоплаты при факторинге без регресса и какие обязательства поставщика этим не отменяются?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "63ce0a2b252a1df260965fe4acd4f24aa52447471e51bf0b3a36400b14e0bad4"
+    },
+    {
+      "id": "EX17-32",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF-страницы 11,15,46; НКЦ, РЕПО с КСУ; статья 24.3 закона 7-ФЗ.",
+      "goals": [
+        "collateral-vm",
+        "closeout-netting",
+        "collateral-haircut",
+        "ksu-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Сопоставьте четыре механизма обеспечения. (а) Для чего нужны ГО и вариационная маржа и когда возникают соответствующие требования? (б) Что регулирует CSA и что делает ликвидационный неттинг при дефолте, если применимые нормы признают его? (в) Как haircut связан с волатильностью обеспечения? (г) Какое право удостоверяет КСУ и почему в рассматриваемом биржевом режиме РЕПО с КСУ участвует ЦК?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "e587671411fb9275401178b8c609205e1f27a9f622cea1ad2685bbc48d7abe1a"
+    },
+    {
+      "id": "EX17-33",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, раздел греков; базовая европейская модель.",
+      "goals": [
+        "option-rho"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В базовой европейской модели опциона на спот-актив без дивидендов выросла безрисковая ставка; S, K, волатильность и срок фиксированы. Как меняются цены длинных Call и Put? Как называется соответствующая чувствительность и какие единицы её записи нужно согласовать?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "eef32c899acffb187512dc978a1b423edb5d8323d081d8554efa38a9f07869ed"
+    },
+    {
+      "id": "EX17-34",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 46–54.",
+      "goals": [
+        "portfolio-beta",
+        "sector-concentration"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Управляющий выбрал диверсифицированный портфель акций по Марковицу и на этом основании объявил рыночный риск нулевым. В чём логическая ошибка? Какой риск обычно уменьшается диверсификацией и какая чувствительность в CAPM описывает рыночный компонент? Доказывает ли нулевая бета полное отсутствие риска?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "d8e7fb977df42ba00ad13c3558e75868f7294c34c954396f7610ad0dcf4eb45d"
+    },
+    {
+      "id": "EX17-35",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF 16,21.",
+      "goals": [
+        "credit-line"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Корпоративная ВКЛ ещё не выбрана, но договор предусматривает комиссию за резервирование неиспользованного лимита. Заёмщик считает это противоречием процентам только на выданные транши. Разберите две базы платежей и объясните, почему невыбранный лимит не равен деньгам на счёте.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "0132175e1b6b801ad1ed8d555dc9ce36e6d6fb0bef26bb214750c1c5022a730c"
+    },
+    {
+      "id": "EX17-36",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF 57–59.",
+      "goals": [
+        "fx-date-gap",
+        "fx-swap-flows"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Банк должен передать юани клиенту в ближнюю дату и получить такую же сумму юаней от другого клиента позже. Какая согласованная конструкция перекрывает временный разрыв без постоянного изменения валютной позиции? Назовите направление обеих ног и важные условия.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "76de13291792be2f320bf8ef68a47dc54c80851ec16fae460d0f3f506b15cc28"
+    },
+    {
+      "id": "EX17-37",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 15,18–22.",
+      "goals": [
+        "dividend-value"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Для компании с госучастием повышается норматив доли прибыли, направляемой на дивиденды. Каким каналом это может изменить оценку акции? Объясните условие «при прочих равных» и факторы, из-за которых рост оценки не гарантирован.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "f52bcf2ead7616a31eed876a71b2aff9c89d5cbf048a9d847690029f26db93ee"
+    },
+    {
+      "id": "EX17-38",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, денежный раздел; официальный FAQ Банка России.",
+      "goals": [
+        "digital-ruble-rights"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Сопоставьте цифровой рубль и обычный остаток рублей на счёте коммерческого банка: кто является обязанным лицом, где ведётся учёт и какую роль играет банк в доступе к цифровому рублю?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "560189bd0e77d8b8f2b71a4ef38bdaf7f787953f1472393c619935e3549a1bc0"
+    },
+    {
+      "id": "EX17-39",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF-страницы 30–31 (печатные слайды 51–52); методика соответствующего вечного фьючерса.",
+      "goals": [
+        "funding-function"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Назовите три входные величины кусочной формулы фандинга вечного фьючерса из учебной схемы Мосбиржи и объясните роль каждой.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "952c5da460790b38b839b8711e07741d9c75ab8668df76d788e33760d1d278af"
+    },
+    {
+      "id": "EX17-40",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, PDF 164–166; уточнения базиса и метрик в курсе.",
+      "goals": [
+        "carry-metrics"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В описании cash-and-carry смешали процентный Carry, Basis Decay и ROE. Разделите экономический поток, относительную рыночную цену и базу доходности. Почему улучшение одного показателя не означает автоматически улучшение остальных? Числовой знак прибыли не требуется.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "f402bb66cfea94edc06a26f6e0d77f1694c871b1c8fd562f407a8f0550a205b4"
+    },
+    {
+      "id": "EX17-41",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, разновидности ОФЗ; MOEX, ОФЗ-ИН.",
+      "goals": [
+        "inflation-linker"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Как называется тип ОФЗ с индексацией номинала по потребительской инфляции и его распространённое название? Чем он отличается от плавающего купона и почему не гарантирует любой инвесторский результат?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "1c95e2d89a2c561e293b661bfcf629d338c22657cb0d508419cfea17187ef7a5"
+    },
+    {
+      "id": "EX17-42",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 55–56.",
+      "goals": [
+        "sharpe-sortino"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Что измеряет коэффициент Шарпа? Назовите числитель, знаменатель и требования к сопоставимости. Какой его недостаток важен для инвестора, различающего падения и резкий рост? Почему одного порогового значения недостаточно?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "ffd140e5664136b48cb5cdeb9e7328e0c437ce564f14b1d535dea7102e105df0"
+    },
+    {
+      "id": "EX17-43",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF-страницы 74,96–98,114.",
+      "goals": [
+        "bond-cashflow",
+        "ytm-cashflow",
+        "z-spread",
+        "clean-dirty"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У bullet-облигации и амортизируемой облигации совпадает окончательная дата погашения. Почему одного Maturity недостаточно для описания потока и переноса YTM с одной бумаги на другую? Что подбирают при расчёте Z-spread, в каком смысле связь с ценой нелинейна и чем этот спред отличается от НКД?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "20bf1271fa46b4bb0d7c2e180a959e55767e959543ef79e634193865fbde6593"
+    },
+    {
+      "id": "EX17-44",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF-страницы 41,43; Московская биржа, описание индексов и критерии отбора.",
+      "goals": [
+        "index-eligibility",
+        "free-float-weight",
+        "index-caps",
+        "index-divisor",
+        "benchmark-tr",
+        "free-float-definition"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Объясните построение IMOEX. (а) Воспроизведите основные учебные критерии включения: free-float, регулярность сделок, ликвидность, минимальный вес и уровень листинга; сравните пороги входа и сохранения по FF и LC. (б) Назовите P, Q, FF, W и Dₙ, различите три вида капитализации. (в) В условной корзине SBER весит 12,09%, SBERP —2,34%. Проверьте ограничение 15% по эмитенту на дату формирования базы. (г) Чем ценовой IMOEX отличается от MCFTR?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "d10221ea1712c65a4f8d6b0909e0ed5b3b2b2f65a40c60239528fd76b5cb3f94"
+    },
+    {
+      "id": "EX17-45",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF-страница 13 (печатный слайд 30); правила клиринга соответствующего рынка.",
+      "goals": [
+        "clearing-waterfall"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Участник клиринга допустил дефолт. Воспроизведите первые три уровня использования защитных ресурсов из учебной схемы срочного рынка в правильном порядке.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "4fcff69e8b31c634ebd013717bbb45d5081f26ad8594ec06b2579e16da9ec237"
+    },
+    {
+      "id": "EX17-46",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Кредитная система, PDF-страница 16; отдельные режимы гарантирования и ликвидации.",
+      "goals": [
+        "asv-functions",
+        "deposit-insurance"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Назовите три укрупнённых направления деятельности АСВ из учебной классификации. При описании ликвидации укажите категории финансовых организаций.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "3ac04ba1cafcdec39d35b17e9ac5bad63a5dcae339001af8cedf9b13f6c01e39"
+    },
+    {
+      "id": "EX17-47",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF-страница 36; ГК РФ, статьи 368,370,375,376,379; статья 45 закона 44-ФЗ. Нормы проверены 31.10.2026.",
+      "goals": [
+        "independent-guarantee"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В коммерческой поставке выдана независимая гарантия по общим правилам ГК РФ; специальные закупочные нормы не применяются. Покупатель предъявил банку требование с документами, поставщик просит не платить из-за спора о поставке. Назовите три роли, порядок и общий срок рассмотрения, значение документов и возражений поставщика, основания возмещения гаранту. Кто помимо банков вправе выдавать независимые гарантии по ГК РФ?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "5e8bd920e5699ab9b935df4dae7c0c5fec1bcc85bb041c85b9bb55d09204573c"
+    },
+    {
+      "id": "EX17-48",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF-страницы 61–62.",
+      "goals": [
+        "dow-phases"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Опишите три фазы растущей первичной тенденции по Доу в порядке развития и роли ранних участников и широкой публики. Как рассматривают подтверждение возможного разворота и почему один признак не гарантирует исход?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "426dec61f305cf45358b617d3fa057fca7b347b12cbdb62a8620b26b4615eece"
+    },
+    {
+      "id": "EX17-49",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF 59.",
+      "goals": [
+        "gold-swap"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Участник временно продаёт имеющееся золото за рубли и договаривается выкупить тот же объём в более дальнюю дату. От чего зависит экономический результат такого gold swap без прогноза направления цены золота? Назовите обе денежные роли и остаточные условия.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "e556bcdeceb711625f6c1acb9fd660175eaacc79e648e182a8f083f9c3f36433"
+    },
+    {
+      "id": "EX17-50",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 4–5, PDF 36: участники страхования.",
+      "goals": [
+        "insurance-roles"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Человек заключил договор страхования собственной жизни, а получателем предусмотренной выплаты назначил супругу. Назовите страхователя, страховщика, застрахованного и выгодоприобретателя; какие роли здесь совмещены?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "c5ceb34fba6dc3af16c670018083b038f3f61e94800fe4c5a328c6d1d0077c02"
+    },
+    {
+      "id": "RECON-01",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, слайд 71: четыре права потребителя.",
+      "goals": [
+        "kennedy-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Перед покупкой сложного финансового инструмента клиент получил описание доходности, но существенные риски ему не раскрыли. Какое из четырёх прав потребителя по Кеннеди затронуто прежде всего? Объясните связь с ситуацией.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "582dfff61fcc3339abdf1758260c0051c736c22cca24ea05bd8df75592512427"
+    },
+    {
+      "id": "TRANSFER-KENNEDY-01",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, слайд 71; самостоятельный учебный кейс.",
+      "goals": [
+        "kennedy-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Назовите четыре права потребителя из перечня Кеннеди. Затем сопоставьте два случая: клиенту дали полные сведения о продукте, но не позволили выбрать из доступных альтернатив; обращение клиента приняли, но не рассмотрели по существу.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "fced0c24835f4ba866f3292860f2aa5a4ea0b213047a58911389d0b40ba2cd55"
+    },
+    {
+      "id": "TRANSFER-DOW-01",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF-страницы 61–62; самостоятельный учебный кейс.",
+      "goals": [
+        "dow-phases"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "На фоне широкого интереса публики ранние крупные держатели постепенно сокращают позиции. Аналитик называет это накоплением и обещает неизбежное падение на следующий день. Какие два вывода требуют исправления?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "bef0199bca3acc92e9cf182d00ea08851a4cf5e7b9724b1804da58a7ce12911b"
+    },
+    {
+      "id": "TRANSFER-ASV-01",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Кредитная система, PDF-страница 16; Банк России, ликвидация НПФ и гарантирование прав.",
+      "goals": [
+        "asv-functions",
+        "deposit-insurance"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "У человека есть банковский вклад и договор с НПФ. Он считает, что при проблемах любой из этих организаций срабатывают одни условия и один общий страховой лимит, а АСВ выполняет банковский надзор. Какие различия нужно установить?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "b7ca184774abe276a4151bcbdb71205452e561702ecf88ff86a88f239a4d6515"
+    },
+    {
+      "id": "TRANSFER-WATERFALL-01",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF-страница 13 (печатный слайд 30).",
+      "goals": [
+        "clearing-waterfall"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Какие пояснения согласованы с учебным порядком использования ресурсов при дефолте участника клиринга?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "ce75625b276fc3a045911c21c2f5e90660708209a5b3c3023cc7003878be83a3"
+    },
+    {
+      "id": "TRANSFER-FUNDING-01",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF-страницы 30–31; алгебраическая учебная схема.",
+      "goals": [
+        "funding-function"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Для схемы g(D)=sgn(D)×min[L₂, max(|D|−L₁,0)] заданы L₁≥0 и L₂>0. Какие утверждения верны?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "f4a5e04b3b0ae2ee99fa1d43ea629ae21f80a359a75c22017dade226203ad42c"
+    },
+    {
+      "id": "RECON-33",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO».",
+      "goals": [
+        "ipo-capital-flows",
+        "ipo-demand"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "После IPO акционер хочет публично продать часть своего существующего пакета. Эмитент новых акций не выпускает. Выберите верные выводы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2701d3db7df4de815e04b4aebf431f31f8ecce07396e7b8a664144e60a0a1344"
+    },
+    {
+      "id": "RECON-34",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF-страницы 11,15,46; НКЦ, РЕПО с КСУ; статья 24.3 закона 7-ФЗ.",
+      "goals": [
+        "collateral-haircut",
+        "ksu-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Участник пула КСУ хочет заменить ликвидные облигации более волатильными акциями той же рыночной стоимости. Почему равной рыночной суммы недостаточно? Что проверяет НКЦ и может ли участник свободно забрать прежние активы при открытом обязательстве РЕПО с ЦК?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "4a1a59d7635bcd39bc2610b0333950aa23074bad2747a67a9157be5a21f55573"
+    },
+    {
+      "id": "RECON-35",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF-страницы 41,43; Московская биржа, описание индексов и критерии отбора.",
+      "goals": [
+        "index-eligibility",
+        "free-float-weight",
+        "index-caps",
+        "index-divisor",
+        "benchmark-tr",
+        "free-float-definition"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В учебной модели используются пороги FF для входа 10% и исключения ниже 5%; LC для входа 15% и исключения ниже 10%. У действующей бумаги FF=7%, LC=12%. Две акции другого эмитента весят 9% и 7% на дату формирования базы. Какие выводы верны при выполнении остальных условий?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2d0eadadf1fba2281e51b942b8c9340b4de31950b36a7432f7d98b56943f9077"
+    },
+    {
+      "id": "TRANSFER-IPO-01",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO».",
+      "goals": [
+        "ipo-procedure"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Выберите корректные связи процедуры публичного предложения и ответственного участника.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "8d42ccb0e3819424bad18956fc981b0a6ba423bb1a6a326ecf8b32f06f98ec4d"
+    },
+    {
+      "id": "TRANSFER-BONDS-01",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF-страницы 74,96–98,114.",
+      "goals": [
+        "bond-cashflow",
+        "ytm-cashflow",
+        "z-spread",
+        "clean-dirty"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Две облигации имеют одинаковую окончательную дату погашения. У одной часть номинала возвращается раньше. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "135d07d2301637162c682e881e0fc8bb212d5a7dff9fe7773d47a69623b6a9ed"
+    },
+    {
+      "id": "TRANSFER-GUARANTEE-01",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF-страница 36; ГК РФ, статьи 368,370,375,376,379; статья 45 закона 44-ФЗ. Нормы проверены 31.10.2026.",
+      "goals": [
+        "independent-guarantee"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Независимая гарантия в обычной коммерческой сделке регулируется общими нормами ГК РФ. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "41a43d710327b85ea11d8b8d0108c46aa07546b2a147dec13c743326323afe95"
+    },
+    {
+      "id": "RECON-02",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF 83–84.",
+      "goals": [
+        "hedge-effectiveness",
+        "curve-dv01"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Банк фьючерсами уменьшил 70% параллельной DV01 портфеля ОФЗ. Что осталось помимо 30% этой чувствительности и почему нельзя автоматически объявить общий риск или VaR сниженным на 70%?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "a50295015044145d607c1ed52199a8c260ee006b57f3a0ac0a9f75469aae5e36"
+    },
+    {
+      "id": "RECON-03",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 46–50.",
+      "goals": [
+        "portfolio-correlation"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Почему волатильность двух акций нельзя получить простым средним их рисков? Объясните роль весов и корреляции, случаи ρ=+1 и ρ=−1 и условие полного взаимного погашения в двухактивной модели с положительными весами.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "802c057a12e505e97f3894ad2f164daa11680cb4ab31881a8c3a8e1b1923c02e"
+    },
+    {
+      "id": "RECON-04",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 55–56.",
+      "goals": [
+        "sharpe-sortino"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У стратегии исторические Sharpe=1 и Sortino=2. Инвестора прежде всего беспокоят отклонения ниже цели. Чем отличаются знаменатели, как может возникнуть такая разница и можно ли выбрать «лучший» показатель без уточнений?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "0e861d3a9e75adac59720db0336f2f1bf190addf5714254d8d4cdee11428630c"
+    },
+    {
+      "id": "RECON-05",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, PDF 63.",
+      "goals": [
+        "integrated-supervision"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Воспроизведите три причины создания мегарегулятора из учебной схемы. Почему перечисленные преимущества не следует понимать как автоматический гарантированный результат?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "b527623c2df1bff15f27b2f6c5303662af3902bbc5a4509746e502e21a2c76d2"
+    },
+    {
+      "id": "RECON-06",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, PDF 42,47–48,63.",
+      "goals": [
+        "integrated-supervision"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Финансовая группа оказывает банковские, страховые и инвестиционные услуги. Какие недостатки функционально разделённого надзора могут проявиться и чем помогает интегрированный подход? Приведите пример границы компетенций.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "b2e8a3f5807a99f57d6bf53aeca9131ae37c81a6c02c7bce78dcdf43c09f2aa3"
+    },
+    {
+      "id": "RECON-07",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 58–60.",
+      "goals": [
+        "technical-methods"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Выберите корректные различия графического и индикаторного технического анализа.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9b45344545b21de0a824f9fed64d538f68295fad7654e7bb0610f0dca137c3e4"
+    },
+    {
+      "id": "RECON-08",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF 101.",
+      "goals": [
+        "put-call-parity"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Для европейских Call и Put без дивидендов с одинаковыми K, T воспроизведите паритет и состав синтетической оплаченной длинной позиции в акции. Чем отличается покупка Call и продажа Put без денежной части?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "6c015bfbc10d57c4a918556e8f13936ab770c66cef4ceee55166c8065c76f4ce"
+    },
+    {
+      "id": "RECON-08-PROTECT",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 2, PDF 101, опционные стратегии.",
+      "goals": [
+        "protective-put"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Акция куплена вместе с европейским Put того же объёма и страйка K. Рассматривайте выплату на экспирации без дивидендов и расходов; премия Put уплачена отдельно. Что верно?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "596e1193ea02e2312ec6e7dfde8723c8edd1db03aab7364f2dcbcf74886b9c1b"
+    },
+    {
+      "id": "RECON-09",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 155–158; разборы стратегий в курсе.",
+      "goals": [
+        "curve-dv01"
+      ],
+      "reveals": [
+        "duration-dv01"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Условный flattener состоит из длинной 10Y и короткой 2Y позиции с равными по модулю DV01. Доходность 10Y снизилась, 2Y выросла. Сдвиги малы, прочие факторы исключены. Выберите верные выводы.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "39f954131191e6e46515cdb0c21bc99b3b5fb6d3f6d23b52effe5753606bb93a"
+    },
+    {
+      "id": "RECON-10",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Семинар 1, денежные индикаторы; Банк России, методики RUONIA и MIACR; Московская биржа, методика RUSFAR.",
+      "goals": [
+        "rate-indicators"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Сопоставьте рублёвые индикаторы с базовым рынком и расчётчиком.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "d6261d9d6cde7188d5f5bb5b6c5afb027d91f885599b82a95634138d5d4ce4bf"
+    },
+    {
+      "id": "RECON-11",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF 11–12; ГК РФ 807,819.",
+      "goals": [
+        "credit-loan"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Чем кредитный договор отличается от договора займа по кругу предоставляющих лиц и предмету? Почему нельзя считать любой заём бесплатным и любой договор с названием «кредит» банковской лицензированной операцией?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "785b5161bbbf65fdd3dd2747d489797456e4ae5112b29ce6c17e3dc2ab363991"
+    },
+    {
+      "id": "RECON-12",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, обеспечение кредита; главы о гарантии и страховании.",
+      "goals": [
+        "credit-security",
+        "independent-guarantee"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Корпоративный кредит обеспечен залогом оборудования, поручительством и страхованием указанного имущества; дополнительно предусмотрена независимая гарантия по отдельному обязательству. Почему эти инструменты не дублируют друг друга и не обеспечивают безусловный возврат?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "63c2ac316d105e5d18f109a6565bc15e86d1c9bfcbc13a476fb429451da4c199"
+    },
+    {
+      "id": "RECON-13",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF 42–43; ГК РФ 867,869.",
+      "goals": [
+        "letter-credit"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Покупатель и продавец используют документарный аккредитив. Объясните роли плательщика, банка-эмитента, исполняющего банка и получателя, общий ход документов/платежа, различия покрытия и отзывности. Гарантирует ли проверка документов фактическое качество товара?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "e50d439dd7ef0bf45bd26c592c970e4ffbe451dfe96f282c00caf152cab95d29"
+    },
+    {
+      "id": "RECON-13-MC",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 42–43; ГК РФ 867,869.",
+      "goals": [
+        "letter-credit"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Стороны открыли аккредитив, в тексте ничего не сказано об отзывности. Выберите верные выводы по общему ГК РФ.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9900edc80e9377d4d73c30b152e7b4ac8885de6a142b771652252d6da33420aa"
+    },
+    {
+      "id": "RECON-14",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 25–31.",
+      "goals": [
+        "project-cashflow"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "SPV проекта получает кредит от нескольких банков; договор задаёт ограниченный регресс. Выберите верные утверждения.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "45225baf045f3c99ebd2ea1213c9dbc05d707b45c95847c42d65a7327df436fa"
+    },
+    {
+      "id": "RECON-15",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF 138.",
+      "goals": [
+        "rating-group"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В учебной методике рейтинга холдинга назовите этапы от базовой оценки до итогового рейтинга. Где находятся стресс-проверка и peer-анализ, а что оценивают на финальном этапе?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "8fa12a1bcc4ba2af65c200618ea4d5ab61e6c2b87754e102642ad941b46f7804"
+    },
+    {
+      "id": "RECON-16",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, PDF 134–135, рейтинговые методологии.",
+      "goals": [
+        "rating-market-lag"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "После неблагоприятных новостей цена облигации упала, спред расширился, а опубликованный рейтинг пока прежний. Как это возможно и почему ни рынок, ни рейтинг по отдельности не дают полного готового вывода?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "3484b10b76887142d9c78ddc1406ea4f733002bd31fb68bf93943828a90ef170"
+    },
+    {
+      "id": "RECON-17",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 6–7,39; 208-ФЗ.",
+      "goals": [
+        "corporate-votes",
+        "delisting-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У владельца 26 из 100 участвующих голосующих акций; по условию конкретное решение требует 3/4 участвующих. Что он может заблокировать, что не может принять один и какие данные нужны прежде, чем переносить вывод на дивиденды или делистинг?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "917f00875a976e592b359caa83cdf993ebf4677753fdd35e5e76fa252f4bc14f"
+    },
+    {
+      "id": "RECON-18",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 9; Норникель, программа «Цифровой инвестор».",
+      "goals": [
+        "token-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В учебном кейсе Minetoken выплата привязана к стоимости акций и дивидендам компании, а условия дают денежное требование. Становится ли держатель акционером, получает ли голос и кто обязан исполнять его требование? Что нужно проверить в документах?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "c7c26b5f2c2957462f8510735e92b245d571409db3c2b9dffc331ded51f0110c"
+    },
+    {
+      "id": "RECON-19",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, PDF 38: учебный кейс «Сургутнефтегаз»; механизм EV и ограничения доступа к денежным средствам.",
+      "goals": [
+        "ev-perimeter"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В учебном кейсе «Сургутнефтегаз» обсуждается отрицательный EV. В упрощённом расчёте EV денежные средства компании превышают сумму капитализации и финансового долга. Почему EV отрицателен и почему нельзя из этого вывести автоматическую прибыль миноритарного покупателя?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "d74111143854aac35941cd19be3b67b6c3a259feddefc314c235fc9a3f8b282a"
+    },
+    {
+      "id": "RECON-20",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 11.",
+      "goals": [
+        "free-float-turnover",
+        "free-float-definition"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Частные участники часто перепродают небольшой свободный пакет, а крупный акционер долго держит контрольный. Какие выводы верны?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "e9a3d2b939c7b16f63db1378f2926ec6eb98b6df209b1408da6d07ab85341634"
+    },
+    {
+      "id": "RECON-21",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "multi",
+      "source": "Семинар 3, PDF 6–7,15; 208-ФЗ, дивиденды.",
+      "goals": [
+        "dividend-governance"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Разграничьте роли акционера, совета директоров и общего собрания в вопросе дивидендов.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5f9e25ed772f6f9c3b2870fbfb0ffa155947fe9f390e739b328fb54de6f88b00"
+    },
+    {
+      "id": "RECON-22",
+      "cohort": "existing_native",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар 3, раздел оценки компаний.",
+      "goals": [
+        "multiples-comparability",
+        "multiples-meaning",
+        "eps-nonrecurring",
+        "ev-perimeter"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "После разового неденежного дохода EPS резко выросла и P/E снизился при той же цене акции. Почему нельзя сразу назвать её дешёвой? Какие границы сопоставимости проверить также для P/BV и EV/EBITDA?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "2f41e63f69ece0f4e33c008699b4b42e9b1c96739f60cde6b2a18f3bd1dd2615"
+    },
+    {
+      "id": "RECON-24",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 4–5, PDF 47: распределительная и накопительная пенсионные модели.",
+      "goals": [
+        "pension-paygo"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Как называется модель, в которой текущие взносы работающих используются для выплат действующим пенсионерам? Откуда берётся основной поток текущих выплат в описанной схеме?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "e799f973ff3ef49a7d43e42a5c569c1e570af25104d086fc48a5ad827e22e738"
+    },
+    {
+      "id": "RECON-25",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "multi",
+      "source": "Лекции 4–5, PDF 38–39: объекты и виды страхования.",
+      "goals": [
+        "insurance-objects"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Разграничьте ОСАГО, каско и страхование жизни по объекту защиты.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9b738c6efe4a5832ff6e99e90fa3fc732de18aad160bfaf53979cd90dd73b1c4"
+    },
+    {
+      "id": "RECON-26",
+      "cohort": "existing_native",
+      "section": "reg",
+      "type": "multi",
+      "source": "Лекции 1–2, денежный раздел; ЦБ, цифровой рубль.",
+      "goals": [
+        "digital-ruble-rights",
+        "token-rights"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "У клиента есть цифровые рубли, обычный банковский остаток и ЦФА с денежным требованием к компании. Выберите верные различия.",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2024b4ec08a354a730c9ba25369d751c127d2219b3946c2425c0c01eff5dccbc"
+    },
+    {
+      "id": "RECON-27",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, PDF 164–166; Семинар 2, cash-and-carry.",
+      "goals": [
+        "carry-structure",
+        "carry-residual"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Опишите прямой cash-and-carry с облигацией, РЕПО-финансированием и фьючерсом: направления трёх связей, источник средств и основные остаточные риски. Нужно ли занимать базовую облигацию, чтобы продать обычный фьючерс?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "dc443921499a3e544e55c91662aedfe661802bccd74bdd0377ca22bb2be5d06b"
+    },
+    {
+      "id": "RECON-29",
+      "cohort": "existing_native",
+      "section": "debt",
+      "type": "multi",
+      "source": "Семинар 1, PDF 16,21.",
+      "goals": [
+        "credit-line",
+        "covenant"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У компании неиспользованный лимит ВКЛ и предусмотренная плата за его резервирование; нарушен финансовый ковенант. Что нужно учитывать?",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "3f37ca9b48263b847add093dc26fbd13425b497f0b055c084d91d41119efcfc6"
+    },
+    {
+      "id": "RECON-30",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, PDF 59.",
+      "goals": [
+        "gold-swap"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Участнику временно нужен металл: он покупает золото ближней ногой и продаёт тот же объём дальней. Объясните направление потоков, роль своп-разницы и какие условия нужны для оценки без направленного прогноза золота.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "6f1db1272e05aae0aa089417733cf24d0c3354621e812fa1ad1cbcccbba27b8d"
+    },
+    {
+      "id": "RECON-31",
+      "cohort": "existing_native",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, валютные форварды и свопы; карточка формулы в курсе.",
+      "goals": [
+        "fx-forward-rates"
+      ],
+      "reveals": [
+        "fx-forward-rates"
+      ],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Котировка S дана в рублях за юань. В простой модели двух процентных ставок на один срок T восстановите формулу валютного форварда F, назовите роли рублёвой/юаневой ставок и условия согласования. Что изменит обратная котировка?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "a6659e5fec2eaec6566623c05f58755b8223cab3227ee923b53e0d4ee19dad6f"
+    },
+    {
+      "id": "MC-R-01-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-01-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "financial-contracts"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Базовые договоры и права",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "92bd696e84c1dc83773f83884fe5623a63228e26ae5663f20232cbe93c28d523"
+    },
+    {
+      "id": "MC-R-01-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-01-0; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "primary-secondary",
+        "information-asymmetry"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Первичные/вторичные потоки и асимметрия",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "7270ae385d93fec8822cb358a571c0856aabff73f98eb6f1046a629190551888"
+    },
+    {
+      "id": "MC-R-01-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-01-1; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "clearing-dvp",
+        "market-rights-record"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Клиринг, ЦК и DvP",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "446baa13657dbb565bea184b00ece839554626d65aa688187e2c5b327634b6b9"
+    },
+    {
+      "id": "MC-R-01-1-3",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-01-1; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "infrastructure-concentration"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Концентрация инфраструктуры и сбой",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "4799f64540f715669955d78427cd65994bb7eb593c9d987d904455fd25b6dc36"
+    },
+    {
+      "id": "MC-R-02-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-02-0; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "supervision-types"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Микро-, макропруденциальный и поведенческий надзор",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5db73fbf600eb50285d6b0adf792fac5d97bd8678617a542c7552f3c7bcfd8e5"
+    },
+    {
+      "id": "MC-R-02-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-02-1; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "regulation-market-discipline"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Правовая норма и рыночная дисциплина",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "a234030308b05e63edebe8ff4df2936c82b6f66645f634a3bfb348d00d162c67"
+    },
+    {
+      "id": "MC-R-03-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-03-0; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "bank-license"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Операции банка и границы лицензии",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "7aa4b46c5f0ecb886107155dd9c7dbcb3715895d16a4649c8ce33839dcedf93e"
+    },
+    {
+      "id": "MC-R-03-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-03-1; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
+      "goals": [
+        "deposit-insurance"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Вклад и система страхования",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "ca2b7eb2b02ba1f92f51085a3e2147e3571397cfd20a9a7de320bfb66ec6cf5c"
+    },
+    {
+      "id": "MC-R-04-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-04-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "capital-liquidity",
+        "prudential-ratios"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Капитал, LCR, NSFR и ПДН",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "bfca03758af73a57b2882551149bbde644272482a940fcb8a4539f15f02fc7b0"
+    },
+    {
+      "id": "MC-R-04-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-04-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "capital-liquidity"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Платёжеспособность и массовый отток",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "215e0142c78329042e6a2ec3228ff2db48ba6ca8f5f31ba6ff37b084ced2cbd5"
+    },
+    {
+      "id": "MC-R-05-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-05-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "economic-models"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Экономические модели и назначение",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "82f66c8c0c0d44f267cd1c61cf81f022f944f69869995f0d8605d280cd9a956c"
+    },
+    {
+      "id": "MC-R-05-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-05-1; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "market-efficiency",
+        "behavioral-biases",
+        "arbitrage-limits"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "EMH, диспозиция и пределы арбитража",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "4d0eea369010acecfc3b5a0c0197a319c188a56a137384307f5500119a309daa"
+    },
+    {
+      "id": "MC-R-05-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-05-1; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "behavioral-biases"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Диагностика поведенческих механизмов",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b257c61f982343851b413ce244f92be22ac90f9f3c061fda69ee006e87675f1d"
+    },
+    {
+      "id": "MC-R-06-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-06-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "digital-ruble-rights",
+        "token-rights"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Цифровые формы и права",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "656bc97b4c441fd39a1c86aa1fc0d4deeb6e8666b7f06d623c871223bcdbe39a"
+    },
+    {
+      "id": "MC-R-06-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-06-1; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "payment-centres"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Операционный/клиринговый/расчётный центр",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9a82e4665ea1d1e3483cf7cfa1d0eb0c426ac76388aa622aa7cf37b86fad8396"
+    },
+    {
+      "id": "MC-R-06-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории R-06-1; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "payment-finality"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Принятие сообщения и окончательный платёж",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b3eb8071cd982defeceb94b87d4bbefe222ca2df94b487b0247f336b78fa12e2"
+    },
+    {
+      "id": "MC-INS-01-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-01-0; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-contract"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Страховой риск, случай, премия и полис",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "a5a1da23ba646dc7ccbf0d217d3776a1085e56c3ccedc2b7bbb3b7b515a6d378"
+    },
+    {
+      "id": "MC-INS-01-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-01-1; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-deductible"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Франшиза, порог и лимит",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "383e463ea89e9131ee0bd145874b00fab3e0e576c9e330819cbd87912ad9803c"
+    },
+    {
+      "id": "MC-INS-01-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-01-1; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-abandon"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Полная гибель и права на остатки",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "dbfd4fc6f1408fa1aac77f82f2b5ace6e087e8ba173604b07489ab9939356cc1"
+    },
+    {
+      "id": "MC-INS-02-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-02-0; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-specialists"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Роли страховых специалистов",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "3a88434660ef5d53fa539c9820571c3843207c1884675a5ad0a5ac691ce26289"
+    },
+    {
+      "id": "MC-INS-02-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-02-1; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-objects",
+        "insurance-kbm"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "ОСАГО, каско, оформление и КБМ",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "190dfd87d75aa12c5f635e1bc54d3ba4faf78df14beec19e532ffcdcce60a278"
+    },
+    {
+      "id": "MC-INS-03-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-03-0; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-tariff"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Премии, обязательства и финансовый результат",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "d7a039683e59195b0e4034fd92f273f84c64e13bc09e951b582eaf8162404126"
+    },
+    {
+      "id": "MC-INS-03-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-03-0; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "insurance-dependence"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Катастрофическая зависимость портфеля",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "034af2a5c1a797578aba419a54e72e680859eca528afd1070c816159a3b540ca"
+    },
+    {
+      "id": "MC-INS-03-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории INS-03-1; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
+      "goals": [
+        "reinsurance"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Перестрахование, сострахование и удержание",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "006efdf79806cd7aff1ffcb986b8cf4ce9457af5d8a70a4075aeeaa77501334e"
+    },
+    {
+      "id": "MC-PEN-01-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории PEN-01-0; источник и пределы: docs/audits/QUALITY_M16_REVIEW.md.",
+      "goals": [
+        "pension-paygo"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Распределение и накопление пенсий",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "fecaeab52b60172ef8ce508c5872dcc9f3814d3162e53482b35f36b7d0895355"
+    },
+    {
+      "id": "MC-PEN-01-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории PEN-01-1; источник и пределы: docs/audits/QUALITY_M16_REVIEW.md.",
+      "goals": [
+        "pension-eligibility"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Отсутствие стажа/ИПК на общем возрасте",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "58bc1e0a8b7652153f26ce13b61a1f4484248b6dac46867c82a09ab7793022c7"
+    },
+    {
+      "id": "MC-PEN-02-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории PEN-02-0; источник и пределы: docs/audits/QUALITY_M16_REVIEW.md.",
+      "goals": [
+        "pension-roles"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "НПФ, УК и контроль активов",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "ea4cc1a7c65a953ddd3e83331604ac0e21fb4356a93b6f3ed033093a734c7f8b"
+    },
+    {
+      "id": "MC-PEN-02-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "reg",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории PEN-02-1; источник и пределы: docs/audits/QUALITY_M16_REVIEW.md.",
+      "goals": [
+        "pds-access"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Досрочный доступ к ПДС",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "22ba5a2a2a5df093eddcf029988ec7d07abba1873509741296afa91c403c19eb"
+    },
+    {
+      "id": "MC-S1-04-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-04-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "debt-legal-forms"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Долговой ЦФА, вексель и еврооблигация",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "493fb4ca8f97e0386ab281fec80d51e8057a00b7acf1dbcbf4a65f75774b832d"
+    },
+    {
+      "id": "MC-S1-04-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-04-1; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "bond-call",
+        "bond-cashflow"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Call/put, амортизация и реинвестирование",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "6121b6ef83ae569efe53fff73ce65d523a0fc8b30124f172105b1ea0977a9db7"
+    },
+    {
+      "id": "MC-S1-04-1-3",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-04-1; источник и пределы: docs/audits/QUALITY_M14_REVIEW.md.",
+      "goals": [
+        "sustainable-bond"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Зелёный use-of-proceeds против KPI-linked",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "de8782d99041900f39b0846d1b58a130cc4c7b917829d76a4da2f39d36f50b7b"
+    },
+    {
+      "id": "MC-S1-05-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-05-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "securitisation-roles",
+        "tranche-loss"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "True sale, сервисер и waterfall",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9a18505d73f39aa1e24e0250467e13ac2acc167de1f653427fe9b80d666c9d77"
+    },
+    {
+      "id": "MC-S1-05-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-05-0; источник и пределы: docs/audits/QUALITY_M09_REVIEW.md.",
+      "goals": [
+        "securitisation-servicing"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Проблемы оригинатора и просрочка пула",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "54d8cdbc4228ab4750d673c6a4dc62181737f9e06129f29527d3b07c8d89a88a"
+    },
+    {
+      "id": "MC-S1-05-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-05-1; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "tranche-loss"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Потери траншей и средства усиления",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "a0da8fa634cb70590abd567888ba96a341e2210fa17efb4d8dba89d412d1f2a2"
+    },
+    {
+      "id": "MC-S1-06-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-06-0; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "clean-dirty"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Clean/dirty и учёт купона",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b6bc7cf8bca696749c27b0a108c263b5d17f88c7afa6683e7bdeee213d08244a"
+    },
+    {
+      "id": "MC-S1-06-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-06-1; источник и пределы: docs/audits/QUALITY_M12_REVIEW.md.",
+      "goals": [
+        "ytm-realisation"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Держать до погашения и реализованный результат",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "fef5a3f36b3335f1e465fbf576c88caf5dd5494e588e876693522517535dc406"
+    },
+    {
+      "id": "MC-S1-07-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-07-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "duration-dv01"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Дюрация и денежная единица DV01",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5a0684a60dbba7003b3484eaac81aa6df8ca1b22bf725eef2a55468b76d04b47"
+    },
+    {
+      "id": "MC-S1-07-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-07-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "convexity"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Выпуклость и пределы приближения",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0e98d8a3faa5b5afcd35669900b05fd37363a67df9f4484195ec3ba608844538"
+    },
+    {
+      "id": "MC-S1-08-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-08-0; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "benchmark-tr"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Купонный результат и сопоставимый бенчмарк",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9dea699b161bd98203922b5d8a2fd1c2bbaf08bf1e5c890f484b19091b4e73e1"
+    },
+    {
+      "id": "MC-S1-08-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-08-1; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "repo-collateral-liquidity"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Промежуточная ликвидность обеспечения",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "c92b78c40472d3965b9a4cc532774b0b05088b00b163423937b5b4b6ee2b3536"
+    },
+    {
+      "id": "MC-S1-09-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-09-0; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "z-spread",
+        "credit-spread-metrics"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "G/Z/OAS и кредитные метрики",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "e5f03b53ef3a9cdc4315f4d28789f501616b759d36f170722986b71d538244a6"
+    },
+    {
+      "id": "MC-S1-09-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-09-0; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "credit-spread-price"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Расширение спреда без движения ключевой",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0fce8101b9ef42cad679c0c067d5d62f6988bba0053fe84829acf4b2dcf91e2b"
+    },
+    {
+      "id": "MC-S1-09-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-09-1; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "rating-group",
+        "rating-issue"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Собственная оценка, поддержка и рейтинг выпуска",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "c4f4bd0dec0502e6dc3fa0cc40687216214c18d947b9971b9957584490d5614b"
+    },
+    {
+      "id": "MC-E-01-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-01-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "preferred-rights"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Права обыкновенных и привилегированных акций",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9eb323c9d7ec4d700f44512f9b6dae33b239095219eac066035731c0b5368203"
+    },
+    {
+      "id": "MC-E-01-0-3",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-01-0; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "equity-dilution",
+        "eps-dilution"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Допэмиссия, EPS и стоимость",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "aea8edf3b2a1101670bf60a0fbd8a9446fe5f31a29d0a62fb50c94aecb3121ac"
+    },
+    {
+      "id": "MC-E-01-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-01-1; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "ipo-capital-flows",
+        "equity-split"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "IPO/SPO, cash-in/out и split",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0ad8c44768b0af983a58ab81891d710754ad53a909ade7947ccc5a0b0642eeff"
+    },
+    {
+      "id": "MC-E-02-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-02-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "eps-nonrecurring"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Разовая прибыль и мультипликатор",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2304101c734cff02176132893518cf281763868deb0f93587418fee72a4676fd"
+    },
+    {
+      "id": "MC-E-02-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-02-1; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "ev-perimeter",
+        "multiples-comparability",
+        "multiples-meaning"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Периметр EV, EBITDA и отрицательных баз",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "ba345e869c42042a3332444c97967db406586e91f51ca6fe241131313d168dbe"
+    },
+    {
+      "id": "MC-E-03-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-03-0; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "dividend-yield",
+        "dividend-dates"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Дивидендные показатели и события",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9f05bbd0636279965dd022435217ae079d31e236bb9d5afbaf35a235a2fc0875"
+    },
+    {
+      "id": "MC-E-03-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-03-1; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
+      "goals": [
+        "dividend-dates"
+      ],
+      "reveals": [
+        "dividend-dates"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Условный календарь T+1",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "cc69eb30d79204eae60ccab39432d5d409443c5f5d2671025778c82fee73f72f"
+    },
+    {
+      "id": "MC-E-04-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-04-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "fund-nav",
+        "fund-roles"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "СЧА, цена пая и роли инфраструктуры",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "de7530081a65e0e60470f0d108aabdb1f0d23823d271b9287a632974c682b880"
+    },
+    {
+      "id": "MC-E-04-0-3",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-04-0; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "fund-bond-mark"
+      ],
+      "reveals": [
+        "fund-bond-mark"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Купоны и снижение СЧА",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "978457c619e36e0cc4dd9f2c246bcbe9de17248b14975da3b224c7438e8e5662"
+    },
+    {
+      "id": "MC-E-04-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-04-1; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "tracking-error",
+        "index-weight-contribution",
+        "fund-costs"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Знак вклада, веса и tracking error",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "3b97a4742e7996418804f6be40501afd75e25f80d934add04d4179027a8afb6f"
+    },
+    {
+      "id": "MC-E-05-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-05-0; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "portfolio-beta"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Бета, корреляция и вырожденная база",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "6e5ef1ff63684148ebb418feb74be92f2c1ea2b15f7d44450f3605f24c374b75"
+    },
+    {
+      "id": "MC-E-05-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-05-1; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "investment-liability"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Короткий валютный платёж и рублёвые акции",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "cc2391e6d37beefb9d9ded74bcc9b5fb4cf603c48c5e312eaf313c12495334dc"
+    },
+    {
+      "id": "MC-E-06-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-06-0; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "corporate-governance"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Компетенции и независимость органов",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "95613189988c820982510fd54c5faf19f5a29e9e577720be63c72a3fc10b506d"
+    },
+    {
+      "id": "MC-E-06-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-06-1; источник и пределы: docs/audits/QUALITY_M11_REVIEW.md.",
+      "goals": [
+        "free-float-turnover",
+        "free-float-definition"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Free-float, оборот и номинальное держание",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "8bd7c321bca478063d76b6efca01a86128ea8a870a1101a54cec48b37f901ebe"
+    },
+    {
+      "id": "MC-E-07-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-07-1; источник и пределы: docs/audits/QUALITY_M12_REVIEW.md.",
+      "goals": [
+        "ipo-procedure",
+        "ipo-demand"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Книга, аллокация, ограничения и стабилизация",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0f02def6cfa81b767fb3e7a9b3c8c643e164e9a671c7c4ca77ab2b9cf9d35a01"
+    },
+    {
+      "id": "MC-E-08-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-08-0; источник и пределы: docs/audits/QUALITY_M12_REVIEW.md.",
+      "goals": [
+        "ddm-gordon"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Сходимость и датировка Гордона",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "1dc34bc5bf583540e1a6813e4b19b825e5781c2d4465a6db55b761b9731ad8ee"
+    },
+    {
+      "id": "MC-E-08-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-08-1; источник и пределы: docs/audits/QUALITY_M12_REVIEW.md.",
+      "goals": [
+        "ddm-terminal"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Датировка терминала DDM",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "415c754098065d5cf41f7962dffef25eeb30079429e9eae938be1e79fc63d3e6"
+    },
+    {
+      "id": "MC-E-09-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-09-0; источник и пределы: docs/audits/QUALITY_M12_REVIEW.md.",
+      "goals": [
+        "index-divisor",
+        "free-float-weight",
+        "free-float-definition"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Капитализационная база и делитель",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "f933bf0bdd7afe950f59a4969736cb966fcb896f2c4fc2a7e623754a11c3c75b"
+    },
+    {
+      "id": "MC-E-09-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-09-1; источник и пределы: docs/audits/QUALITY_M12_REVIEW.md.",
+      "goals": [
+        "benchmark-tr"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Налоговые и валютные версии TR",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "272e30629350913a8a0b09227e9e35386db1110635713d49b170f22f4342d6c8"
+    },
+    {
+      "id": "MC-E-10-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-10-0; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "portfolio-correlation"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Корреляция двухактивного риска",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b6aac7ab4f75186cba512b1ea0d0a60730d771b9a22b70906ff7ecb4e0d4a39f"
+    },
+    {
+      "id": "MC-E-10-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-10-1; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "efficient-frontier"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "GMV и эффективная граница",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0783465bd85b84adc68aaa4f672652265cc40ffeae78a6d6a03ce0f0aef2f76b"
+    },
+    {
+      "id": "MC-E-11-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-11-0; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "capm",
+        "portfolio-beta"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "CAPM, остаточный риск и согласованный Rf",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "aac7c521c838736f8a3ee1425735b13df9a7fd3147a7c352725ca72a24e088d1"
+    },
+    {
+      "id": "MC-E-11-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-11-1; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "sharpe-sortino",
+        "drawdown-path"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Downside deviation и последовательность просадки",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "8fef5a80eb6b992a7b224c499b4b19dc98fe6bbc501fe8b7fef6e4f8348fc574"
+    },
+    {
+      "id": "MC-E-12-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-12-0; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "ohlc"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "OHLC, путь цены и прогноз",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9538aff78b0354055c77986334dcb19c410d6e31ec190d88018a4e0889b90e5b"
+    },
+    {
+      "id": "MC-E-12-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-12-0; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "backtest-leakage"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Заглядывание вперёд в свечном сигнале",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5719b3c0d694a322e225aa976ae7ba08e0e4b57b296239e9b1de21d382f9f039"
+    },
+    {
+      "id": "MC-E-12-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "equity",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории E-12-1; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
+      "goals": [
+        "dow-axioms",
+        "dow-phases"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Теория Доу и границы исторического описания",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "ceb4aa9a5ab84fb65da9aa5fa03cba0c9b96380c635ee506e1a2c05f57825595"
+    },
+    {
+      "id": "MC-S2-01-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-01-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "derivative-rights",
+        "option-rights"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Права, номинал и плечо ПФИ",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "8a7f3fe8feed949fa910e12b3a7a8fb133d2103488981259618a86c759eec03b"
+    },
+    {
+      "id": "MC-S2-01-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-01-1; источник и пределы: docs/audits/QUALITY_M16_REVIEW.md.",
+      "goals": [
+        "otc-counterparty"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "OTC, ЦК и денежные требования",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "b348c990288c14c1c7617932022188baa8567d90a1bc4c952a1b6f70b9ec0da8"
+    },
+    {
+      "id": "MC-S2-02-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-02-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "futures-liquidity",
+        "collateral-vm"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Ликвидность по пути фьючерсной позиции",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "37879d83c5e64b8ef285d36e648beabe981b40d73c33354a0f74d4288bb0246d"
+    },
+    {
+      "id": "MC-S2-02-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-02-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "basis-roll"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Знак базиса и ролловер",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "c5222d927d52db38c98ed256b90fcd8266e8b68ff71b8c981ee0e66bf89c384c"
+    },
+    {
+      "id": "MC-S2-03-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-03-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "reverse-carry"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Исполнимость обратного арбитража",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "d5408ad9529f69fb4c7e10313087cabe8be683f183cfecff5029df4b714cc46d"
+    },
+    {
+      "id": "MC-S2-03-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-03-1; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "funding-accounting"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Недопущение двойного учёта funding",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "e7e4ae50bd38070d70919a65a46a6e0e2ae6449cc7de9bac1e2099f005992656"
+    },
+    {
+      "id": "MC-S2-04-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-04-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "fx-delivery"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Покупка валюты и поставка",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "5085bd9d8bec0de866cf14094b4880740b105a3a5bccb5abb8c779627234aea9"
+    },
+    {
+      "id": "MC-S2-04-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-04-1; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "fx-option-vs-forward"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Форвард и купленный валютный call",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "1fb94638c50b51b1ae05a83347b57f1f581ddaa6c04ed4617d534859038250e0"
+    },
+    {
+      "id": "MC-S2-05-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-05-0; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "ksu-rights",
+        "collateral-haircut"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Переоценка пула КСУ",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "2a88e55532706ced98f8cf01d1a2de37ed5511c489f64c2e289fe7925d23980e"
+    },
+    {
+      "id": "MC-S2-05-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-05-1; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "rate-indicators"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "RUONIA, RUSFAR и срочная ставка",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "6bec612a41e3e6a06104fa19fbae82c91c82f6aa4abd14616e4474f1d121bbbf"
+    },
+    {
+      "id": "MC-S2-05-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-05-1; исходные документы и слайды указаны в учебном блоке.",
+      "goals": [
+        "floater-reset"
+      ],
+      "reveals": [
+        "floater-reset"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Флоатер после фиксации купона",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "328b0d7fd698e08713212d1186e8e4c964f8e8550816e018d2071a1c7e6ac9bf"
+    },
+    {
+      "id": "MC-S2-06-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-06-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "swap-types",
+        "fx-swap-flows"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Различия IRS, FX swap, OIS и CDS",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "288c37fd4df1ff30da172ce47e64ca840544c8c534b76a0a0660c3a90d7f3b55"
+    },
+    {
+      "id": "MC-S2-06-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-06-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "irs-fix-credit",
+        "irs-residual"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "IRS против плавающего кредита",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "c7e67f0fb03a1e63e783e6f6b90b8318e9da33c1cbe2a7c0b6d07f5217ed7a69"
+    },
+    {
+      "id": "MC-S2-06-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-06-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "asw-structure",
+        "asw-residual"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Облигация плюс IRS: несовпадения и риск",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "47788434bfbb0ea84b6dd3127972563e5c9cc38d1fbe82534aed440f76932f95"
+    },
+    {
+      "id": "MC-S2-07-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-07-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "volatility-units"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Единицы и предпосылки волатильности",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "6aa0d18a7c28245425ea39254c87a0555f876d51a2b8dbc0f438aeb505a2404a"
+    },
+    {
+      "id": "MC-S2-07-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-07-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "cross-hedge"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Кросс-хедж и новый логистический шок",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "bc29789e3feadd7c7d4cb50bdf8af36897a03700601950e37424e4064bbba616"
+    },
+    {
+      "id": "MC-S2-07-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-07-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "var-interpretation",
+        "var-tail"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "VaR и хвост распределения",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "ddafd734d59359a8595fcfa3cb1533c053f7207355fb9242acceb99b6e137f78"
+    },
+    {
+      "id": "MC-S2-08-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-08-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "hedge-ratio-units"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Размер линейного хеджа и единицы",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "58ca066275a991a3894a2aeb68e5c999948f46b9058987a47ba4675d61b682c5"
+    },
+    {
+      "id": "MC-S2-08-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-08-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "hedge-effectiveness"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Эффективность хеджа и условия модели",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "0d3826d074a4269345ef4fb5261851665484b3d48e37b1a9b754650695e86f42"
+    },
+    {
+      "id": "MC-S2-09-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-09-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "option-rights"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Право опциона и режим расчётов",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "e4ba9e5ff519d96a4d083a05883309b46151f2c4c65a237df019da523abe9c6c"
+    },
+    {
+      "id": "MC-S2-09-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-09-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "protective-put"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Защитный put к акции",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "6e0755c6baef9b2d5b92a96bc10c8d74d5436aee55271b08f34b1ee263bab48c"
+    },
+    {
+      "id": "MC-S2-09-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-09-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "option-spreads"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Опционные комбинации",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "d1263d396ed2c463c2df938f0bbbf6a28a338028cc5a36780661a3424723dd0c"
+    },
+    {
+      "id": "MC-S2-09-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-09-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "straddle-cost",
+        "option-vega"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Премии и стоимость стрэддла",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "e7728621424baa0069eb5bbe2b8d7dbf9ec1b9d8a6c37e84921c23021667dc0f"
+    },
+    {
+      "id": "MC-S2-10-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-10-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "put-call-parity",
+        "implied-volatility"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Put-call parity и модель IV",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "51d898c1469ee6b6e26fda928fa512c9383115c69e853a10e9d2ac7a27648e0f"
+    },
+    {
+      "id": "MC-S2-10-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-10-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "option-greeks",
+        "delta-neutral",
+        "option-vega"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Греки: локальность и единицы",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "14e4fd36a079908eb7a20e1e27ef3f2bd91347eeae67981f1f3ba823c3a756cd"
+    },
+    {
+      "id": "MC-S2-10-1-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-10-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "delta-neutral"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Многофакторная переоценка нейтрального портфеля",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "9d04aeea91cd6acdb90b2586884620b16fb9a76b2c3181c31d0b4b31ea620f35"
+    },
+    {
+      "id": "MC-S2-11-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-11-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "note-budget",
+        "note-credit"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Защита капитала и условный купон",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "8d23d45232f0b741065645687c06fde206afdd3fb77faaf119da154d66693fdb"
+    },
+    {
+      "id": "MC-S2-11-0-2",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-11-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "note-exit"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Досрочный выход из защищённого продукта",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "c3d186b121dbb6fb86888e96fb13432974d74034e173af359020c91a3a35200c"
+    },
+    {
+      "id": "MC-S2-11-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "deriv",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S2-11-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "barrier-autocall"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Траектория барьера и autocall",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "adacbca7ebcf99c060f1cbcb321f5572e144cd500c2d963fc41b91bbde5cfa23"
+    },
+    {
+      "id": "MC-S1-10-0-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-10-0; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "curve-dv01"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Пределы суммарной DV01-нейтральности",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "09a084f57f24a6304dda2286d8aea856adc32f36a099386d9b32110bca934824"
+    },
+    {
+      "id": "MC-S1-10-1-1",
+      "cohort": "P1_reviewed_MC",
+      "section": "debt",
+      "type": "multi",
+      "source": "Авторское задание по изложенной теории S1-10-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
+      "goals": [
+        "carry-structure",
+        "asw-structure"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Cash-and-carry против ASW",
+      "rubric_unchanged": false,
+      "runtime_before_sha256": "3fc007eab64aed22b7610f86660539e67641736fef3822deb802a663b5aa3c81"
+    },
+    {
+      "id": "RO01",
+      "cohort": "existing_open_unchanged",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, с. 38–49",
+      "goals": [
+        "regulatory-arbitrage"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Почему регулирование одинаковых финансовых операций только по типу организации может приводить к регуляторному арбитражу?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "76fcb4819d7cb437a5c4999fb63ba00d23023d20b3dbdde612ef3e0e7bf439d7"
+    },
+    {
+      "id": "RO02",
+      "cohort": "existing_open_unchanged",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, с. 30–34, 60–63",
+      "goals": [
+        "regulation-supervision"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "В чём отличие регулирования от надзора Банка России?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "2bd0ec59aeee1e1f8968461f3afa8319ba7784e1d27fbd65f0eb719bfa2727db"
+    },
+    {
+      "id": "RO03",
+      "cohort": "existing_open_unchanged",
+      "section": "reg",
+      "type": "open",
+      "source": "Кредитная система, с. 9–11",
+      "goals": [
+        "capital-liquidity"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Почему для банка важны одновременно достаточность капитала и ликвидность?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "430283299a4f94b350179ddea7ac84b22aae420d09b601d89768e54d83a50f81"
+    },
+    {
+      "id": "RO07",
+      "cohort": "existing_open_unchanged",
+      "section": "reg",
+      "type": "open",
+      "source": "Лекции 1–2, с. 21–29, 35–49",
+      "goals": [
+        "client-firm-risk"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "lecture",
+      "requires_calculation": false,
+      "admission_basis": "Почему при оценке финансового продукта важно различать риск клиента и риск финансовой организации?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "12384e173f68b08f351ba9651530cfe94e3b8e55d5b60a9bfa7c661f96e91ff6"
+    },
+    {
+      "id": "Q05",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 103–107; Семинар 2, с. 84 (упоминание)",
+      "goals": [
+        "convexity"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Доходность облигации резко изменилась, и оценка новой цены, сделанная через модифицированную дюрацию, оказалась неточной: фактическая цена изменилась благоприятнее для держателя. Почему?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "19f990b34855c96c25eff2ffc3a22548a21b8515c688b7eba17695c7e605bbec"
+    },
+    {
+      "id": "Q06",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 93–94; Семинар 2, с. 3–4 (упоминание)",
+      "goals": [
+        "benchmark-tr"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Управляющего портфелем облигаций просят выбрать бенчмарк для оценки результатов его работы. Ему предлагают два индекса: RGBI и RGBITR. К какому искажению в оценке работы управляющего приведёт выбор одного из них, какого?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "ae49095754af32a7c2f1ff53d72520282ebb0f628c0b0edd1262749c4da90946"
+    },
+    {
+      "id": "Q07",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 138–140",
+      "goals": [
+        "rating-group"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "«Дочка» крупного устойчивого холдинга имеет посредственные собственные финансовые показатели. Её итоговый рейтинг заметно выше оценки собственной кредитоспособности. Почему? Может ли быть обратная ситуация?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "ba89d0feb5abccbacc53eaac73a093fd5cd8151df279e0bd4debc6182328c82c"
+    },
+    {
+      "id": "Q13",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 111, 114, 117",
+      "goals": [
+        "credit-spread-metrics"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Какие элементы используются для оценки кредитного спреда облигации, что они показывают?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "9791ce9b5cf5f4c8ec48ff96aeaf410cd88ebdb84d1003a8fe41575aef2947c2"
+    },
+    {
+      "id": "Q14",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 78–80",
+      "goals": [
+        "tranche-loss"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "SPV выпускает облигации под пул кредитов среднего качества, часть облигаций получает инвестиционный рейтинг — выше качества большинства кредитов пула. Из-за какого фактора и как этот фактор работает?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "86d7811449fac5b118f55f6ef1cb5a72c0eee63bcab4209e3be05dc792171c28"
+    },
+    {
+      "id": "Q15",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 10, 95, 117; Семинар 2, с. 49–50",
+      "goals": [
+        "rate-indicators"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Ставка межбанковского кредитования (RUONIA) систематически держится выше ставки РЕПО-фондирования (RUSFAR). Почему?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "9bbae35260179ad3b26a299782539c5d561ba54306d4978068402146b90eb472"
+    },
+    {
+      "id": "Q16",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 68",
+      "goals": [
+        "bond-call"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Выпуск облигаций содержит колл-оферту. В какой рыночной ситуации она будет использована? Что при этом получит и что потеряет держатель облигации?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "b0216a13209a4d2a4aaa606835de263f51ec3d128054e31edf83dafb52192afa"
+    },
+    {
+      "id": "BO01",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 95–103",
+      "goals": [
+        "bond-price-yield"
+      ],
+      "reveals": [
+        "bond-price-yield"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "YTM облигации выросла при неизменных ожидаемых платежах. Как изменилась её цена и означает ли это рост фиксированной купонной ставки?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "e66e7f5ab7aa793114ce37e1038256270bf1d233f9d193f122f5d893bfd0f7ce"
+    },
+    {
+      "id": "BO02",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 100–103",
+      "goals": [
+        "coupon-duration"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Инвестор сравнивает две облигации с одинаковой доходностью и сроком. Их купоны различаются. У какой обычно выше дюрация и почему?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "02eb361fbb2742608eae4dd4c35d0b1b72718844366fee84516ad80f134c3406"
+    },
+    {
+      "id": "BO05",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1, с. 110–114; Семинар 2, с. 22–28",
+      "goals": [
+        "repo-collateral-liquidity"
+      ],
+      "reveals": [
+        "repo-collateral-liquidity"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Залоговые облигации в РЕПО резко подешевели до обратной сделки. Как это может изменить требования к обеспечению и чем опасна нехватка свободных денег?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "48698386876053d3f4d9bfb1462d34f773216dd992ad08970adb45608d4c4404"
+    },
+    {
+      "id": "V2-034",
+      "cohort": "existing_open_unchanged",
+      "section": "debt",
+      "type": "open",
+      "source": "Семинар 1: облигации, секьюритизация и денежный рынок",
+      "goals": [
+        "floater-residual"
+      ],
+      "reveals": [
+        "floater-reset"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Инвестор купил флоатер с купоном RUONIA + 2%. Какие два риска сохраняются, несмотря на привязку купона к ставке?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "bcdc2b4eb498bf5c3acb9c3d21729cc41dafcfd999590019e7c3b5bf79466bbc"
+    },
+    {
+      "id": "EO03",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар № 3 (акции), слайды 8–75; лекции 4–5 (эмитенты и инвесторы), слайды 2–31; учебное применение темы.",
+      "goals": [
+        "equity-dilution"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Как дополнительная эмиссия акций может одновременно привлечь капитал и снизить долю прежнего акционера?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "14a76c41ec675396c2fea3b34ded9d2a3d32214e9d190858968609be8a275990"
+    },
+    {
+      "id": "EO04",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар № 3 (акции), слайды 8–75; лекции 4–5 (эмитенты и инвесторы), слайды 2–31; учебное применение темы.",
+      "goals": [
+        "equity-total-return",
+        "benchmark-tr"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В чём отличие полной доходности владения акцией от её ценовой доходности на одном горизонте?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "9000cbd56a0194a2ee352ad21706dbdbc03349711bcbea602df9e08e09599a55"
+    },
+    {
+      "id": "EO05",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар № 3 (акции), слайды 8–75; лекции 4–5 (эмитенты и инвесторы), слайды 2–31; учебное применение темы.",
+      "goals": [
+        "multiples-meaning"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Зачем в сравнительном анализе компаний используют сразу P/E, P/BV и EV/EBITDA?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "b7005b36cbbbfab739326c080e21ea5f949f7c27b7470dc1091de3ffe9a4da84"
+    },
+    {
+      "id": "EO06",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар № 3 (акции), слайды 8–75; лекции 4–5 (эмитенты и инвесторы), слайды 2–31; учебное применение темы.",
+      "goals": [
+        "sector-concentration"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Чем концентрация риска отраслевого фонда отличается от широкого рыночного фонда и какой риск сохраняется у обоих?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "f81430c5550c4926e577b55c398ba71c2897cbe5498c8f7abffd1d0990b539d8"
+    },
+    {
+      "id": "EO07",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар № 3 (акции), слайды 8–75; лекции 4–5 (эмитенты и инвесторы), слайды 2–31; учебное применение темы.",
+      "goals": [
+        "benchmark-tr",
+        "fund-costs"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Зачем результат фонда сравнивать с сопоставимым бенчмарком и учитывать комиссии?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "ce442e16d49972dba9a3faa8058f18e68d2f0a99411091ae6ee778ed0954ad76"
+    },
+    {
+      "id": "EO08",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Семинар № 3 (акции), слайды 8–75; лекции 4–5 (эмитенты и инвесторы), слайды 2–31; учебное применение темы.",
+      "goals": [
+        "investment-liability"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Чем ограничено индексное инвестирование в акции, если фиксированная сумма понадобится через три месяца?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "91001f9ad5394d28e89863a961d202c30e5ac712ec2c2b2f13aa71dc7952af5f"
+    },
+    {
+      "id": "S3-005O",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Дополнительная практика к семинару 3 (самостоятельная редакция)",
+      "goals": [
+        "ddm-gordon"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Почему при положительных растущих дивидендах нельзя получать конечную цену из стандартной вечной модели Гордона при r≤g?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "c5145558b13f65b70217fdc6aaba1a88bf24d52954a4fcf074e0e8dd3f0099d6"
+    },
+    {
+      "id": "S3-006O",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Дополнительная практика к семинару 3 (самостоятельная редакция)",
+      "goals": [
+        "ddm-terminal"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "В двухфазной DDM явные дивиденды заданы до года N. Какие две проверки нужны для границы фаз и приведения терминала к дате 0?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "e3fb4cd29cbd29afb19f42d266d7aa420141767e8fa3a54160c73f2d31b8c2ed"
+    },
+    {
+      "id": "S3-009O",
+      "cohort": "existing_open_unchanged",
+      "section": "equity",
+      "type": "open",
+      "source": "Дополнительная практика к семинару 3 (самостоятельная редакция)",
+      "goals": [
+        "portfolio-correlation"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "У двух портфелей одинаковые положительные веса и волатильности отдельных активов, но у второго ниже корреляция доходностей. Почему совокупный риск может быть меньше и что ограничивает вывод?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "ca0b5e94ca79dcfd06c19537763d3d92280ded72c72ef41ef90f7d54ef07e75c"
+    },
+    {
+      "id": "Q09",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, с. 167–169; Семинар 2, с. 49–52 (основы ставок)",
+      "goals": [
+        "asw-structure",
+        "asw-residual"
+      ],
+      "reveals": [
+        "asw-structure"
+      ],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Инвестор держит облигацию с фиксированным купоном и заключает своп «платим фиксированную ставку — получаем RUONIA». Каким станет его итоговый доход и какой риск у него при этом остаётся?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "05fb1a6dc8965ebe159208678984e1f6cb29644b9bb0c68fb5f66ab0bfa77df6"
+    },
+    {
+      "id": "Q10",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, с. 154, 163–166; Семинар 2, с. 28, 74",
+      "goals": [
+        "carry-structure",
+        "carry-residual"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Трейдер купил облигацию, профинансировал покупку через РЕПО и продал фьючерс на неё. Эта конструкция выглядит безрисковой арбитражной сделкой. Действительно ли это так? Назовите причину (одну или несколько), по которой она может принести убыток.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "a4542d838f2b4b4be5763decd3932fef32a86e499be2bf71d65c7c20c9de64ae"
+    },
+    {
+      "id": "Q11",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, с. 167–168",
+      "goals": [
+        "asw-structure"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Перечислите основные элементы asset swap package.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "17f1c28de2057bb06590358fcd4fbed427f6e5200d8c25e8fcc7cfb367617473"
+    },
+    {
+      "id": "Q12",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, с. 163–166; Семинар 2, с. 28",
+      "goals": [
+        "carry-structure"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Перечислите основные элементы стратегии cash-and-carry на облигационном рынке.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "53c5b2f904d68956772cc54a68c01fe564bdad31ed890581f9a320e7385771d9"
+    },
+    {
+      "id": "PO01",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, с. 73–83",
+      "goals": [
+        "fx-hedge-direction"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Импортёр должен купить 1 млн долларов через 3 месяца и боится роста USD/RUB. Объясните направление фьючерсного хеджа и его ограничение.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "03a1fbafc643d02d2956e9ba141873cc61c9bc875354b3502c8624c1496251d1"
+    },
+    {
+      "id": "PO02",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, с. 85–99",
+      "goals": [
+        "protective-put"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Почему при покупке опциона put инвестор сохраняет потенциал роста актива и платит премию за защиту?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "21f386327b7befbf874a4d3b8071da84a1832f0b265a8fa7c5f4edafd0c21e56"
+    },
+    {
+      "id": "PO04",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, с. 103–109",
+      "goals": [
+        "delta-neutral"
+      ],
+      "reveals": [],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Почему длительное удержание дельта-нейтральной опционной позиции не гарантирует нулевого рыночного риска?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "286899e53d6522c65e98e720d3bce7e8bcc2002cdfc0c63422b47ad97aab4d0e"
+    },
+    {
+      "id": "PO06",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2, с. 73–99",
+      "goals": [
+        "fx-option-vs-forward"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Почему компания может предпочесть опцион фьючерсу для хеджирования будущей закупки?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "01a34cb12b09e548f1ffe9baeb3e9901b1119cabbfad92008e7efbf899b3b9b0"
+    },
+    {
+      "id": "PO07",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 1, с. 167–170",
+      "goals": [
+        "asw-residual"
+      ],
+      "reveals": [
+        "asw-structure"
+      ],
+      "taskKind": "knowledge",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "После преобразования фиксированного купона корпоративной облигации в RUONIA + спред через asset swap назовите главный сохраняющийся риск эмитента и объясните хотя бы один другой остаточный риск пакета.",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "9d2b0cbeeae95f1190bcfd2dce23037f4850e20aaa57a231edf168377029bb24"
+    },
+    {
+      "id": "V2-070",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2: ПФИ, денежный и валютный рынки",
+      "goals": [
+        "futures-liquidity"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Фьючерсное хеджирование показывает положительный расчётный итог к дате исполнения. Участник закрыл позицию досрочно с убытком. Как это возможно?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "09862c62975cfb75cc5de762faa29adecccba6e4460abaaa47a0b0cc37840960"
+    },
+    {
+      "id": "V2-072",
+      "cohort": "existing_open_unchanged",
+      "section": "deriv",
+      "type": "open",
+      "source": "Семинар 2: ПФИ, денежный и валютный рынки",
+      "goals": [
+        "cross-hedge"
+      ],
+      "reveals": [],
+      "taskKind": "case",
+      "sourceGroup": "seminar",
+      "requires_calculation": false,
+      "admission_basis": "Компания продаёт товары по цене, зависящей от нефти, и хочет зафиксировать минимальную выручку. Почему использование фьючерса на другую марку нефти не даёт идеальный хедж?",
+      "rubric_unchanged": true,
+      "runtime_before_sha256": "fe122fe8a43a83ec34a3cc67bd57a8b0e030aadfebfbf9ad5dffec2eac7e162f"
+    }
+  ],
+  "classification_note": "Редакционная классификация знаний и кейсов, не официальная спецификация; тексты и рубрики открытых ответов неизменны."
+}

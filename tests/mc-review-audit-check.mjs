@@ -37,12 +37,19 @@ for(const r of matrix.records){
  else assert.equal(sha(stable(q)),r.review.after_question_sha256,'Changed question differs from reviewed version '+q.id);
 }
 if(matrix.status==='COMPLETED')assert.equal(reviewed.length,249,'Cannot accept partial P1');
-// Only release labels/cache queries may change in HTML. Open UI, scoring, all rubrics and historical content stay exact.
+// P2 authorizes exactly one metadata adapter and script, besides release labels.
+// Normalize those two explicit changes; open UI/scoring/rubrics remain exact.
 const html=read('index.html'),version=html.match(/name="trainer-version" content="([^"]+)"/)[1];
-const normalized=html.replaceAll(version,'__VERSION__').replace('assets/exam-practice.js?v=__VERSION__','assets/exam-practice.js');
+const normalized=html.replaceAll(version,'__VERSION__').replace('assets/exam-practice.js?v=__VERSION__','assets/exam-practice.js').replace('<script src="assets/exam-admission.js?v=__VERSION__"></script>\n','').replace('.map(q=>ExamAdmission.prepare(FinanceReview.question(q)))','.map(q=>FinanceReview.question(q))');
 assert.equal(sha(normalized),baseline.index_normalized_sha256,'Changes beyond release labels/cache in index.html');
 assert.equal(sha(read('versions/index.html').replaceAll(version,'__VERSION__')),baseline.versions_normalized_sha256,'Unexpected version chooser change');
-for(const [p,h]of Object.entries(baseline.sha256))if(!['index.html','assets/exam-practice.js','assets/exam-alignment.js'].includes(p))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Protected application changed '+p);
+for(const [p,h]of Object.entries(baseline.sha256))if(!['index.html','assets/exam-practice.js','assets/exam-alignment.js','assets/exam-profile.js'].includes(p))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Protected application changed '+p);
+const profileGuard=json('T33_P2_PROFILE_GUARD.json'),profile=read('assets/exam-profile.js');
+assert.equal(sha(profile.slice(profile.indexOf(' function summary('),profile.indexOf(' root.ExamProfile='))),profileGuard.summary_source_sha256,'Open/closed grading must remain byte-identical');
+assert.equal(profileGuard.summary_function_sha256,json('T33_P2_BASELINE.json').summary_function_sha256);
+let selectionNormalized=profile.replace(/revision='[^']+'/,'revision=\'__REVISION__\'').replace(/ function metadata\(q\).*?\n/,'__METADATA__\n');
+selectionNormalized=selectionNormalized.slice(0,selectionNormalized.indexOf(' function choose('))+'__CHOOSE__\n'+selectionNormalized.slice(selectionNormalized.indexOf(' function summary('));
+assert.equal(sha(selectionNormalized),profileGuard.outside_selection_sha256,'Only profile revision/metadata/selection may change');
 // An explicit MC revision must not permit changes to the 50 open records, lessons or module logic.
 const alignmentGuard=json('T33_ALIGNMENT_REVISION_GUARD.json');
 assert.equal(alignmentGuard.original_file_sha256,baseline.sha256['assets/exam-alignment.js']);

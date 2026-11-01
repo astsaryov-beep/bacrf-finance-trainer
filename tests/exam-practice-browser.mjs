@@ -15,6 +15,9 @@ try{
  assert.equal(await page.evaluate(id=>studyData.blocks['S2-04_1'].answers[id].score,id),1);
  await page.evaluate(()=>{tab='quiz';render();});
  await page.locator('#mode').selectOption('exam');await page.locator('#start').click();
+ // Reproducible expanded-pool ticket through the actual runtime bank; the
+ // following UI/self-assessment/export/reload tests exercise reused open tasks.
+ await page.evaluate(()=>{const selected=ExamProfile.choose(EFFECTIVE_BANK,0);if(selected.error)throw new Error(selected.error);session.ids=selected.items.map(q=>q.id);session.orders=selected.orders;session.examProfile=selected.profile;persist();render();});
  const counts=await page.evaluate(()=>({n:session.ids.length,open:session.ids.map(id=>BANK_MAP.get(id)).filter(q=>q.type==='open').length,multi:session.ids.map(id=>BANK_MAP.get(id)).filter(q=>q.type==='multi').length,bad:session.ids.map(id=>BANK_MAP.get(id)).filter(q=>q.numeric||q.type==='single'||['BO03','EO01','PO03','V2-032','V2-050','V2-068'].includes(q.id)).length}));assert.deepEqual(counts,{n:50,open:25,multi:25,bad:0});
  await page.evaluate(()=>{session.pos=session.ids.findIndex(id=>BANK_MAP.get(id).type==='multi');render();});assert.ok(await page.locator('input[name="qoption"][type="checkbox"]').count()>1);
  await page.screenshot({path:resolve(root,'test-artifacts','exam-multi-desktop.png')});
@@ -26,7 +29,7 @@ try{
  assert.equal(await page.locator('[data-question-theory]').count(),0,'unfinished mock does not reveal theory links');
  const writtenId=await page.evaluate(()=>{
   for(const id of session.ids){const q=BANK_MAP.get(id);if(q.type==='multi')session.responses[id]={choice:q.correct.slice(),confidence:2};}
-  const id=session.ids.find(id=>BANK_MAP.get(id).type==='open');session.responses[id]={text:'Исходный ответ до показа образца.',confidence:1};session.pos=session.ids.indexOf(id);persist();render();return id;
+  const id=session.ids.find(id=>BANK_MAP.get(id).type==='open'&&ExamAdmission.entries[id]?.examEligible);if(!id)throw new Error('Expanded mock must exercise a reused open answer');session.responses[id]={text:'Исходный ответ до показа образца.',confidence:1};session.pos=session.ids.indexOf(id);persist();render();return id;
  });
  await page.locator('#endEarly').click();page.once('dialog',d=>d.accept());await page.locator('#submitExam').click();
  assert.equal(await page.evaluate(()=>ExamProfile.summary(session,BANK_MAP).verified),25);
