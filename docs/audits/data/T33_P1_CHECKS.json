@@ -185,8 +185,17 @@
     "head": "c220f8bf040dec272861eece7513f704076af31f",
     "verify": "PASS",
     "core_browser": "PASS_9_PROGRAMS",
-    "course_browser": "IN_PROGRESS_AT_SCENARIO_FIX",
-    "route_browser": "IN_PROGRESS_AT_SCENARIO_FIX"
+    "course_browser": "FAIL_TEST_SELECTOR_FOR_NATIVE_SURFACE",
+    "route_browser": "PASS_2_PROGRAMS"
   },
-  "browser_scenario_fix": "Static inspection found that the two edited alignment cards use the native aligned exercise surface, while40old cards use supplemental details. The browser test now navigates and grades each through its actual existing UI. No app/UI changes. Fresh fullCI required."
+  "browser_scenario_fix": "Static inspection found that the two edited alignment cards use the native aligned exercise surface, while40old cards use supplemental details. The browser test now navigates and grades each through its actual existing UI. No app/UI changes. Fresh fullCI required.",
+  "second_pr_run": {
+    "id": 41344506309,
+    "head": "c622058f32adcc837c0f8ffa598a4a749a786879",
+    "verify": "PASS",
+    "core_browser": "PASS_9_PROGRAMS",
+    "course_browser": "FAIL_TEST_FIXTURE_SAVED_RECON09_IN_ORIGINAL_NOT_ASSIGNED_BLOCK",
+    "route_browser": "CHECK_FINAL_JOB_STATUS"
+  },
+  "native_fixture_fix": "RECON-09 original block S1-07-0, actual assigned block S1-07-1 after convexity prerequisite. Seed now uses courseBlock||block, same as navigation. Actual getStudyAnswer migration tested locally for all42; all45native assignments checked against reviewed prerequisites. App code unchanged."
 }

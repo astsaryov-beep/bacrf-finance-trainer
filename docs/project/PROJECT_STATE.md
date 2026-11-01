@@ -66,15 +66,16 @@
     "typography_only_mc": 34,
     "execution_status": "AVAILABLE",
     "recovery_checkpoint": "CP-20261101-169",
-    "pending_draft": "docs/audits/data/T33_B08_RECOVERY_DRAFT.json",
-    "latest_source_review_commit": "996f66432d73061d8393903a200a190aaf74d0bd",
+    "latest_source_review_commit": "c220f8bf040dec272861eece7513f704076af31f",
     "recovery_resolved_in": "CP-20261101-170",
     "subject_review": "COMPLETED",
     "local_programs": 31,
     "local_result": "PASS",
-    "browser": "PENDING",
+    "browser": "PENDING_AFTER_NATIVE_FIXTURE_CORRECTION",
     "subject_edits": 8,
-    "pr_candidate_checkpoint": "CP-20261101-173"
+    "pr_candidate_checkpoint": "CP-20261101-173",
+    "pr": 96,
+    "runtime_changes_after_cp173": false
   }
 }
 ```
@@ -95,3 +96,5 @@ B10: завершены последние22новыхMC/110утверждени
 Предметный итог249/249: [сводка](../audits/data/T33_P1_SUMMARY.json), [31локальныйPASS](../audits/data/T33_P1_CHECKS.json). Общая приёмкаP1 ожидает браузер/CI/Pages/live;P2не начат.
 
 CP174: [PR96](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/96), первыйCI41343887805verify/corePASS; уточнён реальный интерфейс двух нативных карточек в браузерном тесте. Полная приёмка ожидает новогоCI; приложение неизменно после CP173.
+
+CP175:история42правок проверена через настоящийstudygetter;фактическиеназначения45MCсверены. Браузерные фикстуры используют назначенныйпослепредпосылокблок,новыйполныйCIещёPENDING.

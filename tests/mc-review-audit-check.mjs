@@ -53,6 +53,14 @@ const openRecords=rawQuestions('exam-alignment').filter(q=>q.type==='open');
 assert.equal(openRecords.length,50);assert.equal(Object.keys(alignmentGuard.open_questions_sha256).length,50);
 for(const q of openRecords)assert.equal(sha(stable(q)),alignmentGuard.open_questions_sha256[q.id],'Open record changed '+q.id);
 assert.equal(changes.reviewed_questions,reviewed.length);
+// Native exercises may be assigned later than their original block, after all prerequisites.
+vm.runInNewContext(read('assets/learning-path.js'),ctx);
+const lessons=JSON.parse(html.match(/const STUDY_LESSONS\s*=\s*([\s\S]*?);\n/)[1]);
+const route=[1,2,3,4,5,6,7,8].flatMap(g=>lessons.filter(l=>l.seminar===g));
+ctx.CourseLearning.configure(route,ctx.ExamAlignment.questions);
+for(const q of ctx.ExamAlignment.questions.filter(q=>q.type==='multi'))assert.equal(matrix.records.find(r=>r.question_id===q.id).review.prerequisite_review.assigned_block,q.courseBlock,'Reviewed prerequisite assignment differs from actual course '+q.id);
+ctx.STUDY_QMAP=new Map([...ctx.ExamPractice.questions,...ctx.ExamAlignment.questions].map(q=>[q.id,q]));
+vm.runInNewContext(html.split('\n').find(l=>l.startsWith('function getStudyAnswer(')),ctx);
 for(const change of changes.changes){
  const q=current.get(change.question_id),patch=ctx.FinanceReview.corrections[q.id],oldSelected=change.before.correct;
  assert.equal(patch.reviewKind,'wording');assert.equal(patch.revision,q.reviewRevision);
@@ -75,5 +83,15 @@ for(const change of changes.changes){
  assert.deepEqual(Array.from(course.selected),[]);assert.equal(course.checked,false);assert.equal(course.score,null);assert.equal(course.needsReviewRecheck,true);assert.equal(course.confidence,3);
  assert.equal(ctx.FinanceReview.currentEvidence(q,{tries:1,reviewRevision:'old'}),false);
  assert.equal(ctx.FinanceReview.currentEvidence(q,{tries:1,reviewRevision:q.reviewRevision}),true);
+ // Execute the actual UI getter against an answer saved in the actual assigned block.
+ const runtimeQuestion=ctx.STUDY_QMAP.get(q.id),assigned=runtimeQuestion.courseBlock||runtimeQuestion.block;
+ const savedBlock={complete:true,answers:{[q.id]:{selected:[...oldSelected],checked:true,score:1,confidence:3,reviewRevision:change.previous_review_revision}}};
+ const courseState={blocks:{[ctx.CourseLearning.storageKey(assigned)]:savedBlock}};
+ ctx.getStudyBlock=()=>courseState.blocks[ctx.CourseLearning.storageKey(assigned)];
+ const throughGetter=ctx.getStudyAnswer(q.id);
+ assert.equal(throughGetter.needsReviewRecheck,true,q.id+' actual study getter must migrate assigned answer');
+ assert.equal(throughGetter.checked,false);assert.equal(throughGetter.previousReviewResult.score,1);
+ assert.deepEqual(Array.from(throughGetter.previousReviewResult.selected),oldSelected);assert.equal(savedBlock.complete,true);
+ assert.equal(throughGetter.confidence,3);
 }
 console.log(`PASS T33 audit evidence: ${reviewed.length}/249 reviewed (${reviewed.length*5}/1245 statements); ${249-reviewed.length} explicitly pending; ${changes.changes.length} revision-safe edits; open UI/scoring/rubrics unchanged.`);

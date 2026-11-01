@@ -63,7 +63,7 @@ try{
  async function showRevisedSupplement(id){await page.evaluate(id=>{const q=BANK_MAP.get(id),key=q.courseBlock||q.block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const native=ExamAlignment.questions.some(q=>q.id===id);studyNav.phase=native?'aligned':'theory';if(native){studyNav.index=CourseLearning.ids(key).indexOf(id);if(studyNav.index<0)throw Error('Missing native assignment '+id);}render();},id);}
  for(const change of reviewedChanges){
   const changedId=change.question_id,oldSelected=change.before.correct;
-  await page.evaluate(({id,oldSelected,previousRevision})=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const b=getStudyBlock();b.complete=true;b.answers[id]={selected:oldSelected,checked:true,score:1,confidence:3,reviewRevision:previousRevision};persistStudy();},{id:changedId,oldSelected,previousRevision:change.previous_review_revision});
+  await page.evaluate(({id,oldSelected,previousRevision})=>{const q=BANK_MAP.get(id),key=q.courseBlock||q.block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const b=getStudyBlock();b.complete=true;b.answers[id]={selected:oldSelected,checked:true,score:1,confidence:3,reviewRevision:previousRevision};persistStudy();},{id:changedId,oldSelected,previousRevision:change.previous_review_revision});
   await page.reload();await showRevisedSupplement(changedId);
   const native=await page.evaluate(id=>ExamAlignment.questions.some(q=>q.id===id),changedId);
   const revised=page.locator(`[data-mc-question="${changedId}"]`);
@@ -73,7 +73,7 @@ try{
   }
   const option=native?page.locator('input[name="studyAnswer"]'):revised.locator('[data-mc-option]');
   const migrated=await page.evaluate(id=>getStudyAnswer(id),changedId);
-  assert.equal(migrated.checked,false);assert.equal(migrated.needsReviewRecheck,true);assert.equal(migrated.previousReviewResult.score,1);assert.deepEqual(migrated.previousReviewResult.selected,oldSelected);assert.equal(migrated.confidence,3);
+  assert.equal(migrated.checked,false);assert.equal(migrated.needsReviewRecheck,true,changedId+' saved answer must migrate in its assigned course block');assert.equal(migrated.previousReviewResult.score,1);assert.deepEqual(migrated.previousReviewResult.selected,oldSelected);assert.equal(migrated.confidence,3);
   assert.equal(await option.evaluateAll(inputs=>inputs.filter(x=>x.checked).length),0);assert.equal(await page.evaluate(()=>getStudyBlock().complete),true);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
   const correct=await page.evaluate(id=>BANK_MAP.get(id).correct,changedId);
