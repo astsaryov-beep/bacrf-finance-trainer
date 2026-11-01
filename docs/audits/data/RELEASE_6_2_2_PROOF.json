@@ -1,0 +1,140 @@
+{
+  "task": "T-33",
+  "phase": "P1",
+  "status": "VERIFIED",
+  "reviewed_mc": 249,
+  "reviewed_statements": 1245,
+  "initial_failures": [
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "exit_code": 1,
+      "cause": "Audit profile JSON still had the previous revisions for two typography-only cards; corrected only those revision fields, generator unchanged."
+    }
+  ],
+  "syntax_browser": "PASS",
+  "diff_check": "PASS",
+  "browser": "PASS_13_PROGRAMS_IN_PR_AND_MAIN",
+  "publication": "LIVE_MATCH",
+  "public_version": "6.2.1",
+  "protected": {
+    "docs/audits/data/EXAM_SOURCE_LEDGER_20261031.json": "78e4368aa77b8027e7cac37864eaab9d6176aaa915feb5283983b47cb6ecbd71",
+    "assets/exam-profile.js": "c50f401ac39f4316e21985e41fcbc800e1e9b69e40421395d3ff49e5e4e43585",
+    "assets/learning-path.js": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
+    "assets/question-review.js": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9",
+    "v5.0.8/index.html": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+  },
+  "first_pr_run": {
+    "id": 41343887805,
+    "head": "c220f8bf040dec272861eece7513f704076af31f",
+    "verify": "PASS",
+    "core_browser": "PASS_9_PROGRAMS",
+    "course_browser": "FAIL_TEST_SELECTOR_FOR_NATIVE_SURFACE",
+    "route_browser": "PASS_2_PROGRAMS"
+  },
+  "browser_scenario_fix": "Static inspection found that the two edited alignment cards use the native aligned exercise surface, while40old cards use supplemental details. The browser test now navigates and grades each through its actual existing UI. No app/UI changes. Fresh fullCI required.",
+  "second_pr_run": {
+    "id": 41344506309,
+    "head": "c622058f32adcc837c0f8ffa598a4a749a786879",
+    "verify": "PASS",
+    "core_browser": "PASS_9_PROGRAMS",
+    "course_browser": "FAIL_TEST_FIXTURE_SAVED_RECON09_IN_ORIGINAL_NOT_ASSIGNED_BLOCK",
+    "route_browser": "PASS_2_PROGRAMS"
+  },
+  "native_fixture_fix": "RECON-09 original block S1-07-0, actual assigned block S1-07-1 after convexity prerequisite. Seed now uses courseBlock||block, same as navigation. Actual getStudyAnswer migration tested locally for all42; all45native assignments checked against reviewed prerequisites. App code unchanged.",
+  "release": "6.2.2",
+  "code_commit": "417ea43253ebc943478815536d5f5b36abba0d47",
+  "pr": 96,
+  "pr_head": "0dced6550d55c2272919f13acd2059b763c720b5",
+  "pr_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41345388651",
+  "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346049416",
+  "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346048937",
+  "main_browser_programs": [
+    {
+      "id": 124966121865,
+      "pass": [
+        "2026-11-01T20:17:53.7897456Z PASS aligned learning:mobile draft/MC/confidence detours,reload/keyboard return,partial self-assessment,4-correct grading,retry history,skip does not certify,old progress,real export/import,targeted skills and independent strict mock",
+        "2026-11-01T20:18:06.1447434Z PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px",
+        "2026-11-01T20:18:20.9838785Z PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors",
+        "2026-11-01T20:18:23.6972831Z PASS navigation: draft/choice skip+return+reload, ungraded open navigation, last skip overview, scroll, completed theory retention, real50 exam/no keys,320px",
+        "2026-11-01T20:18:49.5966233Z PASS browser: 17 comparative sections and mobile 320px; desktop sidebar {\"client\":371,\"scroll\":3318,\"height\":370.765625,\"overflow\":\"auto\"}, 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.",
+        "2026-11-01T20:20:04.5511569Z PASS learning browser: 96 canonical mechanisms/examples/digests and disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.",
+        "2026-11-01T20:20:13.9342672Z PASS teacher browser: balance and extra checks, new metric formula drills, corrected Q13 solutions, course/session rubric migration and actual export/import retain history.",
+        "2026-11-01T20:20:15.8465283Z PASS M03 browser: six lesson formula displays, effective Q07 prep, fresh recheck and actual export/import preserving both histories, mobile width.",
+        "2026-11-01T20:20:22.9133104Z PASS M04 browser: six complete teaching blocks, closed checks/formulas, preserved futures basics/exam notes/Q09-Q10 solutions and 320px width."
+      ]
+    },
+    {
+      "id": 124966121864,
+      "pass": [
+        "2026-11-01T20:22:22.7976701Z PASS M01–M16 browser:96 complete blocks,204 multi checks,12 option profiles,62 course and60 valid main-bank session histories retained through actual export/import, desktop and320px.",
+        "2026-11-01T20:23:29.2310537Z PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 all42 revisions in both supplemental/native course surfaces:history/recheck/new answer/reload."
+      ]
+    },
+    {
+      "id": 124966121904,
+      "pass": [
+        "2026-11-01T20:21:27.6479924Z PASS fresh native route:96 completed blocks/309 primary/204 additionalMC/95 aligned checks,7 reload-resumes,actual export/import of608 course answers,then25open+25multi exam and reload. This is mechanical fixture coverage, not editorial novice acceptance.",
+        "2026-11-01T20:24:10.7820218Z PASS supplemental UI:96 traps/70 independent prompts/34 comparisons/15 diagrams/10 changed models; historical import/recheck, reload, real export/import and320px. Fixture coverage, not student performance."
+      ]
+    }
+  ],
+  "live_public_files": {
+    "index.html": "5846d2c002586b699d450ff5773897a8cfca2c9a",
+    "versions/index.html": "ff0978eae7bf68f1b583273fadf29d69d8b910b6",
+    "v5.0.8/index.html": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+    "assets/course-sidebar.css": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+    "assets/strategies.css": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+    "assets/exam-feedback.css": "7dec3a63971fe914d88547664969cdb77495eea8",
+    "assets/futures-short-guide.css": "dcf745c2a43eec706222a86622a02bf75716cb07",
+    "assets/theme.css": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+    "assets/question-review.js": "3e51024d1a1599217c8c80e80377942f7c810cee",
+    "assets/exam-practice.js": "194dd817807c73f3b533935b48a14310356d6d94",
+    "assets/exam-alignment.js": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+    "assets/exam-profile.js": "239ff3d76a924b82db21e86537d2ab2278ae6b30",
+    "assets/learning-path.js": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+    "assets/theory-links.js": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+    "assets/question-theory-ui.js": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+    "assets/exam-feedback.js": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+    "assets/futures-short-guide.js": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+    "assets/strategies.js": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+    "assets/option-profiles.js": "cd2b04924ac937a59a443e12e9164591b5bb1566"
+  },
+  "actual_cache_urls": [
+    {
+      "url": "assets/theme.css?v=6.2.2",
+      "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51",
+      "match": true
+    },
+    {
+      "url": "assets/question-review.js?v=6.2.2",
+      "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9",
+      "match": true
+    },
+    {
+      "url": "assets/exam-practice.js?v=6.2.2",
+      "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444",
+      "match": true
+    },
+    {
+      "url": "assets/exam-alignment.js?v=6.2.2",
+      "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378",
+      "match": true
+    },
+    {
+      "url": "assets/exam-profile.js?v=6.2.2",
+      "sha256": "c50f401ac39f4316e21985e41fcbc800e1e9b69e40421395d3ff49e5e4e43585",
+      "match": true
+    },
+    {
+      "url": "assets/learning-path.js?v=6.2.2",
+      "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
+      "match": true
+    }
+  ],
+  "visual_review": [
+    "Two substantive changes and two native changed cards inspected at320px; no horizontal overflow observed."
+  ],
+  "local_programs_count": 31,
+  "local_evidence": "T33_P1_CHECKS.json",
+  "local_evidence_sha256": "a152efe657aa0df8590bfe23b72ba180fb11c4a06f6892172753b1e84f4eb007"
+}

@@ -1,6 +1,6 @@
 {
   "task": "T-33",
-  "status": "SUBJECT_REVIEW_COMPLETE_TECHNICAL_ACCEPTANCE_PENDING",
+  "status": "VERIFIED_6_2_2",
   "reviewed_mc": 249,
   "reviewed_statements": 1245,
   "unchanged_mc": 207,
@@ -42,9 +42,8 @@
   "original_exam_ambiguities": "Original source ledger and32conditional/ambiguous judgments preserved byte-for-byte; adapted explicit cases do not become official instructor keys.",
   "open": "HTML UI/rubrics/scoring normalized baseline exact; all50alignment open records and module text except registered T33wording exact; generator/profile code unchanged.",
   "remaining": [
-    "Full13browserprograms and PR/mainCI",
-    "Pages/live6.2.2",
-    "Formal P1 technical acceptance",
-    "Only then P2 expansion and1000seed overlap/diversity analysis"
-  ]
+    "P2candidate admission audit, broaden eligible pool and atomic goals",
+    "P2minimum1000seeds comparison and full regression/publication"
+  ],
+  "release_proof": "RELEASE_6_2_2_PROOF.json"
 }

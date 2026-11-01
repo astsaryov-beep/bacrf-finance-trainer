@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task": "T-33",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETED",
   "baseline_commit": "605dbf18c2c6a8c62be0f121787627a70aea61ac",
   "source_registry": {
     "S1": {
@@ -44997,5 +44997,5 @@
     }
   ],
   "subject_review_status": "COMPLETED_249_MC_1245_STATEMENTS",
-  "technical_acceptance": "PENDING_PR_BROWSER_MAIN_CI_PAGES_LIVE"
+  "technical_acceptance": "VERIFIED_6_2_2_CP176"
 }
