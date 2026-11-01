@@ -61,9 +61,9 @@
   },
   "page_numbering": "Physical PDF pages, 1-based; not printed slide numbers.",
   "review_method": "Blind per-alternative verdict before comparison with stored key. Logical deductions distinguished from literal slide claims. PENDING is never counted as reviewed.",
-  "reviewed_questions": 120,
-  "reviewed_statements": 600,
-  "pending_questions": 129,
+  "reviewed_questions": 144,
+  "reviewed_statements": 720,
+  "pending_questions": 105,
   "records": [
     {
       "question_id": "MC-S2-03-0-1",
@@ -21874,9 +21874,166 @@
         "selector": "questions[id='MC-E-06-1-1']",
         "question_sha256": "46ee9be565474f3673289e61e467e5055857fb139ebde6c2707e5551db54add2"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_EDIT",
+      "decision": "EDIT_OPTIONS",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "943ec558f7a71b7d8ee9832478fba1d04ef514b4582f7f3cc7a97d19712d95b3",
+        "skill": "Free-float, оборот и номинальное держание",
+        "course_role": "Free-float, оборот и номинальное держание",
+        "stem": "Какие различия free-float и учёта прав верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Оборот является потоком за период, а FF долей учитываемого выпуска.",
+            "text": "Оборот за день является потоком сделок, а свободная доля относится к выпуску",
+            "conditions": "Free-float относится к выпуску на дату; номинальная запись не раскрывает всех конечных владельцев.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Номинальный держатель учитывает многих собственников, не доказывает одного выгодоприобретателя.",
+            "text": "Пакет номинального держателя обозначает одного конечного стратегического владельца",
+            "conditions": "Free-float относится к выпуску на дату; номинальная запись не раскрывает всех конечных владельцев.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Критерии и дата определяют классификацию.",
+            "text": "Методика классификации и дата важны для свободной доли",
+            "conditions": "Free-float относится к выпуску на дату; номинальная запись не раскрывает всех конечных владельцев.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Кап-фактор может ограничить индексную долю.",
+            "text": "Вес в индексе может включать дополнительное ограничение концентрации",
+            "conditions": "Free-float относится к выпуску на дату; номинальная запись не раскрывает всех конечных владельцев.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Разные классы акций имеют разные цены/права и требуют согласованной базы.",
+            "text": "Для оценки всех типов акций достаточно умножить одну цену на суммарное число любых типов",
+            "conditions": "Free-float относится к выпуску на дату; номинальная запись не раскрывает всех конечных владельцев.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-06-1",
+          "scope": "E-06-1: номинальное держание, запас FF и поток оборота явно объяснены.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Free-float относится к выпуску на дату; номинальная запись не раскрывает всех конечных владельцев."
+        },
+        "distractor_review": {
+          "result": "EDIT_OPTIONS",
+          "reason": "Исправлены слипшиеся слова и пробелы без изменения смысла."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Free-float, оборот и номинальное держание",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [
+          "TYPOGRAPHY"
+        ],
+        "key_comparison": "MATCH_BEFORE_AND_AFTER",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": {
+          "change_record": "T33_MC_CHANGES.json",
+          "revision": "2026-11-01-t33-b06"
+        },
+        "revision": "2026-11-01-t33-b06",
+        "after_question_sha256": "cc7a0e3a9844c94528bff892aacf28194423f37ca1bd55a01b319ce52c0a8719"
+      }
     },
     {
       "question_id": "MC-E-06-1-2",
@@ -21889,9 +22046,155 @@
         "selector": "questions[id='MC-E-06-1-2']",
         "question_sha256": "362e58c673ec578ecb1d0cdd844e358be1c0f4c14f51f2d4fbfd34d13ff59c1a"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "e796b04dba9dfaa17e5b72b847ba54fe41b8dad2df1fa0c9a2629f2c80d0268c",
+        "skill": "Депозитарный пакет и рост оборота",
+        "course_role": "Депозитарный пакет и рост оборота",
+        "stem": "Половина выпуска записана в реестре на депозитарий, а торговый оборот резко вырос. Что можно обоснованно проверить? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Нужно установить выгодоприобретателей и правила отнесения.",
+            "text": "Кто является конечными владельцами и как пакеты классифицирует методика",
+            "conditions": "Оборот не равен эмиссии; классификация пакетов требует источников методики.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Название депозитария не даёт классификацию каждого клиента.",
+            "text": "Считать весь пакет депозитария стратегическим лишь по его названию",
+            "conditions": "Оборот не равен эмиссии; классификация пакетов требует источников методики.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Одна акция может переходить несколько раз без новой эмиссии.",
+            "text": "Различить повторный оборот одних акций и изменение структуры владения",
+            "conditions": "Оборот не равен эмиссии; классификация пакетов требует источников методики.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Дата и расчётная база нужны для FFкапитализации.",
+            "text": "Уточнить дату и базу расчёта свободной капитализации",
+            "conditions": "Оборот не равен эмиссии; классификация пакетов требует источников методики.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Рост потока сделок не выпускает новые акции.",
+            "text": "Приравнять выросший объём торгов к увеличению числа выпущенных акций",
+            "conditions": "Оборот не равен эмиссии; классификация пакетов требует источников методики.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  11,
+                  12
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-06-1",
+          "scope": "E-06-1: номинальное держание, запас FF и поток оборота явно объяснены.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Оборот не равен эмиссии; классификация пакетов требует источников методики."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Депозитарный пакет и рост оборота",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-07-1-2",
@@ -21904,9 +22207,180 @@
         "selector": "questions[id='MC-S1-07-1-2']",
         "question_sha256": "63bda9d727ce6128e324e5930142fff2789860e6f4ff25eb2a646d6153d1a22f"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_EDIT",
+      "decision": "EDIT_OPTIONS",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "117794d90260f987cc52342b1805ab379200fc710668f2bc00bbbd2a66a81de7",
+        "skill": "Единицы локальной облигационной аппроксимации",
+        "course_role": "Единицы локальной облигационной аппроксимации",
+        "stem": "Какие условия единиц и базы локальной оценки цены облигации верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Один процентный пункт — разница ставок в одну сотую единицы: например, переход от 10% к 11% даёт Δy=0,01, а не 1.",
+            "text": "Один процентный пункт изменения доходности вводится как 0,01",
+            "conditions": "Сдвиг доходности в долях единицы; конвенции цены, дюрации и нормированной выпуклости согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Базисный пункт равен 0,0001, а процентный — 0,01.",
+            "text": "Один базисный пункт означает тот же сдвиг, что один процентный пункт",
+            "conditions": "Сдвиг доходности в долях единицы; конвенции цены, дюрации и нормированной выпуклости согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "before_text": "Один базисный пункт означает тот же сдвиг,что один процентный пункт",
+            "original_blind_rationale": "1б.п.=0.0001, в100раз меньше1п.п.",
+            "post_edit_verdict": "FALSE"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Денежный эффект равен цене на относительное изменение.",
+            "text": "Относительную поправку умножают на исходную цену для получения денег",
+            "conditions": "Сдвиг доходности в долях единицы; конвенции цены, дюрации и нормированной выпуклости согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "В показанной годовой модели C имеет единицы лет²; деньги получают после умножения на цену.",
+            "text": "Выпуклость в согласованной годовой модели измеряется рублями вместо временной чувствительности",
+            "conditions": "Сдвиг доходности в долях единицы; конвенции цены, дюрации и нормированной выпуклости согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "before_text": "Выпуклость в согласованной годовой модели измеряется рублями вместо временной чувствительности",
+            "original_blind_rationale": "Нормированная выпуклость измеряет вторую временную чувствительность, не рубли.",
+            "post_edit_verdict": "FALSE"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Несогласованные единицы и частота начисления искажают оценку.",
+            "text": "Дюрацию, выпуклость и сдвиг доходности нужно согласовать по конвенции модели",
+            "conditions": "Сдвиг доходности в долях единицы; конвенции цены, дюрации и нормированной выпуклости согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "before_text": "Дюрацию,выпуклость и сдвиг доходности нужно согласовать по конвенции модели",
+            "original_blind_rationale": "Дюрация и выпуклость согласуются с конвенцией доходности.",
+            "post_edit_verdict": "TRUE"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-07-1",
+          "scope": "S1-07-1: 1п.п./1б.п., размерность, локальность, callable и полная переоценка даны до упражнения.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Сдвиг доходности в долях единицы; конвенции цены, дюрации и нормированной выпуклости согласованы."
+        },
+        "distractor_review": {
+          "result": "EDIT_OPTIONS",
+          "reason": "Исправлены слипшиеся слова и пробелы без изменения смысла."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Единицы локальной облигационной аппроксимации",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [
+          "TYPOGRAPHY"
+        ],
+        "key_comparison": "MATCH_BEFORE_AND_AFTER",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": {
+          "change_record": "T33_MC_CHANGES.json",
+          "revision": "2026-11-01-t33-b06"
+        },
+        "revision": "2026-11-01-t33-b06",
+        "after_question_sha256": "8cacd798a3a4c43c0bc38d5d48d71fb0a0c200ca1649f7060ba379dbe4de4cb0"
+      }
     },
     {
       "question_id": "MC-S1-07-1-3",
@@ -21919,9 +22393,160 @@
         "selector": "questions[id='MC-S1-07-1-3']",
         "question_sha256": "68d19ba1220fd4e19a28ee2137f27c8c8cccb1796a3257472d25b4f84db0f9b1"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "769e8b0558f322b3dbd8a8e9e7b11b0ca6706f3f555ee4b083407e25f1765f07",
+        "skill": "Переоценка callable после крупного сдвига",
+        "course_role": "Переоценка callable после крупного сдвига",
+        "stem": "Ставки сильно изменились, а у бумаги есть право досрочного выкупа. Почему оценку по прежней дюрации нужно перепроверить? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          1,
+          3
+        ],
+        "independent_correct": [
+          0,
+          1,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Локальная линейная оценка теряет точность.",
+            "text": "Крупный сдвиг усиливает значение нелинейности",
+            "conditions": "Callable и крупный сдвиг могут менять потоки; локальная оценка не гарантирует точность.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Досрочный выкуп меняет будущие платежи.",
+            "text": "Срабатывание права может изменить ожидаемые потоки",
+            "conditions": "Callable и крупный сдвиг могут менять потоки; локальная оценка не гарантирует точность.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "FALSE",
+            "rationale": "Старая производная не фиксирует новую вероятность события.",
+            "text": "Прежняя дюрация уже полностью включает любую новую вероятность выкупа",
+            "conditions": "Callable и крупный сдвиг могут менять потоки; локальная оценка не гарантирует точность.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Нужно пересчитать цену под изменёнными предпосылками.",
+            "text": "Нужна подходящая полная переоценка при изменившихся предпосылках",
+            "conditions": "Callable и крупный сдвиг могут менять потоки; локальная оценка не гарантирует точность.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Квадрат сдвига не гарантирует положительный коэффициент выпуклости.",
+            "text": "Квадрат сдвига позволяет без проверки принять положительную выпуклость для любой бумаги",
+            "conditions": "Callable и крупный сдвиг могут менять потоки; локальная оценка не гарантирует точность.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  101,
+                  104,
+                  105,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-07-1",
+          "scope": "S1-07-1: 1п.п./1б.п., размерность, локальность, callable и полная переоценка даны до упражнения.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Callable и крупный сдвиг могут менять потоки; локальная оценка не гарантирует точность."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Переоценка callable после крупного сдвига",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-08-0-1",
@@ -21934,9 +22559,150 @@
         "selector": "questions[id='MC-S1-08-0-1']",
         "question_sha256": "9dea699b161bd98203922b5d8a2fd1c2bbaf08bf1e5c890f484b19091b4e73e1"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "37c0087020939b3314b9dd9afd08281f3131cee8f3d07335c143e2b044ab952f",
+        "skill": "Купонный результат и сопоставимый бенчмарк",
+        "course_role": "Купонный результат и сопоставимый бенчмарк",
+        "stem": "Какие условия бенчмарка облигационного портфеля существенны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Реинвестирование и выплаты должны относиться к одной версии доходности.",
+            "text": "Сопоставимый учёт купонов и реинвестирования",
+            "conditions": "Сопоставимые купоны/реинвестирование, дюрация/валюта/кредит/расходы; TR не обещает рост.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Priceиндекс не содержит весь купонный компонент.",
+            "text": "Выбор ценового RGBI как полной копии купонного результата",
+            "conditions": "Сопоставимые купоны/реинвестирование, дюрация/валюта/кредит/расходы; TR не обещает рост.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Сроки/валюта/кредитная структура влияют на риск.",
+            "text": "Согласованные сроки, валюта и кредитный риск",
+            "conditions": "Сопоставимые купоны/реинвестирование, дюрация/валюта/кредит/расходы; TR не обещает рост.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Персональные издержки могут отсутствовать в индексных рядах.",
+            "text": "Проверка, входят ли личные расходы инвестора в сравниваемые данные",
+            "conditions": "Сопоставимые купоны/реинвестирование, дюрация/валюта/кредит/расходы; TR не обещает рост.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "TRне устраняет различий состава и риска.",
+            "text": "Индекс полной доходности освобождает от проверки структуры портфеля",
+            "conditions": "Сопоставимые купоны/реинвестирование, дюрация/валюта/кредит/расходы; TR не обещает рост.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-08-0",
+          "scope": "S1-08-0: RGBI/RGBITR, купон, реинвестирование и сопоставимый риск.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Сопоставимые купоны/реинвестирование, дюрация/валюта/кредит/расходы; TR не обещает рост."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Купонный результат и сопоставимый бенчмарк",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-08-0-2",
@@ -21949,9 +22715,164 @@
         "selector": "questions[id='MC-S1-08-0-2']",
         "question_sha256": "2b01c6303399f19e484a4c41c92e5ef337fc143ad0712c4e13ecaf095715015c"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_EDIT",
+      "decision": "EDIT_OPTIONS",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "2b4e23bf9511c8de0518bdde54105cccce2c7a40292c58bbc54bb3378c0da38d",
+        "skill": "Несопоставимость price/TR и дюрации",
+        "course_role": "Несопоставимость price/TR и дюрации",
+        "stem": "Управляющий включает купоны в доход своего портфеля, но сравнивает его с ценовым индексом. Другой ориентир полной доходности имеет гораздо более длинную дюрацию. Что нужно сделать? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Купонное расхождение не является чистой альфой отбора.",
+            "text": "Отделить эффект разных способов учёта выплат от качества управления",
+            "conditions": "Price/TR разница и более длинная дюрация — разные причины несопоставимости.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95,
+                  101
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Принадлежности одному виду долга недостаточно.",
+            "text": "Принять первый ориентир только потому, что он относится к ОФЗ",
+            "conditions": "Price/TR разница и более длинная дюрация — разные причины несопоставимости.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95,
+                  101
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "before_text": "Принять первый ориентир только потому, что он относится кОФЗ",
+            "original_blind_rationale": "Общий класс ОФЗне уравнивает конвенцию доходности.",
+            "post_edit_verdict": "FALSE"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Длинная дюрация задаёт другую ставочную чувствительность.",
+            "text": "Согласовать срок и процентную чувствительность второго ориентира",
+            "conditions": "Price/TR разница и более длинная дюрация — разные причины несопоставимости.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95,
+                  101
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Прочие базы также должны совпадать.",
+            "text": "Проверить состав, валюту и расходы сравнения",
+            "conditions": "Price/TR разница и более длинная дюрация — разные причины несопоставимости.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95,
+                  101
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Превышение может возникнуть от учёта выплат и других экспозиций.",
+            "text": "Объявить любое превышение над ценовым индексом результатом отбора бумаг",
+            "conditions": "Price/TR разница и более длинная дюрация — разные причины несопоставимости.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  94,
+                  95,
+                  101
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-08-0",
+          "scope": "S1-08-0: RGBI/RGBITR, купон, реинвестирование и сопоставимый риск.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Price/TR разница и более длинная дюрация — разные причины несопоставимости."
+        },
+        "distractor_review": {
+          "result": "EDIT_OPTIONS",
+          "reason": "Исправлены слипшиеся слова и пробелы без изменения смысла."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Несопоставимость price/TR и дюрации",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [
+          "TYPOGRAPHY"
+        ],
+        "key_comparison": "MATCH_BEFORE_AND_AFTER",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": {
+          "change_record": "T33_MC_CHANGES.json",
+          "revision": "2026-11-01-t33-b06"
+        },
+        "revision": "2026-11-01-t33-b06",
+        "after_question_sha256": "5b8dc21d5b00c0f552db35ba60c8373e17424fa71dc761287d0996d02b8436d3"
+      }
     },
     {
       "question_id": "MC-E-07-0-1",
@@ -21964,9 +22885,195 @@
         "selector": "questions[id='MC-E-07-0-1']",
         "question_sha256": "6c7123ace18fa5fae348647e672195694e901f5a6e7eb6808e1a1f8f9ebd69be"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "1f3caf37160e6308d4177c51030b3911c392d9e6a950081ded4921a5de44479d",
+        "skill": "Уровни листинга, индекс и учёт прав",
+        "course_role": "Уровни листинга, индекс и учёт прав",
+        "stem": "Какие функции и события различаются правильно? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Первый и Второй уровни являются котировальными списками.",
+            "text": "Котировальные списки образуют Первый и Второй уровни",
+            "conditions": "Три уровня допуска; только первые два котировальные, индексное решение отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  33
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Индексное решение не заменяет биржевой допуск.",
+            "text": "Включение в индекс заменяет решение биржи о допуске",
+            "conditions": "Три уровня допуска; только первые два котировальные, индексное решение отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  33
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Учёт прав и допуск выполняют разные функции.",
+            "text": "Депозитарный учёт фиксирует права, а листинг определяет допуск по правилам",
+            "conditions": "Три уровня допуска; только первые два котировальные, индексное решение отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  33
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Регистрация не означает включения в любой индекс.",
+            "text": "Регистрация выпуска гарантирует выполнение критериев любого индекса",
+            "conditions": "Три уровня допуска; только первые два котировальные, индексное решение отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  33
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Проспект раскрывает сведения, не гарантирует прибыль.",
+            "text": "Проспект раскрывает установленную информацию, но не удостоверяет прибыльность",
+            "conditions": "Три уровня допуска; только первые два котировальные, индексное решение отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  33
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-07-0",
+          "scope": "E-07-0: уровни листинга, допуск/индекс/проспект/депозитарный учёт.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Три уровня допуска; только первые два котировальные, индексное решение отдельно."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Уровни листинга, индекс и учёт прав",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-07-0-2",
@@ -21979,9 +23086,195 @@
         "selector": "questions[id='MC-E-07-0-2']",
         "question_sha256": "dd05bc3bdf29721a2e71191747f0a42ade29e7cdb0842534561dd865fe10cbdc"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "51b4abdc8c598da54ad11e4a52a25c45e4b253a077796239619b8c45a1f8c643",
+        "skill": "Понижение уровня и исключение из индекса",
+        "course_role": "Понижение уровня и исключение из индекса",
+        "stem": "Акция исключена из индекса и переведена на более низкий уровень, но торги продолжаются. Какие выводы обоснованны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Это два различных решения с собственными последствиями.",
+            "text": "События нужно различать и проверить каждое решение",
+            "conditions": "Исключение из индекса и понижение уровня при продолжающихся торгах; права не прекращены.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Индекс не отменяет зарегистрированную собственность.",
+            "text": "Владелец утратил все права, раз акция вышла из индекса",
+            "conditions": "Исключение из индекса и понижение уровня при продолжающихся торгах; права не прекращены.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Репликатор меняет состав по своей методике.",
+            "text": "Индексный фонд может изменить позицию согласно своей стратегии",
+            "conditions": "Исключение из индекса и понижение уровня при продолжающихся торгах; права не прекращены.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Компенсация не возникает автоматически от любого понижения.",
+            "text": "Любое изменение уровня автоматически даёт каждому полное возмещение",
+            "conditions": "Исключение из индекса и понижение уровня при продолжающихся торгах; права не прекращены.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Наличие торгов не гарантирует прежнюю ликвидность.",
+            "text": "Продолжение торгов не гарантирует прежний спред и глубину рынка",
+            "conditions": "Исключение из индекса и понижение уровня при продолжающихся торгах; права не прекращены.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  27,
+                  28,
+                  29,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/s19",
+                "locator": "Листинг: Первый/Второй котировальные, Третий некотировальная часть",
+                "purpose": "Проверены текущие общие роли без переноса числовых порогов старого слайда.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-07-0",
+          "scope": "E-07-0: уровни листинга, допуск/индекс/проспект/депозитарный учёт.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Исключение из индекса и понижение уровня при продолжающихся торгах; права не прекращены."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Понижение уровня и исключение из индекса",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-07-1-1",
@@ -21994,9 +23287,232 @@
         "selector": "questions[id='MC-E-07-1-1']",
         "question_sha256": "0f02def6cfa81b767fb3e7a9b3c8c643e164e9a671c7c4ca77ab2b9cf9d35a01"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "ab6b937f525cc06fc84d15ed022dd29b02189fce955ae425ef87a7d35713fbe5",
+        "skill": "Книга, аллокация, ограничения и стабилизация",
+        "course_role": "Книга, аллокация, ограничения и стабилизация",
+        "stem": "Что верно о подготовке и проведении публичного предложения? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Книга собирает ценовые и количественные заявки.",
+            "text": "Сбор книги помогает оценить спрос по цене и объёму",
+            "conditions": "SPO уточняется составом сделки; lock-up/greenshoe не обязательны и не бессрочны.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  33,
+                  34,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Аллокация распределяет ограниченное предложение.",
+            "text": "Аллокация обозначает распределение предложенного пакета между заявками",
+            "conditions": "SPO уточняется составом сделки; lock-up/greenshoe не обязательны и не бессрочны.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  33,
+                  34,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Lock-up имеет договорные сроки и условия.",
+            "text": "Lock-up определяется условиями и сроком ограничения продаж",
+            "conditions": "SPO уточняется составом сделки; lock-up/greenshoe не обязательны и не бессрочны.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  33,
+                  34,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "SPOне определяет единственного получателя средств.",
+            "text": "Название SPO само определяет, что все деньги поступят эмитенту",
+            "conditions": "SPO уточняется составом сделки; lock-up/greenshoe не обязательны и не бессрочны.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  33,
+                  34,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Greenshoe и стабилизация требуют предусмотренного механизма.",
+            "text": "Стабилизация и greenshoe возможны при предусмотренной структуре сделки",
+            "conditions": "SPO уточняется составом сделки; lock-up/greenshoe не обязательны и не бессрочны.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  33,
+                  34,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-07-1",
+          "scope": "E-07-1: книга, аллокация, lock-up, greenshoe и последующий IR.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "SPO уточняется составом сделки; lock-up/greenshoe не обязательны и не бессрочны."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Книга, аллокация, ограничения и стабилизация",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-07-1-2",
@@ -22009,9 +23525,230 @@
         "selector": "questions[id='MC-E-07-1-2']",
         "question_sha256": "8b27961085ca93b0b6a34328f8bb8ebf0b256129005115e982f1b278a232f886"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "751020b6aa8d3126d517faafffa311a54214d3f117eb4d33d36cb7a98da543d4",
+        "skill": "Привлечение IPO и контроль после размещения",
+        "course_role": "Привлечение IPO и контроль после размещения",
+        "stem": "На IPO предложены новый выпуск и пакет основателя; книга переподписана. Что следует проверить? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Новая и старая части идут разным получателям.",
+            "text": "Разделить выручку эмитента и продавца старого пакета",
+            "conditions": "Смешанная структура с ограниченным предложением; раскрытие продолжается после IPO.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  31,
+                  33,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Переподписка означает конкуренцию за ограниченный пакет.",
+            "text": "Считать весь объём заявки инвестора уже гарантированно полученным",
+            "conditions": "Смешанная структура с ограниченным предложением; раскрытие продолжается после IPO.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  31,
+                  33,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Риски и назначение привлечения важны для акционера.",
+            "text": "Оценить раскрытие рисков и назначение привлечённых компанией средств",
+            "conditions": "Смешанная структура с ограниченным предложением; раскрытие продолжается после IPO.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  31,
+                  33,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Раскрытие и результаты остаются значимы после IPO.",
+            "text": "Продолжить наблюдать раскрытие результатов после размещения",
+            "conditions": "Смешанная структура с ограниченным предложением; раскрытие продолжается после IPO.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  31,
+                  33,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Заявки не фиксируют будущую рыночную цену.",
+            "text": "Считать переподписку эквивалентом фиксированной будущей цены",
+            "conditions": "Смешанная структура с ограниченным предложением; раскрытие продолжается после IPO.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  30,
+                  31,
+                  33,
+                  35,
+                  36
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://ipoguide.moex.com/3/2/index.html",
+                "locator": "Динамика котировок послеIPO и стабилизация; over-allotment/greenshoe; российская правовая структура может использовать оферту и заём вместо буквального опциона",
+                "purpose": "Поддерживает условное существование механизма без универсального требования и гарантированной цены.",
+                "checked": "2026-11-01"
+              },
+              {
+                "url": "https://ipoguide.moex.com/2/1/index.html",
+                "locator": "Соглашение о запрете продаж Lock-up, договоры организатора",
+                "purpose": "Условия и срок договорного ограничения продаж, не бессрочный запрет.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-07-1",
+          "scope": "E-07-1: книга, аллокация, lock-up, greenshoe и последующий IR.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Смешанная структура с ограниченным предложением; раскрытие продолжается после IPO."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Привлечение IPO и контроль после размещения",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-08-0-1",
@@ -22024,9 +23761,150 @@
         "selector": "questions[id='MC-E-08-0-1']",
         "question_sha256": "1dc34bc5bf583540e1a6813e4b19b825e5781c2d4465a6db55b761b9731ad8ee"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "16898df2ae3baf23fb2946f74e5842199d132b15d94505b645f2e2f123b7a83c",
+        "skill": "Сходимость и датировка Гордона",
+        "course_role": "Сходимость и датировка Гордона",
+        "stem": "Какие предпосылки вечной модели Гордона корректны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Следующий дивиденд относится к периоду1.",
+            "text": "D₁ относится к следующему периоду после даты оценки",
+            "conditions": "Обычные положительные вечные дивиденды, r>g и согласованная периодичность.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "При положительном росте D1=D0(1+g), не D0.",
+            "text": "D₀ и D₁ взаимозаменяемы без пересчёта при положительном росте",
+            "conditions": "Обычные положительные вечные дивиденды, r>g и согласованная периодичность.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Обычная положительная вечная последовательность сходится приr>g.",
+            "text": "При обычных положительных дивидендах нужна сходимость r>g",
+            "conditions": "Обычные положительные вечные дивиденды, r>g и согласованная периодичность.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Период ставки должен совпадать с периодом выплат.",
+            "text": "Ставки и период выплат должны быть согласованы",
+            "conditions": "Обычные положительные вечные дивиденды, r>g и согласованная периодичность.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Отрицательная цена формулы показывает нарушение предпосылок, не биржевую оценку.",
+            "text": "Отрицательный знаменатель является достаточным основанием для отрицательной рыночной цены",
+            "conditions": "Обычные положительные вечные дивиденды, r>g и согласованная периодичность.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-08-0",
+          "scope": "E-08-0: D0/D1, сходимость, периодичность и чувствительностьr/g.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Обычные положительные вечные дивиденды, r>g и согласованная периодичность."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Сходимость и датировка Гордона",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-08-0-2",
@@ -22039,9 +23917,158 @@
         "selector": "questions[id='MC-E-08-0-2']",
         "question_sha256": "447f9171f4cc6853ce4bb283c581cb75591e00bddf91b2ebbb103ec714db8910"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "3bb2583e222d7e968eafe18a7d50deb94ecbe102efb32cd8df982f9f20382497",
+        "skill": "Ставка дисконтирования и обратный вывод",
+        "course_role": "Ставка дисконтирования и обратный вывод",
+        "stem": "Аналитик знает D₁, повысил r при том же g и увидел, что оценка ниже рынка. Какие выводы обоснованны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2
+        ],
+        "independent_correct": [
+          0,
+          2
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "При прочих равных производная поr отрицательна дляD1>0,r>g.",
+            "text": "При положительном D₁ и r>g повышение r уменьшает оценку",
+            "conditions": "D1 уже дан; ставка выросла при прежнемg; вывод условен сценарием.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Уже известный D1 не увеличивают второй раз.",
+            "text": "Нужно ещё раз увеличить известный D₁ на g для числителя на дату 0",
+            "conditions": "D1 уже дан; ставка выросла при прежнемg; вывод условен сценарием.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Модельное расхождение допускает другие сценарии и риски.",
+            "text": "Одна сценарная оценка не доказывает ошибку рыночной цены",
+            "conditions": "D1 уже дан; ставка выросла при прежнемg; вывод условен сценарием.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Сходимость не доказывает реалистичность выплат.",
+            "text": "Одного условия r>g достаточно для достоверности всего прогноза выплат",
+            "conditions": "D1 уже дан; ставка выросла при прежнемg; вывод условен сценарием.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Одна цена не идентифицирует сразу все потоки и премии.",
+            "text": "Из одной цены можно однозначно определить все будущие дивиденды и премию риска",
+            "conditions": "D1 уже дан; ставка выросла при прежнемg; вывод условен сценарием.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-08-0",
+          "scope": "E-08-0: D0/D1, сходимость, периодичность и чувствительностьr/g.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "D1 уже дан; ставка выросла при прежнемg; вывод условен сценарием."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Ставка дисконтирования и обратный вывод",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-08-1-1",
@@ -22054,9 +24081,150 @@
         "selector": "questions[id='MC-E-08-1-1']",
         "question_sha256": "415c754098065d5cf41f7962dffef25eeb30079429e9eae938be1e79fc63d3e6"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "80d8c6678fa0c96664df0f1ff8018d3b68754d72847e6f18b9ef04f41acfe37c",
+        "skill": "Датировка терминала DDM",
+        "course_role": "Датировка терминала DDM",
+        "stem": "Что верно о границе фаз в DDM? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "НаN терминал оценивает выплаты начинаяN+1.",
+            "text": "Терминал на дату N использует D_(N+1) как первую выплату устойчивой фазы",
+            "conditions": "Терминал наN включает выплаты сN+1, DNне дублируется; устойчивая фазаr>g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "DNуже посчитан явно и не должен дублироваться.",
+            "text": "D_N нужно повторно включить в терминальный поток после отдельного учёта",
+            "conditions": "Терминал наN включает выплаты сN+1, DNне дублируется; устойчивая фазаr>g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Терминал наN дисконтируется наNпериодов.",
+            "text": "Терминал приводят к дате 0 на N периодов",
+            "conditions": "Терминал наN включает выплаты сN+1, DNне дублируется; устойчивая фазаr>g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Обычная устойчивая фаза требуетr>g.",
+            "text": "Рост в устойчивой фазе должен быть ниже применимой ставки r",
+            "conditions": "Терминал наN включает выплаты сN+1, DNне дублируется; устойчивая фазаr>g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Индекс первой выплаты не передвигает дату оценивания.",
+            "text": "Использование D_(N+1) переносит дату самого терминала с N на N+1",
+            "conditions": "Терминал наN включает выплаты сN+1, DNне дублируется; устойчивая фазаr>g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-08-1",
+          "scope": "E-08-1: временная шкалаNиN+1, терминал и дисконтирование всех фаз.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Терминал наN включает выплаты сN+1, DNне дублируется; устойчивая фазаr>g."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Датировка терминала DDM",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-08-1-2",
@@ -22069,9 +24237,155 @@
         "selector": "questions[id='MC-E-08-1-2']",
         "question_sha256": "bf9df83ff97a258ce394788016038ca94e34a65caf6834b8f653be334b953fcb"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "b6d926921cced54da37795c2df28e30134697b8ec3e8341b4f03386b26d2640d",
+        "skill": "Согласованный пересчёт ставки DDM",
+        "course_role": "Согласованный пересчёт ставки DDM",
+        "stem": "В новой версии DDM повысили r только в r−g, сохранили прежние коэффициенты приведения и объявили это полным пересчётом. Что верно? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          1,
+          2
+        ],
+        "independent_correct": [
+          0,
+          1,
+          2
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Меняются применимые факторы дисконтирования явной фазы.",
+            "text": "Нужно изменить соответствующее дисконтирование явных выплат",
+            "conditions": "Изменениеrвсогласованной версии затрагивает применимые коэффициенты всей модели, не толькоr−g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Меняется приведение терминала.",
+            "text": "Приведение терминала также нужно пересчитать по новой согласованной ставке",
+            "conditions": "Изменениеrвсогласованной версии затрагивает применимые коэффициенты всей модели, не толькоr−g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Большая доля терминала показывает зависимость от дальних предпосылок.",
+            "text": "Доля терминала помогает увидеть зависимость от долгосрочных допущений",
+            "conditions": "Изменениеrвсогласованной версии затрагивает применимые коэффициенты всей модели, не толькоr−g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Два процентных пункта не задают универсального коэффициента половины.",
+            "text": "Повышение ставки на два пункта обязано уменьшать всю оценку почти вдвое",
+            "conditions": "Изменениеrвсогласованной версии затрагивает применимые коэффициенты всей модели, не толькоr−g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Две фазы не делают прогноз гарантированным.",
+            "text": "Двухфазная структура делает прогноз дивидендов достоверным",
+            "conditions": "Изменениеrвсогласованной версии затрагивает применимые коэффициенты всей модели, не толькоr−g.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  19,
+                  20,
+                  21
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-08-1",
+          "scope": "E-08-1: временная шкалаNиN+1, терминал и дисконтирование всех фаз.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Изменениеrвсогласованной версии затрагивает применимые коэффициенты всей модели, не толькоr−g."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Согласованный пересчёт ставки DDM",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-09-0-1",
@@ -22084,9 +24398,160 @@
         "selector": "questions[id='MC-E-09-0-1']",
         "question_sha256": "f933bf0bdd7afe950f59a4969736cb966fcb896f2c4fc2a7e623754a11c3c75b"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "ad7a07a1307fcaa9a0078a079cd3f2d6c4459063b82ffd4a8cacacfd25cea73d",
+        "skill": "Капитализационная база и делитель",
+        "course_role": "Капитализационная база и делитель",
+        "stem": "Что верно о расчёте капитализационного индекса? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Цена, количество и FF входят в расчётную базу.",
+            "text": "Цена одной акции, количество и FF участвуют в формировании базы",
+            "conditions": "Методика капитализационной базы, типы акций и корректировка делителя согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  40,
+                  41,
+                  43
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Разные выпуски требуют отдельных согласованных параметров.",
+            "text": "Обыкновенные и привилегированные выпуски можно объединять без согласования данных",
+            "conditions": "Методика капитализационной базы, типы акций и корректировка делителя согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  40,
+                  41,
+                  43
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Ограничение веса не отменяет юридическую эмиссию.",
+            "text": "Ограничение веса корректирует расчётный вклад, а не число акций в собственности общества",
+            "conditions": "Методика капитализационной базы, типы акций и корректировка делителя согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  40,
+                  41,
+                  43
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Делитель нейтрализует предусмотренные изменения состава/капитала.",
+            "text": "Делитель помогает сохранять непрерывность при предусмотренных изменениях базы",
+            "conditions": "Методика капитализационной базы, типы акций и корректировка делителя согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  40,
+                  41,
+                  43
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Поток сделок не тождественен свободному запасу.",
+            "text": "Оборот сделок и запас свободно обращающихся акций являются одной величиной",
+            "conditions": "Методика капитализационной базы, типы акций и корректировка делителя согласованы.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  10,
+                  40,
+                  41,
+                  43
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-09-0",
+          "scope": "E-09-0: FF, веса, делитель и split; разные типы акций.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Методика капитализационной базы, типы акций и корректировка делителя согласованы."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Капитализационная база и делитель",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-09-0-2",
@@ -22099,9 +24564,153 @@
         "selector": "questions[id='MC-E-09-0-2']",
         "question_sha256": "d164222294735ef08b0fd2af271b7dd915232823d1a47b9c4282a06cb807fb0c"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "61ac88900da0372d41351d8b26688af3ae3fb0548402d7df718aee728007ec80",
+        "skill": "Непрерывность при split",
+        "course_role": "Непрерывность при split",
+        "stem": "После дробления количество акций удвоилось, цена вдвое ниже, остальные условия те же. Что обоснованно? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2
+        ],
+        "independent_correct": [
+          0,
+          2
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "P/2 на2Q даёт прежнюю совокупную оценку.",
+            "text": "Совокупная стоимость пакета при этих условиях сохраняется",
+            "conditions": "Дробление2к1припрочих равных; ценовой индекс не нейтрализует обычную выплату как split.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  8,
+                  37,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Одна цена без нового количества вводит в заблуждение.",
+            "text": "Индекс должен показать падение на 50% только из-за цены одной штуки",
+            "conditions": "Дробление2к1припрочих равных; ценовой индекс не нейтрализует обычную выплату как split.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  8,
+                  37,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Методика должна обработать корпоративное событие.",
+            "text": "Проверяют корректировки количества и непрерывности по методике",
+            "conditions": "Дробление2к1припрочих равных; ценовой индекс не нейтрализует обычную выплату как split.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  8,
+                  37,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Учитываются количество,FFиограничения, не только цена.",
+            "text": "Высокая цена штуки сама определяет доминирование компании в индексе",
+            "conditions": "Дробление2к1припрочих равных; ценовой индекс не нейтрализует обычную выплату как split.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  8,
+                  37,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Ценовая серия не реинвестирует дивиденды как корпоративное дробление.",
+            "text": "Делитель ценового индекса устраняет обычное дивидендное падение так же, как эффект дробления",
+            "conditions": "Дробление2к1припрочих равных; ценовой индекс не нейтрализует обычную выплату как split.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  8,
+                  37,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-09-0",
+          "scope": "E-09-0: FF, веса, делитель и split; разные типы акций.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Дробление2к1припрочих равных; ценовой индекс не нейтрализует обычную выплату как split."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Непрерывность при split",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-09-1-1",
@@ -22114,9 +24723,185 @@
         "selector": "questions[id='MC-E-09-1-1']",
         "question_sha256": "272e30629350913a8a0b09227e9e35386db1110635713d49b170f22f4342d6c8"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "885461d84919522e87693918a6f40cbab9773a9aa32eebdf4305aafc0745457e",
+        "skill": "Налоговые и валютные версии TR",
+        "course_role": "Налоговые и валютные версии TR",
+        "stem": "Какие различия индексных серий корректны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Реинвестирование задаётся методикой.",
+            "text": "Полная доходность включает дивиденды и их реинвестирование по методике",
+            "conditions": "Модельные ставки организаций MCFTRN/R, не личный налог владельца.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Netне персональная декларация каждого инвестора.",
+            "text": "Net означает личный НДФЛ любого владельца пая",
+            "conditions": "Модельные ставки организаций MCFTRN/R, не личный налог владельца.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "MCFTRNпредполагает модельные налоги иностранных организаций; требуется источник.",
+            "text": "MCFTRN использует модельные ставки иностранных организаций",
+            "conditions": "Модельные ставки организаций MCFTRN/R, не личный налог владельца.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "MCFTRRпредполагает модельные налоги российских организаций; требуется источник.",
+            "text": "MCFTRR использует модельные ставки российских организаций",
+            "conditions": "Модельные ставки организаций MCFTRN/R, не личный налог владельца.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Конвертация валюты может изменить доходность.",
+            "text": "Рублёвая и валютная серии одной корзины обязаны иметь равную доходность",
+            "conditions": "Модельные ставки организаций MCFTRN/R, не личный налог владельца.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-09-1",
+          "scope": "E-09-1: MCFTR/N/R, валюты, модельные налоги и фактическое реинвестирование фонда.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Модельные ставки организаций MCFTRN/R, не личный налог владельца."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Налоговые и валютные версии TR",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-09-1-2",
@@ -22129,9 +24914,190 @@
         "selector": "questions[id='MC-E-09-1-2']",
         "question_sha256": "794716ddc97d327eb5e5dd291c199d10a19d38bc2e3419a82e36606a0b2b595a"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "8f08096bc2729d3033872232b7f35204c6d7a356910057413fb1938e1e64c793",
+        "skill": "Price/TR и фактический фонд",
+        "course_role": "Price/TR и фактический фонд",
+        "stem": "Ценовой индекс снизился, полный вырос, а фонд отстал от полного. Какие объяснения нужно проверить? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          1,
+          3
+        ],
+        "independent_correct": [
+          0,
+          1,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Выплаты могут перекрыть падение ценового компонента.",
+            "text": "Выплаты могли перекрыть отрицательную ценовую составляющую полной серии",
+            "conditions": "Период/валюта/налоговая серия и реальные сроки реинвестирования; комиссии не дублируются.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Реальные сроки реинвестирования могут отличаться.",
+            "text": "Реальный фонд мог реинвестировать позже модельной даты",
+            "conditions": "Период/валюта/налоговая серия и реальные сроки реинвестирования; комиссии не дублируются.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "FALSE",
+            "rationale": "Повторное вычитание одной комиссии дублирует затраты.",
+            "text": "Уже учтённые комиссии нужно вычесть ещё раз для сравнения",
+            "conditions": "Период/валюта/налоговая серия и реальные сроки реинвестирования; комиссии не дублируются.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Сравнение требует совпадающих периода/валюты/версии налога.",
+            "text": "Нужны согласованные период, валюта и налоговая версия",
+            "conditions": "Период/валюта/налоговая серия и реальные сроки реинвестирования; комиссии не дублируются.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Суммарный рост не требует роста каждой позиции.",
+            "text": "Положительный полный индекс доказывает рост цены каждого компонента",
+            "conditions": "Период/валюта/налоговая серия и реальные сроки реинвестирования; комиссии не дублируются.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  40,
+                  41,
+                  42
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.moex.com/ru/index/totalreturn/MCFTR",
+                "locator": "Таблица наименований MCFTR/MCFTRN/MCFTRR",
+                "purpose": "Официальное подтверждение иностранных/российских организаций и модельной полной доходности.",
+                "checked": "2026-11-01"
+              }
+            ],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-09-1",
+          "scope": "E-09-1: MCFTR/N/R, валюты, модельные налоги и фактическое реинвестирование фонда.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Период/валюта/налоговая серия и реальные сроки реинвестирования; комиссии не дублируются."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Price/TR и фактический фонд",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-06-1-1",
@@ -22144,9 +25110,170 @@
         "selector": "questions[id='MC-S1-06-1-1']",
         "question_sha256": "8a0e2ff12149b263a144434203200a2a148cf2d04f706a94b337c6a82efea308"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "0e556a1f14711b8de2dfc52a63f63efc3e8b6a213f81a1b6e7e2822211e82275",
+        "skill": "Облигационные потоки, YTM и амортизация",
+        "course_role": "Облигационные потоки, YTM и амортизация",
+        "stem": "Какие утверждения о цене и доходности облигации верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Для тех же положительных фиксированных потоков цена монотонно убывает с доходностью.",
+            "text": "При тех же положительных фиксированных потоках рост YTM соответствует меньшей цене",
+            "conditions": "Те же положительные фиксированные потоки; рыночная цена не меняет договорный купон.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  68,
+                  96,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Договорный купон не меняется от пересчётаYTM.",
+            "text": "YTM устанавливает новый фиксированный купон вместо договора",
+            "conditions": "Те же положительные фиксированные потоки; рыночная цена не меняет договорный купон.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  68,
+                  96,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Ликвидность задаёт условия исполнения и издержки.",
+            "text": "Ликвидность характеризует возможности сделки и ценовые издержки",
+            "conditions": "Те же положительные фиксированные потоки; рыночная цена не меняет договорный купон.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  68,
+                  96,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Частичный возврат номинала до конца является амортизацией.",
+            "text": "Амортизация предполагает частичный возврат номинала до окончательного срока",
+            "conditions": "Те же положительные фиксированные потоки; рыночная цена не меняет договорный купон.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  68,
+                  96,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Отрицательная переоценка может существовать без продажи.",
+            "text": "Падение котировки само доказывает состоявшуюся продажу с убытком",
+            "conditions": "Те же положительные фиксированные потоки; рыночная цена не меняет договорный купон.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  68,
+                  96,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-06-1",
+          "scope": "S1-06-1: цена/YTM, модельные предпосылки, ликвидность/кредит, амортизация.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Те же положительные фиксированные потоки; рыночная цена не меняет договорный купон."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Облигационные потоки, YTM и амортизация",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-06-1-2",
@@ -22159,9 +25286,165 @@
         "selector": "questions[id='MC-S1-06-1-2']",
         "question_sha256": "fef5a3f36b3335f1e465fbf576c88caf5dd5494e588e876693522517535dc406"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "539e55ccca4be9e8757dc8737c87ef284f615286e2dae91ba141b981d193a87b",
+        "skill": "Держать до погашения и реализованный результат",
+        "course_role": "Держать до погашения и реализованный результат",
+        "stem": "Ставки выросли, облигация подешевела, инвестор продолжает держать её и ссылается на исходную YTM. Что обоснованно? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Неосуществлённая продажа не становится реализованной по одной котировке.",
+            "text": "Текущая отрицательная переоценка не равна уже реализованной продаже",
+            "conditions": "Продолжение владения не гарантирует модельнуюYTMпри любых дефолтах/реинвестировании.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  94,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Результат зависит от реинвестирования/дефолта/издержек.",
+            "text": "Удержание гарантирует исходную YTM при любых условиях реинвестирования",
+            "conditions": "Продолжение владения не гарантирует модельнуюYTMпри любых дефолтах/реинвестировании.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  94,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Нужны фактические платежи и распоряжение купонами.",
+            "text": "Нужно проверить исполнение платежей, расходы и использование купонов",
+            "conditions": "Продолжение владения не гарантирует модельнуюYTMпри любых дефолтах/реинвестировании.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  94,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Ликвидность не гарантирует исполнение должника.",
+            "text": "Высокая ликвидность сама устраняет возможный дефолт",
+            "conditions": "Продолжение владения не гарантирует модельнуюYTMпри любых дефолтах/реинвестировании.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  94,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Нужно согласовать потоки и горизонт.",
+            "text": "Сравнение результата требует фактических денежных потоков и горизонта",
+            "conditions": "Продолжение владения не гарантирует модельнуюYTMпри любых дефолтах/реинвестировании.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  65,
+                  66,
+                  67,
+                  94,
+                  97
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-06-1",
+          "scope": "S1-06-1: цена/YTM, модельные предпосылки, ликвидность/кредит, амортизация.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Продолжение владения не гарантирует модельнуюYTMпри любых дефолтах/реинвестировании."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Держать до погашения и реализованный результат",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-10-0-1",
@@ -22174,9 +25457,153 @@
         "selector": "questions[id='MC-E-10-0-1']",
         "question_sha256": "b6aac7ab4f75186cba512b1ea0d0a60730d771b9a22b70906ff7ecb4e0d4a39f"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "0b02529a1c8756c3ff8532bd37476585314747f211c7873b7919882b0c5c5134",
+        "skill": "Корреляция двухактивного риска",
+        "course_role": "Корреляция двухактивного риска",
+        "stem": "Какие утверждения о риске двухактивного портфеля верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2
+        ],
+        "independent_correct": [
+          0,
+          2
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "При положительных весах и определённой корреляции ковариационный член убывает с ней.",
+            "text": "При положительных весах и прочем равенстве уменьшение корреляции снижает дисперсию",
+            "conditions": "Положительные веса и определённая корреляция; риск ниже среднего не означает ниже обоих.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Нужны сопоставимые доходности, не уровни цен.",
+            "text": "Волатильность оценивают по уровням цен вместо сопоставимых доходностей",
+            "conditions": "Положительные веса и определённая корреляция; риск ниже среднего не означает ниже обоих.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Приrho1 положительные взвешенные волатильности суммируются.",
+            "text": "При корреляции +1 и положительных весах риск равен взвешенной сумме волатильностей",
+            "conditions": "Положительные веса и определённая корреляция; риск ниже среднего не означает ниже обоих.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Ниже среднего не означает ниже минимума компонентов.",
+            "text": "Риск ниже среднего обязательно означает риск ниже каждой бумаги",
+            "conditions": "Положительные веса и определённая корреляция; риск ниже среднего не означает ниже обоих.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Число тикеров не определяет ковариации.",
+            "text": "Количество разных тикеров само определяет эффект диверсификации",
+            "conditions": "Положительные веса и определённая корреляция; риск ниже среднего не означает ниже обоих.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-10-0",
+          "scope": "E-10-0: ковариационная формула, исправленный результат20.3715, VaR и sqrt250 с оговорками.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Положительные веса и определённая корреляция; риск ниже среднего не означает ниже обоих."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Корреляция двухактивного риска",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-10-0-2",
@@ -22189,9 +25616,202 @@
         "selector": "questions[id='MC-E-10-0-2']",
         "question_sha256": "004245a5608cd34abc16a5bfd945bba88504ae116e579fcc0794c7a290cf5695"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_EDIT",
+      "decision": "EDIT_OPTIONS",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "b24372105d3870e72e19b719b9ce936d420e73606aa18e7a584944b5468b4d4f",
+        "skill": "Сравнение портфельного риска и смысл VaR",
+        "course_role": "Сравнение портфельного риска и смысл VaR",
+        "stem": "В портфеле равные доли двух акций с годовыми волатильностями 20% и 30% и корреляцией 0,30. Рассчитанная годовая волатильность портфеля — около 20,37%. Какие выводы о риске и условном дневном 95%-VaR корректны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Диверсификация относительно среднего не означает улучшение относительно каждого актива.",
+            "text": "Риск ниже взвешенных 25%, но выше риска первой акции",
+            "conditions": "В новой формулировке даны равные веса, годовые20/30иrho0.30; результат20.37дан готовым. Для sqrt времени нужны модельные условия независимости и одинаковой дисперсии.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "before_text": "Риск ниже взвешенных25%,но выше риска первой акции",
+            "original_blind_rationale": "20.37ниже25и выше20; но равные веса для25 следует явно задать в условии.",
+            "post_edit_verdict": "TRUE"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "При принятом независимом одинаково распределённом дневном риске дисперсия растёт пропорционально времени, а волатильность — его квадратному корню. Для перехода от годовой волатильности к дневной используют квадратный корень из числа торговых дней. Эта модель не универсальна для любых рыночных условий.",
+            "text": "Для дневного VaR годовую волатильность делят на число торговых дней без извлечения корня",
+            "conditions": "В новой формулировке даны равные веса, годовые20/30иrho0.30; результат20.37дан готовым. Для sqrt времени нужны модельные условия независимости и одинаковой дисперсии.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "before_text": "Исходные16,3%подтверждают ту же арифметику",
+            "original_blind_rationale": "16.3не равно20.37, не та же арифметика.",
+            "post_edit_verdict": "FALSE"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "VaRявляется квантильным порогом на данном горизонте.",
+            "text": "VaR описывает порог распределения на заданном горизонте",
+            "conditions": "В новой формулировке даны равные веса, годовые20/30иrho0.30; результат20.37дан готовым. Для sqrt времени нужны модельные условия независимости и одинаковой дисперсии.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Вероятность не фиксирует число событий в ближайшей выборке.",
+            "text": "В ближайших ста днях будет ровно пять превышений VaR",
+            "conditions": "В новой формулировке даны равные веса, годовые20/30иrho0.30; результат20.37дан готовым. Для sqrt времени нужны модельные условия независимости и одинаковой дисперсии.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Нормальный расчёт требует модели распределения и времени.",
+            "text": "Нормальный VaR требует оговорённых распределения и масштабирования",
+            "conditions": "В новой формулировке даны равные веса, годовые20/30иrho0.30; результат20.37дан готовым. Для sqrt времени нужны модельные условия независимости и одинаковой дисперсии.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  50
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-10-0",
+          "scope": "E-10-0: ковариационная формула, исправленный результат20.3715, VaR и sqrt250 с оговорками.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "В новой формулировке даны равные веса, годовые20/30иrho0.30; результат20.37дан готовым. Для sqrt времени нужны модельные условия независимости и одинаковой дисперсии."
+        },
+        "distractor_review": {
+          "result": "EDIT_OPTIONS",
+          "reason": "Условие автономно задаёт равные веса и корреляцию, без обращения к проверке слайда; голое сравнение двух чисел заменено правдоподобной ошибкой временного масштабирования риска. Требуется интерпретация готового результата, не денежный расчёт."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Сравнение портфельного риска и смысл VaR",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "medium",
+        "defects": [
+          "DISTRACTOR_QUALITY_AND_CASE_CLARITY"
+        ],
+        "key_comparison": "MATCH_BEFORE_AND_AFTER",
+        "feedback_review": "Исходный B проверял только неравенство16.3/20.37; новый ложный B проверяет деление наTвместоsqrtT. Независимо перепроверены дисперсия0.0415 и sqrt0.0415≈0.203715. Все5пояснений согласованы с текущими вариантами.",
+        "before_after": {
+          "change_record": "T33_MC_CHANGES.json",
+          "revision": "2026-11-01-t33-b06"
+        },
+        "revision": "2026-11-01-t33-b06",
+        "after_question_sha256": "d7e67d0174122c8b93ac3a1546ad27d8d13d9f7505f045ffab327e3a8d325412"
+      }
     },
     {
       "question_id": "MC-E-10-1-1",
@@ -22204,9 +25824,155 @@
         "selector": "questions[id='MC-E-10-1-1']",
         "question_sha256": "0783465bd85b84adc68aaa4f672652265cc40ffeae78a6d6a03ce0f0aef2f76b"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "2b0c679756641ab2e1b2503717391a63447f6dce85236e7b4ae5fa7d7d66467c",
+        "skill": "GMV и эффективная граница",
+        "course_role": "GMV и эффективная граница",
+        "stem": "Какие различия оптимизации по среднему и дисперсии верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "GMVминимизирует риск в допустимом множестве.",
+            "text": "GMV является одной точкой минимального риска допустимого набора",
+            "conditions": "Допустимое множество фиксировано ограничениями бюджета/short; GMVточка, нижняя ветвь может доминироваться.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Нижняя ветвь доминируется при одинаковом риске.",
+            "text": "Вся нижняя ветвь минимальной дисперсии обязательно эффективна",
+            "conditions": "Допустимое множество фиксировано ограничениями бюджета/short; GMVточка, нижняя ветвь может доминироваться.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Целевая функция и ограничение различаются.",
+            "text": "Максимизация доходности при лимите риска отличается от минимума риска при цели доходности",
+            "conditions": "Допустимое множество фиксировано ограничениями бюджета/short; GMVточка, нижняя ветвь может доминироваться.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Бюджет и короткие продажи задают допустимость.",
+            "text": "Ограничения коротких продаж и бюджета входят в определение допустимого набора",
+            "conditions": "Допустимое множество фиксировано ограничениями бюджета/short; GMVточка, нижняя ветвь может доминироваться.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Историческая оптимизация не гарантирует будущую доходность.",
+            "text": "Оптимум по прошлым входам имеет тот же статус, что гарантированная будущая доходность",
+            "conditions": "Допустимое множество фиксировано ограничениями бюджета/short; GMVточка, нижняя ветвь может доминироваться.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  48,
+                  49,
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-10-1",
+          "scope": "E-10-1: GMV, доминирование, ограничения и чувствительность входов.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Допустимое множество фиксировано ограничениями бюджета/short; GMVточка, нижняя ветвь может доминироваться."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "GMV и эффективная граница",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-10-1-2",
@@ -22219,9 +25985,145 @@
         "selector": "questions[id='MC-E-10-1-2']",
         "question_sha256": "51074e309d5ddeff532ed27e7244dc5b8eaefe85fe9966435c0f4583f147cac6"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B06",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешней экспертной приёмки",
+        "independence": "120 вердиктов сохранены до чтения correct/feedback. Затем прочитаны страницы и проверены источники, после этого ключи. Новый B кейса риска проверен отдельно через масштабирование дисперсии; ключ не изменён.",
+        "blind_verdict_sha256": "d7bd8a29828afa5ac84499cd1ea6c478e5d56a7ba44070d616190955b68c40d7",
+        "skill": "Неустойчивость оптимальных весов",
+        "course_role": "Неустойчивость оптимальных весов",
+        "stem": "После небольшого пересмотра ожидаемых доходностей модель резко поменяла веса. Что следует сделать? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Сценарии проверяют чувствительность к входам.",
+            "text": "Проверить чувствительность к нескольким сценариям входов",
+            "conditions": "Оценённые ожидаемые входы, стоимость смены позиций и ограничения; вычислительная точность не равна прогнозной.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Точный оптимум модели не является обещанием рынка.",
+            "text": "Признать новые веса точным обещанием лучшего результата",
+            "conditions": "Оценённые ожидаемые входы, стоимость смены позиций и ограничения; вычислительная точность не равна прогнозной.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Издержки и ликвидность меняют реализуемость.",
+            "text": "Учесть стоимость перехода и ликвидность",
+            "conditions": "Оценённые ожидаемые входы, стоимость смены позиций и ограничения; вычислительная точность не равна прогнозной.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Ограничение концентрации меняет допустимое множество.",
+            "text": "Проверить влияние пределов концентрации на допустимый оптимум",
+            "conditions": "Оценённые ожидаемые входы, стоимость смены позиций и ограничения; вычислительная точность не равна прогнозной.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Число десятичных знаков не доказывает устойчивость.",
+            "text": "Считать число знаков в весе мерой устойчивости",
+            "conditions": "Оценённые ожидаемые входы, стоимость смены позиций и ограничения; вычислительная точность не равна прогнозной.",
+            "source_refs": [
+              {
+                "source_id": "S3",
+                "pdf_pages": [
+                  51
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Механизм источника и собственный ограниченный вывод; внешний первичный источник не приписывается слайду.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "E-10-1",
+          "scope": "E-10-1: GMV, доминирование, ограничения и чувствительность входов.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Оценённые ожидаемые входы, стоимость смены позиций и ограничения; вычислительная точность не равна прогнозной."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Проверяются конкретные подмены базы, права, времени и причинного вывода. Базовое различение сохранено для новичка; кейсовая пара проверяет перенос."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Неустойчивость оптимальных весов",
+          "scope": "Первые144сопоставлены: E01вводит структуру предложения, E07процедуры и раскрытие; E04вводит репликацию, E09базу/делитель/налоговые серии; E05бета против E10ковариации/оптимизации. Оставшиеся105требуют отдельного прохода."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Проверены все пять optionFeedback и общий разбор; соответствуют предметным вердиктам.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-E-11-0-1",
