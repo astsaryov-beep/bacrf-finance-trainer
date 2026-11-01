@@ -23,17 +23,18 @@
   return Array.isArray(a.selected)&&a.selected.length>0&&new Set(a.selected).size===a.selected.length&&a.selected.every(i=>Number.isInteger(i)&&i>=0&&i<q.options.length);
  }
  function summary(study,progress={},key){
-  const questions=key?ids(key).map(id=>byId.get(id)):bank;let assessed=0,full=0,selfAssessed=0,stale=0;
+  const questions=key?ids(key).map(id=>byId.get(id)):bank;let assessed=0,full=0,selfAssessed=0,stale=0,examAssessed=0,examFull=0;const calculationTotal=questions.filter(q=>q.requiresCalculation).length;
   for(const q of questions){
    const course=study?.blocks?.[storageKey(q.courseBlock)]?.answers?.[q.id],saved=progress[q.id],quiz=saved?.answered===false?saved.lastAnsweredEvidence:saved;
    const evidence=[course,quiz].filter(a=>current(q,a)).sort((a,b)=>(Date.parse(b.reviewedAt||b.when)||0)-(Date.parse(a.reviewedAt||a.when)||0))[0];
    if(!evidence){if(course?.checked||quiz?.tries)stale++;continue;}
-   assessed++;if(q.type==='open')selfAssessed++;
+   assessed++;const fullBefore=full;if(q.type==='open')selfAssessed++;
    if('tries' in evidence){if(evidence.last===true&&evidence.lastScore===1)full++;}
    else if(q.type==='open'){if(evidence.rubric.length===q.rubric.length)full++;}
    else if(evidence.selected.length===q.correct.length&&q.correct.every(i=>evidence.selected.includes(i)))full++;
+   if(!q.requiresCalculation){examAssessed++;if(full>fullBefore)examFull++;}
   }
-  return {total:questions.length,assessed,full,selfAssessed,stale};
+  return {total:questions.length,assessed,full,selfAssessed,stale,calculationTotal,examTotal:questions.length-calculationTotal,examAssessed,examFull};
  }
  root.CourseLearning={labels,configure,ids,storageKey,sourceMatches,skillMatches,current,summary};
 
@@ -49,7 +50,7 @@
  }
  function alignedProgressMarkup(key){
   const result=summary(studyData,progress,key);if(!result.total)return '';
-  return `<section class="notice aligned-course-progress"><h3>Экзаменационная проверка блока</h3><p>Проверено ${result.assessed} из ${result.total}; полный ответ ${result.full} из ${result.total}. Открытые ответы проверяются самостоятельно по критериям.</p><p>Задания объединяют материал этого и уже доступных предыдущих блоков. Результат этой проверки учитывается отдельно от базового прохождения курса.</p><button class="btn good" type="button" data-course-start>${result.assessed<result.total?'Продолжить экзаменационную проверку':'Повторить экзаменационные задания'}</button></section>`;
+  return `<section class="notice aligned-course-progress"><h3>${result.examTotal?'Экзаменационная проверка блока':'Учебное закрепление'}</h3><p>Проверено ${result.assessed} из ${result.total}; полный ответ ${result.full} из ${result.total}. Открытые ответы проверяются самостоятельно по критериям.</p>${result.calculationTotal?`<p>Учебных расчётов: ${result.calculationTotal}. Они сохранены для понимания материала и не входят в пробный экзамен.</p>`:''}<p>Задания объединяют материал этого и уже доступных предыдущих блоков. Результат этой проверки учитывается отдельно от базового прохождения курса.</p><button class="btn good" type="button" data-course-start>${result.assessed<result.total?'Продолжить экзаменационную проверку':'Повторить экзаменационные задания'}</button></section>`;
  }
  function alignedQuestionTools(q,a){
   const supports=q.prerequisiteBlocks.map(key=>{const cut=key.lastIndexOf('-'),lesson=STUDY_MAP.get(key.slice(0,cut)),index=Number(key.slice(cut+1));return `<button class="btn ghost sm" type="button" data-course-support="${esc(key)}">${esc(lesson.blocks[index].title)}</button>`}).join('');

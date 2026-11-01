@@ -9,7 +9,7 @@ for(const item of q){assert.ok(item.learningSkills.length);assert.ok(item.prereq
 assert.equal(q.filter(item=>learn.sourceMatches(item,'adapted')).length,50);assert.equal(q.filter(item=>learn.sourceMatches(item,'reconstructed')).length,35);assert.equal(q.filter(item=>learn.sourceMatches(item,'transfer')).length,10);assert.equal(q.filter(item=>learn.sourceMatches(item,'examTopics')).length,95);
 assert.ok(q.some(item=>learn.skillMatches(item,'symbols')));assert.ok(q.some(item=>learn.skillMatches(item,'list')));assert.equal(q.filter(item=>learn.skillMatches(item,'composite')).length,5);
 const legacy={version:1,blocks:Object.fromEntries(order.map(key=>[learn.storageKey(key),{complete:true,answers:{legacy:{checked:true,score:1}}}]))};
-assert.equal(learn.summary(legacy).assessed,0,'96 old completions do not certify new skills');assert.equal(Object.values(legacy.blocks).filter(b=>b.complete).length,96);
+assert.equal(learn.summary(legacy).examTotal,92);assert.equal(learn.summary(legacy).calculationTotal,3);assert.equal(learn.summary(legacy).assessed,0,'96 old completions do not certify new skills');assert.equal(Object.values(legacy.blocks).filter(b=>b.complete).length,96);
 const mc=q.find(item=>item.id==='EX17-03'),open=q.find(item=>item.id==='EX17-32'),state={version:1,blocks:{}};
 state.blocks[learn.storageKey(mc.courseBlock)]={answers:{[mc.id]:{checked:true,selected:Array.from(mc.correct),questionRevision:mc.reviewRevision,reviewedAt:'2026-11-01T10:00:00Z'}}};
 let report=learn.summary(state);assert.equal(report.assessed,1);assert.equal(report.full,1);
