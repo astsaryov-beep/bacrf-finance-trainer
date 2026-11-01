@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "scope": "Adapted/new practice only; original 275/19 and original 125-statement verdicts unchanged",
-  "status": "EDITORIAL_REVIEWED_PENDING_REGRESSION",
+  "status": "EDITORIAL_DELTA_AND_FULL_BROWSER_VERIFIED_WITH_DISCLOSED_LIMITS",
   "changes": [
     {
       "id": "EX17-03",
@@ -247,5 +247,10 @@
       "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO»."
     }
   ],
-  "limits": "No empirical difficulty calibration; key cardinality follows independently explained revised statements."
+  "limits": "No empirical difficulty calibration; key cardinality follows independently explained revised statements.",
+  "verification": {
+    "product_commit": "154b8606a0aa77f5ebfc30f26b57b0650afe95fc",
+    "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815",
+    "proof": "RELEASE_6_2_0_PROOF_20261101.json"
+  }
 }

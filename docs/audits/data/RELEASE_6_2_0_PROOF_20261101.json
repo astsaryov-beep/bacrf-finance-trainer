@@ -1,0 +1,772 @@
+{
+  "date": "2026-11-01",
+  "version": "6.2.0",
+  "task": "T-32",
+  "status": "VERIFIED_WITH_DISCLOSED_LIMITS",
+  "product_commit": "154b8606a0aa77f5ebfc30f26b57b0650afe95fc",
+  "full_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815",
+  "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555817",
+  "main_ci_status_at_evidence": "in_progress",
+  "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555468",
+  "pull_request": "https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/91",
+  "local_programs": 30,
+  "browser_programs": 13,
+  "browser_jobs": [
+    {
+      "id": 124813931303,
+      "name": "verify",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 124814021786,
+      "name": "browser (route)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 124814021804,
+      "name": "browser (course)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 124814021825,
+      "name": "browser (core)",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "browser_pass_lines": [
+    "2026-11-01T09:53:37.9180212Z PASS aligned learning:mobile draft/MC/confidence detours,reload/keyboard return,partial self-assessment,4-correct grading,retry history,skip does not certify,old progress,real export/import,targeted skills and independent strict mock",
+    "2026-11-01T09:53:48.6539853Z PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px",
+    "2026-11-01T09:54:05.6523503Z PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors",
+    "2026-11-01T09:54:09.1558481Z PASS navigation: draft/choice skip+return+reload, ungraded open navigation, last skip overview, scroll, completed theory retention, real50 exam/no keys,320px",
+    "2026-11-01T09:54:36.5071123Z PASS browser: 17 comparative sections and mobile 320px; desktop sidebar {\"client\":371,\"scroll\":3318,\"height\":370.765625,\"overflow\":\"auto\"}, 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.",
+    "2026-11-01T09:55:49.2852045Z PASS learning browser: 96 canonical mechanisms/examples/digests and disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.",
+    "2026-11-01T09:55:54.0151208Z PASS teacher browser: balance and extra checks, new metric formula drills, corrected Q13 solutions, course/session rubric migration and actual export/import retain history.",
+    "2026-11-01T09:55:56.6594902Z PASS M03 browser: six lesson formula displays, effective Q07 prep, fresh recheck and actual export/import preserving both histories, mobile width.",
+    "2026-11-01T09:56:04.1422270Z PASS M04 browser: six complete teaching blocks, closed checks/formulas, preserved futures basics/exam notes/Q09-Q10 solutions and 320px width.",
+    "2026-11-01T09:57:00.9171267Z PASS fresh native route:96 completed blocks/309 primary/204 additionalMC/95 aligned checks,7 reload-resumes,actual export/import of608 course answers,then25open+25multi exam and reload. This is mechanical fixture coverage, not editorial novice acceptance.",
+    "2026-11-01T09:59:40.6401231Z PASS supplemental UI:96 traps/70 independent prompts/34 comparisons/15 diagrams/10 changed models; historical import/recheck, reload, real export/import and320px. Fixture coverage, not student performance.",
+    "2026-11-01T09:58:01.2143327Z PASS M01–M16 browser:96 complete blocks,204 multi checks,12 option profiles,62 course and60 valid main-bank session histories retained through actual export/import, desktop and320px.",
+    "2026-11-01T09:58:05.0421353Z PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px."
+  ],
+  "native_route": {
+    "kind": "mechanical fixture flow; not student performance",
+    "completed": 96,
+    "primary": 309,
+    "multi": 204,
+    "aligned": 95,
+    "reloads": 7,
+    "importedAnswers": 608,
+    "exam": {
+      "open": 25,
+      "multi": 25
+    },
+    "steps": [
+      {
+        "order": 1,
+        "block": "S1-01-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 2,
+        "block": "S1-01-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 3,
+        "block": "S1-02-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 4,
+        "block": "S1-02-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 5,
+        "block": "S1-03-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 6,
+        "block": "S1-03-1",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 7,
+        "block": "S1-04-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 8,
+        "block": "S1-04-1",
+        "primary": 5,
+        "multi": 3
+      },
+      {
+        "order": 9,
+        "block": "S1-05-0",
+        "primary": 6,
+        "multi": 2
+      },
+      {
+        "order": 10,
+        "block": "S1-05-1",
+        "primary": 4,
+        "multi": 2
+      },
+      {
+        "order": 11,
+        "block": "S1-06-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 12,
+        "block": "S1-06-1",
+        "primary": 7,
+        "multi": 2
+      },
+      {
+        "order": 13,
+        "block": "S1-07-0",
+        "primary": 9,
+        "multi": 2
+      },
+      {
+        "order": 14,
+        "block": "S1-07-1",
+        "primary": 5,
+        "multi": 3
+      },
+      {
+        "order": 15,
+        "block": "S1-08-0",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 16,
+        "block": "S1-08-1",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 17,
+        "block": "S1-09-0",
+        "primary": 6,
+        "multi": 2
+      },
+      {
+        "order": 18,
+        "block": "S1-09-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 19,
+        "block": "S1-10-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 20,
+        "block": "S1-10-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 21,
+        "block": "S2-01-0",
+        "primary": 4,
+        "multi": 2
+      },
+      {
+        "order": 22,
+        "block": "S2-01-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 23,
+        "block": "S2-02-0",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 24,
+        "block": "S2-02-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 25,
+        "block": "S2-03-0",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 26,
+        "block": "S2-03-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 27,
+        "block": "S2-04-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 28,
+        "block": "S2-04-1",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 29,
+        "block": "S2-05-0",
+        "primary": 1,
+        "multi": 2
+      },
+      {
+        "order": 30,
+        "block": "S2-05-1",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 31,
+        "block": "S2-06-0",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 32,
+        "block": "S2-06-1",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 33,
+        "block": "S2-07-0",
+        "primary": 1,
+        "multi": 2
+      },
+      {
+        "order": 34,
+        "block": "S2-07-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 35,
+        "block": "S2-08-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 36,
+        "block": "S2-08-1",
+        "primary": 1,
+        "multi": 2
+      },
+      {
+        "order": 37,
+        "block": "S2-09-0",
+        "primary": 11,
+        "multi": 2
+      },
+      {
+        "order": 38,
+        "block": "S2-09-1",
+        "primary": 3,
+        "multi": 4
+      },
+      {
+        "order": 39,
+        "block": "S2-10-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 40,
+        "block": "S2-10-1",
+        "primary": 6,
+        "multi": 2
+      },
+      {
+        "order": 41,
+        "block": "S2-11-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 42,
+        "block": "S2-11-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 43,
+        "block": "R-01-0",
+        "primary": 5,
+        "multi": 3
+      },
+      {
+        "order": 44,
+        "block": "R-01-1",
+        "primary": 2,
+        "multi": 3
+      },
+      {
+        "order": 45,
+        "block": "R-02-0",
+        "primary": 7,
+        "multi": 2
+      },
+      {
+        "order": 46,
+        "block": "R-02-1",
+        "primary": 7,
+        "multi": 2
+      },
+      {
+        "order": 47,
+        "block": "R-03-0",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 48,
+        "block": "R-03-1",
+        "primary": 4,
+        "multi": 2
+      },
+      {
+        "order": 49,
+        "block": "R-04-0",
+        "primary": 10,
+        "multi": 2
+      },
+      {
+        "order": 50,
+        "block": "R-04-1",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 51,
+        "block": "R-05-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 52,
+        "block": "R-05-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 53,
+        "block": "R-06-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 54,
+        "block": "R-06-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 55,
+        "block": "E-01-0",
+        "primary": 5,
+        "multi": 3
+      },
+      {
+        "order": 56,
+        "block": "E-01-1",
+        "primary": 4,
+        "multi": 2
+      },
+      {
+        "order": 57,
+        "block": "E-02-0",
+        "primary": 7,
+        "multi": 3
+      },
+      {
+        "order": 58,
+        "block": "E-02-1",
+        "primary": 6,
+        "multi": 2
+      },
+      {
+        "order": 59,
+        "block": "E-03-0",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 60,
+        "block": "E-03-1",
+        "primary": 5,
+        "multi": 2
+      },
+      {
+        "order": 61,
+        "block": "E-04-0",
+        "primary": 6,
+        "multi": 3
+      },
+      {
+        "order": 62,
+        "block": "E-04-1",
+        "primary": 6,
+        "multi": 2
+      },
+      {
+        "order": 63,
+        "block": "E-05-0",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 64,
+        "block": "E-05-1",
+        "primary": 3,
+        "multi": 2
+      },
+      {
+        "order": 65,
+        "block": "E-06-0",
+        "primary": 2,
+        "multi": 3
+      },
+      {
+        "order": 66,
+        "block": "E-06-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 67,
+        "block": "E-07-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 68,
+        "block": "E-07-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 69,
+        "block": "E-08-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 70,
+        "block": "E-08-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 71,
+        "block": "E-09-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 72,
+        "block": "E-09-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 73,
+        "block": "E-10-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 74,
+        "block": "E-10-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 75,
+        "block": "E-11-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 76,
+        "block": "E-11-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 77,
+        "block": "E-12-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 78,
+        "block": "E-12-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 79,
+        "block": "E-13-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 80,
+        "block": "E-13-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 81,
+        "block": "INS-01-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 82,
+        "block": "INS-01-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 83,
+        "block": "INS-02-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 84,
+        "block": "INS-02-1",
+        "primary": 2,
+        "multi": 4
+      },
+      {
+        "order": 85,
+        "block": "INS-03-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 86,
+        "block": "INS-03-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 87,
+        "block": "PEN-01-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 88,
+        "block": "PEN-01-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 89,
+        "block": "PEN-02-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 90,
+        "block": "PEN-02-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 91,
+        "block": "LEASE-01-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 92,
+        "block": "LEASE-01-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 93,
+        "block": "FACTOR-01-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 94,
+        "block": "FACTOR-01-1",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 95,
+        "block": "MARKET-01-0",
+        "primary": 2,
+        "multi": 2
+      },
+      {
+        "order": 96,
+        "block": "MARKET-01-1",
+        "primary": 2,
+        "multi": 2
+      }
+    ]
+  },
+  "sampling": {
+    "seeds": [
+      0,
+      999
+    ],
+    "examMCPositions": 25000,
+    "correctCardinality": {
+      "1": 554,
+      "2": 9073,
+      "3": 11423,
+      "4": 3950
+    },
+    "closeDowPairs": 0
+  },
+  "live_files": {
+    "index.html": {
+      "blob": "59c408bc75c2ff71edd016680927e1a98d012577",
+      "requested_path": "index.html"
+    },
+    "versions/index.html": {
+      "blob": "e6b88bb7cfc33e1a748eb828c78ffc3b7d4ba8a5",
+      "requested_path": "versions/index.html"
+    },
+    "v5.0.8/index.html": {
+      "blob": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+      "requested_path": "v5.0.8/index.html"
+    },
+    "assets/course-sidebar.css": {
+      "blob": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+      "requested_path": "assets/course-sidebar.css"
+    },
+    "assets/strategies.css": {
+      "blob": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+      "requested_path": "assets/strategies.css"
+    },
+    "assets/exam-feedback.css": {
+      "blob": "7dec3a63971fe914d88547664969cdb77495eea8",
+      "requested_path": "assets/exam-feedback.css"
+    },
+    "assets/futures-short-guide.css": {
+      "blob": "dcf745c2a43eec706222a86622a02bf75716cb07",
+      "requested_path": "assets/futures-short-guide.css"
+    },
+    "assets/theme.css": {
+      "blob": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+      "requested_path": "assets/theme.css?v=6.2.0"
+    },
+    "assets/question-review.js": {
+      "blob": "3e51024d1a1599217c8c80e80377942f7c810cee",
+      "requested_path": "assets/question-review.js?v=6.2.0"
+    },
+    "assets/exam-practice.js": {
+      "blob": "955838e91bb5726c45487ca33369a47d317a0ff9",
+      "requested_path": "assets/exam-practice.js"
+    },
+    "assets/exam-alignment.js": {
+      "blob": "1f6c129d0eac4df47dba96ded86af29f16b24f5f",
+      "requested_path": "assets/exam-alignment.js?v=6.2.0"
+    },
+    "assets/exam-profile.js": {
+      "blob": "239ff3d76a924b82db21e86537d2ab2278ae6b30",
+      "requested_path": "assets/exam-profile.js?v=6.2.0"
+    },
+    "assets/learning-path.js": {
+      "blob": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+      "requested_path": "assets/learning-path.js?v=6.2.0"
+    },
+    "assets/theory-links.js": {
+      "blob": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+      "requested_path": "assets/theory-links.js"
+    },
+    "assets/question-theory-ui.js": {
+      "blob": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+      "requested_path": "assets/question-theory-ui.js"
+    },
+    "assets/exam-feedback.js": {
+      "blob": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+      "requested_path": "assets/exam-feedback.js"
+    },
+    "assets/futures-short-guide.js": {
+      "blob": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+      "requested_path": "assets/futures-short-guide.js"
+    },
+    "assets/strategies.js": {
+      "blob": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+      "requested_path": "assets/strategies.js"
+    },
+    "assets/option-profiles.js": {
+      "blob": "cd2b04924ac937a59a443e12e9164591b5bb1566",
+      "requested_path": "assets/option-profiles.js"
+    }
+  },
+  "visual_review": [
+    "aligned partial open320",
+    "aligned four-correct320",
+    "aligned reconstruction320",
+    "overview320",
+    "quiz320"
+  ],
+  "preserved": {
+    "original_questions": 275,
+    "early_test": 19,
+    "base_assignments": 309,
+    "inline_mc": 204,
+    "blocks": 96,
+    "formulas": 135,
+    "frozen_blob": "2b77ae8f74be9433af3c458c3be55314d2cc9519"
+  },
+  "source_limits": "No official key, no empirical difficulty/student study; targeted editorial review, not new full independent 557-page certification.",
+  "browser_artifacts": [
+    {
+      "id": 13079200362,
+      "name": "trainer-browser-core"
+    },
+    {
+      "id": 13078894025,
+      "name": "trainer-browser-route"
+    },
+    {
+      "id": 13078489897,
+      "name": "trainer-browser-course"
+    }
+  ],
+  "product_tree": "47396a2a73a7ff80cde66c267e85045a9c6563bc",
+  "pr_head": "fdd40319340998bf9c0f467ba97b7f742c2f9da0",
+  "product_tree_equals_verified_pr": true
+}
