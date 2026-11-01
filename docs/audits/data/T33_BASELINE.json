@@ -1,0 +1,46 @@
+{
+  "baseline_commit": "605dbf18c2c6a8c62be0f121787627a70aea61ac",
+  "application_version": "6.2.0",
+  "sha256": {
+    "index.html": "2fccd19d88ebdc161a0c281f4fa8719f898e170df63c23bf3ad2be983b1a32d5",
+    "assets/exam-profile.js": "c50f401ac39f4316e21985e41fcbc800e1e9b69e40421395d3ff49e5e4e43585",
+    "assets/exam-practice.js": "8c5c1fc000a946d0947cfd5884cb9084927bedf8563ca916d850c81f0744c289",
+    "assets/exam-alignment.js": "c377999bba76dd3ecc31a56b16ef2feaa5b50098deabd06d2823808be077e1f8",
+    "assets/learning-path.js": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
+    "v5.0.8/index.html": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+  },
+  "open_assessment_protection": "index.html and assets/exam-profile.js unchanged in this audit stage; preserve open scoring/UI/rubrics in subsequent stages.",
+  "counts": {
+    "legacy": 275,
+    "early_test_subset": 19,
+    "blocks": 96,
+    "formula_cards": 135,
+    "catalog": 608,
+    "P1-A": 204,
+    "P1-C": 45
+  },
+  "cardinality_before": {
+    "P1-A": {
+      "2": 11,
+      "3": 184,
+      "4": 9
+    },
+    "P1-C": {
+      "1": 1,
+      "2": 15,
+      "3": 22,
+      "4": 7
+    }
+  },
+  "github_baseline": {
+    "open_prs": 0,
+    "main_ci": {
+      "id": 41295986395,
+      "conclusion": "success"
+    },
+    "pages": {
+      "id": 41295985860,
+      "conclusion": "success"
+    }
+  }
+}
