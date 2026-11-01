@@ -362,7 +362,8 @@
       "type": "multi",
       "source": "Семинар 2, PDF-страницы 68–71: параметры, квантиль и параметрический VaR.",
       "goals": [
-        "var-scaling"
+        "var-scaling",
+        "var-interpretation"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -380,7 +381,8 @@
       "source": "Лекции 4–5, PDF 23–24,28–29; 39-ФЗ, статья 6.1; Банк России, профессиональные участники.",
       "goals": [
         "market-roles",
-        "fund-rights"
+        "fund-rights",
+        "market-rights-record"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -432,7 +434,8 @@
       "type": "multi",
       "source": "Семинар 1, PDF 133–143; Банк России, кредитные рейтинговые агентства.",
       "goals": [
-        "rating-scales"
+        "rating-scales",
+        "rating-issue"
       ],
       "reveals": [],
       "taskKind": "case",
@@ -843,7 +846,8 @@
       "type": "open",
       "source": "Кредитная система, PDF-страница 16; отдельные режимы гарантирования и ликвидации.",
       "goals": [
-        "asv-functions"
+        "asv-functions",
+        "deposit-insurance"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -979,7 +983,8 @@
       "type": "open",
       "source": "Кредитная система, PDF-страница 16; Банк России, ликвидация НПФ и гарантирование прав.",
       "goals": [
-        "asv-functions"
+        "asv-functions",
+        "deposit-insurance"
       ],
       "reveals": [],
       "taskKind": "case",
@@ -1524,7 +1529,7 @@
       "goals": [
         "multiples-comparability",
         "multiples-meaning",
-        "eps-quality",
+        "eps-nonrecurring",
         "ev-perimeter"
       ],
       "reveals": [],
@@ -1701,7 +1706,8 @@
       "type": "multi",
       "source": "Авторское задание по изложенной теории R-01-1; источник и пределы: docs/audits/QUALITY_M08_REVIEW.md.",
       "goals": [
-        "clearing-dvp"
+        "clearing-dvp",
+        "market-rights-record"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -1994,7 +2000,7 @@
       "type": "multi",
       "source": "Авторское задание по изложенной теории INS-02-0; источник и пределы: docs/audits/QUALITY_M15_REVIEW.md.",
       "goals": [
-        "insurance-roles"
+        "insurance-specialists"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -2390,7 +2396,7 @@
       "source": "Авторское задание по изложенной теории S1-09-1; источник и пределы: docs/audits/QUALITY_M13_REVIEW.md.",
       "goals": [
         "rating-group",
-        "rating-scales"
+        "rating-issue"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -2425,7 +2431,7 @@
       "source": "Авторское задание по изложенной теории E-01-0; источник и пределы: docs/audits/QUALITY_M10_REVIEW.md.",
       "goals": [
         "equity-dilution",
-        "eps-quality"
+        "eps-dilution"
       ],
       "reveals": [],
       "taskKind": "case",
@@ -2460,7 +2466,7 @@
       "type": "multi",
       "source": "Авторское задание по изложенной теории E-02-0; исходные документы и слайды указаны в учебном блоке.",
       "goals": [
-        "eps-quality"
+        "eps-nonrecurring"
       ],
       "reveals": [],
       "taskKind": "case",
@@ -3148,7 +3154,7 @@
       "type": "multi",
       "source": "Авторское задание по изложенной теории S2-07-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
       "goals": [
-        "var-scaling",
+        "var-interpretation",
         "var-tail"
       ],
       "reveals": [],
@@ -3251,7 +3257,8 @@
       "type": "multi",
       "source": "Авторское задание по изложенной теории S2-09-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
       "goals": [
-        "straddle-cost"
+        "straddle-cost",
+        "option-vega"
       ],
       "reveals": [],
       "taskKind": "case",
@@ -3287,7 +3294,8 @@
       "source": "Авторское задание по изложенной теории S2-10-1; источник и пределы сверки: docs/audits/QUALITY_M06_REVIEW.md.",
       "goals": [
         "option-greeks",
-        "delta-neutral"
+        "delta-neutral",
+        "option-vega"
       ],
       "reveals": [],
       "taskKind": "knowledge",
@@ -4011,5 +4019,5 @@
       "runtime_before_sha256": "fe122fe8a43a83ec34a3cc67bd57a8b0e030aadfebfbf9ad5dffec2eac7e162f"
     }
   ],
-  "classification_note": "Сохранены редакционные knowledge/case P1 и опубликованного native-пула; для новых open определение/общий механизм отнесены к knowledge, применение к заданной ситуации — к case. Это не официальная спецификация экзамена."
+  "classification_note": "Редакционная классификация знаний и кейсов, не официальная спецификация; тексты и рубрики открытых ответов неизменны."
 }

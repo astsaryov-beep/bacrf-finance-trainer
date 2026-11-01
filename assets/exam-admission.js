@@ -139,7 +139,8 @@
   },
   "EX17-19": {
     "goals": [
-      "var-scaling"
+      "var-scaling",
+      "var-interpretation"
     ],
     "reveals": [],
     "reviewRevision": "2026-10-31-foundations"
@@ -147,7 +148,8 @@
   "EX17-20": {
     "goals": [
       "market-roles",
-      "fund-rights"
+      "fund-rights",
+      "market-rights-record"
     ],
     "reveals": [],
     "reviewRevision": "2026-11-01-editorial"
@@ -169,7 +171,8 @@
   },
   "EX17-23": {
     "goals": [
-      "rating-scales"
+      "rating-scales",
+      "rating-issue"
     ],
     "reveals": [],
     "reviewRevision": "2026-10-31-all-mc"
@@ -350,7 +353,8 @@
   },
   "EX17-46": {
     "goals": [
-      "asv-functions"
+      "asv-functions",
+      "deposit-insurance"
     ],
     "reveals": [],
     "reviewRevision": "2026-10-31-lists"
@@ -406,7 +410,8 @@
   },
   "TRANSFER-ASV-01": {
     "goals": [
-      "asv-functions"
+      "asv-functions",
+      "deposit-insurance"
     ],
     "reveals": [],
     "reviewRevision": "2026-10-31-lists"
@@ -641,7 +646,7 @@
     "goals": [
       "multiples-comparability",
       "multiples-meaning",
-      "eps-quality",
+      "eps-nonrecurring",
       "ev-perimeter"
     ],
     "reveals": [],
@@ -728,7 +733,8 @@
   },
   "MC-R-01-1-2": {
     "goals": [
-      "clearing-dvp"
+      "clearing-dvp",
+      "market-rights-record"
     ],
     "reveals": [],
     "sourceGroup": "lecture",
@@ -936,13 +942,13 @@
   },
   "MC-INS-02-0-1": {
     "goals": [
-      "insurance-roles"
+      "insurance-specialists"
     ],
     "reveals": [],
     "sourceGroup": "lecture",
     "taskKind": "knowledge",
     "complex": false,
-    "family": "insurance-roles",
+    "family": "insurance-specialists",
     "examEligible": true,
     "reviewRevision": "2026-11-01-t33-b08"
   },
@@ -1217,7 +1223,7 @@
   "MC-S1-09-1-1": {
     "goals": [
       "rating-group",
-      "rating-scales"
+      "rating-issue"
     ],
     "reveals": [],
     "sourceGroup": "seminar",
@@ -1242,7 +1248,7 @@
   "MC-E-01-0-3": {
     "goals": [
       "equity-dilution",
-      "eps-quality"
+      "eps-dilution"
     ],
     "reveals": [],
     "sourceGroup": "seminar",
@@ -1267,13 +1273,13 @@
   },
   "MC-E-02-0-1": {
     "goals": [
-      "eps-quality"
+      "eps-nonrecurring"
     ],
     "reveals": [],
     "sourceGroup": "seminar",
     "taskKind": "case",
     "complex": false,
-    "family": "eps-quality",
+    "family": "eps-nonrecurring",
     "examEligible": true,
     "reviewRevision": "2026-11-01-t33-p2-admission"
   },
@@ -1760,14 +1766,14 @@
   },
   "MC-S2-07-1-1": {
     "goals": [
-      "var-scaling",
+      "var-interpretation",
       "var-tail"
     ],
     "reveals": [],
     "sourceGroup": "seminar",
     "taskKind": "knowledge",
     "complex": false,
-    "family": "var-scaling",
+    "family": "var-interpretation",
     "examEligible": true,
     "reviewRevision": "2026-11-01-t33-p2-admission"
   },
@@ -1833,7 +1839,8 @@
   },
   "MC-S2-09-1-2": {
     "goals": [
-      "straddle-cost"
+      "straddle-cost",
+      "option-vega"
     ],
     "reveals": [],
     "sourceGroup": "seminar",
@@ -1859,7 +1866,8 @@
   "MC-S2-10-1-1": {
     "goals": [
       "option-greeks",
-      "delta-neutral"
+      "delta-neutral",
+      "option-vega"
     ],
     "reveals": [],
     "sourceGroup": "seminar",

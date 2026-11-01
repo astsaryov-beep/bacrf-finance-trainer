@@ -31,6 +31,11 @@ assert.equal(pair('EX17-10','EX17-04'),true,'listing requirements and cash flows
 assert.equal(pair('EX17-13','EX17-33'),true,'option value and Rho are distinct goals');
 assert.equal(pair('EX17-12','EX17-26'),true,'REPO economic risk and exercise of voting rights differ');
 assert.equal(pair('EX17-33','MC-S2-09-0-1'),true,'Rho and exercise rights are not a blanket option ban');
+assert.equal(pair('EX17-50','MC-INS-02-0-1'),true,'insured/beneficiary and insurance specialists are different roles');
+assert.equal(pair('MC-E-01-0-3','MC-E-02-0-1'),true,'dilution and one-off profit are different EPS mechanisms');
+assert.equal(pair('EX17-23','Q07'),true,'rating scale and group support are different mechanisms');
+assert.equal(pair('EX17-20','MC-R-01-1-2'),false,'shared clearing versus rights-recording subgoal');
+assert.equal(pair('EX17-19','MC-S2-07-1-1'),false,'shared VaR interpretation subgoal');
 assert.equal(pair('Q09','Q11'),false,'ASW case supplies structure to the definition question');
 assert.equal(pair('PO07','Q11'),false,'directional stem hint across different assessment goals');
 assert.ok(!a.targets(bank.get('PO07')).goals.some(g=>a.targets(bank.get('Q11')).goals.includes(g)));
@@ -60,6 +65,14 @@ for(let seed=0;seed<1000;seed++){
 assert.equal(Object.keys(frequency).length,report.total,'every admitted ID must actually be sampled');
 assert.ok(p.choose(pool.filter(q=>q.type==='multi'),0).error);assert.ok(p.choose(pool.filter(q=>q.section!=='reg'),0).error);
 assert.ok(p.choose(pool.filter(q=>!p.metadata(q).complex),0).error);assert.ok(p.choose(pool.filter(q=>p.metadata(q).taskKind!=='case'),0).error);
+// A saved v1 ticket remains valid and retains its result even when the new
+// selection rules would not assemble the same collection of atomic targets.
+ctx.BANK_MAP=bank;ctx.EFFECTIVE_BANK=pool;const start=h.indexOf('function validSessionState('),end=h.indexOf('\nif(session&&!validSessionState',start);
+vm.runInNewContext("function isPlainRecord(v){return v!==null&&typeof v==='object'&&!Array.isArray(v)}\n"+h.slice(start,end),ctx);
+const oldIds=baseline.seed_selections[0].selection.map(i=>baseline.catalogue[i].id),oldSession={version:2,mode:'exam',ids:oldIds,pos:0,done:false,deadline:null,responses:{},grades:{},recorded:{},orders:{},examProfile:{id:p.id,revision:'2026-11-01',seed:0,setId:'FM-00000000',questionRevisions:Object.fromEntries(oldIds.map(id=>[id,baseline.catalogue.find(q=>q.id===id).revision]))}};
+for(const id of oldIds){const q=bank.get(id);if(q.type==='multi'){oldSession.responses[id]={choice:Array.from(q.correct),confidence:3};oldSession.orders[id]=[4,2,0,3,1];}else{oldSession.responses[id]={text:'Прежний ответ',checked:true,rubric:q.rubric.map((_,i)=>i),confidence:1};oldSession.grades[id]={type:'rubric',points:q.rubric.length,total:q.rubric.length};}}
+const oldSnapshot=JSON.stringify(oldSession);assert.equal(ctx.validSessionState(oldSession),true);assert.equal(p.summary(oldSession,bank).strict,50);assert.equal(p.summary(oldSession,bank).stale,0);assert.equal(JSON.stringify(oldSession),oldSnapshot);
+for(const seed of [2147483648,4294967295]){const s=p.choose(pool,seed);assert.ok(!s.error);assert.equal(s.profile.seed,seed);assert.equal(s.items.length,50);}
 const catalogue=Object.keys(a.entries),index=new Map(catalogue.map((id,i)=>[id,i]));
 function overlapStats(sets){const bits=sets.map(ids=>{const b=new Uint32Array(Math.ceil(catalogue.length/32));for(const id of ids){const i=index.get(id);b[i>>>5]|=1<<(i&31);}return b;});const counts=new Uint32Array(51);let sum=0,pairs=0;
  for(let i=0;i<bits.length;i++)for(let j=0;j<i;j++){let n=0;for(let k=0;k<bits[i].length;k++){let v=bits[i][k]&bits[j][k];v-=v>>>1&0x55555555;v=(v&0x33333333)+(v>>>2&0x33333333);n+=((v+(v>>>4)&0x0f0f0f0f)*0x01010101)>>>24;}counts[n]++;sum+=n;pairs++;}

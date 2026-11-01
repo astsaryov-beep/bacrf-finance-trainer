@@ -393,5 +393,18 @@
   "local_pass": 32,
   "local_total": 32,
   "browser": "PENDING",
-  "publication": "PENDING"
+  "publication": "PENDING",
+  "full_local_stage": "CP178:32/32; final goal refinement followed by affected regression",
+  "targeted_final": [
+    {
+      "program": "tests/exam-admission-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T33 P2: {\"task\":\"T-33\",\"status\":\"GENERATION_PASS\",\"seed_range\":[0,999],\"admitted_total\":227,\"multi\":143,\"open\":84,\"actually_sampled\":227,\"min_added_per_ticket\":{\"multi\":11,\"open\":2},\"all_pair_overlap_before\":{\"pairs\":499500,\"min\":18,\"mean\":30.269631631631633,\"p50\":30,\"p95\":34,\"max\":42},\"all_pair_overlap_after\":{\"pairs\":499500,\"min\":3,\"mean\":16.243057057057058,\"p50\":16,\"p95\":22,\"max\":35},\"mean_overlap_by_format\":{\"multi\":6.6351371371371375,\"open\":9.60791991991992},\"atomic_goal_count\":{\"unique_pool_before\":100,\"unique_pool_after\":186,\"mean_per_ticket_before\":70.832,\"mean_per_ticket_after\":70.861},\"audited_goal_or_hint_collisions\":{\"tickets_before\":1000,\"mean_pairs_before\":8.601,\"max_pairs_before\":14,\"tickets_after\":0,\"pairs_after\":0},\"pool_cardinality\":{\"1\":1,\"2\":18,\"3\":111,\"4\":13},\"sampled_cardinality\":{\"1\":121,\"2\":3205,\"3\":20094,\"4\":1580},\"input_assets_sha256\":{\"assets/exam-profile.js\":\"5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49\",\"assets/exam-admission.js\":\"eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121\"}}\n"
+    }
+  ],
+  "first_pr_ci": {
+    "run": 41349889963,
+    "head": "be4d4f7c8bbe7c3860a6614b0b95d41bbd52e906",
+    "status": "VERIFY_CORE_SUCCESS_SUPERSEDED_BY_GOAL_REFINEMENT"
+  }
 }
