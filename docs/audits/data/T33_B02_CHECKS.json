@@ -158,8 +158,8 @@
       "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
     }
   ],
-  "browser": "PENDING_GITHUB_ACTIONS; old MC mobile regression added; syntax checked locally",
-  "publication": "PENDING",
+  "browser": "GITHUB_ACTIONS_SUCCESS:13 programs, including old-MC migration at320px",
+  "publication": "VERIFIED_PR94_MAIN_CI_PAGES_AND_LIVE19",
   "subject_review": {
     "questions": 48,
     "statements": 240,
@@ -172,6 +172,7 @@
     "id": 41316716409,
     "verify": "SUCCESS",
     "core": "FAIL_RELEASE_METADATA_MISMATCH",
-    "resolution": "Root cause: versions/index.html still displayed6.2.0 while working_version6.2.1. Chooser and current_release metadata aligned; assertion retained; rerun pending."
-  }
+    "resolution": "Fixed two stale version labels in versions/index.html; synchronized current_release too. Full rerun41317174216, main41317778013, Pages41317777955 SUCCESS. Assertion retained."
+  },
+  "release_proof": "RELEASE_6_2_1_PROOF.json"
 }

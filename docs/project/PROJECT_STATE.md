@@ -12,22 +12,23 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-33",
   "next_task": "T-33",
-  "last_verified_checkpoint": "CP-20261101-161",
-  "last_verified_commit": "154b8606a0aa77f5ebfc30f26b57b0650afe95fc",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555468",
+  "last_verified_checkpoint": "CP-20261101-164",
+  "last_verified_commit": "b0e3346f5e4b21034985403ca52cab1499c1086b",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317174216",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317777955",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-11-01",
   "current_release": "6.2.1",
   "release_channel": "stable",
   "last_recheck": {
     "date": "2026-11-01",
-    "commit": "154b8606a0aa77f5ebfc30f26b57b0650afe95fc",
-    "local_programs": 30,
+    "commit": "b0e3346f5e4b21034985403ca52cab1499c1086b",
+    "local_programs": 31,
     "browser_programs": 13,
     "live_public_files_match": 19,
-    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555817",
-    "proof": "docs/audits/data/RELEASE_6_2_0_PROOF_20261101.json"
+    "actual_cache_urls_match": 6,
+    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317778013",
+    "proof": "docs/audits/data/RELEASE_6_2_1_PROOF.json"
   },
   "last_audit": {
     "checkpoint": "CP-20261101-157",
@@ -51,35 +52,24 @@
   "current_work": {
     "task": "T-33",
     "status": "IN_PROGRESS",
-    "reviewed_mc": 48,
-    "reviewed_statements": 240,
-    "pending_mc": 201,
+    "reviewed_mc": 72,
+    "reviewed_statements": 360,
+    "pending_mc": 177,
     "P2": "NOT_STARTED_PENDING_P1",
     "application_changed": true,
     "report": "docs/audits/T33_MC_BANK_REVIEW.md",
-    "release_status": "PENDING",
+    "release_status": "6.2.1_VERIFIED_TASK_IN_PROGRESS",
     "edited_mc": 2,
-    "keep_mc": 46,
-    "first_ci": "41316716409: versions/index.html still displayed6.2.0; aligned chooser and current_release metadata; rerun required"
+    "keep_mc": 70
   }
 }
 ```
 <!-- STATE_JSON_END -->
 
-**6.2.0 опубликована и проверена. T-32 закрыта в адресном редакционном и техническом объёме.**
+**6.2.1 опубликована и проверена; T-33 продолжается.**
 
-[PR91](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/91), продукт `154b8606a0aa77f5ebfc30f26b57b0650afe95fc`. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555468) — SUCCESS. Все 19 опубликованных файлов совпали с проверенным приложением.
+Проверены 72 MC и 360 утверждений: 70 KEEP, два улучшения дистракторов; ошибок ключей нет. Осталось 132 старых и 45 новых MC. Полная предметная приёмка P1 не объявлена; P2 не начат.
 
-95 упражнений связаны с 49 блоками после всех предпосылок и включены в последовательный путь. Базовые 96 завершений сохранены. Отдельный показатель экзаменационных навыков учитывает92задания;3учебныхрасчёта доступны для понимания и не входят в пробный экзамен. Подробные рубрики открытых,пропуски,уверенность,возврат к точной теории,черновики,редакционная история,перезагрузка и настоящийэкспорт/импорт проверены.
+Две правки опубликованы в PR94, коммит `b0e3346f5e4b21034985403ca52cab1499c1086b`. Подтверждены 31 локальная и 13 браузерных программ, CI в PR/main, Pages, 19 файлов сайта и шесть фактических URL ресурсов. Open, 275/19, 96 блоков, 135 формул, ID, история и frozen сохранены. [Доказательства](../audits/data/RELEASE_6_2_1_PROOF.json).
 
-27 альтернатив16карточек уточнены по смыслу,источникам и условиям. В контрольном наборе50разных оценочных целей;25MC5+25open,квоты и не менее3составных. В1000наборах нет расчётных карточек и тесной парыДоу;три верных встречаются в45,69%MC-позиций вместо84,17%до исправлений. Это характеристики генератора,не эмпирическая калибровка сложности.
-
-30 локальных и13браузерных программ PASS. Полный путь:96блоков,309базовых+204MC+95новых ответов,реальныйэкспорт/импорт608ответов. Сохранены275/19,135формул,ID/ключи иfrozen5.0.8. T06общимпакетомневыполнялась.
-
-Официального ключа нет;32оговорки исходных утверждений сохранены. Источниковый/методический контроль редакционный,эксперимента со студентами не было. Новая полная независимая сертификация557страниц/608ответов не заявляется. Текущая новая работа — T-33 по ТЗ ревизии банка MC.
-
-[Отчёт](../audits/T32_LEARNING_QUALITY_20261101.md) · [Доказательства](../audits/data/RELEASE_6_2_0_PROOF_20261101.json). Предыдущие рабочие статусы сохранены [в архиве](../archive/2026-11-01-t32/PROJECT_STATE.md), история этапов — в CHECKPOINTS.md.
-
-## Текущая T-33 · IN_PROGRESS
-
-Полная матрица249MC создана; B01 предметно проверен24/204 и120/1020 утверждений,24KEEP без правок. Новые45ещё не проверены. P2 не начат до приёмкиP1. Приложение остаётся6.2.0; open и весь рабочий код побайтно сохранены. [План и результат](../audits/T33_MC_BANK_REVIEW.md).
+[Текущий план и аудит](../audits/T33_MC_BANK_REVIEW.md). Следующий пакет B04: вопросы 73–96. T-32 не переоткрыта. T-06 выполняется только отдельно; переработка интервальных повторов и исследование на студентах не входят в задачу.

@@ -1,0 +1,800 @@
+{
+  "task": "T-33",
+  "batch": "B04",
+  "status": "SOURCE_AND_KEY_COMPARISON_PENDING_NOT_ACCEPTED",
+  "counted_as_reviewed": false,
+  "records": [
+    {
+      "question_id": "MC-S1-03-0-1",
+      "skill": "Проектные потоки, регресс и DSCR",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Долг обслуживается из доступных проектных денежных потоков."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Выделение юрлица не устраняет риск строительства и спроса."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Объём ответственности спонсора определяется контрактами."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "DSCR сопоставляет CFADS и обслуживание долга за один период."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Проект может иметь ограниченный регресс или отдельную поддержку спонсора."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-03-0-2",
+      "skill": "Задержка проекта и календарный долг",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Важны доступные к датам CFADS и обязательные платежи."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Годовая прибыль не равна денежному остатку сегодня."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Резерв и обязательства поддержки могут покрывать временной разрыв."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Ответственность подрядчика и пересмотр выручки влияют на доступность погашения."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "SPV не гарантирует отсутствия неблагоприятного сценария."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-03-1-1",
+      "skill": "Синдикат, субординация и ковенант",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Синдикат объединяет нескольких кредиторов по согласованной структуре."
+        },
+        {
+          "index": 1,
+          "verdict": "TRUE",
+          "rationale": "Субординация устанавливает более низкий приоритет требования."
+        },
+        {
+          "index": 2,
+          "verdict": "FALSE",
+          "rationale": "PIK переносит выплату или капитализирует процент, но не прощает долг."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Финансовый ковенант может нарушиться при своевременной оплате процентов."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Агент управляет предусмотренными действиями, не обязательно несёт все кредитные доли."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-03-1-2",
+      "skill": "Нарушение финансового ковенанта",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Договор может предусмотреть меры при нарушении до денежного дефолта."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Нарушение не создаёт обязанности кредитора простить долг."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Роль агента и порядок решений определены соглашением."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Одинаковый показатель не означает одинаковые юридические последствия всех договоров."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Количество кредиторов и старшинство — разные признаки."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-04-0-1",
+      "skill": "Капитал, LCR, NSFR и ПДН",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "LCR относится к запасу высоколиквидных активов и чистому стрессовому оттоку за30дней."
+        },
+        {
+          "index": 1,
+          "verdict": "TRUE",
+          "rationale": "NSFR сопоставляет доступное и требуемое стабильное фондирование на годовом горизонте."
+        },
+        {
+          "index": 2,
+          "verdict": "FALSE",
+          "rationale": "ПДН заёмщика-физлица и капитал/RWA — разные показатели разных лиц."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Положительный капитал не обеспечивает деньги на конкретную дату."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Один коэффициент не является гарантией для любого сценария."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-04-0-2",
+      "skill": "Платёжеспособность и массовый отток",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "FALSE",
+          "rationale": "Капитал не тождественен готовому денежному остатку."
+        },
+        {
+          "index": 1,
+          "verdict": "TRUE",
+          "rationale": "Для погашения нужны доступные ресурсы в сроки обязательств."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Вынужденный дисконт при продаже может создать убыток и уменьшить капитал."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Отток и распродажа могут усиливать друг друга."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Начисленная прибыль сама не гарантирует ликвидность."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-04-1-1",
+      "skill": "Факторинг, лизинг и секьюритизация",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Факторинг использует уступленное денежное требование и договорные услуги."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Безрегрессный риск неплатежа не отменяет ответственность за собственное нарушение поставщика."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Лизинг передаёт имущество в пользование по условиям договора."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Секьюритизация может отделить требование от оригинатора и изменить должника/обеспечение."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Срок и источник возврата влияют на риск и стоимость наряду с номинальной ставкой."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-04-1-2",
+      "skill": "Регресс, спор поставки и уведомление",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Договор задаёт право потребовать выплату от поставщика при неплатеже."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Предварительное финансирование само не передаёт все риски."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Недействительность или оспаривание требования отличаются от чистого кредитного неплатежа."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Нужно установить комиссию, расчёты и распределение ответственности."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Уведомление должника и регресс — разные признаки классификации."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-05-0-1",
+      "skill": "Экономические модели и назначение",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Марковиц описывает совместное распределение риска портфеля активов."
+        },
+        {
+          "index": 1,
+          "verdict": "TRUE",
+          "rationale": "Модильяни—Миллер рассматривают стоимость и структуру финансирования при предпосылках модели."
+        },
+        {
+          "index": 2,
+          "verdict": "FALSE",
+          "rationale": "Агентская теория касается стимулов и конфликтов интересов, не только купонной техники."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Трансакционные издержки включают поиск, заключение и исполнение, а не только цену актива."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Дисконтирование приводит потоки разных дат к общей оценке при выбранной ставке."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-05-0-2",
+      "skill": "Аддитивность и изменение структуры",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Документы могут изменить реальные обязательства, налоги и расходы; это проверяют."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Количество документов не создаёт дополнительный денежный поток."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "При неизменных согласованных условиях оценки цена суммы потоков аддитивна."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "При изменившихся налогах или ограничениях прежняя модель может не применяться."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Юридическое разбиение и экономическое увеличение выплат — разные события."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-05-1-1",
+      "skill": "EMH, диспозиция и пределы арбитража",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Полусильная EMH относится к отражению публичной информации."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Якорение означает инерционную привязку к исходному ориентиру, а не обязательное обновление."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Диспозиция включает раннюю продажу победителей и удержание проигравших."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Ограниченный капитал и сроки могут мешать арбитражёру удерживать позицию."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Грубая аномалия до расходов не гарантирует исполнимую чистую прибыль."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-05-1-2",
+      "skill": "Диагностика поведенческих механизмов",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Прежняя цена может стать якорем оценки."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Совпадение действий группы не доказывает рациональность."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Продление недавнего движения в будущее — экстраполяция."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Покупка вслед за знакомыми может быть стадным поведением."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Согласие участников не устраняет будущий риск."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-06-0-1",
+      "skill": "Цифровые формы и права",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Учёт цифрового рубля ведётся на платформе БанкаРоссии."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Приложение банка является каналом доступа, не собственным выпуском цифрового рубля."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Удержание привязки стейблкоина зависит от модели резервов/выкупа и её исполнения."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Уникальная запись сама не устанавливает все права на внешнюю вещь."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "ЦФА допускает денежное требование к установленному должнику."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-06-0-2",
+      "skill": "Разные цифровые остатки и квалификация",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Каждый инструмент имеет отдельное обязанное лицо и инфраструктуру."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Один экран не делает токен и цифровой рубль банковским вкладом."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Привязка токена требует проверки прав выкупа и обязанного лица."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Рыночный образ третьей формы не отменяет квалификацию цифрового рубля как разновидности безналичных средств по ГК."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Цифровой рубль не является анонимной физической банкнотой."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-06-1-1",
+      "skill": "Операционный/клиринговый/расчётный центр",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Операционный центр обеспечивает доступ и сообщения."
+        },
+        {
+          "index": 1,
+          "verdict": "TRUE",
+          "rationale": "Платёжный клиринговый центр определяет обязательства."
+        },
+        {
+          "index": 2,
+          "verdict": "FALSE",
+          "rationale": "Расчётный центр осуществляет исполнение, а инвестиционный рейтинг — чужая функция."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "НПС — система, НСПК — конкретная организация."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "НСПК имеет предусмотренные роли в разных платёжных сервисах."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-R-06-1-2",
+      "skill": "Принятие сообщения и окончательный платёж",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Реквизиты, сервис и сумма определяют, что поручено исполнить."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "QR может быть интерфейсом разных сервисов."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Приём распоряжения предшествует завершению денежного расчёта."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Роли банка и инфраструктуры помогают определить подтверждение исполнения."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Один человек может иметь несколько карт, поэтому количество карт не равно числу плательщиков."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-04-0-1",
+      "skill": "Долговой ЦФА, вексель и еврооблигация",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Форма учёта не устраняет кредитный риск того же должника."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "ОИС ведёт инфраструктуру, а обязанное лицо определяется выпуском."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Акцепт принимает обязанность, индоссамент передаёт права по векселю."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Еврооблигации не ограничены валютой евро."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Юридическое требование и ликвидность вторичной продажи — разные свойства."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-04-0-2",
+      "skill": "Сопоставление трёх долговых оболочек",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Должник, оформление и способ защиты определяют характер требования."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Равная сумма не делает равными юридические права и защиту."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Передача и учёт могут различаться по инструментам."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Неисполнение и реальность обеспечения сохраняют значение."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Цифровая запись не является государственной гарантией возврата."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-04-1-1",
+      "skill": "Call/put, амортизация и реинвестирование",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "В обычной конструкции call-облигации право у эмитента, put — у держателя."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Заранее заданная лестница купонов не требует будущего индикатора."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Амортизация по графику возвращает часть основного долга."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Снижение ставок создаёт стимул, но не безусловную обязанность исполнить любое право."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Раннее погашение заставляет искать новые условия размещения."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-04-1-2",
+      "skill": "Стимул эмитента использовать call",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Ставки ниже старого купона могут сделать рефинансирование выгодным."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "После окончательного погашения будущие купоны старой бумаги не сохраняются."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Нужны допустимые даты, цена выкупа и издержки."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Держатель может раньше столкнуться с новой более низкой доходностью."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "В call-облигации право не всегда у покупателя; обычное call-право принадлежит эмитенту."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-05-0-1",
+      "skill": "True sale, сервисер и waterfall",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Изоляция требует действительной юридической передачи в применимой конструкции."
+        },
+        {
+          "index": 1,
+          "verdict": "TRUE",
+          "rationale": "Оригинатор может остаться обслуживающим агентом после продажи."
+        },
+        {
+          "index": 2,
+          "verdict": "FALSE",
+          "rationale": "Название SPV не доказывает изоляцию от любого риска."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Waterfall задаёт договорную очередность использования денег."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "Обособление не заставляет исходных должников исправно платить."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-S1-05-0-2",
+      "skill": "Проблемы оригинатора и просрочка пула",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Нужно установить право требования и путь денежных поступлений."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Сервисная роль не означает, что прежний владелец сохранил само требование."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Замена или непрерывность обслуживания важны при сбое сервисера."
+        },
+        {
+          "index": 3,
+          "verdict": "TRUE",
+          "rationale": "Просрочки уменьшают поступления и могут изменить выплаты траншам."
+        },
+        {
+          "index": 4,
+          "verdict": "FALSE",
+          "rationale": "True sale отделяет актив, а не гарантирует его будущие платежи."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-E-01-0-2",
+      "skill": "Акционерные права и денежный ориентир",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Право голоса зависит от вида акции и применимого режима."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Токен денежной экспозиции к цене сам не передаёт голос по акции."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "При вторичной продаже деньги получает прежний владелец."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Акционер не получает прямое право изъять каждый актив юрлица."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Изменение доли и рыночной стоимости пакета требуют раздельной оценки."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    },
+    {
+      "question_id": "MC-E-01-0-3",
+      "skill": "Допэмиссия, EPS и стоимость",
+      "independent_verdicts": [
+        {
+          "index": 0,
+          "verdict": "TRUE",
+          "rationale": "Без пропорционального участия доля прежнего владельца может снизиться."
+        },
+        {
+          "index": 1,
+          "verdict": "FALSE",
+          "rationale": "Поступления размещения принадлежат компании, а не автоматически каждому акционеру."
+        },
+        {
+          "index": 2,
+          "verdict": "TRUE",
+          "rationale": "Если база акций растёт быстрее относимой прибыли, EPS может снизиться."
+        },
+        {
+          "index": 3,
+          "verdict": "FALSE",
+          "rationale": "Рыночная стоимость зависит также от цены, новых ресурсов и ожиданий; пропорция доли не задаёт обязательную пропорцию убытка."
+        },
+        {
+          "index": 4,
+          "verdict": "TRUE",
+          "rationale": "Число акций, корпоративное участие и цена — разные величины."
+        }
+      ],
+      "stage": "BLIND_VERDICT_RECORDED_BEFORE_KEY_COMPARISON",
+      "status": "SOURCE_VERIFICATION_PENDING_NOT_COUNTED_AS_REVIEWED"
+    }
+  ]
+}
