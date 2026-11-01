@@ -1,3 +1,7 @@
+# Сопровождение 6.1.5 ·01.11.2026
+
+Актуализированы сводки охвата и экзаменационного обновления. Промежуточные статусы и подробные этапы перенесены в архив со ссылками; текущие сводки показывают завершённый объём. После восстановления среды подтверждены 29 проверочных программ и 18 HTTP-файлов. [CP156](CHECKPOINTS.md#cp-20261101-156-t30-контроль-после-восстановления-verified). Код и учебные материалы версии 6.1.5 сохранены.
+
 # 6.1.5 · VERIFIED
 
 [PR86](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/86) и [PR87](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/87), окончательный продукт d2c39bae380ebfe36437cd3cb2b59b1190900eea. [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751), [Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262) и [проверка HTTP/мобильного результата](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248963920) — SUCCESS. Все 18 публичных файлов совпали с проверенным приложением; дерево после merge совпало с проверенным PR.

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "version": "6.1.5",
+  "checked_commit": "d352b95f793594a25d3e2327ed6c03404bddf42f",
+  "runtime_changed": false,
+  "local_programs": 29,
+  "checks": [
+    {
+      "command": "node tests/project-state-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/repository-layout-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/exam-alignment-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/exam-profile-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/question-theory-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/release-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/content-dedup-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/methodical-review-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/teacher-review-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m02-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m03-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m04-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m05-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m06-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m07-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m08-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m09-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m10-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m11-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m12-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m13-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m14-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m15-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/quality-m16-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/final-course-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/exam-practice-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/novice-supplements-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/learning-review-check.mjs",
+      "status": "PASS"
+    },
+    {
+      "command": "node tests/strategies-check.mjs",
+      "status": "PASS"
+    }
+  ],
+  "live_public_files_match": 18,
+  "hashes": {
+    "index.html": "41bd0701d594526704daaa256fe9e872eaa9c210",
+    "versions/index.html": "87043dc4749be2b9b6ac5640d7fb6cf780fa82f3",
+    "v5.0.8/index.html": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+    "assets/course-sidebar.css": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+    "assets/strategies.css": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+    "assets/exam-feedback.css": "7dec3a63971fe914d88547664969cdb77495eea8",
+    "assets/futures-short-guide.css": "dcf745c2a43eec706222a86622a02bf75716cb07",
+    "assets/theme.css": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+    "assets/question-review.js": "74cf12a544c1f6ab059fb8622cdafd2af9ae5a55",
+    "assets/exam-practice.js": "955838e91bb5726c45487ca33369a47d317a0ff9",
+    "assets/exam-alignment.js": "6c9dae0ffba66c165b82549002e205623d5bba76",
+    "assets/exam-profile.js": "73d23cf79d0a2ad59c4b0b40afcade3143c71b78",
+    "assets/theory-links.js": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+    "assets/question-theory-ui.js": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+    "assets/exam-feedback.js": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+    "assets/futures-short-guide.js": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+    "assets/strategies.js": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+    "assets/option-profiles.js": "cd2b04924ac937a59a443e12e9164591b5bb1566"
+  },
+  "matrix_records": 86,
+  "matrix_with_exact_support": 86,
+  "mock_eligible_questions": 93,
+  "browser_repeated": false,
+  "previous_full_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
+  "checked_main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41249684184",
+  "checked_main_pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41249684400",
+  "scope": "Recovery and post-release verification; documentation status consistency corrected. Existing source-review/empirical limits remain unchanged."
+}
