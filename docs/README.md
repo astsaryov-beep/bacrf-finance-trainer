@@ -32,3 +32,5 @@
 [Из упражнения к теории](audits/QUESTION_THEORY_LINK_REVIEW.md).
 
 [Очистка кода6.0.2](audits/CODE_CLEANUP_6_0_2.md).
+
+Актуальная проверка качества: [повторный аудит ТЗ 01.11.2026](audits/INDEPENDENT_REQUIREMENTS_AUDIT_20261101.md) — семь открытых замечаний, закрытие в T-32.
