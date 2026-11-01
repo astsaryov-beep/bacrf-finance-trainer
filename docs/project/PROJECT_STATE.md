@@ -5,7 +5,7 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.2.1",
+  "working_version": "6.2.2",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
@@ -18,7 +18,7 @@
   "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317777955",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-11-01",
-  "current_release": "6.2.1",
+  "current_release": "6.2.2",
   "release_channel": "stable",
   "last_recheck": {
     "date": "2026-11-01",
@@ -52,24 +52,26 @@
   "current_work": {
     "task": "T-33",
     "status": "IN_PROGRESS",
-    "reviewed_mc": 72,
-    "reviewed_statements": 360,
-    "pending_mc": 177,
+    "reviewed_mc": 96,
+    "reviewed_statements": 480,
+    "pending_mc": 153,
     "P2": "NOT_STARTED_PENDING_P1",
     "application_changed": true,
     "report": "docs/audits/T33_MC_BANK_REVIEW.md",
-    "release_status": "6.2.1_VERIFIED_TASK_IN_PROGRESS",
-    "edited_mc": 2,
-    "keep_mc": 70
+    "release_status": "6.2.2_PENDING;6.2.1_VERIFIED",
+    "edited_mc": 5,
+    "keep_mc": 91,
+    "work_branch": "work/t33-p1-review-remaining",
+    "conditional_scope_clarifications": 1
   }
 }
 ```
 <!-- STATE_JSON_END -->
 
-**6.2.1 опубликована и проверена; T-33 продолжается.**
+**На сайте проверенная 6.2.1; рабочая 6.2.2 ещё не опубликована. T-33 продолжается.**
 
-Проверены 72 MC и 360 утверждений: 70 KEEP, два улучшения дистракторов; ошибок ключей нет. Осталось 132 старых и 45 новых MC. Полная предметная приёмка P1 не объявлена; P2 не начат.
+Предметно проверены 96 MC и 480 утверждений: 91 KEEP и пять правок; категорических ошибок ключей не найдено, у одного утверждения уточнена область применимости. Осталось 108 старых и 45 новых MC. Полная приёмка P1 и расширение P2 ещё не выполнены.
 
-Две правки опубликованы в PR94, коммит `b0e3346f5e4b21034985403ca52cab1499c1086b`. Подтверждены 31 локальная и 13 браузерных программ, CI в PR/main, Pages, 19 файлов сайта и шесть фактических URL ресурсов. Open, 275/19, 96 блоков, 135 формул, ID, история и frozen сохранены. [Доказательства](../audits/data/RELEASE_6_2_1_PROOF.json).
+Опубликованные две правки 6.2.1 подтверждены 31 локальной и 13 браузерными программами, CI в PR/main, Pages, 19 файлами сайта и шестью фактическими URL ресурсов. [Доказательства](../audits/data/RELEASE_6_2_1_PROOF.json). Три новые правки B04 и расширенная браузерная проверка сохранены в рабочей ветке `work/t33-p1-review-remaining`; их публикация ожидает завершения крупного блока P1 и полной регрессии.
 
-[Текущий план и аудит](../audits/T33_MC_BANK_REVIEW.md). Следующий пакет B04: вопросы 73–96. T-32 не переоткрыта. T-06 выполняется только отдельно; переработка интервальных повторов и исследование на студентах не входят в задачу.
+Open, 275/19, 96 блоков, 135 формул, ID, история и frozen сохраняются. [План и аудит](../audits/T33_MC_BANK_REVIEW.md). Следующий B05: вопросы 97–120. T-32 не переоткрыта; T-06, отдельная переработка интервальных повторов и исследование на студентах не входят в объём.

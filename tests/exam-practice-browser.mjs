@@ -59,21 +59,24 @@ try{
  await page.evaluate(()=>{const q=BANK.find(q=>q.type==='single');session={version:2,ids:[q.id],mode:'practice',pos:0,responses:{[q.id]:{choice:[q.correct[0]]}},grades:{},orders:{[q.id]:q.options.map((_,i)=>i)},done:false,started:Date.now(),deadline:null,recorded:{}};persist();});await page.reload();assert.equal(await page.evaluate(()=>BANK_MAP.get(session.ids[0]).type),'single');
  await page.setViewportSize({width:320,height:844});await page.evaluate(()=>{goStudyLesson('S2-04',1);studyNav.phase='theory';render();});await page.locator('#v5FullBtn').click();await page.locator(`[data-mc-question="${id}"] summary`).click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.screenshot({path:resolve(root,'test-artifacts','exam-multi-mobile.png')});assert.deepEqual(errors,[]);
  // T33: the old 204-card supplement must migrate real saved course answers, too.
- for(const changedId of ['MC-S2-09-1-1','MC-S2-09-1-2']){
-  await page.evaluate(id=>{goStudyLesson('S2-09',1);const b=getStudyBlock();b.complete=true;b.answers[id]={selected:[0,2,3],checked:true,score:1,confidence:3,reviewRevision:'previous-wording'};persistStudy();},changedId);
-  await page.reload();await page.evaluate(()=>{goStudyLesson('S2-09',1);studyNav.phase='theory';render();});
+ const reviewedChanges=JSON.parse(readFileSync(resolve(root,'docs/audits/data/T33_MC_CHANGES.json'),'utf8')).changes;
+ async function showRevisedSupplement(id){await page.evaluate(id=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));studyNav.phase='theory';render();},id);}
+ for(const change of reviewedChanges){
+  const changedId=change.question_id,oldSelected=change.before.correct;
+  await page.evaluate(({id,oldSelected})=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const b=getStudyBlock();b.complete=true;b.answers[id]={selected:oldSelected,checked:true,score:1,confidence:3,reviewRevision:'previous-wording'};persistStudy();},{id:changedId,oldSelected});
+  await page.reload();await showRevisedSupplement(changedId);
   const revised=page.locator(`[data-mc-question="${changedId}"]`);
-  if(!await revised.count())await page.locator('#v5FullBtn').click();
+  if(!await revised.isVisible())await page.locator('#v5FullBtn').click();
   if(await revised.getAttribute('open')===null)await revised.locator('summary').click();
   const migrated=await page.evaluate(id=>getStudyAnswer(id),changedId);
-  assert.equal(migrated.checked,false);assert.equal(migrated.needsReviewRecheck,true);assert.equal(migrated.previousReviewResult.score,1);assert.deepEqual(migrated.previousReviewResult.selected,[0,2,3]);assert.equal(migrated.confidence,3);
+  assert.equal(migrated.checked,false);assert.equal(migrated.needsReviewRecheck,true);assert.equal(migrated.previousReviewResult.score,1);assert.deepEqual(migrated.previousReviewResult.selected,oldSelected);assert.equal(migrated.confidence,3);
   assert.equal(await revised.locator('[data-mc-option]:checked').count(),0);assert.equal(await page.evaluate(()=>getStudyBlock().complete),true);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
   const correct=await page.evaluate(id=>BANK_MAP.get(id).correct,changedId);
   for(const i of correct)await revised.locator(`[data-mc-option][value="${i}"]`).check();
-  await revised.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1);
+  await revised.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1);assert.equal(await page.evaluate(id=>getStudyAnswer(id).needsReviewRecheck,changedId),false);
   await page.screenshot({path:resolve(root,'test-artifacts',changedId+'-revised-320.png')});
-  await page.reload();await page.evaluate(()=>{goStudyLesson('S2-09',1);studyNav.phase='theory';render();});
+  await page.reload();await showRevisedSupplement(changedId);
   assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1,'fresh response must survive reload');
  }
  assert.deepEqual(errors,[]);
