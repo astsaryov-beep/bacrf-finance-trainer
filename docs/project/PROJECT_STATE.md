@@ -12,23 +12,23 @@
   "phase": "IN_PROGRESS",
   "active_task": "T-33",
   "next_task": "T-33",
-  "last_verified_checkpoint": "CP-20261101-164",
-  "last_verified_commit": "b0e3346f5e4b21034985403ca52cab1499c1086b",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317174216",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317777955",
+  "last_verified_checkpoint": "CP-20261101-176",
+  "last_verified_commit": "417ea43253ebc943478815536d5f5b36abba0d47",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41345388651",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346048937",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-11-01",
   "current_release": "6.2.2",
   "release_channel": "stable",
   "last_recheck": {
     "date": "2026-11-01",
-    "commit": "b0e3346f5e4b21034985403ca52cab1499c1086b",
+    "commit": "417ea43253ebc943478815536d5f5b36abba0d47",
     "local_programs": 31,
     "browser_programs": 13,
     "live_public_files_match": 19,
     "actual_cache_urls_match": 6,
-    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317778013",
-    "proof": "docs/audits/data/RELEASE_6_2_1_PROOF.json"
+    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346049416",
+    "proof": "docs/audits/data/RELEASE_6_2_2_PROOF.json"
   },
   "last_audit": {
     "checkpoint": "CP-20261101-157",
@@ -55,27 +55,28 @@
     "reviewed_mc": 249,
     "reviewed_statements": 1245,
     "pending_mc": 0,
-    "P2": "NOT_STARTED_PENDING_P1",
-    "application_changed": true,
+    "P2": "CANDIDATE_INVENTORY_PENDING_ADMISSION",
+    "application_changed": false,
     "report": "docs/audits/T33_MC_BANK_REVIEW.md",
-    "release_status": "6.2.2_PENDING;6.2.1_VERIFIED",
+    "release_status": "6.2.2_VERIFIED",
     "edited_mc": 42,
     "keep_mc": 207,
-    "work_branch": "work/t33-p1-review-remaining",
+    "work_branch": "work/t33-p1-publication-proof",
     "conditional_scope_clarifications": 3,
     "typography_only_mc": 34,
     "execution_status": "AVAILABLE",
     "recovery_checkpoint": "CP-20261101-169",
-    "latest_source_review_commit": "c220f8bf040dec272861eece7513f704076af31f",
+    "latest_source_review_commit": "417ea43253ebc943478815536d5f5b36abba0d47",
     "recovery_resolved_in": "CP-20261101-170",
     "subject_review": "COMPLETED",
     "local_programs": 31,
     "local_result": "PASS",
-    "browser": "PENDING_AFTER_NATIVE_FIXTURE_CORRECTION",
+    "browser": "PASS_13_PR_AND_MAIN",
     "subject_edits": 8,
     "pr_candidate_checkpoint": "CP-20261101-173",
     "pr": 96,
-    "runtime_changes_after_cp173": false
+    "runtime_changes_after_cp173": false,
+    "P1": "VERIFIED_6_2_2"
   }
 }
 ```
@@ -83,18 +84,10 @@
 
 **Среда исполнения недоступна; новые тесты и выпуск заблокированы.** [Восстановление CP169](CHAT_HANDOFF.md).
 
-**На сайте проверенная 6.2.1; рабочая 6.2.2 ещё не опубликована. T-33 продолжается.**
+**Опубликована и проверена6.2.2. P1принят, T-33продолжается этапомP2.**
 
-Проверены 249/249 MC и 1245/1245 утверждений: 207 KEEP, 42 изменённых карточек (34 только типографика). Осталось 0 старых и 0 новых MC. Уточнений области применимости: 3; категорических ошибок ключа не найдено. Ключи и кардинальности сохранены.
+Проверены249MC/1245утверждений:207KEEP,42правки(34типографика,5дистракторов/кейсов,3условия). Категорических ошибок ключа не найдено, наборы верных сохранены. Перекос количества ответов раскрыт в отчёте.
 
-B10: завершены последние22новыхMC/110утверждений,20KEEPи2правки пробелов. В целом204старых+45новых,1245утверждений:207KEEP,42изменённыекарточки,изних34только типографика и8содержательныхправок;3уточненияобласти,0категорическихошибокключа. Новые правки наследуют существующие ревизии, старый ответ сохраняется вwording-истории. Дляalignmentмодуль защищён отдельно: все50openзаписей, теория/логика побайтно, разрешены только записанныеMCи регистрацияT33wording. Полная исходная baseline-сумма сохранена. Проверка миграции использует фактическую предыдущуюревизию, браузер динамически охватывает оба дополнительных банка. ПолнаяприёмкаP1и релиз ещёPENDING.
+PR96 и31локальная/13браузерныхпрограммPASS;mainCIиPagesSUCCESS;совпали19файловсайтаишестьфактическихURLресурсов. [Доказательства](../audits/data/RELEASE_6_2_2_PROOF.json).
 
-Результаты сохраняются в `work/t33-p1-review-remaining`; выпуск после P1 и полной регрессии. Проверенная публикация: [доказательства 6.2.1](../audits/data/RELEASE_6_2_1_PROOF.json). Open/UI/рубрики/баллы, 275/19, ID, история, 96 блоков, 135 формул и frozen защищены. P2 ещё не начат; T-32 не переоткрыта, T-06 вне объёма.
-
-Следующий шаг: Итоговый отчётP1: раздельные распределения/повторы/пределы; полные31локальная и13браузерных программ,PR/CI/main/Pages/live, затемP2.
-
-Предметный итог249/249: [сводка](../audits/data/T33_P1_SUMMARY.json), [31локальныйPASS](../audits/data/T33_P1_CHECKS.json). Общая приёмкаP1 ожидает браузер/CI/Pages/live;P2не начат.
-
-CP174: [PR96](https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/96), первыйCI41343887805verify/corePASS; уточнён реальный интерфейс двух нативных карточек в браузерном тесте. Полная приёмка ожидает новогоCI; приложение неизменно после CP173.
-
-CP175:история42правок проверена через настоящийstudygetter;фактическиеназначения45MCсверены. Браузерные фикстуры используют назначенныйпослепредпосылокблок,новыйполныйCIещёPENDING.
+P2:инвентаризациякандидатовизсуществующегобанка,допусксовместимыхMC/open,атомарныецели/отсутствиеподсказок,≥1000seedипересечения. Расширениеещёне реализовано. Алгоритм/UI/рубрики/баллыopen,275/19,96блоков,135формул,frozen и история сохраняются. T-32непереоткрывается,T-06внеобъёма.

@@ -1,7 +1,7 @@
 {
   "task": "T-33",
   "phase": "P1",
-  "status": "LOCAL_PASS_BROWSER_CI_DEPLOY_PENDING",
+  "status": "VERIFIED",
   "reviewed_mc": 249,
   "reviewed_statements": 1245,
   "local_programs": [
@@ -170,8 +170,8 @@
   ],
   "syntax_browser": "PASS",
   "diff_check": "PASS",
-  "browser": "PENDING_GITHUB_ACTIONS",
-  "publication": "6.2.2_NOT_PUBLISHED",
+  "browser": "PASS_13_PROGRAMS_IN_PR_AND_MAIN",
+  "publication": "LIVE_MATCH",
   "public_version": "6.2.1",
   "protected": {
     "docs/audits/data/EXAM_SOURCE_LEDGER_20261031.json": "78e4368aa77b8027e7cac37864eaab9d6176aaa915feb5283983b47cb6ecbd71",
@@ -195,7 +195,15 @@
     "verify": "PASS",
     "core_browser": "PASS_9_PROGRAMS",
     "course_browser": "FAIL_TEST_FIXTURE_SAVED_RECON09_IN_ORIGINAL_NOT_ASSIGNED_BLOCK",
-    "route_browser": "CHECK_FINAL_JOB_STATUS"
+    "route_browser": "PASS_2_PROGRAMS"
   },
-  "native_fixture_fix": "RECON-09 original block S1-07-0, actual assigned block S1-07-1 after convexity prerequisite. Seed now uses courseBlock||block, same as navigation. Actual getStudyAnswer migration tested locally for all42; all45native assignments checked against reviewed prerequisites. App code unchanged."
+  "native_fixture_fix": "RECON-09 original block S1-07-0, actual assigned block S1-07-1 after convexity prerequisite. Seed now uses courseBlock||block, same as navigation. Actual getStudyAnswer migration tested locally for all42; all45native assignments checked against reviewed prerequisites. App code unchanged.",
+  "release": "6.2.2",
+  "code_commit": "417ea43253ebc943478815536d5f5b36abba0d47",
+  "pr": 96,
+  "pr_head": "0dced6550d55c2272919f13acd2059b763c720b5",
+  "pr_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41345388651",
+  "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346049416",
+  "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346048937",
+  "release_proof": "RELEASE_6_2_2_PROOF.json"
 }
