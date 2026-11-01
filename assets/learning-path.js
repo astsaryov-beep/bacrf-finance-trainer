@@ -10,7 +10,9 @@
    assignments.get(q.courseBlock).push(q.id);
   }
  }
- const ids=key=>(assignments.get(key)||[]).slice();
+ const canonicalKey=key=>String(key).replace(/_(\d+)$/,'-$1');
+ const storageKey=key=>canonicalKey(key).replace(/-(\d+)$/,'_$1');
+ const ids=key=>(assignments.get(canonicalKey(key))||[]).slice();
  function sourceMatches(q,source){return source==='all'||source==='examTopics'&&!!q.provenance||source==='original'&&q.origin==='original'||source==='author'&&q.origin!=='original'||source==='adapted'&&q.provenance==='confirmed_exam_adapted'||source==='reconstructed'&&q.provenance==='reconstructed'||source==='transfer'&&q.provenance==='transfer';}
  const skillMatches=(q,skill)=>skill==='all'||q.learningSkills?.includes(skill);
  function current(q,a){
@@ -23,7 +25,7 @@
  function summary(study,progress={},key){
   const questions=key?ids(key).map(id=>byId.get(id)):bank;let assessed=0,full=0,selfAssessed=0,stale=0;
   for(const q of questions){
-   const course=study?.blocks?.[q.courseBlock]?.answers?.[q.id],quiz=progress[q.id];
+   const course=study?.blocks?.[storageKey(q.courseBlock)]?.answers?.[q.id],saved=progress[q.id],quiz=saved?.answered===false?saved.lastAnsweredEvidence:saved;
    const evidence=[course,quiz].filter(a=>current(q,a)).sort((a,b)=>(Date.parse(b.reviewedAt||b.when)||0)-(Date.parse(a.reviewedAt||a.when)||0))[0];
    if(!evidence){if(course?.checked||quiz?.tries)stale++;continue;}
    assessed++;if(q.type==='open')selfAssessed++;
@@ -33,7 +35,7 @@
   }
   return {total:questions.length,assessed,full,selfAssessed,stale};
  }
- root.CourseLearning={labels,configure,ids,sourceMatches,skillMatches,current,summary};
+ root.CourseLearning={labels,configure,ids,storageKey,sourceMatches,skillMatches,current,summary};
 
  function focusStudyQuestion(){requestAnimationFrame(()=>{const el=document.querySelector('.study-task h3')||document.querySelector('.study-paper>h2');if(el){el.tabIndex=-1;el.style.scrollMarginTop='100px';el.focus({preventScroll:true});el.scrollIntoView({block:'start',behavior:'instant'})}});}
  function goAlignedPractice(){
@@ -51,7 +53,7 @@
  }
  function alignedQuestionTools(q,a){
   const supports=q.prerequisiteBlocks.map(key=>{const cut=key.lastIndexOf('-'),lesson=STUDY_MAP.get(key.slice(0,cut)),index=Number(key.slice(cut+1));return `<button class="btn ghost sm" type="button" data-course-support="${esc(key)}">${esc(lesson.blocks[index].title)}</button>`}).join('');
-  return `<div class="confidence"><label for="studyConfidence">Насколько вы уверены?</label><select id="studyConfidence" ${a.checked?'disabled':''}>${[[1,'Сомневаюсь'],[2,'Средне'],[3,'Уверен(а)']].map(([value,label])=>`<option value="${value}" ${(a.confidence??2)===value?'selected':''}>${label}</option>`).join('')}</select></div><details class="question-theory-links"><summary>Повторить нужную теорию</summary><p class="tiny">Черновик сохраняется. Из теории можно вернуться к этой проверке.</p><div class="question-theory-targets">${supports}</div></details>${a.checked?'<button class="btn secondary" type="button" data-course-retry>Ответить заново</button>':''}`;
+  return `<div class="confidence"><label for="studyConfidence">Насколько вы уверены?</label><select id="studyConfidence" ${a.checked||a.revealed?'disabled':''}>${[[1,'Сомневаюсь'],[2,'Средне'],[3,'Уверен(а)']].map(([value,label])=>`<option value="${value}" ${(a.confidence??2)===value?'selected':''}>${label}</option>`).join('')}</select></div><details class="question-theory-links"><summary>Повторить нужную теорию</summary><p class="tiny">Черновик сохраняется. Из теории можно вернуться к этой проверке.</p><div class="question-theory-targets">${supports}</div></details>${a.checked?'<button class="btn secondary" type="button" data-course-retry>Ответить заново</button>':''}`;
  }
  function returnContext(){
   const c=studyData.alignedReturn;if(!c||typeof c.lessonId!=='string'||!Number.isInteger(c.block))return null;
@@ -63,7 +65,7 @@
   content.querySelectorAll('[data-course-support]').forEach(button=>button.onclick=()=>{
    const key=button.dataset.courseSupport,cut=key.lastIndexOf('-'),lessonId=key.slice(0,cut),block=Number(key.slice(cut+1));
    const q=getStudyQ();if(studyNav.phase!=='aligned'||!q?.prerequisiteBlocks.includes(key))return;
-   studyData.alignedReturn={lessonId:studyNav.lessonId,block:studyNav.block,questionId:q.id};persistStudy();studyTheoryView='full';goStudyLesson(lessonId,block);
+   studyData.alignedReturn={lessonId:studyNav.lessonId,block:studyNav.block,questionId:q.id};studyNav={lessonId,block,phase:'theory',index:0};studyTheoryView='full';tab='learn';persistStudy();render();window.scrollTo({top:0,behavior:'instant'});
   });
   content.querySelectorAll('[data-course-return]').forEach(button=>button.onclick=()=>{const c=returnContext();if(!c)return;studyNav={lessonId:c.lessonId,block:c.block,phase:'aligned',index:ids(studyKey(c.lessonId,c.block)).indexOf(c.questionId)};delete studyData.alignedReturn;persistStudy();render();focusStudyQuestion();});
   if(studyNav.phase!=='aligned'&&studyNav.phase!=='practice')return;
