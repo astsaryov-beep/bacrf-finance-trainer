@@ -31,7 +31,9 @@ jobs:
       - name: Verify repository structure and local documentation links
         run: node tests/repository-layout-check.mjs
       - name: Verify source-reviewed exam learning extensions
-        run: node tests/exam-alignment-check.mjs
+        run: |
+          node tests/exam-alignment-check.mjs
+          node tests/mc-review-audit-check.mjs
       - name: Verify reproducible strict exam profile and assessment evidence
         run: node tests/exam-profile-check.mjs
       - name: Verify aligned course prerequisites and evidence migration

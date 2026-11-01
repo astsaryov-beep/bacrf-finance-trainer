@@ -1,3 +1,7 @@
+# T-33 · ревизия банка ·IN_PROGRESS
+
+24MC/120утверждений предметно проверены;24KEEP, без изменения приложения6.2.0. Матрица249с225PENDING и тест против ложного полного охвата. Open/UI/рубрики/баллы защищены хешами. [Отчёт](../audits/T33_MC_BANK_REVIEW.md). Полный CI/публикация этапа покаPENDING; предыдущая приёмка6.2.0 ниже сохраняется.
+
 # 6.2.0 ·учебный путь и контроль ·VERIFIED
 
 [Полный CI](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815) /[Pages](https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555468) SUCCESS;30локальных/13браузерных программ PASS,96блоков/608ответов через штатный маршрут и реальный экспорт/импорт,19HTTP-файловMATCH. Исходные275/19/135формул/frozen сохранены. [Отчёт](../audits/T32_LEARNING_QUALITY_20261101.md).
