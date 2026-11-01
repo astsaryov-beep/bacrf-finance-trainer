@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-11-01",
+  "status": "SIX_PRIVATE_COURSE_PDFS_AVAILABLE_AND_HASH_MATCHED",
+  "sources": [
+    {
+      "source_id": "S1",
+      "sha256_matches": true,
+      "pdf_pages": 172
+    },
+    {
+      "source_id": "S2",
+      "sha256_matches": true,
+      "pdf_pages": 133
+    },
+    {
+      "source_id": "S3",
+      "sha256_matches": true,
+      "pdf_pages": 75
+    },
+    {
+      "source_id": "L12",
+      "sha256_matches": true,
+      "pdf_pages": 94
+    },
+    {
+      "source_id": "L3",
+      "sha256_matches": true,
+      "pdf_pages": 21
+    },
+    {
+      "source_id": "L45",
+      "sha256_matches": true,
+      "pdf_pages": 62
+    }
+  ],
+  "privacy": "Only counts and hashes, no PDFs, scans or transcripts published."
+}

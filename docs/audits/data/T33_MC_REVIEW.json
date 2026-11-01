@@ -61,9 +61,9 @@
   },
   "page_numbering": "Physical PDF pages, 1-based; not printed slide numbers.",
   "review_method": "Blind per-alternative verdict before comparison with stored key. Logical deductions distinguished from literal slide claims. PENDING is never counted as reviewed.",
-  "reviewed_questions": 24,
-  "reviewed_statements": 120,
-  "pending_questions": 225,
+  "reviewed_questions": 48,
+  "reviewed_statements": 240,
+  "pending_questions": 201,
   "records": [
     {
       "question_id": "MC-S2-03-0-1",
@@ -4171,9 +4171,200 @@
         "selector": "questions[id='MC-S2-07-1-1']",
         "question_sha256": "ddafd734d59359a8595fcfa3cb1533c053f7207355fb9242acceb99b6e137f78"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "93c718c1246ccd630949bb0e3112cac67785fb0a3920416a54cdfbf08b934341",
+        "skill": "VaR и хвост распределения",
+        "course_role": "Определение/методы VaR",
+        "stem": "Какие утверждения о VaR и методах его оценки верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Горизонт, уровень доверия и модель необходимы для интерпретации квантиля.",
+            "text": "Для интерпретации нужны горизонт, уровень и модель распределения потерь",
+            "conditions": "Горизонт и доверительный уровень фиксированы; выбранное распределение может быть ошибочно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70,
+                  71,
+                  72
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Квантиль не задаёт среднюю потерю за порогом.",
+            "text": "Одинаковый VaR устанавливает одинаковую среднюю величину потерь за порогом",
+            "conditions": "Горизонт и доверительный уровень фиксированы; выбранное распределение может быть ошибочно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70,
+                  71,
+                  72
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Историческая симуляция применяет прошлые движения факторов к текущим позициям.",
+            "text": "В историческом подходе переоценивают текущий портфель по прошлым изменениям факторов",
+            "conditions": "Горизонт и доверительный уровень фиксированы; выбранное распределение может быть ошибочно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70,
+                  71,
+                  72
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Число симуляций уменьшает ошибку Monte Carlo, но не ошибку выбранной модели.",
+            "text": "Большое число сценариев Monte Carlo устраняет ошибку выбранного распределения",
+            "conditions": "Горизонт и доверительный уровень фиксированы; выбранное распределение может быть ошибочно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70,
+                  71,
+                  72
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "ES характеризует хвост, а стресс показывает отдельные тяжёлые сценарии.",
+            "text": "ES и стресс-сценарии дают информацию, которой нет в одном квантиле",
+            "conditions": "Горизонт и доверительный уровень фиксированы; выбранное распределение может быть ошибочно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  69,
+                  70,
+                  71,
+                  72
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-07-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Горизонт и доверительный уровень фиксированы; выбранное распределение может быть ошибочно."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Определение/методы VaR",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-07-1-2",
@@ -4186,9 +4377,190 @@
         "selector": "questions[id='MC-S2-07-1-2']",
         "question_sha256": "4d32bb2a7c6b29bbbad9262472c7ddbfb25494aeeadcc5ff060c920f6d64779b"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "bb29af115a3f3025943db226fd517743244619673ad2cf6fd5525ef25f028fd6",
+        "skill": "Превышения VaR и тяжёлый хвост",
+        "course_role": "Сценарий хвоста и кластеров",
+        "stem": "Дневной VaR95 двух портфелей одинаков. У первого редкие потери заметно тяжелее. В последнем месяце превышения сгруппировались. Что следует проверить? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          2,
+          4
+        ],
+        "independent_correct": [
+          1,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Пять процентов — вероятность, не точная обязательная частота в любом окне.",
+            "text": "Ровно пять превышений в любых ста днях — обязательный результат корректной модели",
+            "conditions": "Одинаковы только VaR95 и дневной горизонт; форма хвоста и независимость превышений не заданы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  70,
+                  71
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "ES различает тяжесть хвостовых потерь при одном VaR.",
+            "text": "ES и форму хвоста каждого портфеля",
+            "conditions": "Одинаковы только VaR95 и дневной горизонт; форма хвоста и независимость превышений не заданы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  70,
+                  71
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Кластеры превышений могут указывать на зависимость или смену режима.",
+            "text": "Сохранение предпосылок и причины группировки превышений",
+            "conditions": "Одинаковы только VaR95 и дневной горизонт; форма хвоста и независимость превышений не заданы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  70,
+                  71
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Одного квантиля недостаточно для восстановления среднего хвостового убытка.",
+            "text": "Средний хвостовой убыток можно восстановить из одного числа VaR95",
+            "conditions": "Одинаковы только VaR95 и дневной горизонт; форма хвоста и независимость превышений не заданы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  70,
+                  71
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Стресс и промежуточная ликвидность дополняют статистический порог.",
+            "text": "Потери и потребность в ликвидности при отдельных стресс-сценариях",
+            "conditions": "Одинаковы только VaR95 и дневной горизонт; форма хвоста и независимость превышений не заданы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  68,
+                  70,
+                  71
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.bis.org/bcbs/publ/d457_inbrief.pdf",
+                "locator": "Measures of market risk: VaR and ES",
+                "checked": "2026-11-01",
+                "purpose": "У квантиля и среднего хвостового убытка различное содержание; не утверждение об актуальном регуляторном горизонте."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-07-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Одинаковы только VaR95 и дневной горизонт; форма хвоста и независимость превышений не заданы."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Сценарий хвоста и кластеров",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-08-0-1",
@@ -4201,9 +4573,155 @@
         "selector": "questions[id='MC-S2-08-0-1']",
         "question_sha256": "58ca066275a991a3894a2aeb68e5c999948f46b9058987a47ba4675d61b682c5"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "1e7ca4eb7c4e3730c9f5c3e5058baf82d4237b292e7367e31a640d1757326687",
+        "skill": "Размер линейного хеджа и единицы",
+        "course_role": "Единицы размера хеджа",
+        "stem": "Что верно при выборе размера линейного хеджа? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Размер хеджа определяется исходным денежным потоком, датой и фактором.",
+            "text": "Сначала описывают защищаемый поток, дату и неблагоприятный фактор",
+            "conditions": "Линейная модель, согласованные цены/доходности и денежные базы, допустимые целые контракты.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  76,
+                  83,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "ГО — обеспечение, а не стоимость базового номинала.",
+            "text": "Минимальное ГО одного фьючерса равно его базовой денежной стоимости",
+            "conditions": "Линейная модель, согласованные цены/доходности и денежные базы, допустимые целые контракты.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  76,
+                  83,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Коэффициент по доходностям переводят через стоимости экспозиций и контрактов.",
+            "text": "При доходностях коэффициент переводят в число контрактов через согласованные денежные стоимости",
+            "conditions": "Линейная модель, согласованные цены/доходности и денежные базы, допустимые целые контракты.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  76,
+                  83,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Оптимум дисперсии может быть отрицательным или превышать единицу.",
+            "text": "Коэффициент минимальной дисперсии по определению ограничен от 0 до 1",
+            "conditions": "Линейная модель, согласованные цены/доходности и денежные базы, допустимые целые контракты.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  76,
+                  83,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Целое число контрактов оставляет остаточную чувствительность.",
+            "text": "После округления контрактов пересчитывают остаточную чувствительность",
+            "conditions": "Линейная модель, согласованные цены/доходности и денежные базы, допустимые целые контракты.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  76,
+                  83,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-08-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Линейная модель, согласованные цены/доходности и денежные базы, допустимые целые контракты."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Единицы размера хеджа",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-08-0-2",
@@ -4216,9 +4734,155 @@
         "selector": "questions[id='MC-S2-08-0-2']",
         "question_sha256": "c60f4a42720e13af9ae51f0320dc8608006dc579566cf0c8b461020a05af6fb4"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "1d2b15ab0978f6120fdec8ce01cde9df3f08225a269b4925761eb99dc990bde3",
+        "skill": "Изменение защищаемой экспозиции",
+        "course_role": "Пересмотр изменившегося платежа",
+        "stem": "Компания рассчитала защиту будущего валютного платежа. Платёж перенесён, его объём уменьшился, а контракты допускаются только целыми. Какие действия обоснованны? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          3,
+          4
+        ],
+        "independent_correct": [
+          1,
+          3,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Неизменное направление риска не сохраняет актуальность прежних объёма и даты.",
+            "text": "Оставить прежний размер, поскольку направление курсового риска то же",
+            "conditions": "Объём уменьшился, дата изменилась, контракты целые; направление риска не меняет этих условий.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  74,
+                  76,
+                  82
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Срок и объём изменились и требуют пересмотра.",
+            "text": "Пересчитать экспозицию и соответствие нового срока контракту",
+            "conditions": "Объём уменьшился, дата изменилась, контракты целые; направление риска не меняет этих условий.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  74,
+                  76,
+                  82
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "FALSE",
+            "rationale": "ГО не является денежной стоимостью хеджируемого номинала.",
+            "text": "Заменить стоимость контракта его ГО, чтобы учесть меньший платёж",
+            "conditions": "Объём уменьшился, дата изменилась, контракты целые; направление риска не меняет этих условий.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  74,
+                  76,
+                  82
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Округление создаёт остаток, а перенос — расходы и новый базис.",
+            "text": "Проверить остаток после округления и расходы возможного переноса",
+            "conditions": "Объём уменьшился, дата изменилась, контракты целые; направление риска не меняет этих условий.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  74,
+                  76,
+                  82
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Промежуточные требования исполняются доступными на эти даты средствами.",
+            "text": "Сопоставить промежуточные денежные требования с доступной ликвидностью",
+            "conditions": "Объём уменьшился, дата изменилась, контракты целые; направление риска не меняет этих условий.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  74,
+                  76,
+                  82
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-08-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Объём уменьшился, дата изменилась, контракты целые; направление риска не меняет этих условий."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Пересмотр изменившегося платежа",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-08-1-1",
@@ -4231,9 +4895,185 @@
         "selector": "questions[id='MC-S2-08-1-1']",
         "question_sha256": "0d3826d074a4269345ef4fb5261851665484b3d48e37b1a9b754650695e86f42"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "5489479769ec322c4179ba389b9ecd3d953a0fb1fa611e30706465a40820a7ad",
+        "skill": "Эффективность хеджа и условия модели",
+        "course_role": "Границы метрик и учёта",
+        "stem": "Какие утверждения об эффективности хеджа верны? Выберите все верные утверждения.",
+        "original_correct": [
+          2,
+          3,
+          4
+        ],
+        "independent_correct": [
+          2,
+          3,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Доля номинала не тождественна дисперсионной эффективности.",
+            "text": "Номинальная доля покрытия равна доле снижения дисперсии в любом случае",
+            "conditions": "Ненулевые дисперсии и однофакторный оптимальный линейный хедж для rho²; нулевой знаменатель исключён для отношения компенсации.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://standards.aasb.gov.au/node/4292",
+                "locator": "AASB9/IFRS9 Chapter6, 6.4.1(a)–(c)",
+                "checked": "2026-11-01",
+                "purpose": "Допустимость, документирование, экономическая связь, кредитный риск и hedge ratio. Это подтверждение разграничения статистики и учёта, не универсальная норма для всех юрисдикций."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Разовый выигрыш сверх потери может возникнуть из движения базиса без постоянного перехеджа.",
+            "text": "Разовая компенсация более 100% сама доказывает структурный перехедж",
+            "conditions": "Ненулевые дисперсии и однофакторный оптимальный линейный хедж для rho²; нулевой знаменатель исключён для отношения компенсации.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://standards.aasb.gov.au/node/4292",
+                "locator": "AASB9/IFRS9 Chapter6, 6.4.1(a)–(c)",
+                "checked": "2026-11-01",
+                "purpose": "Допустимость, документирование, экономическая связь, кредитный риск и hedge ratio. Это подтверждение разграничения статистики и учёта, не универсальная норма для всех юрисдикций."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "При нулевом знаменателе отношение компенсации не определено.",
+            "text": "При нулевом изменении исходной стоимости отношение разовой компенсации не определено",
+            "conditions": "Ненулевые дисперсии и однофакторный оптимальный линейный хедж для rho²; нулевой знаменатель исключён для отношения компенсации.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://standards.aasb.gov.au/node/4292",
+                "locator": "AASB9/IFRS9 Chapter6, 6.4.1(a)–(c)",
+                "checked": "2026-11-01",
+                "purpose": "Допустимость, документирование, экономическая связь, кредитный риск и hedge ratio. Это подтверждение разграничения статистики и учёта, не универсальная норма для всех юрисдикций."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "В однофакторном линейном оптимуме с ненулевыми дисперсиями остаток дисперсии даёт снижение rho².",
+            "text": "Квадрат корреляции задаёт снижение дисперсии в соответствующей оптимальной линейной модели",
+            "conditions": "Ненулевые дисперсии и однофакторный оптимальный линейный хедж для rho²; нулевой знаменатель исключён для отношения компенсации.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://standards.aasb.gov.au/node/4292",
+                "locator": "AASB9/IFRS9 Chapter6, 6.4.1(a)–(c)",
+                "checked": "2026-11-01",
+                "purpose": "Допустимость, документирование, экономическая связь, кредитный риск и hedge ratio. Это подтверждение разграничения статистики и учёта, не универсальная норма для всех юрисдикций."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Статистический показатель не заменяет остальные требования учёта хеджирования.",
+            "text": "Статистическое снижение дисперсии само по себе не устанавливает выполнение всех условий учёта хеджирования",
+            "conditions": "Ненулевые дисперсии и однофакторный оптимальный линейный хедж для rho²; нулевой знаменатель исключён для отношения компенсации.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://standards.aasb.gov.au/node/4292",
+                "locator": "AASB9/IFRS9 Chapter6, 6.4.1(a)–(c)",
+                "checked": "2026-11-01",
+                "purpose": "Допустимость, документирование, экономическая связь, кредитный риск и hedge ratio. Это подтверждение разграничения статистики и учёта, не универсальная норма для всех юрисдикций."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-08-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Ненулевые дисперсии и однофакторный оптимальный линейный хедж для rho²; нулевой знаменатель исключён для отношения компенсации."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Границы метрик и учёта",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-08-1-2",
@@ -4246,9 +5086,160 @@
         "selector": "questions[id='MC-S2-08-1-2']",
         "question_sha256": "2bc229761cfa65a7a090077f8097f35d371b33fb50230c8bfb75ca5e99549bb5"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "856a77b278e9dfeb15fca4c3383f0513ad0c59d9c744513944703d7570aec3e0",
+        "skill": "Частичный кросс-хедж муки пшеницей",
+        "course_role": "Перенос на пекарню и логистику",
+        "stem": "Пекарня защищает часть закупки муки фьючерсом на пшеницу. Мука подорожала сильнее из-за доставки. Какие выводы обоснованны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Незащищённое количество и расхождение цен — разные факторы остатка.",
+            "text": "Непокрытый объём и различное движение цен являются разными причинами остатка",
+            "conditions": "Защищается только часть закупки, мука и пшеница — разные товары, транспортный шок локален.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  76,
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Количество контрактов само по себе не фиксирует логистическую разницу.",
+            "text": "Удвоение числа контрактов гарантированно устраняет влияние доставки",
+            "conditions": "Защищается только часть закупки, мука и пшеница — разные товары, транспортный шок локален.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  76,
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Одинаковая доля номинала может дать разный P&L при различном движении цен.",
+            "text": "Доля номинального покрытия не определяет точную компенсацию в этом исходе",
+            "conditions": "Защищается только часть закупки, мука и пшеница — разные товары, транспортный шок локален.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  76,
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Новый шок требует пересмотра связи, объёма и стоимости ребалансировки.",
+            "text": "Следует проверить новую связь цен, потребность и расходы ребалансировки",
+            "conditions": "Защищается только часть закупки, мука и пшеница — разные товары, транспортный шок локален.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  76,
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Рост закупочной цены может превысить положительный результат дериватива.",
+            "text": "При положительном результате фьючерса совокупные расходы закупки обязательно снизились",
+            "conditions": "Защищается только часть закупки, мука и пшеница — разные товары, транспортный шок локален.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  76,
+                  77,
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-08-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Защищается только часть закупки, мука и пшеница — разные товары, транспортный шок локален."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Перенос на пекарню и логистику",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-10-0-1",
@@ -4261,9 +5252,190 @@
         "selector": "questions[id='MC-S1-10-0-1']",
         "question_sha256": "09a084f57f24a6304dda2286d8aea856adc32f36a099386d9b32110bca934824"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "e1c5c2c7d0d5a7567396fd677e4e9cdca8e8368301933576b19521bcead1675b",
+        "skill": "Пределы суммарной DV01-нейтральности",
+        "course_role": "Непараллельность/кредит/выпуклость",
+        "stem": "Портфель нейтрален по суммарному DV01 к малому параллельному сдвигу. Что может дать ненулевой результат? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          1,
+          2
+        ],
+        "independent_correct": [
+          0,
+          1,
+          2
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Разные узлы кривой могут двигаться в противоположных направлениях.",
+            "text": "Поворот кривой по разным срокам",
+            "conditions": "Суммарный DV01 нейтрален только к малому параллельному сдвигу, не ко всем узлам и второму порядку.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  104,
+                  106,
+                  162
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Кредитный спред — отдельный фактор цены.",
+            "text": "Изменение кредитных спредов бумаг",
+            "conditions": "Суммарный DV01 нейтрален только к малому параллельному сдвигу, не ко всем узлам и второму порядку.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  104,
+                  106,
+                  162
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "При большом движении значим второй порядок и различие выпуклостей.",
+            "text": "Различие выпуклостей при большом движении ставок",
+            "conditions": "Суммарный DV01 нейтрален только к малому параллельному сдвигу, не ко всем узлам и второму порядку.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  104,
+                  106,
+                  162
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Нулевой первый порядок относится к заданному малому сдвигу.",
+            "text": "Сам факт нулевого первого порядка гарантирует нулевой результат всех сценариев",
+            "conditions": "Суммарный DV01 нейтрален только к малому параллельному сдвигу, не ко всем узлам и второму порядку.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  104,
+                  106,
+                  162
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Номиналы не определяют дюрации и денежные чувствительности.",
+            "text": "Равенство номиналов само обеспечивает равенство денежного риска",
+            "conditions": "Суммарный DV01 нейтрален только к малому параллельному сдвигу, не ко всем узлам и второму порядку.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  104,
+                  106,
+                  162
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  84
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-10-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Суммарный DV01 нейтрален только к малому параллельному сдвигу, не ко всем узлам и второму порядку."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Непараллельность/кредит/выпуклость",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S1-10-1-1",
@@ -4276,9 +5448,190 @@
         "selector": "questions[id='MC-S1-10-1-1']",
         "question_sha256": "3fc007eab64aed22b7610f86660539e67641736fef3822deb802a663b5aa3c81"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "6df65e45d57492d3afd8301a147aed48803dd5400fc7fda71f9d2c76b9b34d4f",
+        "skill": "Cash-and-carry против ASW",
+        "course_role": "Сравнение арбитража и ASW",
+        "stem": "Что верно при сравнении cash-and-carry и asset swap? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          2,
+          4
+        ],
+        "independent_correct": [
+          1,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Положительный базис может лишь покрывать фондирование и прочие издержки.",
+            "text": "Положительный базис фьючерс минус спот сам доказывает арбитражную прибыль",
+            "conditions": "Фьючерсная короткая позиция отделена от спотового short; учтены разные договоры и сроки.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  163,
+                  167
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  28,
+                  75
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Арбитражный результат определяется после полных расходов.",
+            "text": "Cash-and-carry сопоставляет разницу цен с полными издержками владения и фондирования",
+            "conditions": "Фьючерсная короткая позиция отделена от спотового short; учтены разные договоры и сроки.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  163,
+                  167
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  28,
+                  75
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "IRS меняет процентные потоки, не обязательства эмитента по облигации.",
+            "text": "Asset swap меняет согласованный процентный профиль и сохраняет кредитное требование к эмитенту",
+            "conditions": "Фьючерсная короткая позиция отделена от спотового short; учтены разные договоры и сроки.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  163,
+                  167
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  28,
+                  75
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Продажа фьючерса создаёт срочную позицию, а не короткую спотовую продажу бумаги.",
+            "text": "Для открытия short обычного фьючерса требуется занять базовую облигацию",
+            "conditions": "Фьючерсная короткая позиция отделена от спотового short; учтены разные договоры и сроки.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  163,
+                  167
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  28,
+                  75
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Конечный результат не устраняет ранние маржинальные требования.",
+            "text": "Ожидаемый конечный результат не гарантирует денег для промежуточных требований",
+            "conditions": "Фьючерсная короткая позиция отделена от спотового short; учтены разные договоры и сроки.",
+            "source_refs": [
+              {
+                "source_id": "S1",
+                "pdf_pages": [
+                  163,
+                  167
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              },
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  28,
+                  75
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S1-10-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Фьючерсная короткая позиция отделена от спотового short; учтены разные договоры и сроки."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Сравнение арбитража и ASW",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-01-0-1",
@@ -4291,9 +5644,160 @@
         "selector": "questions[id='MC-S2-01-0-1']",
         "question_sha256": "8a7f3fe8feed949fa910e12b3a7a8fb133d2103488981259618a86c759eec03b"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "12a5aa50dba9d32f0dcce8491d6cfd0e6cab8a2b0e917bd4df880460c88ffaeb",
+        "skill": "Права, номинал и плечо ПФИ",
+        "course_role": "Вводное сравнение контрактных прав",
+        "stem": "Какие утверждения о производных договорах верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "У обычного опциона покупатель имеет право, а продавец принимает обязанность.",
+            "text": "Покупатель обычного опциона имеет договорное право, а продавец соответствующее обязательство",
+            "conditions": "Обычный покупной опцион, стандартный IRS и предусмотренное договором событие CDS.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  8,
+                  12,
+                  61
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Условный номинал IRS может служить только расчётной базой.",
+            "text": "Номинал любого дериватива обязательно перечисляется другой стороне",
+            "conditions": "Обычный покупной опцион, стандартный IRS и предусмотренное договором событие CDS.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  8,
+                  12,
+                  61
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "CDS требует предусмотренного договором события и исполнения условий.",
+            "text": "CDS связан с предусмотренным кредитным событием и условиями защиты",
+            "conditions": "Обычный покупной опцион, стандартный IRS и предусмотренное договором событие CDS.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  8,
+                  12,
+                  61
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Форвард может иметь индивидуальное обеспечение, отличное от ежедневного биржевого расчёта.",
+            "text": "Фьючерс и индивидуальный форвард обязательно имеют одинаковые правила маржирования",
+            "conditions": "Обычный покупной опцион, стандартный IRS и предусмотренное договором событие CDS.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  8,
+                  12,
+                  61
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "При меньшем собственном капитале тот же результат даёт большую относительную прибыль или потерю.",
+            "text": "Плечо усиливает отношение денежного результата позиции к меньшему собственному капиталу",
+            "conditions": "Обычный покупной опцион, стандартный IRS и предусмотренное договором событие CDS.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  8,
+                  12,
+                  61
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-01-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Обычный покупной опцион, стандартный IRS и предусмотренное договором событие CDS."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Вводное сравнение контрактных прав",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-01-1-1",
@@ -4306,9 +5810,155 @@
         "selector": "questions[id='MC-S2-01-1-1']",
         "question_sha256": "9bf7e4f23dab46e3e279a39ead0c2c0a314ca76f5c3851063fbcf9a97a4fdfb5"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "1b6d7936b30d9833a03f32d87b67d7678d134bc4a7de450127e6978af50de4f0",
+        "skill": "ЦК, рыночная потеря и обеспечение",
+        "course_role": "Отделение роли ЦК от цены",
+        "stem": "Участник работает с фьючерсом через ЦК. Цена изменилась против позиции. Какие выводы верны? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          2,
+          4
+        ],
+        "independent_correct": [
+          1,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Ресурсы ЦК не возмещают участнику обычное неблагоприятное изменение рынка.",
+            "text": "Ресурсы ЦК устраняют рыночный убыток участника",
+            "conditions": "Рыночная цена изменилась против позиции; ЦК управляет исполнением, не страхует рыночную потерю.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  12,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "VM реализует установленную контрактом переоценку.",
+            "text": "Вариационная маржа отражает предусмотренную переоценку",
+            "conditions": "Рыночная цена изменилась против позиции; ЦК управляет исполнением, не страхует рыночную потерю.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  12,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Внесение денег или обеспечения требует ресурсов участника.",
+            "text": "Участнику может потребоваться собственная ликвидность для выполнения требований",
+            "conditions": "Рыночная цена изменилась против позиции; ЦК управляет исполнением, не страхует рыночную потерю.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  12,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Потери могут превысить первоначально внесённое ГО.",
+            "text": "Первоначальное ГО ограничивает максимальный убыток всей суммой обеспечения",
+            "conditions": "Рыночная цена изменилась против позиции; ЦК управляет исполнением, не страхует рыночную потерю.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  12,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Инфраструктура управления дефолтом не отменяет движение цены и операционные сбои.",
+            "text": "Управление неисполнением через ЦК не отменяет риска цены и операционных сбоев",
+            "conditions": "Рыночная цена изменилась против позиции; ЦК управляет исполнением, не страхует рыночную потерю.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  12,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-01-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Рыночная цена изменилась против позиции; ЦК управляет исполнением, не страхует рыночную потерю."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Отделение роли ЦК от цены",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-02-0-1",
@@ -4321,9 +5971,150 @@
         "selector": "questions[id='MC-S2-02-0-1']",
         "question_sha256": "37879d83c5e64b8ef285d36e648beabe981b40d73c33354a0f74d4288bb0246d"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "eef918f1f15ca6da12b3be0854b8c54049bb16e30348b18be0ae3f39425871c8",
+        "skill": "Ликвидность по пути фьючерсной позиции",
+        "course_role": "Ликвидность по траектории",
+        "stem": "Длинный фьючерс сначала принёс значительное списание VM, а к завершению цена восстановилась. Какие выводы обоснованны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Нехватка денег на VM может вызвать раннее закрытие.",
+            "text": "Промежуточное списание может вынудить закрыть позицию до восстановления",
+            "conditions": "Цена восстановилась лишь к завершению; промежуточные VM и увеличение ГО должны быть исполнены ранее.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Нулевой итог не означает нулевую промежуточную потребность.",
+            "text": "Итоговый ноль VM означает отсутствие потребности в деньгах на всём пути",
+            "conditions": "Цена восстановилась лишь к завершению; промежуточные VM и увеличение ГО должны быть исполнены ранее.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Увеличение требуемого ГО отвлекает дополнительное обеспечение.",
+            "text": "Рост ГО создаёт отдельную потребность в обеспечении",
+            "conditions": "Цена восстановилась лишь к завершению; промежуточные VM и увеличение ГО должны быть исполнены ранее.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Результат переоценки и залоговый резерв выполняют разные функции.",
+            "text": "Денежный результат и резерв обеспечения следует различать",
+            "conditions": "Цена восстановилась лишь к завершению; промежуточные VM и увеличение ГО должны быть исполнены ранее.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Последующее восстановление цены не отменяет уже наступившее исполнение.",
+            "text": "Возврат цены даёт право не выполнять уже наступивший расчёт",
+            "conditions": "Цена восстановилась лишь к завершению; промежуточные VM и увеличение ГО должны быть исполнены ранее.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  7,
+                  13
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-02-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Цена восстановилась лишь к завершению; промежуточные VM и увеличение ГО должны быть исполнены ранее."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Ликвидность по траектории",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-02-1-1",
@@ -4336,9 +6127,155 @@
         "selector": "questions[id='MC-S2-02-1-1']",
         "question_sha256": "c5222d927d52db38c98ed256b90fcd8266e8b68ff71b8c981ee0e66bf89c384c"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "5fa4c3868a4cb1557f88acf06e6e6d3926163d089f58e025bdec23812f7d5901",
+        "skill": "Знак базиса и ролловер",
+        "course_role": "Конвенция базиса и ролл",
+        "stem": "Какие утверждения о базисе и переносе фьючерсной позиции верны? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Знак разницы F−S или S−F необходимо задать явно.",
+            "text": "Определение знака базиса нужно задать до расчёта результата",
+            "conditions": "Выбрана конвенция F−S или S−F; сопоставлены сроки, активы и издержки переноса.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  24,
+                  26
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Количество не делает разные сорта и места поставки одним товаром.",
+            "text": "Совпадение количества единиц разных товаров устраняет базисный риск",
+            "conditions": "Выбрана конвенция F−S или S−F; сопоставлены сроки, активы и издержки переноса.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  24,
+                  26
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Перенос включает закрытие ближнего и открытие дальнего контракта с издержками.",
+            "text": "Ролловер требует закрытия одного срока и открытия другого с проверкой расходов",
+            "conditions": "Выбрана конвенция F−S или S−F; сопоставлены сроки, активы и издержки переноса.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  24,
+                  26
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Фьючерсная цена включает перенос и не является достоверным прогнозом спота.",
+            "text": "Котировка фьючерса является достоверным прогнозом будущего спота",
+            "conditions": "Выбрана конвенция F−S или S−F; сопоставлены сроки, активы и издержки переноса.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  24,
+                  26
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Кросс-хедж сохраняет различие между своим товаром и ориентиром.",
+            "text": "При перекрёстной защите цена товара и ориентир контракта могут меняться по-разному",
+            "conditions": "Выбрана конвенция F−S или S−F; сопоставлены сроки, активы и издержки переноса.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  23,
+                  24,
+                  26
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-02-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Выбрана конвенция F−S или S−F; сопоставлены сроки, активы и издержки переноса."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Конвенция базиса и ролл",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-09-0-1",
@@ -4351,9 +6288,155 @@
         "selector": "questions[id='MC-S2-09-0-1']",
         "question_sha256": "e4ba9e5ff519d96a4d083a05883309b46151f2c4c65a237df019da523abe9c6c"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "36bf63d3973412a8f2141e7221f82775ce295ef5dae38b8bf287f6428fa0ad1f",
+        "skill": "Право опциона и режим расчётов",
+        "course_role": "Классификация опциона и расчётов",
+        "stem": "Что верно для обычного опциона на акцию и режима его расчётов? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          3,
+          4
+        ],
+        "independent_correct": [
+          0,
+          3,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Call даёт покупателю предусмотренное право покупки.",
+            "text": "Покупатель call имеет право покупки по договорным условиям",
+            "conditions": "Стиль, форма расчёта и премиальный/маржируемый режим — отдельные признаки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  92
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Put даёт право продажи, а не безусловную обязанность покупателя.",
+            "text": "Покупатель put обязан продать при любой рыночной цене",
+            "conditions": "Стиль, форма расчёта и премиальный/маржируемый режим — отдельные признаки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  92
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "FALSE",
+            "rationale": "Рыночная стоимость права меняется без ежедневной денежной VM.",
+            "text": "Отсутствие ежедневной VM означает неизменную рыночную стоимость премиального права",
+            "conditions": "Стиль, форма расчёта и премиальный/маржируемый режим — отдельные признаки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  92
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Премия вычитается из итогового результата длинного права.",
+            "text": "Премия уменьшает итоговый результат покупателя",
+            "conditions": "Стиль, форма расчёта и премиальный/маржируемый режим — отдельные признаки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  92
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Стиль описывает даты использования права, способ расчёта — поставку или деньги.",
+            "text": "Стиль исполнения и вид денежного или поставочного расчёта являются отдельными признаками",
+            "conditions": "Стиль, форма расчёта и премиальный/маржируемый режим — отдельные признаки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  92
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-09-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Стиль, форма расчёта и премиальный/маржируемый режим — отдельные признаки."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Классификация опциона и расчётов",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-09-0-2",
@@ -4366,9 +6449,155 @@
         "selector": "questions[id='MC-S2-09-0-2']",
         "question_sha256": "6e0755c6baef9b2d5b92a96bc10c8d74d5436aee55271b08f34b1ee263bab48c"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "4ab27559c077b652dcd8ee81ca701d64096a111831ac35c96adb6a7e7da6f20b",
+        "skill": "Защитный put к акции",
+        "course_role": "Применение защитного put",
+        "stem": "Инвестор держит акцию и купил совпадающий put. Что следует из этой защиты? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Совпадающий put позволяет продать по страйку согласно стилю и расчётам.",
+            "text": "При падении он может использовать предусмотренное право продажи по страйку",
+            "conditions": "Акция и купленный put совпадают по объёму и базовому активу, действие права зависит от договора.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Участие в росте акции не уступается продавцу put.",
+            "text": "При росте он обязан передать всю выгоду продавцу put",
+            "conditions": "Акция и купленный put совпадают по объёму и базовому активу, действие права зависит от договора.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Премия остаётся расходом независимо от исполнения.",
+            "text": "Расход премии сохраняется и при благоприятном исходе",
+            "conditions": "Акция и купленный put совпадают по объёму и базовому активу, действие права зависит от договора.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Получение защиты зависит от выполнения порядка исполнения и расчётов.",
+            "text": "Правила исполнения и поставки могут потребовать отдельных действий",
+            "conditions": "Акция и купленный put совпадают по объёму и базовому активу, действие права зависит от договора.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Рыночная защита не является универсальной гарантией исполнения контрагентом.",
+            "text": "Покупка put страхует любое неисполнение контрагентом независимо от договора",
+            "conditions": "Акция и купленный put совпадают по объёму и базовому активу, действие права зависит от договора.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  8,
+                  86,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-09-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Акция и купленный put совпадают по объёму и базовому активу, действие права зависит от договора."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Применение защитного put",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-09-1-1",
@@ -4381,9 +6610,203 @@
         "selector": "questions[id='MC-S2-09-1-1']",
         "question_sha256": "c46fdaba54194c0bbac090ef4580f43f9a70c3b30b75e3893f0ddf32ddaf5067"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_EDIT",
+      "decision": "EDIT_OPTIONS",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "6548627cd1c12ce2f63512ca9b4f396a3ba1a7f0e42c00b05e599fd12ad208ec",
+        "skill": "Опционные комбинации",
+        "course_role": "Состав и сроки комбинаций",
+        "stem": "Какие сочетания позиций описаны правильно? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Call-спред бычьего направления покупает низкий страйк и продаёт высокий.",
+            "text": "Бычий call-спред покупает меньший страйк и продаёт больший при одинаковом объёме и сроке",
+            "conditions": "Для вертикального спреда одинаковые актив, тип права, срок и объём; для календарного различаются сроки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  90,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.optionseducation.org/strategies/all-strategies/long-call-calendar-spread-call-horizontal",
+                "locator": "Description, different expiration dates and same strike",
+                "checked": "2026-11-01",
+                "purpose": "Проверка календарного/горизонтального спреда; дополнение авторского объяснения, а не дословный слайд89–91."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Медвежий put-спред покупает высокий страйк и продаёт низкий.",
+            "text": "Медвежий put-спред покупает меньший страйк и продаёт больший",
+            "conditions": "Для вертикального спреда одинаковые актив, тип права, срок и объём; для календарного различаются сроки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  90,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.optionseducation.org/strategies/all-strategies/long-call-calendar-spread-call-horizontal",
+                "locator": "Description, different expiration dates and same strike",
+                "checked": "2026-11-01",
+                "purpose": "Проверка календарного/горизонтального спреда; дополнение авторского объяснения, а не дословный слайд89–91."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Long straddle содержит купленные call и put одного страйка и срока.",
+            "text": "Длинный стрэддл покупает call и put с одним страйком и сроком",
+            "conditions": "Для вертикального спреда одинаковые актив, тип права, срок и объём; для календарного различаются сроки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  90,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.optionseducation.org/strategies/all-strategies/long-call-calendar-spread-call-horizontal",
+                "locator": "Description, different expiration dates and same strike",
+                "checked": "2026-11-01",
+                "purpose": "Проверка календарного/горизонтального спреда; дополнение авторского объяснения, а не дословный слайд89–91."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Covered call сохраняет падение акции и ограничивает рост сверху.",
+            "text": "Акция плюс короткий call сохраняет падение акции и ограничивает часть верхней выгоды",
+            "conditions": "Для вертикального спреда одинаковые актив, тип права, срок и объём; для календарного различаются сроки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  90,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.optionseducation.org/strategies/all-strategies/long-call-calendar-spread-call-horizontal",
+                "locator": "Description, different expiration dates and same strike",
+                "checked": "2026-11-01",
+                "purpose": "Проверка календарного/горизонтального спреда; дополнение авторского объяснения, а не дословный слайд89–91."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "У горизонтального, или календарного, спреда сроки различаются, а страйк одинаков. Один срок и разные страйки характеризуют вертикальный спред.",
+            "text": "Горизонтальный спред строят из опционов одного срока исполнения с разными страйками",
+            "conditions": "Для вертикального спреда одинаковые актив, тип права, срок и объём; для календарного различаются сроки.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  90,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [
+              {
+                "url": "https://www.optionseducation.org/strategies/all-strategies/long-call-calendar-spread-call-horizontal",
+                "locator": "Description, different expiration dates and same strike",
+                "checked": "2026-11-01",
+                "purpose": "Проверка календарного/горизонтального спреда; дополнение авторского объяснения, а не дословный слайд89–91."
+              }
+            ],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "post_edit_verdict": "FALSE",
+            "before_text": "Горизонтальный спред имеет те же одновременные конечные выплаты, что любой вертикальный"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-09-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Для вертикального спреда одинаковые актив, тип права, срок и объём; для календарного различаются сроки."
+        },
+        "distractor_review": {
+          "result": "EDIT_OPTIONS",
+          "reason": "Дистрактор с утверждением о «любом вертикальном» слишком широк и легко отбрасывается. Новая альтернатива проверяет конкретную путаницу страйка и срока."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Состав и сроки комбинаций",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "medium",
+        "defects": [
+          "WEAK_DISTRACTOR"
+        ],
+        "key_comparison": "MATCH_BEFORE_AND_AFTER",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": {
+          "change_record": "T33_MC_CHANGES.json",
+          "revision": "2026-11-01-t33-b02"
+        },
+        "revision": "2026-11-01-t33-b02",
+        "after_question_sha256": "6f46a9b8839db0cf400ba1fc6c0381ef27d32b14d5e527c4f0fe8d8d594cd49b"
+      }
     },
     {
       "question_id": "MC-S2-09-1-2",
@@ -4396,9 +6819,168 @@
         "selector": "questions[id='MC-S2-09-1-2']",
         "question_sha256": "8ad6bc776a48f3d43dd92e10062a5e3233c26202573ac31cf5f02b4d9b0072a1"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_EDIT",
+      "decision": "EDIT_OPTIONS",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "87aebfd88ea6830a5fcf266e07af00446db7fdc507a50e153f784df47f04ddc4",
+        "skill": "Премии и стоимость стрэддла",
+        "course_role": "Результат стрэддла и IV",
+        "stem": "Стрэддл куплен перед событием. Цена акции немного выросла, но обе премии были значительными. Какие выводы верны? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          2,
+          3
+        ],
+        "independent_correct": [
+          1,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Малое движение может быть меньше стоимости обоих прав.",
+            "text": "Любое изменение акции обеспечивает прибыль одной из ног после всех премий",
+            "conditions": "До срока IV — модельный рыночный вход; на экспирации учитываются две выплаты и обе премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  90,
+                  94,
+                  106
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Выплата одной ноги может не окупить сумму двух премий.",
+            "text": "Положительная выплата call может не покрыть совокупную премию",
+            "conditions": "До срока IV — модельный рыночный вход; на экспирации учитываются две выплаты и обе премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  90,
+                  94,
+                  106
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "До срока цена прав зависит от implied volatility.",
+            "text": "До срока изменение IV способно изменить цену комбинации",
+            "conditions": "До срока IV — модельный рыночный вход; на экспирации учитываются две выплаты и обе премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  90,
+                  94,
+                  106
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "На экспирации итог равен сумме выплат за вычетом затрат премий.",
+            "text": "Для результата на экспирации нужно сложить выплаты обеих ног и премии со знаками",
+            "conditions": "До срока IV — модельный рыночный вход; на экспирации учитываются две выплаты и обе премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  90,
+                  94,
+                  106
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Vega измеряет реакцию текущей цены на изменение подразумеваемой волатильности IV. Рост уже реализованной волатильности при неизменных IV и остальных входах не является таким изменением.",
+            "text": "При прочих равных положительная Vega повышает стоимость комбинации при росте реализованной волатильности, даже если IV не изменилась",
+            "conditions": "До срока IV — модельный рыночный вход; на экспирации учитываются две выплаты и обе премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  90,
+                  94,
+                  106
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT",
+            "post_edit_verdict": "FALSE",
+            "before_text": "Положительная Vega фиксирует фактическую будущую волатильность"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-09-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "До срока IV — модельный рыночный вход; на экспирации учитываются две выплаты и обе премии."
+        },
+        "distractor_review": {
+          "result": "EDIT_OPTIONS",
+          "reason": "Фраза о фиксации будущей волатильности создаёт слишком очевидный ответ. Новая альтернатива проверяет правдоподобное смешение реализованной и подразумеваемой волатильности."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Результат стрэддла и IV",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "medium",
+        "defects": [
+          "WEAK_DISTRACTOR"
+        ],
+        "key_comparison": "MATCH_BEFORE_AND_AFTER",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": {
+          "change_record": "T33_MC_CHANGES.json",
+          "revision": "2026-11-01-t33-b02"
+        },
+        "revision": "2026-11-01-t33-b02",
+        "after_question_sha256": "0ac0d09bb9b828ddf328fd774cdd8393ccf545d448a0dd425c2897c91a7b0ad4"
+      }
     },
     {
       "question_id": "MC-S2-09-1-3",
@@ -4411,9 +6993,155 @@
         "selector": "questions[id='MC-S2-09-1-3']",
         "question_sha256": "046f022cafbbfa8c65ecb05124bb6b09c664da68d73a50799682ccca78b690d1"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "2c3b84ef6765bf67bcc6ba9ea5fec3e587bc4f44a0d41b76d8cce0a2ed6e58f8",
+        "skill": "Барьерные, азиатские и ratio-профили",
+        "course_role": "Траектория/количества сложных прав",
+        "stem": "Что верно при чтении сложных опционных профилей? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          3,
+          4
+        ],
+        "independent_correct": [
+          1,
+          3,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "При непрерывном барьере важно, касалась ли траектория уровня.",
+            "text": "У двух непрерывных барьерных договоров одна конечная цена полностью задаёт исход без траектории",
+            "conditions": "Непрерывный барьер требует траектории; ratio 1×2 имеет чистый верхний наклон −1.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  87,
+                  88,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "Average-price использует среднее наблюдений согласно договору.",
+            "text": "Азиатский average-price использует среднюю цену вместо одной конечной",
+            "conditions": "Непрерывный барьер требует траектории; ratio 1×2 имеет чистый верхний наклон −1.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  87,
+                  88,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "FALSE",
+            "rationale": "Digital на дату и one-touch на траектории проверяют разные события.",
+            "text": "Digital и one-touch всегда проверяют одно и то же событие на одну дату",
+            "conditions": "Непрерывный барьер требует траектории; ratio 1×2 имеет чистый верхний наклон −1.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  87,
+                  88,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "На верхнем хвосте у одного long и двух short call суммарный наклон отрицателен.",
+            "text": "В ratio-call с одним купленным и двумя проданными call возможен неограниченный верхний убыток",
+            "conditions": "Непрерывный барьер требует траектории; ratio 1×2 имеет чистый верхний наклон −1.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  87,
+                  88,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Профиль butterfly зависит от соотношения количеств, страйков и сроков.",
+            "text": "Бабочка требует согласования количества, страйков и сроков всех ног",
+            "conditions": "Непрерывный барьер требует траектории; ratio 1×2 имеет чистый верхний наклон −1.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  87,
+                  88,
+                  91
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-09-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Непрерывный барьер требует траектории; ratio 1×2 имеет чистый верхний наклон −1."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Траектория/количества сложных прав",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-09-1-4",
@@ -4426,9 +7154,155 @@
         "selector": "questions[id='MC-S2-09-1-4']",
         "question_sha256": "fb2c441ba2aff702a8e3fef54541a36a8bd4f62724f047678af5e5d71f83f38e"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "4378e2d31fbc1eeb8046c7c8e7ab67e2598e677e2f9bcb6c0f25da8df4e81afc",
+        "skill": "Нижнее плато защитного put",
+        "course_role": "Диагностика неправильной подписи профиля",
+        "stem": "На схеме портфель из уже купленной акции имеет плато потерь ниже страйка и сохраняет рост выше него. Какие проверки помогут найти ошибку подписи? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Long call не компенсирует падение уже имеющейся акции ниже страйка.",
+            "text": "У акции с купленным call падение ниже страйка всё ещё влияет на результат",
+            "conditions": "Защищается уже купленная акция на совпадающий объём; плато оценивается с расходом премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Название стратегии не определяет математический профиль.",
+            "text": "Само название «защита» доказывает применение call",
+            "conditions": "Защищается уже купленная акция на совпадающий объём; плато оценивается с расходом премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Long stock плюс совпадающий put ограничивает нижний результат.",
+            "text": "Купленный put на совпадающий объём может сформировать нижнее плато",
+            "conditions": "Защищается уже купленная акция на совпадающий объём; плато оценивается с расходом премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Премия сдвигает уровень итогового P&L.",
+            "text": "Премию нужно включить в итоговый уровень результата",
+            "conditions": "Защищается уже купленная акция на совпадающий объём; плато оценивается с расходом премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Две длинные позиции сами по себе не доказывают меньшие потери.",
+            "text": "Наличие двух длинных позиций само гарантирует меньший убыток, чем одной акции",
+            "conditions": "Защищается уже купленная акция на совпадающий объём; плато оценивается с расходом премии.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  86,
+                  89,
+                  95
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-09-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Защищается уже купленная акция на совпадающий объём; плато оценивается с расходом премии."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Диагностика неправильной подписи профиля",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-10-0-1",
@@ -4441,9 +7315,155 @@
         "selector": "questions[id='MC-S2-10-0-1']",
         "question_sha256": "51d898c1469ee6b6e26fda928fa512c9383115c69e853a10e9d2ac7a27648e0f"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "098847b1ca456c3892b50c4d1d4c92bd683763c7b3a9f108410062eb110c9b23",
+        "skill": "Put-call parity и модель IV",
+        "course_role": "Паритет, модель и калибровка",
+        "stem": "Что верно о модельной цене и паритете европейских прав? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Для паритета согласуют европейский стиль, актив, страйк, срок и финансирование.",
+            "text": "Паритет требует одинаковых страйка, актива, срока и согласованного финансирования",
+            "conditions": "Европейские права, одинаковые актив/K/T, согласованные финансирование и выплаты актива.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  101,
+                  102,
+                  110
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "C−P соответствует акции за вычетом приведённого страйка с учётом выплат.",
+            "text": "Call минус put без денежной части равен полностью оплаченной акции",
+            "conditions": "Европейские права, одинаковые актив/K/T, согласованные финансирование и выплаты актива.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  101,
+                  102,
+                  110
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "IV извлекается из рыночной цены при фиксированной модели.",
+            "text": "Подразумеваемая волатильность получается обратным расчётом при выбранной модели",
+            "conditions": "Европейские права, одинаковые актив/K/T, согласованные финансирование и выплаты актива.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  101,
+                  102,
+                  110
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Ошибка собственной оценки волатильности не является безрисковым арбитражем.",
+            "text": "Разница с ценой при собственной оценке волатильности сама доказывает безрисковый арбитраж",
+            "conditions": "Европейские права, одинаковые актив/K/T, согласованные финансирование и выплаты актива.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  101,
+                  102,
+                  110
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Улыбка и временная структура допускают разные IV по K и T.",
+            "text": "Рыночная поверхность IV может различаться по страйкам и срокам",
+            "conditions": "Европейские права, одинаковые актив/K/T, согласованные финансирование и выплаты актива.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  101,
+                  102,
+                  110
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-10-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Европейские права, одинаковые актив/K/T, согласованные финансирование и выплаты актива."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Паритет, модель и калибровка",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-10-0-2",
@@ -4456,9 +7476,160 @@
         "selector": "questions[id='MC-S2-10-0-2']",
         "question_sha256": "1bd823eb936b05625ca55f047edde6c9723a9ae71c43f19f27b63ecf52d40c70"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "ca92ea71f2423afcefcf21421216ce139a9c7de987b6146399b33988743a0db3",
+        "skill": "Европейский put и внутренняя стоимость",
+        "course_role": "Исключение к универсальному правилу временной стоимости",
+        "stem": "У европейского put глубокая внутренняя стоимость и положительная ставка, но исполнить его сейчас нельзя. Какие выводы допустимы? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          2,
+          4
+        ],
+        "independent_correct": [
+          1,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Правило немедленного исполнения нельзя безусловно применять к европейскому праву.",
+            "text": "Рыночная премия обязана быть не меньше выгоды немедленного исполнения при всех условиях",
+            "conditions": "Европейский put не исполняется досрочно; положительная ставка; отрицательная временная составляющая возможна, не обязательна.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  97,
+                  99,
+                  101,
+                  102
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "При положительной ставке дисконтирование страйка может снизить премию ниже K−S.",
+            "text": "Отложенное получение страйка может сделать премию меньше немедленной внутренней стоимости",
+            "conditions": "Европейский put не исполняется досрочно; положительная ставка; отрицательная временная составляющая возможна, не обязательна.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  97,
+                  99,
+                  101,
+                  102
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Такая премия даёт отрицательную разность с немедленной внутренней стоимостью.",
+            "text": "Разность премии и немедленной внутренней стоимости может быть отрицательной",
+            "conditions": "Европейский put не исполняется досрочно; положительная ставка; отрицательная временная составляющая возможна, не обязательна.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  97,
+                  99,
+                  101,
+                  102
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Право досрочного исполнения меняет допустимые границы и оптимальные действия.",
+            "text": "Возможность досрочного исполнения несущественна для оценки",
+            "conditions": "Европейский put не исполняется досрочно; положительная ставка; отрицательная временная составляющая возможна, не обязательна.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  97,
+                  99,
+                  101,
+                  102
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Цена зависит от стиля, срока, ставки и выплат актива.",
+            "text": "Стиль, срок, ставка и выплаты актива должны входить в проверку",
+            "conditions": "Европейский put не исполняется досрочно; положительная ставка; отрицательная временная составляющая возможна, не обязательна.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  97,
+                  99,
+                  101,
+                  102
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-10-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Европейский put не исполняется досрочно; положительная ставка; отрицательная временная составляющая возможна, не обязательна."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Исключение к универсальному правилу временной стоимости",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-10-1-1",
@@ -4471,9 +7642,155 @@
         "selector": "questions[id='MC-S2-10-1-1']",
         "question_sha256": "14e4fd36a079908eb7a20e1e27ef3f2bd91347eeae67981f1f3ba823c3a756cd"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "95bc0266d3df4dfd89957eb3fc519df7804585a4867933415f9be8cd5e1ec3bf",
+        "skill": "Греки: локальность и единицы",
+        "course_role": "Единицы и знаки греков",
+        "stem": "Что верно при использовании греков? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Delta — первая производная цены по базовому активу.",
+            "text": "Delta описывает локальную первую ценовую чувствительность",
+            "conditions": "Чувствительности локальные, шкала Vega задана; оставшийся срок T убывает при росте календарного t.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Vega на процентный пункт требует движения в процентных пунктах либо пересчёта.",
+            "text": "Vega на процентный пункт можно умножать на изменение IV в долях без пересчёта",
+            "conditions": "Чувствительности локальные, шкала Vega задана; оставшийся срок T убывает при росте календарного t.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "При T=t_exp−t производные по t и T имеют противоположные знаки при прочих равных.",
+            "text": "Theta по календарному времени и производная по оставшемуся сроку имеют противоположные знаки",
+            "conditions": "Чувствительности локальные, шкала Vega задана; оставшийся срок T убывает при росте календарного t.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Delta-нейтральность не является вероятностной гарантией отсутствия потерь.",
+            "text": "Начальная нулевая Delta задаёт точную вероятность отсутствия убытка",
+            "conditions": "Чувствительности локальные, шкала Vega задана; оставшийся срок T убывает при росте календарного t.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Gamma измеряет изменение Delta по цене базового актива.",
+            "text": "Gamma объясняет изменение Delta при движении цены",
+            "conditions": "Чувствительности локальные, шкала Vega задана; оставшийся срок T убывает при росте календарного t.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-10-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Чувствительности локальные, шкала Vega задана; оставшийся срок T убывает при росте календарного t."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Единицы и знаки греков",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-10-1-2",
@@ -4486,9 +7803,160 @@
         "selector": "questions[id='MC-S2-10-1-2']",
         "question_sha256": "9d04aeea91cd6acdb90b2586884620b16fb9a76b2c3181c31d0b4b31ea620f35"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "c009f767beee04b055ed1bf5e666c39bf6e904c3799914ce064df3a14a0cef95",
+        "skill": "Многофакторная переоценка нейтрального портфеля",
+        "course_role": "Многофакторный перенос и ребалансировка",
+        "stem": "Управляющий обнулил Delta, затем одновременно изменились цена акции, IV и ставка. Какие действия обоснованны? Выберите все верные утверждения.",
+        "original_correct": [
+          1,
+          2,
+          3
+        ],
+        "independent_correct": [
+          1,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "FALSE",
+            "rationale": "Нулевой начальный первый порядок не убирает нелинейность и другие факторы.",
+            "text": "Считать стоимость портфеля неизменной по начальному нулю Delta",
+            "conditions": "Одновременно меняются S/IV/r; начальная Delta относится только к исходной точке.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107,
+                  109
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "TRUE",
+            "rationale": "После движения меняются локальные чувствительности.",
+            "text": "Пересчитать чувствительности после движения цены",
+            "conditions": "Одновременно меняются S/IV/r; начальная Delta относится только к исходной точке.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107,
+                  109
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "IV и ставка дают дополнительные вклады в собственных единицах.",
+            "text": "Проверить денежные вклады Vega и Rho в согласованных единицах",
+            "conditions": "Одновременно меняются S/IV/r; начальная Delta относится только к исходной точке.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107,
+                  109
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Большой сдвиг требует проверки полной модельной цены.",
+            "text": "Для большого сдвига проверить полную переоценку вместо одного локального приближения",
+            "conditions": "Одновременно меняются S/IV/r; начальная Delta относится только к исходной точке.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107,
+                  109
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Расходы на сделки сохраняются независимо от начальной Delta.",
+            "text": "Не учитывать расходы ребалансировки, поскольку начальный риск был нейтрален",
+            "conditions": "Одновременно меняются S/IV/r; начальная Delta относится только к исходной точке.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  104,
+                  106,
+                  107,
+                  109
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-10-1",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Одновременно меняются S/IV/r; начальная Delta относится только к исходной точке."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Многофакторный перенос и ребалансировка",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-11-0-1",
@@ -4501,9 +7969,165 @@
         "selector": "questions[id='MC-S2-11-0-1']",
         "question_sha256": "8d23d45232f0b741065645687c06fde206afdd3fb77faaf119da154d66693fdb"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "3e3be8b27f0164df12fdaf010a79fc048fc79ef7359187136524edab8a38e447",
+        "skill": "Защита капитала и условный купон",
+        "course_role": "Разделение купона и капитала",
+        "stem": "Что нужно различать при анализе продукта с защитой и условным купоном? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          4
+        ],
+        "independent_correct": [
+          0,
+          2,
+          4
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Триггер купона и формула возврата номинала могут различаться.",
+            "text": "Купонный триггер и возврат основной суммы могут иметь разные условия",
+            "conditions": "Защита на согласованную дату при исполнении обязанным лицом; купонный триггер читается отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  123,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Одна опционная выплата не обеспечивает возврат номинала при любом исходе.",
+            "text": "Положительная опционная выплата сама обеспечивает весь номинал независимо от долговой части",
+            "conditions": "Защита на согласованную дату при исполнении обязанным лицом; купонный триггер читается отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  123,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Исполнение обещанного возврата зависит от обязанного лица.",
+            "text": "Защита на погашение зависит от исполнения обязанным лицом",
+            "conditions": "Защита на согласованную дату при исполнении обязанным лицом; купонный триггер читается отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  123,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "FALSE",
+            "rationale": "Память переносит условие выплаты, а не делает её безусловной.",
+            "text": "Память купона означает обязательную выплату всех пропущенных купонов в любом исходе",
+            "conditions": "Защита на согласованную дату при исполнении обязанным лицом; купонный триггер читается отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  123,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "TRUE",
+            "rationale": "Комиссии и расходы уменьшают доступные средства для долговой и опционной частей.",
+            "text": "Начальные расходы уменьшают бюджет, доступный на создание обещанных выплат",
+            "conditions": "Защита на согласованную дату при исполнении обязанным лицом; купонный триггер читается отдельно.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  123,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-11-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Защита на согласованную дату при исполнении обязанным лицом; купонный триггер читается отдельно."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Разделение купона и капитала",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-11-0-2",
@@ -4516,9 +8140,160 @@
         "selector": "questions[id='MC-S2-11-0-2']",
         "question_sha256": "c3d186b121dbb6fb86888e96fb13432974d74034e173af359020c91a3a35200c"
       },
-      "status": "PENDING",
-      "decision": null,
-      "review": null
+      "status": "REVIEWED_KEEP",
+      "decision": "KEEP",
+      "review": {
+        "batch": "B02",
+        "reviewer": "Codex: один редакционный проход; независимость от ключа, без внешнего эксперта",
+        "independence": "24 набора/120 вердиктов записаны в blind_batch02_verdicts.json до загрузки correct/feedback. Затем проверены источники, ключи и объяснения; два новых дистрактора оценены повторно.",
+        "blind_verdict_sha256": "5edc9aca6fa00f53fe5dd81dfe7c45e9d76a7c89348f0b56b74e8d8ee51ea886",
+        "skill": "Досрочный выход из защищённого продукта",
+        "course_role": "Кредитный риск и ранний выход",
+        "stem": "Инвестор видит высокий условный купон и слова «защита капитала». Он планирует продать продукт раньше срока. Что проверить? Выберите все верные утверждения.",
+        "original_correct": [
+          0,
+          2,
+          3
+        ],
+        "independent_correct": [
+          0,
+          2,
+          3
+        ],
+        "alternatives": [
+          {
+            "index": 0,
+            "verdict": "TRUE",
+            "rationale": "Продажа раньше срока зависит от доступной цены и ликвидности.",
+            "text": "Рыночную цену и возможность выхода до погашения",
+            "conditions": "Планируется досрочная продажа; обещание на срок не гарантирует текущую цену и прямые права на активы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 1,
+            "verdict": "FALSE",
+            "rationale": "Общее обещание защиты не создаёт прямых вещных прав на активы эмитента.",
+            "text": "Наличие прямого отдельного права на каждый актив эмитента можно считать автоматическим",
+            "conditions": "Планируется досрочная продажа; обещание на срок не гарантирует текущую цену и прямые права на активы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 2,
+            "verdict": "TRUE",
+            "rationale": "Основная сумма и условный купон имеют собственные формулы.",
+            "text": "Формулу основной суммы и условия купона",
+            "conditions": "Планируется досрочная продажа; обещание на срок не гарантирует текущую цену и прямые права на активы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 3,
+            "verdict": "TRUE",
+            "rationale": "Кредитный риск и расходы влияют на реально доступный результат.",
+            "text": "Платёжеспособность обязанного лица и расходы",
+            "conditions": "Планируется досрочная продажа; обещание на срок не гарантирует текущую цену и прямые права на активы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          },
+          {
+            "index": 4,
+            "verdict": "FALSE",
+            "rationale": "Обещание выплаты на погашение не задаёт цену досрочной продажи.",
+            "text": "Обещание возврата на сроке фиксирует любую сегодняшнюю цену продажи",
+            "conditions": "Планируется досрочная продажа; обещание на срок не гарантирует текущую цену и прямые права на активы.",
+            "source_refs": [
+              {
+                "source_id": "S2",
+                "pdf_pages": [
+                  115,
+                  116,
+                  119,
+                  126
+                ],
+                "basis": "COURSE_SOURCE_AND_EXPLICIT_LOGICAL_DERIVATION"
+              }
+            ],
+            "external_sources": [],
+            "evidence_relation": "Пересказ механизма или логический вывод с ограничениями; не заявление о дословности всей альтернативы на слайде.",
+            "feedback_consistency": "CONSISTENT_WITH_VERDICT"
+          }
+        ],
+        "prerequisite_review": {
+          "block": "S2-11-0",
+          "scope": "Назначенные learningSupport до упражнения; краткие определения IV/Vega уже в S2-09-1, поэтому вопрос не требует будущего S2-10-1.",
+          "result": "ANSWERABLE_FROM_ASSIGNED_BLOCK",
+          "conditions": "Планируется досрочная продажа; обещание на срок не гарантирует текущую цену и прямые права на активы."
+        },
+        "distractor_review": {
+          "result": "KEEP",
+          "reason": "Различается конкретное право, единица, дата, размер, модель либо фактор. Вводные ошибки ГО/VM и право/обязанность сохранены для новичка; более глубокие случаи дают независимую проверку условий."
+        },
+        "duplicate_review": {
+          "result": "PURPOSEFUL_REINFORCEMENT",
+          "role": "Кредитный риск и ранний выход",
+          "scope": "Сопоставлены B01–B02: механика/число контрактов/метрика/кейсы и ликвидность имеют различные оценочные роли. Глобальный просмотр оставшихся201 ещё предстоит."
+        },
+        "severity": "low",
+        "defects": [],
+        "key_comparison": "MATCH",
+        "feedback_review": "Все пять пояснений проверены против вердиктов. Для двух изменённых E обновлены feedback и общий explanation; остальные четыре сохранены.",
+        "before_after": "UNCHANGED",
+        "revision": "2026-10-27"
+      }
     },
     {
       "question_id": "MC-S2-11-1-1",
