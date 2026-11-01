@@ -12,17 +12,34 @@
   "phase": "READY",
   "active_task": null,
   "next_task": "T-23",
-  "last_verified_checkpoint": "CP-20261031-155",
-  "last_verified_commit": "d2c39bae380ebfe36437cd3cb2b59b1190900eea",
+  "last_verified_checkpoint": "CP-20261101-156",
+  "last_verified_commit": "d352b95f793594a25d3e2327ed6c03404bddf42f",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41249684400",
   "last_verified_status": "VERIFIED",
-  "state_updated_on": "2026-10-31",
+  "state_updated_on": "2026-11-01",
   "current_release": "6.1.5",
-  "release_channel": "stable"
+  "release_channel": "stable",
+  "last_recheck": {
+    "date": "2026-11-01",
+    "commit": "d352b95f793594a25d3e2327ed6c03404bddf42f",
+    "local_programs": 29,
+    "live_public_files_match": 18,
+    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41249684184",
+    "proof": "docs/audits/data/RELEASE_6_1_5_RECHECK_20261101.json"
+  }
 }
 ```
 <!-- STATE_JSON_END -->
+
+## Контроль после восстановления ·01.11.2026
+
+01.11.2026 после восстановления среды синхронизирована отставшая локальная копия с main `d352b95f793594a25d3e2327ed6c03404bddf42f`. Все 29 проверочных программ PASS,включая 1000 наборов;18 HTTP-файлов совпали с этим коммитом. Открытых PR нет; CI41249684184 и Pages41249684400 SUCCESS. Код приложения,учебные данные и frozen не изменены. Прежняя полная браузерная проверка остаётся применимой к тем же байтам приложения.
+
+Исправлены противоречивые сводки документации: ранние статусы работ и прежний экзаменационный пул отделены от текущего охвата 6.1.5. Архивные этапы и ссылки сохранены,журнал подтверждённых проверок не переписан. Официальный ключ и эмпирическая калибровка не заявляются. T27–T30 завершены;T06 только отдельно.
+
+[Проверка](../audits/data/RELEASE_6_1_5_RECHECK_20261101.json).
+
 
 **6.1.5 VERIFIED. T27–T30 завершены с раскрытыми пределами.**
 

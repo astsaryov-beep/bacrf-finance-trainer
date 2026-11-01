@@ -14,7 +14,9 @@
 
 ## Учебное содержание и качество
 
-- [Итог проверки курса](audits/NOVICE_PATH_FINAL_REVIEW_20261027.md)
+- [Текущий охват курса](audits/INTEGRATION_COVERAGE.md)
+- [Экзаменационное обновление 6.1.5](audits/EXAM_FINAL_ACCEPTANCE_20261031.md)
+- [Путь новичка по базовым 96 блокам](audits/NOVICE_PATH_FINAL_REVIEW_20261027.md)
 - [Источники](audits/SOURCES_AUDIT.md)
 - [Проверки приложения](audits/QA_REPORT.md)
 - [Подробные аудиты](audits/)
