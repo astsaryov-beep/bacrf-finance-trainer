@@ -1,17 +1,17 @@
 /* Reproducible theoretical mock model; no claim of official grading or future-paper prediction. */
 (function(root){'use strict';
- const id='theory-exam-50-v1',revision='2026-11-01';
+ const id='theory-exam-50-v1',revision='2026-11-01-t33-p2';
  const quotas={reg:{multi:4,open:3},debt:{multi:5,open:5},equity:{multi:8,open:8},deriv:{multi:8,open:9}};
  const originalKnowledge=new Set([2,3,6,7,10,13,17,19,20,22,25,27,28,31,33,38,39,41,42,45,46,48]);
  const reconstructedKnowledge=new Set(['RECON-03','RECON-05','RECON-07','RECON-08','RECON-08-PROTECT','RECON-10','RECON-11','RECON-13','RECON-15','RECON-21','RECON-24','RECON-25','RECON-27','RECON-31']);
  const transferKnowledge=new Set(['TRANSFER-WATERFALL-01','TRANSFER-FUNDING-01','TRANSFER-IPO-01','TRANSFER-GUARANTEE-01']);
  const practiceOnly=new Set(['RECON-28','TRANSFER-INDEX-01','TRANSFER-COLLATERAL-01']);
  const complexIds=new Set(['EX17-30','EX17-32','EX17-43','EX17-44','EX17-47']);
- function metadata(q){return {sourceGroup:/^(Лекции|Кредитная система)/.test(q.source||'')?'lecture':'seminar',taskKind:q.provenance==='confirmed_exam_adapted'?(originalKnowledge.has(q.original_exam_number)?'knowledge':'case'):(reconstructedKnowledge.has(q.id)||transferKnowledge.has(q.id)?'knowledge':'case'),examEligible:q.requiresCalculation===false&&!practiceOnly.has(q.id),complex:complexIds.has(q.id),family:q.assessmentFamily||q.conceptFamily||q.id};}
+ function metadata(q){const admitted=root.ExamAdmission?.entries[q.id];if(admitted?.examEligible)return {sourceGroup:admitted.sourceGroup,taskKind:admitted.taskKind,examEligible:true,complex:admitted.complex,family:admitted.family};return {sourceGroup:/^(Лекции|Кредитная система)/.test(q.source||'')?'lecture':'seminar',taskKind:q.provenance==='confirmed_exam_adapted'?(originalKnowledge.has(q.original_exam_number)?'knowledge':'case'):(reconstructedKnowledge.has(q.id)||transferKnowledge.has(q.id)?'knowledge':'case'),examEligible:q.requiresCalculation===false&&!practiceOnly.has(q.id),complex:complexIds.has(q.id),family:q.assessmentFamily||q.conceptFamily||q.id};}
  function random(seed){let n=seed>>>0;return ()=>{n+=0x6D2B79F5;let t=Math.imul(n^(n>>>15),1|n);t^=t+Math.imul(t^(t>>>7),61|t);return ((t^(t>>>14))>>>0)/4294967296};}
  function shuffle(items,rng){const a=items.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
  function choose(pool,seed){
-  const allowed=new Set((root.ExamAlignment?.questions||[]).map(q=>q.id));
+  const allowed=new Set(root.ExamAdmission?Object.keys(root.ExamAdmission.entries):(root.ExamAlignment?.questions||[]).map(q=>q.id));
   const candidates=pool.filter(q=>allowed.has(q.id)&&metadata(q).examEligible&&!q.numeric&&(q.type==='open'&&q.rubric?.length>0||q.type==='multi'&&q.options?.length===5&&q.correct?.length>=1&&q.correct.length<=4));
   const rng=random(seed),cells=[];
   for(const [section,formats]of Object.entries(quotas))for(const [type,count]of Object.entries(formats)){
@@ -22,17 +22,35 @@
     cells.push({section,type,sourceGroup,n,items});
    }
   }
+  // Enumerate feasible knowledge/case allocations before sampling. Rejecting
+  // arbitrary full tickets biases exposure and can exhaust attempts in a larger pool.
+  function allocations(type){
+   const typed=cells.filter(c=>c.type===type),out=[];
+   function visit(i,left,counts){if(i===typed.length){if(left===0)out.push(counts);return;}
+    const c=typed[i],k=c.items.filter(q=>metadata(q).taskKind==='knowledge').length,other=c.items.length-k;
+    for(let n=Math.max(0,c.n-other);n<=Math.min(c.n,k,left);n++)visit(i+1,left-n,[...counts,n]);
+   }visit(0,11,[]);return {typed,out};
+  }
+  const plans=['multi','open'].map(allocations);
+  const compatible=(a,b)=>metadata(a).family!==metadata(b).family&&(!root.ExamAdmission||root.ExamAdmission.compatible(a,b));
   // Joint constraints avoid replacing missing formats with easier single-choice or numeric tasks.
   for(let attempt=0;attempt<1000;attempt++){
-   const selected=shuffle(candidates.filter(q=>metadata(q).complex),rng).slice(0,3),families=new Set(selected.map(q=>metadata(q).family));
+   const selected=shuffle(candidates.filter(q=>metadata(q).complex),rng).slice(0,3);
    if(selected.length<3)break;
-   for(const cell of cells){
-    const occupied=selected.filter(q=>q.section===cell.section&&q.type===cell.type&&metadata(q).sourceGroup===cell.sourceGroup).length,needed=cell.n-occupied;
-    if(needed<0)break;if(!needed)continue;
-    const ranked=shuffle(cell.items.filter(q=>!selected.some(v=>v.id===q.id)),rng);
-    const preferred=[...ranked.filter(q=>!families.has(metadata(q).family)),...ranked.filter(q=>families.has(metadata(q).family))];
-    if(preferred.length<needed)break;
-    let filled=0;for(const q of preferred){if(families.has(metadata(q).family))continue;selected.push(q);families.add(metadata(q).family);if(++filled===needed)break;}if(filled<needed)break;
+   if(selected.some((q,i)=>selected.slice(0,i).some(v=>!compatible(q,v))))continue;
+   const slots=[];
+   for(const {typed,out}of plans){if(!out.length)break;const counts=out[Math.floor(rng()*out.length)];
+    typed.forEach((cell,i)=>{for(const kind of ['knowledge','case']){
+     const target=kind==='knowledge'?counts[i]:cell.n-counts[i],occupied=selected.filter(q=>cell.items.includes(q)&&metadata(q).taskKind===kind).length;
+     slots.push({n:target-occupied,items:shuffle(cell.items.filter(q=>metadata(q).taskKind===kind&&!selected.includes(q)),rng)});
+    }});
+   }
+   if(slots.some(s=>s.n<0))continue;
+   // Fill the most constrained slots first; retry with another seeded plan when
+   // atomic targets or directional hints make this allocation infeasible.
+   slots.sort((a,b)=>(a.items.length-a.n)-(b.items.length-b.n));
+   for(const slot of slots){let filled=0;if(!slot.n)continue;
+    for(const q of slot.items){if(selected.some(v=>v.id===q.id||!compatible(q,v)))continue;selected.push(q);if(++filled===slot.n)break;}if(filled<slot.n)break;
    }
    if(selected.length!==50||selected.filter(q=>metadata(q).complex).length<3||selected.filter(q=>q.type==='multi'&&metadata(q).taskKind==='knowledge').length!==11||selected.filter(q=>q.type==='open'&&metadata(q).taskKind==='knowledge').length!==11)continue;
    const items=shuffle(selected,rng),orders=Object.fromEntries(items.filter(q=>q.type==='multi').map(q=>[q.id,shuffle(q.options.map((_,i)=>i),rng)]));

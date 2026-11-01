@@ -1,0 +1,15 @@
+{
+  "baseline_commit": "9b2e7955fd7fbbee9d6946c932420161f36c8925",
+  "summary_function_sha256": "6ad28f5c77a1b576bc7fb84d4d749b96bd1fa7f47ed41835f978bc573269aa09",
+  "outside_selection_sha256": "e54702337c08b9bb87059a2d59eb6bc0926e4dd0c33a1c134f4cb27cc15417a4",
+  "allowed_changes": [
+    "profile revision",
+    "metadata for explicit admitted tasks",
+    "candidate selection and constraints only"
+  ],
+  "html_wiring_only": [
+    "versioned exam-admission.js script",
+    "ExamAdmission.prepare around existing effective-bank mapping"
+  ],
+  "summary_source_sha256": "b72114f237e2725cdb239b769aa5fe1789a15e2ea1e0fd2ca8a07f48daa927f0"
+}

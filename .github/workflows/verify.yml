@@ -36,6 +36,8 @@ jobs:
           node tests/mc-review-audit-check.mjs
       - name: Verify reproducible strict exam profile and assessment evidence
         run: node tests/exam-profile-check.mjs
+      - name: Verify curated admission, atomic targets and expanded mock diversity
+        run: node tests/exam-admission-check.mjs
       - name: Verify aligned course prerequisites and evidence migration
         run: node tests/learning-path-check.mjs
       - name: Verify explicit question-to-theory links

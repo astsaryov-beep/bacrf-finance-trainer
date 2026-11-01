@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import vm from 'node:vm';
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html');
 const parse=n=>{const m=new RegExp('const '+n+'\\s*=\\s*').exec(html),i=m.index+m[0].length;return JSON.parse(html.slice(i,html.indexOf(';\n',i)));};
-const ctx={};vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);
+const ctx={};vm.runInNewContext(read('assets/question-review.js'),ctx);vm.runInNewContext(read('assets/exam-practice.js'),ctx);vm.runInNewContext(read('assets/exam-admission.js'),ctx);
 const raw=[...parse('BANK'),...parse('STUDY_EXTRAS')],q=id=>ctx.FinanceReview.question(raw.find(x=>x.id===id)),master=parse('STUDY_MASTER');
 for(const id of 'S3-003 S3-004 S3-005 S3-006 S3-007 S3-008 BM01 BM24 V2-019'.split(' ')){assert.equal(JSON.stringify(q(id).correct),JSON.stringify(raw.find(x=>x.id===id).correct));assert.equal(q(id).optionFeedback.length,4);}
 for(const id of [...Array.from({length:6},(_,i)=>`S3-${String(i+3).padStart(3,'0')}O`),'BO01','V2-036']){

@@ -1,0 +1,397 @@
+{
+  "task": "T-33",
+  "phase": "P2",
+  "status": "LOCAL_TESTS_ONLY_RELEASE_PENDING",
+  "first_run": [
+    {
+      "program": "tests/project-state-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS recovery standard: canonical state, roadmap, decisions, checkpoints, frozen Git SHA 2b77ae8f74be, working version 6.2.3.\n"
+    },
+    {
+      "program": "tests/repository-layout-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS layout:3 public root files,local documentation links:187,runtime assets:17,historical evidence preserved\n"
+    },
+    {
+      "program": "tests/exam-alignment-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.13,
+      "output": "evalmachine.<anonymous>:3\nconst EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>ExamAdmission.prepare(FinanceReview.question(q)));\n                                                                                                                                                                                                                        ^\n\nReferenceError: ExamAdmission is not defined\n    at evalmachine.<anonymous>:3:217\n    at Array.map (<anonymous>)\n    at evalmachine.<anonymous>:3:196\n    at Script.runInContext (node:vm:149:12)\n    at Script.runInNewContext (node:vm:154:17)\n    at Object.runInNewContext (node:vm:310:38)\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/exam-alignment-check.mjs:4:118\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/mc-review-audit-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.33,
+      "output": "PASS T33 audit evidence: 249/249 reviewed (1245/1245 statements); 0 explicitly pending; 42 revision-safe edits; open UI/scoring/rubrics unchanged.\n"
+    },
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "exit_code": 0,
+      "seconds": 6.91,
+      "output": "PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification\n"
+    },
+    {
+      "program": "tests/learning-path-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.5,
+      "output": "PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice\n"
+    },
+    {
+      "program": "tests/question-theory-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS theory links:all513 training/40 additional course IDs,553 explicit mappings,all audited supports,40 reviewed standalone mappings,valid targets/no heuristics,no active-exam hints,independent NIM reference\n"
+    },
+    {
+      "program": "tests/release-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.2,
+      "output": "PASS 6.2.3: 96 complete beginner-to-advanced lessons, 135 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 135 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.\n"
+    },
+    {
+      "program": "tests/content-dedup-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS content: 96 mapped roles, 33 edited blocks, consistent layers, preserved formulas/questions, spread example. Semantic judgment remains editorial.\n"
+    },
+    {
+      "program": "tests/methodical-review-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.13,
+      "output": "PASS methodical review: 96 explicit judgments and fingerprints; reviewed theory/digest layers; independent finance scenarios. Full source audit remains separate.\n"
+    },
+    {
+      "program": "tests/teacher-review-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS teacher review:20 source tasks/19 original IDs, preserved source conflict, aligned rubric semantics, reversible historical answers and two complete added metrics.\n"
+    },
+    {
+      "program": "tests/quality-m02-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS M02: source-gap teaching and effective rubrics, independent price/horizon/compounding/day-weight identities, retained old answers.\n"
+    },
+    {
+      "program": "tests/quality-m03-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.12,
+      "output": "PASS M03: independent duration/convexity/PV, basket/forward/spread, holding metrics and versions, Q07 answer/history preservation.\n"
+    },
+    {
+      "program": "tests/quality-m04-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS M04: money-risk matching, cash-flow ALM/convexity, margin path/tick/sign, OI/netting, basis/hedge sign, carry/time base and reverse legs.\n"
+    },
+    {
+      "program": "tests/quality-m05-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.13,
+      "output": "PASS M05: reverse-carry cash availability, funding zero/cap/sign and no VM double count, FX hedges/units, minimum variance vs VaR, coverage, calendar compounding and rubric history.\n"
+    },
+    {
+      "program": "tests/quality-m06-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M06/M04: CDS conservation, IRS signs, FX parity, four returns/two denominators, hedge units/variance/VaR, non-subadditive VaR counterexample,17 keys preserved, PO07 historical migration,31 reviewed placements and18 new conceptual MCs.\n"
+    },
+    {
+      "program": "tests/quality-m07-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.19,
+      "output": "PASS M07:12 independent piecewise option profiles and tail boundaries, gold account conservation, funding/GO one-time inclusion, protection budget, Greek units,15 historical keys and PO08 migration,26+10 reviewed assignments.\n"
+    },
+    {
+      "program": "tests/quality-m08-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M08:28+13 prerequisites reviewed,24 factual/case multi,25 historical single indices and3 protected teacher keys,3 two-part rubric migrations retaining original results, no extra arithmetic scope.\n"
+    },
+    {
+      "program": "tests/quality-m09-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.2,
+      "output": "PASS M09:capital/cash conservation and recognised-net LCR,NSFR and factoring prerequisites,23+13 reviewed placements,18 conceptual MC,13 single/4multi original keys,6 open histories migrated without loss.\n"
+    },
+    {
+      "program": "tests/quality-m10-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.21,
+      "output": "PASS M10: ownership/cash ledgers, unequal weighted/year-end P/E, negative EV and dividend conservation, conditional dates,32+6 placements,16 conceptual MC,14 preserved single keys,EM02/Q14 protected,6 rubric histories.\n"
+    },
+    {
+      "program": "tests/quality-m11-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M11: covariance-linear beta with residual risk, zero correlation/nonlinear dependence, TE versus gap, fee counted once, index weights/voting/free-float/convex prices,22+9 placements,16 MC,17 single keys,9 history migrations.\n"
+    },
+    {
+      "program": "tests/quality-m12-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.2,
+      "output": "evalmachine.<anonymous>:3\nconst EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>ExamAdmission.prepare(FinanceReview.question(q)));\n                                                                                                                                                                                                                        ^\n\nReferenceError: ExamAdmission is not defined\n    at evalmachine.<anonymous>:3:217\n    at Array.map (<anonymous>)\n    at evalmachine.<anonymous>:3:196\n    at Script.runInContext (node:vm:149:12)\n    at Script.runInNewContext (node:vm:154:17)\n    at Object.runInNewContext (node:vm:310:38)\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/quality-m12-check.mjs:27:4\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/quality-m13-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.2,
+      "output": "evalmachine.<anonymous>:3\nconst EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>ExamAdmission.prepare(FinanceReview.question(q)));\n                                                                                                                                                                                                                        ^\n\nReferenceError: ExamAdmission is not defined\n    at evalmachine.<anonymous>:3:217\n    at Array.map (<anonymous>)\n    at evalmachine.<anonymous>:3:196\n    at Script.runInContext (node:vm:149:12)\n    at Script.runInNewContext (node:vm:154:17)\n    at Object.runInNewContext (node:vm:310:38)\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/quality-m13-check.mjs:21:4\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/quality-m14-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.2,
+      "output": "evalmachine.<anonymous>:3\nconst EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>ExamAdmission.prepare(FinanceReview.question(q)));\n                                                                                                                                                                                                                        ^\n\nReferenceError: ExamAdmission is not defined\n    at evalmachine.<anonymous>:3:217\n    at Array.map (<anonymous>)\n    at evalmachine.<anonymous>:3:196\n    at Script.runInContext (node:vm:149:12)\n    at Script.runInNewContext (node:vm:154:17)\n    at Object.runInNewContext (node:vm:310:38)\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/quality-m14-check.mjs:18:4\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/quality-m15-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.2,
+      "output": "evalmachine.<anonymous>:3\nconst EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>ExamAdmission.prepare(FinanceReview.question(q)));\n                                                                                                                                                                                                                        ^\n\nReferenceError: ExamAdmission is not defined\n    at evalmachine.<anonymous>:3:217\n    at Array.map (<anonymous>)\n    at evalmachine.<anonymous>:3:196\n    at Script.runInContext (node:vm:149:12)\n    at Script.runInNewContext (node:vm:154:17)\n    at Object.runInNewContext (node:vm:310:38)\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/quality-m15-check.mjs:13:4\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/quality-m16-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.21,
+      "output": "evalmachine.<anonymous>:3\nconst EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>ExamAdmission.prepare(FinanceReview.question(q)));\n                                                                                                                                                                                                                        ^\n\nReferenceError: ExamAdmission is not defined\n    at evalmachine.<anonymous>:3:217\n    at Array.map (<anonymous>)\n    at evalmachine.<anonymous>:3:196\n    at Script.runInContext (node:vm:149:12)\n    at Script.runInNewContext (node:vm:154:17)\n    at Object.runInNewContext (node:vm:310:38)\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/quality-m16-check.mjs:15:4\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/final-course-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.23,
+      "output": "PASS final acceptance:96module/D015 blocks,557read+visual source rows with evidence,309verified placements/204MC,all34eligible supplementalopens,513unique effectiveIDs,228multi,135formulas/663terms/183checks,no exact interblock long paragraphs or duplicate MC prompts;beta acceptance and T06 separated. Semantic/empirical limits remain explicit.\n"
+    },
+    {
+      "program": "tests/exam-practice-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.25,
+      "output": "PASS exam practice:204 reviewed new MCs/228 total +34 reviewed open supplements, exact25open+25multi/no calculation/no fallback, historical singles retained, explicit earlier-theory evidence for309/309 assignments and204 additions. No pending placements.\n"
+    },
+    {
+      "program": "tests/novice-supplements-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.16,
+      "output": "PASS novice supplements:70 prompts/45 preserved keys,6 prerequisite moves,31 targeted revisions,7 trap histories/recheck/idempotence,all96 truth keys and10 executed models.\n"
+    },
+    {
+      "program": "tests/learning-review-check.mjs",
+      "exit_code": 1,
+      "seconds": 0.13,
+      "output": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(html.includes(\"const EFFECTIVE_BANK=[...BANK,...STUDY_EXTRAS.filter(q=>ExamPractice.openQuestionIds.includes(q.id)),...ExamPractice.questions,...(typeof ExamAlignment!=='undefined'?ExamAlignment.questions:[])].map(q=>FinanceReview.question(q))\"))\n\n    at file:///workspace/scratch/a9e63edfea01/trainer-methodical/tests/learning-review-check.mjs:29:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n\nNode.js v24.22.1\n"
+    },
+    {
+      "program": "tests/strategies-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
+    },
+    {
+      "program": "tests/exam-admission-check.mjs",
+      "exit_code": 0,
+      "seconds": 7.32,
+      "output": "PASS T33 P2: {\"task\":\"T-33\",\"status\":\"LOCAL_PASS_BROWSER_AND_RELEASE_PENDING\",\"seed_range\":[0,999],\"admitted_total\":227,\"multi\":143,\"open\":84,\"actually_sampled\":227,\"min_added_per_ticket\":{\"multi\":11,\"open\":2},\"all_pair_overlap_before\":{\"pairs\":499500,\"min\":18,\"mean\":30.269631631631633,\"p50\":30,\"p95\":34,\"max\":42},\"all_pair_overlap_after\":{\"pairs\":499500,\"min\":3,\"mean\":15.988560560560561,\"p50\":16,\"p95\":22,\"max\":35},\"mean_overlap_by_format\":{\"multi\":6.460474474474474,\"open\":9.528086086086086},\"atomic_goal_count\":{\"unique_pool_before\":95,\"unique_pool_after\":179,\"mean_per_ticket_before\":67.481,\"mean_per_ticket_after\":68.153},\"audited_goal_or_hint_collisions\":{\"tickets_before\":1000,\"mean_pairs_before\":7.352,\"max_pairs_before\":12,\"tickets_after\":0,\"pairs_after\":0},\"pool_cardinality\":{\"1\":1,\"2\":18,\"3\":111,\"4\":13},\"sampled_cardinality\":{\"1\":121,\"2\":3645,\"3\":19716,\"4\":1518}}\n"
+    }
+  ],
+  "local_programs": [
+    {
+      "program": "tests/project-state-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS recovery standard: canonical state, roadmap, decisions, checkpoints, frozen Git SHA 2b77ae8f74be, working version 6.2.3.\n"
+    },
+    {
+      "program": "tests/repository-layout-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS layout:3 public root files,local documentation links:187,runtime assets:17,historical evidence preserved\n"
+    },
+    {
+      "program": "tests/exam-alignment-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.23,
+      "output": "PASS source alignment:95 linked exercises,50 adapted scan/35 reconstructions/10 transfer,5 plausible alternatives and independent money/quantile/hedge checks,30 prerequisite roots+5 additional parts/full+brief,no workflow labels in extensions,86 tracked requirements\nPASS list/funding package:explicit ordered levels/atomic rubrics,1-and4-correct actual grading,independent clipped-funding boundaries,existing derivation reused\nPASS compound package:independent PV/YTM counterexample,nonlinear Z-spread,dirty/collateral/index units,exact/missing/extra sets for every MC,multipart rubrics and public primary references\nPASS complete MC review:125 individually documented original statements/conditions,no official-key claim,25adapted five-option tasks,existing prerequisite reuse,independent payer flows/ratios/voting denominators,unique support anchors and REPO scope\nPASS final content package:50 adapted originals/33 reconstructed records with35 exercises/3 topic-only reuse;all86 dispositions and exact displayed prerequisites;independent parity/protection/covariance/DV01/FX boundaries\n"
+    },
+    {
+      "program": "tests/mc-review-audit-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.24,
+      "output": "PASS T33 audit evidence: 249/249 reviewed (1245/1245 statements); 0 explicitly pending; 42 revision-safe edits; open UI/scoring/rubrics unchanged.\n"
+    },
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "exit_code": 0,
+      "seconds": 7.0,
+      "output": "PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification\n"
+    },
+    {
+      "program": "tests/learning-path-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.43,
+      "output": "PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice\n"
+    },
+    {
+      "program": "tests/question-theory-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS theory links:all513 training/40 additional course IDs,553 explicit mappings,all audited supports,40 reviewed standalone mappings,valid targets/no heuristics,no active-exam hints,independent NIM reference\n"
+    },
+    {
+      "program": "tests/release-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.23,
+      "output": "PASS 6.2.3: 96 complete beginner-to-advanced lessons, 135 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 135 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.\n"
+    },
+    {
+      "program": "tests/content-dedup-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.12,
+      "output": "PASS content: 96 mapped roles, 33 edited blocks, consistent layers, preserved formulas/questions, spread example. Semantic judgment remains editorial.\n"
+    },
+    {
+      "program": "tests/methodical-review-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.14,
+      "output": "PASS methodical review: 96 explicit judgments and fingerprints; reviewed theory/digest layers; independent finance scenarios. Full source audit remains separate.\n"
+    },
+    {
+      "program": "tests/teacher-review-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS teacher review:20 source tasks/19 original IDs, preserved source conflict, aligned rubric semantics, reversible historical answers and two complete added metrics.\n"
+    },
+    {
+      "program": "tests/quality-m02-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS M02: source-gap teaching and effective rubrics, independent price/horizon/compounding/day-weight identities, retained old answers.\n"
+    },
+    {
+      "program": "tests/quality-m03-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.12,
+      "output": "PASS M03: independent duration/convexity/PV, basket/forward/spread, holding metrics and versions, Q07 answer/history preservation.\n"
+    },
+    {
+      "program": "tests/quality-m04-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS M04: money-risk matching, cash-flow ALM/convexity, margin path/tick/sign, OI/netting, basis/hedge sign, carry/time base and reverse legs.\n"
+    },
+    {
+      "program": "tests/quality-m05-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS M05: reverse-carry cash availability, funding zero/cap/sign and no VM double count, FX hedges/units, minimum variance vs VaR, coverage, calendar compounding and rubric history.\n"
+    },
+    {
+      "program": "tests/quality-m06-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.16,
+      "output": "PASS M06/M04: CDS conservation, IRS signs, FX parity, four returns/two denominators, hedge units/variance/VaR, non-subadditive VaR counterexample,17 keys preserved, PO07 historical migration,31 reviewed placements and18 new conceptual MCs.\n"
+    },
+    {
+      "program": "tests/quality-m07-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.2,
+      "output": "PASS M07:12 independent piecewise option profiles and tail boundaries, gold account conservation, funding/GO one-time inclusion, protection budget, Greek units,15 historical keys and PO08 migration,26+10 reviewed assignments.\n"
+    },
+    {
+      "program": "tests/quality-m08-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M08:28+13 prerequisites reviewed,24 factual/case multi,25 historical single indices and3 protected teacher keys,3 two-part rubric migrations retaining original results, no extra arithmetic scope.\n"
+    },
+    {
+      "program": "tests/quality-m09-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.17,
+      "output": "PASS M09:capital/cash conservation and recognised-net LCR,NSFR and factoring prerequisites,23+13 reviewed placements,18 conceptual MC,13 single/4multi original keys,6 open histories migrated without loss.\n"
+    },
+    {
+      "program": "tests/quality-m10-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M10: ownership/cash ledgers, unequal weighted/year-end P/E, negative EV and dividend conservation, conditional dates,32+6 placements,16 conceptual MC,14 preserved single keys,EM02/Q14 protected,6 rubric histories.\n"
+    },
+    {
+      "program": "tests/quality-m11-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M11: covariance-linear beta with residual risk, zero correlation/nonlinear dependence, TE versus gap, fee counted once, index weights/voting/free-float/convex prices,22+9 placements,16 MC,17 single keys,9 history migrations.\n"
+    },
+    {
+      "program": "tests/quality-m12-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.19,
+      "output": "PASS M12:independent finite dividend sums/date boundary/sensitivity,issue cash allocation,cap/free-float/divisor/dividend bases,12+7 prerequisites,14MC,9keys/8rubric histories,10 reviewed open supplements.\n"
+    },
+    {
+      "program": "tests/quality-m13-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.2,
+      "output": "PASS M13:independent covariance/GMV/short-weight/normalVaR/downside-vs-drawdown/alpha examples,12+11 placements,18MC,11keys/8rubric histories,6 reviewed open IDs,real451-question initialization.\n"
+    },
+    {
+      "program": "tests/quality-m14-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.28,
+      "output": "PASS M14:margin boundary/risk-parameter/cash balance,lease cashflows/time bases,DV01 size reversal,12new+9rechecked placements,14MC/6rubric histories,4marginMCexcluded,469unique effective IDs.\n"
+    },
+    {
+      "program": "tests/quality-m15-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.22,
+      "output": "PASS M15:franchise equality/caps,expected-vs-tariff and reserve cashflows,reinsurance layers,10roles,12placements,14MC/6specific rubric histories,489initialized unique IDs;no insurance calculation in exam.\n"
+    },
+    {
+      "program": "tests/quality-m16-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.22,
+      "output": "PASS M16:invoice/advance/fee conservation,financing time base,zero-return accumulation and discount denominators,6rubric histories,18MC,96blocks with factual+case MC and309supported placements,513unique initialized IDs,34reviewedopen;25/25 without calculations.\n"
+    },
+    {
+      "program": "tests/final-course-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.22,
+      "output": "PASS final acceptance:96module/D015 blocks,557read+visual source rows with evidence,309verified placements/204MC,all34eligible supplementalopens,513unique effectiveIDs,228multi,135formulas/663terms/183checks,no exact interblock long paragraphs or duplicate MC prompts;beta acceptance and T06 separated. Semantic/empirical limits remain explicit.\n"
+    },
+    {
+      "program": "tests/exam-practice-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.23,
+      "output": "PASS exam practice:204 reviewed new MCs/228 total +34 reviewed open supplements, exact25open+25multi/no calculation/no fallback, historical singles retained, explicit earlier-theory evidence for309/309 assignments and204 additions. No pending placements.\n"
+    },
+    {
+      "program": "tests/novice-supplements-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.14,
+      "output": "PASS novice supplements:70 prompts/45 preserved keys,6 prerequisite moves,31 targeted revisions,7 trap histories/recheck/idempotence,all96 truth keys and10 executed models.\n"
+    },
+    {
+      "program": "tests/learning-review-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.12,
+      "output": "PASS learning review: 96 unique conceptual checks; corrected IPO grading; raw snapshot retained; alternate selection, distinct evidence, stale key and history migration.\n"
+    },
+    {
+      "program": "tests/strategies-check.mjs",
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
+    },
+    {
+      "program": "tests/exam-admission-check.mjs",
+      "exit_code": 0,
+      "seconds": 6.67,
+      "output": "PASS T33 P2: {\"task\":\"T-33\",\"status\":\"LOCAL_PASS_BROWSER_AND_RELEASE_PENDING\",\"seed_range\":[0,999],\"admitted_total\":227,\"multi\":143,\"open\":84,\"actually_sampled\":227,\"min_added_per_ticket\":{\"multi\":11,\"open\":2},\"all_pair_overlap_before\":{\"pairs\":499500,\"min\":18,\"mean\":30.269631631631633,\"p50\":30,\"p95\":34,\"max\":42},\"all_pair_overlap_after\":{\"pairs\":499500,\"min\":3,\"mean\":16.206534534534534,\"p50\":16,\"p95\":22,\"max\":33},\"mean_overlap_by_format\":{\"multi\":6.6005385385385384,\"open\":9.605995995995997},\"atomic_goal_count\":{\"unique_pool_before\":96,\"unique_pool_after\":180,\"mean_per_ticket_before\":68.478,\"mean_per_ticket_after\":69.121},\"audited_goal_or_hint_collisions\":{\"tickets_before\":1000,\"mean_pairs_before\":8.601,\"max_pairs_before\":14,\"tickets_after\":0,\"pairs_after\":0},\"pool_cardinality\":{\"1\":1,\"2\":18,\"3\":111,\"4\":13},\"sampled_cardinality\":{\"1\":120,\"2\":3286,\"3\":20026,\"4\":1568}}\n"
+    }
+  ],
+  "local_pass": 32,
+  "local_total": 32,
+  "browser": "PENDING",
+  "publication": "PENDING"
+}
