@@ -337,6 +337,17 @@
   for(const [id,patch] of Object.entries(corrections)){
    const response=value.responses[id],grade=value.grades?.[id];
    if(!patch.revision||!response)continue;
+   if(patch.reviewKind==='wording'){
+    if(response.reviewRevision===patch.revision||grade?.reviewRevision===patch.revision){response.reviewRevision=patch.revision;continue;}
+    if(grade||response.choice?.length){
+     value.reviewHistory=value.reviewHistory||{};
+     value.reviewHistory[id]={grade:grade?{...grade}:null,response:{...response,choice:[...(response.choice||[])]},revision:patch.revision};
+     if(value.grades)delete value.grades[id];
+     if(value.recorded)delete value.recorded[id];
+     response.choice=[];response.checked=false;response.revealed=false;response.needsReviewRecheck=true;
+    }
+    response.reviewRevision=patch.revision;continue;
+   }
    if(patch.reviewKind==='rubric'){
     if(response.reviewRevision===patch.revision)continue;
     if(grade||response.rubric?.length){
@@ -354,10 +365,10 @@
   }return value;
  }
  function migrateCourseAnswer(q,a){
-  const patch=corrections[q?.id];if(!a||patch?.reviewKind!=='rubric'||a.reviewRevision===patch.revision)return a;
+  const patch=corrections[q?.id];if(!a||!['rubric','wording'].includes(patch?.reviewKind)||a.reviewRevision===patch.revision)return a;
   if(a.checked||a.rubric?.length){
-   a.previousReviewResult={text:a.text,score:a.score,checked:a.checked,rubric:[...(a.rubric||[])],reviewedAt:a.reviewedAt};
-   a.rubric=[];a.checked=false;a.revealed=false;a.score=null;a.needsReviewRecheck=true;
+   a.previousReviewResult={text:a.text,score:a.score,checked:a.checked,rubric:[...(a.rubric||[])],selected:[...(a.selected||[])],reviewedAt:a.reviewedAt};
+   a.rubric=[];if(patch.reviewKind==='wording')a.selected=[];a.checked=false;a.revealed=false;a.score=null;a.needsReviewRecheck=true;
   }
   a.reviewRevision=patch.revision;return a;
  }

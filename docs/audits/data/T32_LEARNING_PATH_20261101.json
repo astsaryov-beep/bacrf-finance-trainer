@@ -1,0 +1,1375 @@
+{
+  "date": "2026-11-01",
+  "status": "EDITORIAL_REVIEWED_PENDING_BROWSER",
+  "base_blocks_preserved": 96,
+  "new_assignments": 95,
+  "assignments": [
+    {
+      "id": "EX17-03",
+      "assigned_block": "S2-02-0",
+      "prerequisite_blocks": [
+        "S2-02-0"
+      ],
+      "skills": [
+        "multi",
+        "symbols"
+      ],
+      "source": "Семинар 2, PDF-страница 11: вариационная маржа и спецификация контракта.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-19",
+      "assigned_block": "S2-07-1",
+      "prerequisite_blocks": [
+        "S2-07-1"
+      ],
+      "skills": [
+        "multi",
+        "symbols"
+      ],
+      "source": "Семинар 2, PDF-страницы 68–71: параметры, квантиль и параметрический VaR.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-27",
+      "assigned_block": "S2-08-0",
+      "prerequisite_blocks": [
+        "S2-08-0"
+      ],
+      "skills": [
+        "open",
+        "symbols"
+      ],
+      "source": "Семинар 2, PDF-страницы 80 и 84; учебная модель согласованных доходностей.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-01",
+      "assigned_block": "R-02-0",
+      "prerequisite_blocks": [
+        "R-02-0"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Лекции 1–2, слайд 71: четыре права потребителя.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-KENNEDY-01",
+      "assigned_block": "R-02-0",
+      "prerequisite_blocks": [
+        "R-02-0"
+      ],
+      "skills": [
+        "open",
+        "list",
+        "transfer"
+      ],
+      "source": "Лекции 1–2, слайд 71; самостоятельный учебный кейс.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-28",
+      "assigned_block": "E-12-0",
+      "prerequisite_blocks": [
+        "E-12-0"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Семинар 3, PDF-страницы 59–60.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-45",
+      "assigned_block": "S2-01-1",
+      "prerequisite_blocks": [
+        "S2-01-1"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Семинар 2, PDF-страница 13 (печатный слайд 30); правила клиринга соответствующего рынка.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-46",
+      "assigned_block": "R-03-1",
+      "prerequisite_blocks": [
+        "R-03-1"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Кредитная система, PDF-страница 16; отдельные режимы гарантирования и ликвидации.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-48",
+      "assigned_block": "E-12-1",
+      "prerequisite_blocks": [
+        "E-12-1"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Семинар 3, PDF-страницы 61–62.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-39",
+      "assigned_block": "S2-03-1",
+      "prerequisite_blocks": [
+        "S2-03-1"
+      ],
+      "skills": [
+        "open",
+        "symbols"
+      ],
+      "source": "Семинар 2, PDF-страницы 30–31 (печатные слайды 51–52); методика соответствующего вечного фьючерса.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-DOW-01",
+      "assigned_block": "E-12-1",
+      "prerequisite_blocks": [
+        "E-12-1"
+      ],
+      "skills": [
+        "open",
+        "transfer"
+      ],
+      "source": "Семинар 3, PDF-страницы 61–62; самостоятельный учебный кейс.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-ASV-01",
+      "assigned_block": "R-03-1",
+      "prerequisite_blocks": [
+        "R-03-1"
+      ],
+      "skills": [
+        "open",
+        "transfer"
+      ],
+      "source": "Кредитная система, PDF-страница 16; Банк России, ликвидация НПФ и гарантирование прав.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-WATERFALL-01",
+      "assigned_block": "S2-01-1",
+      "prerequisite_blocks": [
+        "S2-01-1"
+      ],
+      "skills": [
+        "multi",
+        "transfer"
+      ],
+      "source": "Семинар 2, PDF-страница 13 (печатный слайд 30).",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-FUNDING-01",
+      "assigned_block": "S2-03-1",
+      "prerequisite_blocks": [
+        "S2-03-1"
+      ],
+      "skills": [
+        "multi",
+        "symbols",
+        "transfer"
+      ],
+      "source": "Семинар 2, PDF-страницы 30–31; алгебраическая учебная схема.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-30",
+      "assigned_block": "E-07-1",
+      "prerequisite_blocks": [
+        "E-07-1"
+      ],
+      "skills": [
+        "open",
+        "composite"
+      ],
+      "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO».",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-32",
+      "assigned_block": "S2-05-0",
+      "prerequisite_blocks": [
+        "S2-01-1",
+        "S2-02-0",
+        "S2-05-0"
+      ],
+      "skills": [
+        "open",
+        "composite",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF-страницы 11,15,46; НКЦ, РЕПО с КСУ; статья 24.3 закона 7-ФЗ.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-43",
+      "assigned_block": "S1-09-0",
+      "prerequisite_blocks": [
+        "S1-06-0",
+        "S1-06-1",
+        "S1-09-0"
+      ],
+      "skills": [
+        "open",
+        "composite",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF-страницы 74,96–98,114.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-44",
+      "assigned_block": "E-09-1",
+      "prerequisite_blocks": [
+        "E-09-0",
+        "E-09-1"
+      ],
+      "skills": [
+        "open",
+        "symbols",
+        "composite",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF-страницы 41,43; Московская биржа, описание индексов и критерии отбора.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-47",
+      "assigned_block": "S1-02-0",
+      "prerequisite_blocks": [
+        "S1-02-0"
+      ],
+      "skills": [
+        "open",
+        "composite"
+      ],
+      "source": "Семинар 1, PDF-страница 36; ГК РФ, статьи 368,370,375,376,379; статья 45 закона 44-ФЗ. Нормы проверены 31.10.2026.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-28",
+      "assigned_block": "S1-09-0",
+      "prerequisite_blocks": [
+        "S1-06-0",
+        "S1-06-1",
+        "S1-09-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF-страницы 74,96–98,114.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-33",
+      "assigned_block": "E-07-1",
+      "prerequisite_blocks": [
+        "E-07-1"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO».",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-34",
+      "assigned_block": "S2-05-0",
+      "prerequisite_blocks": [
+        "S2-01-1",
+        "S2-02-0",
+        "S2-05-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF-страницы 11,15,46; НКЦ, РЕПО с КСУ; статья 24.3 закона 7-ФЗ.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-35",
+      "assigned_block": "E-09-1",
+      "prerequisite_blocks": [
+        "E-09-0",
+        "E-09-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF-страницы 41,43; Московская биржа, описание индексов и критерии отбора.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-IPO-01",
+      "assigned_block": "E-07-1",
+      "prerequisite_blocks": [
+        "E-07-1"
+      ],
+      "skills": [
+        "multi",
+        "transfer"
+      ],
+      "source": "Семинар 3, PDF-страницы 33,35–37; Московская биржа, «Ваш путь к IPO».",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-COLLATERAL-01",
+      "assigned_block": "S2-05-0",
+      "prerequisite_blocks": [
+        "S2-01-1",
+        "S2-02-0",
+        "S2-05-0"
+      ],
+      "skills": [
+        "multi",
+        "transfer",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF-страницы 11,15,46; НКЦ, РЕПО с КСУ; статья 24.3 закона 7-ФЗ.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-BONDS-01",
+      "assigned_block": "S1-09-0",
+      "prerequisite_blocks": [
+        "S1-06-0",
+        "S1-06-1",
+        "S1-09-0"
+      ],
+      "skills": [
+        "multi",
+        "transfer",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF-страницы 74,96–98,114.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-INDEX-01",
+      "assigned_block": "E-09-1",
+      "prerequisite_blocks": [
+        "E-09-0",
+        "E-09-1"
+      ],
+      "skills": [
+        "multi",
+        "symbols",
+        "transfer",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF-страницы 41,43; Московская биржа, описание индексов и критерии отбора.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "TRANSFER-GUARANTEE-01",
+      "assigned_block": "S1-02-0",
+      "prerequisite_blocks": [
+        "S1-02-0"
+      ],
+      "skills": [
+        "multi",
+        "transfer"
+      ],
+      "source": "Семинар 1, PDF-страница 36; ГК РФ, статьи 368,370,375,376,379; статья 45 закона 44-ФЗ. Нормы проверены 31.10.2026.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-01",
+      "assigned_block": "S2-04-0",
+      "prerequisite_blocks": [
+        "S2-01-0",
+        "S2-01-1",
+        "S2-04-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 7,11,15; Указание Банка России 3565-У, пункты 3–4.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-02",
+      "assigned_block": "E-07-0",
+      "prerequisite_blocks": [
+        "E-06-0",
+        "E-07-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 39; 208-ФЗ, статьи 7.2,49,84.7–84.8; правила листинга MOEX.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-04",
+      "assigned_block": "E-07-1",
+      "prerequisite_blocks": [
+        "E-07-1"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 3, PDF 30,33,35–37.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-05",
+      "assigned_block": "S2-04-0",
+      "prerequisite_blocks": [
+        "S2-01-1",
+        "S2-04-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 37,58; 3565-У, пункт 5.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-06",
+      "assigned_block": "R-02-0",
+      "prerequisite_blocks": [
+        "R-02-0"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Лекции 1–2, PDF 67–68.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-07",
+      "assigned_block": "E-08-0",
+      "prerequisite_blocks": [
+        "E-01-0",
+        "E-08-0"
+      ],
+      "skills": [
+        "multi",
+        "symbols",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 6,8,18–19; 208-ФЗ, статьи 31–32,42.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-08",
+      "assigned_block": "S2-11-0",
+      "prerequisite_blocks": [
+        "S2-11-0"
+      ],
+      "skills": [
+        "multi",
+        "symbols"
+      ],
+      "source": "Семинар 2, PDF 114–118.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-09",
+      "assigned_block": "S1-10-0",
+      "prerequisite_blocks": [
+        "S1-09-0",
+        "S1-10-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF 154,159.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-10",
+      "assigned_block": "E-07-0",
+      "prerequisite_blocks": [
+        "E-07-0"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 3, PDF 28; MOEX, требования для акций.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-11",
+      "assigned_block": "S1-03-0",
+      "prerequisite_blocks": [
+        "S1-03-0"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 1, PDF 25–29.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-12",
+      "assigned_block": "E-13-0",
+      "prerequisite_blocks": [
+        "S2-05-0",
+        "E-13-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 63–64; 39-ФЗ, статья 51.3.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-13",
+      "assigned_block": "S2-10-0",
+      "prerequisite_blocks": [
+        "S2-09-0",
+        "S2-10-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 97–99.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-14",
+      "assigned_block": "S1-03-1",
+      "prerequisite_blocks": [
+        "S1-03-1"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 1, PDF 34–35.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-15",
+      "assigned_block": "S2-02-1",
+      "prerequisite_blocks": [
+        "S2-02-0",
+        "S2-02-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 11,17,26.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-16",
+      "assigned_block": "E-09-0",
+      "prerequisite_blocks": [
+        "E-06-1",
+        "E-09-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 8,10–13,41; методика FF MOEX.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-17",
+      "assigned_block": "R-02-1",
+      "prerequisite_blocks": [
+        "R-02-0",
+        "R-02-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Лекции 1–2, PDF 62–63; Банк России, правовой статус и функции.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-18",
+      "assigned_block": "E-11-1",
+      "prerequisite_blocks": [
+        "E-11-1"
+      ],
+      "skills": [
+        "multi",
+        "symbols"
+      ],
+      "source": "Семинар 3, PDF 55–56; разбор downside deviation в курсе.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-20",
+      "assigned_block": "MARKET-01-1",
+      "prerequisite_blocks": [
+        "R-01-1",
+        "MARKET-01-0",
+        "MARKET-01-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Лекции 4–5, PDF 23–24,28–29; 39-ФЗ, статья 6.1; Банк России, профессиональные участники.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-21",
+      "assigned_block": "S1-06-1",
+      "prerequisite_blocks": [
+        "S1-04-1",
+        "S1-06-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF 73,98.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-22",
+      "assigned_block": "R-04-0",
+      "prerequisite_blocks": [
+        "R-03-0",
+        "R-04-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Кредитная система, PDF 9–11.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-23",
+      "assigned_block": "S1-09-1",
+      "prerequisite_blocks": [
+        "S1-09-1"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 1, PDF 133–143; Банк России, кредитные рейтинговые агентства.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-24",
+      "assigned_block": "S2-06-0",
+      "prerequisite_blocks": [
+        "S2-01-1",
+        "S2-06-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 15,60,63.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-25",
+      "assigned_block": "E-09-0",
+      "prerequisite_blocks": [
+        "E-07-0",
+        "E-09-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 28,41; MOEX/a2584, требования для акций.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-26",
+      "assigned_block": "E-13-0",
+      "prerequisite_blocks": [
+        "S2-05-0",
+        "E-13-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 63–64; 39-ФЗ, статья 51.3.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-29",
+      "assigned_block": "S2-06-0",
+      "prerequisite_blocks": [
+        "S2-06-0"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Семинар 2, PDF 60,63.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-31",
+      "assigned_block": "FACTOR-01-0",
+      "prerequisite_blocks": [
+        "FACTOR-01-0"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Лекции 4–5, PDF 60–61: участники факторинга и безрегрессная схема.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-33",
+      "assigned_block": "S2-10-1",
+      "prerequisite_blocks": [
+        "S2-10-1"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Семинар 2, раздел греков; базовая европейская модель.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-34",
+      "assigned_block": "E-11-0",
+      "prerequisite_blocks": [
+        "E-10-1",
+        "E-11-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 46–54.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-35",
+      "assigned_block": "S1-02-1",
+      "prerequisite_blocks": [
+        "S1-02-1"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 1, PDF 16,21.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-36",
+      "assigned_block": "S2-04-0",
+      "prerequisite_blocks": [
+        "S2-04-0"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 2, PDF 57–59.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-37",
+      "assigned_block": "E-08-0",
+      "prerequisite_blocks": [
+        "E-03-0",
+        "E-08-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 15,18–22.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-38",
+      "assigned_block": "R-06-0",
+      "prerequisite_blocks": [
+        "R-06-0"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Лекции 1–2, денежный раздел; официальный FAQ Банка России.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-40",
+      "assigned_block": "S1-10-1",
+      "prerequisite_blocks": [
+        "S1-10-1"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 1, PDF 164–166; уточнения базиса и метрик в курсе.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-41",
+      "assigned_block": "S1-04-1",
+      "prerequisite_blocks": [
+        "S1-04-1"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Семинар 1, разновидности ОФЗ; MOEX, ОФЗ-ИН.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-42",
+      "assigned_block": "E-11-1",
+      "prerequisite_blocks": [
+        "E-11-1"
+      ],
+      "skills": [
+        "open",
+        "symbols"
+      ],
+      "source": "Семинар 3, PDF 55–56.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-49",
+      "assigned_block": "S2-06-0",
+      "prerequisite_blocks": [
+        "S2-06-0"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 2, PDF 59.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "EX17-50",
+      "assigned_block": "INS-02-0",
+      "prerequisite_blocks": [
+        "INS-02-0"
+      ],
+      "skills": [
+        "open",
+        "list",
+        "terms"
+      ],
+      "source": "Лекции 4–5, PDF 36: участники страхования.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-02",
+      "assigned_block": "S2-08-1",
+      "prerequisite_blocks": [
+        "S2-08-1"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 2, PDF 83–84.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-03",
+      "assigned_block": "E-10-0",
+      "prerequisite_blocks": [
+        "E-10-0"
+      ],
+      "skills": [
+        "open",
+        "symbols"
+      ],
+      "source": "Семинар 3, PDF 46–50.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-04",
+      "assigned_block": "E-11-1",
+      "prerequisite_blocks": [
+        "E-11-1"
+      ],
+      "skills": [
+        "open",
+        "symbols"
+      ],
+      "source": "Семинар 3, PDF 55–56.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-05",
+      "assigned_block": "R-02-0",
+      "prerequisite_blocks": [
+        "R-02-0"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Лекции 1–2, PDF 63.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-06",
+      "assigned_block": "R-02-0",
+      "prerequisite_blocks": [
+        "R-02-0"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Лекции 1–2, PDF 42,47–48,63.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-07",
+      "assigned_block": "E-12-0",
+      "prerequisite_blocks": [
+        "E-12-0"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 3, PDF 58–60.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-08",
+      "assigned_block": "S2-10-0",
+      "prerequisite_blocks": [
+        "S2-09-0",
+        "S2-10-0"
+      ],
+      "skills": [
+        "open",
+        "symbols",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 101.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-08-PROTECT",
+      "assigned_block": "S2-10-0",
+      "prerequisite_blocks": [
+        "S2-09-0",
+        "S2-10-0"
+      ],
+      "skills": [
+        "multi",
+        "symbols",
+        "connections"
+      ],
+      "source": "Семинар 2, PDF 101, опционные стратегии.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-09",
+      "assigned_block": "S1-07-1",
+      "prerequisite_blocks": [
+        "S1-07-0",
+        "S1-07-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF 155–158; разборы стратегий в курсе.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-10",
+      "assigned_block": "S2-05-1",
+      "prerequisite_blocks": [
+        "S1-01-1",
+        "S2-05-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 1, денежные индикаторы; Банк России, методики RUONIA и MIACR; Московская биржа, методика RUSFAR.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-11",
+      "assigned_block": "S1-02-0",
+      "prerequisite_blocks": [
+        "S1-02-0"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Семинар 1, PDF 11–12; ГК РФ 807,819.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-12",
+      "assigned_block": "INS-02-0",
+      "prerequisite_blocks": [
+        "S1-02-0",
+        "INS-02-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 1, обеспечение кредита; главы о гарантии и страховании.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-13",
+      "assigned_block": "S1-02-0",
+      "prerequisite_blocks": [
+        "S1-02-0"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 1, PDF 42–43; ГК РФ 867,869.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-13-MC",
+      "assigned_block": "S1-02-0",
+      "prerequisite_blocks": [
+        "S1-02-0"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 1, PDF 42–43; ГК РФ 867,869.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-14",
+      "assigned_block": "S1-03-1",
+      "prerequisite_blocks": [
+        "S1-03-0",
+        "S1-03-1"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 1, PDF 25–31.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-15",
+      "assigned_block": "S1-09-1",
+      "prerequisite_blocks": [
+        "S1-09-1"
+      ],
+      "skills": [
+        "open",
+        "list"
+      ],
+      "source": "Семинар 1, PDF 138.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-16",
+      "assigned_block": "S1-09-1",
+      "prerequisite_blocks": [
+        "S1-09-1"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 1, PDF 134–135, рейтинговые методологии.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-17",
+      "assigned_block": "E-07-0",
+      "prerequisite_blocks": [
+        "E-06-0",
+        "E-07-0"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 6–7,39; 208-ФЗ.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-18",
+      "assigned_block": "E-01-0",
+      "prerequisite_blocks": [
+        "E-01-0"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 3, PDF 9; Норникель, программа «Цифровой инвестор».",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-19",
+      "assigned_block": "E-02-1",
+      "prerequisite_blocks": [
+        "E-02-1"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 3, PDF 38: учебный кейс «Сургутнефтегаз»; механизм EV и ограничения доступа к денежным средствам.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-20",
+      "assigned_block": "E-06-1",
+      "prerequisite_blocks": [
+        "E-06-1"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 3, PDF 11.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-21",
+      "assigned_block": "E-07-0",
+      "prerequisite_blocks": [
+        "E-03-0",
+        "E-06-0",
+        "E-07-0"
+      ],
+      "skills": [
+        "multi",
+        "connections"
+      ],
+      "source": "Семинар 3, PDF 6–7,15; 208-ФЗ, дивиденды.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-22",
+      "assigned_block": "E-02-1",
+      "prerequisite_blocks": [
+        "E-02-0",
+        "E-02-1"
+      ],
+      "skills": [
+        "open",
+        "connections"
+      ],
+      "source": "Семинар 3, раздел оценки компаний.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-24",
+      "assigned_block": "PEN-01-0",
+      "prerequisite_blocks": [
+        "PEN-01-0"
+      ],
+      "skills": [
+        "open",
+        "terms"
+      ],
+      "source": "Лекции 4–5, PDF 47: распределительная и накопительная пенсионные модели.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-25",
+      "assigned_block": "INS-02-1",
+      "prerequisite_blocks": [
+        "INS-02-1"
+      ],
+      "skills": [
+        "multi",
+        "terms"
+      ],
+      "source": "Лекции 4–5, PDF 38–39: объекты и виды страхования.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-26",
+      "assigned_block": "R-06-0",
+      "prerequisite_blocks": [
+        "R-06-0"
+      ],
+      "skills": [
+        "multi",
+        "terms"
+      ],
+      "source": "Лекции 1–2, денежный раздел; ЦБ, цифровой рубль.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-27",
+      "assigned_block": "S1-10-1",
+      "prerequisite_blocks": [
+        "S1-10-1"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 1, PDF 164–166; Семинар 2, cash-and-carry.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-29",
+      "assigned_block": "S1-02-1",
+      "prerequisite_blocks": [
+        "S1-02-1"
+      ],
+      "skills": [
+        "multi"
+      ],
+      "source": "Семинар 1, PDF 16,21.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-30",
+      "assigned_block": "S2-06-0",
+      "prerequisite_blocks": [
+        "S2-06-0"
+      ],
+      "skills": [
+        "open"
+      ],
+      "source": "Семинар 2, PDF 59.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    },
+    {
+      "id": "RECON-31",
+      "assigned_block": "S2-06-0",
+      "prerequisite_blocks": [
+        "S2-06-0"
+      ],
+      "skills": [
+        "open",
+        "symbols"
+      ],
+      "source": "Семинар 2, валютные форварды и свопы; карточка формулы в курсе.",
+      "prerequisite_review": "Exact support fragments and revised statement requirements reviewed; assigned after latest prerequisite.",
+      "repetition_role": "Reproduce or transfer the explained skill; control-set overlaps handled separately."
+    }
+  ],
+  "limits": "Prerequisite/editorial verification, not an empirical study of novice learners."
+}

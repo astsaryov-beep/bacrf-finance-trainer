@@ -34,6 +34,8 @@ jobs:
         run: node tests/exam-alignment-check.mjs
       - name: Verify reproducible strict exam profile and assessment evidence
         run: node tests/exam-profile-check.mjs
+      - name: Verify aligned course prerequisites and evidence migration
+        run: node tests/learning-path-check.mjs
       - name: Verify explicit question-to-theory links
         run: node tests/question-theory-check.mjs
       - name: Verify study bank and finance labs
@@ -102,6 +104,7 @@ jobs:
       - name: Core navigation and answer history
         if: matrix.suite == 'core'
         run: |
+          node tests/learning-path-browser.mjs
           node tests/question-theory-browser.mjs
           node tests/release-ui-browser.mjs
           node tests/navigation-browser.mjs

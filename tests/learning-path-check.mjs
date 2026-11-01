@@ -1,0 +1,32 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'),c={};
+for(const file of ['question-review','exam-alignment','exam-profile','learning-path'])vm.runInNewContext(read('assets/'+file+'.js'),c);
+const h=read('index.html'),lessons=JSON.parse(h.match(/const STUDY_LESSONS\s*=\s*([\s\S]*?);\n/)[1]),route=[1,2,3,4,5,6,7,8].flatMap(g=>lessons.filter(l=>l.seminar===g));
+const order=route.flatMap(l=>l.blocks.map((_,i)=>l.id+'-'+i)),q=c.ExamAlignment.questions,learn=c.CourseLearning;
+learn.configure(route,q);assert.equal(order.length,96);assert.equal(q.length,95);
+assert.equal(new Set(order.flatMap(learn.ids)).size,95);assert.equal(order.flatMap(learn.ids).length,95);
+for(const item of q){assert.ok(item.learningSkills.length);assert.ok(item.prerequisiteBlocks.length);assert.equal(order.indexOf(item.courseBlock),Math.max(...item.prerequisiteBlocks.map(k=>order.indexOf(k))));assert.ok(learn.ids(item.courseBlock).includes(item.id));}
+assert.equal(q.filter(item=>learn.sourceMatches(item,'adapted')).length,50);assert.equal(q.filter(item=>learn.sourceMatches(item,'reconstructed')).length,35);assert.equal(q.filter(item=>learn.sourceMatches(item,'transfer')).length,10);assert.equal(q.filter(item=>learn.sourceMatches(item,'examTopics')).length,95);
+assert.ok(q.some(item=>learn.skillMatches(item,'symbols')));assert.ok(q.some(item=>learn.skillMatches(item,'list')));assert.equal(q.filter(item=>learn.skillMatches(item,'composite')).length,5);
+const legacy={version:1,blocks:Object.fromEntries(order.map(key=>[key,{complete:true,answers:{legacy:{checked:true,score:1}}}]))};
+assert.equal(learn.summary(legacy).assessed,0,'96 old completions do not certify new skills');assert.equal(Object.values(legacy.blocks).filter(b=>b.complete).length,96);
+const mc=q.find(item=>item.id==='EX17-03'),open=q.find(item=>item.id==='EX17-32'),state={version:1,blocks:{}};
+state.blocks[mc.courseBlock]={answers:{[mc.id]:{checked:true,selected:Array.from(mc.correct),questionRevision:mc.reviewRevision,reviewedAt:'2026-11-01T10:00:00Z'}}};
+let report=learn.summary(state);assert.equal(report.assessed,1);assert.equal(report.full,1);
+state.blocks[mc.courseBlock].answers[mc.id].selected=[4];state.blocks[mc.courseBlock].answers[mc.id].score=1;assert.equal(learn.summary(state).full,0,'recompute MC rather than trust imported score');
+state.blocks[mc.courseBlock].answers[mc.id].questionRevision='old';assert.equal(learn.summary(state).assessed,0);
+state.blocks[open.courseBlock]={answers:{[open.id]:{checked:true,text:'Самостоятельный ответ',rubric:[0],questionRevision:open.reviewRevision}}};assert.equal(learn.summary(state).selfAssessed,1);assert.equal(learn.summary(state).full,0);
+state.blocks[open.courseBlock].answers[open.id].rubric=open.rubric.map((_,i)=>i);assert.equal(learn.summary(state).full,1);
+state.blocks[open.courseBlock].answers[open.id].text=' ';assert.equal(learn.summary(state).assessed,0);
+const progress={[mc.id]:{tries:1,answered:true,last:true,lastScore:1,questionRevision:mc.reviewRevision,when:'2026-11-01T12:00:00Z'}};assert.equal(learn.summary(state,progress).full,1,'current independent quiz evidence is reusable');progress[mc.id].answered=false;assert.equal(learn.summary(state,progress).full,0);
+const historical={version:2,responses:{[mc.id]:{choice:[0,1,2],checked:true}},grades:{[mc.id]:{score:1,strict:true}},recorded:{[mc.id]:true}};
+c.FinanceReview.migrateSession(historical);assert.equal(historical.grades[mc.id],undefined);assert.equal(historical.recorded[mc.id],undefined);assert.equal(historical.responses[mc.id].choice.length,0);assert.equal(historical.reviewHistory[mc.id].response.choice.length,3);assert.equal(historical.reviewHistory[mc.id].grade.score,1);assert.equal(historical.responses[mc.id].needsReviewRecheck,true);
+const fresh={version:2,responses:{[mc.id]:{choice:[0],reviewRevision:mc.reviewRevision}},grades:{},recorded:{}};c.FinanceReview.migrateSession(fresh);assert.equal(fresh.responses[mc.id].choice.length,1,'current draft survives reload');
+const snapshot=JSON.stringify(historical.reviewHistory);c.FinanceReview.migrateSession(historical);assert.equal(JSON.stringify(historical.reviewHistory),snapshot,'migration is idempotent');
+const answer={selected:[0,1,2],checked:true,score:1,text:'Прежний текст'};c.FinanceReview.migrateCourseAnswer(mc,answer);assert.equal(answer.checked,false);assert.equal(answer.previousReviewResult.selected.length,3);assert.equal(answer.text,'Прежний текст');
+assert.equal(c.ExamProfile.metadata(q.find(item=>item.id==='RECON-28')).examEligible,false);assert.equal(q.filter(item=>item.requiresCalculation).length,3);
+assert.equal(c.ExamProfile.metadata({...mc,requiresCalculation:undefined}).examEligible,false,'unclassified items are not silently exam-eligible');
+for(let seed=0;seed<100;seed++){const chosen=c.ExamProfile.choose(q,seed);assert.ok(!chosen.error);assert.ok(chosen.items.every(item=>item.requiresCalculation===false));assert.equal(new Set(chosen.items.map(item=>c.ExamProfile.metadata(item).family)).size,50);}
+const counts=q.filter(item=>item.type==='multi').reduce((out,item)=>(out[item.correct.length]=(out[item.correct.length]||0)+1,out),{});assert.ok(Math.max(...Object.values(counts))/45<.8,'guard against return to dominant three-correct template; not difficulty calibration');
+assert.ok(h.includes("['theory','practice','aligned','result'].includes(studyData.lastPhase)"));assert.ok(h.includes('recordAlignedAnswer(q,a)'));assert.ok(h.includes('CourseLearning.configure(STUDY_ROUTE,ExamAlignment.questions)'));
+console.log('PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice');
