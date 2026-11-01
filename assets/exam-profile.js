@@ -1,13 +1,13 @@
 /* Reproducible theoretical mock model; no claim of official grading or future-paper prediction. */
 (function(root){'use strict';
- const id='theory-exam-50-v1',revision='2026-10-31';
+ const id='theory-exam-50-v1',revision='2026-11-01';
  const quotas={reg:{multi:4,open:3},debt:{multi:5,open:5},equity:{multi:8,open:8},deriv:{multi:8,open:9}};
  const originalKnowledge=new Set([2,3,6,7,10,13,17,19,20,22,25,27,28,31,33,38,39,41,42,45,46,48]);
  const reconstructedKnowledge=new Set(['RECON-03','RECON-05','RECON-07','RECON-08','RECON-08-PROTECT','RECON-10','RECON-11','RECON-13','RECON-15','RECON-21','RECON-24','RECON-25','RECON-27','RECON-31']);
  const transferKnowledge=new Set(['TRANSFER-WATERFALL-01','TRANSFER-FUNDING-01','TRANSFER-IPO-01','TRANSFER-GUARANTEE-01']);
- const practiceOnly=new Set(['TRANSFER-INDEX-01','TRANSFER-COLLATERAL-01']);
+ const practiceOnly=new Set(['RECON-28','TRANSFER-INDEX-01','TRANSFER-COLLATERAL-01']);
  const complexIds=new Set(['EX17-30','EX17-32','EX17-43','EX17-44','EX17-47']);
- function metadata(q){return {sourceGroup:/^(Лекции|Кредитная система)/.test(q.source||'')?'lecture':'seminar',taskKind:q.provenance==='confirmed_exam_adapted'?(originalKnowledge.has(q.original_exam_number)?'knowledge':'case'):(reconstructedKnowledge.has(q.id)||transferKnowledge.has(q.id)?'knowledge':'case'),examEligible:!practiceOnly.has(q.id),complex:complexIds.has(q.id),family:q.conceptFamily||q.id};}
+ function metadata(q){return {sourceGroup:/^(Лекции|Кредитная система)/.test(q.source||'')?'lecture':'seminar',taskKind:q.provenance==='confirmed_exam_adapted'?(originalKnowledge.has(q.original_exam_number)?'knowledge':'case'):(reconstructedKnowledge.has(q.id)||transferKnowledge.has(q.id)?'knowledge':'case'),examEligible:q.requiresCalculation===false&&!practiceOnly.has(q.id),complex:complexIds.has(q.id),family:q.assessmentFamily||q.conceptFamily||q.id};}
  function random(seed){let n=seed>>>0;return ()=>{n+=0x6D2B79F5;let t=Math.imul(n^(n>>>15),1|n);t^=t+Math.imul(t^(t>>>7),61|t);return ((t^(t>>>14))>>>0)/4294967296};}
  function shuffle(items,rng){const a=items.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
  function choose(pool,seed){
@@ -32,7 +32,7 @@
     const ranked=shuffle(cell.items.filter(q=>!selected.some(v=>v.id===q.id)),rng);
     const preferred=[...ranked.filter(q=>!families.has(metadata(q).family)),...ranked.filter(q=>families.has(metadata(q).family))];
     if(preferred.length<needed)break;
-    for(const q of preferred.slice(0,needed)){selected.push(q);families.add(metadata(q).family);}
+    let filled=0;for(const q of preferred){if(families.has(metadata(q).family))continue;selected.push(q);families.add(metadata(q).family);if(++filled===needed)break;}if(filled<needed)break;
    }
    if(selected.length!==50||selected.filter(q=>metadata(q).complex).length<3||selected.filter(q=>q.type==='multi'&&metadata(q).taskKind==='knowledge').length!==11||selected.filter(q=>q.type==='open'&&metadata(q).taskKind==='knowledge').length!==11)continue;
    const items=shuffle(selected,rng),orders=Object.fromEntries(items.filter(q=>q.type==='multi').map(q=>[q.id,shuffle(q.options.map((_,i)=>i),rng)]));

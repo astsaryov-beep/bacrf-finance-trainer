@@ -1,0 +1,1207 @@
+{
+  "date": "2026-11-01",
+  "status": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING",
+  "scope": "96 route positions:49 assigned new practice;47 preserve accepted base route. Base master JSON unchanged. Supplementary source fact about accountability added to R-02-0. Not an independent novice experiment.",
+  "rows": [
+    {
+      "block": "S1-01-0",
+      "title": "Баланс активов и пассивов",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-01-1",
+      "title": "Ключевая ставка и денежные индикаторы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-02-0",
+      "title": "Формы кредита и обеспечение",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-47",
+        "TRANSFER-GUARANTEE-01",
+        "RECON-11",
+        "RECON-13",
+        "RECON-13-MC"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-02-1",
+      "title": "Возобновляемая линия и овердрафт",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-35",
+        "RECON-29"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-03-0",
+      "title": "Инвестиционный кредит и проектное финансирование",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-11"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-03-1",
+      "title": "Синдикаты, субординация и ковенанты",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-14",
+        "RECON-14"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-04-0",
+      "title": "Разновидности долговых инструментов",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-04-1",
+      "title": "Купоны, амортизация и оферты",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-41"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-05-0",
+      "title": "Участники и движение денежных потоков",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-05-1",
+      "title": "Транши и кредитное усиление",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-06-0",
+      "title": "Чистая, грязная цена и НКД",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-06-1",
+      "title": "Купон, доходность к погашению и реинвестирование",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-21"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-07-0",
+      "title": "Дюрация Маколея, модифицированная, DV01",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-07-1",
+      "title": "Выпуклость и ограничения линейной оценки",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-09"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-08-0",
+      "title": "RGBI, RGBITR и кривая бескупонной доходности",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-08-1",
+      "title": "РЕПО как краткосрочное фондирование",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-09-0",
+      "title": "Спреды к безрисковой кривой",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-43",
+        "RECON-28",
+        "TRANSFER-BONDS-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-09-1",
+      "title": "Самостоятельная кредитоспособность и внешняя поддержка",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-23",
+        "RECON-15",
+        "RECON-16"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-10-0",
+      "title": "Портфель и относительная стоимость",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-09"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S1-10-1",
+      "title": "Cash-and-carry и asset swap",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-40",
+        "RECON-27"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-01-0",
+      "title": "Форварды, фьючерсы, опционы, свопы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-01-1",
+      "title": "Биржевой и внебиржевой рынок",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-45",
+        "TRANSFER-WATERFALL-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-02-0",
+      "title": "Вариационная маржа и поставка",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-03"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-02-1",
+      "title": "Базис, cost of carry и ролловер",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-15"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-03-0",
+      "title": "Cash-and-carry и обратная стратегия",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-03-1",
+      "title": "Вечные фьючерсы и платежи фондирования",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-39",
+        "TRANSFER-FUNDING-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-04-0",
+      "title": "Валютный рынок и условия обращения",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-01",
+        "EX17-05",
+        "EX17-36"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-04-1",
+      "title": "Валютные сценарии и неполный хедж",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-05-0",
+      "title": "Механика РЕПО и КСУ",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-32",
+        "RECON-34",
+        "TRANSFER-COLLATERAL-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-05-1",
+      "title": "Ставки и передача сигнала ДКП",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-10"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-06-0",
+      "title": "Валютные, процентные и кредитные свопы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-24",
+        "EX17-29",
+        "EX17-49",
+        "RECON-30",
+        "RECON-31"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-06-1",
+      "title": "Облигация плюс IRS: asset swap",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-07-0",
+      "title": "Арбитраж, хеджирование, волатильность",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-07-1",
+      "title": "VaR и условия применимости",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-19"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-08-0",
+      "title": "Шаги выбора и расчёта хеджа",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-27"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-08-1",
+      "title": "Частичный хедж и остаточные риски",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-02"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-09-0",
+      "title": "Право и обязательство, payoff",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-09-1",
+      "title": "Вертикальные спреды и волатильность",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-10-0",
+      "title": "Временная стоимость и оценка",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-13",
+        "RECON-08",
+        "RECON-08-PROTECT"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-10-1",
+      "title": "Delta, Gamma, Vega, Theta и риск хеджа",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-33"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-11-0",
+      "title": "Как строится структурный продукт",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-08"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "S2-11-1",
+      "title": "Autocall, barrier note и пример золота",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-01-0",
+      "title": "Участники, рынки и финансовые потоки",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-01-1",
+      "title": "Финансовая инфраструктура и расчёты",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-02-0",
+      "title": "Правила финансового рынка и подходы к регулированию",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-01",
+        "TRANSFER-KENNEDY-01",
+        "EX17-06",
+        "RECON-05",
+        "RECON-06"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-02-1",
+      "title": "Сферы ответственности регуляторов и законы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-17"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-03-0",
+      "title": "Лицензии и операции кредитной организации",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-03-1",
+      "title": "Страхование вкладов и клиентские риски",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-46",
+        "TRANSFER-ASV-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-04-0",
+      "title": "Капитал, ликвидность и стресс-тестирование",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-22"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-04-1",
+      "title": "Кредитование бизнеса и выбор финансирования",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-05-0",
+      "title": "Как возникли основные финансовые теории",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-05-1",
+      "title": "Эффективность рынка и поведенческие финансы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-06-0",
+      "title": "Формы денег, цифровой рубль и цифровые активы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-38",
+        "RECON-26"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "R-06-1",
+      "title": "Национальная платёжная система и способы расчётов",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-01-0",
+      "title": "Обыкновенные и привилегированные акции",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-18"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-01-1",
+      "title": "IPO, SPO и дополнительные выпуски",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-02-0",
+      "title": "EPS и P/E",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-02-1",
+      "title": "P/BV и EV/EBITDA",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-19",
+        "RECON-22"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-03-0",
+      "title": "Дивидендная доходность",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-03-1",
+      "title": "Дивидендная отсечка и полная доходность",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-04-0",
+      "title": "Паевые и биржевые фонды",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-04-1",
+      "title": "Индексные фонды и расходы инвестора",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-05-0",
+      "title": "Бета и корреляция",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-05-1",
+      "title": "Горизонт инвестиций и выбор инструмента",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-06-0",
+      "title": "Кто управляет акционерным обществом",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-06-1",
+      "title": "Свободное обращение и free-float",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-20"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-07-0",
+      "title": "Листинг, депозитарий и биржевые индексы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-02",
+        "EX17-10",
+        "RECON-17",
+        "RECON-21"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-07-1",
+      "title": "Путь компании к IPO и SPO",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-30",
+        "RECON-33",
+        "TRANSFER-IPO-01",
+        "EX17-04"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-08-0",
+      "title": "Модель Гордона и её допущения",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-07",
+        "EX17-37"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-08-1",
+      "title": "Двухфазная модель роста дивидендов",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-09-0",
+      "title": "Как формируется вес акции в индексе",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-16",
+        "EX17-25"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-09-1",
+      "title": "Ценовой индекс и индекс полной доходности",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-44",
+        "RECON-35",
+        "TRANSFER-INDEX-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-10-0",
+      "title": "Доходность, волатильность и корреляция",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-03"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-10-1",
+      "title": "Эффективная граница и портфель Марковица",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-11-0",
+      "title": "CAPM и бета рыночного риска",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-34"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-11-1",
+      "title": "Шарп, Сортино и альфа Дженсена",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-18",
+        "EX17-42",
+        "RECON-04"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-12-0",
+      "title": "Что предполагает технический анализ",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-28",
+        "RECON-07"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-12-1",
+      "title": "Подтверждение тренда и ограничения теории Доу",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-48",
+        "TRANSFER-DOW-01"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-13-0",
+      "title": "РЕПО с акциями и плечо брокера",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-12",
+        "EX17-26"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "E-13-1",
+      "title": "НПР1, НПР2 и начальная маржа",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "INS-01-0",
+      "title": "От случайного ущерба к страховому договору",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "INS-01-1",
+      "title": "Франшиза, страховая сумма и расчёт выплаты",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "INS-02-0",
+      "title": "Страхователь, выгодоприобретатель, агент и эксперт",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-50",
+        "RECON-12"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "INS-02-1",
+      "title": "Личное, имущественное и обязательное страхование",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-25"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "INS-03-0",
+      "title": "Как оценивают стоимость риска и формируют резервы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "INS-03-1",
+      "title": "Перестрахование, сострахование и взаимное страхование",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "PEN-01-0",
+      "title": "Распределительная и накопительная модели",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "RECON-24"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "PEN-01-1",
+      "title": "ОПС, социальные и государственные пенсии",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "PEN-02-0",
+      "title": "НПФ, пенсионные накопления и пенсионные резервы",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "PEN-02-1",
+      "title": "Программа долгосрочных сбережений и её риски",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "LEASE-01-0",
+      "title": "Предмет лизинга и стороны договора",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "LEASE-01-1",
+      "title": "Виды лизинга и анализ стоимости",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "FACTOR-01-0",
+      "title": "Как работает факторинг и регресс",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-31"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "FACTOR-01-1",
+      "title": "Форфейтинг и выбор финансирования",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "MARKET-01-0",
+      "title": "Инвесторы и профессиональные участники рынка",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing accepted sequence retained; no new question assigned.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    },
+    {
+      "block": "MARKET-01-1",
+      "title": "Депозитарии, ПИФ, ИИС и учёт прав",
+      "previous_editorial_review": "ACCEPTED_WITH_DISCLOSED_LIMITS",
+      "base_content_changed": false,
+      "new_question_ids": [
+        "EX17-20"
+      ],
+      "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
+      "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
+      "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
+      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+    }
+  ]
+}

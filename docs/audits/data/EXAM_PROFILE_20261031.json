@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "date": "2026-10-31",
-  "status": "PUBLISHED_LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
+  "date": "2026-11-01",
+  "status": "T32_REVIEWED_PENDING_FULL_BROWSER_PAGES",
   "official_model": false,
   "profile_id": "theory-exam-50-v1",
-  "revision": "2026-10-31",
+  "revision": "2026-11-01",
   "scope": "Editorial classification of the adapted observed variant; not a specification of all future exams or empirically calibrated difficulty.",
   "quotas": {
     "reg": {
@@ -73,7 +73,7 @@
       "examEligible": true,
       "complex": false,
       "family": "EX17-03",
-      "revision": "2026-10-31-foundations"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-19",
@@ -226,7 +226,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": true,
-      "family": "ipo-process",
+      "family": "ipo-procedure",
       "revision": "2026-10-31-compound"
     },
     {
@@ -279,7 +279,7 @@
       "type": "open",
       "sourceGroup": "seminar",
       "taskKind": "case",
-      "examEligible": true,
+      "examEligible": false,
       "complex": false,
       "family": "bond-cashflow-comparison",
       "revision": "2026-10-31-compound"
@@ -292,7 +292,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "ipo-process",
+      "family": "ipo-capital-flows",
       "revision": "2026-10-31-compound"
     },
     {
@@ -325,8 +325,8 @@
       "taskKind": "knowledge",
       "examEligible": true,
       "complex": false,
-      "family": "ipo-process",
-      "revision": "2026-10-31-compound"
+      "family": "ipo-procedure",
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "TRANSFER-COLLATERAL-01",
@@ -381,7 +381,7 @@
       "examEligible": true,
       "complex": false,
       "family": "exam-topic-1",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-02",
@@ -391,7 +391,7 @@
       "taskKind": "knowledge",
       "examEligible": true,
       "complex": false,
-      "family": "listing-and-exit",
+      "family": "delisting-procedures",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -402,8 +402,8 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "ipo-process",
-      "revision": "2026-10-31-all-mc"
+      "family": "ipo-capital-flows",
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-05",
@@ -413,7 +413,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "fx-swap-regimes",
+      "family": "fx-swap-legal-structure",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -425,7 +425,7 @@
       "examEligible": true,
       "complex": false,
       "family": "supervision-classification",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-07",
@@ -447,7 +447,7 @@
       "examEligible": true,
       "complex": false,
       "family": "structured-protection",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-09",
@@ -468,7 +468,7 @@
       "taskKind": "knowledge",
       "examEligible": true,
       "complex": false,
-      "family": "listing-and-exit",
+      "family": "listing-levels",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -480,7 +480,7 @@
       "examEligible": true,
       "complex": false,
       "family": "project-finance",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-12",
@@ -490,7 +490,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "equity-repo-rights",
+      "family": "repo-risk-and-income",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -513,7 +513,7 @@
       "examEligible": true,
       "complex": false,
       "family": "mezzanine-pik",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-15",
@@ -535,7 +535,7 @@
       "examEligible": true,
       "complex": false,
       "family": "free-float-weight",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-17",
@@ -546,7 +546,7 @@
       "examEligible": true,
       "complex": false,
       "family": "central-bank-status",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-18",
@@ -556,7 +556,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "risk-adjusted-performance",
+      "family": "risk-metric-comparison",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -568,7 +568,7 @@
       "examEligible": true,
       "complex": false,
       "family": "market-roles",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-21",
@@ -579,7 +579,7 @@
       "examEligible": true,
       "complex": false,
       "family": "bond-yield-scenarios",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-22",
@@ -590,7 +590,7 @@
       "examEligible": true,
       "complex": false,
       "family": "basel-and-licensing",
-      "revision": "2026-10-31-all-mc"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "EX17-23",
@@ -611,7 +611,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "payer-swap-hedge",
+      "family": "irs-basis-and-counterparty",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -622,7 +622,7 @@
       "taskKind": "knowledge",
       "examEligible": true,
       "complex": false,
-      "family": "listing-and-exit",
+      "family": "third-level-and-index",
       "revision": "2026-10-31-all-mc"
     },
     {
@@ -633,7 +633,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "equity-repo-rights",
+      "family": "repo-voting-transfer",
       "revision": "2026-10-31-open-reconstructed"
     },
     {
@@ -644,7 +644,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "payer-swap-hedge",
+      "family": "irs-payer-role",
       "revision": "2026-10-31-open-reconstructed"
     },
     {
@@ -699,7 +699,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "fx-swap-regimes",
+      "family": "fx-date-gap",
       "revision": "2026-10-31-open-reconstructed"
     },
     {
@@ -754,7 +754,7 @@
       "taskKind": "knowledge",
       "examEligible": true,
       "complex": false,
-      "family": "risk-adjusted-performance",
+      "family": "sharpe-components",
       "revision": "2026-10-31-open-reconstructed"
     },
     {
@@ -809,7 +809,7 @@
       "taskKind": "case",
       "examEligible": true,
       "complex": false,
-      "family": "RECON-04",
+      "family": "risk-metric-comparison",
       "revision": "2026-10-31-open-reconstructed"
     },
     {
@@ -887,7 +887,7 @@
       "examEligible": true,
       "complex": false,
       "family": "RECON-10",
-      "revision": "2026-10-31-open-reconstructed"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "RECON-11",
@@ -1008,7 +1008,7 @@
       "examEligible": true,
       "complex": false,
       "family": "RECON-20",
-      "revision": "2026-10-31-open-reconstructed"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "RECON-21",
@@ -1052,7 +1052,7 @@
       "examEligible": true,
       "complex": false,
       "family": "RECON-25",
-      "revision": "2026-10-31-open-reconstructed"
+      "revision": "2026-11-01-editorial"
     },
     {
       "id": "RECON-26",
@@ -1123,17 +1123,15 @@
     "TRANSFER-INDEX-01",
     "TRANSFER-COLLATERAL-01"
   ],
-  "eligible_total": 93,
+  "eligible_total": 92,
   "publication": {
-    "version": "6.1.5",
-    "commit": "d2c39bae380ebfe36437cd3cb2b59b1190900eea",
-    "pr": 87,
-    "feature_pr": 86,
-    "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248160751",
-    "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248814262",
-    "live_proof": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41248963920",
-    "public_files_match": 18,
-    "core_artifact": 13060036703,
-    "course_artifact": 13060436267
-  }
+    "status": "PENDING"
+  },
+  "practice_only_calculation": [
+    "RECON-28",
+    "TRANSFER-INDEX-01",
+    "TRANSFER-COLLATERAL-01"
+  ],
+  "previous_snapshot": "docs/archive/2026-11-01-status/EXAM_PROFILE_20261031.json",
+  "unique_assessment_families": true
 }

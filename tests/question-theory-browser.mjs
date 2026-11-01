@@ -39,7 +39,7 @@ try{
  // New source-reviewed practice preserves drafts and opens its actual prerequisite.
  await fixture(['EX17-03','RECON-01']);
  assert.equal(await page.locator('.exam-source-tag').innerText(),'Экзаменационное задание · адаптировано');
- for(const i of [0,1,2])await page.locator('input[name="qoption"][value="'+i+'"]').check();
+ for(const i of [0,1,2,3])await page.locator('input[name="qoption"][value="'+i+'"]').check();
  await page.locator('#check').click();assert.equal(await page.evaluate(()=>session.grades['EX17-03'].strict),true);
  const vmLinks=await openLinks('EX17-03');await vmLinks.locator('[data-question-theory]').click();
  assert.ok(await page.locator('[data-aligned-block="S2-02-0"]').innerText().then(s=>s.includes('РЦ1')&&s.includes('W/R')));
