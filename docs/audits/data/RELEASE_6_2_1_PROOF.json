@@ -1,0 +1,75 @@
+{
+  "release": "6.2.1",
+  "status": "VERIFIED",
+  "scope": "Release of two reviewed distractor edits and migration compatibility; T33 full P1/P2 NOT COMPLETE.",
+  "commit": "b0e3346f5e4b21034985403ca52cab1499c1086b",
+  "pull_request": "https://github.com/astsaryov-beep/bacrf-finance-trainer/pull/94",
+  "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317174216",
+  "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317778013",
+  "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41317777955",
+  "local_programs": 31,
+  "browser_programs": 13,
+  "live_files": {
+    "index.html": "3c17f97153c13f488f7cceb223515cef5ddcaa4c",
+    "versions/index.html": "bdc7ba1f702c4ff70799077e47d1fc0d8025f695",
+    "v5.0.8/index.html": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+    "assets/course-sidebar.css": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+    "assets/strategies.css": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+    "assets/exam-feedback.css": "7dec3a63971fe914d88547664969cdb77495eea8",
+    "assets/futures-short-guide.css": "dcf745c2a43eec706222a86622a02bf75716cb07",
+    "assets/theme.css": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+    "assets/question-review.js": "3e51024d1a1599217c8c80e80377942f7c810cee",
+    "assets/exam-practice.js": "557d47e640194db790c2b81bff12d8e84d444ac4",
+    "assets/exam-alignment.js": "1f6c129d0eac4df47dba96ded86af29f16b24f5f",
+    "assets/exam-profile.js": "239ff3d76a924b82db21e86537d2ab2278ae6b30",
+    "assets/learning-path.js": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+    "assets/theory-links.js": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+    "assets/question-theory-ui.js": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+    "assets/exam-feedback.js": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+    "assets/futures-short-guide.js": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+    "assets/strategies.js": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+    "assets/option-profiles.js": "cd2b04924ac937a59a443e12e9164591b5bb1566"
+  },
+  "actual_browser_cache_urls": [
+    {
+      "url": "assets/theme.css?v=6.2.1",
+      "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51",
+      "match": true
+    },
+    {
+      "url": "assets/question-review.js?v=6.2.1",
+      "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9",
+      "match": true
+    },
+    {
+      "url": "assets/exam-practice.js?v=6.2.1",
+      "sha256": "67bf2a261b706f3faec1747cc298310d7cf41422b2ad56af974c38d1964ac269",
+      "match": true
+    },
+    {
+      "url": "assets/exam-alignment.js?v=6.2.1",
+      "sha256": "c377999bba76dd3ecc31a56b16ef2feaa5b50098deabd06d2823808be077e1f8",
+      "match": true
+    },
+    {
+      "url": "assets/exam-profile.js?v=6.2.1",
+      "sha256": "c50f401ac39f4316e21985e41fcbc800e1e9b69e40421395d3ff49e5e4e43585",
+      "match": true
+    },
+    {
+      "url": "assets/learning-path.js?v=6.2.1",
+      "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
+      "match": true
+    }
+  ],
+  "visual_check": {
+    "artifact_run": 41316716409,
+    "artifact_id": 13087387798,
+    "files": [
+      "MC-S2-09-1-1-revised-320.png",
+      "MC-S2-09-1-2-revised-320.png"
+    ],
+    "result": "Viewed: new option text and feedback readable, no horizontal overflow; fresh-repeat UI passed. Later green run retains same question wording/browser code."
+  },
+  "limits": "72 questions audited as of B03; only48were in release review snapshot; remaining177are pending. No empirical difficulty calibration or P2 expansion."
+}
