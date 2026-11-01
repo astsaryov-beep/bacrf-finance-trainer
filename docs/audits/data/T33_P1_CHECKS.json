@@ -179,5 +179,14 @@
     "assets/learning-path.js": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607",
     "assets/question-review.js": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9",
     "v5.0.8/index.html": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
-  }
+  },
+  "first_pr_run": {
+    "id": 41343887805,
+    "head": "c220f8bf040dec272861eece7513f704076af31f",
+    "verify": "PASS",
+    "core_browser": "PASS_9_PROGRAMS",
+    "course_browser": "IN_PROGRESS_AT_SCENARIO_FIX",
+    "route_browser": "IN_PROGRESS_AT_SCENARIO_FIX"
+  },
+  "browser_scenario_fix": "Static inspection found that the two edited alignment cards use the native aligned exercise surface, while40old cards use supplemental details. The browser test now navigates and grades each through its actual existing UI. No app/UI changes. Fresh fullCI required."
 }

@@ -60,25 +60,29 @@ try{
  await page.setViewportSize({width:320,height:844});await page.evaluate(()=>{goStudyLesson('S2-04',1);studyNav.phase='theory';render();});await page.locator('#v5FullBtn').click();await page.locator(`[data-mc-question="${id}"] summary`).click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.screenshot({path:resolve(root,'test-artifacts','exam-multi-mobile.png')});assert.deepEqual(errors,[]);
  // T33: changed cards in either supplementary bank must migrate actual previous revisions.
  const reviewedChanges=JSON.parse(readFileSync(resolve(root,'docs/audits/data/T33_MC_CHANGES.json'),'utf8')).changes;
- async function showRevisedSupplement(id){await page.evaluate(id=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));studyNav.phase='theory';render();},id);}
+ async function showRevisedSupplement(id){await page.evaluate(id=>{const q=BANK_MAP.get(id),key=q.courseBlock||q.block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const native=ExamAlignment.questions.some(q=>q.id===id);studyNav.phase=native?'aligned':'theory';if(native){studyNav.index=CourseLearning.ids(key).indexOf(id);if(studyNav.index<0)throw Error('Missing native assignment '+id);}render();},id);}
  for(const change of reviewedChanges){
   const changedId=change.question_id,oldSelected=change.before.correct;
   await page.evaluate(({id,oldSelected,previousRevision})=>{const key=BANK_MAP.get(id).block,cut=key.lastIndexOf('-');goStudyLesson(key.slice(0,cut),Number(key.slice(cut+1)));const b=getStudyBlock();b.complete=true;b.answers[id]={selected:oldSelected,checked:true,score:1,confidence:3,reviewRevision:previousRevision};persistStudy();},{id:changedId,oldSelected,previousRevision:change.previous_review_revision});
   await page.reload();await showRevisedSupplement(changedId);
+  const native=await page.evaluate(id=>ExamAlignment.questions.some(q=>q.id===id),changedId);
   const revised=page.locator(`[data-mc-question="${changedId}"]`);
-  if(!await revised.isVisible())await page.locator('#v5FullBtn').click();
-  if(await revised.getAttribute('open')===null)await revised.locator('summary').click();
+  if(!native){
+   if(!await revised.isVisible())await page.locator('#v5FullBtn').click();
+   if(await revised.getAttribute('open')===null)await revised.locator('summary').click();
+  }
+  const option=native?page.locator('input[name="studyAnswer"]'):revised.locator('[data-mc-option]');
   const migrated=await page.evaluate(id=>getStudyAnswer(id),changedId);
   assert.equal(migrated.checked,false);assert.equal(migrated.needsReviewRecheck,true);assert.equal(migrated.previousReviewResult.score,1);assert.deepEqual(migrated.previousReviewResult.selected,oldSelected);assert.equal(migrated.confidence,3);
-  assert.equal(await revised.locator('[data-mc-option]:checked').count(),0);assert.equal(await page.evaluate(()=>getStudyBlock().complete),true);
+  assert.equal(await option.evaluateAll(inputs=>inputs.filter(x=>x.checked).length),0);assert.equal(await page.evaluate(()=>getStudyBlock().complete),true);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
   const correct=await page.evaluate(id=>BANK_MAP.get(id).correct,changedId);
-  for(const i of correct)await revised.locator(`[data-mc-option][value="${i}"]`).check();
-  await revised.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1);assert.equal(await page.evaluate(id=>getStudyAnswer(id).needsReviewRecheck,changedId),false);
+  for(const i of correct)await (native?page.locator(`input[name="studyAnswer"][value="${i}"]`):revised.locator(`[data-mc-option][value="${i}"]`)).check();
+  await (native?page.locator('#studyCheck'):revised.locator('[data-mc-check]')).click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1);assert.equal(await page.evaluate(id=>getStudyAnswer(id).needsReviewRecheck,changedId),false);
   await page.screenshot({path:resolve(root,'test-artifacts',changedId+'-revised-320.png')});
   await page.reload();await showRevisedSupplement(changedId);
   assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1,'fresh response must survive reload');
  }
  assert.deepEqual(errors,[]);
- console.log('PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 older-MC revision history/recheck/new answer/reload.');
+ console.log('PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 all42 revisions in both supplemental/native course surfaces:history/recheck/new answer/reload.');
 }catch(e){await page.screenshot({path:resolve(root,'test-artifacts','exam-multi-failure.png')}).catch(()=>{});throw e}finally{await browser.close()}
