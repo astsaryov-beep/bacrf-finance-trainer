@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "status": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING",
+  "status": "EDITORIAL_DELTA_AND_FULL_BROWSER_VERIFIED_WITH_DISCLOSED_LIMITS",
   "scope": "96 route positions:49 assigned new practice;47 preserve accepted base route. Base master JSON unchanged. Supplementary source fact about accountability added to R-02-0. Not an independent novice experiment.",
   "rows": [
     {
@@ -12,7 +12,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-01-1",
@@ -23,7 +23,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-02-0",
@@ -40,7 +40,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-02-1",
@@ -54,7 +54,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-03-0",
@@ -67,7 +67,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-03-1",
@@ -81,7 +81,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-04-0",
@@ -92,7 +92,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-04-1",
@@ -105,7 +105,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-05-0",
@@ -116,7 +116,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-05-1",
@@ -127,7 +127,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-06-0",
@@ -138,7 +138,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-06-1",
@@ -151,7 +151,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-07-0",
@@ -162,7 +162,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-07-1",
@@ -175,7 +175,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-08-0",
@@ -186,7 +186,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-08-1",
@@ -197,7 +197,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-09-0",
@@ -212,7 +212,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-09-1",
@@ -227,7 +227,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-10-0",
@@ -240,7 +240,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S1-10-1",
@@ -254,7 +254,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-01-0",
@@ -265,7 +265,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-01-1",
@@ -279,7 +279,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-02-0",
@@ -292,7 +292,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-02-1",
@@ -305,7 +305,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-03-0",
@@ -316,7 +316,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-03-1",
@@ -330,7 +330,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-04-0",
@@ -345,7 +345,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-04-1",
@@ -356,7 +356,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-05-0",
@@ -371,7 +371,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-05-1",
@@ -384,7 +384,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-06-0",
@@ -401,7 +401,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-06-1",
@@ -412,7 +412,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-07-0",
@@ -423,7 +423,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-07-1",
@@ -436,7 +436,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-08-0",
@@ -449,7 +449,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-08-1",
@@ -462,7 +462,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-09-0",
@@ -473,7 +473,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-09-1",
@@ -484,7 +484,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-10-0",
@@ -499,7 +499,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-10-1",
@@ -512,7 +512,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-11-0",
@@ -525,7 +525,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "S2-11-1",
@@ -536,7 +536,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-01-0",
@@ -547,7 +547,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-01-1",
@@ -558,7 +558,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-02-0",
@@ -575,7 +575,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-02-1",
@@ -588,7 +588,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-03-0",
@@ -599,7 +599,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-03-1",
@@ -613,7 +613,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-04-0",
@@ -626,7 +626,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-04-1",
@@ -637,7 +637,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-05-0",
@@ -648,7 +648,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-05-1",
@@ -659,7 +659,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-06-0",
@@ -673,7 +673,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "R-06-1",
@@ -684,7 +684,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-01-0",
@@ -697,7 +697,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-01-1",
@@ -708,7 +708,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-02-0",
@@ -719,7 +719,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-02-1",
@@ -733,7 +733,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-03-0",
@@ -744,7 +744,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-03-1",
@@ -755,7 +755,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-04-0",
@@ -766,7 +766,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-04-1",
@@ -777,7 +777,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-05-0",
@@ -788,7 +788,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-05-1",
@@ -799,7 +799,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-06-0",
@@ -810,7 +810,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-06-1",
@@ -823,7 +823,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-07-0",
@@ -839,7 +839,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-07-1",
@@ -855,7 +855,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-08-0",
@@ -869,7 +869,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-08-1",
@@ -880,7 +880,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-09-0",
@@ -894,7 +894,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-09-1",
@@ -909,7 +909,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-10-0",
@@ -922,7 +922,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-10-1",
@@ -933,7 +933,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-11-0",
@@ -946,7 +946,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-11-1",
@@ -961,7 +961,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-12-0",
@@ -975,7 +975,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-12-1",
@@ -989,7 +989,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-13-0",
@@ -1003,7 +1003,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "E-13-1",
@@ -1014,7 +1014,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "INS-01-0",
@@ -1025,7 +1025,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "INS-01-1",
@@ -1036,7 +1036,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "INS-02-0",
@@ -1050,7 +1050,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "INS-02-1",
@@ -1063,7 +1063,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "INS-03-0",
@@ -1074,7 +1074,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "INS-03-1",
@@ -1085,7 +1085,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "PEN-01-0",
@@ -1098,7 +1098,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "PEN-01-1",
@@ -1109,7 +1109,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "PEN-02-0",
@@ -1120,7 +1120,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "PEN-02-1",
@@ -1131,7 +1131,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "LEASE-01-0",
@@ -1142,7 +1142,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "LEASE-01-1",
@@ -1153,7 +1153,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "FACTOR-01-0",
@@ -1166,7 +1166,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "FACTOR-01-1",
@@ -1177,7 +1177,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "MARKET-01-0",
@@ -1188,7 +1188,7 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing accepted sequence retained; no new question assigned.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     },
     {
       "block": "MARKET-01-1",
@@ -1201,7 +1201,12 @@
       "prerequisites": "Each new question occurs at or after every recorded required block; exact assignment trail in T32_LEARNING_PATH_20261101.json.",
       "sequence": "Existing explanation and self-check order retained; aligned independent-answer phase follows primary practice.",
       "repetition": "Summary, worked example and recall serve different roles; duplicate open-answer display removed.",
-      "acceptance": "EDITORIAL_DELTA_REVIEWED_NATIVE_BROWSER_PENDING"
+      "acceptance": "EDITORIAL_DELTA_AND_NATIVE_FLOW_VERIFIED"
     }
-  ]
+  ],
+  "verification": {
+    "product_commit": "154b8606a0aa77f5ebfc30f26b57b0650afe95fc",
+    "ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815",
+    "proof": "RELEASE_6_2_0_PROOF_20261101.json"
+  }
 }

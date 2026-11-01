@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-01",
-  "status": "T32_REVIEWED_PENDING_FULL_BROWSER_PAGES",
+  "status": "PUBLISHED_LOCAL_FULL_BROWSER_PAGES_LIVE_VERIFIED",
   "official_model": false,
   "profile_id": "theory-exam-50-v1",
   "revision": "2026-11-01",
@@ -1125,7 +1125,10 @@
   ],
   "eligible_total": 92,
   "publication": {
-    "status": "PENDING"
+    "product_commit": "154b8606a0aa77f5ebfc30f26b57b0650afe95fc",
+    "full_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295018815",
+    "pages": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555468",
+    "http_files_match": 19
   },
   "practice_only_calculation": [
     "RECON-28",
@@ -1133,5 +1136,19 @@
     "TRANSFER-COLLATERAL-01"
   ],
   "previous_snapshot": "docs/archive/2026-11-01-status/EXAM_PROFILE_20261031.json",
-  "unique_assessment_families": true
+  "unique_assessment_families": true,
+  "sampling_20261101": {
+    "seeds": [
+      0,
+      999
+    ],
+    "examMCPositions": 25000,
+    "correctCardinality": {
+      "1": 554,
+      "2": 9073,
+      "3": 11423,
+      "4": 3950
+    },
+    "closeDowPairs": 0
+  }
 }
