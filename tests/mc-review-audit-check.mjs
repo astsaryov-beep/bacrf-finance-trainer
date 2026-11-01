@@ -41,6 +41,7 @@ if(matrix.status==='COMPLETED')assert.equal(reviewed.length,249,'Cannot accept p
 const html=read('index.html'),version=html.match(/name="trainer-version" content="([^"]+)"/)[1];
 const normalized=html.replaceAll(version,'__VERSION__').replace('assets/exam-practice.js?v=__VERSION__','assets/exam-practice.js');
 assert.equal(sha(normalized),baseline.index_normalized_sha256,'Changes beyond release labels/cache in index.html');
+assert.equal(sha(read('versions/index.html').replaceAll(version,'__VERSION__')),baseline.versions_normalized_sha256,'Unexpected version chooser change');
 for(const [p,h]of Object.entries(baseline.sha256))if(!['index.html','assets/exam-practice.js'].includes(p))assert.equal(sha(readFileSync(new URL('../'+p,import.meta.url))),h,'Protected application changed '+p);
 assert.equal(changes.reviewed_questions,reviewed.length);
 for(const change of changes.changes){

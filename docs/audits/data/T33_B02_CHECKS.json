@@ -167,5 +167,11 @@
     "edited": 2,
     "key_errors": 0
   },
-  "source_pdfs": "six checksum/page-count matches; see T33_SOURCE_AVAILABILITY.json"
+  "source_pdfs": "six checksum/page-count matches; see T33_SOURCE_AVAILABILITY.json",
+  "first_ci": {
+    "id": 41316716409,
+    "verify": "SUCCESS",
+    "core": "FAIL_RELEASE_METADATA_MISMATCH",
+    "resolution": "Root cause: versions/index.html still displayed6.2.0 while working_version6.2.1. Chooser and current_release metadata aligned; assertion retained; rerun pending."
+  }
 }

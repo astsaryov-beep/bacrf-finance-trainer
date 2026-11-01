@@ -45,5 +45,6 @@
     }
   },
   "index_normalized_sha256": "cbeb8660cbb41cfff6c9e54a0ea14f57cad1c7cac79aee878d4f7977733fe333",
-  "normalization_policy": "Only displayed/meta/cache release versions and the version query on exam-practice.js may change. Whole remaining index, including open UI, scoring and all rubrics, must match the baseline byte-for-byte."
+  "normalization_policy": "Only displayed/meta/cache release versions and the version query on exam-practice.js may change. Whole remaining index, including open UI, scoring and all rubrics, must match the baseline byte-for-byte.",
+  "versions_normalized_sha256": "fbce195c0d365813093c20e93eefde823ea3d8dbe43498c55ee9f589c74138b3"
 }

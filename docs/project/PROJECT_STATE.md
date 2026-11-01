@@ -18,7 +18,7 @@
   "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41295555468",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-11-01",
-  "current_release": "6.2.0",
+  "current_release": "6.2.1",
   "release_channel": "stable",
   "last_recheck": {
     "date": "2026-11-01",
@@ -59,7 +59,8 @@
     "report": "docs/audits/T33_MC_BANK_REVIEW.md",
     "release_status": "PENDING",
     "edited_mc": 2,
-    "keep_mc": 46
+    "keep_mc": 46,
+    "first_ci": "41316716409: versions/index.html still displayed6.2.0; aligned chooser and current_release metadata; rerun required"
   }
 }
 ```
