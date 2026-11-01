@@ -1,7 +1,7 @@
 {
   "task": "T-33",
   "status": "IN_PROGRESS",
-  "reviewed_questions": 204,
+  "reviewed_questions": 227,
   "changes": [
     {
       "question_id": "MC-S2-09-1-1",
@@ -2343,6 +2343,6 @@
     }
   ],
   "key_errors_found": 0,
-  "note": "204 source-reviewed MC; all current correct sets/cardinalities preserved. Typography is recorded separately from subject changes; no categorical key error found. P1 acceptance pending.",
+  "note": "227 source-reviewed MC; all current correct sets/cardinalities preserved. Typography is recorded separately from subject changes; no categorical key error found. P1 acceptance pending.",
   "conditional_scope_clarifications": 3
 }
