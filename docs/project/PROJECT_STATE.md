@@ -5,12 +5,12 @@
 {
   "schema_version": 1,
   "repository": "astsaryov-beep/bacrf-finance-trainer",
-  "working_version": "6.2.3",
+  "working_version": "6.2.4",
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "READY",
-  "active_task": null,
+  "phase": "IN_PROGRESS",
+  "active_task": "T-35",
   "next_task": "T-35",
   "last_verified_checkpoint": "CP-20261102-181",
   "last_verified_commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
@@ -18,7 +18,7 @@
   "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41351733541",
   "last_verified_status": "VERIFIED",
   "state_updated_on": "2026-11-02",
-  "current_release": "6.2.3",
+  "current_release": "6.2.4",
   "release_channel": "stable",
   "last_recheck": {
     "date": "2026-11-02",
@@ -51,10 +51,14 @@
     "runtime_changed": false
   },
   "current_work": {
-    "task": "T-34",
-    "status": "COMPLETED_WITH_OPEN_FINDINGS",
-    "application_changed": false,
-    "report": "docs/audits/FULL_REVIEW_20261102.md"
+    "task": "T-35",
+    "status": "IN_PROGRESS",
+    "scope": [
+      "F03",
+      "F04"
+    ],
+    "F01": "OPEN_OUTSIDE_SELECTED_CHANGE",
+    "report": "docs/audits/T35_PRESENTATION_FIX.md"
   },
   "next_task_policy": "AUDIT_COMPLETE_REMEDIATION_PLANNED_T06_STILL_REQUIRES_SEPARATE_COMMAND"
 }

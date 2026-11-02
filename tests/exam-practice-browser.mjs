@@ -7,7 +7,12 @@ const browser=await chromium.launch({executablePath:process.env.CHROME_BIN||'/us
 const page=await browser.newPage({viewport:{width:1366,height:768}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
 try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded'});
+ assert.match(await page.locator('#content').innerText(),/Экзаменационный блок курса/);
+ assert.match(await page.locator('.course-practice-scope-note').innerText(),/227 заданий/);
+ assert.equal(await page.evaluate(()=>ExamAlignment.questions.every(q=>q.topic===QuestionLabels.topics[q.id])),true);
+ const labelsState=await page.evaluate(()=>({ids:ExamAlignment.questions.map(q=>q.id),revisions:ExamAlignment.questions.map(q=>q.reviewRevision)}));
  await page.evaluate(()=>{goStudyLesson('S2-04',1);getStudyBlock().complete=true;getStudyBlock().answers.PO01={text:'Прежний ответ',checked:true,score:1};studyNav.phase='theory';render();});
+ assert.match(await page.locator('.course-practice-scope-note').innerText(),/227 заданий/);
  const id='MC-S2-04-1-2',card=page.locator(`[data-mc-question="${id}"]`);await card.locator('summary').click();assert.equal(await card.locator('.feedback').count(),0);
  const correct=await page.evaluate(id=>BANK_MAP.get(id).correct,id);await card.locator(`[data-mc-option][value="${correct[0]}"]`).check();await card.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,id),0,'a partial set must fail strict multiple choice');assert.equal(await card.locator('.feedback li').count(),5);
  await card.locator('[data-mc-retry]').click();for(const i of correct)await card.locator(`[data-mc-option][value="${i}"]`).check();await card.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,id),1);assert.equal(await page.evaluate(()=>getStudyBlock().answers.PO01.text),'Прежний ответ');assert.equal(await page.evaluate(()=>getStudyBlock().complete),true,'supplement does not reset old completion');
@@ -87,5 +92,6 @@ try{
   assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,changedId),1,'fresh response must survive reload');
  }
  assert.deepEqual(errors,[]);
+ assert.deepEqual(await page.evaluate(()=>({ids:ExamAlignment.questions.map(q=>q.id),revisions:ExamAlignment.questions.map(q=>q.reviewRevision)})),labelsState,'Presentation leaves IDs and revisions unchanged');
  console.log('PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 all42 revisions in both supplemental/native course surfaces:history/recheck/new answer/reload.');
 }catch(e){await page.screenshot({path:resolve(root,'test-artifacts','exam-multi-failure.png')}).catch(()=>{});throw e}finally{await browser.close()}

@@ -38,6 +38,8 @@ jobs:
         run: node tests/exam-profile-check.mjs
       - name: Verify curated admission, atomic targets and expanded mock diversity
         run: node tests/exam-admission-check.mjs
+      - name: Verify exercise titles and course progress scope
+        run: node tests/question-labels-check.mjs
       - name: Verify published release checker
         run: node tests/published-release-check.mjs --self-test
       - name: Verify deployed public files and actual cache URLs

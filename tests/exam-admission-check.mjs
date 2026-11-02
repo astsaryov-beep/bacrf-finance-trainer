@@ -1,6 +1,6 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {createHash}from'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'),json=p=>JSON.parse(read(p)),ctx={};
-for(const n of ['question-review','exam-practice','exam-alignment','exam-admission','exam-profile'])vm.runInNewContext(read('assets/'+n+'.js'),ctx);
+for(const n of ['question-review','exam-practice','exam-alignment','question-labels','exam-admission','exam-profile'])vm.runInNewContext(read('assets/'+n+'.js'),ctx);
 const h=read('index.html'),literal=n=>JSON.parse(h.match(new RegExp('const '+n+'\\s*=\\s*([\\s\\S]*?);\\n'))[1]);
 const raw=[...literal('BANK'),...literal('STUDY_EXTRAS').filter(q=>ctx.ExamPractice.openQuestionIds.includes(q.id)),...ctx.ExamPractice.questions,...ctx.ExamAlignment.questions];
 const stable=v=>v===null||typeof v!=='object'?JSON.stringify(v):Array.isArray(v)?'['+v.map(stable).join(',')+']':'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+stable(v[k])).join(',')+'}';
@@ -13,7 +13,7 @@ for(let i=0;i<pool.length;i++){
  const q=pool[i],old=before[i];assert.equal(raw[i].id,q.id);const stripped={...q};if(!old.reviewRevision)delete stripped.reviewRevision;
  assert.equal(stable(stripped),stable(old),'adapter changes only the missing revision '+q.id);
  if(a.entries[q.id]){
-  const evidence=report.records.find(r=>r.id===q.id);assert.ok(evidence);assert.equal(sha(stable(old)),evidence.runtime_before_sha256,q.id);
+  const evidence=report.records.find(r=>r.id===q.id);assert.ok(evidence);const historicalPresentation=ctx.QuestionLabels.originals[q.id];assert.equal(sha(stable(historicalPresentation?{...old,...historicalPresentation}:old)),evidence.runtime_before_sha256,q.id);
   assert.ok(a.entries[q.id].goals.length);assert.equal(new Set(a.entries[q.id].goals).size,a.entries[q.id].goals.length);assert.ok(q.reviewRevision);
   assert.ok(!q.numeric&&['open','multi'].includes(q.type));assert.equal(evidence.requires_calculation,false);
   if(q.type==='open'){assert.ok(q.rubric.length>=2);assert.deepEqual(clone(q.rubric),clone(old.rubric));}
