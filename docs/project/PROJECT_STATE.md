@@ -9,26 +9,27 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-33",
-  "next_task": "T-33",
-  "last_verified_checkpoint": "CP-20261101-176",
-  "last_verified_commit": "417ea43253ebc943478815536d5f5b36abba0d47",
-  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41345388651",
-  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346048937",
+  "phase": "READY",
+  "active_task": null,
+  "next_task": "T-06",
+  "last_verified_checkpoint": "CP-20261102-181",
+  "last_verified_commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+  "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41351733406",
+  "last_verified_deployment_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41351733541",
   "last_verified_status": "VERIFIED",
-  "state_updated_on": "2026-11-01",
+  "state_updated_on": "2026-11-02",
   "current_release": "6.2.3",
   "release_channel": "stable",
   "last_recheck": {
-    "date": "2026-11-01",
-    "commit": "417ea43253ebc943478815536d5f5b36abba0d47",
-    "local_programs": 31,
+    "date": "2026-11-02",
+    "commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+    "local_programs": 33,
+    "ci_node_programs": 33,
     "browser_programs": 13,
-    "live_public_files_match": 19,
-    "actual_cache_urls_match": 6,
-    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41346049416",
-    "proof": "docs/audits/data/RELEASE_6_2_2_PROOF.json"
+    "live_public_files_match": 20,
+    "actual_cache_urls_match": 7,
+    "main_ci": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41351733406",
+    "proof": "docs/audits/data/RELEASE_6_2_3_PROOF.json"
   },
   "last_audit": {
     "checkpoint": "CP-20261101-157",
@@ -51,11 +52,11 @@
   },
   "current_work": {
     "task": "T-33",
-    "status": "IN_PROGRESS",
+    "status": "VERIFIED",
     "reviewed_mc": 249,
     "reviewed_statements": 1245,
     "pending_mc": 0,
-    "P2": "FINAL_CODE_CI_AND_PUBLISHED_BYTES_GATE_PENDING",
+    "P2": "VERIFIED_6_2_3",
     "application_changed": true,
     "report": "docs/audits/T33_MC_BANK_REVIEW.md",
     "release_status": "6.2.2_VERIFIED",
@@ -80,34 +81,23 @@
     "admitted_mc": 143,
     "admitted_open": 84,
     "admitted_total": 227,
-    "execution_environment": "UNAVAILABLE_AFTER_CP179_REMOTE_API_WITH_LEASE"
-  }
+    "execution_environment": "RESTORED_AND_RECHECKED_20261102"
+  },
+  "next_task_policy": "ONLY_ON_SEPARATE_USER_COMMAND_NO_AUTONOMOUS_START"
 }
 ```
 <!-- STATE_JSON_END -->
 
-**Среда исполнения недоступна; новые тесты и выпуск заблокированы.** [Восстановление CP169](CHAT_HANDOFF.md).
+**Опубликована и проверена 6.2.3. T-33 завершена; P1 и P2 приняты с раскрытыми ограничениями.**
 
-**Опубликована и проверена6.2.2. P1принят, T-33продолжается этапомP2.**
+Опубликованный код: `d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5` (PR98). Последний PR CI41351059194, main CI41351733406 и Pages41351733541 — SUCCESS. После восстановления среды 02.11.2026 повторно прошли все 33 локальные программы. В PR и main прошли 13 браузерных программ; совпали 20 файлов сайта и семь фактических URL ресурсов.
 
-Проверены249MC/1245утверждений:207KEEP,42правки(34типографика,5дистракторов/кейсов,3условия). Категорических ошибок ключа не найдено, наборы верных сохранены. Перекос количества ответов раскрыт в отчёте.
+P1: проверены 249 MC / 1245 утверждений; сохранены 207 карточек, изменены 42 (34 исправления типографики, пять улучшений дистракторов/кейсов и три уточнения условий). Категорических ошибок ключей не найдено; наборы верных вариантов сохранены.
 
-PR96 и31локальная/13браузерныхпрограммPASS;mainCIиPagesSUCCESS;совпали19файловсайтаишестьфактическихURLресурсов. [Доказательства](../audits/data/RELEASE_6_2_2_PROOF.json).
+P2: пул расширен с 92 до 227 существующих заданий (143 MC и 84 open). Все ID использованы на 1000 seed; среднее пересечение двух билетов снизилось с 30,2696 до 16,2431/50. Прежние квоты сохранены. По описанной карте атомарных целей и направленных подсказок коллизий в новых билетах нет. Механизм/UI/рубрики/баллы open, исходные 275/19, 96 блоков, 135 формул, frozen5.0.8 и история защищены.
 
-P2:инвентаризациякандидатовизсуществующегобанка,допусксовместимыхMC/open,атомарныецели/отсутствиеподсказок,≥1000seedипересечения. Расширениеещёне реализовано. Алгоритм/UI/рубрики/баллыopen,275/19,96блоков,135формул,frozen и история сохраняются. T-32непереоткрывается,T-06внеобъёма.
+Ограничения: EX17-31 повторяется из-за единственного кандидата в своей квоте; 80,4% выбранных MC имеют три верных варианта. Нет официальных ключей или эмпирической калибровки; 32 исходные условные/неоднозначные трактовки сохранены. Всегда новые билеты не обещаются.
 
-CP177: P2 baseline1000seed сохранён до изменений, фактически43MC+49open; среднее пересечение30,2696/50. Приложение не менялось.
+Обязательных незавершённых действий T-33 нет. T-06 — только по отдельной команде; значение next_task не разрешает автоматический запуск. T-32 не переоткрывается. Интервальные повторы и исследование на студентах вне объёма.
 
-CP178: ветка work/t33-p2-exam-pool, 6.2.3 пока не опубликована. Допуск227 (143MC/84open),1000seed,все227использованы,среднее пересечение16,2065/50. Полнаярегрессия/браузер/CI/PagesPENDING.
-
-CP178: полный локальный набор32/32PASS;первичные7FAILфикстурисправленыбезослабленияassert. [ИтогP2](../audits/T33_EXAM_POOL_EXPANSION.md). Браузер/CI/релизPENDING.
-
-## CP-20261101-179 ·T-33/P2 ·финальнаяредакторскаякарта IN_PROGRESS
-
-Уточненыатомарныероли/подцели,безизмененийбанкаилиоценивания. Финальнаягенерация1000seed:227использованныхID,среднеепересечение16,2431/50вместо30,2696;100→186описанныхатомов,0коллизий/подсказокпоэтойкарте. Сохранённыйбилет6.2.2сохраняет50/50,0staleиответы/порядки/уверенность;границыuint32PASS.32полныхлокальныхPASSнаCP178,затронутыепроверкиповтореныпослеуточнения;новыйполныйPRCIобязателен.6.2.3релизPENDING.
-
-## CP-20261101-180 ·T-33/P2 ·проверка публикации вCI ·IN_PROGRESS
-
-Рабочая среда отключилась после сохранения CP179 в GitHub; незакоммиченных правок нет. Последний синхронизированный локальный коммит7b401af соответствует дереву remote b8ef2c70cefd37a90c533febc5c3311d63f7510a. Дальнейшие изменения сделаны точечно через API в той же ветке с lease, без записи вmain. Банк/приложение/генератор/целиCP179 не меняются.
-
-Добавлена постоянная проверка публикации: self-test проверяет выделение локальных/версионных URL и отклонение несовпадающих байтов; при pushmain сверяются все фактические публичные файлы и URL?v=6.2.3 с исходниками текущегоSHA, учитывается задержкаPages до4минут. JSON-доказательство сохраняется в артефакт и журнал. Новая программа локально не запускалась из-за отсутствия среды: её self-test и полный существующий набор должны пройти вPR, онлайн-сверка — отдельно послеmerge. Предыдущие verify/core/courseCI41350374132SUCCESS,routeещёвыполнялся. 6.2.3 всё ещёPENDING.
+[Итог P2](../audits/T33_EXAM_POOL_EXPANSION.md) · [Доказательства](../audits/data/RELEASE_6_2_3_PROOF.json) · [Контекст CP181](CHAT_HANDOFF.md) · [История этапов](CHECKPOINTS.md).
