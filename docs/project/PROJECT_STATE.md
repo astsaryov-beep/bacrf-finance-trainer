@@ -9,9 +9,9 @@
   "stable_version": "5.0.8",
   "stable_path": "v5.0.8/index.html",
   "stable_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
-  "phase": "IN_PROGRESS",
-  "active_task": "T-34",
-  "next_task": "T-34",
+  "phase": "READY",
+  "active_task": null,
+  "next_task": "T-35",
   "last_verified_checkpoint": "CP-20261102-181",
   "last_verified_commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
   "last_verified_ci_run": "https://github.com/astsaryov-beep/bacrf-finance-trainer/actions/runs/41351733406",
@@ -32,36 +32,36 @@
     "proof": "docs/audits/data/RELEASE_6_2_3_PROOF.json"
   },
   "last_audit": {
-    "checkpoint": "CP-20261101-157",
-    "date": "2026-11-01",
-    "commit": "bd5a442f301559260162e963dfa43e875969d721",
-    "status": "FINDINGS_ADDRESSED_WITH_DISCLOSED_LIMITS",
+    "checkpoint": "CP-20261102-183",
+    "date": "2026-11-02",
+    "commit": "f74f1e3c3cac67347252fe03506ef512f4455992",
+    "status": "COMPLETED_WITH_OPEN_FINDINGS",
     "findings": [
-      "A01",
-      "A02",
-      "A03",
-      "A04",
-      "A05",
-      "A06",
-      "A07"
+      "F01",
+      "F02",
+      "F03",
+      "F04"
     ],
-    "report": "docs/audits/INDEPENDENT_REQUIREMENTS_AUDIT_20261101.md",
-    "runtime_changed": false,
-    "resolution": "docs/audits/T32_LEARNING_QUALITY_20261101.md",
-    "resolved_in": "6.2.0"
+    "open": [
+      "F01",
+      "F03",
+      "F04"
+    ],
+    "report": "docs/audits/FULL_REVIEW_20261102.md",
+    "runtime_changed": false
   },
   "current_work": {
     "task": "T-34",
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED_WITH_OPEN_FINDINGS",
     "application_changed": false,
     "report": "docs/audits/FULL_REVIEW_20261102.md"
   },
-  "next_task_policy": "ONLY_ON_SEPARATE_USER_COMMAND_NO_AUTONOMOUS_START"
+  "next_task_policy": "AUDIT_COMPLETE_REMEDIATION_PLANNED_T06_STILL_REQUIRES_SEPARATE_COMMAND"
 }
 ```
 <!-- STATE_JSON_END -->
 
-**Опубликована и проверена 6.2.3. T-33 завершена; P1 и P2 приняты с раскрытыми ограничениями.**
+**6.2.3 технически проверена. Новый аудит T-34 выявил открытые F01/F03/F04; полное соответствие ТЗ без оговорок не подтверждается.**
 
 Опубликованный код: `d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5` (PR98). Последний PR CI41351059194, main CI41351733406 и Pages41351733541 — SUCCESS. После восстановления среды 02.11.2026 повторно прошли все 33 локальные программы. В PR и main прошли 13 браузерных программ; совпали 20 файлов сайта и семь фактических URL ресурсов.
 
@@ -71,6 +71,6 @@ P2: пул расширен с 92 до 227 существующих задани
 
 Ограничения: EX17-31 повторяется из-за единственного кандидата в своей квоте; 80,4% выбранных MC имеют три верных варианта. Нет официальных ключей или эмпирической калибровки; 32 исходные условные/неоднозначные трактовки сохранены. Всегда новые билеты не обещаются.
 
-Обязательных незавершённых действий T-33 нет. T-06 — только по отдельной команде; значение next_task не разрешает автоматический запуск. T-32 не переоткрывается. Интервальные повторы и исследование на студентах вне объёма.
+Вывод CP181 об отсутствии обязательных остатков уточнён новым аудитом: остаются F01/F03/F04, план T-35. T-06 — только по отдельной команде; значение next_task не разрешает автоматический запуск. T-32 не переоткрывается. Интервальные повторы и исследование на студентах вне объёма.
 
 [Итог P2](../audits/T33_EXAM_POOL_EXPANSION.md) · [Доказательства](../audits/data/RELEASE_6_2_3_PROOF.json) · [Контекст CP181](CHAT_HANDOFF.md) · [История этапов](CHECKPOINTS.md).

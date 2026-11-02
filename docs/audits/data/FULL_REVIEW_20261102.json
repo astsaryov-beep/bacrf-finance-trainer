@@ -715,8 +715,128 @@
     ]
   },
   "task": "T-34",
-  "status": "AUDIT_WITH_FINDINGS_BROWSER_PENDING",
+  "status": "COMPLETED_WITH_OPEN_FINDINGS",
   "application_commit": "f74f1e3c3cac67347252fe03506ef512f4455992",
-  "browser": "PENDING_FRESH_RUN",
-  "new_independent_review_of_all_557_pages": false
+  "browser": {
+    "status": "PASS_13",
+    "run": 41421062079,
+    "head": "e83bd2fda8b83db4ce53216beaedaeab7fe30550",
+    "evidence": [
+      {
+        "job": "browser (core)",
+        "id": 125196785215,
+        "pass": [
+          "2026-11-02T09:30:32.1589519Z PASS aligned learning:mobile draft/MC/confidence detours,reload/keyboard return,partial self-assessment,4-correct grading,retry history,skip does not certify,old progress,real export/import,targeted skills and independent strict mock",
+          "2026-11-02T09:30:45.8684994Z PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px",
+          "2026-11-02T09:31:03.1185926Z PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors",
+          "2026-11-02T09:31:06.7036182Z PASS navigation: draft/choice skip+return+reload, ungraded open navigation, last skip overview, scroll, completed theory retention, real50 exam/no keys,320px",
+          "2026-11-02T09:31:34.5195293Z PASS browser: 17 comparative sections and mobile 320px; desktop sidebar {\"client\":371,\"scroll\":3318,\"height\":370.765625,\"overflow\":\"auto\"}, 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.",
+          "2026-11-02T09:32:49.7533177Z PASS learning browser: 96 canonical mechanisms/examples/digests and disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.",
+          "2026-11-02T09:32:59.5806460Z PASS teacher browser: balance and extra checks, new metric formula drills, corrected Q13 solutions, course/session rubric migration and actual export/import retain history.",
+          "2026-11-02T09:33:02.2393044Z PASS M03 browser: six lesson formula displays, effective Q07 prep, fresh recheck and actual export/import preserving both histories, mobile width.",
+          "2026-11-02T09:33:09.6893481Z PASS M04 browser: six complete teaching blocks, closed checks/formulas, preserved futures basics/exam notes/Q09-Q10 solutions and 320px width."
+        ]
+      },
+      {
+        "job": "browser (route)",
+        "id": 125196785256,
+        "pass": [
+          "2026-11-02T09:34:03.0614180Z PASS fresh native route:96 completed blocks/309 primary/204 additionalMC/95 aligned checks,7 reload-resumes,actual export/import of608 course answers,then25open+25multi exam and reload. This is mechanical fixture coverage, not editorial novice acceptance.",
+          "2026-11-02T09:36:47.7679413Z PASS supplemental UI:96 traps/70 independent prompts/34 comparisons/15 diagrams/10 changed models; historical import/recheck, reload, real export/import and320px. Fixture coverage, not student performance."
+        ]
+      },
+      {
+        "job": "browser (course)",
+        "id": 125196785303,
+        "pass": [
+          "2026-11-02T09:34:55.0656309Z PASS M01–M16 browser:96 complete blocks,204 multi checks,12 option profiles,62 course and60 valid main-bank session histories retained through actual export/import, desktop and320px.",
+          "2026-11-02T09:36:07.5547914Z PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 all42 revisions in both supplemental/native course surfaces:history/recheck/new answer/reload."
+        ]
+      }
+    ],
+    "scope": "Fresh full run; application and browser test files unchanged from audited main. Temporary workflow trigger is restored in final docs revision."
+  },
+  "new_independent_review_of_all_557_pages": false,
+  "manual_live": {
+    "status": "COMPLETED",
+    "version": "6.2.3",
+    "choice_skip_flag_reload": "PRESERVED",
+    "open_draft_reload": "PRESERVED",
+    "overview_exam_progress_denominator": 92,
+    "pool_size": 227,
+    "wrong_topic": {
+      "id": "RECON-31",
+      "shown": "Золотой своп: две даты и две задачи ликвидности",
+      "actual_subject": "Валютный форвард RUB/CNY"
+    },
+    "console_note": "Only chrome-extension metadata errors observed in captured sample; not attributed to application."
+  },
+  "wrong_topics": [
+    {
+      "id": "RECON-05",
+      "topic": "Четыре права потребителя",
+      "question": "Воспроизведите три причины создания мегарегулятора из учебной схемы. Почему перечисленные преимущества не следует понимать как автоматический гарантированный результат?"
+    },
+    {
+      "id": "RECON-06",
+      "topic": "Четыре права потребителя",
+      "question": "Финансовая группа оказывает банковские, страховые и инвестиционные услуги. Какие недостатки функционально разделённого надзора могут проявиться и чем помогает интегрированный подход? Приведите пример границы компетенций."
+    },
+    {
+      "id": "RECON-11",
+      "topic": "Независимая гарантия: роли и два правовых режима",
+      "question": "Чем кредитный договор отличается от договора займа по кругу предоставляющих лиц и предмету? Почему нельзя считать любой заём бесплатным и любой договор с названием «кредит» банковской лицензированной операцией?"
+    },
+    {
+      "id": "RECON-13",
+      "topic": "Независимая гарантия: роли и два правовых режима",
+      "question": "Покупатель и продавец используют документарный аккредитив. Объясните роли плательщика, банка-эмитента, исполняющего банка и получателя, общий ход документов/платежа, различия покрытия и отзывности. Гарантирует ли проверка документов фактическое качество товара?"
+    },
+    {
+      "id": "RECON-13-MC",
+      "topic": "Независимая гарантия: роли и два правовых режима",
+      "question": "Стороны открыли аккредитив, в тексте ничего не сказано об отзывности. Выберите верные выводы по общему ГК РФ."
+    },
+    {
+      "id": "EX17-29",
+      "topic": "Золотой своп: две даты и две задачи ликвидности",
+      "question": "Компания с плавающим процентным долгом платит фиксированную ставку по IRS и получает плавающую. Как называется её роль и от какого изменения расходов защищает согласованный по параметрам пакет? Назовите условия согласования."
+    },
+    {
+      "id": "RECON-31",
+      "topic": "Золотой своп: две даты и две задачи ликвидности",
+      "question": "Котировка S дана в рублях за юань. В простой модели двух процентных ставок на один срок T восстановите формулу валютного форварда F, назовите роли рублёвой/юаневой ставок и условия согласования. Что изменит обратная котировка?"
+    },
+    {
+      "id": "RECON-18",
+      "topic": "Привилегированные акции: выплата, голос и конвертация",
+      "question": "В учебном кейсе Minetoken выплата привязана к стоимости акций и дивидендам компании, а условия дают денежное требование. Становится ли держатель акционером, получает ли голос и кто обязан исполнять его требование? Что нужно проверить в документах?"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "priority": "high",
+      "status": "OPEN",
+      "issue": "Mandatory arithmetic inside exam open prompts/rubrics despite false flags"
+    },
+    {
+      "id": "F02",
+      "priority": "low",
+      "status": "RESOLVED_DOCUMENTATION",
+      "issue": "Stale P1 fields in current_work"
+    },
+    {
+      "id": "F03",
+      "priority": "medium",
+      "status": "OPEN",
+      "issue": "Unexplained distinction between overview denominator92 and exam pool227"
+    },
+    {
+      "id": "F04",
+      "priority": "medium",
+      "status": "OPEN",
+      "issue": "At least eight native topics inherited from unrelated block titles"
+    }
+  ]
 }
