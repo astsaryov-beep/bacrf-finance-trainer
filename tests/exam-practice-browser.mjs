@@ -8,11 +8,13 @@ const page=await browser.newPage({viewport:{width:1366,height:768}}),errors=[];p
 try{
  await page.goto('file://'+resolve(root,'index.html'),{waitUntil:'domcontentloaded'});
  assert.match(await page.locator('#content').innerText(),/Экзаменационный блок курса/);
- assert.match(await page.locator('.course-practice-scope-note').innerText(),/227 заданий/);
+ assert.match(await page.locator('#content .course-practice-scope-note').innerText(),/227 заданий/);
  assert.equal(await page.evaluate(()=>ExamAlignment.questions.every(q=>q.topic===QuestionLabels.topics[q.id])),true);
  const labelsState=await page.evaluate(()=>({ids:ExamAlignment.questions.map(q=>q.id),revisions:ExamAlignment.questions.map(q=>q.reviewRevision)}));
  await page.evaluate(()=>{goStudyLesson('S2-04',1);getStudyBlock().complete=true;getStudyBlock().answers.PO01={text:'Прежний ответ',checked:true,score:1};studyNav.phase='theory';render();});
- assert.match(await page.locator('.course-practice-scope-note').innerText(),/227 заданий/);
+ await page.locator('.study-head-about > summary').click();
+ assert.match(await page.locator('.study-head-about .course-practice-scope-note').innerText(),/227 заданий/);
+ await page.locator('.study-head-about > summary').click();
  const id='MC-S2-04-1-2',card=page.locator(`[data-mc-question="${id}"]`);await card.locator('summary').click();assert.equal(await card.locator('.feedback').count(),0);
  const correct=await page.evaluate(id=>BANK_MAP.get(id).correct,id);await card.locator(`[data-mc-option][value="${correct[0]}"]`).check();await card.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,id),0,'a partial set must fail strict multiple choice');assert.equal(await card.locator('.feedback li').count(),5);
  await card.locator('[data-mc-retry]').click();for(const i of correct)await card.locator(`[data-mc-option][value="${i}"]`).check();await card.locator('[data-mc-check]').click();assert.equal(await page.evaluate(id=>getStudyAnswer(id).score,id),1);assert.equal(await page.evaluate(()=>getStudyBlock().answers.PO01.text),'Прежний ответ');assert.equal(await page.evaluate(()=>getStudyBlock().complete),true,'supplement does not reset old completion');

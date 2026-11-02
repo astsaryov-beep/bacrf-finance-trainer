@@ -2,7 +2,7 @@
   "task": "T-35",
   "scope": "F03/F04 only",
   "reviewed": 95,
-  "changed": 41,
+  "changed": 47,
   "records": [
     {
       "id": "EX17-03",
@@ -13,14 +13,14 @@
     {
       "id": "EX17-19",
       "before": "λ и z в формуле параметрического VaR",
-      "after": "λ и z в формуле параметрического VaR",
-      "decision": "KEEP"
+      "after": "Параметрический VaR: обозначения и единицы",
+      "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "EX17-27",
       "before": "Отношение волатильностей в коэффициенте хеджа",
-      "after": "Отношение волатильностей в коэффициенте хеджа",
-      "decision": "KEEP"
+      "after": "Коэффициент хеджа: смысл параметров",
+      "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "RECON-01",
@@ -115,8 +115,8 @@
     {
       "id": "EX17-47",
       "before": "Независимая гарантия: роли и два правовых режима",
-      "after": "Независимая гарантия: роли и два правовых режима",
-      "decision": "KEEP"
+      "after": "Независимая гарантия: роли, документы и условия",
+      "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "RECON-28",
@@ -169,8 +169,8 @@
     {
       "id": "TRANSFER-GUARANTEE-01",
       "before": "Независимая гарантия: роли и два правовых режима",
-      "after": "Независимая гарантия: роли и два правовых режима",
-      "decision": "KEEP"
+      "after": "Независимая гарантия: роли и документы",
+      "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "EX17-01",
@@ -247,8 +247,8 @@
     {
       "id": "EX17-14",
       "before": "Синдикаты, субординация и ковенанты",
-      "after": "Синдикаты, субординация и ковенанты",
-      "decision": "KEEP"
+      "after": "Мезонинное финансирование: выплаты и риски",
+      "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "EX17-15",
@@ -319,7 +319,7 @@
     {
       "id": "EX17-29",
       "before": "Золотой своп: две даты и две задачи ликвидности",
-      "after": "Процентный своп: плательщик фиксированной ставки",
+      "after": "Процентный своп: роли и процентный риск",
       "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
@@ -331,13 +331,13 @@
     {
       "id": "EX17-33",
       "before": "Финансовые инструменты и институты",
-      "after": "Rho: ставка и стоимость Call/Put",
+      "after": "Опционы: чувствительность к процентной ставке",
       "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "EX17-34",
       "before": "Финансовые инструменты и институты",
-      "after": "Диверсификация, рыночный риск и бета",
+      "after": "Диверсификация: границы защиты от рыночного риска",
       "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
@@ -373,8 +373,8 @@
     {
       "id": "EX17-41",
       "before": "ОФЗ-ИН: что именно индексируется",
-      "after": "ОФЗ-ИН: что именно индексируется",
-      "decision": "KEEP"
+      "after": "ОФЗ: индексация выплат и риски",
+      "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
       "id": "EX17-42",
@@ -505,7 +505,7 @@
     {
       "id": "RECON-18",
       "before": "Привилегированные акции: выплата, голос и конвертация",
-      "after": "Денежный ЦФА и права акционера",
+      "after": "Инструмент, связанный с акциями: права владельца",
       "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
@@ -535,7 +535,7 @@
     {
       "id": "RECON-24",
       "before": "Финансовые инструменты и институты",
-      "after": "Распределительная пенсионная модель",
+      "after": "Пенсионная модель: источник текущих выплат",
       "decision": "CORRECT_OR_SPECIFY_TOPIC"
     },
     {
@@ -586,5 +586,6 @@
     "progress and assessment",
     "exam selection"
   ],
-  "F01": "OPEN_NOT_IN_THIS_CHANGE"
+  "F01": "OPEN_NOT_IN_THIS_CHANGE",
+  "title_policy": "Specific subject labels must not name a term the prompt asks the learner to recall. Pension model, option sensitivity and inflation-linked bond titles were neutralized."
 }
