@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "task": "T-33",
+  "version": "6.2.3",
+  "status": "VERIFIED",
+  "application_commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+  "pr": {
+    "number": 98,
+    "head": "f43adae928b9e44b3a12c735385ba07c742537c2",
+    "ci": 41351059194,
+    "status": "SUCCESS"
+  },
+  "main_ci": {
+    "run": 41351733406,
+    "status": "SUCCESS"
+  },
+  "pages": {
+    "run": 41351733541,
+    "status": "SUCCESS"
+  },
+  "ci_node_programs": [
+    "tests/project-state-check.mjs",
+    "tests/repository-layout-check.mjs",
+    "tests/exam-alignment-check.mjs",
+    "tests/mc-review-audit-check.mjs",
+    "tests/exam-profile-check.mjs",
+    "tests/exam-admission-check.mjs",
+    "tests/published-release-check.mjs",
+    "tests/learning-path-check.mjs",
+    "tests/question-theory-check.mjs",
+    "tests/release-check.mjs",
+    "tests/content-dedup-check.mjs",
+    "tests/methodical-review-check.mjs",
+    "tests/teacher-review-check.mjs",
+    "tests/quality-m02-check.mjs",
+    "tests/quality-m03-check.mjs",
+    "tests/quality-m04-check.mjs",
+    "tests/quality-m05-check.mjs",
+    "tests/quality-m06-check.mjs",
+    "tests/quality-m07-check.mjs",
+    "tests/quality-m08-check.mjs",
+    "tests/quality-m09-check.mjs",
+    "tests/quality-m10-check.mjs",
+    "tests/quality-m11-check.mjs",
+    "tests/quality-m12-check.mjs",
+    "tests/quality-m13-check.mjs",
+    "tests/quality-m14-check.mjs",
+    "tests/quality-m15-check.mjs",
+    "tests/quality-m16-check.mjs",
+    "tests/final-course-check.mjs",
+    "tests/exam-practice-check.mjs",
+    "tests/novice-supplements-check.mjs",
+    "tests/learning-review-check.mjs",
+    "tests/strategies-check.mjs"
+  ],
+  "browser_programs": 13,
+  "main_browser": [
+    {
+      "job": "browser (course)",
+      "id": 124983484785,
+      "pass": [
+        "2026-11-01T21:29:06.6984177Z PASS M01–M16 browser:96 complete blocks,204 multi checks,12 option profiles,62 course and60 valid main-bank session histories retained through actual export/import, desktop and320px.",
+        "2026-11-01T21:30:46.5306336Z PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 all42 revisions in both supplemental/native course surfaces:history/recheck/new answer/reload."
+      ]
+    },
+    {
+      "job": "browser (route)",
+      "id": 124983484816,
+      "pass": [
+        "2026-11-01T21:28:17.1111855Z PASS fresh native route:96 completed blocks/309 primary/204 additionalMC/95 aligned checks,7 reload-resumes,actual export/import of608 course answers,then25open+25multi exam and reload. This is mechanical fixture coverage, not editorial novice acceptance.",
+        "2026-11-01T21:31:00.2264033Z PASS supplemental UI:96 traps/70 independent prompts/34 comparisons/15 diagrams/10 changed models; historical import/recheck, reload, real export/import and320px. Fixture coverage, not student performance."
+      ]
+    },
+    {
+      "job": "browser (core)",
+      "id": 124983484933,
+      "pass": [
+        "2026-11-01T21:24:39.4612617Z PASS aligned learning:mobile draft/MC/confidence detours,reload/keyboard return,partial self-assessment,4-correct grading,retry history,skip does not certify,old progress,real export/import,targeted skills and independent strict mock",
+        "2026-11-01T21:24:52.8765971Z PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px",
+        "2026-11-01T21:25:10.8053339Z PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors",
+        "2026-11-01T21:25:14.1104740Z PASS navigation: draft/choice skip+return+reload, ungraded open navigation, last skip overview, scroll, completed theory retention, real50 exam/no keys,320px",
+        "2026-11-01T21:25:41.7107005Z PASS browser: 17 comparative sections and mobile 320px; desktop sidebar {\"client\":371,\"scroll\":3318,\"height\":370.765625,\"overflow\":\"auto\"}, 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.",
+        "2026-11-01T21:26:55.3048377Z PASS learning browser: 96 canonical mechanisms/examples/digests and disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.",
+        "2026-11-01T21:27:05.1723975Z PASS teacher browser: balance and extra checks, new metric formula drills, corrected Q13 solutions, course/session rubric migration and actual export/import retain history.",
+        "2026-11-01T21:27:07.8459641Z PASS M03 browser: six lesson formula displays, effective Q07 prep, fresh recheck and actual export/import preserving both histories, mobile width.",
+        "2026-11-01T21:27:15.3798107Z PASS M04 browser: six complete teaching blocks, closed checks/formulas, preserved futures basics/exam notes/Q09-Q10 solutions and 320px width."
+      ]
+    }
+  ],
+  "published_bytes": {
+    "status": "VERIFIED",
+    "commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+    "version": "6.2.3",
+    "checked_at": "2026-11-01T21:24:04.448Z",
+    "attempt": 5,
+    "public_files": 20,
+    "actual_cache_urls": 7,
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "index.html?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 5454621,
+        "git_blob_sha": "24a4533a57a0cceacbeb87e17a0a87e691947fd1",
+        "sha256": "782c53fc2d45b74d4193c24afd38d6df114d3e10bd1e50a1a0c769cbf55a8b18"
+      },
+      {
+        "path": "versions/index.html",
+        "url": "versions/index.html?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 3372,
+        "git_blob_sha": "837acc5f5bb55bfa07e1dff341dd19e883688409",
+        "sha256": "10108a4695ba11bf0410a4388d99f0eeea4697a6de8c71a48d31f4bc57c7c84a"
+      },
+      {
+        "path": "v5.0.8/index.html",
+        "url": "v5.0.8/index.html?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 2897908,
+        "git_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+        "sha256": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+      },
+      {
+        "path": "assets/course-sidebar.css",
+        "url": "assets/course-sidebar.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 3498,
+        "git_blob_sha": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+        "sha256": "261137ce1b5491dcc5b1b7bedfa1147a4062f916f848c30d28d1bb3d4ebcc0c8"
+      },
+      {
+        "path": "assets/strategies.css",
+        "url": "assets/strategies.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 6684,
+        "git_blob_sha": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+        "sha256": "66ab3d84a9170cba97c2a8795f53a4125c83e9020eaf92ae2c27cb3f983bdfe5"
+      },
+      {
+        "path": "assets/exam-feedback.css",
+        "url": "assets/exam-feedback.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 5679,
+        "git_blob_sha": "7dec3a63971fe914d88547664969cdb77495eea8",
+        "sha256": "456dde3789b5b2dd310a6152fd419c9eea2aa2009177087e0624548d6db7baa7"
+      },
+      {
+        "path": "assets/futures-short-guide.css",
+        "url": "assets/futures-short-guide.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 4201,
+        "git_blob_sha": "dcf745c2a43eec706222a86622a02bf75716cb07",
+        "sha256": "a39ddfdfd9e960f8e41f26f1d8fa452fc49cecf235fa4f08d3d9c4162f4e16f2"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      },
+      {
+        "path": "assets/theory-links.js",
+        "url": "assets/theory-links.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 18039,
+        "git_blob_sha": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+        "sha256": "90f5efc2e4d5a0880a90bb0d3e84ecbf85e42522e7e11996b39cb7cf04c583fb"
+      },
+      {
+        "path": "assets/question-theory-ui.js",
+        "url": "assets/question-theory-ui.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 7757,
+        "git_blob_sha": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+        "sha256": "77263f3dc5ec9aa19e79d87709829f82d94a273a4b132a855e7e584ff402c79b"
+      },
+      {
+        "path": "assets/exam-feedback.js",
+        "url": "assets/exam-feedback.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 23969,
+        "git_blob_sha": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+        "sha256": "20688690bd2f567da7064b9f1e10c82144b0d5c51c41873fbfb037e7fca581ef"
+      },
+      {
+        "path": "assets/futures-short-guide.js",
+        "url": "assets/futures-short-guide.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 9949,
+        "git_blob_sha": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+        "sha256": "89f99a7864c46b537c42e4835dcbdb52a871596aff1e192918c4ab94aaf77fae"
+      },
+      {
+        "path": "assets/strategies.js",
+        "url": "assets/strategies.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 34742,
+        "git_blob_sha": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+        "sha256": "ee102baf51eee0ea87d6a9b3fb3822c3459b697e300f1dc2e386706833691afb"
+      },
+      {
+        "path": "assets/option-profiles.js",
+        "url": "assets/option-profiles.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 11263,
+        "git_blob_sha": "cd2b04924ac937a59a443e12e9164591b5bb1566",
+        "sha256": "3a50deb91e09d24725bf808e0eb7f62608224505bafc3f8afb426be9e59f49e3"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      }
+    ]
+  },
+  "source_tree_crosscheck": {
+    "tree": "ac1039d5eebd7eb10d21c41eb4d0fd909a46d7e9",
+    "matching_checks": 27,
+    "status": "MATCH"
+  },
+  "generation": {
+    "report": "T33_P2_GENERATION.json",
+    "seeds": [
+      0,
+      999
+    ],
+    "pool_before": 92,
+    "pool_after": 227,
+    "multi": 143,
+    "open": 84,
+    "all_used": 227,
+    "pairs": 499500,
+    "mean_overlap_before": 30.269631631631633,
+    "mean_overlap_after": 16.243057057057058
+  },
+  "p1": {
+    "proof": "RELEASE_6_2_2_PROOF.json",
+    "reviewed_mc": 249,
+    "statements": 1245,
+    "kept": 207,
+    "edited": 42,
+    "typography_only": 34,
+    "substantive": 8,
+    "categorical_key_errors": 0,
+    "correct_sets_changed": 0
+  },
+  "preservation": {
+    "original_questions": 275,
+    "early_test_questions": 19,
+    "course_blocks": 96,
+    "formula_cards": 135,
+    "frozen_version": "5.0.8",
+    "frozen_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+    "summary_sha256": "6ad28f5c77a1b576bc7fb84d4d749b96bd1fa7f47ed41835f978bc573269aa09",
+    "open_assessment": "UNCHANGED"
+  },
+  "limitations": [
+    "EX17-31 repeats because its retained source/section quota has a single candidate.",
+    "80.4% of sampled MC have three correct choices; no artificial key balancing.",
+    "No official keys; 32 original conditional/ambiguous judgments preserved.",
+    "Editorial taxonomy and mechanical fixture coverage are not empirical difficulty calibration or student-performance validation.",
+    "T-06, spaced repetition redesign and student experiments remain outside scope."
+  ],
+  "accepted_on": "2026-11-02",
+  "checkpoint": "CP-20261102-181",
+  "local_programs": 33,
+  "local_recovery_checks": [
+    {
+      "program": "tests/project-state-check.mjs",
+      "args": [
+        "node",
+        "tests/project-state-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.17,
+      "output": "PASS recovery standard: canonical state, roadmap, decisions, checkpoints, frozen Git SHA 2b77ae8f74be, working version 6.2.3.\n"
+    },
+    {
+      "program": "tests/repository-layout-check.mjs",
+      "args": [
+        "node",
+        "tests/repository-layout-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.19,
+      "output": "PASS layout:3 public root files,local documentation links:196,runtime assets:17,historical evidence preserved\n"
+    },
+    {
+      "program": "tests/exam-alignment-check.mjs",
+      "args": [
+        "node",
+        "tests/exam-alignment-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.42,
+      "output": "PASS source alignment:95 linked exercises,50 adapted scan/35 reconstructions/10 transfer,5 plausible alternatives and independent money/quantile/hedge checks,30 prerequisite roots+5 additional parts/full+brief,no workflow labels in extensions,86 tracked requirements\nPASS list/funding package:explicit ordered levels/atomic rubrics,1-and4-correct actual grading,independent clipped-funding boundaries,existing derivation reused\nPASS compound package:independent PV/YTM counterexample,nonlinear Z-spread,dirty/collateral/index units,exact/missing/extra sets for every MC,multipart rubrics and public primary references\nPASS complete MC review:125 individually documented original statements/conditions,no official-key claim,25adapted five-option tasks,existing prerequisite reuse,independent payer flows/ratios/voting denominators,unique support anchors and REPO scope\nPASS final content package:50 adapted originals/33 reconstructed records with35 exercises/3 topic-only reuse;all86 dispositions and exact displayed prerequisites;independent parity/protection/covariance/DV01/FX boundaries\n"
+    },
+    {
+      "program": "tests/mc-review-audit-check.mjs",
+      "args": [
+        "node",
+        "tests/mc-review-audit-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.41,
+      "output": "PASS T33 audit evidence: 249/249 reviewed (1245/1245 statements); 0 explicitly pending; 42 revision-safe edits; open UI/scoring/rubrics unchanged.\n"
+    },
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "args": [
+        "node",
+        "tests/exam-profile-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 6.74,
+      "output": "PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification\n"
+    },
+    {
+      "program": "tests/exam-admission-check.mjs",
+      "args": [
+        "node",
+        "tests/exam-admission-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 6.84,
+      "output": "PASS T33 P2: {\"task\":\"T-33\",\"status\":\"GENERATION_PASS\",\"seed_range\":[0,999],\"admitted_total\":227,\"multi\":143,\"open\":84,\"actually_sampled\":227,\"min_added_per_ticket\":{\"multi\":11,\"open\":2},\"all_pair_overlap_before\":{\"pairs\":499500,\"min\":18,\"mean\":30.269631631631633,\"p50\":30,\"p95\":34,\"max\":42},\"all_pair_overlap_after\":{\"pairs\":499500,\"min\":3,\"mean\":16.243057057057058,\"p50\":16,\"p95\":22,\"max\":35},\"mean_overlap_by_format\":{\"multi\":6.6351371371371375,\"open\":9.60791991991992},\"atomic_goal_count\":{\"unique_pool_before\":100,\"unique_pool_after\":186,\"mean_per_ticket_before\":70.832,\"mean_per_ticket_after\":70.861},\"audited_goal_or_hint_collisions\":{\"tickets_before\":1000,\"mean_pairs_before\":8.601,\"max_pairs_before\":14,\"tickets_after\":0,\"pairs_after\":0},\"pool_cardinality\":{\"1\":1,\"2\":18,\"3\":111,\"4\":13},\"sampled_cardinality\":{\"1\":121,\"2\":3205,\"3\":20094,\"4\":1580},\"input_assets_sha256\":{\"assets/exam-profile.js\":\"5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49\",\"assets/exam-admission.js\":\"eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121\"}}\n"
+    },
+    {
+      "program": "tests/published-release-check.mjs",
+      "args": [
+        "node",
+        "tests/published-release-check.mjs",
+        "--self-test"
+      ],
+      "exit_code": 0,
+      "seconds": 0.06,
+      "output": "PASS published-release verifier: unique local files, actual version URLs, exact bytes, mismatch rejected\n"
+    },
+    {
+      "program": "tests/learning-path-check.mjs",
+      "args": [
+        "node",
+        "tests/learning-path-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.43,
+      "output": "PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice\n"
+    },
+    {
+      "program": "tests/question-theory-check.mjs",
+      "args": [
+        "node",
+        "tests/question-theory-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS theory links:all513 training/40 additional course IDs,553 explicit mappings,all audited supports,40 reviewed standalone mappings,valid targets/no heuristics,no active-exam hints,independent NIM reference\n"
+    },
+    {
+      "program": "tests/release-check.mjs",
+      "args": [
+        "node",
+        "tests/release-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.26,
+      "output": "PASS 6.2.3: 96 complete beginner-to-advanced lessons, 135 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 135 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.\n"
+    },
+    {
+      "program": "tests/content-dedup-check.mjs",
+      "args": [
+        "node",
+        "tests/content-dedup-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS content: 96 mapped roles, 33 edited blocks, consistent layers, preserved formulas/questions, spread example. Semantic judgment remains editorial.\n"
+    },
+    {
+      "program": "tests/methodical-review-check.mjs",
+      "args": [
+        "node",
+        "tests/methodical-review-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.17,
+      "output": "PASS methodical review: 96 explicit judgments and fingerprints; reviewed theory/digest layers; independent finance scenarios. Full source audit remains separate.\n"
+    },
+    {
+      "program": "tests/teacher-review-check.mjs",
+      "args": [
+        "node",
+        "tests/teacher-review-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.16,
+      "output": "PASS teacher review:20 source tasks/19 original IDs, preserved source conflict, aligned rubric semantics, reversible historical answers and two complete added metrics.\n"
+    },
+    {
+      "program": "tests/quality-m02-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m02-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS M02: source-gap teaching and effective rubrics, independent price/horizon/compounding/day-weight identities, retained old answers.\n"
+    },
+    {
+      "program": "tests/quality-m03-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m03-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS M03: independent duration/convexity/PV, basket/forward/spread, holding metrics and versions, Q07 answer/history preservation.\n"
+    },
+    {
+      "program": "tests/quality-m04-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m04-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS M04: money-risk matching, cash-flow ALM/convexity, margin path/tick/sign, OI/netting, basis/hedge sign, carry/time base and reverse legs.\n"
+    },
+    {
+      "program": "tests/quality-m05-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m05-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1,
+      "output": "PASS M05: reverse-carry cash availability, funding zero/cap/sign and no VM double count, FX hedges/units, minimum variance vs VaR, coverage, calendar compounding and rubric history.\n"
+    },
+    {
+      "program": "tests/quality-m06-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m06-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.19,
+      "output": "PASS M06/M04: CDS conservation, IRS signs, FX parity, four returns/two denominators, hedge units/variance/VaR, non-subadditive VaR counterexample,17 keys preserved, PO07 historical migration,31 reviewed placements and18 new conceptual MCs.\n"
+    },
+    {
+      "program": "tests/quality-m07-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m07-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M07:12 independent piecewise option profiles and tail boundaries, gold account conservation, funding/GO one-time inclusion, protection budget, Greek units,15 historical keys and PO08 migration,26+10 reviewed assignments.\n"
+    },
+    {
+      "program": "tests/quality-m08-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m08-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M08:28+13 prerequisites reviewed,24 factual/case multi,25 historical single indices and3 protected teacher keys,3 two-part rubric migrations retaining original results, no extra arithmetic scope.\n"
+    },
+    {
+      "program": "tests/quality-m09-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m09-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.17,
+      "output": "PASS M09:capital/cash conservation and recognised-net LCR,NSFR and factoring prerequisites,23+13 reviewed placements,18 conceptual MC,13 single/4multi original keys,6 open histories migrated without loss.\n"
+    },
+    {
+      "program": "tests/quality-m10-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m10-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.3,
+      "output": "PASS M10: ownership/cash ledgers, unequal weighted/year-end P/E, negative EV and dividend conservation, conditional dates,32+6 placements,16 conceptual MC,14 preserved single keys,EM02/Q14 protected,6 rubric histories.\n"
+    },
+    {
+      "program": "tests/quality-m11-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m11-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.34,
+      "output": "PASS M11: covariance-linear beta with residual risk, zero correlation/nonlinear dependence, TE versus gap, fee counted once, index weights/voting/free-float/convex prices,22+9 placements,16 MC,17 single keys,9 history migrations.\n"
+    },
+    {
+      "program": "tests/quality-m12-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m12-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.17,
+      "output": "PASS M12:independent finite dividend sums/date boundary/sensitivity,issue cash allocation,cap/free-float/divisor/dividend bases,12+7 prerequisites,14MC,9keys/8rubric histories,10 reviewed open supplements.\n"
+    },
+    {
+      "program": "tests/quality-m13-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m13-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.28,
+      "output": "PASS M13:independent covariance/GMV/short-weight/normalVaR/downside-vs-drawdown/alpha examples,12+11 placements,18MC,11keys/8rubric histories,6 reviewed open IDs,real451-question initialization.\n"
+    },
+    {
+      "program": "tests/quality-m14-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m14-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.19,
+      "output": "PASS M14:margin boundary/risk-parameter/cash balance,lease cashflows/time bases,DV01 size reversal,12new+9rechecked placements,14MC/6rubric histories,4marginMCexcluded,469unique effective IDs.\n"
+    },
+    {
+      "program": "tests/quality-m15-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m15-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.18,
+      "output": "PASS M15:franchise equality/caps,expected-vs-tariff and reserve cashflows,reinsurance layers,10roles,12placements,14MC/6specific rubric histories,489initialized unique IDs;no insurance calculation in exam.\n"
+    },
+    {
+      "program": "tests/quality-m16-check.mjs",
+      "args": [
+        "node",
+        "tests/quality-m16-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.24,
+      "output": "PASS M16:invoice/advance/fee conservation,financing time base,zero-return accumulation and discount denominators,6rubric histories,18MC,96blocks with factual+case MC and309supported placements,513unique initialized IDs,34reviewedopen;25/25 without calculations.\n"
+    },
+    {
+      "program": "tests/final-course-check.mjs",
+      "args": [
+        "node",
+        "tests/final-course-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.23,
+      "output": "PASS final acceptance:96module/D015 blocks,557read+visual source rows with evidence,309verified placements/204MC,all34eligible supplementalopens,513unique effectiveIDs,228multi,135formulas/663terms/183checks,no exact interblock long paragraphs or duplicate MC prompts;beta acceptance and T06 separated. Semantic/empirical limits remain explicit.\n"
+    },
+    {
+      "program": "tests/exam-practice-check.mjs",
+      "args": [
+        "node",
+        "tests/exam-practice-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.24,
+      "output": "PASS exam practice:204 reviewed new MCs/228 total +34 reviewed open supplements, exact25open+25multi/no calculation/no fallback, historical singles retained, explicit earlier-theory evidence for309/309 assignments and204 additions. No pending placements.\n"
+    },
+    {
+      "program": "tests/novice-supplements-check.mjs",
+      "args": [
+        "node",
+        "tests/novice-supplements-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.14,
+      "output": "PASS novice supplements:70 prompts/45 preserved keys,6 prerequisite moves,31 targeted revisions,7 trap histories/recheck/idempotence,all96 truth keys and10 executed models.\n"
+    },
+    {
+      "program": "tests/learning-review-check.mjs",
+      "args": [
+        "node",
+        "tests/learning-review-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.13,
+      "output": "PASS learning review: 96 unique conceptual checks; corrected IPO grading; raw snapshot retained; alternate selection, distinct evidence, stale key and history migration.\n"
+    },
+    {
+      "program": "tests/strategies-check.mjs",
+      "args": [
+        "node",
+        "tests/strategies-check.mjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.11,
+      "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
+    }
+  ],
+  "fresh_live_recheck": {
+    "status": "VERIFIED",
+    "commit": "d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+    "version": "6.2.3",
+    "checked_at": "2026-11-02T08:07:28.330Z",
+    "attempt": 1,
+    "public_files": 20,
+    "actual_cache_urls": 7,
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "index.html?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 5454621,
+        "git_blob_sha": "24a4533a57a0cceacbeb87e17a0a87e691947fd1",
+        "sha256": "782c53fc2d45b74d4193c24afd38d6df114d3e10bd1e50a1a0c769cbf55a8b18"
+      },
+      {
+        "path": "versions/index.html",
+        "url": "versions/index.html?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 3372,
+        "git_blob_sha": "837acc5f5bb55bfa07e1dff341dd19e883688409",
+        "sha256": "10108a4695ba11bf0410a4388d99f0eeea4697a6de8c71a48d31f4bc57c7c84a"
+      },
+      {
+        "path": "v5.0.8/index.html",
+        "url": "v5.0.8/index.html?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 2897908,
+        "git_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+        "sha256": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+      },
+      {
+        "path": "assets/course-sidebar.css",
+        "url": "assets/course-sidebar.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 3498,
+        "git_blob_sha": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+        "sha256": "261137ce1b5491dcc5b1b7bedfa1147a4062f916f848c30d28d1bb3d4ebcc0c8"
+      },
+      {
+        "path": "assets/strategies.css",
+        "url": "assets/strategies.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 6684,
+        "git_blob_sha": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+        "sha256": "66ab3d84a9170cba97c2a8795f53a4125c83e9020eaf92ae2c27cb3f983bdfe5"
+      },
+      {
+        "path": "assets/exam-feedback.css",
+        "url": "assets/exam-feedback.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 5679,
+        "git_blob_sha": "7dec3a63971fe914d88547664969cdb77495eea8",
+        "sha256": "456dde3789b5b2dd310a6152fd419c9eea2aa2009177087e0624548d6db7baa7"
+      },
+      {
+        "path": "assets/futures-short-guide.css",
+        "url": "assets/futures-short-guide.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 4201,
+        "git_blob_sha": "dcf745c2a43eec706222a86622a02bf75716cb07",
+        "sha256": "a39ddfdfd9e960f8e41f26f1d8fa452fc49cecf235fa4f08d3d9c4162f4e16f2"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      },
+      {
+        "path": "assets/theory-links.js",
+        "url": "assets/theory-links.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 18039,
+        "git_blob_sha": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+        "sha256": "90f5efc2e4d5a0880a90bb0d3e84ecbf85e42522e7e11996b39cb7cf04c583fb"
+      },
+      {
+        "path": "assets/question-theory-ui.js",
+        "url": "assets/question-theory-ui.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 7757,
+        "git_blob_sha": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+        "sha256": "77263f3dc5ec9aa19e79d87709829f82d94a273a4b132a855e7e584ff402c79b"
+      },
+      {
+        "path": "assets/exam-feedback.js",
+        "url": "assets/exam-feedback.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 23969,
+        "git_blob_sha": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+        "sha256": "20688690bd2f567da7064b9f1e10c82144b0d5c51c41873fbfb037e7fca581ef"
+      },
+      {
+        "path": "assets/futures-short-guide.js",
+        "url": "assets/futures-short-guide.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 9949,
+        "git_blob_sha": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+        "sha256": "89f99a7864c46b537c42e4835dcbdb52a871596aff1e192918c4ab94aaf77fae"
+      },
+      {
+        "path": "assets/strategies.js",
+        "url": "assets/strategies.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 34742,
+        "git_blob_sha": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+        "sha256": "ee102baf51eee0ea87d6a9b3fb3822c3459b697e300f1dc2e386706833691afb"
+      },
+      {
+        "path": "assets/option-profiles.js",
+        "url": "assets/option-profiles.js?release=d6fb5bb1d96ef612f97ce7f5bf08d6b9651ea6a5",
+        "kind": "file",
+        "bytes": 11263,
+        "git_blob_sha": "cd2b04924ac937a59a443e12e9164591b5bb1566",
+        "sha256": "3a50deb91e09d24725bf808e0eb7f62608224505bafc3f8afb426be9e59f49e3"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      }
+    ]
+  },
+  "visual_review": {
+    "status": "REVIEWED",
+    "artifact_id": 13101910941,
+    "files": [
+      "exam-multi-desktop.png",
+      "exam-multi-mobile.png"
+    ],
+    "widths": [
+      1366,
+      320
+    ],
+    "note": "Screenshots inspected after environment restoration. No new horizontal clipping or light surfaces; the existing tall nested mobile layout was retained. Automated viewport assertions also passed."
+  }
+}

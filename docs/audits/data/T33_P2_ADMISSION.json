@@ -1,7 +1,7 @@
 {
   "task": "T-33",
   "phase": "P2",
-  "status": "CURATED_ADMISSION_ACCEPTED_RELEASE_PENDING",
+  "status": "VERIFIED_6_2_3",
   "native_count": 92,
   "added_mc": 100,
   "added_open": 35,
@@ -4019,5 +4019,6 @@
       "runtime_before_sha256": "fe122fe8a43a83ec34a3cc67bd57a8b0e030aadfebfbf9ad5dffec2eac7e162f"
     }
   ],
-  "classification_note": "Редакционная классификация знаний и кейсов, не официальная спецификация; тексты и рубрики открытых ответов неизменны."
+  "classification_note": "Редакционная классификация знаний и кейсов, не официальная спецификация; тексты и рубрики открытых ответов неизменны.",
+  "release_proof": "RELEASE_6_2_3_PROOF.json"
 }
