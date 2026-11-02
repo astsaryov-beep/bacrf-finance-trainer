@@ -1,0 +1,722 @@
+{
+  "version": "6.2.3",
+  "course_blocks": 96,
+  "lessons": 48,
+  "long_exact_repeats_between_full_sections": [],
+  "source_hashes": [
+    {
+      "id": "S1",
+      "pages": 172,
+      "hash_match": true
+    },
+    {
+      "id": "S2",
+      "pages": 133,
+      "hash_match": true
+    },
+    {
+      "id": "S3",
+      "pages": 75,
+      "hash_match": true
+    },
+    {
+      "id": "L12",
+      "pages": 94,
+      "hash_match": true
+    },
+    {
+      "id": "L3",
+      "pages": 21,
+      "hash_match": true
+    },
+    {
+      "id": "L45",
+      "pages": 62,
+      "hash_match": true
+    }
+  ],
+  "arithmetic_examples": [
+    {
+      "id": "EX17-44",
+      "question": "Объясните построение IMOEX. (а) Воспроизведите основные учебные критерии включения: free-float, регулярность сделок, ликвидность, минимальный вес и уровень листинга; сравните пороги входа и сохранения по FF и LC. (б) Назовите P, Q, FF, W и Dₙ, различите три вида капитализации. (в) В условной корзине SBER весит 12,09%, SBERP —2,34%. Проверьте ограничение 15% по эмитенту на дату формирования базы. (г) Чем ценовой IMOEX отличается от MCFTR?",
+      "rubric": [
+        "Названы FF≥10%, регулярность≥99%, LC≥15%, вес≥0,25%, первый/второй котировальный список.",
+        "Различены пороги FF 10/5 и LC 15/10 и объяснён смысл двух порогов.",
+        "Правильно названы P и Q.",
+        "Правильно названы FF и W, коэффициент не изменяет действительный выпуск акций.",
+        "Правильно назван Dₙ и его роль непрерывности.",
+        "Различены P×Q, P×Q×FF и P×Q×FF×W.",
+        "Лимит применён к эмитенту, сумма 14,43% признана ниже 15%.",
+        "Ценовая серия отличена от брутто полной доходности с реинвестированием дивидендов."
+      ],
+      "options": null,
+      "requiresCalculation": false,
+      "frequency_1000": 687
+    },
+    {
+      "id": "RECON-17",
+      "question": "У владельца 26 из 100 участвующих голосующих акций; по условию конкретное решение требует 3/4 участвующих. Что он может заблокировать, что не может принять один и какие данные нужны прежде, чем переносить вывод на дивиденды или делистинг?",
+      "rubric": [
+        "При заданном знаменателе показано 74<75 и блокирование.",
+        "26 голосов не признаны достаточными для самостоятельного принятия решения.",
+        "Названы орган/тип акций/участие и знаменатель.",
+        "Вывод не распространён автоматически на все дивиденды/делистинг и специальные пороги."
+      ],
+      "options": null,
+      "requiresCalculation": false,
+      "frequency_1000": 418
+    },
+    {
+      "id": "EX17-18",
+      "question": "Для одной выборки используются одинаковый период и положительное среднее превышение над одним ориентиром. Общая волатильность 10%, downside deviation 5%. Выберите верные утверждения.",
+      "rubric": null,
+      "options": [
+        "При таком одинаковом числителе коэффициент Сортино вдвое больше Шарпа.",
+        "Downside deviation нужно считать как стандартное отклонение только отрицательных наблюдений вокруг их собственного среднего.",
+        "Шарп учитывает разброс в обе стороны, а учебный DD — отклонения ниже заданной цели.",
+        "Целевой уровень для Сортино обязательно равен нулю для любого инвестора.",
+        "Перестановка тех же доходностей в выборке изменяет DD точно так же, как максимальную просадку."
+      ],
+      "requiresCalculation": false,
+      "frequency_1000": 388
+    }
+  ],
+  "all_tests": [
+    {
+      "program": "tests/project-state-check.mjs",
+      "exit_code": 0,
+      "output": "PASS recovery standard: canonical state, roadmap, decisions, checkpoints, frozen Git SHA 2b77ae8f74be, working version 6.2.3.\n"
+    },
+    {
+      "program": "tests/repository-layout-check.mjs",
+      "exit_code": 0,
+      "output": "PASS layout:3 public root files,local documentation links:207,runtime assets:17,historical evidence preserved\n"
+    },
+    {
+      "program": "tests/exam-alignment-check.mjs",
+      "exit_code": 0,
+      "output": "PASS source alignment:95 linked exercises,50 adapted scan/35 reconstructions/10 transfer,5 plausible alternatives and independent money/quantile/hedge checks,30 prerequisite roots+5 additional parts/full+brief,no workflow labels in extensions,86 tracked requirements\nPASS list/funding package:explicit ordered levels/atomic rubrics,1-and4-correct actual grading,independent clipped-funding boundaries,existing derivation reused\nPASS compound package:independent PV/YTM counterexample,nonlinear Z-spread,dirty/collateral/index units,exact/missing/extra sets for every MC,multipart rubrics and public primary references\nPASS complete MC review:125 individually documented original statements/conditions,no official-key claim,25adapted five-option tasks,existing prerequisite reuse,independent payer flows/ratios/voting denominators,unique support anchors and REPO scope\nPASS final content package:50 adapted originals/33 reconstructed records with35 exercises/3 topic-only reuse;all86 dispositions and exact displayed prerequisites;independent parity/protection/covariance/DV01/FX boundaries\n"
+    },
+    {
+      "program": "tests/mc-review-audit-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T33 audit evidence: 249/249 reviewed (1245/1245 statements); 0 explicitly pending; 42 revision-safe edits; open UI/scoring/rubrics unchanged.\n"
+    },
+    {
+      "program": "tests/exam-profile-check.mjs",
+      "exit_code": 0,
+      "output": "PASS mock model:1000 seeded sets,25MC5/25open,exact section/source/knowledge quotas,>=3 composite tasks,1/2/3/4 correct counts,stable orders,REPO retained;unassessed/empty/stale/duplicate evidence cannot inflate strict credit;self-assessment separate from auto verification\n"
+    },
+    {
+      "program": "tests/exam-admission-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T33 P2: {\"task\":\"T-33\",\"status\":\"GENERATION_PASS\",\"seed_range\":[0,999],\"admitted_total\":227,\"multi\":143,\"open\":84,\"actually_sampled\":227,\"min_added_per_ticket\":{\"multi\":11,\"open\":2},\"all_pair_overlap_before\":{\"pairs\":499500,\"min\":18,\"mean\":30.269631631631633,\"p50\":30,\"p95\":34,\"max\":42},\"all_pair_overlap_after\":{\"pairs\":499500,\"min\":3,\"mean\":16.243057057057058,\"p50\":16,\"p95\":22,\"max\":35},\"mean_overlap_by_format\":{\"multi\":6.6351371371371375,\"open\":9.60791991991992},\"atomic_goal_count\":{\"unique_pool_before\":100,\"unique_pool_after\":186,\"mean_per_ticket_before\":70.832,\"mean_per_ticket_after\":70.861},\"audited_goal_or_hint_collisions\":{\"tickets_before\":1000,\"mean_pairs_before\":8.601,\"max_pairs_before\":14,\"tickets_after\":0,\"pairs_after\":0},\"pool_cardinality\":{\"1\":1,\"2\":18,\"3\":111,\"4\":13},\"sampled_cardinality\":{\"1\":121,\"2\":3205,\"3\":20094,\"4\":1580},\"input_assets_sha256\":{\"assets/exam-profile.js\":\"5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49\",\"assets/exam-admission.js\":\"eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121\"}}\n"
+    },
+    {
+      "program": "tests/published-release-check.mjs",
+      "exit_code": 0,
+      "output": "PASS published-release verifier: unique local files, actual version URLs, exact bytes, mismatch rejected\n"
+    },
+    {
+      "program": "tests/learning-path-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T32:95 unique assignments after all prerequisites,96 old completions preserved,separate exact/current evidence,partial/empty/stale rejection,wording histories/idempotence,affirmative calculation gate,distinct assessment targets and targeted practice\n"
+    },
+    {
+      "program": "tests/question-theory-check.mjs",
+      "exit_code": 0,
+      "output": "PASS theory links:all513 training/40 additional course IDs,553 explicit mappings,all audited supports,40 reviewed standalone mappings,valid targets/no heuristics,no active-exam hints,independent NIM reference\n"
+    },
+    {
+      "program": "tests/release-check.mjs",
+      "exit_code": 0,
+      "output": "PASS 6.2.3: 96 complete beginner-to-advanced lessons, 135 explained formulas, 48 themes, 96 blocks, 275 unchanged questions, 19 teacher questions, 135 formulas, 17 mapped sections, 70 practice prompts, 96 trap checks, 15 diagrams, 10 labs, 32 boundary cases.\n"
+    },
+    {
+      "program": "tests/content-dedup-check.mjs",
+      "exit_code": 0,
+      "output": "PASS content: 96 mapped roles, 33 edited blocks, consistent layers, preserved formulas/questions, spread example. Semantic judgment remains editorial.\n"
+    },
+    {
+      "program": "tests/methodical-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS methodical review: 96 explicit judgments and fingerprints; reviewed theory/digest layers; independent finance scenarios. Full source audit remains separate.\n"
+    },
+    {
+      "program": "tests/teacher-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS teacher review:20 source tasks/19 original IDs, preserved source conflict, aligned rubric semantics, reversible historical answers and two complete added metrics.\n"
+    },
+    {
+      "program": "tests/quality-m02-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M02: source-gap teaching and effective rubrics, independent price/horizon/compounding/day-weight identities, retained old answers.\n"
+    },
+    {
+      "program": "tests/quality-m03-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M03: independent duration/convexity/PV, basket/forward/spread, holding metrics and versions, Q07 answer/history preservation.\n"
+    },
+    {
+      "program": "tests/quality-m04-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M04: money-risk matching, cash-flow ALM/convexity, margin path/tick/sign, OI/netting, basis/hedge sign, carry/time base and reverse legs.\n"
+    },
+    {
+      "program": "tests/quality-m05-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M05: reverse-carry cash availability, funding zero/cap/sign and no VM double count, FX hedges/units, minimum variance vs VaR, coverage, calendar compounding and rubric history.\n"
+    },
+    {
+      "program": "tests/quality-m06-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M06/M04: CDS conservation, IRS signs, FX parity, four returns/two denominators, hedge units/variance/VaR, non-subadditive VaR counterexample,17 keys preserved, PO07 historical migration,31 reviewed placements and18 new conceptual MCs.\n"
+    },
+    {
+      "program": "tests/quality-m07-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M07:12 independent piecewise option profiles and tail boundaries, gold account conservation, funding/GO one-time inclusion, protection budget, Greek units,15 historical keys and PO08 migration,26+10 reviewed assignments.\n"
+    },
+    {
+      "program": "tests/quality-m08-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M08:28+13 prerequisites reviewed,24 factual/case multi,25 historical single indices and3 protected teacher keys,3 two-part rubric migrations retaining original results, no extra arithmetic scope.\n"
+    },
+    {
+      "program": "tests/quality-m09-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M09:capital/cash conservation and recognised-net LCR,NSFR and factoring prerequisites,23+13 reviewed placements,18 conceptual MC,13 single/4multi original keys,6 open histories migrated without loss.\n"
+    },
+    {
+      "program": "tests/quality-m10-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M10: ownership/cash ledgers, unequal weighted/year-end P/E, negative EV and dividend conservation, conditional dates,32+6 placements,16 conceptual MC,14 preserved single keys,EM02/Q14 protected,6 rubric histories.\n"
+    },
+    {
+      "program": "tests/quality-m11-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M11: covariance-linear beta with residual risk, zero correlation/nonlinear dependence, TE versus gap, fee counted once, index weights/voting/free-float/convex prices,22+9 placements,16 MC,17 single keys,9 history migrations.\n"
+    },
+    {
+      "program": "tests/quality-m12-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M12:independent finite dividend sums/date boundary/sensitivity,issue cash allocation,cap/free-float/divisor/dividend bases,12+7 prerequisites,14MC,9keys/8rubric histories,10 reviewed open supplements.\n"
+    },
+    {
+      "program": "tests/quality-m13-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M13:independent covariance/GMV/short-weight/normalVaR/downside-vs-drawdown/alpha examples,12+11 placements,18MC,11keys/8rubric histories,6 reviewed open IDs,real451-question initialization.\n"
+    },
+    {
+      "program": "tests/quality-m14-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M14:margin boundary/risk-parameter/cash balance,lease cashflows/time bases,DV01 size reversal,12new+9rechecked placements,14MC/6rubric histories,4marginMCexcluded,469unique effective IDs.\n"
+    },
+    {
+      "program": "tests/quality-m15-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M15:franchise equality/caps,expected-vs-tariff and reserve cashflows,reinsurance layers,10roles,12placements,14MC/6specific rubric histories,489initialized unique IDs;no insurance calculation in exam.\n"
+    },
+    {
+      "program": "tests/quality-m16-check.mjs",
+      "exit_code": 0,
+      "output": "PASS M16:invoice/advance/fee conservation,financing time base,zero-return accumulation and discount denominators,6rubric histories,18MC,96blocks with factual+case MC and309supported placements,513unique initialized IDs,34reviewedopen;25/25 without calculations.\n"
+    },
+    {
+      "program": "tests/final-course-check.mjs",
+      "exit_code": 0,
+      "output": "PASS final acceptance:96module/D015 blocks,557read+visual source rows with evidence,309verified placements/204MC,all34eligible supplementalopens,513unique effectiveIDs,228multi,135formulas/663terms/183checks,no exact interblock long paragraphs or duplicate MC prompts;beta acceptance and T06 separated. Semantic/empirical limits remain explicit.\n"
+    },
+    {
+      "program": "tests/exam-practice-check.mjs",
+      "exit_code": 0,
+      "output": "PASS exam practice:204 reviewed new MCs/228 total +34 reviewed open supplements, exact25open+25multi/no calculation/no fallback, historical singles retained, explicit earlier-theory evidence for309/309 assignments and204 additions. No pending placements.\n"
+    },
+    {
+      "program": "tests/novice-supplements-check.mjs",
+      "exit_code": 0,
+      "output": "PASS novice supplements:70 prompts/45 preserved keys,6 prerequisite moves,31 targeted revisions,7 trap histories/recheck/idempotence,all96 truth keys and10 executed models.\n"
+    },
+    {
+      "program": "tests/learning-review-check.mjs",
+      "exit_code": 0,
+      "output": "PASS learning review: 96 unique conceptual checks; corrected IPO grading; raw snapshot retained; alternate selection, distinct evidence, stale key and history migration.\n"
+    },
+    {
+      "program": "tests/strategies-check.mjs",
+      "exit_code": 0,
+      "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
+    }
+  ],
+  "holdout": {
+    "status": "TECHNICAL_PASS_WITH_SEMANTIC_FINDING",
+    "range": [
+      1000,
+      2999
+    ],
+    "seeds": 2000,
+    "used_ids": 227,
+    "arithmetic_open_tickets": 1596,
+    "frequency": {
+      "PO06": 658,
+      "MC-S2-09-1-1": 373,
+      "MC-R-02-0-2": 466,
+      "EX17-48": 710,
+      "MC-PEN-01-1-2": 443,
+      "V2-072": 651,
+      "MC-S1-05-0-2": 380,
+      "EO07": 169,
+      "S3-006O": 757,
+      "EX17-43": 1158,
+      "EX17-05": 794,
+      "MC-S1-06-1-2": 388,
+      "EO03": 540,
+      "EX17-08": 829,
+      "RECON-20": 195,
+      "EX17-50": 708,
+      "EX17-41": 523,
+      "RECON-03": 684,
+      "RECON-06": 683,
+      "Q10": 547,
+      "MC-E-11-0-1": 285,
+      "TRANSFER-WATERFALL-01": 226,
+      "MC-S2-10-0-1": 230,
+      "S3-005O": 775,
+      "EX17-23": 328,
+      "MC-E-04-0-1": 478,
+      "RECON-13": 560,
+      "MC-S1-04-1-3": 343,
+      "EX17-03": 378,
+      "EX17-28": 791,
+      "PO01": 853,
+      "EX17-10": 473,
+      "RECON-07": 461,
+      "RECON-30": 619,
+      "EX17-11": 344,
+      "RECON-02": 839,
+      "MC-E-04-0-3": 1134,
+      "TRANSFER-FUNDING-01": 213,
+      "RECON-21": 454,
+      "MC-INS-01-1-2": 467,
+      "MC-R-01-1-3": 447,
+      "EX17-31": 2000,
+      "RECON-15": 578,
+      "TRANSFER-KENNEDY-01": 500,
+      "EX17-01": 812,
+      "V2-070": 787,
+      "MC-E-06-0-2": 469,
+      "EX17-32": 1425,
+      "EX17-30": 1404,
+      "EX17-40": 855,
+      "MC-S2-01-1-2": 376,
+      "RECON-33": 229,
+      "EX17-44": 1338,
+      "EX17-36": 877,
+      "MC-E-05-1-2": 1004,
+      "RECON-08": 790,
+      "MC-S2-11-0-2": 825,
+      "MC-INS-03-0-2": 441,
+      "MC-R-02-1-1": 153,
+      "PO07": 449,
+      "EX17-12": 1117,
+      "EX17-09": 152,
+      "MC-R-04-0-1": 110,
+      "MC-INS-01-0-1": 170,
+      "RECON-31": 748,
+      "EO05": 743,
+      "RECON-16": 256,
+      "EX17-34": 625,
+      "PO02": 669,
+      "MC-E-03-1-2": 1124,
+      "EX17-37": 774,
+      "TRANSFER-ASV-01": 695,
+      "EX17-26": 795,
+      "EX17-47": 1234,
+      "MC-S2-01-0-1": 329,
+      "MC-S2-05-0-2": 63,
+      "MC-S2-08-1-1": 218,
+      "EX17-19": 338,
+      "MC-E-02-0-1": 1008,
+      "EX17-21": 387,
+      "EX17-18": 741,
+      "EX17-27": 800,
+      "MC-S2-11-1-1": 386,
+      "RECON-11": 556,
+      "RECON-14": 362,
+      "MC-S2-03-1-2": 804,
+      "EX17-29": 623,
+      "MC-R-06-0-1": 73,
+      "EX17-42": 488,
+      "MC-E-03-0-1": 250,
+      "MC-E-01-0-3": 919,
+      "MC-S2-07-0-1": 394,
+      "RECON-29": 320,
+      "MC-S1-08-1-2": 313,
+      "MC-PEN-01-0-1": 144,
+      "RECON-01": 507,
+      "MC-E-10-1-1": 464,
+      "MC-S1-07-0-1": 675,
+      "EO06": 670,
+      "Q09": 565,
+      "MC-S2-08-0-1": 214,
+      "MC-R-05-1-2": 439,
+      "MC-S2-05-1-2": 312,
+      "MC-R-03-0-1": 156,
+      "EX17-39": 776,
+      "MC-S1-07-1-1": 284,
+      "MC-S2-07-1-1": 338,
+      "S3-009O": 615,
+      "BO01": 295,
+      "RECON-19": 667,
+      "RECON-05": 306,
+      "MC-S2-09-0-2": 608,
+      "MC-R-06-1-1": 178,
+      "PO04": 652,
+      "RECON-18": 687,
+      "RO01": 399,
+      "EX17-45": 785,
+      "EX17-49": 646,
+      "MC-S1-05-1-1": 514,
+      "EX17-35": 319,
+      "MC-INS-02-1-1": 172,
+      "RECON-27": 463,
+      "EX17-16": 207,
+      "RECON-04": 415,
+      "MC-S2-06-0-1": 230,
+      "EX17-33": 791,
+      "MC-S1-09-1-1": 466,
+      "EX17-07": 202,
+      "EX17-02": 284,
+      "MC-S1-05-0-1": 509,
+      "MC-R-04-0-2": 387,
+      "MC-INS-02-0-1": 163,
+      "MC-S2-05-1-1": 653,
+      "MC-INS-03-0-1": 169,
+      "RECON-09": 124,
+      "MC-S2-10-1-2": 606,
+      "MC-S2-09-1-2": 791,
+      "RECON-25": 138,
+      "MC-S2-09-0-1": 355,
+      "MC-S2-04-0-1": 280,
+      "RECON-17": 755,
+      "EX17-46": 322,
+      "MC-E-12-0-2": 1152,
+      "RECON-24": 395,
+      "TRANSFER-BONDS-01": 97,
+      "MC-S2-11-0-1": 317,
+      "TRANSFER-DOW-01": 609,
+      "Q13": 558,
+      "MC-R-05-0-1": 157,
+      "RECON-08-PROTECT": 105,
+      "MC-S2-07-0-2": 634,
+      "RECON-34": 250,
+      "EO08": 478,
+      "MC-S1-09-0-2": 397,
+      "MC-S2-04-1-2": 642,
+      "MC-R-01-1-2": 155,
+      "RECON-26": 325,
+      "MC-S2-02-1-1": 373,
+      "MC-S2-06-1-1": 74,
+      "MC-PEN-02-1-2": 469,
+      "MC-S1-04-0-1": 640,
+      "MC-E-11-1-1": 106,
+      "MC-S2-03-0-1": 383,
+      "EX17-15": 797,
+      "MC-E-05-0-1": 268,
+      "MC-E-12-0-1": 453,
+      "MC-E-07-1-1": 52,
+      "MC-S1-09-0-1": 157,
+      "MC-E-01-0-1": 444,
+      "MC-E-01-1-1": 58,
+      "MC-E-09-0-1": 52,
+      "EX17-24": 147,
+      "V2-034": 278,
+      "MC-E-08-0-1": 241,
+      "Q06": 14,
+      "MC-S2-06-0-2": 612,
+      "MC-S1-04-1-1": 228,
+      "MC-E-12-1-1": 93,
+      "RO03": 384,
+      "MC-E-04-1-1": 413,
+      "MC-R-06-1-2": 467,
+      "MC-E-06-1-1": 47,
+      "Q15": 196,
+      "MC-S1-06-0-1": 222,
+      "Q11": 453,
+      "BO02": 285,
+      "MC-E-08-1-1": 291,
+      "Q14": 129,
+      "RECON-13-MC": 268,
+      "Q16": 239,
+      "MC-R-01-0-2": 157,
+      "EO04": 186,
+      "RO07": 387,
+      "MC-R-05-1-1": 147,
+      "MC-S2-02-0-1": 214,
+      "MC-R-01-0-1": 197,
+      "MC-S1-10-0-1": 182,
+      "RECON-12": 81,
+      "EX17-14": 362,
+      "RECON-10": 227,
+      "MC-PEN-02-0-1": 177,
+      "Q12": 429,
+      "MC-S2-10-1-1": 139,
+      "EX17-38": 353,
+      "EX17-13": 389,
+      "Q05": 271,
+      "TRANSFER-GUARANTEE-01": 284,
+      "MC-S1-08-0-1": 91,
+      "RO02": 361,
+      "RECON-22": 325,
+      "MC-INS-01-1-1": 168,
+      "EX17-22": 142,
+      "EX17-25": 95,
+      "EX17-17": 154,
+      "EX17-06": 144,
+      "MC-R-03-1-1": 91,
+      "EX17-04": 207,
+      "BO05": 288,
+      "MC-E-10-0-1": 193,
+      "MC-E-09-1-1": 18,
+      "MC-S1-10-1-1": 155,
+      "EX17-20": 179,
+      "Q07": 182,
+      "MC-INS-03-1-1": 155,
+      "MC-E-02-1-1": 121,
+      "RECON-35": 91,
+      "TRANSFER-IPO-01": 107
+    }
+  },
+  "publication": {
+    "status": "VERIFIED",
+    "commit": "f74f1e3c3cac67347252fe03506ef512f4455992",
+    "version": "6.2.3",
+    "checked_at": "2026-11-02T09:26:30.311Z",
+    "attempt": 1,
+    "public_files": 20,
+    "actual_cache_urls": 7,
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "index.html?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 5454621,
+        "git_blob_sha": "24a4533a57a0cceacbeb87e17a0a87e691947fd1",
+        "sha256": "782c53fc2d45b74d4193c24afd38d6df114d3e10bd1e50a1a0c769cbf55a8b18"
+      },
+      {
+        "path": "versions/index.html",
+        "url": "versions/index.html?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 3372,
+        "git_blob_sha": "837acc5f5bb55bfa07e1dff341dd19e883688409",
+        "sha256": "10108a4695ba11bf0410a4388d99f0eeea4697a6de8c71a48d31f4bc57c7c84a"
+      },
+      {
+        "path": "v5.0.8/index.html",
+        "url": "v5.0.8/index.html?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 2897908,
+        "git_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+        "sha256": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+      },
+      {
+        "path": "assets/course-sidebar.css",
+        "url": "assets/course-sidebar.css?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 3498,
+        "git_blob_sha": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+        "sha256": "261137ce1b5491dcc5b1b7bedfa1147a4062f916f848c30d28d1bb3d4ebcc0c8"
+      },
+      {
+        "path": "assets/strategies.css",
+        "url": "assets/strategies.css?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 6684,
+        "git_blob_sha": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+        "sha256": "66ab3d84a9170cba97c2a8795f53a4125c83e9020eaf92ae2c27cb3f983bdfe5"
+      },
+      {
+        "path": "assets/exam-feedback.css",
+        "url": "assets/exam-feedback.css?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 5679,
+        "git_blob_sha": "7dec3a63971fe914d88547664969cdb77495eea8",
+        "sha256": "456dde3789b5b2dd310a6152fd419c9eea2aa2009177087e0624548d6db7baa7"
+      },
+      {
+        "path": "assets/futures-short-guide.css",
+        "url": "assets/futures-short-guide.css?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 4201,
+        "git_blob_sha": "dcf745c2a43eec706222a86622a02bf75716cb07",
+        "sha256": "a39ddfdfd9e960f8e41f26f1d8fa452fc49cecf235fa4f08d3d9c4162f4e16f2"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      },
+      {
+        "path": "assets/theory-links.js",
+        "url": "assets/theory-links.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 18039,
+        "git_blob_sha": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+        "sha256": "90f5efc2e4d5a0880a90bb0d3e84ecbf85e42522e7e11996b39cb7cf04c583fb"
+      },
+      {
+        "path": "assets/question-theory-ui.js",
+        "url": "assets/question-theory-ui.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 7757,
+        "git_blob_sha": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+        "sha256": "77263f3dc5ec9aa19e79d87709829f82d94a273a4b132a855e7e584ff402c79b"
+      },
+      {
+        "path": "assets/exam-feedback.js",
+        "url": "assets/exam-feedback.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 23969,
+        "git_blob_sha": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+        "sha256": "20688690bd2f567da7064b9f1e10c82144b0d5c51c41873fbfb037e7fca581ef"
+      },
+      {
+        "path": "assets/futures-short-guide.js",
+        "url": "assets/futures-short-guide.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 9949,
+        "git_blob_sha": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+        "sha256": "89f99a7864c46b537c42e4835dcbdb52a871596aff1e192918c4ab94aaf77fae"
+      },
+      {
+        "path": "assets/strategies.js",
+        "url": "assets/strategies.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 34742,
+        "git_blob_sha": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+        "sha256": "ee102baf51eee0ea87d6a9b3fb3822c3459b697e300f1dc2e386706833691afb"
+      },
+      {
+        "path": "assets/option-profiles.js",
+        "url": "assets/option-profiles.js?release=f74f1e3c3cac67347252fe03506ef512f4455992",
+        "kind": "file",
+        "bytes": 11263,
+        "git_blob_sha": "cd2b04924ac937a59a443e12e9164591b5bb1566",
+        "sha256": "3a50deb91e09d24725bf808e0eb7f62608224505bafc3f8afb426be9e59f49e3"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?v=6.2.3",
+        "kind": "actual_cache_url",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      }
+    ]
+  },
+  "task": "T-34",
+  "status": "AUDIT_WITH_FINDINGS_BROWSER_PENDING",
+  "application_commit": "f74f1e3c3cac67347252fe03506ef512f4455992",
+  "browser": "PENDING_FRESH_RUN",
+  "new_independent_review_of_all_557_pages": false
+}
