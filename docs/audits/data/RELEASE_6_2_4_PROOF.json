@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "task": "T-35/F03/F04",
+  "version": "6.2.4",
+  "status": "VERIFIED",
+  "application_commit": "9c57c166578071feef4e3277308f4a016c15ceff",
+  "application_tree": "fa936cdff5b964318db3fb87b3bcd06800383b4f",
+  "pr": {
+    "number": 101,
+    "head": "36b3cd49a7e824ac92b5ee82ead1737bbf8dba59",
+    "ci": 41451315716,
+    "status": "SUCCESS"
+  },
+  "main_ci": {
+    "run": 41452492559,
+    "status": "SUCCESS"
+  },
+  "pages": {
+    "run": 41452492046,
+    "status": "SUCCESS"
+  },
+  "ci_node_programs": 34,
+  "browser_programs": 13,
+  "main_browser": [
+    {
+      "job": "browser (core)",
+      "id": 125301401475,
+      "pass": [
+        "2026-11-02T13:24:24.1739037Z PASS aligned learning:mobile draft/MC/confidence detours,reload/keyboard return,partial self-assessment,4-correct grading,retry history,skip does not certify,old progress,real export/import,targeted skills and independent strict mock",
+        "2026-11-02T13:24:35.1393901Z PASS question theory UI:608 linked questions,pre-answer links/multiple targets,completed theory retained,choices/text/confidence and reload/return,NIM anchor,exact completed-result return,real active-exam guard,320px",
+        "2026-11-02T13:24:53.2017514Z PASS release6 UI:7 tabs at1440/320,96 lessons in all3 views/5 strategy graphs,pale surfaces/overflow,live practice counter,draft+confidence across tab/reload,version chooser;no page errors",
+        "2026-11-02T13:24:56.7701093Z PASS navigation: draft/choice skip+return+reload, ungraded open navigation, last skip overview, scroll, completed theory retention, real50 exam/no keys,320px",
+        "2026-11-02T13:25:24.6236138Z PASS browser: 17 comparative sections and mobile 320px; desktop sidebar {\"client\":371,\"scroll\":3318,\"height\":370.765625,\"overflow\":\"auto\"}, 28 cases, retention, recall intervals, option lab, dark cards, study search, coverage, mobile modal.",
+        "2026-11-02T13:26:39.6064563Z PASS learning browser: 96 canonical mechanisms/examples/digests and disclosed answers, IPO catalogue/grading, legacy session and course migration, alternate question, cross-mode failure history, real export/import.",
+        "2026-11-02T13:26:49.5545104Z PASS teacher browser: balance and extra checks, new metric formula drills, corrected Q13 solutions, course/session rubric migration and actual export/import retain history.",
+        "2026-11-02T13:26:52.4264179Z PASS M03 browser: six lesson formula displays, effective Q07 prep, fresh recheck and actual export/import preserving both histories, mobile width.",
+        "2026-11-02T13:26:59.9921761Z PASS M04 browser: six complete teaching blocks, closed checks/formulas, preserved futures basics/exam notes/Q09-Q10 solutions and 320px width."
+      ]
+    },
+    {
+      "job": "browser (course)",
+      "id": 125301401811,
+      "pass": [
+        "2026-11-02T13:28:52.1942672Z PASS M01–M16 browser:96 complete blocks,204 multi checks,12 option profiles,62 course and60 valid main-bank session histories retained through actual export/import, desktop and320px.",
+        "2026-11-02T13:30:04.2839023Z PASS exam MC browser:strict partial/exact sets,5 explained variants, independent study progress retained by actual export/import,50=25open+25multi/no calculations, seed/revisions/orders and strict26=self1+auto25 retained through actual export/import/reload,old single session reload,320px; T33 all42 revisions in both supplemental/native course surfaces:history/recheck/new answer/reload."
+      ]
+    },
+    {
+      "job": "browser (route)",
+      "id": 125301401746,
+      "pass": [
+        "2026-11-02T13:27:47.0967948Z PASS fresh native route:96 completed blocks/309 primary/204 additionalMC/95 aligned checks,7 reload-resumes,actual export/import of608 course answers,then25open+25multi exam and reload. This is mechanical fixture coverage, not editorial novice acceptance.",
+        "2026-11-02T13:30:29.5889341Z PASS supplemental UI:96 traps/70 independent prompts/34 comparisons/15 diagrams/10 changed models; historical import/recheck, reload, real export/import and320px. Fixture coverage, not student performance."
+      ]
+    }
+  ],
+  "published_bytes": {
+    "status": "VERIFIED",
+    "commit": "9c57c166578071feef4e3277308f4a016c15ceff",
+    "version": "6.2.4",
+    "checked_at": "2026-11-02T13:23:48.981Z",
+    "attempt": 3,
+    "public_files": 21,
+    "actual_cache_urls": 8,
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "index.html?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 5454924,
+        "git_blob_sha": "bea52a0c685289937e58b6612481a0d8a26c955c",
+        "sha256": "f412bd46c984e679526d0fbf986ef16fc808008ef54c17b7ede29785dd4338e6"
+      },
+      {
+        "path": "versions/index.html",
+        "url": "versions/index.html?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 3372,
+        "git_blob_sha": "b503d2aed893e7700c3ef5fd3ced7e427acc33b2",
+        "sha256": "8bee9405b960efa659c4c86c0e13fe0706390d098f7387aaff83d33d0b86c8f0"
+      },
+      {
+        "path": "v5.0.8/index.html",
+        "url": "v5.0.8/index.html?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 2897908,
+        "git_blob_sha": "2b77ae8f74be9433af3c458c3be55314d2cc9519",
+        "sha256": "a72c04e76dc1bfbf948b0d1eeb62d5d9a8f54f8645f2e1bd6c05eb85f1d9572d"
+      },
+      {
+        "path": "assets/course-sidebar.css",
+        "url": "assets/course-sidebar.css?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 3498,
+        "git_blob_sha": "4222a0586e7fde2cf9e5b85587977119920cdff1",
+        "sha256": "261137ce1b5491dcc5b1b7bedfa1147a4062f916f848c30d28d1bb3d4ebcc0c8"
+      },
+      {
+        "path": "assets/strategies.css",
+        "url": "assets/strategies.css?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 6684,
+        "git_blob_sha": "3027c4ac8d35f507405ca2ff06d85fdf3752b3dd",
+        "sha256": "66ab3d84a9170cba97c2a8795f53a4125c83e9020eaf92ae2c27cb3f983bdfe5"
+      },
+      {
+        "path": "assets/exam-feedback.css",
+        "url": "assets/exam-feedback.css?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 5679,
+        "git_blob_sha": "7dec3a63971fe914d88547664969cdb77495eea8",
+        "sha256": "456dde3789b5b2dd310a6152fd419c9eea2aa2009177087e0624548d6db7baa7"
+      },
+      {
+        "path": "assets/futures-short-guide.css",
+        "url": "assets/futures-short-guide.css?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 4201,
+        "git_blob_sha": "dcf745c2a43eec706222a86622a02bf75716cb07",
+        "sha256": "a39ddfdfd9e960f8e41f26f1d8fa452fc49cecf235fa4f08d3d9c4162f4e16f2"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/question-labels.js",
+        "url": "assets/question-labels.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 9475,
+        "git_blob_sha": "c813b14f19dcabf12b54d4553dfe412fc7117e35",
+        "sha256": "ecf4b737df6f22c5ed836d2591553bb04201a533a3edf07587ddef2ac5be7216"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      },
+      {
+        "path": "assets/theory-links.js",
+        "url": "assets/theory-links.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 18039,
+        "git_blob_sha": "41cc50a40d0bbd56b3b55421391d95d8da3b8043",
+        "sha256": "90f5efc2e4d5a0880a90bb0d3e84ecbf85e42522e7e11996b39cb7cf04c583fb"
+      },
+      {
+        "path": "assets/question-theory-ui.js",
+        "url": "assets/question-theory-ui.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 7757,
+        "git_blob_sha": "1cbc7121965afecafb2be972b9cafa325fe7096f",
+        "sha256": "77263f3dc5ec9aa19e79d87709829f82d94a273a4b132a855e7e584ff402c79b"
+      },
+      {
+        "path": "assets/exam-feedback.js",
+        "url": "assets/exam-feedback.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 23969,
+        "git_blob_sha": "f070992894ce009d67ed2c20bd699d8b40478ab5",
+        "sha256": "20688690bd2f567da7064b9f1e10c82144b0d5c51c41873fbfb037e7fca581ef"
+      },
+      {
+        "path": "assets/futures-short-guide.js",
+        "url": "assets/futures-short-guide.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 9949,
+        "git_blob_sha": "0678948a4b0aad08a4e16b52f3031626b91ea4c4",
+        "sha256": "89f99a7864c46b537c42e4835dcbdb52a871596aff1e192918c4ab94aaf77fae"
+      },
+      {
+        "path": "assets/strategies.js",
+        "url": "assets/strategies.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 34742,
+        "git_blob_sha": "c810de183a5db8ba2cf238c57cb15636f956b6b9",
+        "sha256": "ee102baf51eee0ea87d6a9b3fb3822c3459b697e300f1dc2e386706833691afb"
+      },
+      {
+        "path": "assets/option-profiles.js",
+        "url": "assets/option-profiles.js?release=9c57c166578071feef4e3277308f4a016c15ceff",
+        "kind": "file",
+        "bytes": 11263,
+        "git_blob_sha": "cd2b04924ac937a59a443e12e9164591b5bb1566",
+        "sha256": "3a50deb91e09d24725bf808e0eb7f62608224505bafc3f8afb426be9e59f49e3"
+      },
+      {
+        "path": "assets/theme.css",
+        "url": "assets/theme.css?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 6654,
+        "git_blob_sha": "f43fbe3a6751dd02d5b001559711d8db5c4f4766",
+        "sha256": "0ff1175a0742cba9d319fb6a55f97df05d5872409acb93fe9322441ba6ac4e51"
+      },
+      {
+        "path": "assets/question-review.js",
+        "url": "assets/question-review.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 429824,
+        "git_blob_sha": "3e51024d1a1599217c8c80e80377942f7c810cee",
+        "sha256": "d6857db9ca1f3bbcfa9587e2035c057f06feb4e3c2e51f1702ee36b8b95d76a9"
+      },
+      {
+        "path": "assets/exam-practice.js",
+        "url": "assets/exam-practice.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 2473692,
+        "git_blob_sha": "194dd817807c73f3b533935b48a14310356d6d94",
+        "sha256": "01c0143d033460ec4b94a2c44e970cda7a088cd20b57e0cf5aeca492d8205444"
+      },
+      {
+        "path": "assets/exam-alignment.js",
+        "url": "assets/exam-alignment.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 436487,
+        "git_blob_sha": "b78acf41d6f3f7ecab7a83459138fd4dd2900817",
+        "sha256": "5e8c358d4eeb09d57013cfbf2dceaae12b5639d0191ce4936aa893786066e378"
+      },
+      {
+        "path": "assets/question-labels.js",
+        "url": "assets/question-labels.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 9475,
+        "git_blob_sha": "c813b14f19dcabf12b54d4553dfe412fc7117e35",
+        "sha256": "ecf4b737df6f22c5ed836d2591553bb04201a533a3edf07587ddef2ac5be7216"
+      },
+      {
+        "path": "assets/exam-profile.js",
+        "url": "assets/exam-profile.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 8012,
+        "git_blob_sha": "56c2571a40c2c72671bcf4a913cb6eb5f9a7fd95",
+        "sha256": "5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49"
+      },
+      {
+        "path": "assets/exam-admission.js",
+        "url": "assets/exam-admission.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 52866,
+        "git_blob_sha": "3fed478c432421675c189bab8a64a90e7f1e287a",
+        "sha256": "eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121"
+      },
+      {
+        "path": "assets/learning-path.js",
+        "url": "assets/learning-path.js?v=6.2.4",
+        "kind": "actual_cache_url",
+        "bytes": 9720,
+        "git_blob_sha": "5fd077b343daa53b8c1adc8b069b7008e93e0010",
+        "sha256": "aa8c415c23104166a7fa49cfceafac9ed0341cd22f1956d5bece61f064489607"
+      }
+    ]
+  },
+  "independent_git_tree_comparison": {
+    "files_and_urls": 29,
+    "status": "MATCH",
+    "tree": "fa936cdff5b964318db3fb87b3bcd06800383b4f"
+  },
+  "title_review": {
+    "reviewed": 95,
+    "corrected_or_specified": 47,
+    "kept": 48,
+    "record": "T35_PRESENTATION_REVIEW.json"
+  },
+  "manual_live": {
+    "url": "https://astsaryov-beep.github.io/bacrf-finance-trainer/",
+    "version": "6.2.4",
+    "checked": [
+      "Overview shows92course versus227mock scope",
+      "Catalogue search shows RECON-31 titled Валютный форвард: котировка и процентные ставки",
+      "Course details О курсе и прогрессе expands and explains227-task bank"
+    ],
+    "method": "Visible browser interaction and accessibility observation"
+  },
+  "manual_visual": {
+    "artifact": 13144427578,
+    "head": "8cad4711b77586b5fb75e497b447d46d2dfefbd4",
+    "files": [
+      "release6-overview-1440.png",
+      "release6-overview-320.png",
+      "topics-960x720.png"
+    ],
+    "application_index_blob": "bea52a0c685289937e58b6612481a0d8a26c955c",
+    "note": "These candidate screenshots have the same application bytes as the accepted release; later edits only scoped test locators and documented them."
+  },
+  "preserved": [
+    "questions/options/keys/rubrics/revisions",
+    "original275/19",
+    "96blocks/135formulas/frozen5.0.8",
+    "progress/import/export/reload/42earlier migrations",
+    "1000seed exact generation report"
+  ],
+  "limitations": [
+    "F01 mandatory arithmetic EX17-44/RECON-17 remains open; legacy no-calculation PASS text is based on metadata and does not resolve it.",
+    "No new full academic review of557PDFpages or student experiment.",
+    "T-06 not started."
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_PASS_RELEASE_PENDING",
+  "status": "VERIFIED_F03_F04",
   "local_programs": [
     {
       "program": "tests/project-state-check.mjs",
@@ -32,7 +32,12 @@
       "output": "PASS T33 P2: {\"task\":\"T-33\",\"status\":\"GENERATION_PASS\",\"seed_range\":[0,999],\"admitted_total\":227,\"multi\":143,\"open\":84,\"actually_sampled\":227,\"min_added_per_ticket\":{\"multi\":11,\"open\":2},\"all_pair_overlap_before\":{\"pairs\":499500,\"min\":18,\"mean\":30.269631631631633,\"p50\":30,\"p95\":34,\"max\":42},\"all_pair_overlap_after\":{\"pairs\":499500,\"min\":3,\"mean\":16.243057057057058,\"p50\":16,\"p95\":22,\"max\":35},\"mean_overlap_by_format\":{\"multi\":6.6351371371371375,\"open\":9.60791991991992},\"atomic_goal_count\":{\"unique_pool_before\":100,\"unique_pool_after\":186,\"mean_per_ticket_before\":70.832,\"mean_per_ticket_after\":70.861},\"audited_goal_or_hint_collisions\":{\"tickets_before\":1000,\"mean_pairs_before\":8.601,\"max_pairs_before\":14,\"tickets_after\":0,\"pairs_after\":0},\"pool_cardinality\":{\"1\":1,\"2\":18,\"3\":111,\"4\":13},\"sampled_cardinality\":{\"1\":121,\"2\":3205,\"3\":20094,\"4\":1580},\"input_assets_sha256\":{\"assets/exam-profile.js\":\"5192db8fa8c3d8748d947572500be87dcc0ff1868e8ce383a8374961638caa49\",\"assets/exam-admission.js\":\"eaa43b9bc4f591bdcc85fda239a6c96a1da80151c9a356b92d9328eb77941121\"}}\n"
     },
     {
-      "program": "tests/published-release-check.mjs",
+      "program": "tests/question-labels-check.mjs",
+      "exit_code": 0,
+      "output": "PASS question labels:95 reviewed/47 corrected or specified; only topic/inherited conceptLabel differ; raw content/revisions/corrections preserved; idempotent; overview/course scope notes use actual pool size\n"
+    },
+    {
+      "program": "tests/published-release-check.mjs --self-test",
       "exit_code": 0,
       "output": "PASS published-release verifier: unique local files, actual version URLs, exact bytes, mismatch rejected\n"
     },
@@ -165,13 +170,38 @@
       "program": "tests/strategies-check.mjs",
       "exit_code": 0,
       "output": "PASS T-09: five strategy cases, five accessible SVG charts, navigation and mobile CSS, 12 independent financial identities, risks and correct answers.\n"
-    },
-    {
-      "program": "tests/question-labels-check.mjs",
-      "exit_code": 0,
-      "output": "PASS question labels:95 reviewed/41 corrected or specified; only topic/inherited conceptLabel differ; raw content/revisions/corrections preserved; idempotent; overview/course scope notes use actual pool size\n"
     }
   ],
-  "browser": "PENDING",
-  "publication": "PENDING"
+  "pr": {
+    "number": 101,
+    "head": "36b3cd49a7e824ac92b5ee82ead1737bbf8dba59",
+    "ci": 41451315716,
+    "status": "SUCCESS"
+  },
+  "browser_programs": 13,
+  "main_ci": {
+    "run": 41452492559,
+    "status": "SUCCESS"
+  },
+  "pages": {
+    "run": 41452492046,
+    "status": "SUCCESS"
+  },
+  "publication": "21 public files and 8 actual cache URLs matched main Git blobs",
+  "proof": "RELEASE_6_2_4_PROOF.json",
+  "failed_candidates": [
+    {
+      "run": 41448215854,
+      "finding": "Real course menu height regression and an ambiguous note locator; fixed by existing collapsed details and scoped assertion."
+    },
+    {
+      "run": 41449420278,
+      "finding": "The existing course paragraph locator matched two paragraphs; kept one original paragraph and placed note in a span. Also retained-panel summary locator still ambiguous."
+    },
+    {
+      "run": 41449821445,
+      "finding": "New summary locator matched retained panels twice; scoped to active sidebar without changing assertion."
+    }
+  ],
+  "F01": "OPEN_OUTSIDE_SELECTED_CHANGE"
 }
